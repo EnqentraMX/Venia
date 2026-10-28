@@ -163,6 +163,22 @@ section{padding:96px 0;border-top:1px solid var(--line)}
 .cierre .ctas{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 .cierre small{display:block;margin-top:18px;color:var(--dim);font-size:13px}
 
+.paquetes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;align-items:stretch}
+.paq{position:relative;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:32px;display:flex;flex-direction:column}
+.paq.dest{border-color:var(--brass);box-shadow:0 0 0 1px var(--brass) inset}
+.paq h3{font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.15}
+.paq-sub{color:var(--brass);font-size:14px;margin-top:6px}
+.paq-precio{font-family:var(--serif);font-size:clamp(40px,5vw,54px);font-weight:300;color:var(--brass2);line-height:1;margin:22px 0 16px}
+.paq p{color:var(--muted);font-size:15px}
+.paq ul{list-style:none;display:grid;gap:10px;margin:20px 0 26px}
+.paq li{display:flex;gap:10px;font-size:15px;align-items:flex-start}
+.paq li svg{width:18px;height:18px;flex:none;color:var(--brass);margin-top:2px}
+.paq .btn{margin-top:auto;align-self:flex-start}
+.vence{position:absolute;top:-12px;left:28px;background:var(--brass);color:#16110a;font-size:12px;font-weight:700;padding:4px 12px;border-radius:999px}
+.compromisos{list-style:none;display:grid;gap:10px;margin-top:24px}
+.compromisos li{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:15px}
+.compromisos svg{width:18px;height:18px;color:var(--brass);flex:none}
+
 /* Pie */
 footer{border-top:1px solid var(--line);padding:40px 0 110px}
 footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}

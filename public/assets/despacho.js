@@ -4,6 +4,12 @@ const D = window.DATOS || {};
 const $ = s => document.querySelector(s);
 const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const PRE = !!D.vistaPrevia;
+/* Colores propios del despacho (opcional): D.tema = { fondo, fondo2, tarjeta, linea, acento, acento2 } */
+if (D.tema) {
+  const m = { fondo:"--bg", fondo2:"--bg2", tarjeta:"--card", linea:"--line", acento:"--brass", acento2:"--brass2" };
+  Object.entries(D.tema).forEach(([k,v]) => m[k] && document.documentElement.style.setProperty(m[k], v));
+  if (D.tema.fondo) document.querySelector('meta[name="theme-color"]').setAttribute("content", D.tema.fondo);
+}
 const pend = () => PRE ? '<span class="pend">por confirmar</span>' : "";
 const ico = n => `<svg><use href="#i-${n}"/></svg>`;
 
@@ -25,9 +31,10 @@ const msgGeneral = `Hola, vi su página y me gustaría una asesoría con ${D.abo
 document.querySelectorAll('[data-wa="general"]').forEach(a=>{a.href = waLink(msgGeneral); a.target="_blank"; a.rel="noopener";});
 
 /* ---------- Credenciales (portada) ---------- */
+const credCed = D.cedula ? `<div>${ico("doc")}Cédula prof. ${esc(D.cedula)}</div>` : (PRE ? `<div>${ico("doc")}Cédula profesional${pend()}</div>` : `<div>${ico("pin")}${esc(D.modalidad || "Atención presencial y en línea")}</div>`);
 $("#cred").innerHTML = `
   <div>${ico("check")}${esc(D.abogado)}</div>
-  <div>${ico("doc")}${D.cedula ? "Cédula prof. "+esc(D.cedula) : "Cédula profesional"+pend()}</div>
+  ${credCed}
   <div>${ico("lock")}Atención confidencial</div>`;
 
 /* ---------- Áreas ---------- */
@@ -132,13 +139,38 @@ function mensaje(){
 pintar();
 
 /* ---------- Perfil ---------- */
-const ini = D.despacho.split(/\s+/).map(w=>w[0]).join("").slice(0,2);
+const ini = D.iniciales || D.despacho.split(/\s+/).map(w=>w[0]).join("").slice(0,2);
 $("#retrato").innerHTML = D.foto ? `<img src="${esc(D.foto)}" alt="${esc(D.abogado)}">` : `<div class="mono">${esc(ini)}</div>${PRE?'<div class="ph">Aquí va la foto del licenciado</div>':""}`;
 $("#frase").textContent = `“${D.frase}”`;
 $("#nombreAbogado").textContent = D.abogado;
 $("#rolAbogado").textContent = `${D.titulo} · ${D.descripcion}`;
-$("#verif").innerHTML = `${ico("check")}<div><b>${D.cedula?"Cédula profesional "+esc(D.cedula):"Cédula profesional"}</b>${D.cedula?"":pend()}
+if (!D.cedula && !PRE) $("#verif").remove(); else $("#verif").innerHTML = `${ico("check")}<div><b>${D.cedula?"Cédula profesional "+esc(D.cedula):"Cédula profesional"}</b>${D.cedula?"":pend()}
   <small>Puedes verificarla en el <a href="https://www.cedulaprofesional.sep.gob.mx/" target="_blank" rel="noopener">Registro Nacional de Profesionistas (SEP)</a>.</small></div>`;
+
+/* ---------- Paquetes con precio (opcional) ----------
+   Cada paquete: { nombre, precio, subtitulo, texto, incluye:[], destacado, hasta:"AAAA-MM-DD" }
+   "hasta" oculta el paquete automáticamente después de esa fecha (promociones). */
+const hoyMx = new Intl.DateTimeFormat("en-CA",{timeZone:D.zona||"America/Mexico_City"}).format(new Date());
+const paqs = (D.paquetes||[]).filter(p => !p.hasta || hoyMx <= p.hasta);
+if (paqs.length) {
+  $("#paquetes").hidden = false;
+  const fechaCorta = f => new Intl.DateTimeFormat("es-MX",{day:"numeric",month:"long",timeZone:"UTC"}).format(new Date(f+"T12:00:00Z"));
+  $("#listaPaquetes").innerHTML = paqs.map(p => `
+    <div class="paq reveal ${p.destacado?"dest":""}">
+      ${p.hasta?`<span class="vence">Promoción hasta el ${esc(fechaCorta(p.hasta))}</span>`:""}
+      <h3>${esc(p.nombre)}</h3>
+      ${p.subtitulo?`<div class="paq-sub">${esc(p.subtitulo)}</div>`:""}
+      <div class="paq-precio">${esc(p.precio)}</div>
+      ${p.texto?`<p>${esc(p.texto)}</p>`:""}
+      ${(p.incluye||[]).length?`<ul>${p.incluye.map(i=>`<li>${ico("check")}<span>${esc(i)}</span></li>`).join("")}</ul>`:""}
+      <a class="btn ${p.destacado?"btn-main":"btn-ghost"}" target="_blank" rel="noopener" href="${waLink(`Hola, vi su página y me interesa el paquete "${p.nombre}" (${p.precio}).`)}">Preguntar por este paquete</a>
+    </div>`).join("");
+}
+/* ---------- Compromisos (opcional) ---------- */
+if ((D.compromisos||[]).length) {
+  const c=$("#compromisos"); c.hidden=false;
+  c.innerHTML = D.compromisos.map(t=>`<li>${ico("check")}<span>${esc(t)}</span></li>`).join("");
+}
 
 /* ---------- Pasos ---------- */
 $("#listaPasos").innerHTML = (D.pasos||[]).map(p=>`<div class="paso reveal"><h3>${esc(p.titulo)}</h3><p>${esc(p.texto)}</p></div>`).join("");
@@ -229,6 +261,21 @@ $("#aviso").onclick=e=>{if(e.target.id==="aviso")$("#aviso").classList.remove("o
   defs.innerHTML=`<radialGradient id="luz" cx="200" cy="200" r="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e2c48f"/><stop offset=".55" stop-color="#c8a46a" stop-opacity=".55"/><stop offset="1" stop-color="#c8a46a" stop-opacity=".08"/></radialGradient>`;
   svg.appendChild(defs);
   const g=document.createElementNS(NS,"g"); svg.appendChild(g);
+  if (D.simbolo === "balanza") {
+    // Balanza grabada en líneas finas, dentro de dos anillos
+    const trazos = [
+      "M200 30a170 170 0 1 1-.1 0z", "M200 44a156 156 0 1 1-.1 0z",
+      "M200 96V302", "M193 150V300", "M207 150V300",
+      "M150 318H250", "M164 302H236", "M178 150H222",
+      "M92 138Q200 116 308 138",
+      "M104 138L72 222", "M104 138L136 222", "M296 138L264 222", "M296 138L328 222",
+      "M62 222H146Q104 262 62 222z", "M254 222H338Q296 262 254 222z",
+      "M200 76a10 10 0 1 1-.1 0z", "M182 96Q200 86 218 96"
+    ];
+    trazos.forEach(d=>{ const p=document.createElementNS(NS,"path"); p.setAttribute("d",d); p.setAttribute("fill","none");
+      p.setAttribute("stroke","url(#luz)"); p.setAttribute("stroke-width","2"); p.setAttribute("stroke-linecap","round"); p.setAttribute("stroke-linejoin","round"); g.appendChild(p); });
+    const hint=document.querySelector("#huella .hint"); if(hint) hint.textContent="Mueve el cursor sobre la balanza";
+  } else
   // Crestas tipo huella: elipses abiertas con un ligero giro
   for(let i=0;i<22;i++){
     const rx=14+i*7.6, ry=18+i*8.6, a0=-0.9+Math.sin(i*1.7)*0.35, gap=0.5+((i*37)%10)/22;
