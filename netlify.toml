@@ -1,0 +1,8 @@
+# Netlify publica la carpeta public/ cada vez que hay un cambio en GitHub.
+[build]
+  publish = "public"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
