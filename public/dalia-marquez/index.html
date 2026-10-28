@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#09080a">
+<title>Despacho jurídico</title>
+<meta name="description" content="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/liclink.css">
+</head>
+<body>
+
+<div id="preview" class="preview" hidden>Vista previa · Los datos marcados como <span class="pend">por confirmar</span> se completan con el despacho.</div>
+
+<header class="top">
+  <div class="wrap">
+    <a href="#inicio" class="logo"><b id="logoNombre"></b><span id="logoSufijo"></span></a>
+    <div class="top-right">
+      <div class="status" id="statusTop" hidden><i class="dot" id="dotTop"></i><span><span id="statusTxt"></span><span class="txt-l" id="statusSub"></span></span></div>
+      <a class="btn btn-main" data-wa="general"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg><span class="txt">Escribir por WhatsApp</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero">
+    <div class="wrap">
+      <div class="reveal">
+        <h1 id="heroTitulo"></h1>
+        <p id="heroTexto"></p>
+        <div class="ctas">
+          <a href="#caso" class="btn btn-main">Cuéntanos tu caso</a>
+          <a href="#areas" class="btn btn-ghost">Ver áreas de práctica</a>
+        </div>
+        <div class="cred" id="cred"></div>
+      </div>
+      <div class="huella" id="huella" aria-hidden="true">
+        <svg viewBox="0 0 400 400" id="huellaSvg"></svg>
+        <div class="hint">Mueve el cursor sobre la huella</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="areas">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <div><div class="eyebrow">Áreas de práctica</div><h2>En qué podemos <em>ayudarte</em></h2></div>
+        <p>Toca cada área para ver cómo te acompañamos.</p>
+      </div>
+      <div class="areas" id="listaAreas"></div>
+    </div>
+  </section>
+
+  <section id="paquetes" hidden>
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <div><div class="eyebrow">Paquetes</div><h2>Precios <em>claros</em></h2></div>
+        <p>Sabes cuánto cuesta antes de empezar. Escríbenos y te explicamos cada paquete.</p>
+      </div>
+      <div class="paquetes" id="listaPaquetes"></div>
+    </div>
+  </section>
+
+  <section id="caso">
+    <div class="wrap asis">
+      <div class="asis-intro reveal">
+        <div class="eyebrow">Primer contacto</div>
+        <h2>Cuéntanos tu caso <em>en un minuto</em></h2>
+        <p>Responde unas preguntas y te abrimos WhatsApp con tu caso ya resumido. Así te respondemos más rápido y con información útil desde el primer mensaje.</p>
+        <ul>
+          <li><b>01</b> Sin registros ni formularios largos.</li>
+          <li><b>02</b> Tu información es confidencial.</li>
+          <li><b>03</b> Si es urgente, te damos la línea directa.</li>
+        </ul>
+      </div>
+      <div class="box reveal" id="asistente"></div>
+    </div>
+  </section>
+
+  <section id="perfil">
+    <div class="wrap perfil">
+      <div class="retrato reveal" id="retrato"></div>
+      <div class="reveal">
+        <div class="eyebrow">Quién lleva tu caso</div>
+        <blockquote id="frase"></blockquote>
+        <div class="nm" id="nombreAbogado"></div>
+        <div class="rl" id="rolAbogado"></div>
+        <div class="verif" id="verif"></div>
+        <ul class="compromisos" id="compromisos" hidden></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="pasos">
+    <div class="wrap">
+      <div class="sec-head reveal"><div><div class="eyebrow">Proceso</div><h2>Así <em>empezamos</em></h2></div></div>
+      <div class="pasos" id="listaPasos"></div>
+    </div>
+  </section>
+
+  <section id="ubicacion">
+    <div class="wrap">
+      <div class="sec-head reveal"><div><div class="eyebrow">Horario y ubicación</div><h2>Cuándo y dónde <em>atendemos</em></h2></div></div>
+      <div class="dos">
+        <div class="panel reveal" id="panelHorario"></div>
+        <div class="panel reveal" id="panelOficinas"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="preguntas">
+    <div class="wrap">
+      <div class="sec-head reveal"><div><div class="eyebrow">Preguntas frecuentes</div><h2>Lo que más <em>nos preguntan</em></h2></div></div>
+      <div class="faq" id="listaFaq"></div>
+    </div>
+  </section>
+
+  <section class="cierre">
+    <div class="wrap reveal">
+      <h2>Es mejor tener nuestro número y no necesitarlo… <em>que necesitarlo y no tenerlo.</em></h2>
+      <a class="tel" id="telGrande"></a>
+      <div class="ctas">
+        <a class="btn btn-main" data-wa="general"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Escribir por WhatsApp</a>
+        <button class="btn btn-ghost" id="guardar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><use href="#i-user"/></svg>Guardar contacto</button>
+      </div>
+      <small>Guarda el número en tu teléfono para tenerlo a la mano.</small>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a href="#inicio" class="logo"><b class="js-nombre"></b><span class="js-sufijo"></span></a>
+      <div class="legal" style="margin-top:14px"><span id="pieDesc"></span><button id="abrirAviso">Aviso de privacidad</button></div>
+    </div>
+    <div class="redes" id="redes"></div>
+    <div class="marca">Página hecha con <b>LicLink</b></div>
+  </div>
+</footer>
+
+<a class="flota" data-wa="general" aria-label="Escribir por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg></a>
+
+<div class="modal" id="aviso" role="dialog" aria-modal="true">
+  <div>
+    <h3>Aviso de privacidad simplificado</h3>
+    <p id="avisoTxt"></p>
+    <p>Los datos que compartas a través de esta página (nombre, ciudad y descripción de tu asunto) se usan únicamente para darte atención y seguimiento a tu consulta. No se comparten con terceros, salvo por obligación legal.</p>
+    <p>Puedes pedir el acceso, corrección o eliminación de tus datos escribiendo al mismo número de WhatsApp.</p>
+    <button class="btn btn-ghost" id="cerrarAviso" style="margin-top:8px">Cerrar</button>
+  </div>
+</div>
+
+<!-- Íconos -->
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4c-1-1.6-1.5-3.4-1.5-5.2C2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zm8.3-18.1C18.1 1.5 15.1.2 12 .2 5.5.2.2 5.5.2 12c0 2.1.5 4.1 1.6 5.9L.1 23.8l6.1-1.6c1.7.9 3.7 1.4 5.7 1.4 6.5 0 11.8-5.3 11.8-11.8 0-3.1-1.2-6.1-3.4-8.3z"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></symbol>
+  <symbol id="i-escudo" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.8-7 9-4-1.2-7-4.5-7-9V6l7-3z" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-balanza" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 3v18M7 21h10M5 7h14"/><path d="M5 7l-3 6a3 3 0 006 0L5 7zM19 7l-3 6a3 3 0 006 0l-3-6z"/></g></symbol>
+  <symbol id="i-familia" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="7" cy="6" r="2.5"/><circle cx="17" cy="6" r="2.5"/><circle cx="12" cy="12" r="2"/><path d="M3 20v-4a4 4 0 018 0M13 20v-4a4 4 0 018 0M9.5 20v-1.5a2.5 2.5 0 015 0V20"/></g></symbol>
+  <symbol id="i-maletin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 011-1h4a1 1 0 011 1v2M3 12h18M11 12v2h2v-2"/></g></symbol>
+  <symbol id="i-edificio" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-5 9 5M5 9v9M9.5 9v9M14.5 9v9M19 9v9M3 20h18"/></g></symbol>
+  <symbol id="i-acuerdo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v6"/><path d="M6 3v18h7"/><path d="M9 9h6M9 13h4M15 19l2 2 4-4"/></g></symbol>
+  <symbol id="i-lupa" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></g></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3h8l4 4v14H6z"/><path d="M9 12h6M9 16h6"/></g></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.8-7 9-4-1.2-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></g></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></g></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0114 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9H16l.6-4h-3.1V8.9c0-.6.3-.9.5-.9z"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></g></symbol>
+  <symbol id="i-tiktok" viewBox="0 0 24 24"><path fill="currentColor" d="M16.6 3c.4 2.2 1.8 3.7 4 3.9v3.3c-1.5 0-2.8-.4-4-1.2v6.3c0 3.5-2.6 5.7-5.6 5.7-3.2 0-5.6-2.5-5.6-5.5 0-3.4 2.9-5.9 6.5-5.4v3.4c-1.6-.4-3.1.6-3.1 2.1 0 1.2 1 2.1 2.2 2.1 1.4 0 2.3-.9 2.3-2.6V3h3.3z"/></symbol>
+  <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M22 8.2c-.2-1.5-1-2.5-2.5-2.7C17.2 5.2 12 5.2 12 5.2s-5.2 0-7.5.3C3 5.7 2.2 6.7 2 8.2 1.8 9.6 1.8 12 1.8 12s0 2.4.2 3.8c.2 1.5 1 2.5 2.5 2.7 2.3.3 7.5.3 7.5.3s5.2 0 7.5-.3c1.5-.2 2.3-1.2 2.5-2.7.2-1.4.2-3.8.2-3.8s0-2.4-.2-3.8zM10 15.2V8.8l5.4 3.2-5.4 3.2z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 3.5a2 2 0 110 4 2 2 0 010-4zM3 9h3v12H3zM9 9h2.9v1.7c.5-.9 1.7-2 3.6-2 3.4 0 4.5 2.1 4.5 5.4V21h-3v-6c0-1.6-.3-3-2.1-3-1.9 0-2.9 1.2-2.9 3.1V21H9z"/></symbol>
+</svg>
+
+<script src="datos.js"></script>
+<script src="/assets/despacho.js"></script>
+</body>
+</html>

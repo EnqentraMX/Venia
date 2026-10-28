@@ -275,6 +275,24 @@ $("#aviso").onclick=e=>{if(e.target.id==="aviso")$("#aviso").classList.remove("o
     trazos.forEach(d=>{ const p=document.createElementNS(NS,"path"); p.setAttribute("d",d); p.setAttribute("fill","none");
       p.setAttribute("stroke","url(#luz)"); p.setAttribute("stroke-width","2"); p.setAttribute("stroke-linecap","round"); p.setAttribute("stroke-linejoin","round"); g.appendChild(p); });
     const hint=document.querySelector("#huella .hint"); if(hint) hint.textContent="Mueve el cursor sobre la balanza";
+  } else if (D.simbolo === "dalia") {
+    // Dalia: anillos de pétalos en punta, dibujados en líneas finas
+    const anillos=[[8,26,70,0],[12,52,112,.26],[16,84,150,0],[20,118,182,.16]];
+    anillos.forEach(([n,r0,r1,off])=>{
+      for(let k=0;k<n;k++){
+        const a=(k+off)/n*Math.PI*2-Math.PI/2, w=Math.PI/n*.82;
+        const P=(r,t)=>`${(200+Math.cos(t)*r).toFixed(1)} ${(200+Math.sin(t)*r).toFixed(1)}`;
+        const m=(r0+r1)/2;
+        const d=`M${P(r0,a)} Q${P(m,a-w)} ${P(r1,a)} Q${P(m,a+w)} ${P(r0,a)}`;
+        const p=document.createElementNS(NS,"path"); p.setAttribute("d",d); p.setAttribute("fill","none");
+        p.setAttribute("stroke","url(#luz)"); p.setAttribute("stroke-width","1.5"); p.setAttribute("stroke-linejoin","round"); g.appendChild(p);
+        const v=document.createElementNS(NS,"path"); v.setAttribute("d",`M${P(r0+6,a)} L${P(r1-10,a)}`); v.setAttribute("fill","none");
+        v.setAttribute("stroke","url(#luz)"); v.setAttribute("stroke-width",".7"); v.setAttribute("opacity",".6"); g.appendChild(v);
+      }
+    });
+    [8,15,22].forEach(r=>{const c=document.createElementNS(NS,"circle"); c.setAttribute("cx",200); c.setAttribute("cy",200); c.setAttribute("r",r);
+      c.setAttribute("fill","none"); c.setAttribute("stroke","url(#luz)"); c.setAttribute("stroke-width","1.4"); g.appendChild(c);});
+    const hint=document.querySelector("#huella .hint"); if(hint) hint.textContent="Mueve el cursor sobre la dalia";
   } else
   // Crestas tipo huella: elipses abiertas con un ligero giro
   for(let i=0;i<22;i++){
