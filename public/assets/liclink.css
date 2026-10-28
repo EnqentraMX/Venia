@@ -1,4 +1,4 @@
-/* Venia · estilos compartidos por todas las páginas de despacho */
+/* LicLink · estilos compartidos por todas las páginas de despacho */
 :root{
   --bg:#09080a; --bg2:#111013; --card:#16141a; --line:#2a2630;
   --text:#ece6dc; --muted:#a39b90; --dim:#6f6860;
@@ -172,8 +172,8 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
 .redes svg{width:18px;height:18px}
 .legal{font-size:13px;color:var(--dim);display:flex;gap:18px;flex-wrap:wrap}
 .legal button{text-decoration:underline}
-.venia{font-size:12px;color:var(--dim)}
-.venia b{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--muted);font-size:14px}
+.marca{font-size:12px;color:var(--dim)}
+.marca b{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--muted);font-size:14px}
 
 /* Botón flotante */
 .flota{position:fixed;right:18px;bottom:18px;z-index:50;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.45);transition:transform .2s}

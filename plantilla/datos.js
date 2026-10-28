@@ -1,5 +1,5 @@
 /* ================================================================
-   VENIA · Datos del despacho
+   LICLINK · Datos del despacho
    ----------------------------------------------------------------
    Este es el ÚNICO archivo que se cambia para cada abogado.
    Solo edita lo que está entre comillas "..." y guarda.

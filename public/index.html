@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Venia · Tu despacho, en un enlace</title>
-<meta name="description" content="Venia crea la página de tu despacho: filtra consultas, prueba que eres abogado de verdad y te manda cada caso resumido por WhatsApp.">
+<title>LicLink · Tu despacho, en un enlace</title>
+<meta name="description" content="LicLink crea la página de tu despacho: filtra consultas, prueba que eres abogado de verdad y te manda cada caso resumido por WhatsApp.">
 <meta name="theme-color" content="#09080a">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/venia.css">
+<link rel="stylesheet" href="/assets/liclink.css">
 <style>
-  /* Número de WhatsApp de Venia: cámbialo en la línea VENIA_WA del script de abajo */
+  /* Número de WhatsApp de LicLink: cámbialo en la línea LICLINK_WA del script de abajo */
   .v-top .wrap{display:flex;justify-content:space-between;align-items:center;height:72px}
   .v-logo{font-family:var(--serif);font-style:italic;font-size:30px;font-weight:400;color:var(--text)}
-  .v-logo i{color:var(--brass);font-style:normal}
+  .v-logo i{color:var(--brass)}
   .v-hero{padding:90px 0 80px;border-top:0}
   .v-hero h1{font-family:var(--serif);font-weight:300;font-size:clamp(48px,8vw,96px);line-height:.98;letter-spacing:-.03em;max-width:900px}
   .v-hero h1 em{color:var(--brass2)}
@@ -32,7 +32,7 @@
 </head>
 <body>
 <header class="top v-top"><div class="wrap">
-  <a href="/" class="v-logo">venia<i>.</i></a>
+  <a href="/" class="v-logo">Lic<i>Link</i></a>
   <a class="btn btn-main js-wa" hidden>Quiero mi página</a>
 </div></header>
 
@@ -63,14 +63,14 @@
   </div></section>
 </main>
 
-<footer><div class="wrap"><span class="v-logo" style="font-size:22px">venia<i>.</i></span><span class="venia">© 2026 Venia</span></div></footer>
+<footer><div class="wrap"><span class="v-logo" style="font-size:22px">Lic<i>Link</i></span><span class="marca">© 2026 LicLink</span></div></footer>
 
 <script>
   // Pon aquí tu WhatsApp (52 + 10 dígitos) para que aparezcan los botones de contacto.
-  var VENIA_WA = "";
-  if (VENIA_WA) document.querySelectorAll(".js-wa").forEach(function(a){
+  var LICLINK_WA = "";
+  if (LICLINK_WA) document.querySelectorAll(".js-wa").forEach(function(a){
     a.hidden = false; a.target = "_blank"; a.rel = "noopener";
-    a.href = "https://wa.me/" + VENIA_WA + "?text=" + encodeURIComponent("Hola, me interesa una página de Venia para mi despacho.");
+    a.href = "https://wa.me/" + LICLINK_WA + "?text=" + encodeURIComponent("Hola, me interesa una página de LicLink para mi despacho.");
   });
 </script>
 </body>
