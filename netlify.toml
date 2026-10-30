@@ -6,3 +6,9 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+
+# Propuesta privada de Castillo & Abogados: que Google no la indexe
+[[headers]]
+  for = "/castillo-abogados/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Panel · Castillo &amp; Abogados</title>
+<link rel="icon" href="../assets/icono.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--grafito:#1f2226;--oro:#d6a62b;--papel:#f3f2ee;--blanco:#fff;--tinta:#25282c;--gris:#5d636b;--linea:#dcd9d2;--verde:#2f8f5b;--rojo:#b5432f}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+body{font-family:"Public Sans",system-ui,sans-serif;background:var(--papel);color:var(--tinta);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+button,input,textarea,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--oro);outline-offset:2px}
+h1,h2{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.1}
+.demo{background:#fbecc2;color:#3d2e05;text-align:center;font-size:14px;padding:9px 16px;font-weight:600}
+.barra{background:var(--grafito);color:#fff}
+.barra .in{max-width:880px;margin:0 auto;padding:0 18px;height:64px;display:flex;align-items:center;gap:14px}
+.barra h1{font-size:24px}
+.barra span{color:rgba(255,255,255,.55);font-size:14px}
+.barra a,.barra button{margin-left:auto;color:#fff;font-size:14px;text-decoration:underline;background:none;border:0;cursor:pointer}
+.barra button{margin-left:14px}
+main{max-width:880px;margin:0 auto;padding:28px 18px 140px}
+.entrar{max-width:400px;margin:12vh auto 0;background:var(--blanco);border:1px solid var(--linea);border-radius:12px;padding:34px}
+.entrar h1{font-size:34px;margin-bottom:6px}
+.entrar p{color:var(--gris);font-size:15px;margin-bottom:22px}
+.tarjeta{background:var(--blanco);border:1px solid var(--linea);border-radius:12px;padding:26px;margin-bottom:18px}
+.tarjeta h2{font-size:28px;margin-bottom:4px}
+.tarjeta>p{color:var(--gris);font-size:15px;margin-bottom:18px}
+.campo{display:grid;gap:6px;margin-bottom:14px}
+.campo label{font-size:14px;font-weight:600}
+.campo small{color:var(--gris);font-size:13px;font-weight:400}
+.campo input,.campo textarea{width:100%;border:1px solid var(--linea);border-radius:8px;padding:11px 13px;background:#fff;font-size:16px}
+.campo textarea{min-height:76px;resize:vertical}
+.campo input:focus,.campo textarea:focus{outline:none;border-color:var(--oro)}
+.dos{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.tres{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.interruptor{display:flex;align-items:center;gap:12px;margin-bottom:18px;font-weight:600;cursor:pointer}
+.interruptor input{appearance:none;width:48px;height:28px;border-radius:999px;background:#c9c6bf;position:relative;cursor:pointer;transition:background .2s;flex:none}
+.interruptor input:before{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:transform .2s;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.interruptor input:checked{background:var(--verde)}
+.interruptor input:checked:before{transform:translateX(20px)}
+.dia{display:grid;grid-template-columns:130px auto 1fr 1fr;gap:12px;align-items:center;padding:8px 0;border-bottom:1px solid var(--linea)}
+.dia label{font-weight:600}
+.dia input[type=time]{border:1px solid var(--linea);border-radius:8px;padding:8px 10px;width:100%}
+.dia input[type=time]:disabled{opacity:.35}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:8px;border:0;font-weight:600;cursor:pointer;text-decoration:none}
+.btn-oro{background:var(--oro);color:#1d1606}
+.btn-borde{background:#fff;border:1.5px solid var(--linea)}
+.btn-borde:hover{border-color:var(--tinta)}
+.btn:disabled{opacity:.5;cursor:default}
+.ancho{width:100%}
+.vista{border:1.5px dashed var(--oro);border-radius:10px;padding:16px 18px;background:#fffaf0;margin-top:6px;font-size:15px}
+.vista b{display:block;font-family:"Cormorant Garamond",serif;font-size:24px}
+.vista em{font-style:normal;font-size:13px;color:var(--gris)}
+.guardar{position:fixed;left:0;right:0;bottom:0;background:rgba(31,34,38,.97);color:#fff;z-index:20}
+.guardar .in{max-width:880px;margin:0 auto;padding:14px 18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.guardar span{font-size:14px;color:rgba(255,255,255,.75);flex:1}
+.msj{border-radius:8px;padding:12px 14px;font-size:15px;margin-bottom:16px}
+.msj.error{background:#fbe5e0;color:#7c2312}
+.msj.bien{background:#e3f3e9;color:#1d5c3a}
+.toast{position:fixed;left:50%;top:18px;transform:translateX(-50%);background:var(--tinta);color:#fff;padding:12px 18px;border-radius:8px;font-size:15px;z-index:30;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.acciones{display:flex;gap:10px;flex-wrap:wrap}
+@media (max-width:640px){
+  .dos,.tres{grid-template-columns:1fr}
+  .dia{grid-template-columns:1fr auto;gap:8px}
+  .dia input[type=time]{grid-column:span 1}
+  .tarjeta{padding:20px}
+  .barra span{display:none}
+  .barra h1{font-size:21px;white-space:nowrap}
+}
+</style>
+</head>
+<body>
+<div class="demo" id="demo" hidden>Modo demostración: los cambios solo se ven en este navegador. En el dominio del despacho se guardan para todos los visitantes.</div>
+
+<!-- Entrar -->
+<section class="entrar" id="pantallaEntrar" hidden>
+  <h1>Panel del sitio</h1>
+  <p>Castillo &amp; Abogados. Escriba su contraseña para editar promociones, avisos, precios, teléfonos y horario.</p>
+  <div class="msj error" id="errorEntrar" hidden></div>
+  <form id="formEntrar">
+    <div class="campo"><label for="contrasena">Contraseña</label><input id="contrasena" type="password" autocomplete="current-password" required></div>
+    <button class="btn btn-oro ancho" type="submit">Entrar</button>
+  </form>
+  <p id="pistaDemo" hidden style="margin:16px 0 0">En la demostración, la contraseña es <b>demo</b>.</p>
+</section>
+
+<!-- Panel -->
+<div id="pantallaPanel" hidden>
+  <div class="barra"><div class="in"><h1>Panel del sitio</h1><span id="actualizado"></span><a href="../" target="_blank" rel="noopener">Ver sitio</a><button type="button" id="salir">Salir</button></div></div>
+  <main>
+    <div class="msj error" id="avisoCambiar" hidden>Por seguridad, cambie la contraseña temporal en la sección “Seguridad”, al final de esta página.</div>
+
+    <section class="tarjeta">
+      <h2>Promoción</h2>
+      <p>Aparece destacada en la página de inicio y en la de asesoría. Se oculta sola después de la fecha de fin.</p>
+      <label class="interruptor"><input type="checkbox" id="pActiva">Mostrar la promoción</label>
+      <div class="dos">
+        <div class="campo"><label for="pEtiqueta">Etiqueta <small>(ej. “Solo este mes”)</small></label><input id="pEtiqueta" maxlength="30"></div>
+        <div class="campo"><label for="pBoton">Texto del botón</label><input id="pBoton" maxlength="40"></div>
+      </div>
+      <div class="campo"><label for="pTitulo">Título</label><input id="pTitulo" maxlength="90" placeholder="Ej. Asesoría en línea a $800 durante noviembre"></div>
+      <div class="campo"><label for="pTexto">Descripción <small>(opcional)</small></label><textarea id="pTexto" maxlength="280"></textarea></div>
+      <div class="campo"><label for="pMensaje">Mensaje que llega por WhatsApp <small>(opcional)</small></label><input id="pMensaje" maxlength="300" placeholder="Hola, me interesa la promoción…"></div>
+      <div class="dos">
+        <div class="campo"><label for="pDesde">Empieza <small>(opcional)</small></label><input id="pDesde" type="date"></div>
+        <div class="campo"><label for="pHasta">Termina <small>(opcional, muestra cuenta regresiva)</small></label><input id="pHasta" type="date"></div>
+      </div>
+      <div class="vista" id="vistaPromo"></div>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Aviso en la parte superior</h2>
+      <p>Una franja dorada arriba de todas las páginas. Útil para vacaciones, días inhábiles o cambios de horario.</p>
+      <label class="interruptor"><input type="checkbox" id="aActivo">Mostrar el aviso</label>
+      <div class="campo"><label for="aTexto">Texto del aviso</label><input id="aTexto" maxlength="160" placeholder="Ej. Del 20 de diciembre al 3 de enero atendemos solo en línea."></div>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Precios de asesoría</h2>
+      <p>En pesos mexicanos. Se actualizan en todo el sitio y en el asistente de WhatsApp.</p>
+      <div class="tres">
+        <div class="campo"><label for="prPresencial">Presencial</label><input id="prPresencial" inputmode="numeric" maxlength="9"></div>
+        <div class="campo"><label for="prNacional">En línea nacional</label><input id="prNacional" inputmode="numeric" maxlength="9"></div>
+        <div class="campo"><label for="prInternacional">En línea internacional</label><input id="prInternacional" inputmode="numeric" maxlength="9"></div>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Contacto</h2>
+      <p>Teléfonos a 10 dígitos. El WhatsApp es el número que recibe los mensajes del sitio.</p>
+      <div class="dos">
+        <div class="campo"><label for="cWhatsapp">WhatsApp</label><input id="cWhatsapp" inputmode="tel" maxlength="16"></div>
+        <div class="campo"><label for="cCelular">Celular</label><input id="cCelular" inputmode="tel" maxlength="16"></div>
+        <div class="campo"><label for="cOficina">Oficina</label><input id="cOficina" inputmode="tel" maxlength="16"></div>
+        <div class="campo"><label for="cCorreo">Correo</label><input id="cCorreo" type="email" maxlength="120"></div>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Horario de atención</h2>
+      <p>Con el horario publicado, el sitio muestra “Abierto” o “Cerrado” y los clientes pueden elegir día y hora para su cita. Si no marca ningún día, esas funciones se ocultan.</p>
+      <div id="dias"></div>
+      <div class="campo" style="margin-top:16px"><label for="nota">Nota del horario <small>(opcional)</small></label><input id="nota" maxlength="140" placeholder="Ej. Asuntos urgentes: llame al celular."></div>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Seguridad</h2>
+      <p>Cada vez que guarda, se crea un respaldo. Si se equivocó, puede regresar al estado anterior.</p>
+      <div class="acciones" style="margin-bottom:26px"><button type="button" class="btn btn-borde" id="deshacer">Deshacer el último cambio guardado</button></div>
+      <h2 style="font-size:22px;margin-bottom:12px">Cambiar contraseña</h2>
+      <div class="msj" id="msjClave" hidden></div>
+      <div class="dos">
+        <div class="campo"><label for="claveActual">Contraseña actual</label><input id="claveActual" type="password" autocomplete="current-password"></div>
+        <div class="campo"><label for="claveNueva">Nueva contraseña <small>(mínimo 10 caracteres)</small></label><input id="claveNueva" type="password" autocomplete="new-password" minlength="10"></div>
+      </div>
+      <button type="button" class="btn btn-borde" id="cambiarClave">Cambiar contraseña</button>
+    </section>
+  </main>
+  <div class="guardar"><div class="in"><span id="estadoGuardar">Sin cambios por guardar.</span><button type="button" class="btn btn-borde" id="descartar" disabled>Descartar</button><button type="button" class="btn btn-oro" id="guardar" disabled>Guardar cambios</button></div></div>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+<script src="panel.js"></script>
+</body>
+</html>

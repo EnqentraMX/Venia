@@ -1,0 +1,9 @@
+{
+  "contacto": { "whatsapp": "528111571262", "celular": "81 1157 1262", "oficina": "81 4264 4556", "correo": "her_cas@yahoo.com" },
+  "precios": { "presencial": 1000, "nacional": 1000, "internacional": 1500 },
+  "promocion": { "activa": false, "etiqueta": "Promoción", "titulo": "", "texto": "", "boton": "Quiero aprovecharla", "mensaje": "", "desde": "", "hasta": "" },
+  "aviso": { "activo": false, "texto": "" },
+  "horario": { "lunes": null, "martes": null, "miercoles": null, "jueves": null, "viernes": null, "sabado": null, "domingo": null },
+  "notaHorario": "",
+  "actualizado": ""
+}
