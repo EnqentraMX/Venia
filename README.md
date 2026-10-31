@@ -7,7 +7,7 @@ Páginas para abogados y despachos, publicadas en Netlify desde este repositorio
 2. Abre `datos.js` y cambia los textos entre comillas. Si un dato queda vacío (`""`), esa parte se oculta sola.
 3. Si hay foto, súbela a la misma carpeta y escribe su nombre en `foto`.
 4. Cuando todo esté confirmado, pon `vistaPrevia: false` y `muestra: false`.
-5. Guarda en GitHub. Netlify publica solo en uno o dos minutos: `tusitio.netlify.app/bufete-ramirez/`.
+5. Guarda en GitHub. Cloudflare Pages publica solo en uno o dos minutos: `liclink.pages.dev/bufete-ramirez/`.
 
 ## Qué hay en cada carpeta
 - `public/index.html`: la página de LicLink (para vender).
