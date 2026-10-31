@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "slug": "nhg-abogados",
+    "nombre": "Dr. Nimrod Huerta",
+    "despacho": "NHG",
+    "sufijo": "Abogados",
+    "titulo": "Director · Abogado",
+    "iniciales": "NH",
+    "foto": "foto.jpg",
+    "tema": "marino-oro",
+    "simbolo": "balanza",
+    "ciudad": "Tijuana, B.C.",
+    "telefono": "6642515656",
+    "facebook": "https://www.facebook.com/NHGabogados",
+    "direccion": "Blvd. Gustavo Díaz Ordaz 12649, Int. 7E, Plaza Patria, Frac. El Paraíso, 22430 Tijuana, B.C.",
+    "referencia": "Plaza Patria, local 7E.",
+    "descripcion": "Corporativo de abogados en Tijuana, Baja California",
+    "modalidad": "Atención personalizada",
+    "portada": [
+      "Defensa de",
+      "tus derechos",
+      "en Tijuana."
+    ],
+    "texto_portada": "Corporativo de abogados con experiencia en juicios civiles, familiares, penales y procesos de defensa estratégica. Atención personalizada y absoluta confidencialidad.",
+    "frase": "Nuestra meta es proporcionar el mejor servicio en defensa de sus derechos.",
+    "compromisos": [
+      "Atención personalizada",
+      "Absoluta confidencialidad",
+      "Defensa estratégica",
+      "Capacitación constante de nuestro equipo"
+    ],
+    "areas": [
+      "Civil",
+      "Familiar",
+      "Penal",
+      "Mercantil",
+      "Laboral",
+      "Fiscal",
+      "Administrativo"
+    ],
+    "fuente": "Facebook, 2026-10-31",
+    "estado": "propuesta",
+    "alta": "2026-10-31"
+  }
+]
