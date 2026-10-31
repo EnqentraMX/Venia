@@ -407,5 +407,111 @@
         "urgente": false
       }
     ]
+  },
+  {
+    "slug": "alcantara-asociados",
+    "nombre": "Consorcio Jurídico Alcántara & Asociados",
+    "despacho": "Alcántara & Asociados",
+    "sufijo": "Consorcio jurídico",
+    "titulo": "Abogados",
+    "iniciales": "A&A",
+    "tema": "grafito-cobre",
+    "simbolo": "balanza",
+    "ciudad": "Nezahualcóyotl, Edo. Méx.",
+    "telefono": "5518461180",
+    "whatsapp": "5518461180",
+    "otros_telefonos": [
+      "Oficina: 55 5732 0475",
+      "Celular: 55 1913 0389"
+    ],
+    "correo": "consorciojuridicoalcantarayasociados@hotmail.com",
+    "facebook": "https://www.facebook.com/alcantaraasociados.consorciojuridico/",
+    "direccion": "Tlalpan 61, 1ra Sección, Col. General José Vicente Villada, 57710 Nezahualcóyotl, Edo. Méx.",
+    "descripcion": "Civil, familiar, mercantil, laboral, penal y amparo en Nezahualcóyotl",
+    "modalidad": "Asuntos urgentes las 24 horas",
+    "portada": [
+      "Asuntos urgentes",
+      "las 24 horas.",
+      "Asesoría gratuita con cita."
+    ],
+    "texto_portada": "Abogados en Nezahualcóyotl para asuntos civiles, familiares, mercantiles, laborales y penales. Amparos en todas las materias, detenidos, investigaciones y cobranza.",
+    "frase": "Asesoría gratuita, previa cita. Asuntos urgentes las 24 horas.",
+    "nota_horario": "Asuntos urgentes las 24 horas.",
+    "compromisos": [
+      "Asesoría gratuita (previa cita)",
+      "Asuntos urgentes las 24 horas",
+      "Amparos en todas las materias",
+      "Oficina: 55 5732 0475"
+    ],
+    "precio_consulta": "Sin costo (previa cita)",
+    "paquetes": [
+      {
+        "nombre": "30% de descuento",
+        "subtitulo": "Asuntos civiles y familiares iniciales",
+        "precio": "30% menos",
+        "destacado": true,
+        "hasta": "2026-11-30",
+        "texto": "Durante noviembre de 2026, en asuntos civiles y familiares iniciales.",
+        "incluye": [
+          "Asuntos civiles iniciales",
+          "Asuntos familiares iniciales",
+          "Asesoría gratuita previa cita"
+        ]
+      }
+    ],
+    "areas": [
+      "Civil",
+      "Familiar",
+      "Mercantil",
+      "Laboral",
+      {
+        "nombre": "Penal y detenidos",
+        "icono": "escudo",
+        "texto": "Atención a detenidos e investigaciones, también en urgencias las 24 horas.",
+        "puntos": [
+          "Detenidos",
+          "Investigaciones",
+          "Asuntos urgentes las 24 horas"
+        ]
+      },
+      {
+        "nombre": "Amparo",
+        "icono": "escudo",
+        "texto": "Amparos en todas las materias.",
+        "puntos": [
+          "Amparos en todas las materias"
+        ]
+      },
+      {
+        "nombre": "Cobranza",
+        "icono": "acuerdo",
+        "texto": "Recuperamos lo que te deben, por la vía extrajudicial o judicial.",
+        "puntos": [
+          "Cobranza extrajudicial",
+          "Cobranza judicial"
+        ]
+      }
+    ],
+    "situaciones": [
+      {
+        "texto": "Hay una persona detenida en este momento",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero aprovechar el 30% en un asunto civil o familiar",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo una deuda por cobrar",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero agendar mi asesoría gratuita",
+        "urgente": false
+      }
+    ],
+    "fuente": "Facebook, 2026-10-31",
+    "estado": "propuesta",
+    "alta": "2026-10-31"
   }
 ]
