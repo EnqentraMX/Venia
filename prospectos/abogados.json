@@ -41,5 +41,108 @@
     "fuente": "Facebook, 2026-10-31",
     "estado": "propuesta",
     "alta": "2026-10-31"
+  },
+  {
+    "slug": "cji-inmobiliario",
+    "nombre": "CJI Corporativo Jurídico Inmobiliario",
+    "despacho": "CJI",
+    "sufijo": "Jurídico inmobiliario",
+    "titulo": "Corporativo Jurídico Inmobiliario",
+    "iniciales": "CJI",
+    "tema": "marino-oro",
+    "simbolo": "balanza",
+    "ciudad": "Yucatán",
+    "telefono": "9901488694",
+    "correo": "cuentas.conrado@gmail.com",
+    "descripcion": "Investigación, due diligence, escrituración y seguridad jurídica en Yucatán",
+    "modalidad": "Servicio en Yucatán",
+    "portada": [
+      "Investigamos",
+      "el inmueble",
+      "antes de que inviertas."
+    ],
+    "texto_portada": "¿Te ofrecieron un terreno? ¿Tienes una negociación complicada con una desarrolladora? No lo hagas solo: revisamos la legalidad, tramitamos tu escrituración, elaboramos tu avalúo y te representamos en la negociación.",
+    "frase": "¿Te ofrecieron un terreno? No lo hagas solo.",
+    "compromisos": [
+      "Investigación",
+      "Due diligence",
+      "Escrituración",
+      "Seguridad jurídica"
+    ],
+    "areas": [
+      {
+        "nombre": "Investigación de predios",
+        "icono": "lupa",
+        "texto": "Antes de comprar, revisamos la legalidad del predio o terreno que te ofrecieron.",
+        "puntos": [
+          "Investigación de legalidad de predios y terrenos",
+          "Due diligence inmobiliario"
+        ]
+      },
+      {
+        "nombre": "Escrituración",
+        "icono": "acuerdo",
+        "texto": "Tramitamos tu escrituración para que tu inmueble quede seguro a tu nombre.",
+        "puntos": [
+          "Trámite de escrituración",
+          "Seguridad jurídica de tu inmueble"
+        ]
+      },
+      {
+        "nombre": "Negociación con desarrolladoras",
+        "icono": "escudo",
+        "texto": "Te representamos cuando la negociación con una desarrolladora se complica.",
+        "puntos": [
+          "Representación de clientes en negociaciones difíciles con desarrolladoras"
+        ]
+      },
+      {
+        "nombre": "Avalúos",
+        "icono": "edificio",
+        "texto": "Elaboramos el avalúo de tu inmueble.",
+        "puntos": [
+          "Elaboración de avalúos"
+        ]
+      }
+    ],
+    "situaciones": [
+      {
+        "texto": "Me ofrecieron un terreno y quiero revisarlo antes de comprar",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito escriturar un inmueble",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo una negociación complicada con una desarrolladora",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un avalúo",
+        "urgente": false
+      }
+    ],
+    "preguntas": [
+      {
+        "p": "¿Cuánto cuesta revisar un terreno?",
+        "r": "Depende del predio y de la investigación que se necesite. Escríbenos con los datos del terreno y te damos una cotización."
+      },
+      {
+        "p": "¿Por qué investigar un terreno antes de comprar?",
+        "r": "Para que inviertas con seguridad: revisamos su legalidad antes de que firmes o entregues dinero."
+      },
+      {
+        "p": "¿En qué zonas trabajan?",
+        "r": "Damos servicio en Yucatán. Escríbenos y te decimos si podemos atender tu caso."
+      },
+      {
+        "p": "¿Lo que les cuento es confidencial?",
+        "r": "Sí. Toda la información de tu inmueble y de tu negociación se trata con confidencialidad."
+      }
+    ],
+    "fuente": "Facebook, 2026-10-31",
+    "estado": "propuesta",
+    "alta": "2026-10-31"
   }
 ]
