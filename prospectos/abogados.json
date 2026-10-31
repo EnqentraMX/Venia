@@ -334,5 +334,71 @@
     "fuente": "Facebook, 2026-10-31",
     "estado": "propuesta",
     "alta": "2026-10-31"
+  },
+  {
+    "slug": "rpa-asociados",
+    "nombre": "RPA & Asociados",
+    "despacho": "RPA & Asociados",
+    "sufijo": "Consultores jurídicos",
+    "titulo": "Lic. Jesús Arteaga y Lic. Gabriel Pelcastre",
+    "iniciales": "RPA",
+    "foto": "foto.jpg",
+    "tema": "negro-oro",
+    "simbolo": "balanza",
+    "telefono": "5632547612",
+    "otros_telefonos": [
+      "Lic. Gabriel Pelcastre: 55 7061 8225"
+    ],
+    "facebook": "https://www.facebook.com/profile.php?id=61592791318876",
+    "descripcion": "Asesoría legal, representación legal, investigación jurídica y mediación",
+    "modalidad": "Consultores jurídicos",
+    "portada": [
+      "Consultores",
+      "jurídicos",
+      "de tu lado."
+    ],
+    "texto_portada": "Asesoría legal, representación legal, investigación jurídica y mediación. Escríbenos y te orientamos sobre tu caso.",
+    "frase": "Tu asunto, atendido por consultores jurídicos de principio a fin.",
+    "compromisos": [
+      "Lic. Jesús Arteaga · 56 3254 7612",
+      "Lic. Gabriel Pelcastre · 55 7061 8225"
+    ],
+    "areas": [
+      {
+        "nombre": "Asesoría legal",
+        "icono": "balanza",
+        "texto": "Te orientamos con claridad sobre tu situación y tus opciones legales.",
+        "puntos": [
+          "Asesoría legal personalizada"
+        ]
+      },
+      {
+        "nombre": "Representación legal",
+        "icono": "escudo",
+        "texto": "Te representamos ante tribunales y autoridades.",
+        "puntos": [
+          "Representación legal en tu asunto"
+        ]
+      },
+      {
+        "nombre": "Investigación jurídica",
+        "icono": "lupa",
+        "texto": "Analizamos a fondo tu asunto para sostener la mejor estrategia.",
+        "puntos": [
+          "Investigación y análisis jurídico"
+        ]
+      },
+      {
+        "nombre": "Mediación",
+        "icono": "acuerdo",
+        "texto": "Buscamos acuerdos que eviten un juicio largo y desgastante.",
+        "puntos": [
+          "Mediación y solución de conflictos"
+        ]
+      }
+    ],
+    "fuente": "Facebook, 2026-10-31",
+    "estado": "propuesta",
+    "alta": "2026-10-31"
   }
 ]
