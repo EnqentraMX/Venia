@@ -7,20 +7,20 @@ window.DATOS = {
   "despacho": "RPA & Asociados",
   "sufijo": "Consultores jurídicos",
   "abogado": "RPA & Asociados",
-  "titulo": "Lic. Jesús Arteaga y Lic. Gabriel Pelcastre",
-  "descripcion": "Asesoría legal, representación legal, investigación jurídica y mediación",
+  "titulo": "Equipo de abogados expertos en resolución de temas jurídicos",
+  "descripcion": "Penal, civil, familiar, amparo y laboral, con cobertura en toda la República Mexicana",
   "cedula": "",
-  "modalidad": "Consultores jurídicos",
+  "modalidad": "Cobertura en toda la República",
   "iniciales": "RPA",
   "foto": "foto.jpg",
-  "frase": "Tu asunto, atendido por consultores jurídicos de principio a fin.",
+  "frase": "Tu libertad es invaluable, no la dejes en manos de cualquiera.",
   "portada": {
     "titulo": [
-      "Consultores",
-      "jurídicos",
-      "de tu lado."
+      "Tu libertad",
+      "es invaluable,",
+      "no la dejes en manos de cualquiera."
     ],
-    "texto": "Asesoría legal, representación legal, investigación jurídica y mediación. Escríbenos y te orientamos sobre tu caso."
+    "texto": "Un equipo de abogados expertos en penal, civil, familiar, amparo y laboral. Contamos con cobertura en toda la República Mexicana: acudimos a donde se requiera la atención."
   },
   "whatsapp": "525632547612",
   "telefono": "5632547612",
@@ -29,58 +29,90 @@ window.DATOS = {
   "precioConsulta": "",
   "areas": [
     {
-      "nombre": "Asesoría legal",
-      "icono": "balanza",
-      "texto": "Te orientamos con claridad sobre tu situación y tus opciones legales.",
-      "puntos": [
-        "Asesoría legal personalizada"
-      ]
-    },
-    {
-      "nombre": "Representación legal",
+      "nombre": "Derecho penal",
       "icono": "escudo",
-      "texto": "Te representamos ante tribunales y autoridades.",
+      "texto": "Defensa penal desde el primer momento: detenciones, audiencias y todo el proceso.",
       "puntos": [
-        "Representación legal en tu asunto"
+        "Detenciones y audiencias iniciales",
+        "Defensa en el proceso penal",
+        "Denuncias y querellas"
       ]
     },
     {
-      "nombre": "Investigación jurídica",
-      "icono": "lupa",
-      "texto": "Analizamos a fondo tu asunto para sostener la mejor estrategia.",
+      "nombre": "Derecho civil",
+      "icono": "balanza",
+      "texto": "Contratos, propiedades y juicios civiles con seguimiento puntual.",
       "puntos": [
-        "Investigación y análisis jurídico"
+        "Contratos y arrendamientos",
+        "Juicios civiles",
+        "Propiedad y posesión"
       ]
     },
     {
-      "nombre": "Mediación",
+      "nombre": "Derecho familiar",
+      "icono": "familia",
+      "texto": "Te acompaño en asuntos de familia con un enfoque humano: acuerdos claros y el bienestar de tus hijos primero.",
+      "puntos": [
+        "Divorcios",
+        "Pensión alimenticia",
+        "Guarda, custodia y convivencia"
+      ]
+    },
+    {
+      "nombre": "Juicio de amparo",
+      "icono": "escudo",
+      "texto": "Defensa de tus derechos cuando un acto de autoridad los vulnera.",
+      "puntos": [
+        "Amparo indirecto",
+        "Amparo directo",
+        "Suspensión del acto reclamado"
+      ]
+    },
+    {
+      "nombre": "Derecho laboral",
+      "icono": "maletin",
+      "texto": "Defensa de tus derechos como trabajador cuando hay un despido o un conflicto en el trabajo.",
+      "puntos": [
+        "Despidos injustificados",
+        "Reclamación de prestaciones",
+        "Liquidaciones y finiquitos"
+      ]
+    },
+    {
+      "nombre": "Asesoría, juicios y mediación",
       "icono": "acuerdo",
-      "texto": "Buscamos acuerdos que eviten un juicio largo y desgastante.",
+      "texto": "Asesoría legal, representación en juicios, investigación jurídica y mediación para resolver tu asunto.",
       "puntos": [
-        "Mediación y solución de conflictos"
+        "Asesoría legal",
+        "Representación legal en juicios",
+        "Investigación jurídica",
+        "Mediación"
       ]
     }
   ],
   "paquetes": [],
   "compromisos": [
     "Lic. Jesús Arteaga · 56 3254 7612",
-    "Lic. Gabriel Pelcastre · 55 7061 8225"
+    "Lic. Gabriel Pelcastre · 55 7061 8225",
+    "Lic. Yazmín Cantera · 56 1276 9562",
+    "Lic. Ximena Miranda · 55 4818 0997",
+    "Cobertura en toda la República Mexicana"
   ],
   "situaciones": [
     {
-      "texto": "Tengo una audiencia o un plazo que vence pronto",
+      "texto": "Hay una persona detenida en este momento",
       "urgente": true
     },
     {
-      "texto": "Quiero iniciar un trámite o una demanda",
+      "texto": "Recibí un citatorio o una demanda",
       "urgente": false
     },
     {
-      "texto": "Ya tengo un proceso abierto y necesito apoyo",
+      "texto": "Tengo un asunto familiar, civil o laboral",
       "urgente": false
     },
     {
-      "texto": "Solo quiero orientación para decidir qué hacer",
+      "texto": "Solo quiero orientación",
       "urgente": false
     }
   ],

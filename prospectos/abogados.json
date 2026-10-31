@@ -340,65 +340,72 @@
     "nombre": "RPA & Asociados",
     "despacho": "RPA & Asociados",
     "sufijo": "Consultores jurídicos",
-    "titulo": "Lic. Jesús Arteaga y Lic. Gabriel Pelcastre",
+    "titulo": "Equipo de abogados expertos en resolución de temas jurídicos",
     "iniciales": "RPA",
     "foto": "foto.jpg",
     "tema": "negro-oro",
     "simbolo": "balanza",
     "telefono": "5632547612",
     "otros_telefonos": [
-      "Lic. Gabriel Pelcastre: 55 7061 8225"
+      "Lic. Gabriel Pelcastre: 55 7061 8225",
+      "Lic. Yazmín Cantera: 56 1276 9562",
+      "Lic. Ximena Miranda: 55 4818 0997"
     ],
     "facebook": "https://www.facebook.com/profile.php?id=61592791318876",
-    "descripcion": "Asesoría legal, representación legal, investigación jurídica y mediación",
-    "modalidad": "Consultores jurídicos",
+    "descripcion": "Penal, civil, familiar, amparo y laboral, con cobertura en toda la República Mexicana",
+    "modalidad": "Cobertura en toda la República",
     "portada": [
-      "Consultores",
-      "jurídicos",
-      "de tu lado."
+      "Tu libertad",
+      "es invaluable,",
+      "no la dejes en manos de cualquiera."
     ],
-    "texto_portada": "Asesoría legal, representación legal, investigación jurídica y mediación. Escríbenos y te orientamos sobre tu caso.",
-    "frase": "Tu asunto, atendido por consultores jurídicos de principio a fin.",
+    "texto_portada": "Un equipo de abogados expertos en penal, civil, familiar, amparo y laboral. Contamos con cobertura en toda la República Mexicana: acudimos a donde se requiera la atención.",
+    "frase": "Tu libertad es invaluable, no la dejes en manos de cualquiera.",
     "compromisos": [
       "Lic. Jesús Arteaga · 56 3254 7612",
-      "Lic. Gabriel Pelcastre · 55 7061 8225"
+      "Lic. Gabriel Pelcastre · 55 7061 8225",
+      "Lic. Yazmín Cantera · 56 1276 9562",
+      "Lic. Ximena Miranda · 55 4818 0997",
+      "Cobertura en toda la República Mexicana"
     ],
     "areas": [
+      "Penal",
+      "Civil",
+      "Familiar",
+      "Amparo",
+      "Laboral",
       {
-        "nombre": "Asesoría legal",
-        "icono": "balanza",
-        "texto": "Te orientamos con claridad sobre tu situación y tus opciones legales.",
-        "puntos": [
-          "Asesoría legal personalizada"
-        ]
-      },
-      {
-        "nombre": "Representación legal",
-        "icono": "escudo",
-        "texto": "Te representamos ante tribunales y autoridades.",
-        "puntos": [
-          "Representación legal en tu asunto"
-        ]
-      },
-      {
-        "nombre": "Investigación jurídica",
-        "icono": "lupa",
-        "texto": "Analizamos a fondo tu asunto para sostener la mejor estrategia.",
-        "puntos": [
-          "Investigación y análisis jurídico"
-        ]
-      },
-      {
-        "nombre": "Mediación",
+        "nombre": "Asesoría, juicios y mediación",
         "icono": "acuerdo",
-        "texto": "Buscamos acuerdos que eviten un juicio largo y desgastante.",
+        "texto": "Asesoría legal, representación en juicios, investigación jurídica y mediación para resolver tu asunto.",
         "puntos": [
-          "Mediación y solución de conflictos"
+          "Asesoría legal",
+          "Representación legal en juicios",
+          "Investigación jurídica",
+          "Mediación"
         ]
       }
     ],
     "fuente": "Facebook, 2026-10-31",
     "estado": "propuesta",
-    "alta": "2026-10-31"
+    "alta": "2026-10-31",
+    "situaciones": [
+      {
+        "texto": "Hay una persona detenida en este momento",
+        "urgente": true
+      },
+      {
+        "texto": "Recibí un citatorio o una demanda",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un asunto familiar, civil o laboral",
+        "urgente": false
+      },
+      {
+        "texto": "Solo quiero orientación",
+        "urgente": false
+      }
+    ]
   }
 ]
