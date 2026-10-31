@@ -513,5 +513,98 @@
     "fuente": "Facebook, 2026-10-31",
     "estado": "propuesta",
     "alta": "2026-10-31"
+  },
+  {
+    "slug": "gallardo-asociados",
+    "nombre": "Lic. Mayra Gallardo",
+    "despacho": "Gallardo & Asociados",
+    "sufijo": "Servicios jurídicos",
+    "titulo": "Especialista en materia penal, familiar y civil",
+    "iniciales": "MG",
+    "foto": "foto.jpg",
+    "tema": "vino",
+    "simbolo": "balanza",
+    "telefono": "5611114172",
+    "facebook": "https://www.facebook.com/mayra.gallardo.3154/",
+    "descripcion": "Penal, justicia para adolescentes, familiar y civil",
+    "modalidad": "Asistencia 24 horas, los 365 días",
+    "horario": {
+      "lunes": [
+        "00:00",
+        "23:59"
+      ],
+      "martes": [
+        "00:00",
+        "23:59"
+      ],
+      "miercoles": [
+        "00:00",
+        "23:59"
+      ],
+      "jueves": [
+        "00:00",
+        "23:59"
+      ],
+      "viernes": [
+        "00:00",
+        "23:59"
+      ],
+      "sabado": [
+        "00:00",
+        "23:59"
+      ],
+      "domingo": [
+        "00:00",
+        "23:59"
+      ]
+    },
+    "nota_horario": "Asistencia las 24 horas, los 365 días del año.",
+    "portada": [
+      "Experiencia jurídica",
+      "que protege",
+      "lo que más importa."
+    ],
+    "texto_portada": "Especialista en materia penal, familiar y civil, con especialidad en justicia para adolescentes. Asistencia las 24 horas, los 365 días del año.",
+    "frase": "Experiencia jurídica que protege lo que más importa.",
+    "compromisos": [
+      "Asistencia las 24 horas, los 365 días",
+      "Especialidad en justicia para adolescentes",
+      "Atención personalizada y confidencial"
+    ],
+    "areas": [
+      "Penal",
+      {
+        "nombre": "Justicia para adolescentes",
+        "icono": "escudo",
+        "texto": "Especialidad en la defensa de adolescentes en el sistema de justicia penal.",
+        "puntos": [
+          "Defensa de adolescentes",
+          "Acompañamiento a la familia en todo el proceso"
+        ]
+      },
+      "Familiar",
+      "Civil"
+    ],
+    "situaciones": [
+      {
+        "texto": "Hay una persona detenida en este momento",
+        "urgente": true
+      },
+      {
+        "texto": "Un adolescente de mi familia está involucrado en un asunto penal",
+        "urgente": true
+      },
+      {
+        "texto": "Tengo un asunto familiar: pensión, custodia o divorcio",
+        "urgente": false
+      },
+      {
+        "texto": "Solo quiero orientación",
+        "urgente": false
+      }
+    ],
+    "fuente": "Facebook, 2026-10-31",
+    "estado": "propuesta",
+    "alta": "2026-10-31"
   }
 ]
