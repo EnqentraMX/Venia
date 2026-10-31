@@ -17,7 +17,8 @@ const ico = n => `<svg><use href="#i-${n}"/></svg>`;
 document.title = `${D.despacho} ${D.sufijo} | ${(D.areas||[]).map(a=>a.nombre).join(", ")}`;
 $('meta[name="description"]').setAttribute("content", `${D.despacho} ${D.sufijo}. ${D.abogado}, ${D.titulo}. ${D.portada?.texto||""}`);
 if (PRE) $("#preview").hidden = false;
-if (D.muestra && !PRE) { const b=$("#preview"); b.hidden=false; b.textContent="Sitio de muestra creado por LicLink · Los datos de contacto, dirección y cédula son de ejemplo."; }
+if (D.propuesta) { const b=$("#preview"); b.hidden=false; b.textContent=`Propuesta de página para ${D.propuesta} · Vista privada creada por LicLink`; }
+else if (D.muestra && !PRE) { const b=$("#preview"); b.hidden=false; b.textContent="Sitio de muestra creado por LicLink · Los datos de contacto, dirección y cédula son de ejemplo."; }
 $("#logoNombre").textContent = D.despacho; $("#logoSufijo").textContent = D.sufijo;
 document.querySelectorAll(".js-nombre").forEach(e=>e.textContent=D.despacho);
 document.querySelectorAll(".js-sufijo").forEach(e=>e.textContent=D.sufijo);
