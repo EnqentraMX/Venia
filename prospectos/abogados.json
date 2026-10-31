@@ -285,6 +285,53 @@
       }
     ],
     "fuente": "Facebook, 2026-10-31",
+    "estado": "borrar",
+    "alta": "2026-10-31",
+    "nota": "Dijo que no (2026-10-31)"
+  },
+  {
+    "slug": "leticia-reyna",
+    "nombre": "Lic. Laura Leticia Reyna Rodríguez",
+    "despacho": "Leticia Reyna",
+    "sufijo": "Despacho jurídico",
+    "titulo": "Abogada, criminóloga y gestora ante el Registro Civil",
+    "cedula": "12681171",
+    "iniciales": "LR",
+    "foto": "foto.jpg",
+    "tema": "azul-plata",
+    "simbolo": "balanza",
+    "ciudad": "San Luis Potosí",
+    "telefono": "4442779244",
+    "direccion": "Calle Ágata 827, Col. Palmar Chico, C.P. 78395, San Luis Potosí, S.L.P.",
+    "descripcion": "Asesoría y juicios en derecho familiar, civil y mercantil",
+    "modalidad": "Atención personalizada, ética y estratégica",
+    "portada": [
+      "Asesoramiento",
+      "legal",
+      "con enfoque estratégico."
+    ],
+    "texto_portada": "Asesoría y juicios en derecho familiar, civil y mercantil, y trámites ante el Registro Civil y el Instituto Registral y Catastral. Atención personalizada, ética y con enfoque estratégico.",
+    "frase": "Contáctanos. Estamos para asesorarte.",
+    "compromisos": [
+      "Atención personalizada",
+      "Ética profesional",
+      "Enfoque estratégico"
+    ],
+    "areas": [
+      "Familiar",
+      "Civil",
+      "Mercantil",
+      {
+        "nombre": "Trámites registrales",
+        "icono": "edificio",
+        "texto": "Gestora ante la Dirección del Registro Civil: te ayudamos a resolver tus trámites.",
+        "puntos": [
+          "Trámites ante el Registro Civil",
+          "Trámites ante el Instituto Registral y Catastral"
+        ]
+      }
+    ],
+    "fuente": "Facebook, 2026-10-31",
     "estado": "propuesta",
     "alta": "2026-10-31"
   }
