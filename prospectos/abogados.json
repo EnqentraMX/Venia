@@ -684,5 +684,90 @@
     "fuente": "Facebook, 2026-11-01",
     "estado": "propuesta",
     "alta": "2026-11-01"
+  },
+  {
+    "slug": "estudio-juridico-ibarra",
+    "nombre": "Lic. Julio Alberto Ibarra Pérez",
+    "despacho": "Estudio Jurídico",
+    "sufijo": "Ibarra",
+    "titulo": "Asesoría jurídica profesional",
+    "iniciales": "JI",
+    "foto": "foto.jpg",
+    "tema": "marino-oro",
+    "simbolo": "balanza",
+    "ciudad": "Guadalajara",
+    "telefono": "3322207121",
+    "correo": "asesor.juridico.ibarra@gmail.com",
+    "instagram": "https://www.instagram.com/asesor.juridico.ibarra/",
+    "direccion": "Isla Ábaco 3372-1, Jardines de San José, Guadalajara, Jal.",
+    "referencia": "Atención exclusiva bajo cita programada.",
+    "descripcion": "Derecho familiar, civil y mercantil en Guadalajara",
+    "modalidad": "Atención bajo cita programada",
+    "nota_horario": "Lunes a viernes, con cita previa.",
+    "portada": [
+      "Protegemos",
+      "su tranquilidad",
+      "y su patrimonio."
+    ],
+    "texto_portada": "Derecho familiar, civil y mercantil en Guadalajara. Una ruta legal clara, honesta y directa al punto. Atención exclusiva bajo cita programada.",
+    "frase": "Mi compromiso: brindarte una ruta legal clara, honesta y directa al punto.",
+    "compromisos": [
+      "Atención exclusiva bajo cita",
+      "Ruta legal clara y honesta",
+      "Lunes a viernes"
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompaño con sensibilidad y profesionalismo. Lo más importante es el bienestar de los tuyos.",
+        "puntos": [
+          "Divorcios",
+          "Pensiones alimenticias",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "balanza",
+        "texto": "Protegemos tus acuerdos y el futuro de tu patrimonio, asegurando que tu voluntad se cumpla con rigor.",
+        "puntos": [
+          "Contratos",
+          "Arrendamientos",
+          "Sucesiones y testamentos"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "maletin",
+        "texto": "Si tienes una empresa o negocio, impulsamos tu crecimiento con visión estratégica.",
+        "puntos": [
+          "Creación de sociedades",
+          "Litigios comerciales",
+          "Cobranza judicial"
+        ]
+      }
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo una audiencia o un plazo que vence pronto",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero agendar una asesoría",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un asunto de mi empresa o negocio",
+        "urgente": false
+      },
+      {
+        "texto": "Solo quiero orientación",
+        "urgente": false
+      }
+    ],
+    "fuente": "Facebook, 2026-11-01",
+    "estado": "propuesta",
+    "alta": "2026-11-01"
   }
 ]
