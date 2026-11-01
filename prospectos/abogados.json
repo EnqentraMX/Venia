@@ -606,5 +606,83 @@
     "fuente": "Facebook, 2026-10-31",
     "estado": "propuesta",
     "alta": "2026-10-31"
+  },
+  {
+    "slug": "guillen-asociados",
+    "nombre": "Lic. Arturo Guillén González",
+    "despacho": "Guillén",
+    "sufijo": "& Asociados · Abogados",
+    "titulo": "Abogado penalista",
+    "iniciales": "AG",
+    "foto": "foto.jpg",
+    "tema": "azul-plata",
+    "simbolo": "balanza",
+    "telefono": "5544568364",
+    "facebook": "https://www.facebook.com/arturo.guillen.7902564/",
+    "descripcion": "Abogados penalistas · materia penal, civil y familiar",
+    "modalidad": "Consultoría en línea o presencial",
+    "precio_consulta": "Cuota de recuperación",
+    "portada": [
+      "Privilegios para nadie,",
+      "oportunidades",
+      "para todos."
+    ],
+    "texto_portada": "Defensa penal integral, amparo y asuntos civiles y familiares. Confianza, justicia y resultados legales, en línea o presencial.",
+    "frase": "Tu defensa, nuestra prioridad.",
+    "compromisos": [
+      "Confianza, justicia y resultados legales",
+      "Atención en línea o presencial",
+      "Primera consulta con cuota de recuperación"
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa penal integral desde el primer momento, en Ministerios Públicos y juzgados.",
+        "puntos": [
+          "Defensa penal integral (homicidio, robo, fraude, etc.)",
+          "Control de detención y vinculación a proceso",
+          "Defensa en audiencias",
+          "Sobreseimiento y extinción de la acción penal",
+          "Acuerdos reparatorios y suspensión condicional",
+          "Litigio de alto perfil",
+          "Asesoría a víctimas"
+        ]
+      },
+      {
+        "nombre": "Amparo y apelación",
+        "icono": "escudo",
+        "texto": "Recursos para proteger tus derechos frente a actos de autoridad.",
+        "puntos": [
+          "Recursos de apelación",
+          "Amparo y suspensión de actos"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "balanza",
+        "texto": "Contratos, arrendamientos, herencias y cobranza.",
+        "puntos": [
+          "Contratos y obligaciones",
+          "Juicios de arrendamiento y desalojo",
+          "Sucesiones y herencias",
+          "Cobranza judicial y extrajudicial"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Acompañamiento en los asuntos más importantes de tu familia.",
+        "puntos": [
+          "Divorcios (voluntario e incausado)",
+          "Pensión alimenticia y custodia",
+          "Paternidad y adopción",
+          "Juicios sucesorios familiares"
+        ]
+      }
+    ],
+    "fuente": "Facebook, 2026-11-01",
+    "estado": "propuesta",
+    "alta": "2026-11-01"
   }
 ]

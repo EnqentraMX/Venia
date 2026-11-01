@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 6 · Vendidos: 0 · Borrados: 1
+Propuestas: 7 · Vendidos: 0 · Borrados: 1
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -11,3 +11,4 @@ Propuestas: 6 · Vendidos: 0 · Borrados: 1
 | 2026-10-31 | RPA & Asociados | /rpa-asociados/ | propuesta | https://www.facebook.com/profile.php?id=61592791318876 |
 | 2026-10-31 | Consorcio Jurídico Alcántara & Asociados | /alcantara-asociados/ | propuesta | https://www.facebook.com/alcantaraasociados.consorciojuridico/ |
 | 2026-10-31 | Lic. Mayra Gallardo | /gallardo-asociados/ | propuesta | https://www.facebook.com/mayra.gallardo.3154/ |
+| 2026-11-01 | Lic. Arturo Guillén González | /guillen-asociados/ | propuesta | https://www.facebook.com/arturo.guillen.7902564/ |
