@@ -1,10 +1,11 @@
 # Prospectos LicLink
 
-Propuestas: 8 · Vendidos: 0 · Borrados: 1
+Propuestas: 7 · Vendidos: 0 · Borrados: 2
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
 | 2026-10-31 | Servicios Jurídicos Profesionales | /sjp-servicios-juridicos/ | borrar | 5547586506 |
+| 2026-11-01 | Lic. Julio Alberto Ibarra Pérez | /estudio-juridico-ibarra/ | borrar | 3322207121 |
 | 2026-10-31 | Dr. Nimrod Huerta | /nhg-abogados/ | propuesta | https://www.facebook.com/NHGabogados |
 | 2026-10-31 | CJI Corporativo Jurídico Inmobiliario | /cji-inmobiliario/ | propuesta | 9901488694 |
 | 2026-10-31 | Lic. Laura Leticia Reyna Rodríguez | /leticia-reyna/ | propuesta | 4442779244 |
@@ -12,4 +13,3 @@ Propuestas: 8 · Vendidos: 0 · Borrados: 1
 | 2026-10-31 | Consorcio Jurídico Alcántara & Asociados | /alcantara-asociados/ | propuesta | https://www.facebook.com/alcantaraasociados.consorciojuridico/ |
 | 2026-10-31 | Lic. Mayra Gallardo | /gallardo-asociados/ | propuesta | https://www.facebook.com/mayra.gallardo.3154/ |
 | 2026-11-01 | Lic. Arturo Guillén González | /guillen-asociados/ | propuesta | https://www.facebook.com/arturo.guillen.7902564/ |
-| 2026-11-01 | Lic. Julio Alberto Ibarra Pérez | /estudio-juridico-ibarra/ | propuesta | 3322207121 |
