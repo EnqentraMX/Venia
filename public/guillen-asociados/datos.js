@@ -1,6 +1,6 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
-  "vistaPrevia": true,
+  "vistaPrevia": false,
   "propuesta": "Lic. Arturo Guillén González",
   "muestra": false,
   "tema": {
@@ -21,6 +21,7 @@ window.DATOS = {
   "modalidad": "Consultoría en línea o presencial",
   "iniciales": "AG",
   "foto": "foto.jpg",
+  "fotoLogo": true,
   "frase": "Tu defensa, nuestra prioridad.",
   "portada": {
     "titulo": [

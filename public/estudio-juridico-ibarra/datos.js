@@ -1,6 +1,6 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
-  "vistaPrevia": true,
+  "vistaPrevia": false,
   "propuesta": "Lic. Julio Alberto Ibarra Pérez",
   "muestra": false,
   "tema": {
@@ -21,6 +21,7 @@ window.DATOS = {
   "modalidad": "Atención bajo cita programada",
   "iniciales": "JI",
   "foto": "foto.jpg",
+  "fotoLogo": false,
   "frase": "Mi compromiso: brindarte una ruta legal clara, honesta y directa al punto.",
   "portada": {
     "titulo": [

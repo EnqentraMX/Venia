@@ -1,6 +1,6 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
-  "vistaPrevia": true,
+  "vistaPrevia": false,
   "propuesta": "Dr. Nimrod Huerta",
   "muestra": false,
   "tema": {
@@ -21,6 +21,7 @@ window.DATOS = {
   "modalidad": "Atención personalizada",
   "iniciales": "NH",
   "foto": "foto.jpg",
+  "fotoLogo": false,
   "frase": "Nuestra meta es proporcionar el mejor servicio en defensa de sus derechos.",
   "portada": {
     "titulo": [

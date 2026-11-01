@@ -1,6 +1,6 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
-  "vistaPrevia": true,
+  "vistaPrevia": false,
   "propuesta": "Consorcio Jurídico Alcántara & Asociados",
   "muestra": false,
   "tema": {
@@ -21,6 +21,7 @@ window.DATOS = {
   "modalidad": "Asuntos urgentes las 24 horas",
   "iniciales": "A&A",
   "foto": "",
+  "fotoLogo": false,
   "frase": "Asesoría gratuita, previa cita. Asuntos urgentes las 24 horas.",
   "portada": {
     "titulo": [

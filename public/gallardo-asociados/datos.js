@@ -1,6 +1,6 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
-  "vistaPrevia": true,
+  "vistaPrevia": false,
   "propuesta": "Lic. Mayra Gallardo",
   "muestra": false,
   "tema": {
@@ -21,6 +21,7 @@ window.DATOS = {
   "modalidad": "Asistencia 24 horas, los 365 días",
   "iniciales": "MG",
   "foto": "foto.jpg",
+  "fotoLogo": false,
   "frase": "Experiencia jurídica que protege lo que más importa.",
   "portada": {
     "titulo": [

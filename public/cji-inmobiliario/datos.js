@@ -1,6 +1,6 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
-  "vistaPrevia": true,
+  "vistaPrevia": false,
   "propuesta": "CJI Corporativo Jurídico Inmobiliario",
   "muestra": false,
   "tema": {
@@ -21,6 +21,7 @@ window.DATOS = {
   "modalidad": "Servicio en Yucatán",
   "iniciales": "CJI",
   "foto": "",
+  "fotoLogo": false,
   "frase": "¿Te ofrecieron un terreno? No lo hagas solo.",
   "portada": {
     "titulo": [

@@ -255,8 +255,18 @@ $("#abrirAviso").onclick=abrirAviso;
 $("#cerrarAviso").onclick=()=>$("#aviso").classList.remove("on");
 $("#aviso").onclick=e=>{if(e.target.id==="aviso")$("#aviso").classList.remove("on")};
 
+/* ---------- Portada: foto o logo del despacho (si hay), si no, figura animada ---------- */
+const fotoArriba = D.foto && D.fotoPortada !== false;
+if (fotoArriba) {
+  const h=$("#huella"); h.classList.add("con-foto"); if (D.fotoLogo) h.classList.add("logo"); h.removeAttribute("aria-hidden");
+  h.innerHTML=`<img src="${esc(D.foto)}" alt="${esc(D.abogado)}"><span class="marco"></span>`;
+  const r=$("#retrato"); if (r) { r.remove(); document.querySelector(".perfil").classList.add("solo"); }
+}
+/* ---------- Barra fija en celular ---------- */
+const bl=$("#barraLlamar"); if (bl) { if (D.telefono) bl.href=`tel:+52${D.telefono}`; else bl.remove(); }
 /* ---------- Huella interactiva ---------- */
 (function(){
+  if (fotoArriba) return;
   const svg=$("#huellaSvg"), NS="http://www.w3.org/2000/svg";
   const defs=document.createElementNS(NS,"defs");
   defs.innerHTML=`<radialGradient id="luz" cx="200" cy="200" r="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e2c48f"/><stop offset=".55" stop-color="#c8a46a" stop-opacity=".55"/><stop offset="1" stop-color="#c8a46a" stop-opacity=".08"/></radialGradient>`;

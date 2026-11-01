@@ -58,6 +58,12 @@ section{padding:96px 0;border-top:1px solid var(--line)}
 .cred svg{width:16px;height:16px;color:var(--brass)}
 .huella{position:relative;aspect-ratio:1;width:100%;max-width:440px;justify-self:end}
 .huella svg{width:100%;height:100%}
+.huella.con-foto{aspect-ratio:4/5;max-width:400px;border-radius:24px;overflow:visible}
+.huella.con-foto img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;border-radius:24px;display:block;position:relative;z-index:1;box-shadow:0 40px 80px rgba(0,0,0,.45)}
+.huella.con-foto .marco{position:absolute;inset:-14px -14px 14px 14px;border:1.5px solid var(--brass);border-radius:28px;opacity:.7}
+.huella.con-foto.logo img{object-fit:contain;background:var(--card)}
+.perfil.solo{grid-template-columns:1fr;max-width:760px}
+.barra-movil{display:none}
 .huella .hint{position:absolute;bottom:-6px;left:0;right:0;text-align:center;font-size:12px;color:var(--dim);letter-spacing:.06em}
 
 /* Áreas */
@@ -207,6 +213,12 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
 .reveal.in{opacity:1;transform:none}
 
 @media (max-width:860px){
+  .barra-movil{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:45;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--bg);border-top:1px solid var(--line);box-shadow:0 -10px 30px rgba(0,0,0,.35)}
+  .barra-movil .btn{justify-content:center;padding:13px 10px}
+  .flota{display:none}
+  footer{padding-bottom:110px}
+  .huella.con-foto{max-width:270px;margin:6px auto 18px}
+  .huella.con-foto .marco{inset:-10px -10px 10px 10px}
   section{padding:72px 0}
   .hero{padding:48px 0 64px}
   .hero .wrap,.asis,.perfil,.dos{grid-template-columns:1fr}

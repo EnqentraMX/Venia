@@ -1,6 +1,6 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
-  "vistaPrevia": true,
+  "vistaPrevia": false,
   "propuesta": "RPA & Asociados",
   "muestra": false,
   "simbolo": "balanza",
@@ -13,6 +13,7 @@ window.DATOS = {
   "modalidad": "Cobertura en toda la República",
   "iniciales": "RPA",
   "foto": "foto.jpg",
+  "fotoLogo": true,
   "frase": "Tu libertad es invaluable, no la dejes en manos de cualquiera.",
   "portada": {
     "titulo": [

@@ -1,6 +1,6 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
-  "vistaPrevia": true,
+  "vistaPrevia": false,
   "propuesta": "Lic. Laura Leticia Reyna Rodríguez",
   "muestra": false,
   "tema": {
@@ -21,6 +21,7 @@ window.DATOS = {
   "modalidad": "Atención personalizada, ética y estratégica",
   "iniciales": "LR",
   "foto": "foto.jpg",
+  "fotoLogo": false,
   "frase": "Contáctanos. Estamos para asesorarte.",
   "portada": {
     "titulo": [

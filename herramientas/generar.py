@@ -15,6 +15,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATOS = os.path.join(RAIZ, "prospectos", "abogados.json")
 PLANTILLA = os.path.join(RAIZ, "plantilla", "index.html")
 PUBLICO = os.path.join(RAIZ, "public")
+URL_BASE = "https://liclink.demomx.workers.dev"  # cambiar al comprar el dominio
 PROTEGIDOS = {"assets", "plantilla", "castillo-abogados", "gabriel-sanchez", "miguel-manzano", "dalia-marquez"}
 
 # ---------------------------------------------------------------- catálogo de áreas
@@ -94,7 +95,7 @@ def datos_js(a):
     redes = {k: a.get(k, "") for k in ["facebook", "instagram", "tiktok", "youtube", "linkedin"]}
     oficinas = [{"nombre": a.get("ciudad", "Oficina"), "direccion": a["direccion"], "referencia": a.get("referencia", "")}] if a.get("direccion") else []
     d = {
-        "vistaPrevia": estado != "vendido",
+        "vistaPrevia": False,  # en propuestas no se muestran los "por confirmar"
         "propuesta": nombre if estado == "propuesta" else "",
         "muestra": False,
         "tema": TEMAS.get(a.get("tema", "negro-oro")),
@@ -108,6 +109,7 @@ def datos_js(a):
         "modalidad": a.get("modalidad", "Atención personalizada"),
         "iniciales": a.get("iniciales", ""),
         "foto": a.get("foto", ""),
+        "fotoLogo": bool(a.get("logo")),
         "frase": a.get("frase", "Tu tranquilidad legal es nuestra prioridad."),
         "portada": {"titulo": a.get("portada", ["Tu asunto legal,", "en buenas", "manos."]),
                     "texto": a.get("texto_portada") or (", ".join(x["nombre"].lower() for x in areas[:3]).capitalize() + (f" en {a['ciudad']}" if a.get("ciudad") else "") + ". Escríbenos y te orientamos sobre tu caso.")},
@@ -129,6 +131,28 @@ def datos_js(a):
     if not d["tema"]: del d["tema"]
     return "/* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */\nwindow.DATOS = " + json.dumps(d, ensure_ascii=False, indent=2) + ";\n"
 
+def cabecera(html, a):
+    """Título, descripción y vista previa (WhatsApp/Facebook) propios de cada abogado. Los buscadores y Messenger no ejecutan JS."""
+    import html as H
+    nombre = a.get("despacho_largo") or (f"{a['despacho']} {a.get('sufijo','')}".strip() if a.get("despacho") else a["nombre"])
+    if a.get("despacho") and a["nombre"] not in nombre: titulo = f"{nombre} · {a['nombre']}"
+    else: titulo = nombre
+    lugar = f" en {a['ciudad']}" if a.get("ciudad") else ""
+    desc = (a.get("descripcion") or "Abogados") + lugar.replace(" en "+a.get("ciudad",""), "" if a.get("ciudad","") in (a.get("descripcion") or "") else " en "+a.get("ciudad","")) + ". Escríbenos por WhatsApp."
+    url = f"{URL_BASE}/{a['slug']}/"
+    og = f"""<meta property="og:type" content="website">
+<meta property="og:title" content="{H.escape(nombre)}">
+<meta property="og:description" content="{H.escape(desc)}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{url}compartir.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+"""
+    html = html.replace("<title>Despacho jurídico</title>", f"<title>{H.escape(titulo)}</title>", 1)
+    html = html.replace('<meta name="description" content="">', f'<meta name="description" content="{H.escape(desc)}">\n{og}', 1)
+    return html
+
 def main():
     lista = json.load(open(DATOS, encoding="utf-8")) if os.path.exists(DATOS) else []
     plantilla = open(PLANTILLA, encoding="utf-8").read()
@@ -145,6 +169,7 @@ def main():
         html = plantilla
         if a["estado"] != "vendido":
             html = html.replace('<meta name="viewport"', '<meta name="robots" content="noindex, nofollow">\n<meta name="viewport"', 1)
+        html = cabecera(html, a)
         open(os.path.join(carpeta, "index.html"), "w", encoding="utf-8").write(html)
         open(os.path.join(carpeta, "datos.js"), "w", encoding="utf-8").write(datos_js(a))
     json.dump(lista, open(DATOS, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
