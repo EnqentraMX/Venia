@@ -1,7 +1,7 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
   "vistaPrevia": false,
-  "propuesta": "Lic. Arturo Guillén González",
+  "propuesta": "Guillén & Asociados Abogados",
   "muestra": false,
   "tema": {
     "fondo": "#0b1118",
@@ -12,14 +12,14 @@ window.DATOS = {
     "acento2": "#e4eaf0"
   },
   "simbolo": "balanza",
-  "despacho": "Guillén",
-  "sufijo": "& Asociados · Abogados",
-  "abogado": "Lic. Arturo Guillén González",
-  "titulo": "Abogado penalista",
-  "descripcion": "Abogados penalistas · materia penal, civil y familiar",
+  "despacho": "Guillén & Asociados",
+  "sufijo": "Abogados",
+  "abogado": "Guillén & Asociados Abogados",
+  "titulo": "Abogados",
+  "descripcion": "Abogados en materia penal, civil, familiar y laboral",
   "cedula": "",
   "modalidad": "Consultoría en línea o presencial",
-  "iniciales": "AG",
+  "iniciales": "GA",
   "foto": "foto.jpg",
   "fotoLogo": true,
   "frase": "Tu defensa, nuestra prioridad.",
@@ -29,7 +29,7 @@ window.DATOS = {
       "oportunidades",
       "para todos."
     ],
-    "texto": "Defensa penal integral, amparo y asuntos civiles y familiares. Confianza, justicia y resultados legales, en línea o presencial."
+    "texto": "Abogados en materia penal, civil, familiar y laboral. Te explicamos tu caso con claridad y te defendemos desde el primer momento, en línea o presencial."
   },
   "whatsapp": "525544568364",
   "telefono": "5544568364",
@@ -38,72 +38,73 @@ window.DATOS = {
   "precioConsulta": "Cuota de recuperación",
   "areas": [
     {
-      "nombre": "Derecho penal",
+      "nombre": "Penal",
       "icono": "escudo",
-      "texto": "Defensa penal integral desde el primer momento, en Ministerios Públicos y juzgados.",
+      "texto": "¿Detuvieron a un familiar o te acusan de un delito? Te defendemos desde el primer momento.",
       "puntos": [
-        "Defensa penal integral (homicidio, robo, fraude, etc.)",
-        "Control de detención y vinculación a proceso",
-        "Defensa en audiencias",
-        "Sobreseimiento y extinción de la acción penal",
-        "Acuerdos reparatorios y suspensión condicional",
-        "Litigio de alto perfil",
-        "Asesoría a víctimas"
+        "Si detienen a un familiar: lo asistimos en el Ministerio Público",
+        "Si te acusan de un delito: robo, fraude, lesiones, homicidio y otros",
+        "Si fuiste víctima de un delito: te acompañamos a denunciar y en todo el proceso",
+        "Te representamos en audiencias y en el juicio",
+        "Buscamos salidas antes del juicio, como un acuerdo con la víctima",
+        "Apelación y amparo si no estás de acuerdo con una resolución"
       ]
     },
     {
-      "nombre": "Amparo y apelación",
-      "icono": "escudo",
-      "texto": "Recursos para proteger tus derechos frente a actos de autoridad.",
-      "puntos": [
-        "Recursos de apelación",
-        "Amparo y suspensión de actos"
-      ]
-    },
-    {
-      "nombre": "Derecho civil",
+      "nombre": "Civil",
       "icono": "balanza",
-      "texto": "Contratos, arrendamientos, herencias y cobranza.",
+      "texto": "Problemas con una casa, un contrato o alguien que te debe dinero.",
       "puntos": [
-        "Contratos y obligaciones",
-        "Juicios de arrendamiento y desalojo",
-        "Sucesiones y herencias",
-        "Cobranza judicial y extrajudicial"
+        "Te deben dinero: pagarés, préstamos o facturas",
+        "Problemas con tu inquilino o tu casero: rentas y desalojos",
+        "Herencias: cuando alguien fallece, con o sin testamento",
+        "Revisamos o hacemos tus contratos antes de que firmes"
       ]
     },
     {
-      "nombre": "Derecho familiar",
+      "nombre": "Familiar",
       "icono": "familia",
-      "texto": "Acompañamiento en los asuntos más importantes de tu familia.",
+      "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
       "puntos": [
-        "Divorcios (voluntario e incausado)",
-        "Pensión alimenticia y custodia",
-        "Paternidad y adopción",
-        "Juicios sucesorios familiares"
+        "Divorcio, aunque tu pareja no esté de acuerdo",
+        "Pensión alimenticia: pedirla, aumentarla o reducirla",
+        "Custodia y visitas con tus hijos",
+        "Reconocimiento de paternidad y adopción"
+      ]
+    },
+    {
+      "nombre": "Laboral",
+      "icono": "maletin",
+      "texto": "¿Te despidieron o no te pagaron lo que te corresponde? Te ayudamos a reclamarlo.",
+      "puntos": [
+        "Despido injustificado: reclamamos tu indemnización",
+        "Finiquito o liquidación mal calculados",
+        "Prestaciones no pagadas: aguinaldo, vacaciones y horas extra",
+        "Si tu patrón no te dio de alta en el IMSS"
       ]
     }
   ],
   "paquetes": [],
   "compromisos": [
-    "Confianza, justicia y resultados legales",
+    "Te explicamos tu caso en palabras claras",
     "Atención en línea o presencial",
     "Primera consulta con cuota de recuperación"
   ],
   "situaciones": [
     {
-      "texto": "Hay una persona detenida en este momento",
+      "texto": "Detuvieron a un familiar o me acusan de un delito",
       "urgente": true
     },
     {
-      "texto": "Recibí un citatorio o una notificación",
+      "texto": "Me despidieron o no me pagaron lo que me corresponde",
       "urgente": false
     },
     {
-      "texto": "Ya hay una carpeta o proceso abierto",
+      "texto": "Tengo un asunto familiar: divorcio, pensión o custodia",
       "urgente": false
     },
     {
-      "texto": "Solo quiero orientación",
+      "texto": "Me deben dinero o tengo un problema con una casa",
       "urgente": false
     }
   ],
