@@ -911,5 +911,137 @@
     "estado": "propuesta",
     "alta": "2026-11-03",
     "imagen_vista": "logo.jpg"
+  },
+  {
+    "slug": "abogados-de-oriente",
+    "nombre": "Lic. Felipe Alfonso Ugalde López",
+    "despacho": "Abogados de Oriente",
+    "sufijo": "Abogacía y consultoría jurídica",
+    "titulo": "Abogado · Especialista en derecho penal y amparos",
+    "iniciales": "FU",
+    "foto": "logo.jpg",
+    "logo": true,
+    "tema": "negro-oro",
+    "simbolo": "balanza",
+    "ciudad": "Iztapalapa, CDMX",
+    "telefono": "5528484426",
+    "whatsapp": "5528484426",
+    "otros_telefonos": [
+      "Oficina: 55 9200 7501"
+    ],
+    "correo": "felipeugalde2011@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61575816882807",
+    "direccion": "Chabacano 3, Col. San Juan Xalpa, Iztapalapa, 09850 Ciudad de México",
+    "descripcion": "Derecho penal, amparos, familiar, civil y laboral en la Ciudad de México",
+    "modalidad": "Asesoría 24/7",
+    "horario": {
+      "lunes": [
+        "00:00",
+        "23:59"
+      ],
+      "martes": [
+        "00:00",
+        "23:59"
+      ],
+      "miercoles": [
+        "00:00",
+        "23:59"
+      ],
+      "jueves": [
+        "00:00",
+        "23:59"
+      ],
+      "viernes": [
+        "00:00",
+        "23:59"
+      ],
+      "sabado": [
+        "00:00",
+        "23:59"
+      ],
+      "domingo": [
+        "00:00",
+        "23:59"
+      ]
+    },
+    "nota_horario": "Asesoría las 24 horas. Oficina: 55 9200 7501.",
+    "portada": [
+      "Tu libertad",
+      "es nuestra",
+      "prioridad."
+    ],
+    "texto_portada": "Especialistas en derecho penal y amparos, con asesoría las 24 horas. También te ayudamos con tu divorcio, pensión, custodia y asuntos civiles y laborales. Defensa efectiva, resultados reales.",
+    "frase": "Tu futuro legal en buenas manos.",
+    "compromisos": [
+      "Asesoría las 24 horas",
+      "Defensa efectiva, resultados reales",
+      "Asesoría personalizada",
+      "Oficina: 55 9200 7501"
+    ],
+    "areas": [
+      {
+        "nombre": "Penal",
+        "icono": "escudo",
+        "texto": "¿Detuvieron a un familiar o te acusan de un delito? Actuamos de inmediato, a cualquier hora.",
+        "puntos": [
+          "Asesoría 24/7 si detienen a un familiar",
+          "Defensa si te acusan de un delito, también delitos federales",
+          "Te representamos en audiencias y en todo el proceso",
+          "Litigio estratégico para tu caso"
+        ]
+      },
+      {
+        "nombre": "Amparos",
+        "icono": "balanza",
+        "texto": "Cuando una autoridad actúa contra tus derechos, el amparo es la forma de frenarla.",
+        "puntos": [
+          "Amparo contra órdenes de aprehensión",
+          "Amparo contra resoluciones de jueces y autoridades",
+          "Litigio en amparos"
+        ]
+      },
+      {
+        "nombre": "Familiar",
+        "icono": "familia",
+        "texto": "¿Problemas en tu matrimonio o quieres divorciarte? Te ayudamos.",
+        "puntos": [
+          "Divorcio exprés, voluntario o necesario",
+          "Pensión alimenticia",
+          "Custodia y convivencia con tus hijos",
+          "Patria potestad"
+        ]
+      },
+      {
+        "nombre": "Civil y laboral",
+        "icono": "maletin",
+        "texto": "Contratos, deudas, problemas con inmuebles o con tu trabajo.",
+        "puntos": [
+          "Contratos y problemas con inmuebles",
+          "Cobro de deudas",
+          "Despidos y reclamos laborales"
+        ]
+      }
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar en este momento",
+        "urgente": true
+      },
+      {
+        "texto": "Me acusan de un delito o recibí un citatorio",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero divorciarme o tengo un tema de pensión o custodia",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema civil o laboral",
+        "urgente": false
+      }
+    ],
+    "fuente": "Facebook, 2026-11-03",
+    "estado": "propuesta",
+    "alta": "2026-11-03"
   }
 ]
