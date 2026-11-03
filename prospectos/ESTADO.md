@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 7 · Vendidos: 0 · Borrados: 2
+Propuestas: 8 · Vendidos: 0 · Borrados: 2
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -13,3 +13,4 @@ Propuestas: 7 · Vendidos: 0 · Borrados: 2
 | 2026-10-31 | Consorcio Jurídico Alcántara & Asociados | /alcantara-asociados/ | propuesta | https://www.facebook.com/alcantaraasociados.consorciojuridico/ |
 | 2026-10-31 | Lic. Mayra Gallardo | /gallardo-asociados/ | propuesta | https://www.facebook.com/mayra.gallardo.3154/ |
 | 2026-11-01 | Guillén & Asociados Abogados | /guillen-asociados/ | propuesta | https://www.facebook.com/arturo.guillen.7902564/ |
+| 2026-11-03 | F&B Abogados Penalistas | /fb-abogados-penalistas/ | propuesta | https://www.facebook.com/profile.php?id=61592410335867 |

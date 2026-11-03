@@ -12,15 +12,16 @@ def tarjeta(a):
     t = TEMAS.get(a.get("tema", "negro-oro")) or NEGRO_ORO
     carpeta = os.path.join(PUBLICO, a["slug"])
     foto = ""
-    if a.get("foto") and os.path.exists(os.path.join(carpeta, a["foto"])):
-        foto = "data:image/jpeg;base64," + base64.b64encode(open(os.path.join(carpeta, a["foto"]), "rb").read()).decode()
+    img = a.get("imagen_vista") or a.get("foto")  # el logo va en la vista previa cuando lo hay
+    if img and os.path.exists(os.path.join(carpeta, img)):
+        foto = "data:image/jpeg;base64," + base64.b64encode(open(os.path.join(carpeta, img), "rb").read()).decode()
     nombre = f"{a['despacho']} {a.get('sufijo','')}".strip() if a.get("despacho") else a["nombre"]
     lema = " ".join(a.get("portada") or []) or a.get("frase", "")
     areas = " · ".join(area(x)["nombre"].replace("Derecho ", "").capitalize() for x in a.get("areas", [])[:5])
     tel = a.get("telefono", "")
     tel = f"{tel[:2]} {tel[2:6]} {tel[6:]}" if tel[:2] in ("55", "33", "81", "56") else f"{tel[:3]} {tel[3:6]} {tel[6:]}"
     lugar = a.get("ciudad", "")
-    lado = f'<div class="foto{" logo" if a.get("logo") else ""}"><img src="{foto}"></div>' if foto else f'<div class="foto mono">{H.escape(a.get("iniciales") or nombre[:2])}</div>'
+    lado = f'<div class="foto{" logo" if (a.get("logo") or a.get("imagen_vista")) else ""}"><img src="{foto}"></div>' if foto else f'<div class="foto mono">{H.escape(a.get("iniciales") or nombre[:2])}</div>'
     return f"""<html><head><link href="https://fonts.googleapis.com/css2?family=x" rel="stylesheet"><style>
 *{{margin:0;box-sizing:border-box}}
 body{{width:1200px;height:630px;background:radial-gradient(120% 120% at 0% 0%,{t['tarjeta']},{t['fondo']} 60%);color:#efe9df;font-family:Manrope,sans-serif;display:grid;grid-template-columns:1fr 400px;overflow:hidden}}
