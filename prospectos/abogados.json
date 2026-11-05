@@ -1043,5 +1043,136 @@
     "fuente": "Facebook, 2026-11-03",
     "estado": "propuesta",
     "alta": "2026-11-03"
+  },
+  {
+    "slug": "nicard-abogados",
+    "nombre": "Nicard Abogados",
+    "contacto": "Lic. Jorge Nicard",
+    "despacho": "Nicard",
+    "sufijo": "Abogados",
+    "titulo": "Ética · Integridad · Servicio",
+    "iniciales": "NA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "tema": "grafito-cobre",
+    "simbolo": "balanza",
+    "ciudad": "Cabo San Lucas, B.C.S.",
+    "telefono": "6241980397",
+    "whatsapp": "6241980397",
+    "telefono_original": "+62 419 80397 (Facebook)",
+    "correo": "lic.jorge.nicard@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61579720780037",
+    "direccion": "Cabo San Lucas, Baja California Sur, 23473",
+    "referencia": "Escríbenos por WhatsApp para darte la dirección exacta.",
+    "descripcion": "Defensa penal, derecho civil, amparo y representación de empresas en Cabo San Lucas",
+    "modalidad": "Siempre abierto",
+    "horario": {
+      "lunes": [
+        "00:00",
+        "23:59"
+      ],
+      "martes": [
+        "00:00",
+        "23:59"
+      ],
+      "miercoles": [
+        "00:00",
+        "23:59"
+      ],
+      "jueves": [
+        "00:00",
+        "23:59"
+      ],
+      "viernes": [
+        "00:00",
+        "23:59"
+      ],
+      "sabado": [
+        "00:00",
+        "23:59"
+      ],
+      "domingo": [
+        "00:00",
+        "23:59"
+      ]
+    },
+    "nota_horario": "Siempre abierto: escríbenos por WhatsApp a cualquier hora.",
+    "portada": [
+      "No dejamos",
+      "nada al azar."
+    ],
+    "texto_portada": "¿Te notificaron una demanda civil o te denunciaron por la vía penal? ¿Buscas proteger tu patrimonio o tu empresa? Protegemos tus derechos ante actos injustos, en Cabo San Lucas.",
+    "frase": "Ética. Integridad. Servicio.",
+    "compromisos": [
+      "Evaluamos las pruebas y diseñamos tu estrategia",
+      "Atendemos desde la detención o la investigación",
+      "Siempre abierto"
+    ],
+    "areas": [
+      {
+        "nombre": "Defensa penal",
+        "icono": "escudo",
+        "texto": "¿Te denunciaron o detuvieron a un familiar? Abordamos tu caso desde el inicio y no dejamos nada al azar.",
+        "puntos": [
+          "Defensa desde la detención o la investigación",
+          "Revisamos las pruebas en tu contra y diseñamos tu estrategia",
+          "Denuncias y querellas",
+          "Defensa penal fiscal (delitos ante el SAT)",
+          "Trámites cuando ya hay sentencia (ejecución penal)"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "balanza",
+        "texto": "¿Te demandaron, te deben o tienes un problema con un inmueble? Te representamos.",
+        "puntos": [
+          "Te notificaron una demanda civil: te defendemos",
+          "Incumplimiento de contratos",
+          "Desahucios (desalojo por falta de pago de renta)",
+          "Prescripción: hacerte dueño de un inmueble o liberarte de una deuda vieja",
+          "Divorcios"
+        ]
+      },
+      {
+        "nombre": "Amparo",
+        "icono": "escudo",
+        "texto": "La herramienta más poderosa cuando una autoridad (gobierno, jueces o policía) viola tus derechos.",
+        "puntos": [
+          "Amparo contra actos de autoridad",
+          "Amparo en procesos penales y civiles"
+        ]
+      },
+      {
+        "nombre": "Empresas",
+        "icono": "maletin",
+        "texto": "Protegemos tu patrimonio y tu negocio.",
+        "puntos": [
+          "Representación jurídica a empresas",
+          "Consultas y asesoría jurídica",
+          "Contratos y conflictos comerciales"
+        ]
+      }
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o me denunciaron",
+        "urgente": true
+      },
+      {
+        "texto": "Me notificaron una demanda civil",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero proteger mi patrimonio o mi empresa",
+        "urgente": false
+      },
+      {
+        "texto": "Solo quiero orientación",
+        "urgente": false
+      }
+    ],
+    "fuente": "Facebook, 2026-11-05",
+    "estado": "propuesta",
+    "alta": "2026-11-05"
   }
 ]
