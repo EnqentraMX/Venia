@@ -3,7 +3,7 @@ window.DATOS = {
   "vistaPrevia": false,
   "propuesta": "Valeria Sanjuan",
   "muestra": false,
-  "estilo": "marfil",
+  "estilo": "oro",
   "simbolo": "balanza",
   "despacho": "Servicios Legales",
   "sufijo": "V.S.",
