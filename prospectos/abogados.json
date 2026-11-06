@@ -1493,5 +1493,118 @@
     "estado": "propuesta",
     "alta": "2026-11-06",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "adrian-perez",
+    "nombre": "Lic. Adrián Pérez González",
+    "despacho": "Adrián Pérez González",
+    "sufijo": "Abogado",
+    "titulo": "Abogado litigante",
+    "iniciales": "AP",
+    "foto": "foto.jpg",
+    "tema": "negro-oro",
+    "plantilla": "v2",
+    "estilo": "oro",
+    "telefono": "5538795606",
+    "descripcion": "Abogado especialista en juicios mercantiles, civiles, familiares, laborales, agrarios y de amparo",
+    "modalidad": "Atención personalizada",
+    "portada": [
+      "Experiencia en juicio",
+      "para defender",
+      "lo que es tuyo."
+    ],
+    "texto_portada": "Abogado especialista en juicios mercantiles, civiles, familiares, laborales, agrarios y de amparo. Te explicamos tu caso con claridad y te representamos hasta el final.",
+    "frase": "Cada juicio se gana con preparación. Tu asunto, en manos de un especialista.",
+    "compromisos": [
+      "Te explicamos tu caso en palabras claras",
+      "Atención directa del licenciado",
+      "Seguimiento puntual de tu juicio"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me llegó una demanda o tengo un plazo que vence pronto",
+        "urgente": true
+      },
+      {
+        "texto": "Me deben dinero o tengo un pagaré sin cobrar",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema familiar: divorcio, pensión o custodia",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron o tengo un problema con mi terreno o ejido",
+        "urgente": false
+      },
+      {
+        "texto": "Una autoridad violó mis derechos y necesito un amparo",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Mercantil",
+        "icono": "acuerdo",
+        "texto": "Recupera tu dinero y resuelve conflictos de negocios.",
+        "puntos": [
+          "Cobro de pagarés, cheques y facturas",
+          "Juicios mercantiles",
+          "Te decimos tus opciones antes de demandar"
+        ]
+      },
+      {
+        "nombre": "Civil",
+        "icono": "balanza",
+        "texto": "Problemas con una casa, un contrato o alguien que no cumple.",
+        "puntos": [
+          "Contratos y arrendamientos",
+          "Juicios civiles",
+          "Propiedad y posesión de inmuebles"
+        ]
+      },
+      {
+        "nombre": "Familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda, custodia y convivencia"
+        ]
+      },
+      {
+        "nombre": "Laboral",
+        "icono": "maletin",
+        "texto": "¿Te despidieron o no te pagaron lo que te corresponde? Te ayudamos a reclamarlo.",
+        "puntos": [
+          "Despido injustificado",
+          "Finiquito, liquidación y prestaciones",
+          "Juicios laborales"
+        ]
+      },
+      {
+        "nombre": "Agrario",
+        "icono": "edificio",
+        "texto": "Defendemos tus derechos sobre tierras ejidales y comunales.",
+        "puntos": [
+          "Derechos ejidales y comunales",
+          "Juicios agrarios",
+          "Herencia de derechos agrarios"
+        ]
+      },
+      {
+        "nombre": "Juicio de amparo",
+        "icono": "escudo",
+        "texto": "Cuando una autoridad viola tus derechos, el amparo te protege.",
+        "puntos": [
+          "Amparo directo e indirecto",
+          "Suspensión del acto de autoridad"
+        ]
+      }
+    ],
+    "estado": "propuesta",
+    "alta": "2026-11-06",
+    "fuente": "Facebook"
   }
 ]
