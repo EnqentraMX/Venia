@@ -14,6 +14,7 @@ import json, os, re, shutil, unicodedata, datetime
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATOS = os.path.join(RAIZ, "prospectos", "abogados.json")
 PLANTILLA = os.path.join(RAIZ, "plantilla", "index.html")
+PLANTILLA_V2 = os.path.join(RAIZ, "plantilla", "v2.html")
 PUBLICO = os.path.join(RAIZ, "public")
 URL_BASE = "https://liclink.demomx.workers.dev"  # cambiar al comprar el dominio
 PROTEGIDOS = {"assets", "plantilla", "castillo-abogados", "gabriel-sanchez", "miguel-manzano", "dalia-marquez"}
@@ -99,6 +100,7 @@ def datos_js(a):
         "propuesta": nombre if estado == "propuesta" else "",
         "muestra": False,
         "tema": TEMAS.get(a.get("tema", "negro-oro")),
+        "estilo": a.get("estilo", "vino"),
         "simbolo": a.get("simbolo", "balanza"),
         "despacho": a.get("despacho") or re.sub(r"^(Lic\.|Licenciad[oa]|Abogad[oa]|Mtr[oa]\.?)\s+", "", nombre).split(" ")[0] + " " + (re.sub(r"^(Lic\.|Licenciad[oa]|Abogad[oa]|Mtr[oa]\.?)\s+", "", nombre).split(" ") + [""])[1],
         "sufijo": a.get("sufijo", "Abogados" if a.get("despacho") else "Asesoría jurídica"),
@@ -156,6 +158,7 @@ def cabecera(html, a):
 def main():
     lista = json.load(open(DATOS, encoding="utf-8")) if os.path.exists(DATOS) else []
     plantilla = open(PLANTILLA, encoding="utf-8").read()
+    v2 = open(PLANTILLA_V2, encoding="utf-8").read()
     usados = set()
     for a in lista:
         a.setdefault("slug", slugify(a["nombre"])); a.setdefault("estado", "propuesta"); a.setdefault("alta", datetime.date.today().isoformat())
@@ -166,7 +169,7 @@ def main():
             if os.path.isdir(carpeta): shutil.rmtree(carpeta)
             continue
         os.makedirs(carpeta, exist_ok=True)
-        html = plantilla
+        html = v2 if a.get("plantilla") == "v2" else plantilla
         if a["estado"] != "vendido":
             html = html.replace('<meta name="viewport"', '<meta name="robots" content="noindex, nofollow">\n<meta name="viewport"', 1)
         html = cabecera(html, a)
