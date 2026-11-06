@@ -11,6 +11,7 @@ window.DATOS = {
     "acento": "#cc8d5c",
     "acento2": "#ebb98f"
   },
+  "estilo": "oro",
   "simbolo": "balanza",
   "despacho": "Alcántara & Asociados",
   "sufijo": "Consorcio jurídico",

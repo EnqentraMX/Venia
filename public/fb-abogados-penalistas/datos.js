@@ -3,6 +3,7 @@ window.DATOS = {
   "vistaPrevia": false,
   "propuesta": "F&B Abogados Penalistas",
   "muestra": false,
+  "estilo": "oro",
   "simbolo": "balanza",
   "despacho": "F&B",
   "sufijo": "Abogados penalistas",

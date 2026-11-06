@@ -11,6 +11,7 @@ window.DATOS = {
     "acento": "#cfa465",
     "acento2": "#ead2a3"
   },
+  "estilo": "oro",
   "simbolo": "balanza",
   "despacho": "Gallardo & Asociados",
   "sufijo": "Servicios jurídicos",

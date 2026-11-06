@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 10 · Vendidos: 0 · Borrados: 2
+Propuestas: 11 · Vendidos: 0 · Borrados: 2
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -16,3 +16,4 @@ Propuestas: 10 · Vendidos: 0 · Borrados: 2
 | 2026-11-03 | F&B Abogados Penalistas | /fb-abogados-penalistas/ | propuesta | https://www.facebook.com/profile.php?id=61592410335867 |
 | 2026-11-03 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | propuesta | https://www.facebook.com/profile.php?id=61575816882807 |
 | 2026-11-05 | Nicard Abogados | /nicard-abogados/ | propuesta | https://www.facebook.com/profile.php?id=61579720780037 |
+| 2026-11-06 | Valeria Sanjuan | /servicios-legales-vs/ | propuesta | https://www.facebook.com/profile.php?id=61594826649462 |

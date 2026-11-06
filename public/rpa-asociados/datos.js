@@ -3,6 +3,7 @@ window.DATOS = {
   "vistaPrevia": false,
   "propuesta": "RPA & Asociados",
   "muestra": false,
+  "estilo": "oro",
   "simbolo": "balanza",
   "despacho": "RPA & Asociados",
   "sufijo": "Consultores jurídicos",

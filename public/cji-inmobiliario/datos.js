@@ -11,6 +11,7 @@ window.DATOS = {
     "acento": "#d2ae6c",
     "acento2": "#ecd29e"
   },
+  "estilo": "oro",
   "simbolo": "balanza",
   "despacho": "CJI",
   "sufijo": "Jurídico inmobiliario",

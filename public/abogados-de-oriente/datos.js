@@ -3,6 +3,7 @@ window.DATOS = {
   "vistaPrevia": false,
   "propuesta": "Lic. Felipe Alfonso Ugalde López",
   "muestra": false,
+  "estilo": "oro",
   "simbolo": "balanza",
   "despacho": "Abogados de Oriente",
   "sufijo": "Abogacía y consultoría jurídica",
