@@ -1290,5 +1290,123 @@
     "estado": "propuesta",
     "alta": "2026-11-06",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "israel-lopez-sanchez",
+    "nombre": "Lic. Israel Daniel López Sánchez",
+    "despacho": "Israel López Sánchez",
+    "sufijo": "Servicios Jurídicos",
+    "despacho_largo": "Lic. Israel Daniel López Sánchez · Servicios Jurídicos",
+    "titulo": "Abogado",
+    "iniciales": "IL",
+    "foto": "foto.jpg",
+    "imagen_vista": "logo.jpg",
+    "tema": "negro-oro",
+    "plantilla": "v2",
+    "estilo": "oro",
+    "telefono": "5550423909",
+    "correo": "licisraeldaniellopezsanchez120@gmail.com",
+    "descripcion": "Abogado en asuntos familiares, inmuebles, herencias, contratos y trámites notariales",
+    "modalidad": "Atención personalizada",
+    "portada": [
+      "Protegemos tu patrimonio,",
+      "tu familia",
+      "y tus derechos."
+    ],
+    "texto_portada": "Divorcios, pensión alimenticia, custodia, arrendamientos, compraventa de inmuebles, herencias, contratos y trámites notariales. Asesoría hoy, tranquilidad mañana.",
+    "frase": "Tu tranquilidad jurídica es nuestra prioridad.",
+    "compromisos": [
+      "Atención personalizada",
+      "Asesoría preventiva y correctiva",
+      "Cada asunto recibe atención directa y seguimiento profesional"
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo una demanda o una audiencia que vence pronto",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión para mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Mi inquilino no paga o no se quiere salir",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar y hay que arreglar la herencia",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero o tengo un pagaré sin cobrar",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Divorcios y familia",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcio voluntario o necesario, aunque tu pareja no esté de acuerdo",
+          "Pensión alimenticia: pedirla, aumentarla o reducirla",
+          "Guarda y custodia de tus hijos",
+          "Régimen de convivencia"
+        ]
+      },
+      {
+        "nombre": "Casas y terrenos",
+        "icono": "edificio",
+        "texto": "Protege tu patrimonio y tu tranquilidad.",
+        "puntos": [
+          "Juicios de arrendamiento y desalojos",
+          "Compraventa de inmuebles",
+          "Regularización y escrituración",
+          "Asesoría inmobiliaria antes de comprar o vender"
+        ]
+      },
+      {
+        "nombre": "Herencias",
+        "icono": "documento",
+        "texto": "Cuando alguien fallece, te ayudamos a que los bienes pasen a quien corresponde.",
+        "puntos": [
+          "Con testamento (sucesión testamentaria)",
+          "Sin testamento (sucesión intestamentaria)",
+          "Te explicamos qué documentos necesitas"
+        ]
+      },
+      {
+        "nombre": "Contratos y convenios",
+        "icono": "acuerdo",
+        "texto": "Documentos claros para que no tengas problemas después.",
+        "puntos": [
+          "Compraventa y arrendamiento",
+          "Préstamo y prestación de servicios",
+          "Convenios entre las partes"
+        ]
+      },
+      {
+        "nombre": "Cobro de pagarés y deudas",
+        "icono": "maletin",
+        "texto": "Recupera tu dinero por la vía legal.",
+        "puntos": [
+          "Pagarés, préstamos y deudas",
+          "Te decimos qué opciones tienes antes de demandar"
+        ]
+      },
+      {
+        "nombre": "Gestión y asesoría notarial",
+        "icono": "documento",
+        "texto": "Te ahorramos vueltas en tus trámites legales.",
+        "puntos": [
+          "Poderes",
+          "Ratificación de firmas",
+          "Trámites legales"
+        ]
+      }
+    ],
+    "estado": "propuesta",
+    "alta": "2026-11-06",
+    "fuente": "Facebook"
   }
 ]
