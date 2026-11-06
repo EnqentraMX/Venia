@@ -11,7 +11,7 @@ window.DATOS = {
     "acento": "#b8c4d1",
     "acento2": "#e4eaf0"
   },
-  "estilo": "vino",
+  "estilo": "marfil",
   "simbolo": "balanza",
   "despacho": "Leticia Reyna",
   "sufijo": "Despacho jurídico",

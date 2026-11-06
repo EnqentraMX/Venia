@@ -6,9 +6,10 @@
   const $$ = s => [...document.querySelectorAll(s)];
   const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const ok = '<svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>';
-  const estilo = D.estilo === "oro" ? "oro" : "vino";
+  const estilo = ["oro", "marfil", "vino"].includes(D.estilo) ? D.estilo : "oro";
   document.documentElement.dataset.estilo = estilo;
-  document.querySelector('meta[name="theme-color"]').content = estilo === "oro" ? "#0c0b0a" : "#ffffff";
+  document.querySelector('meta[name="theme-color"]').content = estilo === "vino" ? "#ffffff" : "#0c0b0a";
+  const quieto = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* ---------- WhatsApp y teléfono ---------- */
   const wa = msg => `https://wa.me/${D.whatsapp}?text=${encodeURIComponent(msg)}`;
@@ -24,7 +25,10 @@
   else { r.classList.add("mono"); r.innerHTML = `<span>${esc(D.iniciales || D.despacho.slice(0, 2))}</span>`; }
   if (D.titulo && D.titulo !== D.sufijo) $("#cargo").textContent = D.titulo; else $("#cargo").remove();
   const t = (D.portada && D.portada.titulo) || [D.despacho];
-  $("#titular").innerHTML = t.map((l, i) => i === t.length - 1 && t.length > 1 ? `<em>${esc(l)}</em>` : esc(l)).join(" ");
+  let n = 0;  // cada palabra sube por separado
+  const palabras = l => l.split(/\s+/).filter(Boolean).map(w => `<span class="w"><span style="--i:${n++}">${esc(w)}</span></span>`).join(" ");
+  $("#titular").innerHTML = t.map((l, i) => i === t.length - 1 && t.length > 1 ? `<em>${palabras(l)}</em>` : palabras(l)).join(" ");
+  [["#cargo", .1], ["#bajada", .45 + n * .07], [".acciones", .6 + n * .07], ["#sellos", .75 + n * .07]].forEach(([q, d]) => { const e = $(q); if (e) { e.classList.add("entra"); e.style.setProperty("--d", d + "s"); } });
   $("#bajada").textContent = (D.portada && D.portada.texto) || D.descripcion || "";
   const sellos = [];
   if (D.cedula) sellos.push(`${ok}Cédula ${esc(D.cedula)}`);
@@ -48,14 +52,15 @@
     `<button class="sit${s.urgente ? " urg" : ""}" type="button" data-i="${i}"><span>${s.urgente ? "<small>Urgente</small>" : ""}${esc(s.texto)}</span><span class="flecha">→</span></button>`).join("");
   function mensaje() {
     const l = [sitActual && sitActual.urgente ? "Hola, necesito ayuda URGENTE." : base];
-    const n = $("#hNombre").value.trim(), d = $("#hDetalle").value.trim();
-    if (n) l.push(`Mi nombre es ${n}.`);
+    const nm = $("#hNombre").value.trim(), d = $("#hDetalle").value.trim();
+    if (nm) l.push(`Mi nombre es ${nm}.`);
     if (sitActual) l.push(`• Situación: ${sitActual.texto}`);
     if (sitActual && sitActual.area) l.push(`• Tema: ${sitActual.area}`);
     if (d) l.push(`• Detalle: ${d}`);
     return l.join("\n");
   }
-  const actualizar = () => { $("#hEnviar").href = wa(mensaje()); };
+  const burbuja = $("#burbuja");
+  const actualizar = () => { const m = mensaje(); $("#hEnviar").href = wa(m); burbuja.textContent = m; burbuja.classList.remove("pulso"); void burbuja.offsetWidth; burbuja.classList.add("pulso"); };
   function abrir(s) {
     sitActual = s; $("#hojaTitulo").textContent = s.texto;
     $("#hojaUrgente").innerHTML = s.urgente && D.telefono ? `<div class="urgente"><b>Es urgente:</b> llama directo y te atendemos de inmediato.<a class="btn" href="tel:+52${D.telefono}">Llamar al ${esc(D.telefonoVisible)}</a></div>` : "";
@@ -136,4 +141,17 @@
     const v = ["BEGIN:VCARD", "VERSION:3.0", `FN:${D.abogado || D.despacho}`, `ORG:${D.despacho} ${D.sufijo || ""}`, D.telefono ? `TEL;TYPE=CELL:+52${D.telefono}` : "", D.correo ? `EMAIL:${D.correo}` : "", `URL:${location.href.split("#")[0]}`, "END:VCARD"].filter(Boolean).join("\r\n");
     const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([v], { type: "text/vcard" })); a.download = `${D.despacho.replace(/\W+/g, "-")}.vcf`; a.click();
   };
+
+  /* ---------- Movimiento al bajar ---------- */
+  const barra = $(".barra");
+  addEventListener("scroll", () => barra.classList.toggle("bajo", scrollY > 30), { passive: true });
+  const grupos = [".bloque h2", ".bloque > .nota", ".perfil blockquote", ".firma-perfil", ".verificar", ".ofi", ".horario", ".cierre > *"];
+  const listas = ["#situaciones > .sit", "#listaAreas > .area", "#listaPaquetes > .paq", "#compromisos > li", "#faq > details"];
+  const objetivos = [];
+  grupos.forEach(q => $$(q).forEach(e => objetivos.push(e)));
+  listas.forEach(q => $$(q).forEach((e, i) => { e.style.setProperty("--d", Math.min(i, 6) * 80 + "ms"); objetivos.push(e); }));
+  if (!quieto && "IntersectionObserver" in window) {
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("si"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -8% 0px" });
+    objetivos.forEach(e => { if (!e.matches("h2")) e.classList.add("rv"); io.observe(e); });
+  } else objetivos.forEach(e => e.classList.add("si"));
 })();
