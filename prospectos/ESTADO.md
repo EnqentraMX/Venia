@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 12 · Vendidos: 0 · Borrados: 2
+Propuestas: 13 · Vendidos: 0 · Borrados: 2
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -18,3 +18,4 @@ Propuestas: 12 · Vendidos: 0 · Borrados: 2
 | 2026-11-05 | Nicard Abogados | /nicard-abogados/ | propuesta | https://www.facebook.com/profile.php?id=61579720780037 |
 | 2026-11-06 | Valeria Sanjuan | /servicios-legales-vs/ | propuesta | https://www.facebook.com/profile.php?id=61594826649462 |
 | 2026-11-06 | Lic. Israel Daniel López Sánchez | /israel-lopez-sanchez/ | propuesta | 5550423909 |
+| 2026-11-06 | Lic. Ulises Barba Gutiérrez | /ulises-barba/ | propuesta | 4772442505 |
