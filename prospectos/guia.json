@@ -1,5 +1,33 @@
 [
  {
+  "slug": "salmeron-asociados",
+  "nombre": "Salmerón & Asociados Jurista",
+  "rol": "Abogado Víctor · Familiar, herencias, penal, civil y mercantil · Tonalá y Tlaquepaque",
+  "ciudad": "guadalajara",
+  "materias": [
+   "familiar",
+   "sucesiones",
+   "penal",
+   "civil",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/salmeron-asociados/logo.jpg",
+  "logo": true,
+  "iniciales": "VS",
+  "whatsapp": "523317875547",
+  "telefono": "3317875547",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/salmeron-asociados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-07",
+  "vence": "",
+  "pago": "pendiente"
+ },
+ {
   "slug": "firmeza-legal-palacios",
   "nombre": "Firmeza Legal Palacios",
   "rol": "Lic. Mónica Palacios · Penal, familiar y accidentes de trabajo",

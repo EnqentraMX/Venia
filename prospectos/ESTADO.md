@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 1 · Vendidos: 3 · Borrados: 17
+Propuestas: 1 · Vendidos: 4 · Borrados: 17
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -25,3 +25,4 @@ Propuestas: 1 · Vendidos: 3 · Borrados: 17
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Omar Israel Rosas V. | /omar-rosas/ | vendido | 5523075905 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
+| 2026-11-07 | Abogado Víctor Salmerón | /salmeron-asociados/ | vendido | 3317875547 |

@@ -2205,5 +2205,108 @@
     "ciudad": "Venustiano Carranza, CDMX",
     "direccion": "Calz. Ignacio Zaragoza 15, Moctezuma 1ra Secc., Venustiano Carranza, C.P. 15500, Ciudad de México",
     "referencia": "Agenda tu cita por WhatsApp."
+  },
+  {
+    "slug": "salmeron-asociados",
+    "nombre": "Abogado Víctor Salmerón",
+    "despacho": "Salmerón & Asociados",
+    "sufijo": "Jurista",
+    "despacho_largo": "Salmerón & Asociados Jurista · Abogado Víctor",
+    "titulo": "Abogado Víctor · Soluciones jurídicas",
+    "iniciales": "VS",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#111111",
+    "tema": "negro-oro",
+    "plantilla": "v2",
+    "estilo": "oro",
+    "ciudad": "Guadalajara, Tonalá y Tlaquepaque",
+    "telefono": "3317875547",
+    "descripcion": "Abogados en materia familiar, penal, civil y mercantil en Guadalajara, Tonalá y Tlaquepaque",
+    "modalidad": "Atención urgente",
+    "portada": [
+      "Le damos fin",
+      "a tus",
+      "problemas legales."
+    ],
+    "texto_portada": "Divorcios, custodia, pensiones, herencias, asuntos penales, civiles y mercantiles en Guadalajara, Tonalá y Tlaquepaque. Asesoría, estudio de tu caso y representación legal, con compromiso y honestidad.",
+    "frase": "Somos profesionales en virtud del compromiso y la honestidad. Resolvemos de manera urgente.",
+    "compromisos": [
+      "Compromiso y honestidad en cada caso",
+      "Atención urgente cuando la necesitas",
+      "Asesoría, estudio jurídico y representación legal",
+      "Servicio en Guadalajara, Tonalá y Tlaquepaque"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o me acusan de un delito",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito pensión o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar y hay que arreglar la herencia",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero o tengo un problema con un contrato",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Familiar",
+        "icono": "familia",
+        "texto": "Nuestra especialidad. Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Todo tipo de divorcios",
+          "Guarda y custodia",
+          "Pensión alimenticia",
+          "Pensión compensatoria",
+          "Acuerdos patrimoniales"
+        ]
+      },
+      {
+        "nombre": "Herencias",
+        "icono": "documento",
+        "texto": "Te ayudamos a que los bienes pasen a quien corresponde.",
+        "puntos": [
+          "Juicio sucesorio testamentario (con testamento)",
+          "Juicio sucesorio intestamentario (sin testamento)"
+        ]
+      },
+      {
+        "nombre": "Penal",
+        "icono": "escudo",
+        "texto": "Actuamos de manera urgente cuando hay una persona detenida o una acusación.",
+        "puntos": [
+          "Asistencia en el Ministerio Público",
+          "Defensa si te acusan de un delito",
+          "Si fuiste víctima: te acompañamos a denunciar"
+        ]
+      },
+      {
+        "nombre": "Civil y mercantil",
+        "icono": "acuerdo",
+        "texto": "Protege tu patrimonio y recupera lo que te deben.",
+        "puntos": [
+          "Cobro de pagarés y deudas",
+          "Contratos",
+          "Problemas con casas y terrenos",
+          "Juicios civiles y mercantiles"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-07",
+    "fuente": "Facebook"
   }
 ]
