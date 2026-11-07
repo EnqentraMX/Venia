@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 14 · Vendidos: 0 · Borrados: 2
+Propuestas: 15 · Vendidos: 0 · Borrados: 2
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -20,3 +20,4 @@ Propuestas: 14 · Vendidos: 0 · Borrados: 2
 | 2026-11-06 | Lic. Israel Daniel López Sánchez | /israel-lopez-sanchez/ | propuesta | 5550423909 |
 | 2026-11-06 | Lic. Ulises Barba Gutiérrez | /ulises-barba/ | propuesta | 4772442505 |
 | 2026-11-06 | Lic. Adrián Pérez González | /adrian-perez/ | propuesta | 5538795606 |
+| 2026-11-06 | Forseti Lex Despacho Jurídico | /forseti-lex/ | propuesta | 6251046138 |

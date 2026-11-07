@@ -35,7 +35,7 @@
   if (D.anios) sellos.push(`${ok}${esc(D.anios)} años de experiencia`);
   if (D.modalidad) sellos.push(`${ok}${esc(D.modalidad)}`);
   (D.oficinas || []).slice(0, 1).forEach(o => o.nombre && sellos.push(`<svg viewBox="0 0 24 24"><use href="#i-pin"/></svg>${esc(o.nombre)}`));
-  sellos.push(`${ok}Atención confidencial`);
+  if (!/confidencial/i.test(D.modalidad || "")) sellos.push(`${ok}Atención confidencial`);
   $("#sellos").innerHTML = sellos.map(s => `<li>${s}</li>`).join("");
   document.title = document.title === "Despacho jurídico" ? `${D.despacho} ${D.sufijo || ""}`.trim() : document.title;
 
