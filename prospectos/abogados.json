@@ -1959,5 +1959,136 @@
     "alta": "2026-11-06",
     "fuente": "Facebook",
     "fondo_logo": "#04203a"
+  },
+  {
+    "slug": "aranda-salgado",
+    "nombre": "Lic. Francisco Javier Aranda Salgado",
+    "despacho": "Aranda Salgado",
+    "sufijo": "Despacho Jurídico Pericial",
+    "despacho_largo": "Despacho Jurídico Pericial Aranda Salgado",
+    "titulo": "Abogados y peritos · Dir. Lic. Francisco Javier Aranda Salgado",
+    "iniciales": "AS",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "tema": "negro-oro",
+    "plantilla": "v2",
+    "estilo": "oro",
+    "ciudad": "Lerma, Edo. Méx.",
+    "telefono": "5518483225",
+    "whatsapp": "5518483225",
+    "otros_telefonos": [
+      "7224047024",
+      "7223548783",
+      "7281035983"
+    ],
+    "direccion": "Andrés Soler 6, El Porvenir II, Lerma, Estado de México, C.P. 52104",
+    "referencia": "Oficina: 728 103 5983",
+    "facebook": "https://www.facebook.com/profile.php?id=100035815099653",
+    "descripcion": "Abogados en materia civil, mercantil, penal, familiar, laboral y agraria. Peritos en dactiloscopia, grafología y hechos de tránsito",
+    "modalidad": "Abogados y peritos",
+    "portada": [
+      "Defensa legal",
+      "y peritajes",
+      "que hacen la diferencia."
+    ],
+    "texto_portada": "Asesoría y representación ante el Ministerio Público, con o sin detenido, y ante tribunales civiles, mercantiles y agrarios. Además, peritajes en dactiloscopia, grafología y hechos de tránsito.",
+    "frase": "Un buen caso se gana con pruebas. Por eso somos abogados y peritos.",
+    "compromisos": [
+      "Asesoría y representación en cada etapa",
+      "Peritajes propios: huellas, firmas y accidentes de tránsito",
+      "Atención en Lerma y el Estado de México",
+      "Confidencialidad total"
+    ],
+    "situaciones": [
+      {
+        "texto": "Hay una persona detenida en el Ministerio Público",
+        "urgente": true
+      },
+      {
+        "texto": "Tuve un accidente de tránsito y necesito un perito",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito un peritaje de firma o de huellas",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero o tengo un problema con un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema familiar, laboral o con un terreno ejidal",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Penal",
+        "icono": "escudo",
+        "texto": "Te representamos ante el Ministerio Público, con o sin detenido.",
+        "puntos": [
+          "Asistencia inmediata si hay una persona detenida",
+          "Defensa si te acusan de un delito",
+          "Si fuiste víctima: te acompañamos a denunciar",
+          "Representación en audiencias"
+        ]
+      },
+      {
+        "nombre": "Peritajes",
+        "icono": "lupa",
+        "texto": "Pruebas técnicas que pueden cambiar el rumbo de tu caso.",
+        "puntos": [
+          "Dactiloscopia: análisis de huellas dactilares",
+          "Grafología: revisión de firmas y documentos",
+          "Hechos de tránsito: dictamen de accidentes"
+        ]
+      },
+      {
+        "nombre": "Civil y mercantil",
+        "icono": "acuerdo",
+        "texto": "Representación ante tribunales civiles y mercantiles.",
+        "puntos": [
+          "Cobro de pagarés y deudas",
+          "Contratos y arrendamientos",
+          "Problemas con casas y terrenos",
+          "Juicios civiles y mercantiles"
+        ]
+      },
+      {
+        "nombre": "Familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda, custodia y convivencia"
+        ]
+      },
+      {
+        "nombre": "Laboral",
+        "icono": "maletin",
+        "texto": "¿Te despidieron o no te pagaron lo que te corresponde? Te ayudamos a reclamarlo.",
+        "puntos": [
+          "Despido injustificado",
+          "Finiquito y liquidación"
+        ]
+      },
+      {
+        "nombre": "Agrario",
+        "icono": "edificio",
+        "texto": "Representación ante tribunales agrarios.",
+        "puntos": [
+          "Derechos ejidales y comunales",
+          "Juicios agrarios",
+          "Herencia de derechos agrarios"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-06",
+    "fuente": "Facebook"
   }
 ]

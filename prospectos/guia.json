@@ -58,6 +58,36 @@
   "pago": "pendiente"
  },
  {
+  "slug": "aranda-salgado",
+  "nombre": "Despacho Jurídico Pericial Aranda Salgado",
+  "rol": "Abogados y peritos · Lerma",
+  "ciudad": "edomex",
+  "materias": [
+   "penal",
+   "civil",
+   "mercantil",
+   "familiar",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/aranda-salgado/logo.jpg",
+  "logo": true,
+  "iniciales": "AS",
+  "whatsapp": "525518483225",
+  "telefono": "5518483225",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/aranda-salgado/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=100035815099653"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-06",
+  "vence": "",
+  "pago": "pendiente"
+ },
+ {
   "slug": "nhg-abogados",
   "nombre": "NHG Abogados",
   "rol": "Dr. Nimrod Huerta · Despacho en Tijuana",
