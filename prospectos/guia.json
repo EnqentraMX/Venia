@@ -111,9 +111,9 @@
   },
   "resena": "",
   "estado": "activo",
-  "alta": "2026-11-06",
-  "vence": "",
-  "pago": "pendiente"
+  "alta": "2026-11-07",
+  "vence": "2026-12-08",
+  "pago": "pagado ($400 alta, folio LL-0001)"
  },
  {
   "slug": "forseti-lex",
