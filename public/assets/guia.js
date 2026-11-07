@@ -144,6 +144,11 @@
 
   /* ---------- Portada: pregúntale a un abogado ---------- */
   var pf = $("#pregunta");
+  if (pf) {
+    var pt = $("#pTexto"), pc = $("#pCuenta");
+    pt.addEventListener("input", function () { pc.textContent = pt.value.length + " / 600"; });
+    $$("[data-idea]").forEach(function (b) { b.addEventListener("click", function () { pt.value = b.getAttribute("data-idea") + " "; pt.dispatchEvent(new Event("input")); pt.focus(); }); });
+  }
   if (pf) pf.addEventListener("submit", function (e) {
     e.preventDefault();
     var t = $("#pTexto").value.trim(); if (!t) return;

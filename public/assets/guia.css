@@ -282,17 +282,32 @@ section{padding:64px 0}
 .historia-caja{margin:0 12px;border-radius:24px}
 @media (min-width:760px){.historia-caja{margin:0 24px;border-radius:32px}}
 /* Pregúntale a un abogado */
-.pregunta{margin-top:18px;background:var(--blanco);border:1px solid var(--linea);box-shadow:var(--sombra);border-radius:14px;padding:18px}
-.pregunta h2{font-size:22px;letter-spacing:-.02em}
-.pregunta p{color:var(--gris);font-size:15px;margin-top:4px}
-.pregunta textarea{width:100%;margin-top:12px;min-height:92px;border:1.5px solid var(--linea);border-radius:10px;padding:12px 14px;font-size:16px;resize:vertical;background:var(--marfil)}
-.pregunta textarea:focus{outline:none;border-color:var(--oro-t);background:#fff}
-.pregunta .fila{display:grid;gap:8px;margin-top:10px}
-.pregunta select{min-height:52px;border:1.5px solid var(--linea);border-radius:10px;padding:0 12px;background:#fff;font-weight:600}
-.pregunta small{display:block;margin-top:10px;color:var(--gris);font-size:13px}
-@media (min-width:760px){.pregunta{max-width:860px}.pregunta .fila{grid-template-columns:1fr auto}}
+.preg-sec{padding:8px 0 36px}
+.pregunta{background:var(--blanco);border:1px solid var(--linea);border-radius:20px;padding:20px;box-shadow:0 2px 4px rgba(40,30,10,.04),0 22px 48px -26px rgba(60,40,10,.35)}
+.preg-cab{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:start}
+.preg-ic{width:48px;height:48px;border-radius:14px;background:#f6ecd6;color:var(--oro-t);display:grid;place-items:center}
+.preg-ic svg{width:26px;height:26px}
+.pregunta h2{font-size:22px;line-height:1.2}
+.preg-cab p{color:var(--gris);font-size:15px;margin-top:4px;line-height:1.45}
+.preg-caja{position:relative;margin-top:16px}
+.pregunta textarea{display:block;width:100%;min-height:118px;border:1.5px solid var(--linea);border-radius:14px;padding:14px 14px 30px;font:500 16px/1.5 var(--sans);resize:none;background:#fcfaf6;color:var(--tinta);transition:border-color .2s,box-shadow .2s,background .2s}
+.pregunta textarea::placeholder{color:#8f887d}
+.pregunta textarea:focus{outline:none;border-color:var(--oro-t);background:#fff;box-shadow:0 0 0 4px rgba(212,176,106,.22)}
+.cuenta{position:absolute;right:12px;bottom:9px;font-size:12px;color:#8f887d;font-weight:600}
+.ideas{display:flex;gap:8px;overflow-x:auto;margin:12px -20px 0;padding:0 20px 2px;scrollbar-width:none;align-items:center}
+.ideas::-webkit-scrollbar{display:none}
+.ideas span{flex:none;font-size:13px;font-weight:700;color:var(--gris)}
+.ideas button{flex:none;border:1px solid var(--linea);background:var(--marfil);border-radius:99px;padding:8px 12px;font:600 13.5px/1 var(--sans);color:var(--tinta);cursor:pointer}
+.ideas button:hover{border-color:var(--oro-t)}
+.pregunta .fila{display:grid;gap:10px;margin-top:14px}
+.pregunta select{min-height:54px;border:1.5px solid var(--linea);border-radius:12px;padding:0 14px;background:#fff;font:700 16px var(--sans);color:var(--tinta)}
+.pregunta .btn{border-radius:12px}
+.preg-pasos{list-style:none;padding:14px 0 0;margin-top:16px;border-top:1px solid var(--linea);display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.preg-pasos li{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;font-size:12.5px;font-weight:600;color:var(--gris);line-height:1.3}
+.preg-pasos b{width:26px;height:26px;border-radius:50%;background:var(--tinta);color:var(--oro2);display:grid;place-items:center;font-size:13px}
+@media (min-width:760px){.pregunta{max-width:860px;padding:28px}.pregunta .fila{grid-template-columns:1fr auto}.ideas{margin:12px 0 0;padding:0;flex-wrap:wrap}}
 /* Destacados */
-.destacados{display:flex;gap:12px;overflow-x:auto;margin:24px -20px 0;padding:4px 20px 14px;scroll-snap-type:x mandatory;scrollbar-width:none}
+.destacados{display:flex;gap:12px;overflow-x:auto;margin:24px -20px 0;padding:4px 20px 14px;scroll-snap-type:x mandatory;scroll-padding:0 20px;scrollbar-width:none}
 .destacados::-webkit-scrollbar{display:none}
 .destacados .ficha{flex:0 0 86%;scroll-snap-align:start}
 @media (min-width:760px){.destacados{margin:24px 0 0;padding:4px 0 14px}.destacados .ficha{flex:0 0 360px}}

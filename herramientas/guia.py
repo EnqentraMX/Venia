@@ -9,13 +9,13 @@ Uso: python3 herramientas/guia.py
 """
 import json, os, html as H, sys
 sys.path.insert(0, os.path.dirname(__file__))
-from generar import DATOS, PUBLICO, URL_BASE, area, slugify
+from generar import DATOS, PUBLICO, URL_BASE, area, slugify, version
 
 CIUDADES = {"cdmx": ("Ciudad de México", "CDMX"), "edomex": ("Estado de México", "Edomex"),
             "guadalajara": ("Guadalajara", "Jalisco"), "puebla": ("Puebla", "Puebla"),
             "monterrey": ("Monterrey", "Nuevo León"), "tijuana": ("Tijuana", "Baja California"), "leon": ("León", "Guanajuato"),
             "chihuahua": ("Chihuahua", "Chihuahua"), "san-luis-potosi": ("San Luis Potosí", "SLP"), "los-cabos": ("Los Cabos", "Baja California Sur"),
-            "yucatan": ("Yucatán", "Yucatán")}
+            "yucatan": ("Yucatán", "Yucatán"), "queretaro": ("Querétaro", "Querétaro")}
 PRINCIPALES = ["cdmx", "edomex", "guadalajara", "puebla"]
 FONDOS = {"cdmx": "radial-gradient(90% 80% at 100% 0%,#6b5326 0%,transparent 60%),linear-gradient(160deg,#1e1a14,#0c0b0a)",
           "edomex": "radial-gradient(90% 80% at 0% 0%,#4f4a2b 0%,transparent 60%),linear-gradient(200deg,#1a1913,#0c0b0a)",
@@ -56,6 +56,7 @@ SIMBOLOS = """<svg width="0" height="0" style="position:absolute" aria-hidden="t
 <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9H16l.6-4h-3.1V8.9c0-.6.3-.9.5-.9z"/></symbol>
 <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></g></symbol>
 <symbol id="i-tiktok" viewBox="0 0 24 24"><path fill="currentColor" d="M16.6 3c.4 2.2 1.8 3.7 4 3.9v3.3c-1.5 0-2.8-.4-4-1.2v6.3c0 3.5-2.6 5.7-5.6 5.7-3.2 0-5.6-2.5-5.6-5.5 0-3.4 2.9-5.9 6.5-5.4v3.4c-1.6-.4-3.1.6-3.1 2.1 0 1.2 1 2.1 2.2 2.1 1.4 0 2.3-.9 2.3-2.6V3h3.3z"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5" stroke-linecap="round"/></g></symbol>
 <symbol id="i-web" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></g></symbol>
 """ + "".join(f'<symbol id="m-{k}" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">{v}</g></symbol>' for k, v in ICONOS.items()) + "</svg>"
 
@@ -83,7 +84,7 @@ def cabeza(titulo, desc, ruta, robots=""):
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c0b0a'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='800' font-size='36' text-anchor='middle' fill='%23d4b06a'%3EL%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/guia.css">
+<link rel="stylesheet" href="/assets/guia.css?v={version('guia.css')}">
 </head>
 """
 
@@ -106,7 +107,7 @@ PIE = """<footer class="pie"><div class="w">
 
 
 def fin():
-    return SIMBOLOS + '\n<script src="/assets/guia-datos.js" defer></script>\n<script src="/assets/guia.js" defer></script>\n</body>\n</html>\n'
+    return SIMBOLOS + '\n<script src="/assets/guia-datos.js?v=' + version('guia-datos.js') + '" defer></script>\n<script src="/assets/guia.js?v=' + version('guia.js') + '" defer></script>\n</body>\n</html>\n'
 
 
 def opciones_ciudad(sel="cdmx"):
@@ -171,13 +172,18 @@ def portada():
     <li><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Contacto directo por WhatsApp</li>
     <li><svg viewBox="0 0 24 24"><use href="#i-candado"/></svg>Gratis y confidencial para ti</li>
   </ul>
-  <form class="pregunta entra" id="pregunta" style="--d:1.1s">
-    <h2>Pregúntale gratis a un abogado</h2>
-    <p>Escribe tu duda y un abogado de LicLink te responde por WhatsApp. Sin compromiso.</p>
-    <label class="oculto" for="pTexto">Tu pregunta</label>
-    <textarea id="pTexto" required maxlength="600" placeholder="Ej. Me despidieron sin darme finiquito, ¿qué puedo hacer?"></textarea>
-    <div class="fila"><select id="pCiudad" aria-label="Tu ciudad">{opciones_ciudad()}</select><button class="btn btn-oro" type="submit">{WA}Enviar mi pregunta</button></div>
-    <small>Tu pregunta es confidencial. No publicamos tu nombre.</small>
+</div></section>
+
+<section class="preg-sec" id="preguntar"><div class="w">
+  <form class="pregunta rv" id="pregunta">
+    <div class="preg-cab"><span class="preg-ic"><svg viewBox="0 0 24 24"><use href="#i-chat"/></svg></span>
+      <div><h2>¿Tienes una duda legal?</h2><p>Pregunta gratis y sin dar tu nombre. Un abogado te responde por WhatsApp.</p></div></div>
+    <div class="preg-caja"><label class="oculto" for="pTexto">Tu pregunta</label>
+      <textarea id="pTexto" required maxlength="600" rows="4" placeholder="Escribe tu pregunta aquí. Ej. Me despidieron sin darme finiquito, ¿qué puedo hacer?"></textarea>
+      <span class="cuenta" id="pCuenta">0 / 600</span></div>
+    <div class="ideas"><span>Ideas:</span><button type="button" data-idea="¿Cuánto tarda un divorcio?">¿Cuánto tarda un divorcio?</button><button type="button" data-idea="Me despidieron sin finiquito">Me despidieron sin finiquito</button><button type="button" data-idea="¿Cómo pido pensión para mis hijos?">¿Cómo pido pensión para mis hijos?</button><button type="button" data-idea="Me deben dinero con pagaré">Me deben dinero con pagaré</button><button type="button" data-idea="Detuvieron a un familiar, ¿qué hago?">Detuvieron a un familiar, ¿qué hago?</button></div>
+    <div class="fila"><select id="pCiudad" aria-label="Tu ciudad">{opciones_ciudad()}</select><button class="btn btn-oro" type="submit">Preguntar gratis<svg viewBox="0 0 24 24"><use href="#i-flecha"/></svg></button></div>
+    <ol class="preg-pasos"><li><b>1</b>Escribes tu duda</li><li><b>2</b>Un abogado la revisa</li><li><b>3</b>Te responde por WhatsApp</li></ol>
   </form>
 </div></section>
 
@@ -401,13 +407,13 @@ def escribir(ruta, txt):
 
 
 def main():
+    escribir(os.path.join(PUBLICO, "assets", "guia-datos.js"), datos_guia())
     escribir(os.path.join(PUBLICO, "index.html"), portada())
     escribir(os.path.join(PUBLICO, "para-abogados", "index.html"), para_abogados())
     for c in CIUDADES:
         escribir(os.path.join(PUBLICO, "abogados", c, "index.html"), listado(c))
         for m in MATERIAS:
             escribir(os.path.join(PUBLICO, "abogados", c, m, "index.html"), listado(c, m))
-    escribir(os.path.join(PUBLICO, "assets", "guia-datos.js"), datos_guia())
     print("Guía lista:", len(CIUDADES), "ciudades ×", len(MATERIAS), "materias")
 
 

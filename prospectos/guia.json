@@ -1,5 +1,28 @@
 [
  {
+  "slug": "firmeza-legal-palacios",
+  "nombre": "Firmeza Legal Palacios",
+  "rol": "Lic. Mónica Palacios · Penal, familiar y accidentes de trabajo",
+  "ciudad": "queretaro",
+  "materias": [
+   "penal",
+   "familiar",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/firmeza-legal-palacios/logo.jpg",
+  "logo": true,
+  "iniciales": "FL",
+  "whatsapp": "525562279619",
+  "telefono": "5562279619",
+  "verificada": false,
+  "pagina": "/firmeza-legal-palacios/",
+  "redes": {
+   "facebook": "https://www.facebook.com/monica.palaciosavila.3"
+  },
+  "resena": ""
+ },
+ {
   "slug": "nhg-abogados",
   "nombre": "NHG Abogados",
   "rol": "Dr. Nimrod Huerta · Despacho en Tijuana",

@@ -133,6 +133,11 @@ def datos_js(a):
     if not d["tema"]: del d["tema"]
     return "/* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */\nwindow.DATOS = " + json.dumps(d, ensure_ascii=False, indent=2) + ";\n"
 
+def version(arch):
+    import hashlib
+    ruta = os.path.join(PUBLICO, "assets", arch)
+    return hashlib.md5(open(ruta, "rb").read()).hexdigest()[:8] if os.path.exists(ruta) else "1"
+
 def cabecera(html, a):
     """Título, descripción y vista previa (WhatsApp/Facebook) propios de cada abogado. Los buscadores y Messenger no ejecutan JS."""
     import html as H
@@ -151,6 +156,8 @@ def cabecera(html, a):
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 """
+    for arch in ("v2.css", "v2.js", "liclink.css", "despacho.js"):  # versión en el nombre: el celular nunca se queda con una copia vieja
+        html = html.replace(f"/assets/{arch}\"", f"/assets/{arch}?v={version(arch)}\"")
     html = html.replace("<title>Despacho jurídico</title>", f"<title>{H.escape(titulo)}</title>", 1)
     html = html.replace('<meta name="description" content="">', f'<meta name="description" content="{H.escape(desc)}">\n{og}', 1)
     return html
