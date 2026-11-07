@@ -142,7 +142,7 @@ def ficha_html(a, clase="ficha"):
     acc += f'<a class="btn btn-wa{"" if a.get("telefono") else " uno"}" target="_blank" rel="noopener" href="{e(wa_url(a["whatsapp"], "Hola, lo encontré en LicLink. Necesito asesoría."))}" data-evento="whatsapp" data-slug="{e(a["slug"])}">{WA}WhatsApp</a>'
     if a.get("telefono"): acc += f'<a class="btn btn-linea" href="tel:+52{e(a["telefono"])}" data-evento="llamada" data-slug="{e(a["slug"])}">Llamar</a>'
     if prem and a.get("resena"): acc += f'<a class="btn btn-linea uno" target="_blank" rel="noopener" href="{e(a["resena"])}">★ Ver y dejar reseñas en Google</a>'
-    return (f'<article class="{clase}{" prem" if prem else ""}" data-plan="{a["plan"]}"><div class="foto{" logo" if a.get("logo") else ""}">{foto}</div><div>'
+    return (f'<article class="{clase}{" prem" if prem else ""}" data-plan="{a["plan"]}"><div class="foto{" logo" if a.get("logo") else ""}"{f' style="background:{e(a["fondo"])}"' if a.get("fondo") else ""}>{foto}</div><div>'
             + ('<span class="sello-p">Destacado</span>' if prem else "")
             + f'<h3>{e(a["nombre"])}</h3><div class="rol">{rol}</div>{ver}'
             + (f'<div class="redes">{redes}</div>' if redes else "") + f'<div class="tags">{tags}</div></div><div class="acc">{acc}</div></article>')

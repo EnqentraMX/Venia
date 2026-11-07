@@ -1,7 +1,7 @@
 [
  {
   "slug": "abogados-de-oriente",
-  "nombre": "Abogados de Oriente",
+  "nombre": "Abogados Penalistas de Oriente",
   "rol": "Lic. Felipe Ugalde · Penal y amparos · Iztapalapa",
   "ciudad": "cdmx",
   "materias": [
@@ -14,7 +14,7 @@
   "plan": "premium",
   "foto": "/abogados-de-oriente/logo.jpg",
   "logo": true,
-  "iniciales": "AO",
+  "iniciales": "AP",
   "whatsapp": "525528484426",
   "telefono": "5528484426",
   "verificada": false,
@@ -27,7 +27,8 @@
   "estado": "activo",
   "alta": "2026-11-07",
   "vence": "",
-  "pago": "pendiente"
+  "pago": "pendiente",
+  "fondo": "#fefefe"
  },
  {
   "slug": "servicios-legales-vs",
