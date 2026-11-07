@@ -1041,8 +1041,12 @@
       }
     ],
     "fuente": "Facebook, 2026-11-03",
-    "estado": "borrar",
-    "alta": "2026-11-03"
+    "estado": "vendido",
+    "alta": "2026-11-07",
+    "plan": "premium",
+    "plantilla": "v2",
+    "estilo": "oro",
+    "fondo_logo": "#0b0b0b"
   },
   {
     "slug": "nicard-abogados",

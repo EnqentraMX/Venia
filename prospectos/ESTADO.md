@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 1 · Vendidos: 5 · Borrados: 16
+Propuestas: 1 · Vendidos: 6 · Borrados: 15
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -14,7 +14,6 @@ Propuestas: 1 · Vendidos: 5 · Borrados: 16
 | 2026-11-01 | Guillén & Asociados Abogados | /guillen-asociados/ | borrar | https://www.facebook.com/arturo.guillen.7902564/ |
 | 2026-11-01 | Lic. Julio Alberto Ibarra Pérez | /estudio-juridico-ibarra/ | borrar | 3322207121 |
 | 2026-11-03 | F&B Abogados Penalistas | /fb-abogados-penalistas/ | borrar | https://www.facebook.com/profile.php?id=61592410335867 |
-| 2026-11-03 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | borrar | https://www.facebook.com/profile.php?id=61575816882807 |
 | 2026-11-05 | Nicard Abogados | /nicard-abogados/ | borrar | https://www.facebook.com/profile.php?id=61579720780037 |
 | 2026-11-06 | Lic. Israel Daniel López Sánchez | /israel-lopez-sanchez/ | borrar | 5550423909 |
 | 2026-11-06 | Lic. Ulises Barba Gutiérrez | /ulises-barba/ | borrar | 4772442505 |
@@ -24,5 +23,6 @@ Propuestas: 1 · Vendidos: 5 · Borrados: 16
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Omar Israel Rosas V. | /omar-rosas/ | vendido | 5523075905 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
+| 2026-11-07 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | vendido | https://www.facebook.com/profile.php?id=61575816882807 |
 | 2026-11-07 | Valeria Sanjuan | /servicios-legales-vs/ | vendido | https://www.facebook.com/profile.php?id=61594826649462 |
 | 2026-11-07 | Abogado Víctor Salmerón | /salmeron-asociados/ | vendido | 3317875547 |
