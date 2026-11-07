@@ -1,0 +1,161 @@
+/* LicLink · Guía de abogados. Un solo archivo para portada, listados por ciudad y registro. */
+(function () {
+  "use strict";
+  /* ====== CONFIGURACIÓN ====== */
+  // Número de WhatsApp de LicLink (10 dígitos con 52 adelante, ej. "5215512345678"). Aquí llegan registros y clientes sin abogado.
+  var LICLINK_WA = "";
+  var CIUDADES = {
+    cdmx: "Ciudad de México", edomex: "Estado de México", guadalajara: "Guadalajara", puebla: "Puebla"
+  };
+  var MATERIAS = {
+    penal: ["Penal", "Detenciones, denuncias y defensa"],
+    familiar: ["Familiar", "Divorcio, pensión y custodia"],
+    laboral: ["Laboral", "Despidos y liquidaciones"],
+    civil: ["Civil e inmobiliario", "Casas, terrenos, rentas y contratos"],
+    mercantil: ["Mercantil", "Pagarés, deudas y cobranza"],
+    sucesiones: ["Herencias", "Testamentos e intestados"],
+    amparo: ["Amparo", "Contra abusos de autoridad"],
+    fiscal: ["Fiscal", "SAT, multas y embargos"]
+  };
+  /* =========================== */
+
+  var $ = function (s, c) { return (c || document).querySelector(s); };
+  var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
+  var esc = function (t) { return String(t == null ? "" : t).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  var quieto = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var wa = function (num, msg) { return "https://wa.me/" + num + "?text=" + encodeURIComponent(msg); };
+  var ok = '<svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>';
+
+  /* Enlaces de WhatsApp a LicLink */
+  $$(".js-liclink").forEach(function (a) {
+    var msg = a.getAttribute("data-msg") || "Hola, quiero información de LicLink.";
+    if (LICLINK_WA) { a.href = wa(LICLINK_WA, msg); a.target = "_blank"; a.rel = "noopener"; }
+    else if (!a.getAttribute("href")) a.href = "/para-abogados/#registro";
+  });
+
+  /* Barra con sombra al bajar */
+  var barra = $(".barra");
+  if (barra) addEventListener("scroll", function () { barra.classList.toggle("bajo", scrollY > 20); }, { passive: true });
+
+  /* ---------- Portada: buscador ---------- */
+  var fb = $("#buscar");
+  if (fb) fb.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var c = $("#bCiudad").value, m = $("#bMateria").value;
+    location.href = "/abogados/" + c + "/" + (m ? m + "/" : "");
+  });
+  $$("[data-atajo]").forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      var c = ($("#bCiudad") && $("#bCiudad").value) || "cdmx";
+      location.href = "/abogados/" + c + "/" + a.getAttribute("data-atajo") + "/";
+    });
+  });
+
+  /* ---------- Portada: historia en el teléfono ---------- */
+  var chat = $("#chat");
+  if (chat) {
+    var guion = [
+      { t: "yo", x: "Buenas noches. Detuvieron a mi hijo hace una hora 😟 ¿Qué hago?", h: "11:42 p.m.", e: 0 },
+      { t: "el", x: "Buenas noches, soy el Lic. Ramírez. Tranquila: ¿en qué Ministerio Público está?", h: "11:44 p.m.", e: 1 },
+      { t: "yo", x: "En la agencia de Coyoacán", h: "11:44 p.m." },
+      { t: "el", x: "Voy en camino. Que no firme nada hasta que yo llegue.", h: "11:45 p.m." },
+      { t: "sep", x: "3 horas después" },
+      { t: "yo", x: "Ya está en casa. Gracias, licenciado 🙏", h: "2:51 a.m.", e: 2 }
+    ];
+    var etapas = $$(".etapas li"), pantalla = $(".pantalla");
+    var activa = function (i) { etapas.forEach(function (li, k) { li.classList.toggle("activa", k === i); }); pantalla.classList.toggle("calma", i === 2); };
+    var corre = false;
+    var reproducir = function () {
+      if (corre) return; corre = true;
+      chat.innerHTML = ""; activa(0);
+      var i = 0;
+      var paso = function () {
+        if (i >= guion.length) { setTimeout(function () { corre = false; reproducir(); }, 4200); return; }
+        var g = guion[i++];
+        var poner = function () {
+          var d = document.createElement("div");
+          d.className = "msg " + g.t;
+          d.innerHTML = esc(g.x) + (g.h ? "<time>" + g.h + "</time>" : "");
+          chat.appendChild(d);
+          while (chat.children.length > 6) chat.removeChild(chat.firstChild);
+          if (g.e != null) activa(g.e);
+          setTimeout(paso, g.t === "sep" ? 900 : 1500);
+        };
+        if (g.t === "el") {
+          var tp = document.createElement("div"); tp.className = "escribiendo"; tp.innerHTML = "<i></i><i></i><i></i>";
+          chat.appendChild(tp); setTimeout(function () { tp.remove(); poner(); }, 1300);
+        } else poner();
+      };
+      paso();
+    };
+    if (quieto) { guion.forEach(function (g) { var d = document.createElement("div"); d.className = "msg " + g.t; d.innerHTML = esc(g.x) + (g.h ? "<time>" + g.h + "</time>" : ""); chat.appendChild(d); }); activa(2); }
+    else if ("IntersectionObserver" in window) new IntersectionObserver(function (es, o) { if (es[0].isIntersecting) { reproducir(); o.disconnect(); } }, { threshold: .3 }).observe(chat);
+    else reproducir();
+  }
+
+  /* ---------- Listado de ciudad ---------- */
+  var lista = $("#lista");
+  if (lista) {
+    var C = document.body.getAttribute("data-ciudad"), M = document.body.getAttribute("data-materia") || "";
+    var nc = CIUDADES[C] || C, nm = M ? MATERIAS[M][0] : "";
+    $("#filtros").innerHTML = '<a href="/abogados/' + C + '/" class="' + (M ? "" : "si") + '">Todas</a>' +
+      Object.keys(MATERIAS).map(function (k) { return '<a href="/abogados/' + C + "/" + k + '/" class="' + (k === M ? "si" : "") + '">' + MATERIAS[k][0] + "</a>"; }).join("");
+    var si = $("#filtros .si"); if (si) si.scrollIntoView({ inline: "center", block: "nearest" });
+    var todos = (window.GUIA || []).filter(function (a) { return a.ciudad === C && (!M || (a.materias || []).indexOf(M) > -1); });
+    todos.sort(function (a, b) { return (b.plan === "premium") - (a.plan === "premium"); });
+    if (!todos.length) {
+      lista.innerHTML = '<div class="vacio"><span class="eti">Estamos creciendo</span><h2>Estamos verificando a los primeros ' + esc(document.body.getAttribute("data-plural") || "abogados") + " en " + esc(nc) + ".</h2>" +
+        "<p>Mientras tanto, cuéntanos tu caso y te ayudamos a encontrar a un abogado con cédula verificada. Sin costo para ti.</p>" +
+        '<div class="acciones"><a class="btn btn-wa js-ayuda" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Pedir ayuda por WhatsApp</a>' +
+        '<a class="btn btn-linea" href="/para-abogados/">Soy abogado: quiero aparecer</a></div></div>';
+      var ay = $(".js-ayuda");
+      if (LICLINK_WA) ay.href = wa(LICLINK_WA, "Hola, busco abogado" + (nm ? " de " + nm.toLowerCase() : "") + " en " + nc + ". Mi caso es: ");
+      else ay.href = "/para-abogados/";
+    } else lista.innerHTML = todos.map(ficha).join("");
+  }
+
+  function ficha(a) {
+    var prem = a.plan === "premium";
+    var tags = (a.materias || []).map(function (k) { return "<span>" + esc((MATERIAS[k] || [k])[0]) + "</span>"; }).join("");
+    var foto = a.foto ? '<img src="' + esc(a.foto) + '" alt="" loading="lazy">' : esc(a.iniciales || a.nombre.slice(0, 2));
+    var msg = "Hola, lo encontré en LicLink. Necesito asesoría.";
+    var redes = prem ? Object.keys(a.redes || {}).filter(function (k) { return a.redes[k]; }).map(function (k) { return '<a href="' + esc(a.redes[k]) + '" target="_blank" rel="noopener" aria-label="' + k + '"><svg viewBox="0 0 24 24"><use href="#i-' + k + '"/></svg></a>'; }).join("") : "";
+    return '<article class="ficha rv' + (prem ? " prem" : "") + '">' + (prem ? '<span class="sello-p">Premium</span>' : "") +
+      '<div class="foto">' + foto + "</div><div><h3>" + esc(a.nombre) + '</h3><div class="rol">' + esc(a.rol || "") + "</div>" +
+      (a.verificada ? '<span class="ver"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula verificada</span>' : "") +
+      (redes ? '<div class="redes">' + redes + "</div>" : "") +
+      '<div class="tags">' + tags + "</div></div>" +
+      '<div class="acc">' +
+      (prem && a.pagina ? '<a class="btn btn-negro uno" href="' + esc(a.pagina) + '">Ver perfil completo</a>' : "") +
+      '<a class="btn btn-wa' + (a.telefono ? "" : " uno") + '" target="_blank" rel="noopener" href="' + wa(a.whatsapp, msg) + '"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>WhatsApp</a>' +
+      (a.telefono ? '<a class="btn btn-linea" href="tel:+52' + esc(a.telefono) + '">Llamar</a>' : "") +
+      (prem && a.resena ? '<a class="btn btn-linea uno" target="_blank" rel="noopener" href="' + esc(a.resena) + '">★ Ver y dejar reseñas en Google</a>' : "") +
+      "</div></article>";
+  }
+
+  /* ---------- Registro de abogados ---------- */
+  var reg = $("#formRegistro");
+  if (reg) {
+    $("#rMaterias").innerHTML = Object.keys(MATERIAS).map(function (k) { return '<label><input type="checkbox" value="' + k + '">' + MATERIAS[k][0] + "</label>"; }).join("");
+    $$("[data-plan]").forEach(function (b) { b.addEventListener("click", function () { var s = $("#rPlan"); if (s) s.value = b.getAttribute("data-plan"); }); });
+    reg.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var v = function (id) { return ($("#" + id).value || "").trim(); };
+      var mats = $$("#rMaterias input:checked").map(function (i) { return MATERIAS[i.value][0]; });
+      var txt = ["Hola, quiero aparecer en LicLink.", "• Nombre: " + v("rNombre"), v("rDespacho") ? "• Despacho: " + v("rDespacho") : "", "• Ciudad: " + CIUDADES[v("rCiudad")],
+        "• Materias: " + (mats.join(", ") || "por definir"), "• WhatsApp: " + v("rWa"), v("rCedula") ? "• Cédula: " + v("rCedula") : "", "• Plan: " + $("#rPlan").selectedOptions[0].text].filter(Boolean).join("\n");
+      if (LICLINK_WA) window.open(wa(LICLINK_WA, txt), "_blank");
+      else { $("#rAviso").hidden = false; $("#rAviso").textContent = txt; }
+    });
+  }
+
+  /* ---------- Aparecer al bajar ---------- */
+  var objetivos = $$(".rv");
+  $$("[data-escalona]").forEach(function (g) { Array.prototype.forEach.call(g.children, function (e, i) { e.classList.add("rv"); e.style.setProperty("--d", Math.min(i, 7) * 70 + "ms"); objetivos.push(e); }); });
+  if (!quieto && "IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("si"); io.unobserve(e.target); } }); }, { rootMargin: "0px 0px -8% 0px" });
+    objetivos.forEach(function (e) { io.observe(e); });
+    setTimeout(function () { $$(".lista .rv").forEach(function (e) { io.observe(e); }); }, 0);
+  } else $$(".rv").forEach(function (e) { e.classList.add("si"); });
+})();
