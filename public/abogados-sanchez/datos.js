@@ -113,7 +113,13 @@ window.DATOS = {
   ],
   "horario": null,
   "notaHorario": "",
-  "oficinas": [],
+  "oficinas": [
+    {
+      "nombre": "Venustiano Carranza, CDMX",
+      "direccion": "Calz. Ignacio Zaragoza 15, Moctezuma 1ra Secc., Venustiano Carranza, C.P. 15500, Ciudad de México",
+      "referencia": "Agenda tu cita por WhatsApp."
+    }
+  ],
   "redes": {
     "facebook": "",
     "instagram": "",
