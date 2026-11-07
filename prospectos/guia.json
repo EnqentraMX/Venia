@@ -88,6 +88,31 @@
   "pago": "pendiente"
  },
  {
+  "slug": "abogados-sanchez",
+  "nombre": "Despacho Abogados Sánchez",
+  "rol": "Abogados laborales · Pensiones, IMSS, ISSSTE e Infonavit",
+  "ciudad": "cdmx",
+  "materias": [
+   "laboral",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/abogados-sanchez/foto.jpg",
+  "logo": false,
+  "iniciales": "AS",
+  "whatsapp": "525666250265",
+  "telefono": "5666250265",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/abogados-sanchez/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-06",
+  "vence": "",
+  "pago": "pendiente"
+ },
+ {
   "slug": "nhg-abogados",
   "nombre": "NHG Abogados",
   "rol": "Dr. Nimrod Huerta · Despacho en Tijuana",

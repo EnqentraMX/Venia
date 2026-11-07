@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 15 · Vendidos: 3 · Borrados: 2
+Propuestas: 15 · Vendidos: 4 · Borrados: 2
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -24,3 +24,4 @@ Propuestas: 15 · Vendidos: 3 · Borrados: 2
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Omar Israel Rosas V. | /omar-rosas/ | vendido | 5523075905 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
+| 2026-11-06 | Despacho Abogados Sánchez | /abogados-sanchez/ | vendido | 5666250265 |

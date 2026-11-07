@@ -2090,5 +2090,118 @@
     "plan": "premium",
     "alta": "2026-11-06",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "abogados-sanchez",
+    "nombre": "Despacho Abogados Sánchez",
+    "despacho": "Abogados Sánchez",
+    "sufijo": "Despacho laboral",
+    "despacho_largo": "Despacho Abogados Sánchez",
+    "titulo": "Tu aliado jurídico en el mundo del trabajo",
+    "iniciales": "AS",
+    "foto": "foto.jpg",
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0e1f3d",
+    "tema": "negro-oro",
+    "plantilla": "v2",
+    "estilo": "oro",
+    "telefono": "5666250265",
+    "descripcion": "Abogados laborales para trabajadores, empleadores y sindicatos. Seguridad social, pensiones, IMSS, ISSSTE e Infonavit",
+    "modalidad": "Trabajadores, empleadores y sindicatos",
+    "portada": [
+      "Justicia y dignidad",
+      "para el mundo",
+      "del trabajo."
+    ],
+    "texto_portada": "Despidos, liquidaciones, pensiones, IMSS, ISSSTE, Infonavit y Afore. Atendemos a trabajadores, empleadores y sindicatos con litigio en todas sus etapas.",
+    "frase": "Justicia, dignidad y soluciones legales para el mundo del trabajo.",
+    "compromisos": [
+      "Especialistas en derecho laboral y seguridad social",
+      "Litigio en todas las etapas, hasta el amparo",
+      "Atención a trabajadores, empresas y sindicatos",
+      "Te explicamos tu caso en palabras claras"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me despidieron (los plazos para reclamar ya están corriendo)",
+        "urgente": true
+      },
+      {
+        "texto": "No me pagaron mi finiquito o liquidación",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero tramitar mi pensión, jubilación o mi Afore",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con el IMSS, ISSSTE o Infonavit",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo una empresa y necesito contratos o asesoría laboral",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Despidos y conflictos laborales",
+        "icono": "maletin",
+        "texto": "Si te despidieron o tienes un problema en tu trabajo, te defendemos en todas las etapas.",
+        "puntos": [
+          "Despidos justificados e injustificados",
+          "Finiquito, liquidación y prestaciones",
+          "Rescisión de contrato",
+          "Acoso y mobbing laboral",
+          "Conciliación, juicio laboral y amparo directo e indirecto"
+        ]
+      },
+      {
+        "nombre": "Pensiones y seguridad social",
+        "icono": "acuerdo",
+        "texto": "Te ayudamos a obtener lo que te corresponde por años de trabajo.",
+        "puntos": [
+          "Jubilaciones y pensiones, incluidas viudez y orfandad",
+          "Afore, fondo de ahorro para el retiro y SAR",
+          "IMSS e Infonavit: altas y trámites",
+          "ISSSTE: asesoría y trámites",
+          "Riesgos de trabajo",
+          "Seguros y designación de beneficiarios"
+        ]
+      },
+      {
+        "nombre": "Para empresas y sindicatos",
+        "icono": "edificio",
+        "texto": "Prevenimos conflictos y protegemos a tu negocio.",
+        "puntos": [
+          "Contratos individuales y colectivos",
+          "Reglamento interior de trabajo y políticas",
+          "Condiciones generales de trabajo",
+          "Auditorías laborales internas"
+        ]
+      }
+    ],
+    "preguntas": [
+      {
+        "p": "Me despidieron, ¿cuánto tiempo tengo para reclamar?",
+        "r": "Los plazos son cortos y empiezan a correr desde el despido. Escríbenos cuanto antes para revisar tu caso y no perder tus derechos."
+      },
+      {
+        "p": "¿Cuánto cuesta la primera consulta?",
+        "r": "{precio}"
+      },
+      {
+        "p": "¿Atienden a empresas o solo a trabajadores?",
+        "r": "Atendemos a trabajadores, empleadores y sindicatos."
+      },
+      {
+        "p": "¿Lo que les cuento es confidencial?",
+        "r": "Sí. Todo lo que nos compartas se trata con estricta confidencialidad."
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-06",
+    "fuente": "Facebook"
   }
 ]

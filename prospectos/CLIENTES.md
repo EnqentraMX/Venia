@@ -5,6 +5,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Abogado | Plan | Ciudad | Alta | Vence | Pago | Estado | Cédula verificada |
 |---|---|---|---|---|---|---|---|
 | Consultoría Jurídica Rosas | premium | Ciudad de México | 2026-11-06 | — | pendiente | activo | no |
+| Despacho Abogados Sánchez | premium | Ciudad de México | 2026-11-06 | — | pendiente | activo | no |
 | Despacho Jurídico Pericial Aranda Salgado | premium | Estado de México | 2026-11-06 | — | pendiente | activo | no |
 | Firmeza Legal Palacios | premium | Querétaro | 2026-11-06 | — | pendiente | activo | no |
 | Lic. Miguel Ángel Manzano Macías | premium | Guadalajara | 2026-11-06 | — | pendiente | activo | no |
