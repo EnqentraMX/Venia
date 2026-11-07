@@ -23,6 +23,7 @@ window.DATOS = {
   "iniciales": "CJI",
   "foto": "",
   "fotoLogo": false,
+  "fondoLogo": "",
   "frase": "¿Te ofrecieron un terreno? No lo hagas solo.",
   "portada": {
     "titulo": [

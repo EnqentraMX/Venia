@@ -15,6 +15,7 @@ window.DATOS = {
   "iniciales": "FU",
   "foto": "logo.jpg",
   "fotoLogo": true,
+  "fondoLogo": "",
   "frase": "Tu futuro legal en buenas manos.",
   "portada": {
     "titulo": [

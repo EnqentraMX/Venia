@@ -23,6 +23,7 @@ window.DATOS = {
   "iniciales": "A&A",
   "foto": "",
   "fotoLogo": false,
+  "fondoLogo": "",
   "frase": "Asesoría gratuita, previa cita. Asuntos urgentes las 24 horas.",
   "portada": {
     "titulo": [

@@ -23,6 +23,7 @@ window.DATOS = {
   "iniciales": "NA",
   "foto": "logo.jpg",
   "fotoLogo": true,
+  "fondoLogo": "",
   "frase": "Ética. Integridad. Servicio.",
   "portada": {
     "titulo": [

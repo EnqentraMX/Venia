@@ -15,6 +15,7 @@ window.DATOS = {
   "iniciales": "FL",
   "foto": "logo.jpg",
   "fotoLogo": true,
+  "fondoLogo": "",
   "frase": "Tu caso merece firmeza, experiencia y acción inmediata. Atención humana, defensa contundente.",
   "portada": {
     "titulo": [

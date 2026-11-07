@@ -112,6 +112,7 @@ def datos_js(a):
         "iniciales": a.get("iniciales", ""),
         "foto": a.get("foto", ""),
         "fotoLogo": bool(a.get("logo")),
+        "fondoLogo": a.get("fondo_logo", ""),
         "frase": a.get("frase", "Tu tranquilidad legal es nuestra prioridad."),
         "portada": {"titulo": a.get("portada", ["Tu asunto legal,", "en buenas", "manos."]),
                     "texto": a.get("texto_portada") or (", ".join(x["nombre"].lower() for x in areas[:3]).capitalize() + (f" en {a['ciudad']}" if a.get("ciudad") else "") + ". Escríbenos y te orientamos sobre tu caso.")},

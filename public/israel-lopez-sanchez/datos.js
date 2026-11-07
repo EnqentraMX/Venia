@@ -15,6 +15,7 @@ window.DATOS = {
   "iniciales": "IL",
   "foto": "foto.jpg",
   "fotoLogo": false,
+  "fondoLogo": "",
   "frase": "Tu tranquilidad jurídica es nuestra prioridad.",
   "portada": {
     "titulo": [

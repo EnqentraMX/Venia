@@ -15,6 +15,7 @@ window.DATOS = {
   "iniciales": "RPA",
   "foto": "foto.jpg",
   "fotoLogo": true,
+  "fondoLogo": "",
   "frase": "Tu libertad es invaluable, no la dejes en manos de cualquiera.",
   "portada": {
     "titulo": [

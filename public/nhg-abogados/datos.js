@@ -23,6 +23,7 @@ window.DATOS = {
   "iniciales": "NH",
   "foto": "foto.jpg",
   "fotoLogo": false,
+  "fondoLogo": "",
   "frase": "Nuestra meta es proporcionar el mejor servicio en defensa de sus derechos.",
   "portada": {
     "titulo": [

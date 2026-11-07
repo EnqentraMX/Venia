@@ -23,6 +23,7 @@ window.DATOS = {
   "iniciales": "GA",
   "foto": "foto.jpg",
   "fotoLogo": true,
+  "fondoLogo": "",
   "frase": "Tu defensa, nuestra prioridad.",
   "portada": {
     "titulo": [

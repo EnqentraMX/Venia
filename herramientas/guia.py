@@ -329,7 +329,7 @@ def portada():
 def listado(c, m="", g=None):
     nc = CIUDADES[c][0]
     g = cargar_guia() if g is None else g
-    todos = [a for a in g if a.get("ciudad") == c and (not m or m in a.get("materias", []))]
+    todos = [a for a in g if (a.get("ciudad") == c or c in a.get("otras_ciudades", [])) and (not m or m in a.get("materias", []))]
     todos.sort(key=lambda a: (a["plan"] != "premium", a["nombre"]))
     migas = [("Inicio", "/"), (nc, f"/abogados/{c}/")]
     if m:
@@ -511,9 +511,9 @@ def pagina_legal(titulo, ruta, secciones, intro):
 def sitemap(g):
     urls = ["/", "/para-abogados/", "/aviso-de-privacidad/", "/terminos/"]
     for c in CIUDADES:
-        if any(a.get("ciudad") == c for a in g): urls.append(f"/abogados/{c}/")
+        if any((a.get("ciudad") == c or c in a.get("otras_ciudades", [])) for a in g): urls.append(f"/abogados/{c}/")
         for m in MATERIAS:
-            if any(a.get("ciudad") == c and m in a.get("materias", []) for a in g): urls.append(f"/abogados/{c}/{m}/")
+            if any((a.get("ciudad") == c or c in a.get("otras_ciudades", [])) and m in a.get("materias", []) for a in g): urls.append(f"/abogados/{c}/{m}/")
     urls += [a["pagina"] for a in g if a["plan"] == "premium" and a.get("pagina")]
     hoy = __import__("datetime").date.today().isoformat()
     return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{URL_BASE}{u}</loc><lastmod>{hoy}</lastmod></url>\n" for u in urls) + "</urlset>\n"

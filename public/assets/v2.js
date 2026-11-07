@@ -23,7 +23,7 @@
   if (D.propuesta) { const a = $("#aviso"); a.textContent = `Propuesta de página para ${D.propuesta} · Vista privada de LicLink`; a.hidden = false; }
   $("#firma").innerHTML = `<b>${esc(D.despacho)}</b><span>${esc(D.sufijo || "")}</span>`;
   const r = $("#retrato");
-  if (D.foto) { r.innerHTML = `<img src="${esc(D.foto)}" alt="${esc(D.despacho)}">`; if (D.fotoLogo) r.classList.add("logo"); }
+  if (D.foto) { r.innerHTML = `<img src="${esc(D.foto)}" alt="${esc(D.despacho)}">`; if (D.fotoLogo) { r.classList.add("logo"); if (D.fondoLogo) r.style.background = D.fondoLogo; } }
   else { r.classList.add("mono"); r.innerHTML = `<span>${esc(D.iniciales || D.despacho.slice(0, 2))}</span>`; }
   if (D.titulo && D.titulo !== D.sufijo) $("#cargo").textContent = D.titulo; else $("#cargo").remove();
   const t = (D.portada && D.portada.titulo) || [D.despacho];

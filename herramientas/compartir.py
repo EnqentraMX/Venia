@@ -21,7 +21,7 @@ def tarjeta(a):
     tel = a.get("telefono", "")
     tel = f"{tel[:2]} {tel[2:6]} {tel[6:]}" if tel[:2] in ("55", "33", "81", "56") else f"{tel[:3]} {tel[3:6]} {tel[6:]}"
     lugar = a.get("ciudad", "")
-    lado = f'<div class="foto{" logo" if (a.get("logo") or a.get("imagen_vista")) else ""}"><img src="{foto}"></div>' if foto else f'<div class="foto mono">{H.escape(a.get("iniciales") or nombre[:2])}</div>'
+    lado = f'<div class="foto{" logo" if (a.get("logo") or a.get("imagen_vista")) else ""}"{f' style="background:{a["fondo_logo"]}"' if a.get("fondo_logo") else ""}><img src="{foto}"></div>' if foto else f'<div class="foto mono">{H.escape(a.get("iniciales") or nombre[:2])}</div>'
     return f"""<html><head><link href="https://fonts.googleapis.com/css2?family=x" rel="stylesheet"><style>
 *{{margin:0;box-sizing:border-box}}
 body{{width:1200px;height:630px;background:radial-gradient(120% 120% at 0% 0%,{t['tarjeta']},{t['fondo']} 60%);color:#efe9df;font-family:Manrope,sans-serif;display:grid;grid-template-columns:1fr 400px;overflow:hidden}}

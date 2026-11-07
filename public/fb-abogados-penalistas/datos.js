@@ -15,6 +15,7 @@ window.DATOS = {
   "iniciales": "F&B",
   "foto": "foto.jpg",
   "fotoLogo": false,
+  "fondoLogo": "",
   "frase": "Porque detrás de cada asunto existe una persona, una familia y algo importante que proteger.",
   "portada": {
     "titulo": [

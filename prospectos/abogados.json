@@ -1854,5 +1854,110 @@
     "plan": "premium",
     "alta": "2026-11-06",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "omar-rosas",
+    "nombre": "Lic. Omar Israel Rosas V.",
+    "despacho": "Omar Israel Rosas V.",
+    "sufijo": "Consultoría jurídica",
+    "despacho_largo": "Consultoría Jurídica · Lic. Omar Israel Rosas V.",
+    "titulo": "Abogado · Consultoría jurídica",
+    "iniciales": "OR",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "tema": "negro-oro",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "CDMX y Estado de México",
+    "telefono": "5523075905",
+    "correo": "is.consultoriajuridica97@gmail.com",
+    "descripcion": "Servicios profesionales legales en materia familiar, laboral, civil y penal",
+    "modalidad": "Atención en CDMX y Estado de México",
+    "portada": [
+      "Tu asunto legal,",
+      "en manos",
+      "profesionales."
+    ],
+    "texto_portada": "Consultoría jurídica en materia familiar, laboral, civil y penal en la Ciudad de México y el Estado de México. Te explicamos tu caso con claridad y te acompañamos en cada paso.",
+    "frase": "Cada caso merece atención seria, una estrategia clara y seguimiento puntual.",
+    "compromisos": [
+      "Te explicamos tu caso en palabras claras",
+      "Atención directa del licenciado",
+      "Seguimiento en cada etapa de tu asunto",
+      "Confidencialidad total"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o me acusan de un delito",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión para mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron o no me pagaron lo que me corresponde",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con una casa, un contrato o una deuda",
+        "urgente": false
+      },
+      {
+        "texto": "Solo quiero orientación para saber qué hacer",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcio, aunque tu pareja no esté de acuerdo",
+          "Pensión alimenticia: pedirla, aumentarla o reducirla",
+          "Guarda, custodia y convivencia con tus hijos",
+          "Reconocimiento de paternidad"
+        ]
+      },
+      {
+        "nombre": "Laboral",
+        "icono": "maletin",
+        "texto": "¿Te despidieron o no te pagaron lo que te corresponde? Te ayudamos a reclamarlo.",
+        "puntos": [
+          "Despido injustificado",
+          "Finiquito, liquidación y salarios pendientes",
+          "Conciliación y demanda laboral"
+        ]
+      },
+      {
+        "nombre": "Civil",
+        "icono": "edificio",
+        "texto": "Protege tu patrimonio: casas, terrenos, contratos y deudas.",
+        "puntos": [
+          "Contratos de compraventa y arrendamiento",
+          "Problemas con inmuebles y propiedades",
+          "Cobro de deudas",
+          "Juicios civiles"
+        ]
+      },
+      {
+        "nombre": "Penal",
+        "icono": "escudo",
+        "texto": "¿Detuvieron a un familiar o te acusan de un delito? Actuamos desde el primer momento.",
+        "puntos": [
+          "Asistencia en el Ministerio Público",
+          "Defensa si te acusan de un delito",
+          "Si fuiste víctima: te acompañamos a denunciar",
+          "Representación en audiencias"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-06",
+    "fuente": "Facebook",
+    "fondo_logo": "#04203a"
   }
 ]

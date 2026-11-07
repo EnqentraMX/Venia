@@ -23,6 +23,7 @@ window.DATOS = {
   "iniciales": "LR",
   "foto": "foto.jpg",
   "fotoLogo": false,
+  "fondoLogo": "",
   "frase": "Contáctanos. Estamos para asesorarte.",
   "portada": {
     "titulo": [

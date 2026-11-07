@@ -15,6 +15,7 @@ window.DATOS = {
   "iniciales": "FL",
   "foto": "logo.jpg",
   "fotoLogo": true,
+  "fondoLogo": "",
   "frase": "Tu caso merece atención, estrategia y compromiso.",
   "portada": {
     "titulo": [

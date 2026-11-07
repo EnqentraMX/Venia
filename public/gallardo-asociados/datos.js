@@ -23,6 +23,7 @@ window.DATOS = {
   "iniciales": "MG",
   "foto": "foto.jpg",
   "fotoLogo": false,
+  "fondoLogo": "",
   "frase": "Experiencia jurídica que protege lo que más importa.",
   "portada": {
     "titulo": [

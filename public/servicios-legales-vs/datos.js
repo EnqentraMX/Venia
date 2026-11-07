@@ -15,6 +15,7 @@ window.DATOS = {
   "iniciales": "VS",
   "foto": "logo.jpg",
   "fotoLogo": true,
+  "fondoLogo": "",
   "frase": "No estás sola. Te orientamos, te acompañamos y defendemos tus derechos.",
   "portada": {
     "titulo": [

@@ -15,6 +15,7 @@ window.DATOS = {
   "iniciales": "AP",
   "foto": "foto.jpg",
   "fotoLogo": false,
+  "fondoLogo": "",
   "frase": "Cada juicio se gana con preparación. Tu asunto, en manos de un especialista.",
   "portada": {
     "titulo": [
