@@ -6,9 +6,11 @@
   const $$ = s => [...document.querySelectorAll(s)];
   const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const ok = '<svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>';
-  const estilo = ["oro", "marfil", "vino"].includes(D.estilo) ? D.estilo : "oro";
+  // ?estilo=claro u ?estilo=oro en el enlace permite enseñar al abogado las dos versiones de su página
+  const pedido = new URLSearchParams(location.search).get("estilo");
+  const estilo = ["oro", "claro", "marfil", "vino"].includes(pedido) ? pedido : ["oro", "claro", "marfil", "vino"].includes(D.estilo) ? D.estilo : "oro";
   document.documentElement.dataset.estilo = estilo;
-  document.querySelector('meta[name="theme-color"]').content = estilo === "vino" ? "#ffffff" : "#0c0b0a";
+  document.querySelector('meta[name="theme-color"]').content = estilo === "vino" ? "#ffffff" : estilo === "claro" ? "#1a1814" : "#0c0b0a";
   const quieto = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* ---------- WhatsApp y teléfono ---------- */

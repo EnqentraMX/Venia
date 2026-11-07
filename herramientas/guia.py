@@ -66,7 +66,11 @@ NO = '<svg viewBox="0 0 24 24"><use href="#i-no"/></svg>'
 WA = '<svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>'
 
 
-def cabeza(titulo, desc, ruta, robots=""):
+def jsonld(obj):
+    return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False) + "</script>\n"
+
+
+def cabeza(titulo, desc, ruta, robots="", extra=""):
     url = URL_BASE + ruta
     return f"""<!doctype html>
 <html lang="es-MX">
@@ -85,6 +89,7 @@ def cabeza(titulo, desc, ruta, robots=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/guia.css?v={version('guia.css')}">
+{extra}
 </head>
 """
 
@@ -100,9 +105,9 @@ PIE = """<footer class="pie"><div class="w">
     <div><a href="/" class="marca" style="color:var(--claro)">Lic<i>Link</i></a><p style="margin-top:12px;max-width:340px">La guía de abogados de México. Encuentra, compara y habla directo con tu abogado.</p></div>
     <div><b>Ciudades</b><ul>""" + "".join(f'<li><a href="/abogados/{k}/">{v[0]}</a></li>' for k, v in CIUDADES.items()) + """</ul></div>
     <div><b>Materias</b><ul>""" + "".join(f'<li><a href="/abogados/cdmx/{k}/">{v[0]}</a></li>' for k, v in list(MATERIAS.items())[:6]) + """</ul></div>
-    <div><b>Abogados</b><ul><li><a href="/para-abogados/">Planes y precios</a></li><li><a href="/para-abogados/#registro">Registrarme</a></li><li><a href="/para-abogados/#preguntas">Preguntas</a></li></ul></div>
+    <div><b>LicLink</b><ul><li><a href="/para-abogados/">Planes para abogados</a></li><li><a href="/para-abogados/#registro">Registrarme</a></li><li><a href="/aviso-de-privacidad/">Aviso de privacidad</a></li><li><a href="/terminos/">Términos y condiciones</a></li></ul></div>
   </div>
-  <p class="legal">LicLink es un directorio: no presta servicios legales ni cobra comisiones por los casos. Cada abogado es responsable de su servicio. Verificamos la cédula de los perfiles con sello en el Registro Nacional de Profesionistas de la SEP. Si estás en peligro inmediato, llama al 911.<br>© LicLink 2026</p>
+  <p class="legal">LicLink es un directorio: no presta servicios legales ni cobra comisiones por los casos. Cada abogado es responsable de su servicio. «Cédula profesional verificada» significa que revisamos la cédula en el Registro Nacional de Profesionistas de la SEP; «Datos profesionales registrados» significa que aún no la revisamos. Si estás en peligro inmediato, llama al 911.<br>© LicLink 2026</p>
 </div></footer>"""
 
 
@@ -110,94 +115,142 @@ def fin():
     return SIMBOLOS + '\n<script src="/assets/guia-datos.js?v=' + version('guia-datos.js') + '" defer></script>\n<script src="/assets/guia.js?v=' + version('guia.js') + '" defer></script>\n</body>\n</html>\n'
 
 
+def cargar_guia():
+    ruta = os.path.join(os.path.dirname(DATOS), "guia.json")
+    return [a for a in (json.load(open(ruta, encoding="utf-8")) if os.path.exists(ruta) else []) if a.get("plan") in ("basico", "premium") and a.get("estado", "activo") == "activo"]
+
+
+def wa_url(num, msg):
+    from urllib.parse import quote
+    return f"https://wa.me/{num}?text={quote(msg)}"
+
+
+def ficha_html(a, clase="ficha"):
+    """Ficha del directorio. Básico: WhatsApp y llamada. Premium: además perfil completo, redes y reseñas."""
+    prem = a.get("plan") == "premium"
+    nc = CIUDADES.get(a.get("ciudad"), ("",))[0]
+    foto = f'<img src="{e(a["foto"])}" alt="" loading="lazy" decoding="async" width="72" height="72">' if a.get("foto") else e(a.get("iniciales") or a["nombre"][:2])
+    ver = (f'<span class="ver si"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula profesional verificada</span>' if a.get("verificada")
+           else '<span class="ver no">Datos profesionales registrados</span>')
+    rol = e(a.get("rol", "")) + (f" · {e(nc)}" if nc and nc not in a.get("rol", "") else "")
+    tags = "".join(f"<span>{e(MATERIAS[k][0])}</span>" for k in a.get("materias", []) if k in MATERIAS)
+    redes = ""
+    if prem:
+        redes = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener" aria-label="{k}"><svg viewBox="0 0 24 24"><use href="#i-{k}"/></svg></a>' for k, u in (a.get("redes") or {}).items() if u)
+    acc = ""
+    if prem and a.get("pagina"): acc += f'<a class="btn btn-negro uno" href="{e(a["pagina"])}">Ver perfil completo</a>'
+    acc += f'<a class="btn btn-wa{"" if a.get("telefono") else " uno"}" target="_blank" rel="noopener" href="{e(wa_url(a["whatsapp"], "Hola, lo encontré en LicLink. Necesito asesoría."))}" data-evento="whatsapp" data-slug="{e(a["slug"])}">{WA}WhatsApp</a>'
+    if a.get("telefono"): acc += f'<a class="btn btn-linea" href="tel:+52{e(a["telefono"])}" data-evento="llamada" data-slug="{e(a["slug"])}">Llamar</a>'
+    if prem and a.get("resena"): acc += f'<a class="btn btn-linea uno" target="_blank" rel="noopener" href="{e(a["resena"])}">★ Ver y dejar reseñas en Google</a>'
+    return (f'<article class="{clase}{" prem" if prem else ""}" data-plan="{a["plan"]}"><div class="foto{" logo" if a.get("logo") else ""}">{foto}</div><div>'
+            + ('<span class="sello-p">Destacado</span>' if prem else "")
+            + f'<h3>{e(a["nombre"])}</h3><div class="rol">{rol}</div>{ver}'
+            + (f'<div class="redes">{redes}</div>' if redes else "") + f'<div class="tags">{tags}</div></div><div class="acc">{acc}</div></article>')
+
+
 def opciones_ciudad(sel="cdmx"):
     return "".join(f'<option value="{k}"{" selected" if k == sel else ""}>{v[0]}</option>' for k, v in CIUDADES.items())
 
 
 def planes_html(corto=False):
-    basico_si = ["Ficha profesional en la guía de tu ciudad", "Foto o logo, nombre y materias", "Botón de WhatsApp y llamada directa", "Sello de cédula verificada"]
-    basico_no = ["Página propia con tu enlace", "Redes sociales y sitio web", "Reseñas en Google Maps", "Aparecer primero"]
-    prem = ["Todo lo del Básico, y además:", "Apareces primero en tu ciudad y materias, con sello Premium", "Tu página profesional propia: liclink.mx/tu-nombre",
-            "Enlaces a todas tus redes y tu sitio web", "Botón para que tus clientes te dejen reseña en Google Maps", "Asistente que ordena cada caso antes de llegar a tu WhatsApp",
-            "Mapa, horario, promociones y paquetes", "Reporte mensual: cuántos te vieron y cuántos te escribieron", "Imagen para compartir y código QR para tu tarjeta"]
+    basico = ["Ficha en el directorio de tu ciudad", "Fotografía o logotipo", "Nombre y especialidades", "Botón de WhatsApp", "Botón de llamada",
+              "Verificación de cédula cuando la compruebes"]
+    basico_no = ["Página profesional propia", "Posición destacada", "Redes sociales y reseñas de Google"]
+    prem = ["Posición destacada en tu ciudad y especialidades", "Página profesional personalizada con tu propio enlace", "Enlaces a tus redes sociales y sitio web",
+            "Botón para recibir reseñas en Google Maps", "Asistente que organiza cada consulta antes de llegar a tu WhatsApp", "Mapa y horarios",
+            "Promociones y paquetes", "Estadísticas mensuales de visitas", "Código QR personalizado"]
     li = lambda t, s=True: f'<li{"" if s else " class=no"}>{OK if s else NO}<span>{e(t)}</span></li>'
     boton = (lambda p, t: f'<a class="btn {"btn-oro brilla" if p == "premium" else "btn-linea"} btn-ancho" href="/para-abogados/#registro" data-plan="{p}">{t}</a>')
     return f"""<div class="planes" data-escalona>
-  <div class="plan"><h3>Básico</h3><p class="para">Para que te encuentren y te escriban.</p>
-    <div class="precio"><b>$49</b><span>al mes</span></div><p class="alta">Alta única de $99</p>
-    <ul>{"".join(li(t) for t in basico_si)}{"".join(li(t, False) for t in basico_no)}</ul>{boton("basico", "Quiero el Básico")}</div>
-  <div class="plan prem"><span class="cinta">Recomendado</span><h3>Premium</h3><p class="para">Para destacar y ganar más clientes que tu competencia.</p>
-    <div class="precio"><b>$149</b><span>al mes</span></div><p class="alta">Alta única de $399</p>
-    <ul><li class="lead">{e(prem[0])}</li>{"".join(li(t) for t in prem[1:])}</ul>{boton("premium", "Quiero el Premium")}</div>
+  <div class="plan"><h3>Básico</h3><p class="para">Para que te encuentren en tu ciudad.</p>
+    <div class="precio"><b>$49</b><span>MXN al mes</span></div><p class="alta">Alta única de $99 MXN</p>
+    <ul>{"".join(li(t) for t in basico)}{"".join(li(t, False) for t in basico_no)}</ul>{boton("basico", "Elegir Básico")}</div>
+  <div class="plan prem"><span class="cinta">Más completo</span><h3>Premium</h3><p class="para">Tu presencia profesional por menos de $5 al día.</p>
+    <div class="precio"><b>$149</b><span>MXN al mes</span></div><p class="alta">Alta única de $399 MXN</p>
+    <ul><li class="lead">Todo lo del Básico, y además:</li>{"".join(li(t) for t in prem)}</ul>{boton("premium", "Elegir Premium")}</div>
+</div>
+<div class="fundadores rv">
+  <b>Socios fundadores LicLink</b>
+  <p>Para los despachos que se registren en la etapa de lanzamiento:</p>
+  <ul><li>{OK}Precio de lanzamiento protegido mientras tu suscripción siga activa</li><li>{OK}Configuramos tu perfil por ti</li><li>{OK}Código QR para tu tarjeta y tu oficina</li><li>{OK}Atención directa por WhatsApp</li></ul>
+  <small>Si cancelas y regresas después, aplica el precio vigente en ese momento.</small>
 </div>
 <ul class="garantias">
-  <li>{OK}Sin contrato forzoso: pagas mes a mes</li>
+  <li>{OK}Sin contratos forzosos: pagas mes a mes</li>
   <li>{OK}Cancelas cuando quieras con un mensaje de WhatsApp</li>
-  <li>{OK}Sin cargos sorpresa ni aumentos sin aviso</li>
   <li>{OK}Cero comisiones: el cliente te paga directo a ti</li>
-  <li>{OK}Te atiende una persona, no un robot</li>
+  <li>{OK}No prometemos clientes: te damos visibilidad y herramientas para que te contacten</li>
 </ul>"""
 
 
 def portada():
-    atajos = [("penal", "Detuvieron a un familiar"), ("laboral", "Me despidieron"), ("familiar", "Quiero divorciarme"), ("mercantil", "Me deben dinero"), ("familiar", "Pensión para mis hijos"), ("sucesiones", "Una herencia")]
+    atajos = [("laboral", "Me despidieron"), ("familiar", "Necesito un divorcio"), ("penal", "Detuvieron a un familiar"), ("civil", "Problema con una propiedad"), ("mercantil", "Me deben dinero"), ("familiar", "Pensión alimenticia")]
     mats = "".join(f'<a class="materia" href="/abogados/cdmx/{k}/" data-m="{k}"><span class="ic"><svg viewBox="0 0 24 24"><use href="#m-{k}"/></svg></span><b>{v[0]}</b><small>{v[1]}</small></a>' for k, v in MATERIAS.items())
     ciuds = "".join(f'<a class="ciudad" href="/abogados/{k}/" style="--fondo-c:{FONDOS[k]}"><span class="flecha"><svg width="18" height="18" viewBox="0 0 24 24"><use href="#i-flecha"/></svg></span><b>{v[0]}</b><small><svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-pin"/></svg>Ver abogados</small></a>' for k, v in CIUDADES.items() if k in PRINCIPALES)
     otras = "".join(f'<a href="/abogados/{k}/">{v[0]}</a>' for k, v in CIUDADES.items() if k not in PRINCIPALES)
     preguntas = [
         ("¿Cuánto me cuesta usar LicLink?", "Nada. Buscar y escribirle a un abogado es gratis. Tú acuerdas sus honorarios directamente con él."),
-        ("¿Cómo sé que es abogado de verdad?", "Los perfiles con sello de cédula verificada fueron revisados por nosotros en el Registro Nacional de Profesionistas de la SEP. Tú también puedes consultarla ahí."),
+        ("¿Cómo sé que es abogado de verdad?", "Cuando un perfil dice «Cédula profesional verificada», revisamos su cédula en el Registro Nacional de Profesionistas de la SEP. Los perfiles que dicen «Datos profesionales registrados» aún no tienen esa revisión. Tú también puedes consultar cualquier cédula en la SEP."),
         ("¿LicLink cobra comisión por mi caso?", "No. Hablas directo con el abogado por WhatsApp o por teléfono, sin intermediarios."),
         ("¿Qué pasa con lo que le cuento al abogado?", "Tu mensaje va directo a su WhatsApp. LicLink no guarda ni lee tu caso."),
+        ("¿LicLink me da asesoría legal?", "No. LicLink es un directorio: te ayuda a encontrar y contactar abogados. La asesoría la da cada abogado."),
         ("¿Las reseñas son reales?", "Las reseñas están en Google Maps, a la vista de todos. Nosotros no las escribimos, no las editamos ni las borramos."),
     ]
     faq = "".join(f"<details><summary>{e(p)}</summary><p>{e(r)}</p></details>" for p, r in preguntas)
+    g = cargar_guia()
+    import random
+    random.seed(len(g))
+    prem = [a for a in g if a["plan"] == "premium"]; resto = [a for a in g if a["plan"] != "premium" and a.get("foto")]
+    random.shuffle(resto)
+    destacados = "".join(ficha_html(a) for a in (prem + resto)[:8])
     titulo = "LicLink · Encuentra abogado en CDMX, Edomex, Guadalajara, Puebla y más"
     desc = "La guía de abogados de México. Busca por ciudad y materia, revisa su perfil y escríbele directo por WhatsApp. Gratis."
-    return cabeza(titulo, desc, "/") + f"""<body>
+    ld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "name": "LicLink", "url": URL_BASE + "/"},
+        {"@type": "Organization", "name": "LicLink", "url": URL_BASE + "/", "logo": URL_BASE + "/assets/liclink-compartir.png"}]}
+    return cabeza(titulo, desc, "/", extra=jsonld(ld)) + f"""<body>
 {BARRA}
 <main>
 <section class="portada"><div class="w">
   <span class="eti entra" style="--d:.05s">Guía de abogados de México</span>
-  <h1><span class="l"><span style="--i:0">Tu problema legal</span></span><span class="l"><span style="--i:1"><em>tiene solución.</em></span></span></h1>
-  <p class="sub entra" style="--d:.6s">Encuentra abogados en tu ciudad, revisa su perfil y escríbeles directo por WhatsApp. Gratis para ti.</p>
+  <h1><span class="l"><span style="--i:0">Encuentra al abogado que necesitas.</span></span><span class="l"><span style="--i:1"><em>Sin complicaciones.</em></span></span></h1>
+  <p class="sub entra" style="--d:.6s">Busca por ciudad y especialidad. Compara perfiles y contacta directo por WhatsApp, sin pagar por usar LicLink.</p>
   <form class="buscador entra" id="buscar" style="--d:.75s" role="search">
-    <div class="campo"><svg viewBox="0 0 24 24"><use href="#i-pin"/></svg><div><label for="bCiudad">¿Dónde?</label><select id="bCiudad">{opciones_ciudad()}</select></div></div>
-    <div class="campo"><svg viewBox="0 0 24 24"><use href="#i-lupa"/></svg><div><label for="bMateria">¿Qué necesitas?</label><select id="bMateria"><option value="">Todas las materias</option>{"".join(f'<option value="{k}">{v[0]} · {v[1]}</option>' for k, v in MATERIAS.items())}</select></div></div>
-    <button class="btn btn-oro brilla" type="submit"><svg viewBox="0 0 24 24"><use href="#i-lupa"/></svg>Buscar abogado</button>
+    <div class="campo"><svg viewBox="0 0 24 24"><use href="#i-pin"/></svg><div><label for="bCiudad">Ciudad</label><select id="bCiudad">{opciones_ciudad()}</select></div></div>
+    <div class="campo"><svg viewBox="0 0 24 24"><use href="#i-lupa"/></svg><div><label for="bMateria">Especialidad</label><select id="bMateria"><option value="">Todas las especialidades</option>{"".join(f'<option value="{k}">{v[0]} · {v[1]}</option>' for k, v in MATERIAS.items())}</select></div></div>
+    <button class="btn btn-oro brilla" type="submit"><svg viewBox="0 0 24 24"><use href="#i-lupa"/></svg>Buscar abogados</button>
   </form>
-  <div class="atajos entra" style="--d:.9s">{"".join(f'<a href="#" data-atajo="{k}">{e(t)}</a>' for k, t in atajos)}</div>
+  <p class="atajos-t entra" style="--d:.85s">¿Qué te pasó?</p>
+  <div class="atajos entra" style="--d:.9s">{"".join(f'<a href="/abogados/cdmx/{k}/" data-atajo="{k}">{e(t)}</a>' for k, t in atajos)}</div>
   <ul class="confianza entra" style="--d:1s">
-    <li><svg viewBox="0 0 24 24"><use href="#i-sello"/></svg>Sello de cédula verificada en la SEP</li>
-    <li><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Contacto directo por WhatsApp</li>
-    <li><svg viewBox="0 0 24 24"><use href="#i-candado"/></svg>Gratis y confidencial para ti</li>
+    <li><svg viewBox="0 0 24 24"><use href="#i-candado"/></svg>Gratis para ti, sin comisiones</li>
+    <li><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Contacto directo con el abogado</li>
+    <li><svg viewBox="0 0 24 24"><use href="#i-sello"/></svg>Te decimos qué cédulas están verificadas</li>
   </ul>
+</div></section>
+
+<section class="marfil" style="padding:36px 0 20px"><div class="w">
+  <span class="eti rv">Abogados en LicLink</span>
+  <h2 class="rv">Conoce a algunos de <em>nuestros abogados.</em></h2>
+  <div class="destacados" id="destacados">{destacados}</div>
 </div></section>
 
 <section class="preg-sec" id="preguntar"><div class="w">
   <form class="pregunta rv" id="pregunta">
     <div class="preg-cab"><span class="preg-ic"><svg viewBox="0 0 24 24"><use href="#i-chat"/></svg></span>
-      <div><h2>¿Tienes una duda legal?</h2><p>Pregunta gratis y sin dar tu nombre. Un abogado te responde por WhatsApp.</p></div></div>
-    <div class="preg-caja"><label class="oculto" for="pTexto">Tu pregunta</label>
-      <textarea id="pTexto" required maxlength="600" rows="4" placeholder="Escribe tu pregunta aquí. Ej. Me despidieron sin darme finiquito, ¿qué puedo hacer?"></textarea>
+      <div><h2>¿No sabes qué abogado necesitas?</h2><p>Cuéntanos qué pasó y te orientamos sobre qué especialista buscar. Gratis y sin dar tu nombre.</p></div></div>
+    <div class="preg-caja"><label class="oculto" for="pTexto">Tu caso</label>
+      <textarea id="pTexto" required maxlength="600" rows="3" placeholder="Ej. Me despidieron sin darme finiquito, ¿qué abogado necesito?"></textarea>
       <span class="cuenta" id="pCuenta">0 / 600</span></div>
-    <div class="ideas"><span>Ideas:</span><button type="button" data-idea="¿Cuánto tarda un divorcio?">¿Cuánto tarda un divorcio?</button><button type="button" data-idea="Me despidieron sin finiquito">Me despidieron sin finiquito</button><button type="button" data-idea="¿Cómo pido pensión para mis hijos?">¿Cómo pido pensión para mis hijos?</button><button type="button" data-idea="Me deben dinero con pagaré">Me deben dinero con pagaré</button><button type="button" data-idea="Detuvieron a un familiar, ¿qué hago?">Detuvieron a un familiar, ¿qué hago?</button></div>
-    <div class="fila"><select id="pCiudad" aria-label="Tu ciudad">{opciones_ciudad()}</select><button class="btn btn-oro" type="submit">Preguntar gratis<svg viewBox="0 0 24 24"><use href="#i-flecha"/></svg></button></div>
-    <ol class="preg-pasos"><li><b>1</b>Escribes tu duda</li><li><b>2</b>Un abogado la revisa</li><li><b>3</b>Te responde por WhatsApp</li></ol>
+    <div class="fila"><select id="pCiudad" aria-label="Tu ciudad">{opciones_ciudad()}</select><button class="btn btn-linea" type="submit">{WA}Enviar por WhatsApp</button></div>
   </form>
-</div></section>
-
-<section class="marfil" style="padding:44px 0 20px"><div class="w">
-  <span class="eti rv">Abogados en LicLink</span>
-  <h2 class="rv">Conoce a algunos de <em>nuestros abogados.</em></h2>
-  <div class="destacados" id="destacados"></div>
 </div></section>
 
 <div class="historia-caja historia oscuro"><section style="background:none"><div class="w historia-grid">
   <div class="rv h-txt">
     <span class="eti">Así funciona</span>
     <h2>De la angustia a la <em>tranquilidad</em>, en minutos.</h2>
-    <p class="sub">Un problema legal llega sin avisar, muchas veces de noche. Con LicLink encuentras a un abogado verificado cerca de ti y le escribes en ese momento.</p>
+    <p class="sub">Un problema legal llega sin avisar, muchas veces de noche. Con LicLink encuentras a un abogado cerca de ti y le escribes en ese momento.</p>
 
   </div>
   <div class="rv h-et">
@@ -221,7 +274,7 @@ def portada():
   <h2 class="rv">Encontrar abogado <em>ya no es un volado.</em></h2>
   <div class="pasos" data-escalona>
     <div class="paso"><span class="n">1</span><div><h3>Busca</h3><p>Elige tu ciudad y lo que te está pasando, en palabras normales.</p></div></div>
-    <div class="paso"><span class="n">2</span><div><h3>Compara</h3><p>Revisa su cédula, sus materias, sus reseñas en Google y dónde está su despacho.</p></div></div>
+    <div class="paso"><span class="n">2</span><div><h3>Compara</h3><p>Revisa sus especialidades, si su cédula está verificada y dónde está su despacho.</p></div></div>
     <div class="paso"><span class="n">3</span><div><h3>Escríbele</h3><p>Un toque y hablas directo con el abogado por WhatsApp. Sin intermediarios.</p></div></div>
   </div>
 </div></section>
@@ -243,7 +296,7 @@ def portada():
   <span class="eti rv">Por qué LicLink</span>
   <h2 class="rv">Confianza antes de <em>contratar.</em></h2>
   <div class="porque" data-escalona>
-    <div><b>Cédula verificada</b><p>Revisamos la cédula profesional en la SEP. Adiós a los coyotes y a los falsos abogados.</p></div>
+    <div><b>Transparencia</b><p>Te decimos con claridad qué cédulas revisamos en la SEP y cuáles aún no.</p></div>
     <div><b>Directo con el abogado</b><p>Le escribes a su WhatsApp. Sin centros de llamadas ni intermediarios.</p></div>
     <div><b>Reseñas públicas</b><p>Las opiniones están en Google Maps, donde nadie las puede maquillar.</p></div>
     <div><b>Gratis para ti</b><p>No pagas por buscar ni por escribir. Los honorarios los acuerdas con tu abogado.</p></div>
@@ -252,8 +305,8 @@ def portada():
 
 <section class="abogados oscuro" id="abogados"><div class="w">
   <span class="eti rv">Para abogados</span>
-  <h2 class="rv">Clientes que te buscan, <em>hoy.</em></h2>
-  <p class="sub rv">Aparece en la guía de tu ciudad y recibe a tus clientes directo en tu WhatsApp. Precio de lanzamiento para los primeros despachos.</p>
+  <h2 class="rv">Haz visible tu despacho <em>cuando te buscan.</em></h2>
+  <p class="sub rv">Crea tu perfil profesional, destaca tus especialidades y recibe contactos directo en tu WhatsApp. Desde $49 MXN al mes.</p>
   {planes_html()}
 </div></section>
 
@@ -265,7 +318,7 @@ def portada():
 
 <section class="cierre oscuro"><div class="w">
   <h2 class="rv">Actuar a tiempo hace <em>la diferencia.</em></h2>
-  <div class="acciones rv"><a class="btn btn-oro brilla" href="#buscar" onclick="setTimeout(function(){{document.getElementById('bCiudad').focus()}},500)"><svg viewBox="0 0 24 24"><use href="#i-lupa"/></svg>Buscar abogado</a>
+  <div class="acciones rv"><a class="btn btn-oro brilla" href="#buscar" onclick="setTimeout(function(){{document.getElementById('bCiudad').focus()}},500)"><svg viewBox="0 0 24 24"><use href="#i-lupa"/></svg>Buscar abogados</a>
   <a class="btn btn-linea" href="/para-abogados/">Soy abogado: quiero aparecer</a></div>
 </div></section>
 </main>
@@ -273,8 +326,12 @@ def portada():
 """ + fin()
 
 
-def listado(c, m=""):
+def listado(c, m="", g=None):
     nc = CIUDADES[c][0]
+    g = cargar_guia() if g is None else g
+    todos = [a for a in g if a.get("ciudad") == c and (not m or m in a.get("materias", []))]
+    todos.sort(key=lambda a: (a["plan"] != "premium", a["nombre"]))
+    migas = [("Inicio", "/"), (nc, f"/abogados/{c}/")]
     if m:
         nm, desc_m, busq = MATERIAS[m]
         titulo = f"{PLURAL[m]} en {nc} | LicLink"
@@ -282,21 +339,27 @@ def listado(c, m=""):
         pl = PLURAL[m].split(" ", 1)
         h1 = f'{pl[0]} <em>{e(pl[1])}</em> en {e(nc)}'
         ruta = f"/abogados/{c}/{m}/"
+        migas.append((nm, ruta))
     else:
         titulo = f"Abogados en {nc} | LicLink"
-        desc = f"Abogados en {nc}: penal, familiar, laboral, civil, mercantil y más. Revisa su cédula y escríbeles directo por WhatsApp."
+        desc = f"Abogados en {nc}: penal, familiar, laboral, civil, mercantil y más. Revisa su perfil y escríbeles directo por WhatsApp."
         h1 = f'Abogados en <em>{e(nc)}</em>'
         ruta = f"/abogados/{c}/"
-    return cabeza(titulo, desc, ruta) + f"""<body data-ciudad="{c}" data-materia="{m}" data-plural="{PLURAL.get(m, "abogados").lower()}">
+    cuantos = f"{len(todos)} abogado{'s' if len(todos) != 1 else ''} en LicLink" if todos else ""
+    robots = "" if todos else '<meta name="robots" content="noindex, follow">\n'  # sin abogados no pedimos a Google que la muestre
+    ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": n + 1, "name": t, "item": URL_BASE + u} for n, (t, u) in enumerate(migas)]}
+    nav = " <span>›</span> ".join(f'<a href="{u}">{e(t)}</a>' for t, u in migas[:-1]) + f" <span>›</span> <b>{e(migas[-1][0])}</b>"
+    return cabeza(titulo, desc, ruta, robots, extra=jsonld(ld)) + f"""<body data-ciudad="{c}" data-materia="{m}" data-plural="{PLURAL.get(m, "abogados").lower()}">
 {BARRA}
 <main>
 <section class="encabezado"><div class="w">
-  <span class="eti">{e(nc)}</span>
+  <nav class="migas" aria-label="Estás en">{nav}</nav>
   <h1>{h1}</h1>
-  <p class="sub">Revisa su perfil y escríbeles directo por WhatsApp, sin costo para ti.</p>
-  <nav class="filtros" id="filtros" aria-label="Materias"></nav>
+  <p class="sub">{e(cuantos + " · " if cuantos else "")}Revisa su perfil y escríbeles directo por WhatsApp, sin costo para ti.</p>
+  <nav class="filtros" id="filtros" aria-label="Especialidades"></nav>
 </div></section>
-<section class="marfil" style="padding-top:0"><div class="w"><div class="lista" id="lista"></div></div></section>
+<section class="marfil" style="padding-top:0"><div class="w"><div class="lista" id="lista">{"".join(ficha_html(a) for a in todos)}</div></div></section>
 </main>
 {PIE}
 """ + fin()
@@ -305,32 +368,38 @@ def listado(c, m=""):
 def para_abogados():
     preguntas = [
         ("¿Hay contrato forzoso?", "No. Pagas mes a mes y cancelas cuando quieras con un mensaje de WhatsApp. Sin penalizaciones."),
-        ("¿Cuánto tardan en publicar mi perfil?", "Entre 24 y 48 horas después de recibir tus datos y verificar tu cédula."),
-        ("¿Por qué piden mi cédula?", "Porque el sello de cédula verificada es lo que hace que los clientes confíen en ti y no en un coyote. La revisamos en el Registro Nacional de Profesionistas de la SEP."),
+        ("¿Cuánto tardan en publicar mi perfil?", "Entre 24 y 48 horas después de recibir tus datos. Primero te lo enseñamos y solo lo publicamos cuando tú lo apruebas."),
+        ("¿Me garantizan clientes?", "No. Nadie puede garantizarlos de forma honesta. Te damos visibilidad profesional y herramientas para que quien te busque te encuentre y te contacte fácil."),
+        ("¿Por qué piden mi cédula?", "Para mostrar en tu perfil «Cédula profesional verificada» después de revisarla en el Registro Nacional de Profesionistas de la SEP. Es lo que más confianza da a quien busca abogado."),
         ("¿Cobran comisión por los clientes?", "No. El cliente te escribe a ti y te paga a ti. Nosotros solo cobramos tu plan."),
         ("¿Cómo funcionan las reseñas en Google?", "En Premium ponemos en tu perfil un botón para que tus clientes te dejen reseña en tu ficha de Google Maps. Más reseñas te ayudan a aparecer más arriba en Google. Si aún no tienes ficha en Google Maps, te ayudamos a crearla."),
         ("¿Puedo cambiar de plan?", "Sí, cuando quieras. Si subes a Premium solo pagas la diferencia del alta."),
         ("¿Mis datos aparecen sin mi permiso?", "Nunca. En LicLink solo aparecen los abogados que se registran y aceptan."),
     ]
     faq = "".join(f"<details><summary>{e(p)}</summary><p>{e(r)}</p></details>" for p, r in preguntas)
-    ej_b = f"""<article class="ficha"><div class="foto">MR</div><div><h3>Lic. María Rodríguez</h3><div class="rol">Abogada familiar · Puebla</div>
-      <span class="ver"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula verificada</span><div class="tags"><span>Familiar</span><span>Herencias</span></div></div>
-      <div class="acc"><span class="btn btn-wa">{WA}WhatsApp</span><span class="btn btn-linea">Llamar</span></div></article>"""
-    ej_p = f"""<article class="ficha prem"><div class="foto">JH</div><div><span class="sello-p">Premium</span><h3>Lic. Jorge Hernández</h3><div class="rol">Penalista · CDMX</div>
-      <span class="ver"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula verificada</span>
-      <div class="redes"><svg viewBox="0 0 24 24"><use href="#i-facebook"/></svg><svg viewBox="0 0 24 24"><use href="#i-instagram"/></svg><svg viewBox="0 0 24 24"><use href="#i-tiktok"/></svg><svg viewBox="0 0 24 24"><use href="#i-web"/></svg></div>
-      <div class="tags"><span>Penal</span><span>Amparo</span></div></div>
-      <div class="acc"><span class="btn btn-negro uno">Ver perfil completo</span><span class="btn btn-wa">{WA}WhatsApp</span><span class="btn btn-linea">Llamar</span><span class="btn btn-linea uno">★ Ver y dejar reseñas en Google</span></div></article>"""
-    titulo = "Aparece en LicLink · La guía de abogados verificados"
-    desc = "Recibe clientes directo en tu WhatsApp. Plan Básico desde $49 al mes. Sin contrato forzoso y sin comisiones."
+    g = cargar_guia()
+    ej_p = next((a for a in g if a["plan"] == "premium" and a.get("pagina")), None)
+    ej_b = next((a for a in g if a["plan"] == "basico" and a.get("foto") and not a.get("logo")), None)
+    muestra = (ficha_html(ej_b) if ej_b else "") + (ficha_html(ej_p) if ej_p else "")
+    demo = f'''<a class="demo" href="{e(ej_p["pagina"])}"><img src="{e(ej_p["pagina"])}compartir.png" alt="Perfil Premium de {e(ej_p["nombre"])}" loading="lazy" width="1200" height="630"><span>Ver un perfil Premium real →</span></a>''' if ej_p else ""
+    titulo = "Aparece en LicLink · Perfil profesional para abogados"
+    desc = "Haz visible tu despacho cuando alguien necesita ayuda legal. Desde $49 MXN al mes, sin contratos forzosos y sin comisiones."
     return cabeza(titulo, desc, "/para-abogados/") + f"""<body>
 {BARRA}
 <main>
 <section class="portada"><div class="w">
   <span class="eti entra" style="--d:.05s">Para abogados</span>
-  <h1><span class="l"><span style="--i:0">Clientes que</span></span><span class="l"><span style="--i:1">te buscan,</span></span><span class="l"><span style="--i:2"><em>hoy.</em></span></span></h1>
-  <p class="sub entra" style="--d:.6s">La gente con un problema legal ya no pregunta en Facebook: busca en su celular y le escribe al primer abogado que le da confianza. Haz que ese abogado seas tú.</p>
-  <div class="acciones entra" style="--d:.8s;display:grid;gap:10px;margin-top:26px;max-width:420px"><a class="btn btn-oro brilla" href="#registro">Registrarme ahora</a><a class="btn btn-linea" href="#planes">Ver planes</a></div>
+  <h1><span class="l"><span style="--i:0">Tu próximo cliente</span></span><span class="l"><span style="--i:1">podría estar</span></span><span class="l"><span style="--i:2"><em>buscándote ahora.</em></span></span></h1>
+  <p class="sub entra" style="--d:.6s">Haz visible tu despacho cuando alguien necesita ayuda legal. Crea tu perfil profesional, destaca tus especialidades y recibe contactos directo en tu WhatsApp.</p>
+  <div class="acciones entra" style="--d:.8s;display:grid;gap:10px;margin-top:26px;max-width:420px"><a class="btn btn-oro brilla" href="#registro">Quiero aparecer en LicLink</a><a class="btn btn-linea" href="#planes">Ver planes</a></div>
+  <p class="nota-cta entra" style="--d:.9s">Desde $49 MXN al mes · Sin contratos forzosos</p>
+</div></section>
+
+<section class="marfil" style="padding-top:10px"><div class="w">
+  <span class="eti rv">Así te ven tus clientes</span>
+  <h2 class="rv">Básico o Premium: <em>la diferencia se nota.</em></h2>
+  <div class="muestra-fichas" data-escalona>{muestra}</div>
+  {demo}
 </div></section>
 
 <section class="abogados oscuro" id="planes"><div class="w">
@@ -339,38 +408,43 @@ def para_abogados():
   {planes_html()}
 </div></section>
 
-<section class="oscuro" style="padding-top:0"><div class="w">
-  <span class="eti rv">Así te ven tus clientes</span>
-  <h2 class="rv">La diferencia <em>se nota.</em></h2>
-  <div class="muestra-fichas" data-escalona>{ej_b}{ej_p}</div>
-  <p class="ilustrativa" style="text-align:left">Fichas de ejemplo con datos inventados.</p>
+<section class="marfil"><div class="w">
+  <span class="eti rv">Cómo funciona</span>
+  <h2 class="rv">De tus datos a tu perfil <em>en cinco pasos.</em></h2>
+  <div class="pasos cinco" data-escalona>
+    <div class="paso"><span class="n">1</span><div><h3>Nos mandas tus datos</h3><p>Con el formulario de abajo, en un minuto.</p></div></div>
+    <div class="paso"><span class="n">2</span><div><h3>Revisamos tu información</h3><p>Y tu cédula en la SEP, si nos la compartes.</p></div></div>
+    <div class="paso"><span class="n">3</span><div><h3>Creamos tu perfil</h3><p>Nosotros lo armamos por ti.</p></div></div>
+    <div class="paso"><span class="n">4</span><div><h3>Lo apruebas</h3><p>Te lo enseñamos antes de publicarlo.</p></div></div>
+    <div class="paso"><span class="n">5</span><div><h3>Lo activamos</h3><p>Al recibir tu pago se publica en la guía.</p></div></div>
+  </div>
 </div></section>
 
-<section class="marfil"><div class="w">
+<section class="marfil" style="padding-top:0"><div class="w">
   <span class="eti rv">Lo que nos hace distintos</span>
   <h2 class="rv">Escuchamos lo que los profesionales <em>odian</em> de otras plataformas.</h2>
   <div class="porque" data-escalona>
-    <div><b>Sin contratos anuales</b><p>Otras plataformas amarran con contratos de un año y cobran aunque quieras irte. Aquí es mes a mes.</p></div>
+    <div><b>Sin contratos anuales</b><p>Otras plataformas amarran con contratos de un año. Aquí pagas mes a mes.</p></div>
     <div><b>Cancelar es fácil</b><p>Un mensaje de WhatsApp y listo. Sin llamadas de retención ni cargos después de cancelar.</p></div>
-    <div><b>Precio que no se dispara</b><p>Si entras como fundador, tu precio se queda igual mientras sigas con nosotros.</p></div>
-    <div><b>Reseñas honestas</b><p>No escondemos opiniones: tus reseñas viven en Google Maps y te suben en Google.</p></div>
+    <div><b>Precio protegido</b><p>Como socio fundador, tu precio se mantiene mientras sigas activo.</p></div>
+    <div><b>Reseñas honestas</b><p>Tus reseñas viven en Google Maps, a la vista de todos.</p></div>
   </div>
 </div></section>
 
 <section class="oscuro" id="registro"><div class="w">
   <span class="eti rv">Registro</span>
-  <h2 class="rv">Aparece en la guía <em>en 48 horas.</em></h2>
-  <p class="sub rv">Llena tus datos y te escribimos por WhatsApp para confirmar tu cédula y tu plan. No pagas nada hasta ver tu perfil listo.</p>
+  <h2 class="rv">Crea tu perfil <em>profesional.</em></h2>
+  <p class="sub rv"><b>No pagas hasta revisar y aprobar tu perfil.</b> Llena tus datos y te escribimos por WhatsApp.</p>
   <form class="form rv" id="formRegistro">
-    <div><label for="rNombre">Nombre completo</label><input id="rNombre" required autocomplete="name" placeholder="Lic. Nombre Apellido"></div>
-    <div><label for="rDespacho">Despacho (opcional)</label><input id="rDespacho" placeholder="Nombre del despacho"></div>
+    <div><label for="rNombre">Nombre o despacho</label><input id="rNombre" required autocomplete="name" placeholder="Lic. Nombre Apellido o despacho"></div>
     <div><label for="rCiudad">Ciudad</label><select id="rCiudad">{opciones_ciudad()}</select></div>
-    <div><label>Materias</label><div class="opciones" id="rMaterias"></div></div>
-    <div><label for="rWa">Tu WhatsApp</label><input id="rWa" required inputmode="tel" autocomplete="tel" placeholder="10 dígitos"></div>
-    <div><label for="rCedula">Cédula profesional</label><input id="rCedula" inputmode="numeric" placeholder="Para el sello de verificación"></div>
-    <div><label for="rPlan">Plan</label><select id="rPlan"><option value="premium">Premium · $399 alta + $149/mes</option><option value="basico">Básico · $99 alta + $49/mes</option></select></div>
-    <button class="btn btn-oro brilla" type="submit">{WA}Enviar por WhatsApp</button>
-    <p class="fino">Al enviar aceptas que te contactemos por WhatsApp. Solo publicamos tu perfil cuando tú lo apruebas.</p>
+    <div><label>Especialidades</label><div class="opciones" id="rMaterias"></div></div>
+    <div><label for="rWa">Tu WhatsApp</label><input id="rWa" required inputmode="tel" autocomplete="tel" placeholder="10 dígitos" pattern="[0-9 ]{{10,14}}"></div>
+    <div><label for="rCedula">Cédula profesional (opcional)</label><input id="rCedula" inputmode="numeric" placeholder="Para verificarla en la SEP"></div>
+    <div><label for="rPlan">Plan</label><select id="rPlan"><option value="premium">Premium · $399 alta + $149 MXN/mes</option><option value="basico">Básico · $99 alta + $49 MXN/mes</option></select></div>
+    <label class="acepto"><input type="checkbox" required> Acepto el <a href="/aviso-de-privacidad/" target="_blank">aviso de privacidad</a> y que LicLink me contacte por WhatsApp.</label>
+    <button class="btn btn-oro brilla" type="submit">{WA}Crear mi perfil profesional</button>
+    <p class="fino">Solo publicamos tu perfil cuando tú lo apruebas.</p>
     <pre id="rAviso" hidden style="white-space:pre-wrap;font:14px/1.4 var(--sans);background:var(--marfil);padding:12px;border-radius:6px"></pre>
   </form>
 </div></section>
@@ -400,6 +474,51 @@ def datos_guia():
     return ("window.GUIA = " + json.dumps(sal, ensure_ascii=False, separators=(",", ":")) + ";\n"
             "window.CIUDADES = " + json.dumps(ciu, ensure_ascii=False) + ";\n")
 
+AVISO = [
+ ("Quién es responsable de tus datos", ["LicLink, con sede en Oaxaca, México, es responsable del tratamiento de los datos personales que se recaban en este sitio. Puedes contactarnos por WhatsApp al 951 183 6468."]),
+ ("Qué datos recabamos", ["De los abogados que se registran: nombre, despacho, ciudad, especialidades, número de WhatsApp y teléfono, correo, cédula profesional, fotografía o logotipo y enlaces a sus redes sociales.",
+   "De las personas que usan la sección «¿No sabes qué abogado necesitas?»: lo que decidan escribirnos y su número de WhatsApp, que conocemos porque el mensaje llega a nuestro WhatsApp. No es necesario dar tu nombre. Te pedimos no compartir datos sensibles.",
+   "Los mensajes que envías a un abogado desde su ficha o su perfil van directamente a su WhatsApp: LicLink no los recibe ni los guarda."]),
+ ("Para qué los usamos", ["Finalidades necesarias: publicar y mantener los perfiles de los abogados, verificar su cédula en el Registro Nacional de Profesionistas de la SEP, contactarlos sobre su suscripción y cobros, y orientar a quien nos escribe para encontrar abogado.",
+   "Finalidades secundarias: elaborar estadísticas generales de uso del sitio y avisar a los abogados sobre mejoras. Puedes pedirnos por WhatsApp que no usemos tus datos para estas finalidades."]),
+ ("Con quién los compartimos", ["No vendemos datos personales. Los datos que un abogado autoriza para su perfil son públicos en el sitio. Usamos proveedores para operar el servicio, como el alojamiento del sitio (Cloudflare) y la mensajería (WhatsApp)."]),
+ ("Tus derechos", ["Puedes acceder a tus datos, corregirlos, pedir que los eliminemos u oponerte a su uso (derechos ARCO), y retirar tu consentimiento, escribiéndonos por WhatsApp al 951 183 6468. Responderemos en un plazo máximo de 20 días hábiles."]),
+ ("Cookies y estadísticas", ["Este sitio no usa cookies de publicidad. Podemos medir visitas de forma agregada y sin identificarte para mejorar el servicio y dar estadísticas a los abogados."]),
+ ("Cambios a este aviso", ["Cualquier cambio se publicará en esta página. Última actualización: 7 de noviembre de 2026."]),
+]
+TERMINOS = [
+ ("Qué es LicLink", ["LicLink es un directorio en línea que ayuda a las personas a encontrar y contactar abogados. LicLink no presta servicios legales, no da asesoría jurídica, no es parte de la relación entre el cliente y el abogado y no garantiza resultados jurídicos ni clientes."]),
+ ("Para quien busca abogado", ["Usar LicLink es gratis. Los honorarios y condiciones se acuerdan directamente con cada abogado, quien es el único responsable de su servicio. Si estás en peligro inmediato, llama al 911."]),
+ ("Verificación", ["«Cédula profesional verificada» significa que LicLink consultó la cédula del abogado en el Registro Nacional de Profesionistas de la SEP y que corresponde a la persona del perfil, en la fecha indicada. «Datos profesionales registrados» significa que el abogado autorizó su perfil y nos dio sus datos, pero aún no completamos esa revisión."]),
+ ("Para abogados: perfil y publicación", ["El abogado garantiza que sus datos son verdaderos y que tiene derecho a ejercer. Solo publicamos un perfil cuando el abogado lo aprueba. Podemos retirar perfiles con información falsa o engañosa."]),
+ ("Planes y pagos", ["Básico: alta única de $99 MXN y $49 MXN al mes. Premium: alta única de $399 MXN y $149 MXN al mes. La mensualidad se paga por adelantado. Si un pago no se recibe, el perfil se oculta hasta que se regularice.",
+   "Socios fundadores: quienes se registren en la etapa de lanzamiento conservan su precio mientras su suscripción siga activa sin interrupción. Si cancelan y regresan después, aplica el precio vigente."]),
+ ("Cancelación", ["Puedes cancelar cuando quieras con un mensaje de WhatsApp, sin penalización ni contrato forzoso. El perfil sigue visible hasta el final del mes pagado. El alta no es reembolsable una vez que el perfil fue publicado."]),
+ ("Reseñas", ["Las reseñas de los abogados viven en Google Maps. LicLink no las escribe, no las edita y no las borra, y no paga ni premia a nadie por dejarlas."]),
+ ("Contacto", ["Para dudas, cancelaciones o aclaraciones: WhatsApp 951 183 6468. Última actualización: 7 de noviembre de 2026."]),
+]
+
+
+def pagina_legal(titulo, ruta, secciones, intro):
+    cuerpo = "".join(f"<h2>{e(h)}</h2>" + "".join(f"<p>{e(p)}</p>" for p in ps) for h, ps in secciones)
+    return cabeza(f"{titulo} | LicLink", intro, ruta) + f"""<body>
+{BARRA}
+<main><section class="marfil"><div class="w legal-txt"><span class="eti">LicLink</span><h1>{e(titulo)}</h1><p>{e(intro)}</p>{cuerpo}</div></section></main>
+{PIE}
+""" + fin()
+
+
+def sitemap(g):
+    urls = ["/", "/para-abogados/", "/aviso-de-privacidad/", "/terminos/"]
+    for c in CIUDADES:
+        if any(a.get("ciudad") == c for a in g): urls.append(f"/abogados/{c}/")
+        for m in MATERIAS:
+            if any(a.get("ciudad") == c and m in a.get("materias", []) for a in g): urls.append(f"/abogados/{c}/{m}/")
+    urls += [a["pagina"] for a in g if a["plan"] == "premium" and a.get("pagina")]
+    hoy = __import__("datetime").date.today().isoformat()
+    return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{URL_BASE}{u}</loc><lastmod>{hoy}</lastmod></url>\n" for u in urls) + "</urlset>\n"
+
+
 
 def escribir(ruta, txt):
     os.makedirs(os.path.dirname(ruta), exist_ok=True)
@@ -410,11 +529,22 @@ def main():
     escribir(os.path.join(PUBLICO, "assets", "guia-datos.js"), datos_guia())
     escribir(os.path.join(PUBLICO, "index.html"), portada())
     escribir(os.path.join(PUBLICO, "para-abogados", "index.html"), para_abogados())
+    g = cargar_guia()
     for c in CIUDADES:
-        escribir(os.path.join(PUBLICO, "abogados", c, "index.html"), listado(c))
+        escribir(os.path.join(PUBLICO, "abogados", c, "index.html"), listado(c, "", g))
         for m in MATERIAS:
-            escribir(os.path.join(PUBLICO, "abogados", c, m, "index.html"), listado(c, m))
-    print("Guía lista:", len(CIUDADES), "ciudades ×", len(MATERIAS), "materias")
+            escribir(os.path.join(PUBLICO, "abogados", c, m, "index.html"), listado(c, m, g))
+    escribir(os.path.join(PUBLICO, "aviso-de-privacidad", "index.html"), pagina_legal("Aviso de privacidad", "/aviso-de-privacidad/", AVISO, "Cómo cuidamos los datos personales de abogados y visitantes."))
+    escribir(os.path.join(PUBLICO, "terminos", "index.html"), pagina_legal("Términos y condiciones", "/terminos/", TERMINOS, "Reglas de uso de LicLink, suscripciones, cancelación y verificación profesional."))
+    g = cargar_guia()
+    escribir(os.path.join(PUBLICO, "sitemap.xml"), sitemap(g))
+    escribir(os.path.join(PUBLICO, "robots.txt"), f"User-agent: *\nAllow: /\nSitemap: {URL_BASE}/sitemap.xml\n")
+    filas = ["| Abogado | Plan | Ciudad | Alta | Vence | Pago | Estado | Cédula verificada |", "|---|---|---|---|---|---|---|---|"]
+    todos_g = json.load(open(os.path.join(os.path.dirname(DATOS), "guia.json"), encoding="utf-8"))
+    for a in sorted(todos_g, key=lambda x: (x.get("plan") != "premium", x["nombre"])):
+        filas.append(f"| {a['nombre']} | {a.get('plan','')} | {CIUDADES.get(a.get('ciudad'), ('',))[0]} | {a.get('alta','')} | {a.get('vence','') or '—'} | {a.get('pago','')} | {a.get('estado','')} | {a.get('verificada_fecha') or 'no'} |")
+    escribir(os.path.join(os.path.dirname(DATOS), "CLIENTES.md"), "# Clientes de la guía LicLink\n\nSe genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, estado, verificada, verificada_fecha).\n\n" + "\n".join(filas) + "\n")
+    print("Guía lista:", len(CIUDADES), "ciudades ×", len(MATERIAS), "materias · en sitemap:", sitemap(g).count("<url>"))
 
 
 if __name__ == "__main__":

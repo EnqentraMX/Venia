@@ -17,7 +17,7 @@ PLANTILLA = os.path.join(RAIZ, "plantilla", "index.html")
 PLANTILLA_V2 = os.path.join(RAIZ, "plantilla", "v2.html")
 PUBLICO = os.path.join(RAIZ, "public")
 URL_BASE = "https://liclink.demomx.workers.dev"  # cambiar al comprar el dominio
-PROTEGIDOS = {"assets", "plantilla", "abogados", "para-abogados", "castillo-abogados", "gabriel-sanchez", "miguel-manzano", "dalia-marquez"}
+PROTEGIDOS = {"assets", "plantilla", "abogados", "para-abogados", "aviso-de-privacidad", "terminos", "castillo-abogados", "gabriel-sanchez", "miguel-manzano", "dalia-marquez"}
 
 # ---------------------------------------------------------------- catálogo de áreas
 AREAS = {
@@ -159,6 +159,12 @@ def cabecera(html, a):
     for arch in ("v2.css", "v2.js", "liclink.css", "despacho.js"):  # versión en el nombre: el celular nunca se queda con una copia vieja
         html = html.replace(f"/assets/{arch}\"", f"/assets/{arch}?v={version(arch)}\"")
     html = html.replace("<title>Despacho jurídico</title>", f"<title>{H.escape(titulo)}</title>", 1)
+    if a.get("estado") == "vendido":  # datos estructurados para Google, solo con información confirmada (sin calificaciones)
+        ld = {"@context": "https://schema.org", "@type": "LegalService", "name": nombre, "url": url, "image": url + "compartir.png",
+              "telephone": "+52" + str(a.get("telefono", "")), "description": desc,
+              "address": {"@type": "PostalAddress", "addressLocality": a.get("ciudad", ""), "addressCountry": "MX"}}
+        if a.get("facebook"): ld["sameAs"] = [a["facebook"]]
+        html = html.replace("</head>", '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>\n</head>", 1)
     html = html.replace('<meta name="description" content="">', f'<meta name="description" content="{H.escape(desc)}">\n{og}', 1)
     return html
 

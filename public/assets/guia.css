@@ -60,7 +60,7 @@ section{padding:64px 0}
 .portada::before{content:"";position:absolute;inset:0;background:radial-gradient(80% 60% at 100% 0%,rgba(212,176,106,.22),transparent 70%),radial-gradient(60% 50% at 0% 100%,rgba(212,176,106,.10),transparent 70%);pointer-events:none}
 .portada.oscuro::before{background:radial-gradient(70% 60% at 85% 10%,rgba(212,176,106,.16),transparent 70%)}
 .portada .w{position:relative}
-.portada h1{font-size:clamp(36px,9.6vw,72px);margin-top:14px;line-height:1.05}
+.portada h1{font-size:clamp(32px,8.6vw,64px);margin-top:14px;line-height:1.08}
 .portada h1 .l{display:block;overflow:hidden;padding-bottom:.06em}
 .portada h1 .l>span{display:inline-block;animation:sube .9s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(.15s + var(--i)*.12s)}
 @keyframes sube{from{transform:translateY(105%)}to{transform:none}}
@@ -312,3 +312,36 @@ section{padding:64px 0}
 .destacados .ficha{flex:0 0 86%;scroll-snap-align:start}
 @media (min-width:760px){.destacados{margin:24px 0 0;padding:4px 0 14px}.destacados .ficha{flex:0 0 360px}}
 .oculto{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* Verificación honesta */
+.ficha .ver.no{color:var(--gris);background:var(--marfil2)}
+/* Migas de pan */
+.migas{font-size:14px;color:var(--gris);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.migas a{color:var(--oro-t);font-weight:600}
+.migas span{color:#b5ad9f}
+.migas b{color:var(--tinta);font-weight:600}
+.atajos-t{margin-top:18px;font-size:14px;font-weight:700;color:var(--gris)}
+.atajos-t+.atajos{margin-top:8px}
+/* Socios fundadores */
+.fundadores{margin-top:20px;border:1px dashed var(--oro);border-radius:14px;padding:20px;max-width:900px;background:rgba(212,176,106,.06)}
+.fundadores b{font-size:18px;color:var(--oro2)}
+.fundadores p{margin-top:4px;font-size:15px}
+.fundadores ul{list-style:none;padding:0;margin:12px 0;display:grid;gap:8px}
+.fundadores li{display:grid;grid-template-columns:22px 1fr;gap:10px;font-size:15.5px;color:var(--claro)}
+.fundadores li svg{width:20px;height:20px;color:var(--oro)}
+.fundadores small{color:var(--claro2);font-size:13px}
+/* Demo de perfil Premium */
+.demo{display:block;margin-top:16px;border-radius:14px;overflow:hidden;border:1px solid var(--linea);box-shadow:var(--sombra);background:var(--tinta);max-width:900px}
+.demo img{width:100%;height:auto}
+.demo span{display:block;padding:14px 16px;color:var(--oro2);font-weight:700}
+.nota-cta{margin-top:12px;font-size:14px;font-weight:600;color:var(--gris)}
+.acepto{display:flex!important;gap:10px;align-items:flex-start;font-weight:500!important;font-size:14px!important;line-height:1.4}
+.acepto input{width:20px!important;min-height:0!important;height:20px;margin-top:1px;accent-color:#94702c;flex:none}
+.acepto a{color:var(--oro-t);text-decoration:underline}
+@media (min-width:760px){.pasos.cinco{grid-template-columns:repeat(5,1fr)}}
+/* Páginas legales */
+.legal-txt{max-width:760px}
+.legal-txt h1{font-size:clamp(30px,7vw,44px)}
+.legal-txt h2{font-size:21px;margin-top:28px}
+.legal-txt p,.legal-txt li{color:var(--gris);margin-top:10px}
+.legal-txt ul{padding-left:20px}

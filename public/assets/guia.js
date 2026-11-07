@@ -100,17 +100,21 @@
     $("#filtros").innerHTML = '<a href="/abogados/' + C + '/" class="' + (M ? "" : "si") + '">Todas</a>' +
       Object.keys(MATERIAS).map(function (k) { return '<a href="/abogados/' + C + "/" + k + '/" class="' + (k === M ? "si" : "") + '">' + MATERIAS[k][0] + "</a>"; }).join("");
     var si = $("#filtros .si"); if (si) si.scrollIntoView({ inline: "center", block: "nearest" });
-    var todos = (window.GUIA || []).filter(function (a) { return a.ciudad === C && (!M || (a.materias || []).indexOf(M) > -1); });
-    todos.sort(function (a, b) { return (b.plan === "premium") - (a.plan === "premium") || a.nombre.localeCompare(b.nombre, "es"); });
-    if (!todos.length) {
-      lista.innerHTML = '<div class="vacio"><span class="eti">Estamos creciendo</span><h2>Estamos verificando a los primeros ' + esc(document.body.getAttribute("data-plural") || "abogados") + " en " + esc(nc) + ".</h2>" +
-        "<p>Mientras tanto, cuéntanos tu caso y te ayudamos a encontrar a un abogado con cédula verificada. Sin costo para ti.</p>" +
-        '<div class="acciones"><a class="btn btn-wa js-ayuda" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Pedir ayuda por WhatsApp</a>' +
+    var hechas = $$(".ficha", lista);
+    if (hechas.length) {
+      // Las fichas ya vienen en el HTML (así Google las lee). Los destacados se alternan en cada visita para que ninguno quede siempre primero.
+      var pr = hechas.filter(function (x) { return x.getAttribute("data-plan") === "premium"; });
+      for (var q = pr.length - 1; q > 0; q--) { var z = Math.floor(Math.random() * (q + 1)), tt = pr[q]; pr[q] = pr[z]; pr[z] = tt; }
+      pr.slice().reverse().forEach(function (x) { lista.insertBefore(x, lista.firstChild); });
+    } else {
+      lista.innerHTML = '<div class="vacio"><span class="eti">Estamos creciendo</span><h2>Estamos sumando a los primeros ' + esc(document.body.getAttribute("data-plural") || "abogados") + " en " + esc(nc) + ".</h2>" +
+        "<p>Mientras tanto, cuéntanos qué pasó y te orientamos para encontrar abogado. Sin costo para ti.</p>" +
+        '<div class="acciones"><a class="btn btn-wa js-ayuda" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Pedir orientación por WhatsApp</a>' +
         '<a class="btn btn-linea" href="/para-abogados/">Soy abogado: quiero aparecer</a></div></div>';
       var ay = $(".js-ayuda");
       if (LICLINK_WA) ay.href = wa(LICLINK_WA, "Hola, busco abogado" + (nm ? " de " + nm.toLowerCase() : "") + " en " + nc + ". Mi caso es: ");
       else ay.href = "/para-abogados/";
-    } else lista.innerHTML = todos.map(ficha).join("");
+    }
   }
 
   function ficha(a) {
@@ -120,8 +124,8 @@
     var msg = "Hola, lo encontré en LicLink. Necesito asesoría.";
     var redes = prem ? Object.keys(a.redes || {}).filter(function (k) { return a.redes[k]; }).map(function (k) { return '<a href="' + esc(a.redes[k]) + '" target="_blank" rel="noopener" aria-label="' + k + '"><svg viewBox="0 0 24 24"><use href="#i-' + k + '"/></svg></a>'; }).join("") : "";
     return '<article class="ficha rv' + (prem ? " prem" : "") + '">' +
-      '<div class="foto' + (a.logo ? " logo" : "") + '">' + foto + "</div><div>" + (prem ? '<span class="sello-p">Premium</span>' : "") + "<h3>" + esc(a.nombre) + '</h3><div class="rol">' + esc(a.rol || "") + (CIUDADES[a.ciudad] && (a.rol || "").indexOf(CIUDADES[a.ciudad]) < 0 ? " · " + esc(CIUDADES[a.ciudad]) : "") + "</div>" +
-      (a.verificada ? '<span class="ver"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula verificada</span>' : "") +
+      '<div class="foto' + (a.logo ? " logo" : "") + '">' + foto + "</div><div>" + (prem ? '<span class="sello-p">Destacado</span>' : "") + "<h3>" + esc(a.nombre) + '</h3><div class="rol">' + esc(a.rol || "") + (CIUDADES[a.ciudad] && (a.rol || "").indexOf(CIUDADES[a.ciudad]) < 0 ? " · " + esc(CIUDADES[a.ciudad]) : "") + "</div>" +
+      (a.verificada ? '<span class="ver si"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula profesional verificada</span>' : '<span class="ver no">Datos profesionales registrados</span>') +
       (redes ? '<div class="redes">' + redes + "</div>" : "") +
       '<div class="tags">' + tags + "</div></div>" +
       '<div class="acc">' +
@@ -134,7 +138,7 @@
 
   /* ---------- Portada: abogados destacados (Premium primero, luego al azar) ---------- */
   var dest = $("#destacados");
-  if (dest) {
+  if (dest && !dest.children.length) {
     var g = (window.GUIA || []).slice(), prem = g.filter(function (a) { return a.plan === "premium"; }), resto = g.filter(function (a) { return a.plan !== "premium" && a.foto; });
     for (var i = resto.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = resto[i]; resto[i] = resto[j]; resto[j] = t; }
     var sel = prem.concat(resto).slice(0, 8);
@@ -152,7 +156,7 @@
   if (pf) pf.addEventListener("submit", function (e) {
     e.preventDefault();
     var t = $("#pTexto").value.trim(); if (!t) return;
-    window.open(wa(LICLINK_WA, "Hola, tengo una pregunta legal (" + CIUDADES[$("#pCiudad").value] + "):\n\n" + t), "_blank");
+    window.open(wa(LICLINK_WA, "Hola, no sé qué abogado necesito (" + CIUDADES[$("#pCiudad").value] + "). Esto es lo que pasó:\n\n" + t), "_blank");
   });
 
   /* ---------- Registro de abogados ---------- */
@@ -164,8 +168,8 @@
       e.preventDefault();
       var v = function (id) { return ($("#" + id).value || "").trim(); };
       var mats = $$("#rMaterias input:checked").map(function (i) { return MATERIAS[i.value][0]; });
-      var txt = ["Hola, quiero aparecer en LicLink.", "• Nombre: " + v("rNombre"), v("rDespacho") ? "• Despacho: " + v("rDespacho") : "", "• Ciudad: " + CIUDADES[v("rCiudad")],
-        "• Materias: " + (mats.join(", ") || "por definir"), "• WhatsApp: " + v("rWa"), v("rCedula") ? "• Cédula: " + v("rCedula") : "", "• Plan: " + $("#rPlan").selectedOptions[0].text].filter(Boolean).join("\n");
+      var txt = ["Hola, quiero aparecer en LicLink.", "• Nombre: " + v("rNombre"), "• Ciudad: " + CIUDADES[v("rCiudad")],
+        "• Especialidades: " + (mats.join(", ") || "por definir"), "• WhatsApp: " + v("rWa"), v("rCedula") ? "• Cédula: " + v("rCedula") : "", "• Plan: " + $("#rPlan").selectedOptions[0].text].filter(Boolean).join("\n");
       if (LICLINK_WA) window.open(wa(LICLINK_WA, txt), "_blank");
       else { $("#rAviso").hidden = false; $("#rAviso").textContent = txt; }
     });
