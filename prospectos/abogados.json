@@ -1287,9 +1287,10 @@
         "r": "Sí. Todo lo que nos compartas se trata con estricta confidencialidad y respeto."
       }
     ],
-    "estado": "borrar",
-    "alta": "2026-11-06",
-    "fuente": "Facebook"
+    "estado": "vendido",
+    "alta": "2026-11-07",
+    "fuente": "Facebook",
+    "plan": "premium"
   },
   {
     "slug": "israel-lopez-sanchez",

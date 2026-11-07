@@ -1,5 +1,33 @@
 [
  {
+  "slug": "servicios-legales-vs",
+  "nombre": "Servicios Legales V.S.",
+  "rol": "Valeria Sanjuan · Asesoría jurídica con perspectiva de género",
+  "ciudad": "cdmx",
+  "materias": [
+   "familiar",
+   "penal",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/servicios-legales-vs/logo.jpg",
+  "logo": true,
+  "iniciales": "VS",
+  "whatsapp": "525523821217",
+  "telefono": "5523821217",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/servicios-legales-vs/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61594826649462"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-07",
+  "vence": "",
+  "pago": "pendiente"
+ },
+ {
   "slug": "salmeron-asociados",
   "nombre": "Salmerón & Asociados Jurista",
   "rol": "Abogado Víctor · Familiar, herencias, penal, civil y mercantil · Tonalá y Tlaquepaque",
