@@ -7,7 +7,7 @@
 window.DATOS = {
 
   // true = se marcan los datos que faltan confirmar. Cambiar a false cuando esté todo.
-  vistaPrevia: true,
+  vistaPrevia: false,
   muestra: false,
 
   // ---------- Colores propios (azul marino y oro, como sus flyers) ----------

@@ -3,10 +3,8 @@
   "use strict";
   /* ====== CONFIGURACIÓN ====== */
   // Número de WhatsApp de LicLink (10 dígitos con 52 adelante, ej. "5215512345678"). Aquí llegan registros y clientes sin abogado.
-  var LICLINK_WA = "";
-  var CIUDADES = {
-    cdmx: "Ciudad de México", edomex: "Estado de México", guadalajara: "Guadalajara", puebla: "Puebla"
-  };
+  var LICLINK_WA = "529511836468";
+  var CIUDADES = window.CIUDADES || { cdmx: "Ciudad de México", edomex: "Estado de México", guadalajara: "Guadalajara", puebla: "Puebla" };
   var MATERIAS = {
     penal: ["Penal", "Detenciones, denuncias y defensa"],
     familiar: ["Familiar", "Divorcio, pensión y custodia"],
@@ -103,7 +101,7 @@
       Object.keys(MATERIAS).map(function (k) { return '<a href="/abogados/' + C + "/" + k + '/" class="' + (k === M ? "si" : "") + '">' + MATERIAS[k][0] + "</a>"; }).join("");
     var si = $("#filtros .si"); if (si) si.scrollIntoView({ inline: "center", block: "nearest" });
     var todos = (window.GUIA || []).filter(function (a) { return a.ciudad === C && (!M || (a.materias || []).indexOf(M) > -1); });
-    todos.sort(function (a, b) { return (b.plan === "premium") - (a.plan === "premium"); });
+    todos.sort(function (a, b) { return (b.plan === "premium") - (a.plan === "premium") || a.nombre.localeCompare(b.nombre, "es"); });
     if (!todos.length) {
       lista.innerHTML = '<div class="vacio"><span class="eti">Estamos creciendo</span><h2>Estamos verificando a los primeros ' + esc(document.body.getAttribute("data-plural") || "abogados") + " en " + esc(nc) + ".</h2>" +
         "<p>Mientras tanto, cuéntanos tu caso y te ayudamos a encontrar a un abogado con cédula verificada. Sin costo para ti.</p>" +
@@ -118,11 +116,11 @@
   function ficha(a) {
     var prem = a.plan === "premium";
     var tags = (a.materias || []).map(function (k) { return "<span>" + esc((MATERIAS[k] || [k])[0]) + "</span>"; }).join("");
-    var foto = a.foto ? '<img src="' + esc(a.foto) + '" alt="" loading="lazy">' : esc(a.iniciales || a.nombre.slice(0, 2));
+    var foto = a.foto ? '<img src="' + esc(a.foto) + '" alt="" loading="lazy" decoding="async" width="72" height="72">' : esc(a.iniciales || a.nombre.slice(0, 2));
     var msg = "Hola, lo encontré en LicLink. Necesito asesoría.";
     var redes = prem ? Object.keys(a.redes || {}).filter(function (k) { return a.redes[k]; }).map(function (k) { return '<a href="' + esc(a.redes[k]) + '" target="_blank" rel="noopener" aria-label="' + k + '"><svg viewBox="0 0 24 24"><use href="#i-' + k + '"/></svg></a>'; }).join("") : "";
-    return '<article class="ficha rv' + (prem ? " prem" : "") + '">' + (prem ? '<span class="sello-p">Premium</span>' : "") +
-      '<div class="foto">' + foto + "</div><div><h3>" + esc(a.nombre) + '</h3><div class="rol">' + esc(a.rol || "") + "</div>" +
+    return '<article class="ficha rv' + (prem ? " prem" : "") + '">' +
+      '<div class="foto' + (a.logo ? " logo" : "") + '">' + foto + "</div><div>" + (prem ? '<span class="sello-p">Premium</span>' : "") + "<h3>" + esc(a.nombre) + '</h3><div class="rol">' + esc(a.rol || "") + (CIUDADES[a.ciudad] && (a.rol || "").indexOf(CIUDADES[a.ciudad]) < 0 ? " · " + esc(CIUDADES[a.ciudad]) : "") + "</div>" +
       (a.verificada ? '<span class="ver"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula verificada</span>' : "") +
       (redes ? '<div class="redes">' + redes + "</div>" : "") +
       '<div class="tags">' + tags + "</div></div>" +
@@ -133,6 +131,24 @@
       (prem && a.resena ? '<a class="btn btn-linea uno" target="_blank" rel="noopener" href="' + esc(a.resena) + '">★ Ver y dejar reseñas en Google</a>' : "") +
       "</div></article>";
   }
+
+  /* ---------- Portada: abogados destacados (Premium primero, luego al azar) ---------- */
+  var dest = $("#destacados");
+  if (dest) {
+    var g = (window.GUIA || []).slice(), prem = g.filter(function (a) { return a.plan === "premium"; }), resto = g.filter(function (a) { return a.plan !== "premium" && a.foto; });
+    for (var i = resto.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = resto[i]; resto[i] = resto[j]; resto[j] = t; }
+    var sel = prem.concat(resto).slice(0, 8);
+    dest.innerHTML = sel.map(function (a) { return ficha(a).replace(" rv", ""); }).join("");
+    dest.closest("section").hidden = !sel.length;
+  }
+
+  /* ---------- Portada: pregúntale a un abogado ---------- */
+  var pf = $("#pregunta");
+  if (pf) pf.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var t = $("#pTexto").value.trim(); if (!t) return;
+    window.open(wa(LICLINK_WA, "Hola, tengo una pregunta legal (" + CIUDADES[$("#pCiudad").value] + "):\n\n" + t), "_blank");
+  });
 
   /* ---------- Registro de abogados ---------- */
   var reg = $("#formRegistro");

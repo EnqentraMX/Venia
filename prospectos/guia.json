@@ -1,0 +1,346 @@
+[
+ {
+  "slug": "nhg-abogados",
+  "nombre": "NHG Abogados",
+  "rol": "Dr. Nimrod Huerta · Despacho en Tijuana",
+  "ciudad": "tijuana",
+  "materias": [
+   "penal",
+   "familiar",
+   "laboral",
+   "civil",
+   "mercantil",
+   "fiscal"
+  ],
+  "plan": "basico",
+  "foto": "/nhg-abogados/foto.jpg",
+  "logo": false,
+  "iniciales": "NH",
+  "whatsapp": "526642515656",
+  "telefono": "6642515656",
+  "verificada": false
+ },
+ {
+  "slug": "cji-inmobiliario",
+  "nombre": "CJI Corporativo Jurídico Inmobiliario",
+  "rol": "Asesoría jurídica inmobiliaria",
+  "ciudad": "yucatan",
+  "materias": [
+   "civil"
+  ],
+  "plan": "basico",
+  "foto": "",
+  "logo": false,
+  "iniciales": "CJI",
+  "whatsapp": "529901488694",
+  "telefono": "9901488694",
+  "verificada": false
+ },
+ {
+  "slug": "leticia-reyna",
+  "nombre": "Lic. Laura Leticia Reyna Rodríguez",
+  "rol": "Abogada, criminóloga y gestora ante el Registro Civil",
+  "ciudad": "san-luis-potosi",
+  "materias": [
+   "familiar",
+   "civil",
+   "mercantil"
+  ],
+  "plan": "basico",
+  "foto": "/leticia-reyna/foto.jpg",
+  "logo": false,
+  "iniciales": "LR",
+  "whatsapp": "524442779244",
+  "telefono": "4442779244",
+  "verificada": false
+ },
+ {
+  "slug": "rpa-asociados",
+  "nombre": "RPA & Asociados",
+  "rol": "Consultores jurídicos",
+  "ciudad": "cdmx",
+  "materias": [
+   "penal",
+   "familiar",
+   "laboral",
+   "civil",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "/rpa-asociados/foto.jpg",
+  "logo": true,
+  "iniciales": "RPA",
+  "whatsapp": "525632547612",
+  "telefono": "5632547612",
+  "verificada": false
+ },
+ {
+  "slug": "alcantara-asociados",
+  "nombre": "Alcántara & Asociados",
+  "rol": "Consorcio jurídico · Nezahualcóyotl",
+  "ciudad": "edomex",
+  "materias": [
+   "penal",
+   "familiar",
+   "laboral",
+   "civil",
+   "mercantil",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "",
+  "logo": false,
+  "iniciales": "A&A",
+  "whatsapp": "5518461180",
+  "telefono": "5518461180",
+  "verificada": false
+ },
+ {
+  "slug": "gallardo-asociados",
+  "nombre": "Gallardo & Asociados",
+  "rol": "Lic. Mayra Gallardo · Penal, familiar y civil",
+  "ciudad": "cdmx",
+  "materias": [
+   "penal",
+   "familiar",
+   "civil"
+  ],
+  "plan": "basico",
+  "foto": "/gallardo-asociados/foto.jpg",
+  "logo": false,
+  "iniciales": "MG",
+  "whatsapp": "525611114172",
+  "telefono": "5611114172",
+  "verificada": false
+ },
+ {
+  "slug": "guillen-asociados",
+  "nombre": "Guillén & Asociados Abogados",
+  "rol": "Penal, civil, familiar y laboral",
+  "ciudad": "cdmx",
+  "materias": [
+   "penal",
+   "familiar",
+   "laboral",
+   "civil"
+  ],
+  "plan": "basico",
+  "foto": "/guillen-asociados/foto.jpg",
+  "logo": true,
+  "iniciales": "GA",
+  "whatsapp": "525544568364",
+  "telefono": "5544568364",
+  "verificada": false
+ },
+ {
+  "slug": "fb-abogados-penalistas",
+  "nombre": "F&B Abogados Penalistas",
+  "rol": "Defensa penal estratégica · Cuautitlán",
+  "ciudad": "edomex",
+  "materias": [
+   "penal",
+   "familiar",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "/fb-abogados-penalistas/foto.jpg",
+  "logo": false,
+  "iniciales": "F&B",
+  "whatsapp": "5548499539",
+  "telefono": "5548499539",
+  "verificada": false
+ },
+ {
+  "slug": "abogados-de-oriente",
+  "nombre": "Abogados de Oriente",
+  "rol": "Lic. Felipe Ugalde · Penal y amparos · Iztapalapa",
+  "ciudad": "cdmx",
+  "materias": [
+   "penal",
+   "familiar",
+   "laboral",
+   "civil",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "/abogados-de-oriente/logo.jpg",
+  "logo": true,
+  "iniciales": "FU",
+  "whatsapp": "5528484426",
+  "telefono": "5528484426",
+  "verificada": false
+ },
+ {
+  "slug": "nicard-abogados",
+  "nombre": "Nicard Abogados",
+  "rol": "Ética · Integridad · Servicio",
+  "ciudad": "los-cabos",
+  "materias": [
+   "penal",
+   "civil",
+   "mercantil",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "/nicard-abogados/logo.jpg",
+  "logo": true,
+  "iniciales": "NA",
+  "whatsapp": "6241980397",
+  "telefono": "6241980397",
+  "verificada": false
+ },
+ {
+  "slug": "servicios-legales-vs",
+  "nombre": "Servicios Legales V.S.",
+  "rol": "Valeria Sanjuan · Asesoría con perspectiva de género",
+  "ciudad": "cdmx",
+  "materias": [
+   "penal",
+   "familiar",
+   "civil"
+  ],
+  "plan": "basico",
+  "foto": "/servicios-legales-vs/logo.jpg",
+  "logo": true,
+  "iniciales": "VS",
+  "whatsapp": "525523821217",
+  "telefono": "5523821217",
+  "verificada": false
+ },
+ {
+  "slug": "israel-lopez-sanchez",
+  "nombre": "Lic. Israel Daniel López Sánchez",
+  "rol": "Abogado · Familia, inmuebles y herencias",
+  "ciudad": "cdmx",
+  "materias": [
+   "familiar",
+   "civil",
+   "mercantil",
+   "sucesiones"
+  ],
+  "plan": "basico",
+  "foto": "/israel-lopez-sanchez/foto.jpg",
+  "logo": false,
+  "iniciales": "IL",
+  "whatsapp": "525550423909",
+  "telefono": "5550423909",
+  "verificada": false
+ },
+ {
+  "slug": "ulises-barba",
+  "nombre": "Abogados Barba y Asociados",
+  "rol": "Lic. Ulises Barba · Familiar, penal y laboral",
+  "ciudad": "leon",
+  "materias": [
+   "penal",
+   "familiar",
+   "laboral"
+  ],
+  "plan": "basico",
+  "foto": "/ulises-barba/foto.jpg",
+  "logo": false,
+  "iniciales": "BA",
+  "whatsapp": "524772442505",
+  "telefono": "4772442505",
+  "verificada": false
+ },
+ {
+  "slug": "adrian-perez",
+  "nombre": "Lic. Adrián Pérez González",
+  "rol": "Abogado litigante",
+  "ciudad": "cdmx",
+  "materias": [
+   "familiar",
+   "laboral",
+   "civil",
+   "mercantil",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "/adrian-perez/foto.jpg",
+  "logo": false,
+  "iniciales": "AP",
+  "whatsapp": "525538795606",
+  "telefono": "5538795606",
+  "verificada": false
+ },
+ {
+  "slug": "forseti-lex",
+  "nombre": "Forseti Lex Despacho Jurídico",
+  "rol": "Tu escudo legal",
+  "ciudad": "chihuahua",
+  "materias": [
+   "penal",
+   "familiar",
+   "civil",
+   "mercantil",
+   "amparo",
+   "fiscal"
+  ],
+  "plan": "basico",
+  "foto": "/forseti-lex/logo.jpg",
+  "logo": true,
+  "iniciales": "FL",
+  "whatsapp": "526251046138",
+  "telefono": "6251046138",
+  "verificada": false
+ },
+ {
+  "slug": "miguel-manzano",
+  "nombre": "Lic. Miguel Ángel Manzano Macías",
+  "rol": "Abogado · Familiar, laboral y administrativo",
+  "ciudad": "guadalajara",
+  "materias": [
+   "familiar",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "",
+  "logo": false,
+  "iniciales": "MM",
+  "whatsapp": "523335940403",
+  "telefono": "3335940403",
+  "verificada": false,
+  "pagina": "/miguel-manzano/",
+  "redes": {},
+  "resena": ""
+ },
+ {
+  "slug": "dalia-marquez",
+  "nombre": "Lic. Dalia Márquez Ramírez",
+  "rol": "Abogada y perito en documentos cuestionados",
+  "ciudad": "cdmx",
+  "materias": [
+   "laboral",
+   "familiar"
+  ],
+  "plan": "basico",
+  "foto": "/dalia-marquez/foto.jpg",
+  "logo": false,
+  "iniciales": "DM",
+  "whatsapp": "525533663408",
+  "telefono": "5533663408",
+  "verificada": false
+ },
+ {
+  "slug": "castillo-abogados",
+  "nombre": "Castillo & Abogados",
+  "rol": "Despacho jurídico en Monterrey",
+  "ciudad": "monterrey",
+  "materias": [
+   "familiar",
+   "penal",
+   "civil",
+   "mercantil",
+   "laboral",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "",
+  "logo": false,
+  "iniciales": "CA",
+  "whatsapp": "528111571262",
+  "telefono": "8111571262",
+  "verificada": false
+ }
+]

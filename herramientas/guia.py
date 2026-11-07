@@ -12,7 +12,11 @@ sys.path.insert(0, os.path.dirname(__file__))
 from generar import DATOS, PUBLICO, URL_BASE, area, slugify
 
 CIUDADES = {"cdmx": ("Ciudad de México", "CDMX"), "edomex": ("Estado de México", "Edomex"),
-            "guadalajara": ("Guadalajara", "Jalisco"), "puebla": ("Puebla", "Puebla")}
+            "guadalajara": ("Guadalajara", "Jalisco"), "puebla": ("Puebla", "Puebla"),
+            "monterrey": ("Monterrey", "Nuevo León"), "tijuana": ("Tijuana", "Baja California"), "leon": ("León", "Guanajuato"),
+            "chihuahua": ("Chihuahua", "Chihuahua"), "san-luis-potosi": ("San Luis Potosí", "SLP"), "los-cabos": ("Los Cabos", "Baja California Sur"),
+            "yucatan": ("Yucatán", "Yucatán")}
+PRINCIPALES = ["cdmx", "edomex", "guadalajara", "puebla"]
 FONDOS = {"cdmx": "radial-gradient(90% 80% at 100% 0%,#6b5326 0%,transparent 60%),linear-gradient(160deg,#1e1a14,#0c0b0a)",
           "edomex": "radial-gradient(90% 80% at 0% 0%,#4f4a2b 0%,transparent 60%),linear-gradient(200deg,#1a1913,#0c0b0a)",
           "guadalajara": "radial-gradient(90% 80% at 100% 100%,#6a3f2a 0%,transparent 60%),linear-gradient(160deg,#1d1612,#0c0b0a)",
@@ -76,9 +80,9 @@ def cabeza(titulo, desc, ruta, robots=""):
 <meta property="og:url" content="{url}"><meta property="og:image" content="{URL_BASE}/assets/liclink-compartir.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0c0b0a">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c0b0a'/%3E%3Ctext x='32' y='44' font-family='Georgia' font-size='34' text-anchor='middle' fill='%23d4b06a'%3EL%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c0b0a'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='800' font-size='36' text-anchor='middle' fill='%23d4b06a'%3EL%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..500&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/guia.css">
 </head>
 """
@@ -92,7 +96,7 @@ BARRA = """<header class="barra"><div class="w">
 
 PIE = """<footer class="pie"><div class="w">
   <div class="cols">
-    <div><a href="/" class="marca" style="color:var(--claro)">Lic<i>Link</i></a><p style="margin-top:12px;max-width:340px">La guía de abogados verificados de México. Encuentra, compara y habla directo con tu abogado.</p></div>
+    <div><a href="/" class="marca" style="color:var(--claro)">Lic<i>Link</i></a><p style="margin-top:12px;max-width:340px">La guía de abogados de México. Encuentra, compara y habla directo con tu abogado.</p></div>
     <div><b>Ciudades</b><ul>""" + "".join(f'<li><a href="/abogados/{k}/">{v[0]}</a></li>' for k, v in CIUDADES.items()) + """</ul></div>
     <div><b>Materias</b><ul>""" + "".join(f'<li><a href="/abogados/cdmx/{k}/">{v[0]}</a></li>' for k, v in list(MATERIAS.items())[:6]) + """</ul></div>
     <div><b>Abogados</b><ul><li><a href="/para-abogados/">Planes y precios</a></li><li><a href="/para-abogados/#registro">Registrarme</a></li><li><a href="/para-abogados/#preguntas">Preguntas</a></li></ul></div>
@@ -102,7 +106,7 @@ PIE = """<footer class="pie"><div class="w">
 
 
 def fin():
-    return SIMBOLOS + '\n<script src="/assets/guia-datos.js"></script>\n<script src="/assets/guia.js"></script>\n</body>\n</html>\n'
+    return SIMBOLOS + '\n<script src="/assets/guia-datos.js" defer></script>\n<script src="/assets/guia.js" defer></script>\n</body>\n</html>\n'
 
 
 def opciones_ciudad(sel="cdmx"):
@@ -137,7 +141,8 @@ def planes_html(corto=False):
 def portada():
     atajos = [("penal", "Detuvieron a un familiar"), ("laboral", "Me despidieron"), ("familiar", "Quiero divorciarme"), ("mercantil", "Me deben dinero"), ("familiar", "Pensión para mis hijos"), ("sucesiones", "Una herencia")]
     mats = "".join(f'<a class="materia" href="/abogados/cdmx/{k}/" data-m="{k}"><span class="ic"><svg viewBox="0 0 24 24"><use href="#m-{k}"/></svg></span><b>{v[0]}</b><small>{v[1]}</small></a>' for k, v in MATERIAS.items())
-    ciuds = "".join(f'<a class="ciudad" href="/abogados/{k}/" style="--fondo-c:{FONDOS[k]}"><span class="flecha"><svg width="18" height="18" viewBox="0 0 24 24"><use href="#i-flecha"/></svg></span><b>{v[0]}</b><small><svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-pin"/></svg>Ver abogados</small></a>' for k, v in CIUDADES.items())
+    ciuds = "".join(f'<a class="ciudad" href="/abogados/{k}/" style="--fondo-c:{FONDOS[k]}"><span class="flecha"><svg width="18" height="18" viewBox="0 0 24 24"><use href="#i-flecha"/></svg></span><b>{v[0]}</b><small><svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-pin"/></svg>Ver abogados</small></a>' for k, v in CIUDADES.items() if k in PRINCIPALES)
+    otras = "".join(f'<a href="/abogados/{k}/">{v[0]}</a>' for k, v in CIUDADES.items() if k not in PRINCIPALES)
     preguntas = [
         ("¿Cuánto me cuesta usar LicLink?", "Nada. Buscar y escribirle a un abogado es gratis. Tú acuerdas sus honorarios directamente con él."),
         ("¿Cómo sé que es abogado de verdad?", "Los perfiles con sello de cédula verificada fueron revisados por nosotros en el Registro Nacional de Profesionistas de la SEP. Tú también puedes consultarla ahí."),
@@ -146,15 +151,15 @@ def portada():
         ("¿Las reseñas son reales?", "Las reseñas están en Google Maps, a la vista de todos. Nosotros no las escribimos, no las editamos ni las borramos."),
     ]
     faq = "".join(f"<details><summary>{e(p)}</summary><p>{e(r)}</p></details>" for p, r in preguntas)
-    titulo = "LicLink · Encuentra abogado verificado en CDMX, Edomex, Guadalajara y Puebla"
-    desc = "La guía de abogados verificados de México. Busca por ciudad y materia, revisa su cédula y escríbele directo por WhatsApp. Gratis."
+    titulo = "LicLink · Encuentra abogado en CDMX, Edomex, Guadalajara, Puebla y más"
+    desc = "La guía de abogados de México. Busca por ciudad y materia, revisa su perfil y escríbele directo por WhatsApp. Gratis."
     return cabeza(titulo, desc, "/") + f"""<body>
 {BARRA}
 <main>
-<section class="portada oscuro"><div class="w">
-  <span class="eti entra" style="--d:.05s">Guía de abogados verificados</span>
+<section class="portada"><div class="w">
+  <span class="eti entra" style="--d:.05s">Guía de abogados de México</span>
   <h1><span class="l"><span style="--i:0">Tu problema legal</span></span><span class="l"><span style="--i:1"><em>tiene solución.</em></span></span></h1>
-  <p class="sub entra" style="--d:.6s">Encuentra abogados con cédula verificada en tu ciudad y escríbeles directo por WhatsApp. Gratis para ti.</p>
+  <p class="sub entra" style="--d:.6s">Encuentra abogados en tu ciudad, revisa su perfil y escríbeles directo por WhatsApp. Gratis para ti.</p>
   <form class="buscador entra" id="buscar" style="--d:.75s" role="search">
     <div class="campo"><svg viewBox="0 0 24 24"><use href="#i-pin"/></svg><div><label for="bCiudad">¿Dónde?</label><select id="bCiudad">{opciones_ciudad()}</select></div></div>
     <div class="campo"><svg viewBox="0 0 24 24"><use href="#i-lupa"/></svg><div><label for="bMateria">¿Qué necesitas?</label><select id="bMateria"><option value="">Todas las materias</option>{"".join(f'<option value="{k}">{v[0]} · {v[1]}</option>' for k, v in MATERIAS.items())}</select></div></div>
@@ -162,13 +167,27 @@ def portada():
   </form>
   <div class="atajos entra" style="--d:.9s">{"".join(f'<a href="#" data-atajo="{k}">{e(t)}</a>' for k, t in atajos)}</div>
   <ul class="confianza entra" style="--d:1s">
-    <li><svg viewBox="0 0 24 24"><use href="#i-sello"/></svg>Cédula verificada en la SEP</li>
+    <li><svg viewBox="0 0 24 24"><use href="#i-sello"/></svg>Sello de cédula verificada en la SEP</li>
     <li><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Contacto directo por WhatsApp</li>
     <li><svg viewBox="0 0 24 24"><use href="#i-candado"/></svg>Gratis y confidencial para ti</li>
   </ul>
+  <form class="pregunta entra" id="pregunta" style="--d:1.1s">
+    <h2>Pregúntale gratis a un abogado</h2>
+    <p>Escribe tu duda y un abogado de LicLink te responde por WhatsApp. Sin compromiso.</p>
+    <label class="oculto" for="pTexto">Tu pregunta</label>
+    <textarea id="pTexto" required maxlength="600" placeholder="Ej. Me despidieron sin darme finiquito, ¿qué puedo hacer?"></textarea>
+    <div class="fila"><select id="pCiudad" aria-label="Tu ciudad">{opciones_ciudad()}</select><button class="btn btn-oro" type="submit">{WA}Enviar mi pregunta</button></div>
+    <small>Tu pregunta es confidencial. No publicamos tu nombre.</small>
+  </form>
 </div></section>
 
-<section class="historia oscuro"><div class="w historia-grid">
+<section class="marfil" style="padding:44px 0 20px"><div class="w">
+  <span class="eti rv">Abogados en LicLink</span>
+  <h2 class="rv">Conoce a algunos de <em>nuestros abogados.</em></h2>
+  <div class="destacados" id="destacados"></div>
+</div></section>
+
+<div class="historia-caja historia oscuro"><section style="background:none"><div class="w historia-grid">
   <div class="rv h-txt">
     <span class="eti">Así funciona</span>
     <h2>De la angustia a la <em>tranquilidad</em>, en minutos.</h2>
@@ -189,7 +208,7 @@ def portada():
     </div></div>
     <p class="ilustrativa">Historia ilustrativa</p>
   </div>
-</div></section>
+</div></section></div>
 
 <section class="marfil"><div class="w">
   <span class="eti rv">Tres pasos</span>
@@ -211,7 +230,7 @@ def portada():
   <span class="eti rv">Ciudades</span>
   <h2 class="rv">Abogados cerca de ti.</h2>
   <div class="ciudades" data-escalona>{ciuds}</div>
-  <p class="pronto rv">Muy pronto en Monterrey, Querétaro, León y más ciudades.</p>
+  <p class="pronto rv">También en:</p><div class="atajos rv" style="margin-top:10px">{otras}</div>
 </div></section>
 
 <section class="marfil" style="padding-top:0"><div class="w">
@@ -252,23 +271,23 @@ def listado(c, m=""):
     nc = CIUDADES[c][0]
     if m:
         nm, desc_m, busq = MATERIAS[m]
-        titulo = f"{busq.capitalize()} en {nc} · Cédula verificada | LicLink"
-        desc = f"Encuentra {busq} en {nc} con cédula verificada. {desc_m}. Escríbele directo por WhatsApp, gratis."
+        titulo = f"{PLURAL[m]} en {nc} | LicLink"
+        desc = f"Encuentra {busq} en {nc}. {desc_m}. Revisa su perfil y escríbele directo por WhatsApp, gratis."
         pl = PLURAL[m].split(" ", 1)
         h1 = f'{pl[0]} <em>{e(pl[1])}</em> en {e(nc)}'
         ruta = f"/abogados/{c}/{m}/"
     else:
-        titulo = f"Abogados en {nc} con cédula verificada | LicLink"
+        titulo = f"Abogados en {nc} | LicLink"
         desc = f"Abogados en {nc}: penal, familiar, laboral, civil, mercantil y más. Revisa su cédula y escríbeles directo por WhatsApp."
         h1 = f'Abogados en <em>{e(nc)}</em>'
         ruta = f"/abogados/{c}/"
     return cabeza(titulo, desc, ruta) + f"""<body data-ciudad="{c}" data-materia="{m}" data-plural="{PLURAL.get(m, "abogados").lower()}">
 {BARRA}
 <main>
-<section class="encabezado oscuro"><div class="w">
+<section class="encabezado"><div class="w">
   <span class="eti">{e(nc)}</span>
   <h1>{h1}</h1>
-  <p class="sub">Con cédula verificada. Escríbeles directo por WhatsApp, sin costo para ti.</p>
+  <p class="sub">Revisa su perfil y escríbeles directo por WhatsApp, sin costo para ti.</p>
   <nav class="filtros" id="filtros" aria-label="Materias"></nav>
 </div></section>
 <section class="marfil" style="padding-top:0"><div class="w"><div class="lista" id="lista"></div></div></section>
@@ -291,7 +310,7 @@ def para_abogados():
     ej_b = f"""<article class="ficha"><div class="foto">MR</div><div><h3>Lic. María Rodríguez</h3><div class="rol">Abogada familiar · Puebla</div>
       <span class="ver"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula verificada</span><div class="tags"><span>Familiar</span><span>Herencias</span></div></div>
       <div class="acc"><span class="btn btn-wa">{WA}WhatsApp</span><span class="btn btn-linea">Llamar</span></div></article>"""
-    ej_p = f"""<article class="ficha prem"><span class="sello-p">Premium</span><div class="foto">JH</div><div><h3>Lic. Jorge Hernández</h3><div class="rol">Penalista · CDMX</div>
+    ej_p = f"""<article class="ficha prem"><div class="foto">JH</div><div><span class="sello-p">Premium</span><h3>Lic. Jorge Hernández</h3><div class="rol">Penalista · CDMX</div>
       <span class="ver"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula verificada</span>
       <div class="redes"><svg viewBox="0 0 24 24"><use href="#i-facebook"/></svg><svg viewBox="0 0 24 24"><use href="#i-instagram"/></svg><svg viewBox="0 0 24 24"><use href="#i-tiktok"/></svg><svg viewBox="0 0 24 24"><use href="#i-web"/></svg></div>
       <div class="tags"><span>Penal</span><span>Amparo</span></div></div>
@@ -301,14 +320,14 @@ def para_abogados():
     return cabeza(titulo, desc, "/para-abogados/") + f"""<body>
 {BARRA}
 <main>
-<section class="portada oscuro"><div class="w">
+<section class="portada"><div class="w">
   <span class="eti entra" style="--d:.05s">Para abogados</span>
   <h1><span class="l"><span style="--i:0">Clientes que</span></span><span class="l"><span style="--i:1">te buscan,</span></span><span class="l"><span style="--i:2"><em>hoy.</em></span></span></h1>
   <p class="sub entra" style="--d:.6s">La gente con un problema legal ya no pregunta en Facebook: busca en su celular y le escribe al primer abogado que le da confianza. Haz que ese abogado seas tú.</p>
   <div class="acciones entra" style="--d:.8s;display:grid;gap:10px;margin-top:26px;max-width:420px"><a class="btn btn-oro brilla" href="#registro">Registrarme ahora</a><a class="btn btn-linea" href="#planes">Ver planes</a></div>
 </div></section>
 
-<section class="abogados oscuro" id="planes" style="padding-top:20px"><div class="w">
+<section class="abogados oscuro" id="planes"><div class="w">
   <span class="eti rv">Planes</span>
   <h2 class="rv">Dos planes. <em>Sin letras chiquitas.</em></h2>
   {planes_html()}
@@ -361,22 +380,19 @@ def para_abogados():
 
 
 def datos_guia():
-    """Solo abogados que pagaron (estado "vendido") y tienen plan. Nadie aparece sin su permiso."""
+    """prospectos/guia.json: abogados que aceptaron aparecer, con su plan. Nadie aparece sin su permiso."""
+    ruta = os.path.join(os.path.dirname(DATOS), "guia.json")
+    g = json.load(open(ruta, encoding="utf-8")) if os.path.exists(ruta) else []
     sal = []
-    for a in json.load(open(DATOS, encoding="utf-8")):
-        if a.get("estado") != "vendido" or a.get("plan") not in ("basico", "premium"):
-            continue
-        prem = a["plan"] == "premium"
-        sal.append({
-            "slug": a["slug"], "nombre": a["nombre"], "rol": a.get("rol_guia") or a.get("titulo", ""), "ciudad": a.get("ciudad_guia", ""),
-            "materias": a.get("materias_guia", []), "plan": a["plan"], "iniciales": a.get("iniciales", ""),
-            "foto": f"/{a['slug']}/{a['foto']}" if a.get("foto") else "", "whatsapp": a.get("whatsapp") or "52" + a.get("telefono", ""),
-            "telefono": a.get("telefono", ""), "verificada": bool(a.get("cedula_verificada")),
-            "pagina": f"/{a['slug']}/" if prem else "",
-            "redes": ({"facebook": a.get("facebook"), "instagram": a.get("instagram"), "tiktok": a.get("tiktok"), "web": a.get("web")} if prem else {}),
-            "resena": a.get("resena_google", "") if prem else "",
-        })
-    return "window.GUIA = " + json.dumps(sal, ensure_ascii=False, indent=1) + ";\n"
+    for a in g:
+        if a.get("plan") not in ("basico", "premium"): continue
+        x = dict(a)
+        if a["plan"] != "premium":  # el Básico no lleva enlace propio, redes ni reseñas
+            for k in ("pagina", "redes", "resena"): x.pop(k, None)
+        sal.append(x)
+    ciu = {k: v[0] for k, v in CIUDADES.items()}
+    return ("window.GUIA = " + json.dumps(sal, ensure_ascii=False, separators=(",", ":")) + ";\n"
+            "window.CIUDADES = " + json.dumps(ciu, ensure_ascii=False) + ";\n")
 
 
 def escribir(ruta, txt):

@@ -3,8 +3,8 @@ import asyncio, sys, pathlib
 from playwright.async_api import async_playwright
 NM="/home/claude/spot/node_modules"
 B=f"{NM}/@fontsource/bodoni-moda/files/bodoni-moda-latin-"; A=f"{NM}/@fontsource-variable/archivo/files/archivo-latin-wght-normal.woff2"
-F={"b4n":B+"400-normal.woff2","b4i":B+"400-italic.woff2","b5n":B+"500-normal.woff2","b5i":B+"500-italic.woff2","b6n":B+"600-normal.woff2","arch":A}
-CSS="".join(f"@font-face{{font-family:'Bodoni Moda';font-style:{'italic' if k[2]=='i' else 'normal'};font-weight:{k[1]}00;src:url(https://fonts.gstatic.com/{k}.woff2)}}" for k in F if k[0]=="b")+"@font-face{font-family:'Archivo';font-weight:100 900;src:url(https://fonts.gstatic.com/arch.woff2)}"
+F={"b4n":B+"400-normal.woff2","b4i":B+"400-italic.woff2","b5n":B+"500-normal.woff2","b5i":B+"500-italic.woff2","b6n":B+"600-normal.woff2","arch":A,"pjs":f"{NM}/@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-wght-normal.woff2"}
+CSS="".join(f"@font-face{{font-family:'Bodoni Moda';font-style:{'italic' if k[2]=='i' else 'normal'};font-weight:{k[1]}00;src:url(https://fonts.gstatic.com/{k}.woff2)}}" for k in F if k[0]=="b")+"@font-face{font-family:'Archivo';font-weight:100 900;src:url(https://fonts.gstatic.com/arch.woff2)}@font-face{font-family:'Plus Jakarta Sans';font-weight:200 800;src:url(https://fonts.gstatic.com/pjs.woff2)}"
 MAP="<html><body style='margin:0;background:#e8e4df;display:grid;place-items:center;height:100vh;font:14px sans-serif;color:#888'>[mapa]</body></html>"
 OUT="/tmp/claude-0/-home-claude/f0659219-5364-5d6e-9693-f46b78a72ea8/scratchpad/v2_"
 async def main(slugs):
