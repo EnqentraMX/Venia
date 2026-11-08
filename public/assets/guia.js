@@ -31,6 +31,10 @@
     else if (!a.getAttribute("href")) a.href = "/para-abogados/#registro";
   });
 
+  /* Burbuja de ayuda: se hace pequeña al bajar para no tapar */
+  var ay = $(".ayuda");
+  if (ay) addEventListener("scroll", function () { ay.classList.toggle("chica", scrollY > 400); }, { passive: true });
+
   /* Barra con sombra al bajar */
   var barra = $(".barra");
   if (barra) addEventListener("scroll", function () { barra.classList.toggle("bajo", scrollY > 20); }, { passive: true });

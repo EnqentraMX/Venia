@@ -352,3 +352,35 @@ section{padding:64px 0}
 .campo.libre input:focus{outline:none}
 .sugerido{display:inline-block;margin-top:6px;font-size:13px;font-weight:700;color:#1d7a46;background:#e7f5ec;border-radius:99px;padding:4px 10px}
 @media (min-width:760px){.buscador{grid-template-columns:1.4fr 1fr 1fr auto}}
+
+/* Guías legales */
+.g-grid{display:grid;gap:12px;margin-top:24px}
+.g-card{display:flex;flex-direction:column;gap:8px;background:var(--blanco);border:1px solid var(--linea);box-shadow:var(--sombra);border-radius:14px;padding:20px;transition:transform .2s,border-color .2s}
+.g-card:hover{transform:translateY(-2px);border-color:var(--oro-t)}
+.g-card b{font-size:19px;line-height:1.3;letter-spacing:-.02em}
+.g-card p{color:var(--gris);font-size:15px}
+.g-leer{margin-top:auto;font-weight:700;font-size:14px;color:var(--oro-t)}
+.g-rel{margin-top:22px}
+.ver-todas{display:inline-block;margin-top:16px;font-weight:700;color:var(--oro-t)}
+.guia-txt h1{margin-top:12px}
+.g-resumen{font-size:19px!important;color:var(--tinta)!important;font-weight:600;margin-top:14px!important;border-left:4px solid var(--oro);padding-left:14px}
+.g-fecha{font-size:13.5px!important}
+.guia-txt ul{margin-top:8px}
+.guia-txt li{margin-top:8px}
+.g-cta{margin-top:34px;background:var(--tinta);color:#fff;border-radius:16px;padding:22px}
+.g-cta b{font-size:20px}
+.g-cta p{color:#d3cabd!important;margin-top:6px!important}
+.g-cta .atajos{margin:14px 0 0;padding:0;flex-wrap:wrap}
+.g-cta .atajos a{background:transparent;color:#fff;border-color:#4a443a}
+.g-aviso{margin-top:22px!important;font-size:14px!important;background:var(--marfil2);border-radius:10px;padding:14px}
+.g-otras{display:grid;gap:10px;margin-top:12px}
+.g-otra{display:flex;justify-content:space-between;gap:12px;align-items:center;background:var(--blanco);border:1px solid var(--linea);border-radius:12px;padding:14px 16px}
+.g-otra b{font-size:15.5px}
+.g-otra span{flex:none;font-weight:700;font-size:13px;color:var(--oro-t)}
+@media (min-width:760px){.g-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1000px){.g-grid{grid-template-columns:repeat(4,1fr)}}
+/* Burbuja de ayuda */
+.ayuda{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom));z-index:40;display:flex;align-items:center;gap:8px;background:var(--wa);color:#fff;border-radius:99px;padding:12px 16px 12px 13px;font-weight:700;font-size:14.5px;box-shadow:0 12px 30px -10px rgba(0,0,0,.45);animation:ayudaEntra .6s 2.5s both}
+.ayuda svg{width:24px;height:24px}
+.ayuda.chica span{display:none}
+@keyframes ayudaEntra{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}

@@ -84,7 +84,8 @@ def cabeza(titulo, desc, ruta, robots="", extra=""):
 <meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}"><meta property="og:image" content="{URL_BASE}/assets/liclink-compartir.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0c0b0a">
+<meta name="theme-color" content="#faf6ef">
+<link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/assets/icono-192.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c0b0a'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='800' font-size='36' text-anchor='middle' fill='%23d4b06a'%3EL%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet">
@@ -96,7 +97,7 @@ def cabeza(titulo, desc, ruta, robots="", extra=""):
 
 BARRA = """<header class="barra"><div class="w">
   <a href="/" class="marca" aria-label="LicLink, inicio">Lic<i>Link</i></a>
-  <nav><a class="txt" href="/#materias">Materias</a><a class="txt" href="/#ciudades">Ciudades</a>
+  <nav><a class="txt" href="/#materias">Materias</a><a class="txt" href="/#ciudades">Ciudades</a><a class="txt" href="/guias/">Guías legales</a>
   <a class="btn btn-linea btn-chico" href="/para-abogados/">Soy abogado</a></nav>
 </div></header>"""
 
@@ -105,14 +106,17 @@ PIE = """<footer class="pie"><div class="w">
     <div><a href="/" class="marca" style="color:var(--claro)">Lic<i>Link</i></a><p style="margin-top:12px;max-width:340px">La guía de abogados de México. Encuentra, compara y habla directo con tu abogado.</p></div>
     <div><b>Ciudades</b><ul>""" + "".join(f'<li><a href="/abogados/{k}/">{v[0]}</a></li>' for k, v in CIUDADES.items()) + """</ul></div>
     <div><b>Materias</b><ul>""" + "".join(f'<li><a href="/abogados/cdmx/{k}/">{v[0]}</a></li>' for k, v in list(MATERIAS.items())[:6]) + """</ul></div>
-    <div><b>LicLink</b><ul><li><a href="/para-abogados/">Planes para abogados</a></li><li><a href="/para-abogados/#registro">Registrarme</a></li><li><a href="/aviso-de-privacidad/">Aviso de privacidad</a></li><li><a href="/terminos/">Términos y condiciones</a></li></ul></div>
+    <div><b>LicLink</b><ul><li><a href="/para-abogados/">Planes para abogados</a></li><li><a href="/para-abogados/#registro">Registrarme</a></li><li><a href="/guias/">Guías legales</a></li><li><a href="/aviso-de-privacidad/">Aviso de privacidad</a></li><li><a href="/terminos/">Términos y condiciones</a></li></ul></div>
   </div>
   <p class="legal">LicLink es un directorio: no presta servicios legales ni cobra comisiones por los casos. Cada abogado es responsable de su servicio. «Cédula profesional verificada» significa que revisamos la cédula en el Registro Nacional de Profesionistas de la SEP; «Datos profesionales registrados» significa que aún no la revisamos. Si estás en peligro inmediato, llama al 911.<br>© LicLink 2026</p>
 </div></footer>"""
 
 
-def fin():
-    return SIMBOLOS + '\n<script src="/assets/guia-datos.js?v=' + version('guia-datos.js') + '" defer></script>\n<script src="/assets/guia.js?v=' + version('guia.js') + '" defer></script>\n</body>\n</html>\n'
+AYUDA = """<a class="ayuda js-liclink" data-msg="Hola, necesito ayuda para encontrar abogado." aria-label="¿Te ayudamos a elegir abogado?"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg><span>¿Te ayudamos a elegir?</span></a>"""
+
+
+def fin(ayuda=True):
+    return (AYUDA if ayuda else "") + SIMBOLOS + '\n<script src="/assets/guia-datos.js?v=' + version('guia-datos.js') + '" defer></script>\n<script src="/assets/guia.js?v=' + version('guia.js') + '" defer></script>\n</body>\n</html>\n'
 
 
 def cargar_guia():
@@ -203,6 +207,7 @@ def portada():
     prem = [a for a in g if a["plan"] == "premium"]; resto = [a for a in g if a["plan"] != "premium" and a.get("foto")]
     random.shuffle(resto)
     destacados = "".join(ficha_html(a) for a in (prem + resto)[:8])
+    guias_cards = "".join(f'<a class="g-card" href="/guias/{x["slug"]}/"><span class="eti">{e(MATERIAS[x["materia"]][0])}</span><b>{e(x["titulo"])}</b><span class="g-leer">Leer guía →</span></a>' for x in GUIAS)
     titulo = "LicLink · Encuentra abogado en CDMX, Edomex, Guadalajara, Puebla y más"
     desc = "La guía de abogados de México. Busca por ciudad y materia, revisa su perfil y escríbele directo por WhatsApp. Gratis."
     ld = {"@context": "https://schema.org", "@graph": [
@@ -294,6 +299,13 @@ def portada():
 </div></section>
 
 <section class="marfil" style="padding-top:0"><div class="w">
+  <span class="eti rv">Guías legales gratis</span>
+  <h2 class="rv">Entiende tu caso <em>antes de llamar.</em></h2>
+  <div class="g-grid" data-escalona>{guias_cards}</div>
+  <a class="ver-todas rv" href="/guias/">Ver todas las guías →</a>
+</div></section>
+
+<section class="marfil" style="padding-top:0"><div class="w">
   <span class="eti rv">Por qué LicLink</span>
   <h2 class="rv">Confianza antes de <em>contratar.</em></h2>
   <div class="porque" data-escalona>
@@ -346,6 +358,8 @@ def listado(c, m="", g=None):
         desc = f"Abogados en {nc}: penal, familiar, laboral, civil, mercantil y más. Revisa su perfil y escríbeles directo por WhatsApp."
         h1 = f'Abogados en <em>{e(nc)}</em>'
         ruta = f"/abogados/{c}/"
+    gr = next((x for x in GUIAS if x["materia"] == m), None) if m else None
+    guia_rel = f'<a class="g-card g-rel" href="/guias/{gr["slug"]}/"><span class="eti">Guía gratis</span><b>{e(gr["titulo"])}</b><span class="g-leer">Leer guía →</span></a>' if gr else ""
     cuantos = f"{len(todos)} abogado{'s' if len(todos) != 1 else ''} en LicLink" if todos else ""
     robots = "" if todos else '<meta name="robots" content="noindex, follow">\n'  # sin abogados no pedimos a Google que la muestre
     ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -360,7 +374,7 @@ def listado(c, m="", g=None):
   <p class="sub">{e(cuantos + " · " if cuantos else "")}Revisa su perfil y escríbeles directo por WhatsApp, sin costo para ti.</p>
   <nav class="filtros" id="filtros" aria-label="Especialidades"></nav>
 </div></section>
-<section class="marfil" style="padding-top:0"><div class="w"><div class="lista" id="lista">{"".join(ficha_html(a) for a in todos)}</div></div></section>
+<section class="marfil" style="padding-top:0"><div class="w"><div class="lista" id="lista">{"".join(ficha_html(a) for a in todos)}</div>{guia_rel}</div></section>
 </main>
 {PIE}
 """ + fin()
@@ -457,7 +471,7 @@ def para_abogados():
 </div></section>
 </main>
 {PIE}
-""" + fin()
+""" + fin(False)
 
 
 def datos_guia():
@@ -510,7 +524,7 @@ def pagina_legal(titulo, ruta, secciones, intro):
 
 
 def sitemap(g):
-    urls = ["/", "/para-abogados/", "/aviso-de-privacidad/", "/terminos/"]
+    urls = ["/", "/para-abogados/", "/guias/", "/aviso-de-privacidad/", "/terminos/"] + [f"/guias/{x['slug']}/" for x in GUIAS]
     for c in CIUDADES:
         if any((a.get("ciudad") == c or c in a.get("otras_ciudades", [])) for a in g): urls.append(f"/abogados/{c}/")
         for m in MATERIAS:
@@ -519,6 +533,68 @@ def sitemap(g):
     hoy = __import__("datetime").date.today().isoformat()
     return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{URL_BASE}{u}</loc><lastmod>{hoy}</lastmod></url>\n" for u in urls) + "</urlset>\n"
 
+
+
+from guias_legales import GUIAS, ACTUALIZADA
+
+
+def guia_pagina(gd):
+    def bloque(ps):
+        out, lista = "", []
+        for p in ps:
+            if p.startswith("• "): lista.append(f"<li>{e(p[2:])}</li>")
+            else:
+                if lista: out += "<ul>" + "".join(lista) + "</ul>"; lista = []
+                out += f"<p>{e(p)}</p>"
+        if lista: out += "<ul>" + "".join(lista) + "</ul>"
+        return out
+    cuerpo = "".join(f"<h2>{e(h)}</h2>{bloque(ps)}" for h, ps in gd["secciones"])
+    m = gd["materia"]; ruta = f"/guias/{gd['slug']}/"
+    ld = {"@context": "https://schema.org", "@type": "Article", "headline": gd["titulo"], "description": gd["desc"], "inLanguage": "es-MX",
+          "dateModified": "2026-11-08", "publisher": {"@type": "Organization", "name": "LicLink", "url": URL_BASE + "/"}, "mainEntityOfPage": URL_BASE + ruta}
+    ciudades = "".join(f'<a href="/abogados/{k}/{m}/">{v[0]}</a>' for k, v in CIUDADES.items() if k in PRINCIPALES)
+    otras = "".join(f'<a class="g-otra" href="/guias/{x["slug"]}/"><b>{e(x["titulo"])}</b><span>Leer guía →</span></a>' for x in GUIAS if x["slug"] != gd["slug"])
+    return cabeza(f"{gd['titulo']} | LicLink", gd["desc"], ruta, extra=jsonld(ld)) + f"""<body>
+{BARRA}
+<main><section class="marfil"><div class="w legal-txt guia-txt">
+  <nav class="migas" aria-label="Estás en"><a href="/">Inicio</a> <span>›</span> <a href="/guias/">Guías legales</a></nav>
+  <h1>{e(gd["titulo"])}</h1>
+  <p class="g-resumen">{e(gd["resumen"])}</p>
+  <p class="g-fecha">Información general · Actualizada el {ACTUALIZADA}</p>
+  {cuerpo}
+  <div class="g-cta"><b>¿Necesitas ayuda con tu caso?</b><p>Encuentra {e(PLURAL[m].lower())} y escríbeles directo por WhatsApp.</p><div class="atajos">{ciudades}</div></div>
+  <p class="g-aviso">Esta guía es información general y no sustituye la asesoría de un abogado. Cada caso es distinto: los plazos y requisitos pueden cambiar según tu estado y tu situación.</p>
+  <h2>Otras guías</h2><div class="g-otras">{otras}</div>
+</div></section></main>
+{PIE}
+""" + fin()
+
+
+def guias_indice():
+    tarjetas = "".join(f'<a class="g-card" href="/guias/{x["slug"]}/"><span class="eti">{e(MATERIAS[x["materia"]][0])}</span><b>{e(x["titulo"])}</b><p>{e(x["resumen"])}</p><span class="g-leer">Leer guía →</span></a>' for x in GUIAS)
+    return cabeza("Guías legales en palabras sencillas | LicLink", "Qué hacer si detienen a un familiar, si te despiden, cómo pedir pensión alimenticia y más. Información general gratuita.", "/guias/") + f"""<body>
+{BARRA}
+<main><section class="encabezado"><div class="w">
+  <nav class="migas" aria-label="Estás en"><a href="/">Inicio</a> <span>›</span> <b>Guías legales</b></nav>
+  <h1>Guías legales <em>en palabras sencillas.</em></h1>
+  <p class="sub">Información general y gratuita para entender tu situación antes de hablar con un abogado.</p>
+</div></section>
+<section class="marfil" style="padding-top:0"><div class="w"><div class="g-grid">{tarjetas}</div></div></section></main>
+{PIE}
+""" + fin()
+
+
+def pagina_404():
+    return cabeza("Página no encontrada | LicLink", "Esta página no existe.", "/404", '<meta name="robots" content="noindex">\n') + f"""<body>
+{BARRA}
+<main><section class="portada"><div class="w" style="text-align:center;max-width:640px">
+  <span class="eti">Error 404</span>
+  <h1 style="font-size:clamp(30px,8vw,52px)">Esta página <em>no existe.</em></h1>
+  <p class="sub" style="margin:14px auto 26px">Puede que el enlace esté mal escrito o que el perfil ya no esté activo. Busca abogado desde aquí:</p>
+  <div style="display:grid;gap:10px;max-width:420px;margin:0 auto"><a class="btn btn-oro" href="/">Buscar abogados</a><a class="btn btn-linea" href="/guias/">Ver guías legales</a></div>
+</div></section></main>
+{PIE}
+""" + fin()
 
 
 def escribir(ruta, txt):
@@ -535,6 +611,12 @@ def main():
         escribir(os.path.join(PUBLICO, "abogados", c, "index.html"), listado(c, "", g))
         for m in MATERIAS:
             escribir(os.path.join(PUBLICO, "abogados", c, m, "index.html"), listado(c, m, g))
+    escribir(os.path.join(PUBLICO, "guias", "index.html"), guias_indice())
+    for gd in GUIAS: escribir(os.path.join(PUBLICO, "guias", gd["slug"], "index.html"), guia_pagina(gd))
+    escribir(os.path.join(PUBLICO, "404.html"), pagina_404())
+    escribir(os.path.join(PUBLICO, "manifest.webmanifest"), json.dumps({"name": "LicLink · Guía de abogados", "short_name": "LicLink", "start_url": "/", "display": "standalone",
+        "background_color": "#faf6ef", "theme_color": "#1a1814", "lang": "es-MX",
+        "icons": [{"src": "/assets/icono-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "/assets/icono-512.png", "sizes": "512x512", "type": "image/png"}]}, ensure_ascii=False))
     escribir(os.path.join(PUBLICO, "aviso-de-privacidad", "index.html"), pagina_legal("Aviso de privacidad", "/aviso-de-privacidad/", AVISO, "Cómo cuidamos los datos personales de abogados y visitantes."))
     escribir(os.path.join(PUBLICO, "terminos", "index.html"), pagina_legal("Términos y condiciones", "/terminos/", TERMINOS, "Reglas de uso de LicLink, suscripciones, cancelación y verificación profesional."))
     g = cargar_guia()
