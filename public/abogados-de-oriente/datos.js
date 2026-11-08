@@ -166,14 +166,9 @@ window.DATOS = {
   "notaHorario": "Asesoría las 24 horas. Oficina: 55 9200 7501.",
   "oficinas": [
     {
-      "nombre": "Iztapalapa e Iztacalco, CDMX",
-      "direccion": "Chabacano 3, Col. San Juan Xalpa, Iztapalapa, 09850 Ciudad de México",
-      "referencia": "Oficina Iztapalapa"
-    },
-    {
-      "nombre": "Iztacalco",
+      "nombre": "Iztacalco, CDMX",
       "direccion": "Ferrocarril de Río Frío 300, Iztacalco, Ciudad de México",
-      "referencia": "Oficina Iztacalco"
+      "referencia": ""
     }
   ],
   "redes": {

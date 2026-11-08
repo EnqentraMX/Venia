@@ -923,7 +923,7 @@
     "logo": true,
     "tema": "negro-oro",
     "simbolo": "balanza",
-    "ciudad": "Iztapalapa e Iztacalco, CDMX",
+    "ciudad": "Iztacalco, CDMX",
     "telefono": "5528484426",
     "whatsapp": "5528484426",
     "otros_telefonos": [
@@ -932,7 +932,7 @@
     ],
     "correo": "felipeugalde2011@gmail.com",
     "facebook": "https://www.facebook.com/profile.php?id=61575816882807",
-    "direccion": "Chabacano 3, Col. San Juan Xalpa, Iztapalapa, 09850 Ciudad de México",
+    "direccion": "Ferrocarril de Río Frío 300, Iztacalco, Ciudad de México",
     "descripcion": "Derecho penal, amparos, familiar, civil y laboral en la Ciudad de México",
     "modalidad": "Asesoría 24/7",
     "horario": {
@@ -1050,14 +1050,7 @@
     "fondo_logo": "#fefefe",
     "despacho_largo": "Abogados Penalistas de Oriente",
     "imagen_vista": "logo.jpg",
-    "oficinas_extra": [
-      {
-        "nombre": "Iztacalco",
-        "direccion": "Ferrocarril de Río Frío 300, Iztacalco, Ciudad de México",
-        "referencia": "Oficina Iztacalco"
-      }
-    ],
-    "referencia": "Oficina Iztapalapa",
+    "referencia": "",
     "equipo": [
       {
         "nombre": "Lic. Felipe Alfonso Ugalde López",
