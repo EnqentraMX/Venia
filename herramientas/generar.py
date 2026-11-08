@@ -162,6 +162,11 @@ def version(arch):
     ruta = os.path.join(PUBLICO, "assets", arch)
     return hashlib.md5(open(ruta, "rb").read()).hexdigest()[:8] if os.path.exists(ruta) else "1"
 
+def version_img(slug):
+    import hashlib
+    ruta = os.path.join(PUBLICO, slug, "compartir.png")
+    return hashlib.md5(open(ruta, "rb").read()).hexdigest()[:8] if os.path.exists(ruta) else "1"
+
 def cabecera(html, a):
     """Título, descripción y vista previa (WhatsApp/Facebook) propios de cada abogado. Los buscadores y Messenger no ejecutan JS."""
     import html as H
@@ -175,7 +180,7 @@ def cabecera(html, a):
 <meta property="og:title" content="{H.escape(nombre)}">
 <meta property="og:description" content="{H.escape(desc)}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{url}compartir.png">
+<meta property="og:image" content="{url}compartir.png?v={version_img(a['slug'])}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
