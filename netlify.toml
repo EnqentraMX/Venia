@@ -1,14 +1,11 @@
-# Netlify publica la carpeta public/ cada vez que hay un cambio en GitHub.
+# El sitio ya vive en https://liclink.com.mx (Cloudflare).
+# Si Netlify vuelve a publicar este repositorio, todo se redirige de forma permanente al dominio nuevo,
+# para que Google pase las visitas y la posición a liclink.com.mx.
 [build]
   publish = "public"
 
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=3600"
-
-# Propuesta privada de Castillo & Abogados: que Google no la indexe
-[[headers]]
-  for = "/castillo-abogados/*"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
+[[redirects]]
+  from = "/*"
+  to = "https://liclink.com.mx/:splat"
+  status = 301
+  force = true
