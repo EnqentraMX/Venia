@@ -86,6 +86,26 @@ def tel10(t):
 def visible(d):
     return f"{d[:2]} {d[2:6]} {d[6:]}" if d.startswith(("55", "33", "81")) else f"{d[:3]} {d[3:6]} {d[6:]}"
 
+CIUDADES_GUIA = {"cdmx": "Ciudad de México", "edomex": "Estado de México", "guadalajara": "Guadalajara", "puebla": "Puebla", "monterrey": "Monterrey",
+                 "tijuana": "Tijuana", "leon": "León", "chihuahua": "Chihuahua", "san-luis-potosi": "San Luis Potosí", "los-cabos": "Los Cabos", "yucatan": "Yucatán", "queretaro": "Querétaro"}
+
+def guia_de(slug):
+    ruta = os.path.join(RAIZ, "prospectos", "guia.json")
+    for x in (json.load(open(ruta, encoding="utf-8")) if os.path.exists(ruta) else []):
+        if x["slug"] == slug and x.get("ciudad") in CIUDADES_GUIA:
+            return {"url": f"/abogados/{x['ciudad']}/", "nombre": CIUDADES_GUIA[x["ciudad"]]}
+    return {}
+
+def hacer_qr(a, carpeta):
+    try:
+        import qrcode
+        from qrcode.constants import ERROR_CORRECT_M
+    except ImportError:
+        return
+    q = qrcode.QRCode(error_correction=ERROR_CORRECT_M, box_size=12, border=2)
+    q.add_data(f"{URL_BASE}/{a['slug']}/"); q.make(fit=True)
+    q.make_image(fill_color="#1a1814", back_color="white").save(os.path.join(carpeta, "qr.png"))
+
 def datos_js(a):
     estado = a.get("estado", "propuesta")
     areas = [area(x) for x in a.get("areas", [])] or [area("civil")]
@@ -115,6 +135,7 @@ def datos_js(a):
         "fotoLogo": bool(a.get("logo")),
         "fondoLogo": a.get("fondo_logo", ""),
         "equipo": a.get("equipo", []), "telefonos": a.get("telefonos_extra", []),
+        "guia": guia_de(a["slug"]),
         "frase": a.get("frase", "Tu tranquilidad legal es nuestra prioridad."),
         "portada": {"titulo": a.get("portada", ["Tu asunto legal,", "en buenas", "manos."]),
                     "texto": a.get("texto_portada") or (", ".join(x["nombre"].lower() for x in areas[:3]).capitalize() + (f" en {a['ciudad']}" if a.get("ciudad") else "") + ". Escríbenos y te orientamos sobre tu caso.")},
@@ -191,6 +212,7 @@ def main():
         html = cabecera(html, a)
         open(os.path.join(carpeta, "index.html"), "w", encoding="utf-8").write(html)
         open(os.path.join(carpeta, "datos.js"), "w", encoding="utf-8").write(datos_js(a))
+        if a.get("plantilla") == "v2": hacer_qr(a, carpeta)
     json.dump(lista, open(DATOS, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     # resumen
     filas = ["| Alta | Abogado | Dirección | Estado | Contacto |", "|---|---|---|---|---|"]

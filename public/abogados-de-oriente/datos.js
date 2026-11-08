@@ -36,6 +36,10 @@ window.DATOS = {
       "nota": "Llamadas"
     }
   ],
+  "guia": {
+    "url": "/abogados/cdmx/",
+    "nombre": "Ciudad de México"
+  },
   "frase": "Tu futuro legal en buenas manos.",
   "portada": {
     "titulo": [

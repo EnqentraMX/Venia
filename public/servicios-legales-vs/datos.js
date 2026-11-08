@@ -18,6 +18,10 @@ window.DATOS = {
   "fondoLogo": "",
   "equipo": [],
   "telefonos": [],
+  "guia": {
+    "url": "/abogados/cdmx/",
+    "nombre": "Ciudad de México"
+  },
   "frase": "No estás sola. Te orientamos, te acompañamos y defendemos tus derechos.",
   "portada": {
     "titulo": [

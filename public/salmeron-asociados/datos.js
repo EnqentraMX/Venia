@@ -18,6 +18,10 @@ window.DATOS = {
   "fondoLogo": "#111111",
   "equipo": [],
   "telefonos": [],
+  "guia": {
+    "url": "/abogados/guadalajara/",
+    "nombre": "Guadalajara"
+  },
   "frase": "Somos profesionales en virtud del compromiso y la honestidad. Resolvemos de manera urgente.",
   "portada": {
     "titulo": [

@@ -18,6 +18,10 @@ window.DATOS = {
   "fondoLogo": "",
   "equipo": [],
   "telefonos": [],
+  "guia": {
+    "url": "/abogados/chihuahua/",
+    "nombre": "Chihuahua"
+  },
   "frase": "Tu caso merece atención, estrategia y compromiso.",
   "portada": {
     "titulo": [

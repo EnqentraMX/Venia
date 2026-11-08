@@ -18,6 +18,10 @@ window.DATOS = {
   "fondoLogo": "#000000",
   "equipo": [],
   "telefonos": [],
+  "guia": {
+    "url": "/abogados/edomex/",
+    "nombre": "Estado de México"
+  },
   "frase": "Un buen caso se gana con pruebas. Por eso somos abogados y peritos.",
   "portada": {
     "titulo": [

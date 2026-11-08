@@ -18,11 +18,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/v2.css?v=80f6ac05">
+<link rel="stylesheet" href="/assets/v2.css?v=5162bc4b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LegalService", "name": "Despacho Jurídico Pericial Aranda Salgado", "url": "https://liclink.com.mx/aranda-salgado/", "image": "https://liclink.com.mx/aranda-salgado/compartir.png", "telephone": "+525518483225", "description": "Abogados en materia civil, mercantil, penal, familiar, laboral y agraria. Peritos en dactiloscopia, grafología y hechos de tránsito en Lerma, Edo. Méx.. Escríbenos por WhatsApp.", "address": {"@type": "PostalAddress", "addressLocality": "Lerma, Edo. Méx.", "addressCountry": "MX"}, "sameAs": ["https://www.facebook.com/profile.php?id=100035815099653"]}</script>
 </head>
 <body>
 <div class="aviso" id="aviso" hidden></div>
+<div class="plataforma"><a href="/" class="pl-marca">Lic<i>Link</i></a><a href="/" class="pl-mas" id="masAbogados">Ver más abogados →</a></div>
 
 <header class="barra">
   <a href="#inicio" class="firma" id="firma"></a>
@@ -81,6 +82,7 @@
   <section class="cierre">
     <p>Si tienes un asunto legal, actuar a tiempo hace la diferencia.</p>
     <a class="btn btn-wa js-wa"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Escribir por WhatsApp</a>
+    <button class="btn btn-linea compartir" id="compartir" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Compartir este perfil</button>
     <button class="guardar" id="guardar" type="button">Guardar contacto en mi teléfono</button>
   </section>
 </main>
@@ -112,6 +114,22 @@
   </div>
 </div>
 
+<div class="hoja" id="hojaCompartir" role="dialog" aria-modal="true" aria-labelledby="tCompartir" hidden>
+  <div class="hoja-fondo" data-cerrar></div>
+  <div class="hoja-caja comp">
+    <button class="cerrar" type="button" data-cerrar aria-label="Cerrar">×</button>
+    <h3 id="tCompartir">Compartir perfil</h3>
+    <img class="qr" id="qrImg" alt="Código QR del perfil" width="220" height="220">
+    <p class="fino">Escanéalo con la cámara del celular</p>
+    <div class="comp-acc">
+      <a class="btn btn-wa" id="cWa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg>Enviar por WhatsApp</a>
+      <a class="btn btn-linea" id="cFb" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#i-facebook"/></svg>Compartir en Facebook</a>
+      <button class="btn btn-linea" id="cCopiar" type="button">Copiar enlace</button>
+      <a class="btn btn-linea" id="cQr" download>Descargar código QR</a>
+    </div>
+  </div>
+</div>
+
 <div class="hoja" id="privacidad" role="dialog" aria-modal="true" hidden>
   <div class="hoja-fondo" data-cerrar></div>
   <div class="hoja-caja">
@@ -132,6 +150,6 @@
   <symbol id="i-tiktok" viewBox="0 0 24 24"><path fill="currentColor" d="M16.6 3c.4 2.2 1.8 3.7 4 3.9v3.3c-1.5 0-2.8-.4-4-1.2v6.3c0 3.5-2.6 5.7-5.6 5.7-3.2 0-5.6-2.5-5.6-5.5 0-3.4 2.9-5.9 6.5-5.4v3.4c-1.6-.4-3.1.6-3.1 2.1 0 1.2 1 2.1 2.2 2.1 1.4 0 2.3-.9 2.3-2.6V3h3.3z"/></symbol>
 </svg>
 <script src="datos.js" defer></script>
-<script src="/assets/v2.js?v=d2be674c" defer></script>
+<script src="/assets/v2.js?v=8dd01723" defer></script>
 </body>
 </html>

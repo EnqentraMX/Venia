@@ -216,6 +216,7 @@ def portada():
   <h1><span class="l"><span style="--i:0">Encuentra al abogado que necesitas.</span></span><span class="l"><span style="--i:1"><em>Sin complicaciones.</em></span></span></h1>
   <p class="sub entra" style="--d:.6s">Busca por ciudad y especialidad. Compara perfiles y contacta directo por WhatsApp, sin pagar por usar LicLink.</p>
   <form class="buscador entra" id="buscar" style="--d:.75s" role="search">
+    <div class="campo libre"><svg viewBox="0 0 24 24"><use href="#i-chat"/></svg><div><label for="bTexto">¿Qué te pasó?</label><input id="bTexto" autocomplete="off" placeholder="Ej. me corrieron del trabajo"><span class="sugerido" id="bSug" hidden></span></div></div>
     <div class="campo"><svg viewBox="0 0 24 24"><use href="#i-pin"/></svg><div><label for="bCiudad">Ciudad</label><select id="bCiudad">{opciones_ciudad()}</select></div></div>
     <div class="campo"><svg viewBox="0 0 24 24"><use href="#i-lupa"/></svg><div><label for="bMateria">Especialidad</label><select id="bMateria"><option value="">Todas las especialidades</option>{"".join(f'<option value="{k}">{v[0]} · {v[1]}</option>' for k, v in MATERIAS.items())}</select></div></div>
     <button class="btn btn-oro brilla" type="submit"><svg viewBox="0 0 24 24"><use href="#i-lupa"/></svg>Buscar abogados</button>

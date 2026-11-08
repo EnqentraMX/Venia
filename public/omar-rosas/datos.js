@@ -18,6 +18,10 @@ window.DATOS = {
   "fondoLogo": "#04203a",
   "equipo": [],
   "telefonos": [],
+  "guia": {
+    "url": "/abogados/cdmx/",
+    "nombre": "Ciudad de México"
+  },
   "frase": "Cada caso merece atención seria, una estrategia clara y seguimiento puntual.",
   "portada": {
     "titulo": [

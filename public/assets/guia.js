@@ -36,6 +36,31 @@
   if (barra) addEventListener("scroll", function () { barra.classList.toggle("bajo", scrollY > 20); }, { passive: true });
 
   /* ---------- Portada: buscador ---------- */
+  /* ---------- Buscador inteligente: entiende el problema en palabras normales ---------- */
+  var PALABRAS = {
+    penal: "detuv deten arrest carcel cárcel preso ministerio publico público denuncia delito acusa robo fraude golpe lesion lesión homicid policia policía audiencia fiscalia fiscalía querella violacion violación abuso amenaza",
+    familiar: "divorci separa esposo esposa pareja pension pensión alimentos hijo hija niño niña custodia visita convivencia paternidad matrimonio boda violencia familiar adopc",
+    laboral: "despid corrier corri trabajo patron patrón jefe finiquito liquidac sueldo salario imss infonavit afore renuncia incapacidad accidente de trabajo horas extra aguinaldo utilidad sindicato",
+    civil: "casa terreno propiedad renta rentar inquilino arrendat desalojo escritura predio vecino contrato compraventa construcc hipoteca departamento",
+    mercantil: "deuda debe deben pagare pagaré prestamo préstamo cobrar cobranza factura cheque negocio empresa socio tarjeta banco",
+    sucesiones: "herencia heredar testamento intestado fallec murio murió difunto sucesion sucesión albacea",
+    amparo: "amparo autoridad abuso de autoridad suspension suspensión inconstitucional clausura",
+    fiscal: "sat impuesto hacienda multa embargo fiscal credito fiscal crédito fiscal declaracion declaración"
+  };
+  var CIUDAD_PAL = { cdmx: "cdmx ciudad de mexico ciudad de méxico df iztapalapa coyoacan coyoacán tlalpan gam gustavo madero iztacalco benito juarez cuauhtemoc", edomex: "edomex estado de mexico estado de méxico neza nezahualcoyotl ecatepec toluca naucalpan tlalnepantla lerma cuautitlan texcoco chalco", guadalajara: "guadalajara jalisco zapopan tlaquepaque tonala tonalá", puebla: "puebla cholula", monterrey: "monterrey nuevo leon nuevo león", queretaro: "queretaro querétaro" };
+  function adivina(t, dic) {
+    t = " " + t.toLowerCase() + " "; var mejor = "", pts = 0;
+    Object.keys(dic).forEach(function (k) { var n = 0; dic[k].split(" ").forEach(function (w) { if (w.length > 2 && t.indexOf(w) > -1) n += w.length; }); if (n > pts) { pts = n; mejor = k; } });
+    return mejor;
+  }
+  var bt = $("#bTexto");
+  if (bt) bt.addEventListener("input", function () {
+    var m = adivina(bt.value, PALABRAS), c = adivina(bt.value, CIUDAD_PAL), sg = $("#bSug");
+    if (m) $("#bMateria").value = m;
+    if (c) $("#bCiudad").value = c;
+    sg.hidden = !m; if (m) sg.textContent = "Te recomendamos: " + MATERIAS[m][0] + (c ? " · " + CIUDADES[c] : "");
+  });
+
   var fb = $("#buscar");
   if (fb) fb.addEventListener("submit", function (e) {
     e.preventDefault();

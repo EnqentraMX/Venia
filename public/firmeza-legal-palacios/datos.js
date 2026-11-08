@@ -18,6 +18,10 @@ window.DATOS = {
   "fondoLogo": "",
   "equipo": [],
   "telefonos": [],
+  "guia": {
+    "url": "/abogados/queretaro/",
+    "nombre": "Querétaro"
+  },
   "frase": "Tu caso merece firmeza, experiencia y acción inmediata. Atención humana, defensa contundente.",
   "portada": {
     "titulo": [

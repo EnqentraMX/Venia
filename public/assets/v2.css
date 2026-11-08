@@ -263,3 +263,21 @@ h1,h2,h3,blockquote{font-family:var(--display);font-weight:800;letter-spacing:-.
 .tels a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border:1px solid var(--linea);border-radius:6px;text-decoration:none}
 .tels b{font-size:17px}
 .tels small{color:var(--gris);font-size:14px;text-align:right}
+
+/* Barra de plataforma LicLink */
+.plataforma{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:9px 20px;background:#faf6ef;border-bottom:1px solid #e7e0d3;font-size:14px}
+.plataforma a{text-decoration:none;color:#1a1814}
+.pl-marca{font-weight:800;font-size:18px;letter-spacing:-.04em}
+.pl-marca i{font-style:normal;color:#94702c}
+.pl-mas{font-weight:700;color:#94702c!important}
+:root[data-estilo="oro"] .plataforma{background:#141210;border-color:#2a2622}
+:root[data-estilo="oro"] .plataforma a{color:#f3eee6}
+:root[data-estilo="oro"] .pl-marca i,:root[data-estilo="oro"] .pl-mas{color:#d4b06a!important}
+@media (min-width:860px){.plataforma{padding:10px max(32px,calc(50% - 520px))}}
+/* Compartir */
+.cierre .compartir{margin-top:12px;width:100%;color:inherit;border-color:currentColor}
+.hoja-caja.comp{text-align:center}
+.comp .qr{display:block;margin:18px auto 0;width:220px;height:220px;border-radius:12px;border:1px solid var(--linea);background:#fff;padding:8px}
+.comp-acc{display:grid;gap:10px;margin-top:18px}
+.comp-acc .btn{min-height:50px;font-size:16px}
+.comp-acc svg{width:20px;height:20px}

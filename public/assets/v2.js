@@ -145,6 +145,22 @@
   $("#pieTxt").textContent = `${D.despacho} ${D.sufijo || ""}${D.telefonoVisible ? " · " + D.telefonoVisible : ""}`;
   $("#privTxt").textContent = `${D.abogado || D.despacho} es responsable del tratamiento de los datos personales que nos proporciones.`;
   $("#abrirPrivacidad").onclick = () => { $("#privacidad").hidden = false; };
+  /* ---------- Plataforma LicLink ---------- */
+  if (D.guia && D.guia.url) { const m = $("#masAbogados"); m.href = D.guia.url; m.textContent = `Más abogados en ${D.guia.nombre} →`; }
+  if (D.propuesta) $(".plataforma").hidden = true;
+
+  /* ---------- Compartir + QR ---------- */
+  const url = location.origin + location.pathname;
+  const texto = `${D.despacho} ${D.sufijo || ""}`.trim() + ` · ${D.descripcion || "Abogados"}`;
+  $("#qrImg").src = "qr.png"; $("#cQr").href = "qr.png"; $("#cQr").download = `QR-${(D.despacho || "perfil").replace(/\W+/g, "-")}.png`;
+  $("#cWa").href = "https://wa.me/?text=" + encodeURIComponent(`${texto}\n${url}`);
+  $("#cFb").href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+  $("#cCopiar").onclick = async () => { try { await navigator.clipboard.writeText(url); $("#cCopiar").textContent = "¡Enlace copiado!"; } catch (e) { prompt("Copia el enlace:", url); } };
+  $("#compartir").onclick = async () => {
+    if (navigator.share && matchMedia("(max-width:860px)").matches) { try { await navigator.share({ title: document.title, text: texto, url }); return; } catch (e) { if (e.name === "AbortError") return; } }
+    $("#hojaCompartir").hidden = false; document.body.style.overflow = "hidden";
+  };
+
   $("#guardar").onclick = () => {
     const v = ["BEGIN:VCARD", "VERSION:3.0", `FN:${D.abogado || D.despacho}`, `ORG:${D.despacho} ${D.sufijo || ""}`, D.telefono ? `TEL;TYPE=CELL:+52${D.telefono}` : "", D.correo ? `EMAIL:${D.correo}` : "", `URL:${location.href.split("#")[0]}`, "END:VCARD"].filter(Boolean).join("\r\n");
     const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([v], { type: "text/vcard" })); a.download = `${D.despacho.replace(/\W+/g, "-")}.vcf`; a.click();
