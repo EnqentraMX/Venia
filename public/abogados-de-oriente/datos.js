@@ -33,7 +33,7 @@ window.DATOS = {
   "telefonos": [
     {
       "numero": "5579413833",
-      "nota": "Llamadas"
+      "whatsapp": true
     }
   ],
   "guia": {

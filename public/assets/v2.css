@@ -260,9 +260,12 @@ h1,h2,h3,blockquote{font-family:var(--display);font-weight:800;letter-spacing:-.
 .miembro b{display:block;font-size:16.5px}
 .miembro small{display:block;color:var(--gris);font-size:14px}
 .tels{display:grid;gap:10px;margin-top:20px}
-.tels a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border:1px solid var(--linea);border-radius:6px;text-decoration:none}
-.tels b{font-size:17px}
-.tels small{color:var(--gris);font-size:14px;text-align:right}
+.tel{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--linea);border-radius:6px;background:var(--papel)}
+.tel b{display:block;font-size:17px}
+.tel small{display:block;color:var(--gris);font-size:13.5px}
+.tel-acc{display:flex;gap:6px;flex:none}
+.tel-acc a{padding:9px 12px;border-radius:6px;border:1.5px solid var(--tinta);font-weight:700;font-size:14px;text-decoration:none;color:var(--tinta)}
+.tel-acc a.w{background:#1f9d55;border-color:#1f9d55;color:#fff}
 
 /* Barra de plataforma LicLink */
 .plataforma{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:9px 20px;background:#faf6ef;border-bottom:1px solid #e7e0d3;font-size:14px}

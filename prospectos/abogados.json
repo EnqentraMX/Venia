@@ -1068,7 +1068,7 @@
     "telefonos_extra": [
       {
         "numero": "5579413833",
-        "nota": "Llamadas"
+        "whatsapp": true
       }
     ]
   },
