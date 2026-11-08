@@ -1,5 +1,35 @@
 [
  {
+  "slug": "miguel-perez",
+  "nombre": "Miguel Pérez | Abogado",
+  "rol": "Lic. Miguel Pérez Tamayo · Laboral, pensiones, familiar y amparo · Halachó y Mérida",
+  "ciudad": "yucatan",
+  "materias": [
+   "laboral",
+   "familiar",
+   "amparo",
+   "civil",
+   "sucesiones",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/miguel-perez/logo.jpg",
+  "logo": true,
+  "fondo": "#670907",
+  "iniciales": "MP",
+  "whatsapp": "529812092410",
+  "telefono": "9812092410",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/miguel-perez/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-08",
+  "vence": "",
+  "pago": "pendiente"
+ },
+ {
   "slug": "abogados-de-oriente",
   "nombre": "Abogados Penalistas de Oriente",
   "rol": "Lic. Felipe Ugalde y equipo · Penal y amparos · Iztacalco",

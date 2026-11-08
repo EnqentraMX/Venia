@@ -2337,5 +2337,137 @@
     "plan": "premium",
     "alta": "2026-11-07",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "miguel-perez",
+    "nombre": "Lic. Miguel Pérez Tamayo",
+    "despacho": "Miguel Pérez",
+    "sufijo": "Abogado",
+    "despacho_largo": "Miguel Pérez | Abogado",
+    "titulo": "Asesoría · Representación · Soluciones jurídicas",
+    "iniciales": "MP",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#670907",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Halachó, Yucatán",
+    "telefono": "9812092410",
+    "direccion": "Halachó, Yucatán, México",
+    "referencia": "Atención en Mérida y municipios de Yucatán, Campeche y Quintana Roo.",
+    "descripcion": "Abogado en derecho laboral, seguridad social, familiar, amparo, civil y administrativo en Yucatán, Campeche y Quintana Roo",
+    "modalidad": "Atención personalizada",
+    "portada": [
+      "Tu tranquilidad jurídica",
+      "en manos",
+      "de un profesional."
+    ],
+    "texto_portada": "Asesoría y representación en derecho laboral, seguridad social, familiar, amparo, civil y administrativo. Atención en Mérida y municipios de Yucatán, Campeche y Quintana Roo.",
+    "frase": "Estoy para ayudarte. Experiencia, seriedad y resultados.",
+    "compromisos": [
+      "Atención personalizada",
+      "Estrategia jurídica clara",
+      "Confidencialidad total",
+      "Compromiso y profesionalismo"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me despidieron o no me pagaron mi liquidación",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero tramitar mi pensión del IMSS, ISSSTE o mi Afore",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito pensión alimenticia, divorcio o convivencia con mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Una autoridad violó mis derechos y necesito un amparo",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con un contrato, una renta, un pagaré o una herencia",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Si te despidieron o no te pagaron lo que te corresponde, te ayudamos a reclamarlo.",
+        "puntos": [
+          "Despidos y liquidaciones",
+          "Reinstalaciones",
+          "Prestaciones laborales",
+          "Conflictos individuales",
+          "Procedimientos ante Tribunales Laborales Federales"
+        ]
+      },
+      {
+        "nombre": "Seguridad social",
+        "icono": "acuerdo",
+        "texto": "Obtén lo que te corresponde por tus años de trabajo.",
+        "puntos": [
+          "Pensiones IMSS, ISSSTE e ISSFAM",
+          "Designación de beneficiarios",
+          "Recursos Afore",
+          "Infonavit: devoluciones y créditos",
+          "Modalidad 40 y semanas cotizadas"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Pensión alimenticia",
+          "Convivencias y guarda de menores",
+          "Divorcios",
+          "Cesación y modificación de pensiones",
+          "Reconocimiento de paternidad",
+          "Jurisdicción voluntaria"
+        ]
+      },
+      {
+        "nombre": "Amparo",
+        "icono": "escudo",
+        "texto": "Defensa contra actos de autoridad que violan tus derechos.",
+        "puntos": [
+          "Juicios de amparo directo e indirecto",
+          "Suspensiones",
+          "Amparo en materia laboral, familiar, administrativa y civil"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio y tus acuerdos.",
+        "puntos": [
+          "Contratos y arrendamientos",
+          "Cobro de pagarés y títulos de crédito",
+          "Sucesiones",
+          "Juicios de nulidad y reivindicación",
+          "Información ad perpetuam"
+        ]
+      },
+      {
+        "nombre": "Derecho administrativo",
+        "icono": "edificio",
+        "texto": "Te defendemos frente a dependencias y autoridades.",
+        "puntos": [
+          "Trámites y recursos",
+          "Procedimientos administrativos",
+          "Servicios públicos, como CFE",
+          "Permisos y licencias"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-08",
+    "fuente": "Facebook"
   }
 ]
