@@ -16,6 +16,26 @@ window.DATOS = {
   "foto": "logo.jpg",
   "fotoLogo": true,
   "fondoLogo": "#fefefe",
+  "equipo": [
+    {
+      "nombre": "Lic. Felipe Alfonso Ugalde López",
+      "rol": "Especialista en derecho penal y amparos"
+    },
+    {
+      "nombre": "Lic. Marcos Estrada González",
+      "rol": "Abogado"
+    },
+    {
+      "nombre": "Lic. Héctor Becerra Torres",
+      "rol": "Abogado"
+    }
+  ],
+  "telefonos": [
+    {
+      "numero": "5579413833",
+      "nota": "Llamadas"
+    }
+  ],
   "frase": "Tu futuro legal en buenas manos.",
   "portada": {
     "titulo": [
@@ -146,9 +166,14 @@ window.DATOS = {
   "notaHorario": "Asesoría las 24 horas. Oficina: 55 9200 7501.",
   "oficinas": [
     {
-      "nombre": "Iztapalapa, CDMX",
+      "nombre": "Iztapalapa e Iztacalco, CDMX",
       "direccion": "Chabacano 3, Col. San Juan Xalpa, Iztapalapa, 09850 Ciudad de México",
-      "referencia": ""
+      "referencia": "Oficina Iztapalapa"
+    },
+    {
+      "nombre": "Iztacalco",
+      "direccion": "Ferrocarril de Río Frío 300, Iztacalco, Ciudad de México",
+      "referencia": "Oficina Iztacalco"
     }
   ],
   "redes": {

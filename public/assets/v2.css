@@ -251,3 +251,15 @@ h1,h2,h3,blockquote{font-family:var(--display);font-weight:800;letter-spacing:-.
   .hoja-caja{max-width:480px;border-radius:12px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none}}
+
+/* Equipo y teléfonos */
+.equipo{margin-top:24px}
+.equipo h3{font-size:19px;margin-bottom:12px}
+.miembro{display:grid;grid-template-columns:46px 1fr;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--linea)}
+.miembro .ini{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--suave);color:var(--acento);font-weight:800;font-size:16px}
+.miembro b{display:block;font-size:16.5px}
+.miembro small{display:block;color:var(--gris);font-size:14px}
+.tels{display:grid;gap:10px;margin-top:20px}
+.tels a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border:1px solid var(--linea);border-radius:6px;text-decoration:none}
+.tels b{font-size:17px}
+.tels small{color:var(--gris);font-size:14px;text-align:right}

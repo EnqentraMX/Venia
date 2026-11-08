@@ -95,6 +95,7 @@ def datos_js(a):
     sit = SITUACIONES.get(principal, SITUACIONES["_"])
     redes = {k: a.get(k, "") for k in ["facebook", "instagram", "tiktok", "youtube", "linkedin"]}
     oficinas = [{"nombre": a.get("ciudad", "Oficina"), "direccion": a["direccion"], "referencia": a.get("referencia", "")}] if a.get("direccion") else []
+    oficinas += [{"nombre": o.get("nombre", ""), "direccion": o["direccion"], "referencia": o.get("referencia", "")} for o in a.get("oficinas_extra", [])]
     d = {
         "vistaPrevia": False,  # en propuestas no se muestran los "por confirmar"
         "propuesta": nombre if estado == "propuesta" else "",
@@ -113,6 +114,7 @@ def datos_js(a):
         "foto": a.get("foto", ""),
         "fotoLogo": bool(a.get("logo")),
         "fondoLogo": a.get("fondo_logo", ""),
+        "equipo": a.get("equipo", []), "telefonos": a.get("telefonos_extra", []),
         "frase": a.get("frase", "Tu tranquilidad legal es nuestra prioridad."),
         "portada": {"titulo": a.get("portada", ["Tu asunto legal,", "en buenas", "manos."]),
                     "texto": a.get("texto_portada") or (", ".join(x["nombre"].lower() for x in areas[:3]).capitalize() + (f" en {a['ciudad']}" if a.get("ciudad") else "") + ". Escríbenos y te orientamos sobre tu caso.")},

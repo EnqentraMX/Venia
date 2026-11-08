@@ -16,6 +16,8 @@ window.DATOS = {
   "foto": "logo.jpg",
   "fotoLogo": true,
   "fondoLogo": "#111111",
+  "equipo": [],
+  "telefonos": [],
   "frase": "Somos profesionales en virtud del compromiso y la honestidad. Resolvemos de manera urgente.",
   "portada": {
     "titulo": [

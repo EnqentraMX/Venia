@@ -16,6 +16,8 @@ window.DATOS = {
   "foto": "logo.jpg",
   "fotoLogo": true,
   "fondoLogo": "#04203a",
+  "equipo": [],
+  "telefonos": [],
   "frase": "Cada caso merece atención seria, una estrategia clara y seguimiento puntual.",
   "portada": {
     "titulo": [

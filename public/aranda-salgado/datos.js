@@ -16,6 +16,8 @@ window.DATOS = {
   "foto": "logo.jpg",
   "fotoLogo": true,
   "fondoLogo": "#000000",
+  "equipo": [],
+  "telefonos": [],
   "frase": "Un buen caso se gana con pruebas. Por eso somos abogados y peritos.",
   "portada": {
     "titulo": [

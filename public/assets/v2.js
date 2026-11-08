@@ -104,11 +104,17 @@
   $("#frase").textContent = D.frase || "";
   $("#nombreAbogado").textContent = D.abogado || D.despacho;
   $("#rolAbogado").textContent = D.descripcion || D.titulo || "";
+  if ((D.equipo || []).length) {  // equipo de abogados del despacho
+    $("#nombreAbogado").textContent = D.despacho;
+    $("#compromisos").insertAdjacentHTML("beforebegin", `<div class="equipo"><h3>Nuestro equipo</h3>${D.equipo.map(p => `<div class="miembro"><span class="ini">${esc(p.nombre.replace(/^Lic\.?\s*/i, "").split(" ").slice(0, 2).map(w => w[0]).join(""))}</span><div><b>${esc(p.nombre)}</b>${p.rol ? `<small>${esc(p.rol)}</small>` : ""}</div></div>`).join("")}</div>`);
+  }
   $("#compromisos").innerHTML = (D.compromisos || []).map(c => `<li>${ok}<span>${esc(c)}</span></li>`).join("");
   if (D.cedula) { const v = $("#verificar"); v.hidden = false; v.innerHTML = `Cédula profesional <b>${esc(D.cedula)}</b> · Verifícala en el Registro Nacional de Profesionistas`; }
 
   /* ---------- Ubicación y horario ---------- */
   const ofs = (D.oficinas || []).filter(o => o.direccion);
+  const tels = [D.telefono ? { n: D.telefono, t: "WhatsApp y llamadas" } : null].concat((D.telefonos || []).map(x => ({ n: x.numero, t: x.nota || "Llamadas" }))).filter(Boolean);
+  if (tels.length > 1) $("#oficinas").insertAdjacentHTML("afterend", `<div class="tels">${tels.map(x => `<a href="tel:+52${esc(x.n)}"><b>${esc(x.n.replace(/^(\d{2})(\d{4})(\d{4})$/, "$1 $2 $3"))}</b><small>${esc(x.t)}</small></a>`).join("")}</div>`);
   $("#oficinas").innerHTML = ofs.map(o => { const q = encodeURIComponent(o.direccion); return `<div class="ofi">
     <div class="mapa"><iframe loading="lazy" title="Mapa" src="https://maps.google.com/maps?q=${q}&z=15&output=embed"></iframe></div>
     <p>${esc(o.direccion)}${o.referencia ? `<small>${esc(o.referencia)}</small>` : ""}</p>

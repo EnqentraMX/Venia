@@ -16,6 +16,8 @@ window.DATOS = {
   "foto": "logo.jpg",
   "fotoLogo": true,
   "fondoLogo": "",
+  "equipo": [],
+  "telefonos": [],
   "frase": "Tu caso merece atención, estrategia y compromiso.",
   "portada": {
     "titulo": [
