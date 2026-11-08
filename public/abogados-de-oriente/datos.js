@@ -3,7 +3,7 @@ window.DATOS = {
   "vistaPrevia": false,
   "propuesta": "",
   "muestra": false,
-  "estilo": "oro",
+  "estilo": "claro",
   "simbolo": "balanza",
   "despacho": "Abogados Penalistas de Oriente",
   "sufijo": "Abogacía y consultoría jurídica",

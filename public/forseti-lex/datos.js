@@ -3,7 +3,7 @@ window.DATOS = {
   "vistaPrevia": false,
   "propuesta": "Forseti Lex Despacho Jurídico",
   "muestra": false,
-  "estilo": "oro",
+  "estilo": "claro",
   "simbolo": "balanza",
   "despacho": "Forseti Lex",
   "sufijo": "Despacho jurídico",

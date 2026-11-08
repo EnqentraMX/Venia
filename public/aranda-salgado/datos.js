@@ -3,7 +3,7 @@ window.DATOS = {
   "vistaPrevia": false,
   "propuesta": "",
   "muestra": false,
-  "estilo": "oro",
+  "estilo": "claro",
   "simbolo": "balanza",
   "despacho": "Aranda Salgado",
   "sufijo": "Despacho Jurídico Pericial",

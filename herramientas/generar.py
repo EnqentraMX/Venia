@@ -101,7 +101,7 @@ def datos_js(a):
         "propuesta": nombre if estado == "propuesta" else "",
         "muestra": False,
         "tema": TEMAS.get(a.get("tema", "negro-oro")),
-        "estilo": a.get("estilo", "oro"),
+        "estilo": a.get("estilo", "claro"),
         "simbolo": a.get("simbolo", "balanza"),
         "despacho": a.get("despacho") or re.sub(r"^(Lic\.|Licenciad[oa]|Abogad[oa]|Mtr[oa]\.?)\s+", "", nombre).split(" ")[0] + " " + (re.sub(r"^(Lic\.|Licenciad[oa]|Abogad[oa]|Mtr[oa]\.?)\s+", "", nombre).split(" ") + [""])[1],
         "sufijo": a.get("sufijo", "Abogados" if a.get("despacho") else "Asesoría jurídica"),
