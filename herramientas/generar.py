@@ -16,7 +16,7 @@ DATOS = os.path.join(RAIZ, "prospectos", "abogados.json")
 PLANTILLA = os.path.join(RAIZ, "plantilla", "index.html")
 PLANTILLA_V2 = os.path.join(RAIZ, "plantilla", "v2.html")
 PUBLICO = os.path.join(RAIZ, "public")
-URL_BASE = "https://liclink.demomx.workers.dev"  # cambiar al comprar el dominio
+URL_BASE = "https://liclink.com.mx"
 PROTEGIDOS = {"assets", "plantilla", "abogados", "para-abogados", "aviso-de-privacidad", "terminos", "castillo-abogados", "miguel-manzano", "dalia-marquez"}
 
 # ---------------------------------------------------------------- catálogo de áreas
