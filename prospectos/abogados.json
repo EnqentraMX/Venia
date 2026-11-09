@@ -2469,5 +2469,139 @@
     "plan": "premium",
     "alta": "2026-11-08",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "sv-juridicos",
+    "nombre": "SV Jurídicos",
+    "despacho": "SV Jurídicos",
+    "sufijo": "Consejería jurídica",
+    "titulo": "Derecho agrario, ambiental y forestal",
+    "iniciales": "SV",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#3a3e1d",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9992624754",
+    "correo": "svjuirdico0@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61587860827230",
+    "descripcion": "Consejería jurídica en derecho agrario, ambiental, forestal, administrativo, civil y familiar",
+    "modalidad": "Asesoría legal personalizada",
+    "portada": [
+      "Tu tierra y tus derechos,",
+      "protegidos",
+      "con asesoría experta."
+    ],
+    "texto_portada": "Consejería jurídica con enfoque en derecho agrario, ambiental y forestal. También te asesoramos en asuntos administrativos, civiles, mercantiles y familiares, y elaboramos tus contratos.",
+    "frase": "Un acuerdo por escrito te da seguridad y herramientas si alguien no cumple. ¡Por escrito es mejor!",
+    "compromisos": [
+      "Asesoría legal personalizada",
+      "Especialistas en ejidos, medio ambiente y trámites forestales",
+      "Te explicamos tu caso en palabras claras",
+      "Contratos hechos a la medida de tu acuerdo"
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo un problema con mi parcela, ejido o tierras comunales",
+        "urgente": false
+      },
+      {
+        "texto": "Me llegó una multa o clausura ambiental (Profepa, Semarnat)",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito un permiso o trámite forestal o ambiental",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato: compra, renta, préstamo o servicios",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un juicio civil, mercantil o familiar",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho agrario",
+        "icono": "edificio",
+        "texto": "Protegemos tus derechos sobre la tierra ejidal y comunal.",
+        "puntos": [
+          "Juicios y asesoramiento ejidal",
+          "Derechos parcelarios y de uso común",
+          "Conflictos por límites y posesión",
+          "Herencia de derechos agrarios",
+          "Asambleas y trámites ante el Registro Agrario"
+        ]
+      },
+      {
+        "nombre": "Derecho ambiental y forestal",
+        "icono": "escudo",
+        "texto": "Te acompañamos en trámites y procedimientos ambientales.",
+        "puntos": [
+          "Trámites y atención de asuntos en materia ambiental",
+          "Permisos y autorizaciones forestales",
+          "Defensa ante inspecciones, multas y clausuras",
+          "Asesoría para proyectos que requieren autorización ambiental"
+        ]
+      },
+      {
+        "nombre": "Derecho administrativo",
+        "icono": "documento",
+        "texto": "Te representamos frente a dependencias y autoridades.",
+        "puntos": [
+          "Trámites administrativos",
+          "Gestión de asuntos ante Tribunales de Justicia Administrativa",
+          "Recursos contra resoluciones de autoridad"
+        ]
+      },
+      {
+        "nombre": "Contratos",
+        "icono": "acuerdo",
+        "texto": "Evita malos entendidos en tus acuerdos: te ayudamos a elaborarlos.",
+        "puntos": [
+          "Compraventa y renta",
+          "Donación y comodato",
+          "Permuta y mutuo (préstamo)",
+          "Prenda",
+          "Prestación de servicios"
+        ]
+      },
+      {
+        "nombre": "Civil, mercantil y familiar",
+        "icono": "familia",
+        "texto": "Asesoría y juicios para proteger a tu familia y tu patrimonio.",
+        "puntos": [
+          "Juicios civiles y familiares",
+          "Juicios mercantiles",
+          "Cobro de deudas y pagarés"
+        ]
+      }
+    ],
+    "preguntas": [
+      {
+        "p": "¿Atienden asuntos de ejidos fuera de Mérida?",
+        "r": "Escríbenos por WhatsApp con la ubicación de tu ejido o terreno y te decimos cómo podemos ayudarte."
+      },
+      {
+        "p": "¿Cuánto cuesta la primera consulta?",
+        "r": "{precio}"
+      },
+      {
+        "p": "¿Qué documentos debo tener a la mano?",
+        "r": "Tu identificación y lo relacionado con tu asunto: certificado parcelario, actas de asamblea, notificaciones, contratos o permisos. Si no tienes nada, igual te orientamos."
+      },
+      {
+        "p": "¿Lo que les cuento es confidencial?",
+        "r": "Sí. Todo lo que nos compartas se trata con estricta confidencialidad."
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-08",
+    "fuente": "Facebook"
   }
 ]

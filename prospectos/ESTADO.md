@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 1 · Vendidos: 7 · Borrados: 15
+Propuestas: 1 · Vendidos: 8 · Borrados: 15
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -27,3 +27,4 @@ Propuestas: 1 · Vendidos: 7 · Borrados: 15
 | 2026-11-07 | Valeria Sanjuan | /servicios-legales-vs/ | vendido | https://www.facebook.com/profile.php?id=61594826649462 |
 | 2026-11-07 | Abogado Víctor Salmerón | /salmeron-asociados/ | vendido | 3317875547 |
 | 2026-11-08 | Lic. Miguel Pérez Tamayo | /miguel-perez/ | vendido | 9812092410 |
+| 2026-11-08 | SV Jurídicos | /sv-juridicos/ | vendido | https://www.facebook.com/profile.php?id=61587860827230 |

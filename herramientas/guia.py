@@ -30,9 +30,10 @@ MATERIAS = {
     "sucesiones": ("Herencias", "Testamentos e intestados", "abogado de herencias"),
     "amparo": ("Amparo", "Contra abusos de autoridad", "abogado de amparo"),
     "fiscal": ("Fiscal", "SAT, multas y embargos", "abogado fiscal"),
+    "agrario": ("Agrario y ambiental", "Ejidos, tierras y medio ambiente", "abogado agrario"),
 }
 PLURAL = {"penal": "Abogados penalistas", "familiar": "Abogados familiares", "laboral": "Abogados laborales", "civil": "Abogados civiles",
-          "mercantil": "Abogados mercantiles", "sucesiones": "Abogados de herencias", "amparo": "Abogados de amparo", "fiscal": "Abogados fiscalistas"}
+          "mercantil": "Abogados mercantiles", "sucesiones": "Abogados de herencias", "amparo": "Abogados de amparo", "fiscal": "Abogados fiscalistas", "agrario": "Abogados agrarios"}
 ICONOS = {
     "penal": '<path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/>',
     "familiar": '<circle cx="8" cy="7" r="2.5"/><circle cx="16.5" cy="8.5" r="2"/><path d="M3.5 20v-4a4.5 4.5 0 019 0v4M13 20v-3a3.5 3.5 0 017 0v3"/>',
@@ -42,6 +43,7 @@ ICONOS = {
     "sucesiones": '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/>',
     "amparo": '<path d="M12 4v16M7 20h10M5 7h14M5 7l-3 6a3 3 0 006 0zM19 7l-3 6a3 3 0 006 0z"/>',
     "fiscal": '<path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/>',
+    "agrario": '<path d="M12 21V11"/><path d="M12 11c0-4 3-7 7-7 0 4-3 7-7 7zM12 14c0-3-2.5-5.5-6-5.5 0 3 2.5 5.5 6 5.5z"/><path d="M5 21h14"/>',
 }
 SIMBOLOS = """<svg width="0" height="0" style="position:absolute" aria-hidden="true">
 <symbol id="i-ok" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></symbol>

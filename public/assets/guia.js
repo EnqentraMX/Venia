@@ -13,7 +13,8 @@
     mercantil: ["Mercantil", "Pagarés, deudas y cobranza"],
     sucesiones: ["Herencias", "Testamentos e intestados"],
     amparo: ["Amparo", "Contra abusos de autoridad"],
-    fiscal: ["Fiscal", "SAT, multas y embargos"]
+    fiscal: ["Fiscal", "SAT, multas y embargos"],
+    agrario: ["Agrario y ambiental", "Ejidos, tierras y medio ambiente"]
   };
   /* =========================== */
 
@@ -49,9 +50,10 @@
     mercantil: "deuda debe deben pagare pagaré prestamo préstamo cobrar cobranza factura cheque negocio empresa socio tarjeta banco",
     sucesiones: "herencia heredar testamento intestado fallec murio murió difunto sucesion sucesión albacea",
     amparo: "amparo autoridad abuso de autoridad suspension suspensión inconstitucional clausura",
+    agrario: "ejido ejidal ejidatario parcela comunero comunal tierra agraria agrario ambiental profepa semarnat forestal bosque tala monte",
     fiscal: "sat impuesto hacienda multa embargo fiscal credito fiscal crédito fiscal declaracion declaración"
   };
-  var CIUDAD_PAL = { cdmx: "cdmx ciudad de mexico ciudad de méxico df iztapalapa coyoacan coyoacán tlalpan gam gustavo madero iztacalco benito juarez cuauhtemoc", edomex: "edomex estado de mexico estado de méxico neza nezahualcoyotl ecatepec toluca naucalpan tlalnepantla lerma cuautitlan texcoco chalco", guadalajara: "guadalajara jalisco zapopan tlaquepaque tonala tonalá", puebla: "puebla cholula", monterrey: "monterrey nuevo leon nuevo león", queretaro: "queretaro querétaro" };
+  var CIUDAD_PAL = { cdmx: "cdmx ciudad de mexico ciudad de méxico df iztapalapa coyoacan coyoacán tlalpan gam gustavo madero iztacalco benito juarez cuauhtemoc", edomex: "edomex estado de mexico estado de méxico neza nezahualcoyotl ecatepec toluca naucalpan tlalnepantla lerma cuautitlan texcoco chalco", guadalajara: "guadalajara jalisco zapopan tlaquepaque tonala tonalá", puebla: "puebla cholula", monterrey: "monterrey nuevo leon nuevo león", queretaro: "queretaro querétaro", yucatan: "yucatan yucatán merida mérida halacho halachó progreso valladolid" };
   function adivina(t, dic) {
     t = " " + t.toLowerCase() + " "; var mejor = "", pts = 0;
     Object.keys(dic).forEach(function (k) { var n = 0; dic[k].split(" ").forEach(function (w) { if (w.length > 2 && t.indexOf(w) > -1) n += w.length; }); if (n > pts) { pts = n; mejor = k; } });
