@@ -31,36 +31,6 @@
   "pago": "pendiente"
  },
  {
-  "slug": "sv-juridicos",
-  "nombre": "SV Jurídicos",
-  "rol": "Derecho agrario, ambiental y forestal · Mérida",
-  "ciudad": "yucatan",
-  "materias": [
-   "agrario",
-   "civil",
-   "familiar",
-   "mercantil"
-  ],
-  "plan": "premium",
-  "foto": "/sv-juridicos/logo.jpg",
-  "logo": true,
-  "fondo": "#3a3e1d",
-  "iniciales": "SV",
-  "whatsapp": "529992624754",
-  "telefono": "9992624754",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/sv-juridicos/",
-  "redes": {
-   "facebook": "https://www.facebook.com/profile.php?id=61587860827230"
-  },
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-08",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
   "slug": "miguel-perez",
   "nombre": "Miguel Pérez | Abogado",
   "rol": "Lic. Miguel Pérez Tamayo · Laboral, pensiones, familiar y amparo · Halachó y Mérida",
@@ -204,36 +174,6 @@
   "vence": "",
   "pago": "pendiente",
   "verificada_fecha": ""
- },
- {
-  "slug": "omar-rosas",
-  "nombre": "Consultoría Jurídica Rosas",
-  "rol": "Lic. Omar Israel Rosas V. · Familiar, laboral, civil y penal",
-  "ciudad": "cdmx",
-  "otras_ciudades": [
-   "edomex"
-  ],
-  "materias": [
-   "familiar",
-   "laboral",
-   "civil",
-   "penal"
-  ],
-  "plan": "premium",
-  "foto": "/omar-rosas/logo.jpg",
-  "logo": true,
-  "iniciales": "OR",
-  "whatsapp": "525523075905",
-  "telefono": "5523075905",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/omar-rosas/",
-  "redes": {},
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-06",
-  "vence": "",
-  "pago": "pendiente"
  },
  {
   "slug": "aranda-salgado",
