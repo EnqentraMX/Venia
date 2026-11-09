@@ -311,5 +311,37 @@
   "vence": "",
   "pago": "pendiente",
   "verificada_fecha": ""
+ },
+ {
+  "slug": "yulieth-alejandra",
+  "nombre": "Abogada Yulieth Alejandra",
+  "rol": "YM Despacho Jurídico · Familiar, laboral, civil, mercantil y penal · Mérida · 24/7",
+  "ciudad": "yucatan",
+  "materias": [
+   "familiar",
+   "laboral",
+   "civil",
+   "mercantil",
+   "penal",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/yulieth-alejandra/foto.jpg",
+  "logo": false,
+  "fondo": "",
+  "iniciales": "YM",
+  "whatsapp": "529903101304",
+  "telefono": "9903101304",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/yulieth-alejandra/",
+  "redes": {
+   "facebook": "https://www.facebook.com/abogada.yuliethalejandra/"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-09",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

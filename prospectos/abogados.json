@@ -2923,5 +2923,165 @@
     "logo": true,
     "imagen_vista": "logo.jpg",
     "fondo_logo": "#000f22"
+  },
+  {
+    "slug": "yulieth-alejandra",
+    "nombre": "Lic. Yulieth Alejandra",
+    "despacho": "YM Despacho Jurídico",
+    "sufijo": "Abogada",
+    "despacho_largo": "Abogada Yulieth Alejandra | YM Despacho Jurídico",
+    "titulo": "Familiar · Laboral · Civil y mercantil · Penal",
+    "iniciales": "YM",
+    "foto": "foto.jpg",
+    "logo": false,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9903101304",
+    "telefonos_extra": [
+      {
+        "numero": "9993377476",
+        "whatsapp": true
+      },
+      {
+        "numero": "9901885654",
+        "whatsapp": true
+      }
+    ],
+    "correo": "Abogada.yuliethalejandra@gmail.com",
+    "facebook": "https://www.facebook.com/abogada.yuliethalejandra/",
+    "direccion": "Mérida, Yucatán, México",
+    "referencia": "Atención en Mérida y todo Yucatán. Cédula profesional 15538571.",
+    "descripcion": "Abogada en Mérida, Yucatán: derecho familiar, laboral, civil, mercantil, penal y trámites notariales. Atención 24/7 por WhatsApp.",
+    "modalidad": "A tu servicio 24/7",
+    "horario": {
+      "lunes": [
+        "00:00",
+        "23:59"
+      ],
+      "martes": [
+        "00:00",
+        "23:59"
+      ],
+      "miercoles": [
+        "00:00",
+        "23:59"
+      ],
+      "jueves": [
+        "00:00",
+        "23:59"
+      ],
+      "viernes": [
+        "00:00",
+        "23:59"
+      ],
+      "sabado": [
+        "00:00",
+        "23:59"
+      ],
+      "domingo": [
+        "00:00",
+        "23:59"
+      ]
+    },
+    "nota_horario": "A tu servicio 24/7. Escríbenos por WhatsApp a cualquier hora.",
+    "portada": [
+      "Detrás de cada caso",
+      "hay una historia;",
+      "la tuya merece ser escuchada."
+    ],
+    "texto_portada": "Agenda tu asesoría y déjanos orientarte paso a paso, con empatía, respeto y confidencialidad. Cédula profesional 15538571.",
+    "frase": "Detrás de cada caso hay una historia; la tuya merece ser escuchada y bien defendida.",
+    "compromisos": [
+      "Confidencialidad",
+      "Atención personalizada",
+      "Compromiso y profesionalismo",
+      "Respeto y empatía"
+    ],
+    "situaciones": [
+      {
+        "texto": "Necesito pensión alimenticia, divorcio o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron o no me pagaron lo que me corresponde",
+        "urgente": true
+      },
+      {
+        "texto": "Detuvieron a un familiar o me están acusando de un delito",
+        "urgente": true
+      },
+      {
+        "texto": "Tengo un problema con un contrato, una deuda o un pagaré",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito ayuda con un testamento, herencia o trámite notarial",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos con empatía en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda, custodia y convivencias",
+          "Reconocimiento de paternidad"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Defendemos lo que te corresponde por tu trabajo.",
+        "puntos": [
+          "Despidos injustificados",
+          "Liquidaciones y finiquitos",
+          "Prestaciones laborales",
+          "Conciliación laboral"
+        ]
+      },
+      {
+        "nombre": "Civil y mercantil",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio y tus acuerdos.",
+        "puntos": [
+          "Contratos y arrendamientos",
+          "Cobro de pagarés y deudas",
+          "Juicios civiles",
+          "Asuntos mercantiles"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa firme cuando más lo necesitas.",
+        "puntos": [
+          "Defensa penal",
+          "Denuncias y querellas",
+          "Asesoría a víctimas",
+          "Audiencias"
+        ]
+      },
+      {
+        "nombre": "Trámites notariales",
+        "icono": "edificio",
+        "texto": "Te orientamos paso a paso en tus trámites.",
+        "puntos": [
+          "Testamentos",
+          "Sucesiones y herencias",
+          "Poderes",
+          "Asesoría legal general"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-09",
+    "fuente": "Facebook"
   }
 ]
