@@ -13,9 +13,9 @@ window.DATOS = {
   "cedula": "",
   "modalidad": "Presencial con cita o en línea",
   "iniciales": "MM",
-  "foto": "",
-  "fotoLogo": false,
-  "fondoLogo": "",
+  "foto": "logo.jpg",
+  "fotoLogo": true,
+  "fondoLogo": "#000f22",
   "equipo": [],
   "telefonos": [],
   "guia": {

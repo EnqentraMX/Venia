@@ -2909,6 +2909,10 @@
     "estado": "vendido",
     "plan": "premium",
     "alta": "2026-11-09",
-    "fuente": "Cliente"
+    "fuente": "Cliente",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000f22"
   }
 ]

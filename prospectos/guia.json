@@ -341,8 +341,8 @@
    "amparo"
   ],
   "plan": "premium",
-  "foto": "",
-  "logo": false,
+  "foto": "/miguel-manzano/logo.jpg",
+  "logo": true,
   "iniciales": "MM",
   "whatsapp": "523335940403",
   "telefono": "3335940403",
@@ -354,7 +354,8 @@
   "alta": "2026-11-09",
   "vence": "",
   "pago": "pendiente",
-  "verificada_fecha": ""
+  "verificada_fecha": "",
+  "fondo": "#000f22"
  },
  {
   "slug": "dalia-marquez",
