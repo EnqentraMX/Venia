@@ -1,5 +1,38 @@
 [
  {
+  "slug": "lic-leticia",
+  "nombre": "Lic. Leticia · Abogada",
+  "rol": "Familiar, laboral, civil, mercantil y penal · Primera consulta gratis",
+  "ciudad": "cdmx",
+  "otras_ciudades": [
+   "edomex"
+  ],
+  "materias": [
+   "familiar",
+   "sucesiones",
+   "laboral",
+   "civil",
+   "mercantil",
+   "penal"
+  ],
+  "plan": "premium",
+  "foto": "/lic-leticia/portada.jpg",
+  "logo": true,
+  "fondo": "#f6f1e8",
+  "iniciales": "L",
+  "whatsapp": "525521108618",
+  "telefono": "5521108618",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/lic-leticia/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-09",
+  "vence": "",
+  "pago": "pendiente"
+ },
+ {
   "slug": "sv-juridicos",
   "nombre": "SV Jurídicos",
   "rol": "Derecho agrario, ambiental y forestal · Mérida",
