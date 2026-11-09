@@ -2872,10 +2872,22 @@
     ],
     "paquetes": [
       {
+        "nombre": "Divorcio express",
+        "subtitulo": "Solo necesitamos tu firma",
+        "precio": "Desde $1,000 al mes",
+        "destacado": true,
+        "texto": "Para quien busca terminar su matrimonio de forma rápida y segura, pagando en mensualidades.",
+        "incluye": [
+          "Trámite ágil: solución rápida y efectiva",
+          "Asesoría profesional con experiencia",
+          "Proceso seguro y confidencial"
+        ]
+      },
+      {
         "nombre": "Divorcio integral premium",
         "subtitulo": "Estrategia familiar y patrimonial",
         "precio": "$100,000 MXN",
-        "destacado": true,
+        "destacado": false,
         "texto": "No se trata solamente de terminar un matrimonio: se trata de proteger y ordenar tu patrimonio, tus derechos y los acuerdos con tu familia.",
         "incluye": [
           "Diagnóstico jurídico y estrategia personalizada",
