@@ -5,7 +5,6 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Abogado | Plan | Ciudad | Alta | Vence | Pago | Estado | Cédula verificada |
 |---|---|---|---|---|---|---|---|
 | Abogados Penalistas de Oriente | premium | Ciudad de México | 2026-11-07 | — | pendiente | activo | no |
-| Aliadas Derecho de Familia | premium | Ciudad de México | 2026-11-09 | — | pendiente | activo | no |
 | Consultoría Jurídica Rosas | premium | Ciudad de México | 2026-11-06 | — | pendiente | activo | no |
 | Despacho Jurídico Pericial Aranda Salgado | premium | Estado de México | 2026-11-07 | 2026-12-08 | pagado ($400 alta, folio LL-0001) | activo | no |
 | F&B Abogados Penalistas | premium | Estado de México | 2026-11-09 | — | pendiente | activo | no |

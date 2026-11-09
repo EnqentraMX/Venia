@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 12 · Borrados: 14
+Propuestas: 0 · Vendidos: 11 · Borrados: 15
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -18,6 +18,7 @@ Propuestas: 0 · Vendidos: 12 · Borrados: 14
 | 2026-11-06 | Lic. Ulises Barba Gutiérrez | /ulises-barba/ | borrar | 4772442505 |
 | 2026-11-06 | Lic. Adrián Pérez González | /adrian-perez/ | borrar | 5538795606 |
 | 2026-11-06 | Despacho Abogados Sánchez | /abogados-sanchez/ | borrar | 5666250265 |
+| 2026-11-09 | Lic. Leticia | /lic-leticia/ | borrar | 5521108618 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Omar Israel Rosas V. | /omar-rosas/ | vendido | 5523075905 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
@@ -28,5 +29,4 @@ Propuestas: 0 · Vendidos: 12 · Borrados: 14
 | 2026-11-08 | SV Jurídicos | /sv-juridicos/ | vendido | https://www.facebook.com/profile.php?id=61587860827230 |
 | 2026-11-09 | F&B Abogados Penalistas | /fb-abogados-penalistas/ | vendido | https://www.facebook.com/profile.php?id=61592410335867 |
 | 2026-11-09 | Forseti Lex Despacho Jurídico | /forseti-lex/ | vendido | https://www.facebook.com/share/1GmXf8n3Zb/ |
-| 2026-11-09 | Lic. Leticia | /lic-leticia/ | vendido | 5521108618 |
 | 2026-11-09 | Lic. Miguel Ángel Manzano Macías | /miguel-manzano/ | vendido | 3335940403 |
