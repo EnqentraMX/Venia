@@ -84,7 +84,7 @@ def cabeza(titulo, desc, ruta, robots="", extra=""):
 {robots}<link rel="canonical" href="{url}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="LicLink">
 <meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(desc)}">
-<meta property="og:url" content="{url}"><meta property="og:image" content="{URL_BASE}/assets/liclink-compartir.png">
+<meta property="og:url" content="{url}"><meta property="og:image" content="{URL_BASE}/assets/liclink-compartir.png?v={version('liclink-compartir.png')}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#faf6ef">
 <link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/assets/icono-192.png">
