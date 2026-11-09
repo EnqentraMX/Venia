@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 11 · Borrados: 14
+Propuestas: 0 · Vendidos: 12 · Borrados: 14
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -29,3 +29,4 @@ Propuestas: 0 · Vendidos: 11 · Borrados: 14
 | 2026-11-09 | F&B Abogados Penalistas | /fb-abogados-penalistas/ | vendido | https://www.facebook.com/profile.php?id=61592410335867 |
 | 2026-11-09 | Forseti Lex Despacho Jurídico | /forseti-lex/ | vendido | https://www.facebook.com/share/1GmXf8n3Zb/ |
 | 2026-11-09 | Lic. Leticia | /lic-leticia/ | vendido | 5521108618 |
+| 2026-11-09 | Lic. Miguel Ángel Manzano Macías | /miguel-manzano/ | vendido | 3335940403 |

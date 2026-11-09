@@ -333,11 +333,12 @@
  {
   "slug": "miguel-manzano",
   "nombre": "Lic. Miguel Ángel Manzano Macías",
-  "rol": "Abogado · Familiar, laboral y administrativo",
+  "rol": "Familiar, laboral y administrativo · Col. Americana",
   "ciudad": "guadalajara",
   "materias": [
    "familiar",
-   "laboral"
+   "laboral",
+   "amparo"
   ],
   "plan": "premium",
   "foto": "",
@@ -350,7 +351,7 @@
   "redes": {},
   "resena": "",
   "estado": "activo",
-  "alta": "2026-11-06",
+  "alta": "2026-11-09",
   "vence": "",
   "pago": "pendiente",
   "verificada_fecha": ""

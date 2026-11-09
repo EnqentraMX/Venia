@@ -284,3 +284,4 @@ h1,h2,h3,blockquote{font-family:var(--display);font-weight:800;letter-spacing:-.
 .comp-acc{display:grid;gap:10px;margin-top:18px}
 .comp-acc .btn{min-height:50px;font-size:16px}
 .comp-acc svg{width:20px;height:20px}
+:root[data-estilo="claro"] .retrato.mono{height:min(24vh,200px)} :root[data-estilo="claro"] .retrato.mono span{color:#d4b06a;font-size:96px;letter-spacing:-.04em}

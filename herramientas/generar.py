@@ -17,7 +17,7 @@ PLANTILLA = os.path.join(RAIZ, "plantilla", "index.html")
 PLANTILLA_V2 = os.path.join(RAIZ, "plantilla", "v2.html")
 PUBLICO = os.path.join(RAIZ, "public")
 URL_BASE = "https://liclink.com.mx"
-PROTEGIDOS = {"assets", "plantilla", "abogados", "para-abogados", "aviso-de-privacidad", "terminos", "castillo-abogados", "miguel-manzano", "dalia-marquez"}
+PROTEGIDOS = {"assets", "plantilla", "abogados", "para-abogados", "aviso-de-privacidad", "terminos", "castillo-abogados", "dalia-marquez"}
 
 # ---------------------------------------------------------------- catálogo de áreas
 AREAS = {
