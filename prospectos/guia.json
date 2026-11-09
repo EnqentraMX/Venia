@@ -280,7 +280,7 @@
    "amparo",
    "fiscal"
   ],
-  "plan": "basico",
+  "plan": "premium",
   "foto": "/forseti-lex/logo.jpg",
   "logo": true,
   "iniciales": "FL",
@@ -288,10 +288,16 @@
   "telefono": "6251046138",
   "verificada": false,
   "estado": "activo",
-  "alta": "2026-11-06",
+  "alta": "2026-11-09",
   "vence": "",
   "pago": "pendiente",
-  "verificada_fecha": ""
+  "verificada_fecha": "",
+  "pagina": "/forseti-lex/",
+  "redes": {
+   "facebook": "https://www.facebook.com/share/1GmXf8n3Zb/",
+   "instagram": "https://www.instagram.com/forsetilex"
+  },
+  "fondo": "#0b0b0b"
  },
  {
   "slug": "miguel-manzano",

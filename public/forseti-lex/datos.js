@@ -1,7 +1,7 @@
 /* LicLink · datos generados desde prospectos/abogados.json. Para cambiar algo, edita ese archivo y vuelve a generar. */
 window.DATOS = {
   "vistaPrevia": false,
-  "propuesta": "Forseti Lex Despacho Jurídico",
+  "propuesta": "",
   "muestra": false,
   "estilo": "claro",
   "simbolo": "balanza",
@@ -148,8 +148,8 @@ window.DATOS = {
     }
   ],
   "redes": {
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/share/1GmXf8n3Zb/",
+    "instagram": "https://www.instagram.com/forsetilex",
     "tiktok": "",
     "youtube": "",
     "linkedin": ""
