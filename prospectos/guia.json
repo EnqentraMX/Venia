@@ -343,5 +343,39 @@
   "alta": "2026-11-09",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "servicio-juridico-sp",
+  "nombre": "Servicio Jurídico SP",
+  "rol": "Despacho jurídico integral · Penal, familiar, civil, mercantil, amparo y más · Mérida (Itzimná)",
+  "ciudad": "yucatan",
+  "materias": [
+   "penal",
+   "familiar",
+   "civil",
+   "mercantil",
+   "amparo",
+   "laboral",
+   "fiscal",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/servicio-juridico-sp/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "SP",
+  "whatsapp": "529992226931",
+  "telefono": "9992226931",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/servicio-juridico-sp/",
+  "redes": {
+   "instagram": "https://www.instagram.com/abogados.juridicosp/"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-09",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 10 · Borrados: 17
+Propuestas: 0 · Vendidos: 11 · Borrados: 17
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -31,3 +31,4 @@ Propuestas: 0 · Vendidos: 10 · Borrados: 17
 | 2026-11-09 | Forseti Lex Despacho Jurídico | /forseti-lex/ | vendido | https://www.facebook.com/share/1GmXf8n3Zb/ |
 | 2026-11-09 | Lic. Miguel Ángel Manzano Macías | /miguel-manzano/ | vendido | 3335940403 |
 | 2026-11-09 | Lic. Yulieth Alejandra | /yulieth-alejandra/ | vendido | https://www.facebook.com/abogada.yuliethalejandra/ |
+| 2026-11-09 | Servicio Jurídico SP | /servicio-juridico-sp/ | vendido | 9992226931 |

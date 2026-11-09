@@ -3083,5 +3083,145 @@
     "plan": "premium",
     "alta": "2026-11-09",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "servicio-juridico-sp",
+    "nombre": "Servicio Jurídico SP",
+    "despacho": "Servicio Jurídico SP",
+    "sufijo": "Despacho Jurídico",
+    "despacho_largo": "Servicio Jurídico SP | Despacho Jurídico en Mérida",
+    "titulo": "Asesoría y representación jurídica integral",
+    "iniciales": "SP",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9992226931",
+    "correo": "abogados.juridicosp@gmail.com",
+    "instagram": "https://www.instagram.com/abogados.juridicosp/",
+    "direccion": "Calle 28 No. 87 x 11 y 13, Col. Itzimná, Mérida, Yucatán",
+    "referencia": "Atención previa cita. Escríbenos por WhatsApp para agendar.",
+    "descripcion": "Despacho jurídico en Mérida, Yucatán: penal, civil, familiar, mercantil, amparo, laboral, fiscal, notarial y corporativo.",
+    "modalidad": "Atención previa cita",
+    "portada": [
+      "Transformamos",
+      "problemas legales",
+      "en soluciones."
+    ],
+    "texto_portada": "Asesoría y representación jurídica integral en Mérida. Defendemos tus derechos con ética, compromiso y resultados.",
+    "frase": "Defendemos tus derechos con ética, compromiso y resultados.",
+    "compromisos": [
+      "Ética profesional",
+      "Compromiso con tu caso",
+      "Resultados",
+      "Atención personalizada"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o me están acusando de un delito",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito divorcio, pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron o no me pagaron lo que me corresponde",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato, cobrar una deuda o resolver un problema con mi empresa",
+        "urgente": false
+      },
+      {
+        "texto": "Una autoridad violó mis derechos o tengo un problema con el SAT",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa firme y estratégica cuando más lo necesitas.",
+        "puntos": [
+          "Defensa penal",
+          "Denuncias y querellas",
+          "Asesoría a víctimas",
+          "Audiencias"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda, custodia y convivencias",
+          "Reconocimiento de paternidad"
+        ]
+      },
+      {
+        "nombre": "Civil y contratos",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio y tus acuerdos.",
+        "puntos": [
+          "Contratos y convenios",
+          "Arrendamientos",
+          "Juicios civiles",
+          "Propiedades"
+        ]
+      },
+      {
+        "nombre": "Mercantil y corporativo",
+        "icono": "maletin",
+        "texto": "Soluciones legales para tu negocio.",
+        "puntos": [
+          "Cobro de pagarés y deudas",
+          "Constitución de empresas",
+          "Asesoría corporativa",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Amparo",
+        "icono": "balanza",
+        "texto": "Defensa contra actos de autoridad que violan tus derechos.",
+        "puntos": [
+          "Amparo directo e indirecto",
+          "Suspensiones",
+          "Amparo en todas las materias"
+        ]
+      },
+      {
+        "nombre": "Laboral y fiscal",
+        "icono": "acuerdo",
+        "texto": "Defendemos lo que te corresponde frente a patrones y autoridades.",
+        "puntos": [
+          "Despidos y liquidaciones",
+          "Prestaciones laborales",
+          "Defensa ante el SAT",
+          "Asesoría fiscal"
+        ]
+      },
+      {
+        "nombre": "Servicios notariales",
+        "icono": "edificio",
+        "texto": "Te orientamos paso a paso en tus trámites.",
+        "puntos": [
+          "Testamentos",
+          "Sucesiones y herencias",
+          "Poderes",
+          "Asesoría legal general"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-09",
+    "fuente": "Facebook"
   }
 ]
