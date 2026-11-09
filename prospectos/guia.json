@@ -1,8 +1,8 @@
 [
  {
   "slug": "lic-leticia",
-  "nombre": "Lic. Leticia · Abogada",
-  "rol": "Familiar, laboral, civil, mercantil y penal · Primera consulta gratis",
+  "nombre": "Aliadas Derecho de Familia",
+  "rol": "Lic. Leticia · Familiar, defensa de la mujer, penal y laboral · Primera consulta gratis",
   "ciudad": "cdmx",
   "otras_ciudades": [
    "edomex"
@@ -16,9 +16,9 @@
    "penal"
   ],
   "plan": "premium",
-  "foto": "/lic-leticia/portada.jpg",
+  "foto": "/lic-leticia/logo.jpg",
   "logo": true,
-  "fondo": "#f6f1e8",
+  "fondo": "#f6e8e4",
   "iniciales": "L",
   "whatsapp": "525521108618",
   "telefono": "5521108618",

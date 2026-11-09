@@ -5,31 +5,31 @@ window.DATOS = {
   "muestra": false,
   "estilo": "claro",
   "simbolo": "balanza",
-  "despacho": "Lic. Leticia",
-  "sufijo": "Abogada",
+  "despacho": "Aliadas",
+  "sufijo": "Derecho de familia",
   "abogado": "Lic. Leticia",
-  "titulo": "Abogada · Familiar, laboral, civil, mercantil y penal",
-  "descripcion": "Abogada en materia familiar, laboral, civil, mercantil y penal en CDMX y Estado de México",
+  "titulo": "Abogadas en defensa de tus derechos",
+  "descripcion": "Abogadas en derecho familiar, defensa de la mujer, penal, civil y laboral en CDMX y Estado de México",
   "cedula": "",
   "modalidad": "Primera consulta gratis",
   "iniciales": "L",
-  "foto": "portada.jpg",
+  "foto": "logo.jpg",
   "fotoLogo": true,
-  "fondoLogo": "#fbf8f3",
+  "fondoLogo": "#f6e8e4",
   "equipo": [],
   "telefonos": [],
   "guia": {
     "url": "/abogados/cdmx/",
     "nombre": "Ciudad de México"
   },
-  "frase": "Tu tranquilidad, nuestra prioridad. Tu caso en buenas manos.",
+  "frase": "Tu tranquilidad también es justicia. Tu caso en buenas manos.",
   "portada": {
     "titulo": [
-      "Tu tranquilidad",
-      "también es",
-      "justicia."
+      "Tu aliada legal.",
+      "¡Nosotras",
+      "te apoyamos!"
     ],
-    "texto": "Divorcios, pensiones, custodia, herencias, despidos, contratos, cobro de pagarés y defensa penal en CDMX y Estado de México. Primera consulta gratis. Déjanos un WhatsApp para agendar y revisar tu caso."
+    "texto": "Abogadas en defensa de tus derechos: divorcios, pensiones, custodia y visitas, herencias, violencia de género, asuntos penales, civiles, mercantiles y laborales en CDMX y Estado de México. Primera consulta gratis."
   },
   "whatsapp": "525521108618",
   "telefono": "5521108618",
@@ -45,7 +45,19 @@ window.DATOS = {
         "Divorcios",
         "Pensiones alimenticias",
         "Custodia, guarda y custodia",
-        "Juicios intestados y testamentarios"
+        "Régimen de visitas y convivencia",
+        "Sucesiones y herencias: intestados y testamentarios"
+      ]
+    },
+    {
+      "nombre": "Defensa de la mujer",
+      "icono": "escudo",
+      "texto": "Abogadas que te escuchan y defienden tus derechos.",
+      "puntos": [
+        "Violencia de género",
+        "Órdenes de protección",
+        "Acompañamiento para denunciar",
+        "Representación ante tu agresor"
       ]
     },
     {
@@ -83,11 +95,15 @@ window.DATOS = {
   "paquetes": [],
   "compromisos": [
     "Primera consulta gratis",
+    "Asesoría jurídica y defensa de la mujer",
     "Atención personalizada y confidencial",
-    "Atención las 24 horas",
-    "Compromiso y honestidad"
+    "Atención las 24 horas"
   ],
   "situaciones": [
+    {
+      "texto": "Sufro violencia de mi pareja, expareja o un familiar",
+      "urgente": true
+    },
     {
       "texto": "Detuvieron a un familiar o fui víctima de un delito",
       "urgente": true

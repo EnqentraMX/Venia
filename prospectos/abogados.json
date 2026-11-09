@@ -2607,20 +2607,20 @@
   {
     "slug": "lic-leticia",
     "nombre": "Lic. Leticia",
-    "despacho": "Lic. Leticia",
-    "sufijo": "Abogada",
-    "despacho_largo": "Lic. Leticia · Abogada",
-    "titulo": "Abogada · Familiar, laboral, civil, mercantil y penal",
+    "despacho": "Aliadas",
+    "sufijo": "Derecho de familia",
+    "despacho_largo": "Aliadas Derecho de Familia · Lic. Leticia",
+    "titulo": "Abogadas en defensa de tus derechos",
     "iniciales": "L",
-    "foto": "portada.jpg",
+    "foto": "logo.jpg",
     "logo": true,
-    "imagen_vista": "vista.jpg",
-    "fondo_logo": "#fbf8f3",
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#f6e8e4",
     "plantilla": "v2",
     "estilo": "claro",
     "ciudad": "CDMX y Estado de México",
     "telefono": "5521108618",
-    "descripcion": "Abogada en materia familiar, laboral, civil, mercantil y penal en CDMX y Estado de México",
+    "descripcion": "Abogadas en derecho familiar, defensa de la mujer, penal, civil y laboral en CDMX y Estado de México",
     "modalidad": "Primera consulta gratis",
     "horario": {
       "lunes": [
@@ -2654,19 +2654,23 @@
     },
     "nota_horario": "Atención las 24 horas. Escríbenos por WhatsApp para agendar tu consulta.",
     "portada": [
-      "Tu tranquilidad",
-      "también es",
-      "justicia."
+      "Tu aliada legal.",
+      "¡Nosotras",
+      "te apoyamos!"
     ],
-    "texto_portada": "Divorcios, pensiones, custodia, herencias, despidos, contratos, cobro de pagarés y defensa penal en CDMX y Estado de México. Primera consulta gratis. Déjanos un WhatsApp para agendar y revisar tu caso.",
-    "frase": "Tu tranquilidad, nuestra prioridad. Tu caso en buenas manos.",
+    "texto_portada": "Abogadas en defensa de tus derechos: divorcios, pensiones, custodia y visitas, herencias, violencia de género, asuntos penales, civiles, mercantiles y laborales en CDMX y Estado de México. Primera consulta gratis.",
+    "frase": "Tu tranquilidad también es justicia. Tu caso en buenas manos.",
     "compromisos": [
       "Primera consulta gratis",
+      "Asesoría jurídica y defensa de la mujer",
       "Atención personalizada y confidencial",
-      "Atención las 24 horas",
-      "Compromiso y honestidad"
+      "Atención las 24 horas"
     ],
     "situaciones": [
+      {
+        "texto": "Sufro violencia de mi pareja, expareja o un familiar",
+        "urgente": true
+      },
       {
         "texto": "Detuvieron a un familiar o fui víctima de un delito",
         "urgente": true
@@ -2697,7 +2701,19 @@
           "Divorcios",
           "Pensiones alimenticias",
           "Custodia, guarda y custodia",
-          "Juicios intestados y testamentarios"
+          "Régimen de visitas y convivencia",
+          "Sucesiones y herencias: intestados y testamentarios"
+        ]
+      },
+      {
+        "nombre": "Defensa de la mujer",
+        "icono": "escudo",
+        "texto": "Abogadas que te escuchan y defienden tus derechos.",
+        "puntos": [
+          "Violencia de género",
+          "Órdenes de protección",
+          "Acompañamiento para denunciar",
+          "Representación ante tu agresor"
         ]
       },
       {
