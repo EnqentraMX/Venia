@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 10 · Borrados: 15
+Propuestas: 0 · Vendidos: 11 · Borrados: 14
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -13,7 +13,6 @@ Propuestas: 0 · Vendidos: 10 · Borrados: 15
 | 2026-10-31 | Lic. Mayra Gallardo | /gallardo-asociados/ | borrar | https://www.facebook.com/mayra.gallardo.3154/ |
 | 2026-11-01 | Guillén & Asociados Abogados | /guillen-asociados/ | borrar | https://www.facebook.com/arturo.guillen.7902564/ |
 | 2026-11-01 | Lic. Julio Alberto Ibarra Pérez | /estudio-juridico-ibarra/ | borrar | 3322207121 |
-| 2026-11-03 | F&B Abogados Penalistas | /fb-abogados-penalistas/ | borrar | https://www.facebook.com/profile.php?id=61592410335867 |
 | 2026-11-05 | Nicard Abogados | /nicard-abogados/ | borrar | https://www.facebook.com/profile.php?id=61579720780037 |
 | 2026-11-06 | Lic. Israel Daniel López Sánchez | /israel-lopez-sanchez/ | borrar | 5550423909 |
 | 2026-11-06 | Lic. Ulises Barba Gutiérrez | /ulises-barba/ | borrar | 4772442505 |
@@ -27,5 +26,6 @@ Propuestas: 0 · Vendidos: 10 · Borrados: 15
 | 2026-11-07 | Abogado Víctor Salmerón | /salmeron-asociados/ | vendido | 3317875547 |
 | 2026-11-08 | Lic. Miguel Pérez Tamayo | /miguel-perez/ | vendido | 9812092410 |
 | 2026-11-08 | SV Jurídicos | /sv-juridicos/ | vendido | https://www.facebook.com/profile.php?id=61587860827230 |
+| 2026-11-09 | F&B Abogados Penalistas | /fb-abogados-penalistas/ | vendido | https://www.facebook.com/profile.php?id=61592410335867 |
 | 2026-11-09 | Forseti Lex Despacho Jurídico | /forseti-lex/ | vendido | https://www.facebook.com/share/1GmXf8n3Zb/ |
 | 2026-11-09 | Lic. Leticia | /lic-leticia/ | vendido | 5521108618 |

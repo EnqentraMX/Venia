@@ -825,8 +825,7 @@
     "compromisos": [
       "Atendemos desde las primeras actuaciones ante la Fiscalía",
       "Te explicamos cada escenario con claridad",
-      "Estado de México y CDMX",
-      "WhatsApp también: 55 1335 5023"
+      "Estado de México y CDMX"
     ],
     "areas": [
       {
@@ -908,9 +907,19 @@
       }
     ],
     "fuente": "Facebook, 2026-11-03",
-    "estado": "borrar",
-    "alta": "2026-11-03",
-    "imagen_vista": "logo.jpg"
+    "estado": "vendido",
+    "alta": "2026-11-09",
+    "imagen_vista": "logo.jpg",
+    "plan": "premium",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "despacho_largo": "F&B Abogados Penalistas",
+    "telefonos_extra": [
+      {
+        "numero": "5513355023",
+        "whatsapp": true
+      }
+    ]
   },
   {
     "slug": "abogados-de-oriente",

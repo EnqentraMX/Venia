@@ -1,5 +1,36 @@
 [
  {
+  "slug": "fb-abogados-penalistas",
+  "nombre": "F&B Abogados Penalistas",
+  "rol": "Defensa penal estratégica · Cuautitlán",
+  "ciudad": "edomex",
+  "otras_ciudades": [
+   "cdmx"
+  ],
+  "materias": [
+   "penal",
+   "amparo",
+   "familiar"
+  ],
+  "plan": "premium",
+  "foto": "/fb-abogados-penalistas/logo.jpg",
+  "logo": true,
+  "iniciales": "FB",
+  "whatsapp": "525548499539",
+  "telefono": "5548499539",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/fb-abogados-penalistas/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61592410335867"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-09",
+  "vence": "",
+  "pago": "pendiente"
+ },
+ {
   "slug": "lic-leticia",
   "nombre": "Aliadas Derecho de Familia",
   "rol": "Lic. Leticia · Familiar, defensa de la mujer, penal y laboral · Primera consulta gratis",
