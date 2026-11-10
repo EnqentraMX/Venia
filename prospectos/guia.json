@@ -612,5 +612,33 @@
   "alta": "2026-11-10",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "gabriela-lizzet",
+  "nombre": "Lic. Gabriela Lizzet",
+  "rol": "Tu abogada familiar · Divorcios, pensión, custodia y sucesiones · Mérida",
+  "ciudad": "yucatan",
+  "materias": [
+   "familiar",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/gabriela-lizzet/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "GE",
+  "whatsapp": "529992198821",
+  "telefono": "9992198821",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/gabriela-lizzet/",
+  "redes": {
+   "facebook": "https://www.facebook.com/Abogadalizzet"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-10",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
