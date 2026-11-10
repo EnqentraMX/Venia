@@ -467,5 +467,36 @@
   "alta": "2026-11-10",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "ortiz-rubio-legal",
+  "nombre": "Ortiz Rubio Legal",
+  "rol": "Abogados de lo familiar · Divorcio express, pensión y custodia · CDMX y Cuernavaca",
+  "ciudad": "cdmx",
+  "otras_ciudades": [
+   "edomex"
+  ],
+  "materias": [
+   "familiar"
+  ],
+  "plan": "premium",
+  "foto": "/ortiz-rubio-legal/foto.jpg",
+  "logo": false,
+  "fondo": "",
+  "iniciales": "OR",
+  "whatsapp": "525542019327",
+  "telefono": "5542019327",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/ortiz-rubio-legal/",
+  "redes": {
+   "facebook": "https://www.facebook.com/OrtizRubioLegal/",
+   "instagram": "https://www.instagram.com/ortizrubiolegal/"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-10",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

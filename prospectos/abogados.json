@@ -3600,5 +3600,129 @@
     "plan": "premium",
     "alta": "2026-11-10",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "ortiz-rubio-legal",
+    "nombre": "Ortiz Rubio Legal",
+    "despacho": "Ortiz Rubio",
+    "sufijo": "Legal",
+    "despacho_largo": "Ortiz Rubio Legal | Abogados de lo familiar en CDMX",
+    "titulo": "Abogados de lo familiar expertos en divorcios",
+    "iniciales": "OR",
+    "foto": "foto.jpg",
+    "logo": false,
+    "imagen_vista": "foto.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad de México",
+    "telefono": "5542019327",
+    "telefonos_extra": [
+      {
+        "numero": "5549830259",
+        "whatsapp": false
+      },
+      {
+        "numero": "5550014867",
+        "whatsapp": false
+      }
+    ],
+    "facebook": "https://www.facebook.com/OrtizRubioLegal/",
+    "instagram": "https://www.instagram.com/ortizrubiolegal/",
+    "direccion": "Av. Insurgentes Sur No. 2047, Edificio \"B\", Col. San Ángel, C.P. 01000, Ciudad de México",
+    "referencia": "También en Cuernavaca: Av. de los 50 mts. No. 100, Torre III-803, Col. Villas Deportivas, C.P. 62450, Cuernavaca, Morelos.",
+    "descripcion": "Despacho de abogados especializado en derecho familiar y divorcio express en la CDMX. Atiende a familias de la Ciudad de México, el Estado de México y Cuernavaca.",
+    "modalidad": "Oficinas en CDMX y Cuernavaca",
+    "portada": [
+      "Abogados de lo familiar",
+      "expertos en",
+      "divorcios."
+    ],
+    "texto_portada": "Divorcio express, pensión alimenticia, guarda y custodia, régimen de visitas y patria potestad. Atendemos a familias de la CDMX, el Estado de México y Cuernavaca.",
+    "frase": "Nos mantenemos actualizados para ofrecerte la mejor asesoría.",
+    "compromisos": [
+      "Especialistas en derecho familiar",
+      "Asesoría actualizada",
+      "Oficinas en CDMX y Cuernavaca",
+      "Atención a familias"
+    ],
+    "situaciones": [
+      {
+        "texto": "Quiero divorciarme rápido y sin tener que dar motivos",
+        "urgente": false
+      },
+      {
+        "texto": "El padre o la madre de mis hijos no da pensión alimenticia",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito la guarda y custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "No me dejan ver a mis hijos o necesito un régimen de visitas",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito corregir un acta o arreglar mi régimen matrimonial",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Divorcio express",
+        "icono": "familia",
+        "texto": "Divórciate sin tener que dar motivos ante el juez.",
+        "puntos": [
+          "Divorcio express",
+          "Cambio de sociedad conyugal a separación de bienes",
+          "Concubinato"
+        ]
+      },
+      {
+        "nombre": "Pensión alimenticia",
+        "icono": "balanza",
+        "texto": "Lo que tus hijos necesitan: ropa, comida, casa y atención médica.",
+        "puntos": [
+          "Solicitud de pensión",
+          "Gastos de embarazo",
+          "Atención médica y hospitalaria"
+        ]
+      },
+      {
+        "nombre": "Patria potestad",
+        "icono": "escudo",
+        "texto": "El derecho a formar, proteger y representar a tus hijos.",
+        "puntos": [
+          "Patria potestad",
+          "Representación de menores",
+          "Administración de bienes del menor"
+        ]
+      },
+      {
+        "nombre": "Guarda y custodia",
+        "icono": "acuerdo",
+        "texto": "El cuidado y la protección de tus hijos.",
+        "puntos": [
+          "Guarda y custodia",
+          "Régimen de visitas",
+          "Casos con violencia de uno de los padres"
+        ]
+      },
+      {
+        "nombre": "Otros trámites familiares",
+        "icono": "documento",
+        "texto": "Te orientamos en otros asuntos de familia.",
+        "puntos": [
+          "Rectificación de actas",
+          "Concubinato",
+          "Otros servicios legales"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-10",
+    "fuente": "Página web"
   }
 ]

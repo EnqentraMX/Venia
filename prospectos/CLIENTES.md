@@ -14,6 +14,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Lic. Miguel Ángel Manzano Macías | premium | Guadalajara | 2026-11-09 | — | pendiente | activo | no |
 | Miguel Pérez | Abogado | premium | Yucatán | 2026-11-08 | — | pendiente | activo | no |
 | Morningstar Legal Strategy | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
+| Ortiz Rubio Legal | premium | Ciudad de México | 2026-11-10 | — | pendiente | activo | no |
 | Roger Piña & Asociados | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | Salmerón & Asociados Jurista | premium | Guadalajara | 2026-11-07 | — | pendiente | activo | no |
 | Servicio Jurídico SP | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
