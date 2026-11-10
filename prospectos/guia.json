@@ -498,5 +498,32 @@
   "alta": "2026-11-10",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "yolanda-cruz",
+  "nombre": "Lic. Yolanda Cruz Pérez",
+  "rol": "Abogada · Maestría en Juicios Orales · Civil, mercantil y familiar · Mérida",
+  "ciudad": "yucatan",
+  "materias": [
+   "familiar",
+   "civil",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/yolanda-cruz/foto.jpg",
+  "logo": false,
+  "fondo": "",
+  "iniciales": "YC",
+  "whatsapp": "529991582993",
+  "telefono": "9991582993",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/yolanda-cruz/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-10",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

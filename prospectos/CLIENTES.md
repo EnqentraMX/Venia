@@ -12,6 +12,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Firmeza Legal Palacios | premium | Querétaro | 2026-11-06 | — | pendiente | activo | no |
 | Forseti Lex Despacho Jurídico | premium | Chihuahua | 2026-11-09 | — | pendiente | activo | no |
 | Lic. Miguel Ángel Manzano Macías | premium | Guadalajara | 2026-11-09 | — | pendiente | activo | no |
+| Lic. Yolanda Cruz Pérez | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | Miguel Pérez | Abogado | premium | Yucatán | 2026-11-08 | — | pendiente | activo | no |
 | Morningstar Legal Strategy | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | Ortiz Rubio Legal | premium | Ciudad de México | 2026-11-10 | — | pendiente | activo | no |

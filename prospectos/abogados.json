@@ -3724,5 +3724,105 @@
     "plan": "premium",
     "alta": "2026-11-10",
     "fuente": "Página web"
+  },
+  {
+    "slug": "yolanda-cruz",
+    "nombre": "Lic. Yolanda Cruz Pérez",
+    "despacho": "Yolanda Cruz Pérez",
+    "sufijo": "Abogada",
+    "despacho_largo": "Abogada Yolanda Cruz Pérez | Civil, mercantil y familiar en Mérida",
+    "titulo": "Maestra en Juicios Orales y en Derecho Civil, Mercantil y Familiar",
+    "iniciales": "YC",
+    "foto": "foto.jpg",
+    "logo": false,
+    "imagen_vista": "foto.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9991582993",
+    "direccion": "Mérida, Yucatán, México",
+    "referencia": "Licenciada en Derecho con Maestría en Juicios Orales y Maestría en Derecho Civil, Mercantil y Familiar. Escríbeme por WhatsApp para agendar tu asesoría.",
+    "descripcion": "Abogada en Mérida, Yucatán. Licenciada en Derecho con Maestría en Juicios Orales y Maestría en Derecho Civil, Mercantil y Familiar.",
+    "modalidad": "Atención personalizada",
+    "portada": [
+      "Tu asunto legal,",
+      "en manos",
+      "preparadas."
+    ],
+    "texto_portada": "Licenciada en Derecho con Maestría en Juicios Orales y Maestría en Derecho Civil, Mercantil y Familiar. Te escucho, te explico tus opciones y te acompaño en tu proceso.",
+    "frase": "Preparación y experiencia al servicio de tu caso.",
+    "compromisos": [
+      "Maestría en Juicios Orales",
+      "Maestría en Civil, Mercantil y Familiar",
+      "Atención personalizada",
+      "Comunicación clara"
+    ],
+    "situaciones": [
+      {
+        "texto": "Necesito divorcio, pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un juicio y necesito quien me represente en audiencia",
+        "urgente": true
+      },
+      {
+        "texto": "Me deben dinero o tengo un pagaré sin pagar",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con un contrato, una propiedad o una herencia",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompaño en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Convivencias"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio y tus acuerdos.",
+        "puntos": [
+          "Contratos",
+          "Propiedades",
+          "Herencias",
+          "Juicios civiles"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "maletin",
+        "texto": "Soluciones legales para cobrar y proteger tu negocio.",
+        "puntos": [
+          "Cobro de pagarés y deudas",
+          "Contratos comerciales",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Juicios orales",
+        "icono": "balanza",
+        "texto": "Maestría en Juicios Orales: representación preparada en audiencia.",
+        "puntos": [
+          "Representación en audiencias",
+          "Estrategia de juicio",
+          "Seguimiento de tu caso"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-10",
+    "fuente": "Facebook"
   }
 ]
