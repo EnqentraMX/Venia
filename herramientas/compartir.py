@@ -5,7 +5,6 @@ import asyncio, base64, json, os, sys, html as H
 sys.path.insert(0, os.path.dirname(__file__))
 from generar import DATOS, PUBLICO, TEMAS, area
 
-FUENTES = "/home/claude/spot"  # tipografías locales (opcional)
 NEGRO_ORO = {"fondo": "#09080a", "tarjeta": "#16141a", "linea": "#2a2630", "acento": "#c8a46a", "acento2": "#e2c48f"}
 
 WA_SVG = '<svg viewBox="0 0 24 24" width="30" height="30" fill="#1f9d55"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4c-1-1.6-1.5-3.4-1.5-5.2C2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8z"/></svg>'
@@ -64,7 +63,7 @@ async def main(slugs):
     from playwright.async_api import async_playwright
     import pathlib
     src = open(os.path.join(os.path.dirname(__file__), "revisar_v2.py"), encoding="utf-8").read().split("async def main")[0]
-    ns = {}; exec(src, ns)
+    ns = {"__file__": os.path.join(os.path.dirname(os.path.abspath(__file__)), "revisar_v2.py")}; exec(src, ns)
     async def rutas(pg):
         await pg.route("**://fonts.googleapis.com/**", lambda r: r.fulfill(status=200, content_type="text/css", body=ns["CSS"]))
         await pg.route("**://fonts.gstatic.com/**", lambda r: r.fulfill(status=200, content_type="font/woff2", body=pathlib.Path(ns["F"][r.request.url.rsplit("/", 1)[-1].split(".")[0]]).read_bytes(), headers={"Access-Control-Allow-Origin": "*"}))

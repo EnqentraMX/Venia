@@ -2,7 +2,7 @@ import asyncio, sys
 sys.path.insert(0, "/home/claude/spot")
 from common import setup_routes
 from playwright.async_api import async_playwright
-OUT="/tmp/claude-0/-home-claude/f0659219-5364-5d6e-9693-f46b78a72ea8/scratchpad/r_"
+OUT="capturas/r_"
 async def main(slugs):
     async with async_playwright() as p:
         b=await p.chromium.launch(); errs=[]
