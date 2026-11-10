@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 18 · Borrados: 17
+Propuestas: 0 · Vendidos: 17 · Borrados: 18
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -21,6 +21,7 @@ Propuestas: 0 · Vendidos: 18 · Borrados: 17
 | 2026-11-06 | Despacho Abogados Sánchez | /abogados-sanchez/ | borrar | 5666250265 |
 | 2026-11-08 | SV Jurídicos | /sv-juridicos/ | borrar | https://www.facebook.com/profile.php?id=61587860827230 |
 | 2026-11-09 | Lic. Leticia | /lic-leticia/ | borrar | 5521108618 |
+| 2026-11-10 | Lic. Yolanda Cruz Pérez | /yolanda-cruz/ | borrar | 9991582993 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
 | 2026-11-07 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | vendido | https://www.facebook.com/profile.php?id=61575816882807 |
@@ -36,6 +37,5 @@ Propuestas: 0 · Vendidos: 18 · Borrados: 17
 | 2026-11-09 | Roger Piña & Asociados | /rp-asociados/ | vendido | 9999947730 |
 | 2026-11-10 | CRA Corporativo | /cra-corporativo/ | vendido | https://www.facebook.com/CRAcorporativo/ |
 | 2026-11-10 | Ortiz Rubio Legal | /ortiz-rubio-legal/ | vendido | https://www.facebook.com/OrtizRubioLegal/ |
-| 2026-11-10 | Lic. Yolanda Cruz Pérez | /yolanda-cruz/ | vendido | 9991582993 |
 | 2026-11-10 | García Aguirre & Asociados | /garcia-aguirre/ | vendido | https://www.facebook.com/AbogadosGarciaAguirreyAsociados |
 | 2026-11-10 | Lic. Verónica Noemí | /psico-juridico-vn/ | vendido | https://www.facebook.com/profile.php?id=100094206581793 |
