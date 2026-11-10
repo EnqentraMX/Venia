@@ -3935,5 +3935,121 @@
     "plan": "premium",
     "alta": "2026-11-10",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "psico-juridico-vn",
+    "nombre": "Lic. Verónica Noemí",
+    "despacho": "Despacho Psico-Jurídico VN",
+    "sufijo": "Abogada y psicóloga",
+    "despacho_largo": "Despacho Psico-Jurídico VN | Abogada y psicóloga",
+    "titulo": "Asesoría legal y acompañamiento psicológico",
+    "iniciales": "VN",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad de México",
+    "telefono": "5615275662",
+    "correo": "despachopsicojuridicovn@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=100094206581793",
+    "direccion": "Asesoría presencial y en línea",
+    "referencia": "Tenemos agenda abierta. Escríbenos por WhatsApp para agendar tu asesoría presencial o en línea.",
+    "descripcion": "Despacho Psico-Jurídico VN: la Lic. Verónica Noemí, abogada y psicóloga, combina asesoría legal y acompañamiento psicológico para dar soluciones integrales en temas familiares. Asesoría presencial y en línea.",
+    "modalidad": "Presencial y en línea",
+    "portada": [
+      "Asesoría legal y",
+      "acompañamiento",
+      "psicológico."
+    ],
+    "texto_portada": "Combinamos asesoría legal y acompañamiento psicológico para darte soluciones integrales en temas familiares. Asesoría presencial y en línea, con agenda abierta.",
+    "frase": "Soluciones integrales: jurídicas y psicológicas.",
+    "compromisos": [
+      "Abogada y psicóloga",
+      "Atención integral",
+      "Presencial y en línea",
+      "Agenda abierta"
+    ],
+    "situaciones": [
+      {
+        "texto": "Vivo violencia familiar y necesito ayuda legal",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero divorciarme y no sé por dónde empezar",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito pensión alimenticia, guarda y custodia o régimen de visitas",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un juicio y necesito quien me represente",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito apoyo psicológico para mí, mi pareja o mis hijos",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcio",
+          "Pensiones alimenticias",
+          "Guarda y custodia",
+          "Régimen de visitas"
+        ]
+      },
+      {
+        "nombre": "Violencia familiar",
+        "icono": "escudo",
+        "texto": "Protección legal y acompañamiento para ti y tu familia.",
+        "puntos": [
+          "Asesoría en violencia familiar",
+          "Representación legal",
+          "Acompañamiento psicológico"
+        ]
+      },
+      {
+        "nombre": "Representación y juicios orales",
+        "icono": "balanza",
+        "texto": "Te representamos y asistimos en tu proceso.",
+        "puntos": [
+          "Representación y asistencia legal",
+          "Juicios orales",
+          "Asesoría jurídica",
+          "Materia familiar, civil y penal"
+        ]
+      },
+      {
+        "nombre": "Asesoría psicológica",
+        "icono": "acuerdo",
+        "texto": "Acompañamiento emocional y conductual.",
+        "puntos": [
+          "Terapia individual",
+          "Terapia de pareja",
+          "Terapia tanatológica",
+          "Terapia de lenguaje y aprendizaje"
+        ]
+      },
+      {
+        "nombre": "Conferencias y talleres",
+        "icono": "documento",
+        "texto": "Espacios para crecer y aprender.",
+        "puntos": [
+          "Conferencias",
+          "Talleres de desarrollo personal"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-10",
+    "fuente": "Facebook"
   }
 ]

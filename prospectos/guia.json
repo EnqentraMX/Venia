@@ -552,5 +552,34 @@
   "alta": "2026-11-10",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "psico-juridico-vn",
+  "nombre": "Despacho Psico-Jurídico VN",
+  "rol": "Abogada y psicóloga · Familiar, civil y penal · Presencial y en línea",
+  "ciudad": "cdmx",
+  "materias": [
+   "familiar",
+   "civil",
+   "penal"
+  ],
+  "plan": "premium",
+  "foto": "/psico-juridico-vn/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "VN",
+  "whatsapp": "525615275662",
+  "telefono": "5615275662",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/psico-juridico-vn/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=100094206581793"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-10",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
