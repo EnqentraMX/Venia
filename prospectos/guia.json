@@ -525,5 +525,32 @@
   "alta": "2026-11-10",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "garcia-aguirre",
+  "nombre": "García Aguirre & Asociados",
+  "rol": "Asesores legales · Derecho familiar · Tlalnepantla",
+  "ciudad": "edomex",
+  "materias": [
+   "familiar"
+  ],
+  "plan": "premium",
+  "foto": "/garcia-aguirre/logo.jpg",
+  "logo": true,
+  "fondo": "#d1d3cd",
+  "iniciales": "GA",
+  "whatsapp": "525524939392",
+  "telefono": "5524939392",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/garcia-aguirre/",
+  "redes": {
+   "facebook": "https://www.facebook.com/AbogadosGarciaAguirreyAsociados"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-10",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

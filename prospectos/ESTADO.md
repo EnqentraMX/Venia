@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 16 · Borrados: 17
+Propuestas: 0 · Vendidos: 17 · Borrados: 17
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -37,3 +37,4 @@ Propuestas: 0 · Vendidos: 16 · Borrados: 17
 | 2026-11-10 | CRA Corporativo | /cra-corporativo/ | vendido | https://www.facebook.com/CRAcorporativo/ |
 | 2026-11-10 | Ortiz Rubio Legal | /ortiz-rubio-legal/ | vendido | https://www.facebook.com/OrtizRubioLegal/ |
 | 2026-11-10 | Lic. Yolanda Cruz Pérez | /yolanda-cruz/ | vendido | 9991582993 |
+| 2026-11-10 | García Aguirre & Asociados | /garcia-aguirre/ | vendido | https://www.facebook.com/AbogadosGarciaAguirreyAsociados |

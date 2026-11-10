@@ -3824,5 +3824,116 @@
     "plan": "premium",
     "alta": "2026-11-10",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "garcia-aguirre",
+    "nombre": "García Aguirre & Asociados",
+    "despacho": "García Aguirre & Asociados",
+    "sufijo": "Asesores Legales",
+    "despacho_largo": "García Aguirre & Asociados | Abogados familiares en Tlalnepantla",
+    "titulo": "Especialistas en derecho familiar",
+    "iniciales": "GA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#d1d3cd",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Tlalnepantla, Estado de México",
+    "telefono": "5524939392",
+    "correo": "garciaaguirreyasoc@gmail.com",
+    "facebook": "https://www.facebook.com/AbogadosGarciaAguirreyAsociados",
+    "direccion": "Convento de Tepotzotlán esq. San Jerónimo, Valle de Santa Mónica, Tlalnepantla de Baz, Estado de México, C.P. 54740",
+    "referencia": "Escríbenos por WhatsApp para agendar tu asesoría.",
+    "descripcion": "Firma legal en Tlalnepantla, Estado de México, especializada en derecho familiar: divorcios, pensiones alimenticias, guarda y custodia, patria potestad, separación de bienes y reconocimiento de hijos.",
+    "modalidad": "Atención y seguimiento",
+    "portada": [
+      "Especialistas en",
+      "derecho",
+      "familiar."
+    ],
+    "texto_portada": "Firma legal especializada en brindar atención, asesoría y seguimiento a nuestros clientes en divorcios, pensiones, custodia y más.",
+    "frase": "Atención, asesoría y seguimiento en cada caso.",
+    "compromisos": [
+      "Atención cercana",
+      "Asesoría clara",
+      "Seguimiento de tu caso",
+      "Especialistas en familia"
+    ],
+    "situaciones": [
+      {
+        "texto": "El padre o la madre de mis hijos no da pensión alimenticia",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero divorciarme",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito la guarda y custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito que se reconozca a mi hijo o hija",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero cambiar a separación de bienes",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Divorcios",
+        "icono": "familia",
+        "texto": "Te acompañamos en cada paso de tu divorcio.",
+        "puntos": [
+          "Divorcio",
+          "Separación de bienes",
+          "Convenios"
+        ]
+      },
+      {
+        "nombre": "Pensiones alimenticias",
+        "icono": "balanza",
+        "texto": "Lo que tus hijos necesitan y les corresponde.",
+        "puntos": [
+          "Solicitud de pensión",
+          "Aumento o ajuste de pensión",
+          "Cobro de pensiones"
+        ]
+      },
+      {
+        "nombre": "Guarda y custodia",
+        "icono": "acuerdo",
+        "texto": "El cuidado y la protección de tus hijos.",
+        "puntos": [
+          "Guarda y custodia",
+          "Convivencias"
+        ]
+      },
+      {
+        "nombre": "Patria potestad",
+        "icono": "escudo",
+        "texto": "Defendemos tus derechos como madre o padre.",
+        "puntos": [
+          "Patria potestad",
+          "Representación de menores"
+        ]
+      },
+      {
+        "nombre": "Reconocimiento de hijos",
+        "icono": "documento",
+        "texto": "Que tu hijo tenga el apellido y los derechos que le corresponden.",
+        "puntos": [
+          "Reconocimiento de hijos",
+          "Juicio de paternidad"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-10",
+    "fuente": "Facebook"
   }
 ]
