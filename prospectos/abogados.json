@@ -4168,5 +4168,126 @@
     "plan": "premium",
     "alta": "2026-11-10",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "duo-jcc",
+    "nombre": "Dúo JCC",
+    "despacho": "Dúo JCC",
+    "sufijo": "Despacho Jurídico",
+    "despacho_largo": "Dúo JCC | Despacho jurídico y criminológico en Mérida",
+    "titulo": "Asesoría jurídica, criminológica y criminalística",
+    "iniciales": "JCC",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#012904",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9996055561",
+    "telefonos_extra": [
+      {
+        "numero": "5664068031",
+        "whatsapp": false
+      }
+    ],
+    "correo": "contacto@duojcc.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61580258867211",
+    "direccion": "Mérida, Yucatán",
+    "referencia": "Atención presencial. Escríbenos por WhatsApp para conocer nuestros costos y agendar tu sesión.",
+    "descripcion": "Dúo JCC: abogado con especialidad en mediación y licenciada en Criminología y Criminalística con diplomado en grafoscopía, documentoscopía y dactiloscopía. Asesoría en derecho familiar, penal, notarial y laboral, trámites administrativos y asesoría criminológica.",
+    "modalidad": "Atención presencial",
+    "portada": [
+      "Una llamada a tiempo",
+      "evita",
+      "un problema legal."
+    ],
+    "texto_portada": "Somos un dúo que brinda asistencia y asesoría jurídica, criminológica y criminalística. Una asesoría preventiva es tu mejor escudo financiero y patrimonial.",
+    "frase": "La asesoría preventiva es tu mejor escudo.",
+    "compromisos": [
+      "Asesoría preventiva",
+      "Claridad sobre tu situación",
+      "Estrategia antes de actuar",
+      "Atención presencial"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me están acusando de un delito o necesito presentar una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Voy a firmar un contrato y no quiero letras chicas que me perjudiquen",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito divorcio, pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un testamento, una herencia o un trámite notarial",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito revisar una firma, un documento o huellas",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Mediación"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Asistencia jurídica y criminológica en tu caso.",
+        "puntos": [
+          "Asesoría penal",
+          "Denuncias",
+          "Asesoría criminológica"
+        ]
+      },
+      {
+        "nombre": "Notarial y laboral",
+        "icono": "documento",
+        "texto": "Te orientamos para que no des un paso en falso.",
+        "puntos": [
+          "Testamentos y herencias",
+          "Revisión de contratos",
+          "Asesoría laboral"
+        ]
+      },
+      {
+        "nombre": "Criminalística",
+        "icono": "lupa",
+        "texto": "Licenciada en Criminología y Criminalística con diplomado especializado.",
+        "puntos": [
+          "Grafoscopía (firmas y escritura)",
+          "Documentoscopía",
+          "Dactiloscopía (huellas)"
+        ]
+      },
+      {
+        "nombre": "Mediación y trámites",
+        "icono": "acuerdo",
+        "texto": "Soluciones sin pleito y trámites sin complicaciones.",
+        "puntos": [
+          "Mediación",
+          "Trámites administrativos",
+          "Asesoría preventiva"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-10",
+    "fuente": "Facebook"
   }
 ]

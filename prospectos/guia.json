@@ -582,5 +582,35 @@
   "alta": "2026-11-10",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "duo-jcc",
+  "nombre": "Dúo JCC",
+  "rol": "Despacho jurídico y criminológico · Familiar, penal, notarial y laboral · Mérida",
+  "ciudad": "yucatan",
+  "materias": [
+   "familiar",
+   "penal",
+   "laboral",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/duo-jcc/logo.jpg",
+  "logo": true,
+  "fondo": "#012904",
+  "iniciales": "JCC",
+  "whatsapp": "529996055561",
+  "telefono": "9996055561",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/duo-jcc/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61580258867211"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-10",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
