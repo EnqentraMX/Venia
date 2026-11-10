@@ -53,7 +53,9 @@ Otros pedidos frecuentes:
 
 ## Textos que funcionan (él copia y pega)
 - **Mensaje de prospección** (el que sí vende, ~1 de cada 6): cercano, nada invasivo, que despierte curiosidad, **sin precio**. Idea central: *"Lic., ya no busque clientes. Nosotros lo hacemos por usted. Sea parte de LicLink…"*. Que diga que le conseguimos/atraemos clientes, pero sin prometer resultados garantizados.
-- **Texto de muestra** (cuando el abogado pide ver su espacio): breve, con emojis:
+- **Texto de muestra** — formato que él prefiere (nov 2026): cada punto en una frase completa y **personalizada con lo real de su perfil** (su estado/ciudad en la guía y en Google, "con su foto/logo, sus servicios, su horario…, sus N números" solo si es cierto). Ejemplo:
+  "⚖️ Aparece en la guía de abogados de Yucatán, donde la gente busca abogado por ciudad y por materia. / 📲 Sus clientes le escriben directo a su WhatsApp con un solo toque, sin intermediarios. / ⭐ Perfil Premium destacado, con su foto, sus servicios, su horario 24/7 y sus 3 números. / 🔎 Su perfil está hecho para aparecer en Google cuando alguien busca abogado en Mérida. / 📢 Nosotros promocionamos la guía para atraerle clientes. / 🖼️ Incluye su código QR para estados y redes." Cierre: "*Plan Premium: $399 de alta y luego solo $149 al mes.* Como socio fundador conserva ese precio mientras siga activo. Si le gusta, se lo dejo activo hoy mismo. Si quiere cambiar algo, dígame y lo ajustamos."
+- Formato anterior (más corto), con emojis:
   saludo + enlace → "Lo que gana con su espacio en LicLink":
   - ⚖️ aparece en la guía de su estado
   - 📲 clientes le escriben directo a su WhatsApp
