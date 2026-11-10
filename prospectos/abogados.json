@@ -3468,5 +3468,137 @@
     "plan": "premium",
     "alta": "2026-11-09",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "cra-corporativo",
+    "nombre": "CRA Corporativo",
+    "despacho": "CRA",
+    "sufijo": "Corporativo",
+    "despacho_largo": "CRA Corporativo | Firma jurídica en Mérida",
+    "titulo": "Soluciones jurídicas estratégicas",
+    "iniciales": "CRA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9834424919",
+    "correo": "contacto.cracorporativo@gmail.com",
+    "facebook": "https://www.facebook.com/CRAcorporativo/",
+    "direccion": "Prolongación Paseo de Montejo por 42 #308, Col. Campestre, Mérida, Yucatán, C.P. 97120",
+    "referencia": "Escríbenos por WhatsApp y agenda tu asesoría.",
+    "descripcion": "Firma en Mérida, Yucatán, especializada en derecho corporativo y mercantil. También atiende asuntos familiares, laborales, penales y civiles.",
+    "modalidad": "Asesoría con cita",
+    "portada": [
+      "Tu empresa puede",
+      "llegar",
+      "más lejos."
+    ],
+    "texto_portada": "Ayudamos a empresas, emprendedores e inversionistas a crear, proteger y fortalecer sus negocios con soluciones jurídicas estratégicas y un enfoque preventivo e integral.",
+    "frase": "Tu tranquilidad comienza con una buena asesoría jurídica.",
+    "compromisos": [
+      "Enfoque preventivo",
+      "Estrategias claras",
+      "Acompañamiento en tu proceso",
+      "Atención integral"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me están acusando de un delito o necesito orientación penal",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero crear mi empresa o proteger mi negocio",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un conflicto con un socio, cliente o proveedor",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron o no me pagaron mi finiquito o liquidación",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito divorcio, pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Alguien no cumplió un contrato o tengo un problema con mi patrimonio",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho corporativo",
+        "icono": "edificio",
+        "texto": "Creamos, protegemos y fortalecemos tu empresa.",
+        "puntos": [
+          "Constitución de empresas",
+          "Asesoría a empresarios e inversionistas",
+          "Prevención de riesgos legales",
+          "Acompañamiento integral"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "maletin",
+        "texto": "Soluciones jurídicas para tu negocio.",
+        "puntos": [
+          "Contratos comerciales",
+          "Conflictos entre socios",
+          "Cobranza y adeudos",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Régimen de convivencia"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "acuerdo",
+        "texto": "Defendemos lo que te corresponde.",
+        "puntos": [
+          "Despidos injustificados",
+          "Finiquitos",
+          "Liquidaciones",
+          "Conflictos laborales"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Orientación y defensa según las necesidades de tu caso.",
+        "puntos": [
+          "Orientación penal",
+          "Defensa jurídica"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tus acuerdos y tu patrimonio.",
+        "puntos": [
+          "Contratos",
+          "Controversias civiles",
+          "Incumplimiento de obligaciones",
+          "Conflictos patrimoniales"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-10",
+    "fuente": "Facebook"
   }
 ]

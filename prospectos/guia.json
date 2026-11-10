@@ -436,5 +436,36 @@
   "alta": "2026-11-09",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "cra-corporativo",
+  "nombre": "CRA Corporativo",
+  "rol": "Firma jurídica · Corporativo, mercantil, familiar, laboral, penal y civil · Mérida",
+  "ciudad": "yucatan",
+  "materias": [
+   "mercantil",
+   "familiar",
+   "laboral",
+   "penal",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/cra-corporativo/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "CRA",
+  "whatsapp": "529834424919",
+  "telefono": "9834424919",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/cra-corporativo/",
+  "redes": {
+   "facebook": "https://www.facebook.com/CRAcorporativo/"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-10",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

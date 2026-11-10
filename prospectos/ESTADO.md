@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 13 · Borrados: 17
+Propuestas: 0 · Vendidos: 14 · Borrados: 17
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -34,3 +34,4 @@ Propuestas: 0 · Vendidos: 13 · Borrados: 17
 | 2026-11-09 | Servicio Jurídico SP | /servicio-juridico-sp/ | vendido | 9992226931 |
 | 2026-11-09 | Morningstar Legal Strategy | /morningstar-legal-strategy/ | vendido | https://www.facebook.com/profile.php?id=61594390782641 |
 | 2026-11-09 | Roger Piña & Asociados | /rp-asociados/ | vendido | 9999947730 |
+| 2026-11-10 | CRA Corporativo | /cra-corporativo/ | vendido | https://www.facebook.com/CRAcorporativo/ |
