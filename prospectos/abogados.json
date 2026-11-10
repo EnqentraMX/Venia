@@ -3341,5 +3341,132 @@
     "plan": "premium",
     "alta": "2026-11-09",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "rp-asociados",
+    "nombre": "Roger Piña & Asociados",
+    "despacho": "Roger Piña & Asociados",
+    "sufijo": "Firma Legal",
+    "despacho_largo": "Roger Piña & Asociados | Firma Legal en Mérida",
+    "titulo": "Defensa jurídica estratégica en Mérida",
+    "iniciales": "RP",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9999947730",
+    "correo": "rogerandresph@gmail.com",
+    "direccion": "Mérida, Yucatán, C.P. 97246",
+    "referencia": "Atención con cita previa. Escríbenos por WhatsApp para agendar.",
+    "descripcion": "Firma legal en Mérida, Yucatán, especializada en derecho familiar, civil, penal y sucesorio. Representación estratégica y atención personalizada.",
+    "modalidad": "Cita previa",
+    "portada": [
+      "Defensa jurídica",
+      "estratégica.",
+      "Resultados con integridad."
+    ],
+    "texto_portada": "Firma legal especializada en derecho familiar, civil, penal y sucesorio. Representación estratégica, atención personalizada y soluciones jurídicas con excelencia profesional.",
+    "frase": "Defensa jurídica estratégica. Resultados con integridad.",
+    "compromisos": [
+      "Representación estratégica",
+      "Atención personalizada",
+      "Integridad",
+      "Excelencia profesional"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me están acusando de un delito o necesito presentar una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito divorcio, pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar y necesito arreglar la herencia",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con un contrato, una propiedad o una deuda",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero resolver un conflicto sin llegar a juicio",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda, custodia y convivencias",
+          "Reconocimiento de paternidad"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "edificio",
+        "texto": "Protege tu patrimonio con una estrategia sólida.",
+        "puntos": [
+          "Juicios civiles",
+          "Propiedades",
+          "Arrendamientos",
+          "Cobro de adeudos"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa firme y estratégica desde el primer momento.",
+        "puntos": [
+          "Defensa penal",
+          "Denuncias y querellas",
+          "Asesoría a víctimas",
+          "Audiencias"
+        ]
+      },
+      {
+        "nombre": "Juicios sucesorios",
+        "icono": "balanza",
+        "texto": "Te guiamos para resolver la herencia de tu familia.",
+        "puntos": [
+          "Juicios sucesorios",
+          "Testamentos",
+          "Herencias",
+          "Adjudicación de bienes"
+        ]
+      },
+      {
+        "nombre": "Contratos y convenios",
+        "icono": "documento",
+        "texto": "Acuerdos claros que te protegen.",
+        "puntos": [
+          "Elaboración de contratos",
+          "Revisión de contratos",
+          "Convenios"
+        ]
+      },
+      {
+        "nombre": "Solución de conflictos",
+        "icono": "acuerdo",
+        "texto": "Buscamos la mejor salida para tu caso, con o sin juicio.",
+        "puntos": [
+          "Negociación",
+          "Convenios entre las partes",
+          "Representación en juicio"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-09",
+    "fuente": "Facebook"
   }
 ]

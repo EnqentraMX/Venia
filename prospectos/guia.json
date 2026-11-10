@@ -408,5 +408,33 @@
   "alta": "2026-11-09",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "rp-asociados",
+  "nombre": "Roger Piña & Asociados",
+  "rol": "Firma legal · Familiar, civil, penal y sucesorio · Mérida",
+  "ciudad": "yucatan",
+  "materias": [
+   "familiar",
+   "civil",
+   "penal",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/rp-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "RP",
+  "whatsapp": "529999947730",
+  "telefono": "9999947730",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/rp-asociados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-09",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
