@@ -3223,5 +3223,123 @@
     "plan": "premium",
     "alta": "2026-11-09",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "morningstar-legal-strategy",
+    "nombre": "Morningstar Legal Strategy",
+    "despacho": "Morningstar",
+    "sufijo": "Legal Strategy",
+    "despacho_largo": "Morningstar Legal Strategy | Firma jurídica en Mérida",
+    "titulo": "Asesoría y representación legal estratégica",
+    "iniciales": "MS",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9992773138",
+    "facebook": "https://www.facebook.com/profile.php?id=61594390782641",
+    "direccion": "Mérida, Yucatán, México",
+    "referencia": "Atención a personas, empresas e instituciones. Escríbenos por WhatsApp para agendar tu asesoría.",
+    "descripcion": "Firma jurídica en Mérida, Yucatán: asesoría y representación legal estratégica en derecho familiar, civil, penal, mercantil y notarial para personas, empresas e instituciones.",
+    "modalidad": "Atención personalizada",
+    "portada": [
+      "El Derecho no solo se ejerce.",
+      "Se piensa",
+      "estratégicamente."
+    ],
+    "texto_portada": "Asesoría y representación legal estratégica para personas, empresas e instituciones. Cada asunto merece análisis, claridad y una estrategia adecuada a tu caso.",
+    "frase": "Escuchar, analizar, explicar y actuar.",
+    "compromisos": [
+      "Análisis jurídico",
+      "Estrategia",
+      "Atención personalizada",
+      "Comunicación clara"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me están acusando de un delito o necesito presentar una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito divorcio, pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con un contrato, una propiedad o una deuda",
+        "urgente": false
+      },
+      {
+        "texto": "Mi empresa necesita asesoría legal o tiene un conflicto mercantil",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un testamento, una herencia o un trámite notarial",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Analizamos tu situación familiar y te explicamos tus opciones con claridad.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda, custodia y convivencias",
+          "Reconocimiento de paternidad"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio y tus acuerdos con una estrategia sólida.",
+        "puntos": [
+          "Contratos y convenios",
+          "Arrendamientos",
+          "Propiedades",
+          "Juicios civiles"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa y asesoría estratégica desde el primer momento.",
+        "puntos": [
+          "Defensa penal",
+          "Denuncias y querellas",
+          "Asesoría a víctimas",
+          "Audiencias"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "maletin",
+        "texto": "Asesoría legal para empresas e instituciones.",
+        "puntos": [
+          "Cobro de pagarés y deudas",
+          "Contratos comerciales",
+          "Asesoría a empresas",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Notarial y legislativo",
+        "icono": "edificio",
+        "texto": "Te orientamos paso a paso en tus trámites.",
+        "puntos": [
+          "Testamentos",
+          "Sucesiones y herencias",
+          "Poderes",
+          "Asesoría legislativa a instituciones"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-09",
+    "fuente": "Facebook"
   }
 ]

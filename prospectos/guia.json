@@ -377,5 +377,36 @@
   "alta": "2026-11-09",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "morningstar-legal-strategy",
+  "nombre": "Morningstar Legal Strategy",
+  "rol": "Firma jurídica estratégica · Familiar, civil, penal, mercantil y notarial · Mérida",
+  "ciudad": "yucatan",
+  "materias": [
+   "familiar",
+   "civil",
+   "penal",
+   "mercantil",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/morningstar-legal-strategy/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "MS",
+  "whatsapp": "529992773138",
+  "telefono": "9992773138",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/morningstar-legal-strategy/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61594390782641"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-09",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
