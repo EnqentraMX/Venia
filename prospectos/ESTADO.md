@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 17 · Borrados: 18
+Propuestas: 0 · Vendidos: 18 · Borrados: 18
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -39,3 +39,4 @@ Propuestas: 0 · Vendidos: 17 · Borrados: 18
 | 2026-11-10 | Ortiz Rubio Legal | /ortiz-rubio-legal/ | vendido | https://www.facebook.com/OrtizRubioLegal/ |
 | 2026-11-10 | García Aguirre & Asociados | /garcia-aguirre/ | vendido | https://www.facebook.com/AbogadosGarciaAguirreyAsociados |
 | 2026-11-10 | Lic. Verónica Noemí | /psico-juridico-vn/ | vendido | https://www.facebook.com/profile.php?id=100094206581793 |
+| 2026-11-10 | Lic. Montserrat del Pino Roura | /montserrat-del-pino/ | vendido | 9998070213 |

@@ -554,5 +554,33 @@
   "alta": "2026-11-10",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "montserrat-del-pino",
+  "nombre": "Lic. Montserrat del Pino Roura",
+  "rol": "Asesoría y representación jurídica · Civil, familiar, penal y laboral · Mérida",
+  "ciudad": "yucatan",
+  "materias": [
+   "civil",
+   "familiar",
+   "penal",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/montserrat-del-pino/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "MP",
+  "whatsapp": "529998070213",
+  "telefono": "9998070213",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/montserrat-del-pino/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-10",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

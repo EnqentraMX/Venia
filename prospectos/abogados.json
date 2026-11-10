@@ -4051,5 +4051,122 @@
     "plan": "premium",
     "alta": "2026-11-10",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "montserrat-del-pino",
+    "nombre": "Lic. Montserrat del Pino Roura",
+    "despacho": "Montserrat del Pino Roura",
+    "sufijo": "Asesoría y representación jurídica",
+    "despacho_largo": "Montserrat del Pino Roura | Abogada en Mérida",
+    "titulo": "Asesoría y representación jurídica",
+    "iniciales": "MP",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9998070213",
+    "correo": "montserou24@gmail.com",
+    "direccion": "Mérida, Yucatán",
+    "referencia": "Atención personalizada y confidencial. Escríbeme por WhatsApp para agendar tu asesoría.",
+    "descripcion": "Abogada en Mérida, Yucatán: asesoría y representación jurídica en derecho civil, familiar, penal y laboral. Atención personalizada y confidencial.",
+    "modalidad": "Atención personalizada",
+    "portada": [
+      "Tu problema",
+      "es nuestra",
+      "prioridad."
+    ],
+    "texto_portada": "Te asesoramos, te representamos, te defendemos. Asesoría y representación jurídica en derecho civil, familiar, penal y laboral en Mérida.",
+    "frase": "Soluciones legales, resultados confiables.",
+    "compromisos": [
+      "Compromiso",
+      "Ética",
+      "Resultados",
+      "Atención personalizada y confidencial"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me están acusando de un delito o necesito presentar una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito divorcio, pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron o no me pagaron lo que me corresponde",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con un contrato, una propiedad o una deuda",
+        "urgente": false
+      },
+      {
+        "texto": "No sé qué hacer con mi problema legal y necesito orientación",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho civil",
+        "icono": "edificio",
+        "texto": "Protege tu patrimonio y tus acuerdos.",
+        "puntos": [
+          "Contratos",
+          "Propiedades",
+          "Arrendamientos",
+          "Juicios civiles"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Convivencias"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Te defendemos desde el primer momento.",
+        "puntos": [
+          "Defensa penal",
+          "Denuncias y querellas",
+          "Asesoría a víctimas",
+          "Audiencias"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Defendemos lo que te corresponde.",
+        "puntos": [
+          "Despidos",
+          "Finiquitos y liquidaciones",
+          "Prestaciones",
+          "Demandas laborales"
+        ]
+      },
+      {
+        "nombre": "Asesoría jurídica",
+        "icono": "documento",
+        "texto": "Te explicamos tus opciones con claridad.",
+        "puntos": [
+          "Orientación legal",
+          "Revisión de documentos",
+          "Representación jurídica"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-10",
+    "fuente": "Facebook"
   }
 ]
