@@ -44,6 +44,11 @@
    ```
    Para que se vea llamativa (como la de Morningstar) pasa SIEMPRE: `--etiqueta "NOMBRE · CIUDAD"`, un `--titulo` largo de 2–3 líneas con buena parte en `<em>` dorado (p. ej. "Defensa jurídica estratégica. <em>Resultados con integridad.</em>"), 4–6 `--chips` y un `--info "Ciudad<br>frase gancho"`. Si la foto real tiene fondo revuelto (letreros, salón), usa `--modo logo` para que salga en tarjeta con marco dorado.
    Sale en `estados/Estado-<Slug>.png` y comprueba el QR. Modo `foto` si tiene foto real, `logo` si no (automático según `"logo"`). Míralo antes de enviarlo con SendUserFile.
+7b. Flyer para su Facebook (1080×1350, crema, con su WhatsApp y QR):
+   ```
+   python3 herramientas/flyer.py <slug> --titulo "Frase <em>dorada.</em>" --servicios "A,B,C,D,E,F" --etiqueta "MÉRIDA · ATENCIÓN 24/7"
+   ```
+   Sale en `estados/Flyer-<Slug>.png`.
 8. Entrégale: el enlace `https://liclink.com.mx/<slug>/`, la imagen del estado y el **texto de muestra** (abajo).
 
 Otros pedidos frecuentes:
