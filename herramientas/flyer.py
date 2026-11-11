@@ -16,6 +16,7 @@ WA = '<svg viewBox="0 0 24 24" width="46" height="46" fill="#25d366"><path d="M1
 
 def tel(n):
     n = re.sub(r"\D", "", n)
+    if len(n) == 10 and n[:2] in ("55", "56", "33", "81"): return f"{n[:2]} {n[2:6]} {n[6:]}"
     return f"{n[:3]} {n[3:6]} {n[6:]}" if len(n) == 10 else n
 
 

@@ -49,6 +49,11 @@
    python3 herramientas/flyer.py <slug> --titulo "Frase <em>dorada.</em>" --servicios "A,B,C,D,E,F" --etiqueta "MÉRIDA · ATENCIÓN 24/7"
    ```
    Sale en `estados/Flyer-<Slug>.png`.
+7c. Flyer estilo despacho (oscuro/dorado, más impactante, el que prefiere él):
+   ```
+   python3 herramientas/flyer_despacho.py <slug> --titulo "¿Detuvieron a un familiar?" --dorado "Cada hora cuenta." --sub "..." --servicios "A,B,C,D"
+   ```
+   Título = dolor del cliente + frase dorada concreta. Sale en `estados/Flyer-Despacho-<Slug>.png`.
 8. Entrégale: el enlace `https://liclink.com.mx/<slug>/`, la imagen del estado y el **texto de muestra** (abajo).
 
 Otros pedidos frecuentes:
