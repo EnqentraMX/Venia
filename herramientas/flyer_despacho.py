@@ -21,7 +21,7 @@ def construir(a, titulo, dorado, sub, servicios, imagen):
     q = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_M, box_size=16, border=1); q.add_data(url); q.make(fit=True)
     buf = io.BytesIO(); q.make_image(fill_color="#0d0c0a", back_color="white").convert("RGB").save(buf, "PNG")
     qr = base64.b64encode(buf.getvalue()).decode()
-    fondo_logo = a.get("fondo_logo") or "#0b0b0b"
+    fondo_logo = a.get("fondo_logo") or "#000"
     logo_f = a.get("imagen_vista") or "logo.jpg"
     if imagen == "foto":
         fondo = f"background:#0d0c0a url(data:image/jpeg;base64,{E.b64(carpeta / a['foto'])}) center top/100% auto no-repeat"
