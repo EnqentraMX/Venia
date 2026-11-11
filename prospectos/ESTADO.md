@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 21 · Borrados: 18
+Propuestas: 0 · Vendidos: 22 · Borrados: 17
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -19,7 +19,6 @@ Propuestas: 0 · Vendidos: 21 · Borrados: 18
 | 2026-11-06 | Lic. Adrián Pérez González | /adrian-perez/ | borrar | 5538795606 |
 | 2026-11-06 | Lic. Omar Israel Rosas V. | /omar-rosas/ | borrar | 5523075905 |
 | 2026-11-06 | Despacho Abogados Sánchez | /abogados-sanchez/ | borrar | 5666250265 |
-| 2026-11-08 | SV Jurídicos | /sv-juridicos/ | borrar | https://www.facebook.com/profile.php?id=61587860827230 |
 | 2026-11-09 | Lic. Leticia | /lic-leticia/ | borrar | 5521108618 |
 | 2026-11-10 | Lic. Yolanda Cruz Pérez | /yolanda-cruz/ | borrar | 9991582993 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
@@ -28,6 +27,7 @@ Propuestas: 0 · Vendidos: 21 · Borrados: 18
 | 2026-11-07 | Valeria Sanjuan | /servicios-legales-vs/ | vendido | https://www.facebook.com/profile.php?id=61594826649462 |
 | 2026-11-07 | Abogado Víctor Salmerón | /salmeron-asociados/ | vendido | 3317875547 |
 | 2026-11-08 | Lic. Miguel Pérez Tamayo | /miguel-perez/ | vendido | 9812092410 |
+| 2026-11-08 | SV Jurídicos | /sv-juridicos/ | vendido | https://www.facebook.com/profile.php?id=61587860827230 |
 | 2026-11-09 | F&B Abogados Penalistas | /fb-abogados-penalistas/ | vendido | https://www.facebook.com/profile.php?id=61592410335867 |
 | 2026-11-09 | Forseti Lex Despacho Jurídico | /forseti-lex/ | vendido | https://www.facebook.com/share/1GmXf8n3Zb/ |
 | 2026-11-09 | Lic. Miguel Ángel Manzano Macías | /miguel-manzano/ | vendido | 3335940403 |

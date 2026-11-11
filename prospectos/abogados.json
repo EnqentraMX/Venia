@@ -2610,9 +2610,10 @@
         "r": "Sí. Todo lo que nos compartas se trata con estricta confidencialidad."
       }
     ],
-    "estado": "borrar",
+    "estado": "vendido",
     "alta": "2026-11-08",
-    "fuente": "Facebook"
+    "fuente": "Facebook",
+    "plan": "premium"
   },
   {
     "slug": "lic-leticia",
