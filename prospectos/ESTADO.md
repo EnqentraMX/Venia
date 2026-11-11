@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 20 · Borrados: 18
+Propuestas: 0 · Vendidos: 21 · Borrados: 18
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -42,3 +42,4 @@ Propuestas: 0 · Vendidos: 20 · Borrados: 18
 | 2026-11-10 | Lic. Montserrat del Pino Roura | /montserrat-del-pino/ | vendido | 9998070213 |
 | 2026-11-10 | Dúo JCC | /duo-jcc/ | vendido | https://www.facebook.com/profile.php?id=61580258867211 |
 | 2026-11-10 | Lic. Gabriela Lizzet | /gabriela-lizzet/ | vendido | https://www.facebook.com/Abogadalizzet |
+| 2026-11-10 | Aguilar & Duarte | /aguilar-duarte/ | vendido | https://www.facebook.com/profile.php?id=100067952559439 |

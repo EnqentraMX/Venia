@@ -640,5 +640,38 @@
   "alta": "2026-11-10",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "aguilar-duarte",
+  "nombre": "Aguilar & Duarte",
+  "rol": "Consultoría jurídica empresarial · Inmobiliario, penal, mercantil y más · Mérida",
+  "ciudad": "yucatan",
+  "materias": [
+   "civil",
+   "penal",
+   "mercantil",
+   "familiar",
+   "laboral",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/aguilar-duarte/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "AD",
+  "whatsapp": "529992410372",
+  "telefono": "9992410372",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/aguilar-duarte/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=100067952559439",
+   "instagram": "https://www.instagram.com/aguilaryduartecje"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-10",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

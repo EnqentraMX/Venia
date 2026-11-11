@@ -4401,5 +4401,134 @@
     "plan": "premium",
     "alta": "2026-11-10",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "aguilar-duarte",
+    "nombre": "Aguilar & Duarte",
+    "despacho": "Aguilar & Duarte",
+    "sufijo": "Consultoría Jurídica Empresarial",
+    "despacho_largo": "Aguilar & Duarte | Consultoría jurídica empresarial en Mérida",
+    "titulo": "Consultoría jurídica empresarial",
+    "iniciales": "AD",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Mérida, Yucatán",
+    "telefono": "9992410372",
+    "telefonos_extra": [
+      {
+        "numero": "9999490304",
+        "whatsapp": false
+      }
+    ],
+    "facebook": "https://www.facebook.com/profile.php?id=100067952559439",
+    "instagram": "https://www.instagram.com/aguilaryduartecje",
+    "direccion": "Mérida, Yucatán",
+    "referencia": "Escríbenos por WhatsApp o llámanos para recibir la mejor opción legal para tu caso.",
+    "descripcion": "Aguilar & Duarte brinda consultoría jurídica empresarial con enfoque estratégico y personalizado en Mérida, Yucatán. Acompaña a emprendedores, empresarios y particulares en la prevención y solución de problemas legales.",
+    "modalidad": "Enfoque estratégico y personalizado",
+    "portada": [
+      "¡Tu propiedad",
+      "en las mejores",
+      "manos!"
+    ],
+    "texto_portada": "Si vas a rentar, comprar o donar una casa, no lo dejes al azar. Acompañamos a emprendedores, empresarios y particulares en la prevención y solución de problemas legales.",
+    "frase": "Soluciones jurídicas confiables.",
+    "compromisos": [
+      "Enfoque estratégico",
+      "Atención personalizada",
+      "Prevención legal",
+      "Soluciones confiables"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me acusaron de un delito o fui víctima de uno",
+        "urgente": true
+      },
+      {
+        "texto": "Voy a comprar, rentar o donar una casa",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato bien hecho para mi negocio",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema familiar o laboral",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero proteger mi marca o mi negocio",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Inmobiliario",
+        "icono": "edificio",
+        "texto": "Tu propiedad en las mejores manos.",
+        "puntos": [
+          "Compraventas",
+          "Alquileres",
+          "Donaciones",
+          "Contratos"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Desde la primera denuncia hasta las etapas del proceso, te acompañamos y defendemos tus intereses.",
+        "puntos": [
+          "Estudio de carpeta",
+          "Atención y asesoría a la víctima",
+          "Defensa penal",
+          "Si fuiste acusado de algún delito"
+        ]
+      },
+      {
+        "nombre": "Empresarial y mercantil",
+        "icono": "maletin",
+        "texto": "Consultoría para emprendedores y empresarios.",
+        "puntos": [
+          "Derecho mercantil",
+          "Derecho contractual",
+          "Prevención de problemas legales"
+        ]
+      },
+      {
+        "nombre": "Familiar y laboral",
+        "icono": "familia",
+        "texto": "Te acompañamos en asuntos de familia y trabajo.",
+        "puntos": [
+          "Derecho familiar",
+          "Derecho laboral"
+        ]
+      },
+      {
+        "nombre": "Amparo y notarial",
+        "icono": "balanza",
+        "texto": "Protección de tus derechos y certeza en tus trámites.",
+        "puntos": [
+          "Amparo",
+          "Derecho notarial"
+        ]
+      },
+      {
+        "nombre": "Propiedad intelectual",
+        "icono": "documento",
+        "texto": "Protege tu marca y tus creaciones.",
+        "puntos": [
+          "Propiedad intelectual",
+          "Registro y protección"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-10",
+    "fuente": "Facebook"
   }
 ]
