@@ -26,8 +26,10 @@ def construir(a, titulo, dorado, sub, servicios, imagen):
     if imagen == "foto":
         fondo = f"background:#0d0c0a url(data:image/jpeg;base64,{E.b64(carpeta / a['foto'])}) center top/100% auto no-repeat"
     else:
-        fondo = f"background:#0d0c0a url(data:image/jpeg;base64,{E.b64(carpeta / logo_f)}) 50% 16%/auto 46% no-repeat"
+        fondo = "background:radial-gradient(70% 45% at 50% 28%,rgba(212,176,106,.16),transparent 70%),#0d0c0a"
     marca = ""
+    if imagen == "logo":
+        marca = f'<div class=logobox style="background:{fondo_logo} url(data:image/jpeg;base64,{E.b64(carpeta / logo_f)}) center/cover"></div>'
     if imagen == "foto" and (carpeta / logo_f).exists() and logo_f != a.get("foto"):
         marca = f'<div class=marca style="background:{fondo_logo} url(data:image/jpeg;base64,{E.b64(carpeta / logo_f)}) center/cover"></div>'
     nos = not re.match(r"(Lic|Abogad|Mtr|Dr)", a.get("nombre", ""))
@@ -45,9 +47,10 @@ body{{width:1080px;height:1350px;{fondo};font-family:'Plus Jakarta Sans';color:#
 .vel{{position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,12,10,.75) 0%,rgba(13,12,10,.25) 40%,rgba(13,12,10,0) 60%),linear-gradient(180deg,rgba(13,12,10,0) 30%,rgba(13,12,10,.8) 46%,#0d0c0a 58%)}}
 .marco{{position:absolute;inset:28px;border:1.5px solid rgba(212,176,106,.55);pointer-events:none}}
 .marca{{position:absolute;left:70px;top:70px;width:120px;height:120px;border:2px solid #d4b06a}}
-.nombre{{position:absolute;left:70px;top:{220 if imagen == "foto" else 80}px;font-size:24px;font-weight:800;letter-spacing:6px;color:#d4b06a;max-width:{560 if imagen == "foto" else 700}px;line-height:1.4}}
-.sello{{position:absolute;right:64px;top:{64 if imagen == "logo" else 400}px;width:190px;height:190px;filter:drop-shadow(0 12px 30px rgba(0,0,0,.6))}}
-.txt{{position:absolute;left:70px;right:70px;top:{585 if imagen == "foto" else 640}px}}
+.logobox{{position:absolute;left:310px;top:150px;width:460px;height:460px;border:3px solid #d4b06a;box-shadow:0 0 0 12px rgba(212,176,106,.12),0 30px 80px rgba(0,0,0,.6)}}
+.nombre{{position:absolute;left:70px;top:{220 if imagen == "foto" else 66}px;font-size:24px;font-weight:800;letter-spacing:6px;color:#d4b06a;max-width:{560 if imagen == "foto" else 680}px;line-height:1.4}}
+.sello{{position:absolute;right:64px;top:{70 if imagen == "logo" else 400}px;width:190px;height:190px;filter:drop-shadow(0 12px 30px rgba(0,0,0,.6))}}
+.txt{{position:absolute;left:70px;right:70px;top:{585 if imagen == "foto" else 650}px}}
 h1{{font-family:'Bodoni Moda';font-weight:500;font-size:{84 if len(titulo) <= 26 else 72}px;line-height:1.06;letter-spacing:-1.5px;max-width:940px}}
 h1 em{{display:block;font-style:italic;color:#d4b06a;font-weight:400}}
 .sub{{font-size:30px;line-height:1.35;color:#d9d1c4;margin-top:22px;max-width:860px;font-weight:500}}
