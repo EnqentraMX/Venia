@@ -29,10 +29,10 @@ def construir(a, titulo, dorado, sub, servicios, imagen):
         fondo = "background:radial-gradient(70% 45% at 50% 28%,rgba(212,176,106,.16),transparent 70%),#0d0c0a"
     marca = ""
     if imagen == "logo":
-        marca = f'<div class=logobox style="background:{fondo_logo} url(data:image/jpeg;base64,{E.b64(carpeta / logo_f)}) center/cover"></div>'
+        marca = f'<div class=logobox style="background:{fondo_logo} url(data:image/jpeg;base64,{E.b64(carpeta / logo_f)}) center/contain no-repeat"></div>'
     if imagen == "foto" and (carpeta / logo_f).exists() and logo_f != a.get("foto"):
-        marca = f'<div class=marca style="background:{fondo_logo} url(data:image/jpeg;base64,{E.b64(carpeta / logo_f)}) center/cover"></div>'
-    nos = not re.match(r"(Lic|Abogad|Mtr|Dr)", a.get("nombre", ""))
+        marca = f'<div class=marca style="background:{fondo_logo} url(data:image/jpeg;base64,{E.b64(carpeta / logo_f)}) center/contain no-repeat"></div>'
+    nos = not re.match(r"(Lic\b|Abogad[oa]\b|Mtr|Dr)", a.get("nombre", ""))
     servs = '<i>◆</i>'.join(f"<span>{html.escape(s)}</span>" for s in servicios)
     sello = ("<svg class=sello viewBox='0 0 200 200'><defs><path id=c d='M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0'/></defs>"
              "<circle cx=100 cy=100 r=98 fill='#0d0c0a' stroke='#d4b06a' stroke-width=3 />"
@@ -74,10 +74,11 @@ h1 em{{display:block;font-style:italic;color:#d4b06a;font-weight:400}}
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("slug"); ap.add_argument("--titulo", required=True); ap.add_argument("--dorado", required=True)
-    ap.add_argument("--sub"); ap.add_argument("--servicios"); ap.add_argument("--imagen", choices=["foto", "logo"])
+    ap.add_argument("--sub"); ap.add_argument("--servicios"); ap.add_argument("--imagen", choices=["foto", "logo"]); ap.add_argument("--nombre")
     o = ap.parse_args()
     a = next((x for x in json.loads((RAIZ / "prospectos" / "abogados.json").read_text(encoding="utf-8")) if x["slug"] == o.slug), None)
     if not a: sys.exit(f"No existe {o.slug}")
+    if o.nombre: a = dict(a, nombre=o.nombre)
     imagen = o.imagen or ("foto" if (not a.get("logo") and a.get("foto") and (RAIZ / "public" / o.slug / a["foto"]).exists()) else "logo")
     sub = o.sub or a.get("titulo", "")
     servicios = [s.strip() for s in o.servicios.split(",")] if o.servicios else [E.corto(x["nombre"]) for x in a.get("areas", [])][:4]

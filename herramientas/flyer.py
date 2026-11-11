@@ -64,8 +64,8 @@ li::before{{content:'✓';flex:none;width:38px;height:38px;border-radius:50%;bac
 {arriba}
 <div class=sello>★ Destacado en <b>Lic</b><i>Link</i></div>
 <div class=cuerpo><div class=eti>{html.escape(etiqueta)}</div><h1>{titulo}</h1><ul>{servs}</ul></div>
-<div class=pie><div class=wa><small>{"Escríbeme" if re.match(r"(Lic|Abogad|Mtr|Dr)", a.get("nombre","")) else "Escríbenos"} por WhatsApp</small><div class=n>{WA}{tel(a.get("telefono", ""))}</div><div class=u>liclink.com.mx/{slug}</div></div>
-<div class=qr><img src="data:image/png;base64,{qr}"><span>{"Ver mi perfil" if re.match(r"(Lic|Abogad|Mtr|Dr)", a.get("nombre","")) else "Ver perfil"}</span></div></div>
+<div class=pie><div class=wa><small>{"Escríbeme" if re.match(r"(Lic\b|Abogad[oa]\b|Mtr|Dr)", a.get("nombre","")) else "Escríbenos"} por WhatsApp</small><div class=n>{WA}{tel(a.get("telefono", ""))}</div><div class=u>liclink.com.mx/{slug}</div></div>
+<div class=qr><img src="data:image/png;base64,{qr}"><span>{"Ver mi perfil" if re.match(r"(Lic\b|Abogad[oa]\b|Mtr|Dr)", a.get("nombre","")) else "Ver perfil"}</span></div></div>
 </body></html>"""
 
 
