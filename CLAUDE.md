@@ -18,6 +18,7 @@
    - `logo.jpg` (cuadrado ~1000px). Si el logo tiene fondo negro con bordes/rayos de luz grises, límpialo (oscurece lo casi negro y recorta al contenido) para que no se vea un cuadro.
    - `foto.jpg` si hay **foto real** del abogado. **Nunca uses fotos de modelos/bancos de imágenes** de sus anuncios.
 2. Agrega su entrada a `prospectos/abogados.json` (copia la estructura de uno parecido, p. ej. `yulieth-alejandra` con foto o `servicio-juridico-sp` con logo). Campos clave: `slug, nombre, despacho, sufijo, despacho_largo, titulo, iniciales, foto, logo (bool), imagen_vista, fondo_logo, plantilla "v2", estilo "claro", ciudad, telefono, telefonos_extra [{numero, whatsapp}], direccion, referencia, correo, facebook, instagram, descripcion, modalidad, horario, nota_horario, portada [3 líneas], texto_portada, frase, compromisos, situaciones [{texto, urgente}], areas [{nombre, icono, texto, puntos}], equipo [{nombre, rol}], estado "vendido", plan "premium"|"basico", alta, fuente`.
+   - Costo de consulta (opcional, solo si el abogado lo da): `"consultas": [{"modo": "Asesoría por WhatsApp", "precio": 0}, {"modo": "Asesoría presencial", "precio": 500, "unidad": "la hora"}]` (precio 0 = Gratis). En `guia.json` pon `"consulta": "Consulta desde $300"` o `"Asesoría gratis por WhatsApp"`.
    - Iconos válidos: `familia, maletin, escudo, documento, edificio, acuerdo, balanza, lupa`.
    - Horario 24/7: cada día `["00:00","23:59"]`.
    - Usa SOLO datos que él dio; no inventes direcciones, cédulas ni teléfonos.

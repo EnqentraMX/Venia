@@ -53,6 +53,7 @@ window.DATOS = {
   "telefono": "5528484426",
   "telefonoVisible": "55 2848 4426",
   "correo": "felipeugalde2011@gmail.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

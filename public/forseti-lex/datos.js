@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "6251046138",
   "telefonoVisible": "625 104 6138",
   "correo": "lic.javr7@gmail.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "5523821217",
   "telefonoVisible": "55 2382 1217",
   "correo": "sanjuan.jurista.061200@gmail.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

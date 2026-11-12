@@ -40,6 +40,12 @@ window.DATOS = {
   "telefono": "5548499539",
   "telefonoVisible": "55 4849 9539",
   "correo": "",
+  "consultas": [
+    {
+      "modo": "Asesoría inicial presencial o virtual",
+      "precio": 500
+    }
+  ],
   "precioConsulta": "Orientación inicial gratuita por WhatsApp",
   "areas": [
     {

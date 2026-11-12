@@ -140,7 +140,7 @@ def datos_js(a):
         "portada": {"titulo": a.get("portada", ["Tu asunto legal,", "en buenas", "manos."]),
                     "texto": a.get("texto_portada") or (", ".join(x["nombre"].lower() for x in areas[:3]).capitalize() + (f" en {a['ciudad']}" if a.get("ciudad") else "") + ". Escríbenos y te orientamos sobre tu caso.")},
         "whatsapp": ("52" + wa) if wa else "", "telefono": tel, "telefonoVisible": visible(tel) if tel else "",
-        "correo": a.get("correo", ""), "precioConsulta": a.get("precio_consulta", ""),
+        "correo": a.get("correo", ""), "consultas": a.get("consultas", []), "precioConsulta": a.get("precio_consulta", ""),
         "areas": areas, "paquetes": a.get("paquetes", []), "compromisos": a.get("compromisos", []),
         "situaciones": a.get("situaciones") or [{"texto": t, "urgente": u} for t, u in sit],
         "pasos": [{"titulo": "Escríbenos por WhatsApp", "texto": "Cuéntanos brevemente tu situación. Tu información se trata con confidencialidad."},

@@ -286,3 +286,13 @@ h1,h2,h3,blockquote{font-family:var(--display);font-weight:800;letter-spacing:-.
 .comp-acc svg{width:20px;height:20px}
 :root[data-estilo="claro"] .retrato.mono{height:min(24vh,200px)} :root[data-estilo="claro"] .retrato.mono span{color:#d4b06a;font-size:96px;letter-spacing:-.04em}
 .paq .precio{line-height:1.1}
+
+/* Costo de la consulta */
+.costos #listaCostos{margin-top:16px;border:1px solid var(--linea);border-radius:6px;background:#fff;overflow:hidden}
+.costo{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:15px 18px;border-bottom:1px solid var(--linea);color:var(--tinta)}
+.costo span{font-size:15.5px}
+.costo b{font-size:19px;white-space:nowrap}
+.costo b small{font-size:13px;font-weight:500;color:var(--gris)}
+.costo b.gratis{color:#1f8a4c}
+.costos #listaCostos .btn{margin:16px 18px 18px;display:flex}
+.costos .nota{font-size:13px;margin-top:10px}

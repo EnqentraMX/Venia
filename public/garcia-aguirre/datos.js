@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "5524939392",
   "telefonoVisible": "55 2493 9392",
   "correo": "garciaaguirreyasoc@gmail.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

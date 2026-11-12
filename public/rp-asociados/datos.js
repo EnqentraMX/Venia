@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "9999947730",
   "telefonoVisible": "999 994 7730",
   "correo": "rogerandresph@gmail.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

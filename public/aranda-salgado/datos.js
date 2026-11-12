@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "5518483225",
   "telefonoVisible": "55 1848 3225",
   "correo": "",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

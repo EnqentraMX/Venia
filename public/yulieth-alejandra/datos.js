@@ -44,6 +44,16 @@ window.DATOS = {
   "telefono": "9903101304",
   "telefonoVisible": "990 310 1304",
   "correo": "Abogada.yuliethalejandra@gmail.com",
+  "consultas": [
+    {
+      "modo": "Asesoría presencial",
+      "precio": 600
+    },
+    {
+      "modo": "Asesoría virtual",
+      "precio": 300
+    }
+  ],
   "precioConsulta": "",
   "areas": [
     {

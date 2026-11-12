@@ -44,6 +44,7 @@ window.DATOS = {
   "telefono": "5542019327",
   "telefonoVisible": "55 4201 9327",
   "correo": "",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

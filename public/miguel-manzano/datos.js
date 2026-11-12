@@ -35,6 +35,21 @@ window.DATOS = {
   "telefono": "3335940403",
   "telefonoVisible": "33 3594 0403",
   "correo": "",
+  "consultas": [
+    {
+      "modo": "Asesoría por WhatsApp",
+      "precio": 0
+    },
+    {
+      "modo": "Asesoría presencial",
+      "precio": 500,
+      "unidad": "la hora"
+    },
+    {
+      "modo": "Asesoría por teléfono",
+      "precio": 200
+    }
+  ],
   "precioConsulta": "",
   "areas": [
     {

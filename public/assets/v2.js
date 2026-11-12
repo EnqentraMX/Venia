@@ -36,6 +36,9 @@
   if (D.cedula) sellos.push(`${ok}Cédula ${esc(D.cedula)}`);
   if (D.anios) sellos.push(`${ok}${esc(D.anios)} años de experiencia`);
   if (D.modalidad) sellos.push(`${ok}${esc(D.modalidad)}`);
+  const cons = D.consultas || [], gratis = cons.find(c => !c.precio);
+  const pesos = n => "$" + Number(n).toLocaleString("es-MX");
+  if (cons.length) sellos.unshift(`${ok}${gratis ? (/whatsapp/i.test(gratis.modo) ? "Asesoría gratis por WhatsApp" : "Primera asesoría gratis") : "Consulta desde " + pesos(Math.min(...cons.map(c => c.precio)))}`);
   (D.oficinas || []).slice(0, 1).forEach(o => o.nombre && sellos.push(`<svg viewBox="0 0 24 24"><use href="#i-pin"/></svg>${esc(o.nombre)}`));
   if (!/confidencial/i.test(D.modalidad || "")) sellos.push(`${ok}Atención confidencial`);
   $("#sellos").innerHTML = sellos.map(s => `<li>${s}</li>`).join("");
@@ -87,6 +90,13 @@
     </div>`).join("");
   $$(".area>button").forEach(b => b.onclick = () => { const a = b.parentElement, o = !a.classList.contains("abierta"); a.classList.toggle("abierta", o); b.setAttribute("aria-expanded", o); });
   $$(".consultar").forEach(b => b.onclick = () => { const a = D.areas[+b.dataset.area]; abrir({ texto: `Quiero consultar sobre ${a.nombre.toLowerCase()}`, area: a.nombre }); });
+
+  /* ---------- Costo de la consulta (opcional) ---------- */
+  if (cons.length) {
+    $("#costos").hidden = false;
+    $("#listaCostos").innerHTML = cons.map(c => `<div class="costo"><span>${esc(c.modo)}</span><b class="${c.precio ? "" : "gratis"}">${c.precio ? pesos(c.precio) + (c.unidad ? ` <small>/ ${esc(c.unidad)}</small>` : "") : "Gratis"}</b></div>`).join("")
+      + `<a class="btn btn-wa" target="_blank" rel="noopener" href="${wa("Hola, quiero agendar una consulta.")}">Agendar mi consulta</a>`;
+  }
 
   /* ---------- Paquetes (opcional, con fecha de vencimiento) ---------- */
   const hoy = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Mexico_City" }).format(new Date());

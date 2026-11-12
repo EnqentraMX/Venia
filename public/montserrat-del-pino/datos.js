@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "9998070213",
   "telefonoVisible": "999 807 0213",
   "correo": "montserou24@gmail.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

@@ -919,6 +919,12 @@
         "numero": "5513355023",
         "whatsapp": true
       }
+    ],
+    "consultas": [
+      {
+        "modo": "Asesoría inicial presencial o virtual",
+        "precio": 500
+      }
     ]
   },
   {
@@ -2923,7 +2929,22 @@
     "foto": "logo.jpg",
     "logo": true,
     "imagen_vista": "logo.jpg",
-    "fondo_logo": "#000f22"
+    "fondo_logo": "#000f22",
+    "consultas": [
+      {
+        "modo": "Asesoría por WhatsApp",
+        "precio": 0
+      },
+      {
+        "modo": "Asesoría presencial",
+        "precio": 500,
+        "unidad": "la hora"
+      },
+      {
+        "modo": "Asesoría por teléfono",
+        "precio": 200
+      }
+    ]
   },
   {
     "slug": "yulieth-alejandra",
@@ -3083,7 +3104,17 @@
     "estado": "vendido",
     "plan": "premium",
     "alta": "2026-11-09",
-    "fuente": "Facebook"
+    "fuente": "Facebook",
+    "consultas": [
+      {
+        "modo": "Asesoría presencial",
+        "precio": 600
+      },
+      {
+        "modo": "Asesoría virtual",
+        "precio": 300
+      }
+    ]
   },
   {
     "slug": "servicio-juridico-sp",

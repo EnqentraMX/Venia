@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "9992198821",
   "telefonoVisible": "999 219 8821",
   "correo": "lic.gabrielalizzet@outlook.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

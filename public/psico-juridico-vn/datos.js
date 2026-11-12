@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "5615275662",
   "telefonoVisible": "561 527 5662",
   "correo": "despachopsicojuridicovn@gmail.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

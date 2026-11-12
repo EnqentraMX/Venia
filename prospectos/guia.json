@@ -28,7 +28,8 @@
   "estado": "activo",
   "alta": "2026-11-09",
   "vence": "",
-  "pago": "pendiente"
+  "pago": "pendiente",
+  "consulta": "Consulta desde $500"
  },
  {
   "slug": "miguel-perez",
@@ -262,7 +263,8 @@
   "vence": "",
   "pago": "pendiente",
   "verificada_fecha": "",
-  "fondo": "#000f22"
+  "fondo": "#000f22",
+  "consulta": "Asesoría gratis por WhatsApp"
  },
  {
   "slug": "dalia-marquez",
@@ -342,7 +344,8 @@
   "estado": "activo",
   "alta": "2026-11-09",
   "vence": "",
-  "pago": "pendiente"
+  "pago": "pendiente",
+  "consulta": "Consulta desde $300"
  },
  {
   "slug": "servicio-juridico-sp",

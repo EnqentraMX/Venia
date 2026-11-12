@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "9834424919",
   "telefonoVisible": "983 442 4919",
   "correo": "contacto.cracorporativo@gmail.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

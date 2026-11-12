@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "9812092410",
   "telefonoVisible": "981 209 2410",
   "correo": "",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

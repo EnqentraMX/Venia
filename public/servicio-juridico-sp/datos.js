@@ -35,6 +35,7 @@ window.DATOS = {
   "telefono": "9992226931",
   "telefonoVisible": "999 222 6931",
   "correo": "abogados.juridicosp@gmail.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {

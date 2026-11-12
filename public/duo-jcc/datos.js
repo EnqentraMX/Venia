@@ -40,6 +40,7 @@ window.DATOS = {
   "telefono": "9996055561",
   "telefonoVisible": "999 605 5561",
   "correo": "contacto@duojcc.com",
+  "consultas": [],
   "precioConsulta": "",
   "areas": [
     {
