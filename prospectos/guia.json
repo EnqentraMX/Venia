@@ -706,5 +706,36 @@
   "alta": "2026-11-08",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "alvidrez-rodriguez",
+  "nombre": "Alvídrez Rodríguez & Asociados",
+  "rol": "Despacho de abogados · Asesoría jurídica integral · Chihuahua",
+  "ciudad": "chihuahua",
+  "materias": [
+   "civil",
+   "familiar",
+   "penal",
+   "laboral",
+   "mercantil",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/alvidrez-rodriguez/logo.jpg",
+  "logo": true,
+  "fondo": "#f7f1e3",
+  "iniciales": "AR",
+  "whatsapp": "526141036563",
+  "telefono": "6141036563",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/alvidrez-rodriguez/",
+  "redes": {},
+  "resena": "",
+  "consulta": "Asesoría inicial $1,000 (se abona al caso)",
+  "estado": "activo",
+  "alta": "2026-11-12",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
