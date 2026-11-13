@@ -4842,5 +4842,134 @@
         "precio": 400
       }
     ]
+  },
+  {
+    "slug": "lex-brevis",
+    "nombre": "Lic. José Guadalupe Victoriano Huitrón",
+    "despacho": "Lex Brevis MX",
+    "sufijo": "Despacho jurídico",
+    "despacho_largo": "Lex Brevis MX | Abogados en México",
+    "titulo": "Estrategia legal, resultados reales.",
+    "iniciales": "LB",
+    "foto": "foto.jpg",
+    "logo": false,
+    "imagen_vista": "foto.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad de México",
+    "telefono": "5521059990",
+    "telefonos_extra": [
+      {
+        "numero": "5570490035",
+        "whatsapp": false
+      }
+    ],
+    "correo": "lexbrevis.mx@gmail.com",
+    "facebook": "https://www.facebook.com/share/1CjgufRdSV/",
+    "instagram": "https://www.instagram.com/brevislex/",
+    "direccion": "Atención en persona o a distancia en todo México",
+    "referencia": "Lic. José Guadalupe Victoriano Huitrón, cédula profesional 14479765. Atención con cita previa.",
+    "nota_horario": "Lunes a viernes de 9:00 a 16:00, con cita previa.",
+    "descripcion": "Lex Brevis MX: asesoría y representación en materia familiar, laboral, civil y administrativa, además de prevención jurídica para empresas. Abogado titular: Lic. José Guadalupe Victoriano Huitrón, docente de Derecho y autor de obras de consulta en materia laboral.",
+    "modalidad": "En persona o a distancia",
+    "portada": [
+      "Estrategia legal,",
+      "resultados",
+      "reales."
+    ],
+    "texto_portada": "El derecho, en pocas palabras: te explicamos tu caso con claridad y te entregamos un plan por escrito desde la primera consulta.",
+    "frase": "La justicia se defiende con estrategia, no con improvisación.",
+    "compromisos": [
+      "Estudio de caso por escrito",
+      "Honorarios definidos desde el inicio",
+      "Te informamos cada avance",
+      "Cédula profesional 14479765"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me despidieron y no me quieren pagar mi finiquito o liquidación",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito pensión alimenticia o cobrar la que me deben",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero divorciarme o arreglar la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero o tengo un pagaré sin pagar",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un error en mi acta, mi CURP o un trámite del IMSS o Afore",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo una empresa y quiero prevenir problemas laborales",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Acuerdos claros que se pueden cumplir.",
+        "puntos": [
+          "Pensión alimenticia: solicitud, aumento, reducción y cobro",
+          "Divorcio voluntario e incausado",
+          "Guarda y custodia, convivencias y patria potestad",
+          "Reconocimiento de paternidad"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "acuerdo",
+        "texto": "Defensa laboral de quien escribió guías de consulta en la materia.",
+        "puntos": [
+          "Despido injustificado, finiquito y liquidación",
+          "Audiencias ante el Centro de Conciliación Laboral",
+          "Demandas y defensa ante tribunales laborales",
+          "Revisión de contratos y renuncias"
+        ]
+      },
+      {
+        "nombre": "Civil y contratos",
+        "icono": "documento",
+        "texto": "Protege tus acuerdos y tu patrimonio.",
+        "puntos": [
+          "Arrendamiento, compraventa y prestación de servicios",
+          "Cobro de adeudos y pagarés",
+          "Sucesiones, testamentos y regularización de bienes"
+        ]
+      },
+      {
+        "nombre": "Trámites administrativos",
+        "icono": "lupa",
+        "texto": "Lo que parece sencillo, hasta que se atora.",
+        "puntos": [
+          "Corrección y rectificación de actas",
+          "Aclaraciones de CURP",
+          "Trámites ante el IMSS y retiro de Afore"
+        ]
+      },
+      {
+        "nombre": "Prevención para empresas",
+        "icono": "maletin",
+        "texto": "La mejor estrategia jurídica es la prevención.",
+        "puntos": [
+          "Contratos individuales y Reglamento Interior de Trabajo",
+          "NOM-035 y NOM-037",
+          "Avisos de privacidad",
+          "Diagnóstico de cumplimiento laboral (revisión inicial sin costo)"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-12",
+    "fuente": "Página web"
   }
 ]

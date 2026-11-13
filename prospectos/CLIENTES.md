@@ -16,6 +16,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Firmeza Legal Palacios | premium | Querétaro | 2026-11-06 | — | pendiente | activo | no |
 | Forseti Lex Despacho Jurídico | premium | Chihuahua | 2026-11-09 | — | pendiente | activo | no |
 | García Aguirre & Asociados | premium | Estado de México | 2026-11-10 | — | pendiente | activo | no |
+| Lex Brevis MX | premium | Ciudad de México | 2026-11-12 | — | pendiente | activo | no |
 | Lic. Gabriela Lizzet | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | Lic. Karina Bañuelos | premium | Gómez Palacio | 2026-11-12 | — | pendiente | activo | no |
 | Lic. Miguel Ángel Manzano Macías | premium | Guadalajara | 2026-11-09 | — | pendiente | activo | no |

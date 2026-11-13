@@ -769,5 +769,39 @@
   "vence": "",
   "pago": "pendiente",
   "consulta": "Consulta desde $400"
+ },
+ {
+  "slug": "lex-brevis",
+  "nombre": "Lex Brevis MX",
+  "rol": "Lic. José Guadalupe Victoriano Huitrón · Familiar, laboral, civil y empresas · Todo México",
+  "ciudad": "cdmx",
+  "otras_ciudades": [
+   "edomex"
+  ],
+  "materias": [
+   "familiar",
+   "laboral",
+   "civil",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/lex-brevis/foto.jpg",
+  "logo": false,
+  "fondo": "",
+  "iniciales": "LB",
+  "whatsapp": "525521059990",
+  "telefono": "5521059990",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/lex-brevis/",
+  "redes": {
+   "facebook": "https://www.facebook.com/share/1CjgufRdSV/",
+   "instagram": "https://www.instagram.com/brevislex/"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-12",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
