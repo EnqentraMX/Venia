@@ -1101,5 +1101,35 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "cs-abogados",
+  "nombre": "CS Abogados",
+  "rol": "Litigio y corporativo · Laboral empresarial, contratos e inmobiliario · Guadalajara",
+  "ciudad": "guadalajara",
+  "materias": [
+   "laboral",
+   "mercantil",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/cs-abogados/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "CS",
+  "whatsapp": "523318453110",
+  "telefono": "3318453110",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/cs-abogados/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61567949175938"
+  },
+  "resena": "",
+  "consulta": "Auditoría legal preventiva sin costo",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

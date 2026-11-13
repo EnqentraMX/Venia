@@ -6443,5 +6443,146 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "cs-abogados",
+    "nombre": "CS Abogados",
+    "despacho": "CS Abogados",
+    "sufijo": "Litigio y Corporativo",
+    "despacho_largo": "CS Abogados GDL | Litigio y corporativo en Guadalajara",
+    "titulo": "Protección y blindaje legal para empresas y PyMES",
+    "iniciales": "CS",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Guadalajara, Jalisco",
+    "telefono": "3318453110",
+    "telefonos_extra": [
+      {
+        "numero": "3327943317",
+        "whatsapp": false
+      }
+    ],
+    "correo": "contacto@csabogadosgdl.com.mx",
+    "facebook": "https://www.facebook.com/profile.php?id=61567949175938",
+    "direccion": "Ontario 1332, Guadalajara, Jalisco",
+    "referencia": "Consultas presenciales en la Zona Metropolitana de Guadalajara y atención digital en todo Jalisco. Sitio web: csabogadosgdl.com.mx",
+    "horario": {
+      "lunes": [
+        "09:00",
+        "18:00"
+      ],
+      "martes": [
+        "09:00",
+        "18:00"
+      ],
+      "miercoles": [
+        "09:00",
+        "18:00"
+      ],
+      "jueves": [
+        "09:00",
+        "18:00"
+      ],
+      "viernes": [
+        "09:00",
+        "18:00"
+      ]
+    },
+    "descripcion": "CS Abogados GDL: despacho de litigio y derecho corporativo preventivo en Guadalajara para emprendedores, PyMES y empresas: blindaje laboral, contratos mercantiles, derecho inmobiliario e igualas legales mensuales.",
+    "modalidad": "Auditoría legal preventiva sin costo",
+    "portada": [
+      "Protegemos",
+      "el patrimonio",
+      "de tu negocio."
+    ],
+    "texto_portada": "Protección y blindaje legal para empresas y PyMES en Guadalajara, con asesoría corporativa preventiva para que tomes decisiones con certeza.",
+    "frase": "Resolvemos tus riesgos legales antes de que se conviertan en conflictos.",
+    "compromisos": [
+      "Auditoría legal preventiva sin costo",
+      "Tu departamento legal externo",
+      "Atención en la ZMG y todo Jalisco",
+      "Lunes a viernes de 9 a 6"
+    ],
+    "situaciones": [
+      {
+        "texto": "Un trabajador me demandó o quiero evitar demandas laborales",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito contratos de servicios, distribución o confidencialidad",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo varias propiedades en renta y quiero protegerlas",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero un abogado de confianza para mi empresa cada mes",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un litigio y necesito quien me represente",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Blindaje laboral empresarial",
+        "icono": "escudo",
+        "texto": "Protege a tu empresa contra demandas individuales y colectivas.",
+        "puntos": [
+          "Contratos laborales",
+          "Reglamento interior de trabajo",
+          "Esquemas de terminación conforme a la LFT"
+        ]
+      },
+      {
+        "nombre": "Contratos y convenios mercantiles",
+        "icono": "documento",
+        "texto": "Acuerdos claros que protegen tu negocio.",
+        "puntos": [
+          "Contratos de servicios y distribución",
+          "Arrendamiento comercial",
+          "Convenios de confidencialidad (NDA)"
+        ]
+      },
+      {
+        "nombre": "Derecho inmobiliario y patrimonial",
+        "icono": "edificio",
+        "texto": "Asesoría para propietarios con varios inmuebles.",
+        "puntos": [
+          "Protección de rentas",
+          "Contratos de arrendamiento"
+        ]
+      },
+      {
+        "nombre": "Igualas legales mensuales",
+        "icono": "maletin",
+        "texto": "Tu departamento legal externo, todos los meses.",
+        "puntos": [
+          "Contratos",
+          "Actas de asamblea",
+          "Prevención de riesgos laborales",
+          "Consultoría estratégica mensual"
+        ]
+      },
+      {
+        "nombre": "Litigio",
+        "icono": "balanza",
+        "texto": "Representación cuando el conflicto ya llegó.",
+        "puntos": [
+          "Litigio laboral",
+          "Litigio mercantil y civil"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Facebook y página web"
   }
 ]
