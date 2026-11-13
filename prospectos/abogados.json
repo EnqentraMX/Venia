@@ -6200,5 +6200,115 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "duran-asociados",
+    "nombre": "Lic. Irving Durán",
+    "despacho": "Durán y Asociados",
+    "sufijo": "Abogados",
+    "despacho_largo": "Durán y Asociados Abogados | CDMX, Edomex y toda la República",
+    "titulo": "Civil, familiar, mercantil, migratorio y mediación privada",
+    "iniciales": "DA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "CDMX, Estado de México y toda la República",
+    "telefono": "5621141173",
+    "correo": "lic.irvingduran19@gmail.com",
+    "direccion": "Atención en CDMX, Estado de México y toda la República Mexicana",
+    "referencia": "Escríbenos por WhatsApp para agendar tu asesoría.",
+    "descripcion": "Durán y Asociados Abogados: asuntos civiles, familiares, mercantiles, migratorios y mediación privada en CDMX, Estado de México y toda la República Mexicana.",
+    "modalidad": "Atención en toda la República",
+    "portada": [
+      "Soluciones legales",
+      "con",
+      "claridad."
+    ],
+    "texto_portada": "Asuntos civiles, familiares, mercantiles, migratorios y mediación privada en CDMX, Estado de México y toda la República Mexicana.",
+    "frase": "Te acompañamos a resolver tu asunto, con o sin juicio.",
+    "compromisos": [
+      "Mediación privada",
+      "Asuntos migratorios",
+      "Atención en toda la República",
+      "Asesoría personalizada"
+    ],
+    "situaciones": [
+      {
+        "texto": "Necesito resolver mi situación migratoria",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero divorciarme o necesito pensión o custodia",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con un contrato o una propiedad",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero o tengo un pagaré sin pagar",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero resolver un conflicto sin ir a juicio",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tus acuerdos y tu patrimonio.",
+        "puntos": [
+          "Contratos",
+          "Juicios civiles",
+          "Propiedades"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "maletin",
+        "texto": "Cobra lo que te deben y protege tu negocio.",
+        "puntos": [
+          "Cobro de pagarés y deudas",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Derecho migratorio",
+        "icono": "edificio",
+        "texto": "Asesoría para resolver tu situación migratoria.",
+        "puntos": [
+          "Trámites migratorios",
+          "Regularización"
+        ]
+      },
+      {
+        "nombre": "Mediación privada",
+        "icono": "acuerdo",
+        "texto": "Resuelve tu conflicto sin juicio, con acuerdos que se cumplen.",
+        "puntos": [
+          "Mediación privada",
+          "Convenios"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Hoja membretada"
   }
 ]

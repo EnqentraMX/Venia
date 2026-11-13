@@ -1038,5 +1038,35 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "duran-asociados",
+  "nombre": "Durán y Asociados",
+  "rol": "Civil, familiar, mercantil, migratorio y mediación privada · CDMX, Edomex y toda la República",
+  "ciudad": "cdmx",
+  "otras_ciudades": [
+   "edomex"
+  ],
+  "materias": [
+   "civil",
+   "familiar",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/duran-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "DA",
+  "whatsapp": "525621141173",
+  "telefono": "5621141173",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/duran-asociados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
