@@ -9,6 +9,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Aguilar & Duarte | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | Alvídrez Rodríguez & Asociados | premium | Chihuahua | 2026-11-12 | — | pendiente | activo | no |
 | CRA Corporativo | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
+| Casanova Abogados | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
 | Castro Oquita & Asociados | premium | Hermosillo | 2026-11-13 | — | pendiente | activo | no |
 | Despacho Jurídico Pericial Aranda Salgado | premium | Estado de México | 2026-11-07 | 2026-12-08 | pagado ($400 alta, folio LL-0001) | activo | no |
 | Despacho Psico-Jurídico VN | premium | Ciudad de México | 2026-11-10 | — | pendiente | activo | no |

@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 28 · Borrados: 17
+Propuestas: 0 · Vendidos: 29 · Borrados: 17
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -49,3 +49,4 @@ Propuestas: 0 · Vendidos: 28 · Borrados: 17
 | 2026-11-13 | Mirafuentes & Hernández | /mirafuentes-hernandez/ | vendido | 5528574510 |
 | 2026-11-13 | Lic. Ismael de Jesús Castro Oquita | /castro-oquita/ | vendido | 6625104819 |
 | 2026-11-13 | JS Abogados Asociados | /js-abogados/ | vendido | https://www.facebook.com/profile.php?id=61595848097885 |
+| 2026-11-13 | Lic. Valente Casanova | /casanova-abogados/ | vendido | https://www.facebook.com/valentecasanova |

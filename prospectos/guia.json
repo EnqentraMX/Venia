@@ -920,5 +920,39 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "casanova-abogados",
+  "nombre": "Casanova Abogados",
+  "rol": "Lic. Valente Casanova · Herencias, familiar, civil, penal y trámites · Jardines del Bosque",
+  "ciudad": "guadalajara",
+  "materias": [
+   "sucesiones",
+   "familiar",
+   "civil",
+   "mercantil",
+   "penal",
+   "laboral",
+   "fiscal"
+  ],
+  "plan": "premium",
+  "foto": "/casanova-abogados/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "CV",
+  "whatsapp": "523318420585",
+  "telefono": "3318420585",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/casanova-abogados/",
+  "redes": {
+   "facebook": "https://www.facebook.com/valentecasanova",
+   "instagram": "https://www.instagram.com/valentecasanova"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
