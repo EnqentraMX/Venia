@@ -46,4 +46,4 @@ Propuestas: 0 · Vendidos: 26 · Borrados: 17
 | 2026-11-12 | Lic. Alfonso Severo Prieto Morales | /alvidrez-rodriguez/ | vendido | 6141036563 |
 | 2026-11-12 | Lic. Karina Montserrat Bañuelos Chávez | /banuelos-asociados/ | vendido | https://www.facebook.com/share/1FQf492e77/ |
 | 2026-11-12 | Lic. José Guadalupe Victoriano Huitrón | /lex-brevis/ | vendido | https://www.facebook.com/share/1CjgufRdSV/ |
-| 2026-11-13 | Mirafuentes & Hernández | /mirafuentes-hernandez/ | vendido | 5537015337 |
+| 2026-11-13 | Mirafuentes & Hernández | /mirafuentes-hernandez/ | vendido | 5528574510 |

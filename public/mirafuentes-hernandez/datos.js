@@ -28,7 +28,7 @@ window.DATOS = {
   ],
   "telefonos": [
     {
-      "numero": "5528574510",
+      "numero": "5537015337",
       "whatsapp": true
     }
   ],
@@ -45,9 +45,9 @@ window.DATOS = {
     ],
     "texto": "Despacho jurídico en la Ciudad de México: libertad de detenidos, amparos, familiar, civil, laboral, trámites administrativos, peritajes y más, todo en un solo lugar."
   },
-  "whatsapp": "525537015337",
-  "telefono": "5537015337",
-  "telefonoVisible": "55 3701 5337",
+  "whatsapp": "525528574510",
+  "telefono": "5528574510",
+  "telefonoVisible": "55 2857 4510",
   "correo": "",
   "consultas": [],
   "precioConsulta": "",
