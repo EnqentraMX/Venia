@@ -4693,5 +4693,145 @@
     "plan": "premium",
     "alta": "2026-11-12",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "banuelos-asociados",
+    "nombre": "Lic. Karina Montserrat Bañuelos Chávez",
+    "despacho": "Despacho Jurídico Bañuelos & Asociados",
+    "sufijo": "Abogada y mediadora",
+    "despacho_largo": "Lic. Karina Bañuelos | Abogada en Gómez Palacio, Durango",
+    "titulo": "25 años ejerciendo me respaldan",
+    "iniciales": "KB",
+    "foto": "foto.jpg",
+    "logo": false,
+    "imagen_vista": "foto.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Gómez Palacio, Durango",
+    "telefono": "8717542041",
+    "telefonos_extra": [
+      {
+        "numero": "8711561015",
+        "whatsapp": false
+      },
+      {
+        "numero": "8711036400",
+        "whatsapp": false
+      }
+    ],
+    "facebook": "https://www.facebook.com/profile.php?id=61577863285917",
+    "direccion": "Av. Morelos #676 sur, Zona Centro, Gómez Palacio, Dgo.",
+    "referencia": "Atención a detenidos las 24 horas, los 7 días.",
+    "nota_horario": "Lunes a viernes de 10:00 a 14:00 y de 16:00 a 18:30. Sábados con cita previa. Detenidos: 24/7.",
+    "descripcion": "Lic. Karina Montserrat Bañuelos Chávez, abogada y mediadora con 25 años ejerciendo en Gómez Palacio, Durango. Despacho Jurídico Bañuelos & Asociados: familiar, penal, laboral, amparo y corresponsalía jurídica, con perspectiva de género.",
+    "modalidad": "Asesoría legal personalizada",
+    "portada": [
+      "25 años ejerciendo",
+      "me",
+      "respaldan."
+    ],
+    "texto_portada": "Abogada y mediadora, abogando por mujeres, hombres, niñas, niños y jóvenes. Un grupo de abogados con 25 y 30 años de experiencia, exfuncionarios públicos y docentes universitarios.",
+    "frase": "Experiencia que protege, resultados que respaldan.",
+    "compromisos": [
+      "25 y 30 años de experiencia",
+      "Perspectiva de género",
+      "Mediadora",
+      "Detenidos 24/7"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar y necesito un abogado ya",
+        "urgente": true
+      },
+      {
+        "texto": "Tuve un accidente vial y hay una carpeta de investigación",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito divorcio, custodia o patria potestad",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron injustificadamente",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar y necesito arreglar la herencia",
+        "urgente": false
+      },
+      {
+        "texto": "Soy abogado de otra ciudad y necesito un corresponsal en Gómez Palacio",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Abogando por mujeres, hombres, niñas, niños y jóvenes.",
+        "puntos": [
+          "Divorcios",
+          "Custodias",
+          "Patria potestad",
+          "Juicios sucesorios"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Atención a detenidos las 24 horas.",
+        "puntos": [
+          "Detenidos 24/7",
+          "Revisión de carpetas de investigación",
+          "Accidentes viales",
+          "Asistencia ante fiscalías"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "acuerdo",
+        "texto": "Defendemos lo que te corresponde.",
+        "puntos": [
+          "Conciliación",
+          "Despidos injustificados",
+          "Audiencias de conciliación"
+        ]
+      },
+      {
+        "nombre": "Amparo",
+        "icono": "balanza",
+        "texto": "Protección de tus derechos frente a la autoridad.",
+        "puntos": [
+          "Juicio de amparo",
+          "Asesoría en amparos"
+        ]
+      },
+      {
+        "nombre": "Corresponsalía jurídica",
+        "icono": "documento",
+        "texto": "Para abogados de otras ciudades: tus trámites en Gómez Palacio, rápidos y confiables.",
+        "puntos": [
+          "Presentación de escritos y oficios",
+          "Revisión de expedientes",
+          "Exhortos y notificaciones",
+          "Comparecencias y diligencias"
+        ]
+      },
+      {
+        "nombre": "Mediación y perspectiva de género",
+        "icono": "lupa",
+        "texto": "Soluciones con sensibilidad y experiencia.",
+        "puntos": [
+          "Mediación",
+          "Asesoría con perspectiva de género",
+          "Asesoría legal personalizada"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-12",
+    "fuente": "Facebook"
   }
 ]

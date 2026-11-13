@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 23 · Borrados: 17
+Propuestas: 0 · Vendidos: 24 · Borrados: 17
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -44,3 +44,4 @@ Propuestas: 0 · Vendidos: 23 · Borrados: 17
 | 2026-11-10 | Lic. Gabriela Lizzet | /gabriela-lizzet/ | vendido | https://www.facebook.com/Abogadalizzet |
 | 2026-11-10 | Aguilar & Duarte | /aguilar-duarte/ | vendido | https://www.facebook.com/profile.php?id=100067952559439 |
 | 2026-11-12 | Lic. Alfonso Severo Prieto Morales | /alvidrez-rodriguez/ | vendido | 6141036563 |
+| 2026-11-12 | Lic. Karina Montserrat Bañuelos Chávez | /banuelos-asociados/ | vendido | https://www.facebook.com/profile.php?id=61577863285917 |

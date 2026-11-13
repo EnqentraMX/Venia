@@ -737,5 +737,36 @@
   "alta": "2026-11-12",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "banuelos-asociados",
+  "nombre": "Lic. Karina Bañuelos",
+  "rol": "Bañuelos & Asociados · 25 años de experiencia · Familiar, penal, laboral y amparo · Gómez Palacio",
+  "ciudad": "gomez-palacio",
+  "materias": [
+   "familiar",
+   "penal",
+   "laboral",
+   "amparo",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/banuelos-asociados/foto.jpg",
+  "logo": false,
+  "fondo": "",
+  "iniciales": "KB",
+  "whatsapp": "528717542041",
+  "telefono": "8717542041",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/banuelos-asociados/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61577863285917"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-12",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
