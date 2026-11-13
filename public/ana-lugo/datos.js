@@ -105,9 +105,9 @@ window.DATOS = {
   ],
   "paquetes": [],
   "compromisos": [
+    "Cédula profesional 14129526",
     "Asesoría sin costo",
     "Facilidades de pago",
-    "Atención personalizada",
     "Confidencialidad absoluta"
   ],
   "situaciones": [
@@ -156,7 +156,7 @@ window.DATOS = {
     {
       "nombre": "Ciudad de México y Estado de México",
       "direccion": "Atención en CDMX y Estado de México",
-      "referencia": "Asesoría sin costo y facilidades de pago."
+      "referencia": "Cédula profesional 14129526. Asesoría sin costo y facilidades de pago."
     }
   ],
   "redes": {
