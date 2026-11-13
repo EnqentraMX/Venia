@@ -892,36 +892,6 @@
   "pago": "pendiente"
  },
  {
-  "slug": "js-abogados",
-  "nombre": "JS Abogados Asociados",
-  "rol": "Laboral, familiar y civil · Gustavo A. Madero (Lindavista)",
-  "ciudad": "cdmx",
-  "materias": [
-   "laboral",
-   "familiar",
-   "civil"
-  ],
-  "plan": "premium",
-  "foto": "/js-abogados/logo.jpg",
-  "logo": true,
-  "fondo": "#ffffff",
-  "iniciales": "JS",
-  "whatsapp": "525621827469",
-  "telefono": "5621827469",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/js-abogados/",
-  "redes": {
-   "facebook": "https://www.facebook.com/profile.php?id=61595848097885"
-  },
-  "resena": "",
-  "consulta": "Asesoría gratuita",
-  "estado": "activo",
-  "alta": "2026-11-13",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
   "slug": "casanova-abogados",
   "nombre": "Casanova Abogados",
   "rol": "Lic. Valente Casanova · Herencias, familiar, civil, penal y trámites · Jardines del Bosque",

@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 29 · Borrados: 17
+Propuestas: 0 · Vendidos: 28 · Borrados: 18
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -21,6 +21,7 @@ Propuestas: 0 · Vendidos: 29 · Borrados: 17
 | 2026-11-06 | Despacho Abogados Sánchez | /abogados-sanchez/ | borrar | 5666250265 |
 | 2026-11-09 | Lic. Leticia | /lic-leticia/ | borrar | 5521108618 |
 | 2026-11-10 | Lic. Yolanda Cruz Pérez | /yolanda-cruz/ | borrar | 9991582993 |
+| 2026-11-13 | JS Abogados Asociados | /js-abogados/ | borrar | https://www.facebook.com/profile.php?id=61595848097885 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
 | 2026-11-07 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | vendido | https://www.facebook.com/profile.php?id=61575816882807 |
@@ -48,5 +49,4 @@ Propuestas: 0 · Vendidos: 29 · Borrados: 17
 | 2026-11-12 | Lic. José Guadalupe Victoriano Huitrón | /lex-brevis/ | vendido | https://www.facebook.com/share/1CjgufRdSV/ |
 | 2026-11-13 | Mirafuentes & Hernández | /mirafuentes-hernandez/ | vendido | 5528574510 |
 | 2026-11-13 | Lic. Ismael de Jesús Castro Oquita | /castro-oquita/ | vendido | 6625104819 |
-| 2026-11-13 | JS Abogados Asociados | /js-abogados/ | vendido | https://www.facebook.com/profile.php?id=61595848097885 |
 | 2026-11-13 | Lic. Valente Casanova | /casanova-abogados/ | vendido | https://www.facebook.com/valentecasanova |
