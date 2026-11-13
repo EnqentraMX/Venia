@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 29 · Borrados: 19
+Propuestas: 0 · Vendidos: 28 · Borrados: 20
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -21,6 +21,7 @@ Propuestas: 0 · Vendidos: 29 · Borrados: 19
 | 2026-11-06 | Despacho Abogados Sánchez | /abogados-sanchez/ | borrar | 5666250265 |
 | 2026-11-09 | Lic. Leticia | /lic-leticia/ | borrar | 5521108618 |
 | 2026-11-10 | Lic. Yolanda Cruz Pérez | /yolanda-cruz/ | borrar | 9991582993 |
+| 2026-11-10 | Dúo JCC | /duo-jcc/ | borrar | https://www.facebook.com/profile.php?id=61580258867211 |
 | 2026-11-13 | JS Abogados Asociados | /js-abogados/ | borrar | https://www.facebook.com/profile.php?id=61595848097885 |
 | 2026-11-13 | Lic. Valente Casanova | /casanova-abogados/ | borrar | https://www.facebook.com/valentecasanova |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
@@ -42,7 +43,6 @@ Propuestas: 0 · Vendidos: 29 · Borrados: 19
 | 2026-11-10 | García Aguirre & Asociados | /garcia-aguirre/ | vendido | https://www.facebook.com/AbogadosGarciaAguirreyAsociados |
 | 2026-11-10 | Lic. Verónica Noemí | /psico-juridico-vn/ | vendido | https://www.facebook.com/profile.php?id=100094206581793 |
 | 2026-11-10 | Lic. Montserrat del Pino Roura | /montserrat-del-pino/ | vendido | 9998070213 |
-| 2026-11-10 | Dúo JCC | /duo-jcc/ | vendido | https://www.facebook.com/profile.php?id=61580258867211 |
 | 2026-11-10 | Lic. Gabriela Lizzet | /gabriela-lizzet/ | vendido | https://www.facebook.com/Abogadalizzet |
 | 2026-11-10 | Aguilar & Duarte | /aguilar-duarte/ | vendido | https://www.facebook.com/profile.php?id=100067952559439 |
 | 2026-11-12 | Lic. Alfonso Severo Prieto Morales | /alvidrez-rodriguez/ | vendido | 6141036563 |
