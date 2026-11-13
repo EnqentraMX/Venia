@@ -6584,5 +6584,111 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook y página web"
+  },
+  {
+    "slug": "despacho-juridico-integral",
+    "nombre": "Despacho Jurídico Integral",
+    "despacho": "Asesoría Legal Integral",
+    "sufijo": "Despacho Jurídico Integral",
+    "despacho_largo": "Despacho Jurídico Integral | Penal, civil y familiar en CDMX y Huixquilucan",
+    "titulo": "Asistencia en materia penal, civil y familiar",
+    "iniciales": "DJ",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#131313",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "CDMX y Huixquilucan",
+    "telefono": "5582203183",
+    "telefonos_extra": [
+      {
+        "numero": "5531037125",
+        "whatsapp": true
+      }
+    ],
+    "correo": "tatugut777@gmail.com",
+    "direccion": "Playa Erizo #71, Col. Militar Marte, Iztacalco, CDMX",
+    "referencia": "También en la colonia Roma (CDMX) y atención en Huixquilucan, Estado de México. Promoción de noviembre en Huixquilucan: 30% de descuento en el honorario inicial y asesoría jurídica gratuita.",
+    "descripcion": "Despacho Jurídico Integral (Asesoría Legal Integral): defensa penal, derecho civil y derecho familiar en la Ciudad de México y Huixquilucan, Estado de México. Asesoría clara, profesional y cercana.",
+    "modalidad": "Asesoría clara y cercana",
+    "portada": [
+      "Asesoría clara,",
+      "profesional",
+      "y cercana."
+    ],
+    "texto_portada": "Defensa penal, derecho civil y derecho familiar en CDMX y Huixquilucan, con soluciones para proteger a tu familia y a tus hijos.",
+    "frase": "Cogito, ergo sum: pienso, luego existo.",
+    "compromisos": [
+      "Asesoría jurídica gratuita",
+      "Atención en CDMX y Huixquilucan",
+      "Defensa en cualquier etapa",
+      "Dos líneas de WhatsApp"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o me acusan de un delito",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero divorciarme",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito pensión alimenticia para mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito la custodia o convivir con mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con un contrato, una herencia o mis bienes",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Defensa penal",
+        "icono": "escudo",
+        "texto": "Protección de tus derechos en cualquier etapa del proceso.",
+        "puntos": [
+          "Defensa penal",
+          "Asistencia en todas las etapas del proceso"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "La tranquilidad de tu familia y la protección de tus hijos.",
+        "puntos": [
+          "Divorcios",
+          "Pensiones alimenticias",
+          "Custodia",
+          "Convivencia"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tus acuerdos y tu patrimonio.",
+        "puntos": [
+          "Contratos",
+          "Sucesiones",
+          "Bienes",
+          "Obligaciones"
+        ]
+      }
+    ],
+    "consultas": [
+      {
+        "modo": "Asesoría jurídica",
+        "precio": 0
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Facebook"
   }
 ]

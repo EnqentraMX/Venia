@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 35 · Borrados: 20
+Propuestas: 0 · Vendidos: 36 · Borrados: 20
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -59,3 +59,4 @@ Propuestas: 0 · Vendidos: 35 · Borrados: 20
 | 2026-11-13 | Lic. Irving Durán | /duran-asociados/ | vendido | 5621141173 |
 | 2026-11-13 | Asesoría Fiscal y Jurídica García | /afjg-garcia/ | vendido | https://www.facebook.com/ASESORIAFISCALYJURIDICAGARCIA |
 | 2026-11-13 | CS Abogados | /cs-abogados/ | vendido | https://www.facebook.com/profile.php?id=61567949175938 |
+| 2026-11-13 | Despacho Jurídico Integral | /despacho-juridico-integral/ | vendido | 5582203183 |

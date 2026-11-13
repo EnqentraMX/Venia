@@ -1131,5 +1131,37 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "despacho-juridico-integral",
+  "nombre": "Despacho Jurídico Integral",
+  "rol": "Penal, civil y familiar · Roma, Iztacalco y Huixquilucan",
+  "ciudad": "cdmx",
+  "otras_ciudades": [
+   "edomex"
+  ],
+  "materias": [
+   "penal",
+   "civil",
+   "familiar",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/despacho-juridico-integral/logo.jpg",
+  "logo": true,
+  "fondo": "#131313",
+  "iniciales": "DJ",
+  "whatsapp": "525582203183",
+  "telefono": "5582203183",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/despacho-juridico-integral/",
+  "redes": {},
+  "resena": "",
+  "consulta": "Asesoría jurídica gratuita",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
