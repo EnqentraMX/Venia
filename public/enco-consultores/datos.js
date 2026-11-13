@@ -29,7 +29,7 @@ window.DATOS = {
       "en cada",
       "decisión."
     ],
-    "texto": "Sabemos litigar, y prevenimos mejorando integralmente a tu negocio: compliance, derecho corporativo y fiscal, gestión de riesgos y desarrollo organizacional."
+    "texto": "Sabemos litigar, y prevenimos mejorando integralmente a tu negocio: compliance, derecho corporativo (laboral, mercantil, seguridad social y propiedad intelectual), fiscal, gestión de riesgos y desarrollo organizacional."
   },
   "whatsapp": "529611788746",
   "telefono": "9611788746",
@@ -51,11 +51,14 @@ window.DATOS = {
     {
       "nombre": "Derecho corporativo y fiscal",
       "icono": "maletin",
-      "texto": "Asesoría legal y fiscal especializada para tu empresa.",
+      "texto": "Asesoría legal y fiscal especializada para tu empresa: lo corporativo involucra lo laboral, mercantil, seguridad social y propiedad intelectual.",
       "puntos": [
         "Derecho corporativo",
-        "Derecho fiscal",
-        "Derecho administrativo"
+        "Derecho fiscal y administrativo",
+        "Laboral",
+        "Mercantil",
+        "Seguridad social",
+        "Propiedad intelectual"
       ]
     },
     {
@@ -63,8 +66,11 @@ window.DATOS = {
       "icono": "balanza",
       "texto": "Representamos y defendemos tus intereses con estrategias orientadas a resultados.",
       "puntos": [
-        "Representación legal",
-        "Defensa de tu negocio"
+        "Litigio corporativo, fiscal y administrativo",
+        "Litigio laboral",
+        "Litigio mercantil",
+        "Seguridad social",
+        "Propiedad intelectual"
       ]
     },
     {

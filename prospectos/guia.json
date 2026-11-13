@@ -894,11 +894,12 @@
  {
   "slug": "enco-consultores",
   "nombre": "ENCO Consultoría Legal",
-  "rol": "Lic. Esaú Enríquez Díaz · Corporativo, administrativo, fiscal y compliance · Chiapas",
+  "rol": "Lic. Esaú Enríquez Díaz · Compliance, corporativo, fiscal, laboral y mercantil · Chiapas",
   "ciudad": "chiapas",
   "materias": [
    "mercantil",
-   "fiscal"
+   "fiscal",
+   "laboral"
   ],
   "plan": "premium",
   "foto": "/enco-consultores/logo.jpg",
