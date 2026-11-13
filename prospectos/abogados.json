@@ -5255,5 +5255,118 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "PDF (perfil institucional)"
+  },
+  {
+    "slug": "js-abogados",
+    "nombre": "JS Abogados Asociados",
+    "despacho": "JS Abogados Asociados",
+    "sufijo": "Despacho jurídico",
+    "despacho_largo": "JS Abogados Asociados | Abogados en Gustavo A. Madero, CDMX",
+    "titulo": "Tu respaldo legal, nuestra prioridad",
+    "iniciales": "JS",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad de México",
+    "telefono": "5621827469",
+    "correo": "js.asociados07@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61595848097885",
+    "direccion": "Norte 25 Número 72-A, Lindavista Vallejo 3a Secc., Gustavo A. Madero, C.P. 07750, Ciudad de México",
+    "referencia": "Atención especial a grupos vulnerables y personas de la tercera edad.",
+    "descripcion": "JS Abogados Asociados: asesoría y representación jurídica en materia laboral, familiar y civil en Gustavo A. Madero, CDMX. Atención personalizada, revisión de documentos y acompañamiento durante tu procedimiento. Asesoría gratuita.",
+    "modalidad": "Atención personalizada",
+    "portada": [
+      "Tu tranquilidad",
+      "también necesita",
+      "respaldo legal."
+    ],
+    "texto_portada": "Asesoría y representación en materia laboral, familiar y civil. Atención personalizada, revisión de documentos y acompañamiento durante tu procedimiento.",
+    "frase": "Tu problema merece atención, tu derecho merece defensa y tu tranquilidad merece una solución.",
+    "compromisos": [
+      "Asesoría gratuita",
+      "Atención personalizada",
+      "Revisión de documentos",
+      "Grupos vulnerables y tercera edad"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me despidieron y no me pagaron mi finiquito o liquidación",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero divorciarme o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito la guarda y custodia o convivir con mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Alguien no cumplió un contrato o tengo un problema con mi patrimonio",
+        "urgente": false
+      },
+      {
+        "texto": "Soy adulto mayor y necesito orientación legal",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho laboral",
+        "icono": "acuerdo",
+        "texto": "Defendemos lo que te corresponde.",
+        "puntos": [
+          "Despidos injustificados",
+          "Finiquitos y liquidaciones",
+          "Prestaciones",
+          "Conflictos laborales"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Convivencia familiar"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tus acuerdos y tu patrimonio.",
+        "puntos": [
+          "Contratos",
+          "Incumplimiento de obligaciones",
+          "Controversias civiles",
+          "Asuntos patrimoniales"
+        ]
+      },
+      {
+        "nombre": "Asesoría para empresas",
+        "icono": "maletin",
+        "texto": "Respaldo legal para tu negocio.",
+        "puntos": [
+          "Revisión de documentos",
+          "Contratos",
+          "Asesoría laboral para empleadores"
+        ]
+      }
+    ],
+    "consultas": [
+      {
+        "modo": "Asesoría por WhatsApp",
+        "precio": 0
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Facebook"
   }
 ]
