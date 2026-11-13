@@ -1068,5 +1068,38 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "afjg-garcia",
+  "nombre": "Asesoría Fiscal y Jurídica García",
+  "rol": "AFJG · Fiscal, laboral, familiar, mercantil, penal, agrario y militar · Puebla",
+  "ciudad": "puebla",
+  "materias": [
+   "fiscal",
+   "laboral",
+   "familiar",
+   "mercantil",
+   "penal",
+   "agrario",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/afjg-garcia/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "AG",
+  "whatsapp": "522223608181",
+  "telefono": "2223608181",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/afjg-garcia/",
+  "redes": {
+   "facebook": "https://www.facebook.com/ASESORIAFISCALYJURIDICAGARCIA"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

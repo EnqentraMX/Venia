@@ -6310,5 +6310,138 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Hoja membretada"
+  },
+  {
+    "slug": "afjg-garcia",
+    "nombre": "Asesoría Fiscal y Jurídica García",
+    "despacho": "AFJG",
+    "sufijo": "Asesoría Fiscal y Jurídica García",
+    "despacho_largo": "AFJG Asesoría Fiscal y Jurídica García | Abogados en Puebla",
+    "titulo": "Soluciones legales, resultados reales",
+    "iniciales": "AG",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Puebla, Puebla",
+    "telefono": "2223608181",
+    "telefonos_extra": [
+      {
+        "numero": "2211667979",
+        "whatsapp": false
+      }
+    ],
+    "correo": "jogarro95@gmail.com",
+    "facebook": "https://www.facebook.com/ASESORIAFISCALYJURIDICAGARCIA",
+    "direccion": "Río Cazones 5103, Col. San Manuel, Puebla, Pue., C.P. 72040",
+    "referencia": "Atención personalizada y estrategias efectivas. Agenda tu asesoría por WhatsApp.",
+    "descripcion": "AFJG Asesoría Fiscal y Jurídica García, en Puebla: impuestos federales y defensa fiscal, pensiones y despidos, registro de marcas y empresas, trámite de visa, juicios familiares y mercantiles, asesoría agraria, penal y militar.",
+    "modalidad": "Atención personalizada",
+    "portada": [
+      "Soluciones legales,",
+      "resultados",
+      "reales."
+    ],
+    "texto_portada": "Tu tranquilidad es nuestra prioridad: asesoría fiscal y jurídica con calidad y acompañamiento profesional en Puebla.",
+    "frase": "Tu tranquilidad es nuestra prioridad.",
+    "compromisos": [
+      "Experiencia y compromiso",
+      "Confidencialidad garantizada",
+      "Estrategias efectivas",
+      "Atención personalizada"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me acusan de un delito o necesito defensa penal",
+        "urgente": true
+      },
+      {
+        "texto": "Tengo un problema con el SAT o con mis impuestos",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron o necesito ayuda con mi pensión",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero registrar mi marca o mi empresa",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito tramitar mi visa",
+        "urgente": false
+      },
+      {
+        "texto": "Soy militar y tengo una baja, sanción o necesito un amparo",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Fiscal",
+        "icono": "maletin",
+        "texto": "Impuestos federales, defensa y estrategias fiscales.",
+        "puntos": [
+          "Asesoría en impuestos federales",
+          "Defensa en materia fiscal",
+          "Estrategias fiscales"
+        ]
+      },
+      {
+        "nombre": "Laboral y pensiones",
+        "icono": "acuerdo",
+        "texto": "Defendemos lo que te corresponde.",
+        "puntos": [
+          "Asesoría en pensiones",
+          "Despidos"
+        ]
+      },
+      {
+        "nombre": "Marcas, empresas y visas",
+        "icono": "documento",
+        "texto": "Trámites completos, sin complicaciones.",
+        "puntos": [
+          "Registro de marcas",
+          "Registro de empresas",
+          "Asesoría y gestión de visa"
+        ]
+      },
+      {
+        "nombre": "Juicios familiares y mercantiles",
+        "icono": "familia",
+        "texto": "Resolución de conflictos de familia y defensa en contratos, deudas y comercio.",
+        "puntos": [
+          "Divorcios",
+          "Pensiones alimenticias",
+          "Contratos y deudas",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Penal",
+        "icono": "escudo",
+        "texto": "Defensa en delitos, procesos y representación penal.",
+        "puntos": [
+          "Defensa penal",
+          "Representación en procesos"
+        ]
+      },
+      {
+        "nombre": "Agrario y militar",
+        "icono": "balanza",
+        "texto": "Defensa de tierras y justicia militar.",
+        "puntos": [
+          "Defensa de tierras y ejidos",
+          "Derechos del campo",
+          "Bajas, sanciones y amparos militares"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Facebook"
   }
 ]

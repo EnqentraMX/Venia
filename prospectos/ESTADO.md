@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 33 · Borrados: 20
+Propuestas: 0 · Vendidos: 34 · Borrados: 20
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -57,3 +57,4 @@ Propuestas: 0 · Vendidos: 33 · Borrados: 20
 | 2026-11-13 | Gallegos & Asociados | /gallegos-asociados/ | vendido | https://www.facebook.com/profile.php?id=61592044285795 |
 | 2026-11-13 | AJ Servicios Legales | /aj-servicios-legales/ | vendido | https://www.facebook.com/abogadocun |
 | 2026-11-13 | Lic. Irving Durán | /duran-asociados/ | vendido | 5621141173 |
+| 2026-11-13 | Asesoría Fiscal y Jurídica García | /afjg-garcia/ | vendido | https://www.facebook.com/ASESORIAFISCALYJURIDICAGARCIA |
