@@ -5849,5 +5849,129 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook y página web"
+  },
+  {
+    "slug": "mercado-lopez",
+    "nombre": "Mercado & López",
+    "despacho": "Mercado & López",
+    "sufijo": "Despacho Jurídico",
+    "despacho_largo": "Mercado & López | Despacho jurídico en Guadalajara",
+    "titulo": "Despacho jurídico en Guadalajara",
+    "iniciales": "ML",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#221814",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Guadalajara, Jalisco",
+    "telefono": "3314175482",
+    "telefonos_extra": [
+      {
+        "numero": "3310278787",
+        "whatsapp": true
+      }
+    ],
+    "tiktok": "https://www.tiktok.com/@user5823733043815",
+    "direccion": "Montes Pirineos No. 1805-A, Col. Monumental, Guadalajara, Jalisco",
+    "referencia": "Escríbenos por WhatsApp para agendar tu asesoría.",
+    "descripcion": "Mercado & López, despacho jurídico en Guadalajara, Jalisco: intestados, divorcios, servicios notariales, arrendamientos, régimen de condominio y juicios civiles.",
+    "modalidad": "Atención en oficina",
+    "portada": [
+      "Soluciones jurídicas",
+      "para tu familia",
+      "y tu patrimonio."
+    ],
+    "texto_portada": "Intestados, divorcios, servicios notariales, arrendamientos, régimen de condominio y juicios civiles en Guadalajara.",
+    "frase": "Tu patrimonio y tu familia, en buenas manos.",
+    "compromisos": [
+      "Oficina en Col. Monumental",
+      "Asesoría personalizada",
+      "Dos líneas de WhatsApp",
+      "Juicios civiles y notariales"
+    ],
+    "situaciones": [
+      {
+        "texto": "Falleció un familiar y no dejó testamento",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero divorciarme",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con un inquilino o un contrato de renta",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito constituir o resolver un tema de condominio",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un trámite notarial",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un juicio civil o me demandaron",
+        "urgente": true
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Intestados",
+        "icono": "documento",
+        "texto": "Resolvemos la herencia cuando no hay testamento.",
+        "puntos": [
+          "Juicios intestamentarios",
+          "Herencias"
+        ]
+      },
+      {
+        "nombre": "Divorcios",
+        "icono": "familia",
+        "texto": "Te acompañamos en tu divorcio.",
+        "puntos": [
+          "Divorcio",
+          "Convenios"
+        ]
+      },
+      {
+        "nombre": "Servicios notariales",
+        "icono": "balanza",
+        "texto": "Trámites notariales sin complicaciones.",
+        "puntos": [
+          "Servicios notariales"
+        ]
+      },
+      {
+        "nombre": "Arrendamientos",
+        "icono": "acuerdo",
+        "texto": "Protege tu propiedad en renta.",
+        "puntos": [
+          "Contratos de arrendamiento",
+          "Conflictos con inquilinos"
+        ]
+      },
+      {
+        "nombre": "Régimen de condominio",
+        "icono": "edificio",
+        "texto": "Orden legal para tu condominio.",
+        "puntos": [
+          "Régimen de condominio"
+        ]
+      },
+      {
+        "nombre": "Juicios civiles",
+        "icono": "escudo",
+        "texto": "Te representamos en tu juicio.",
+        "puntos": [
+          "Juicios civiles"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Facebook"
   }
 ]

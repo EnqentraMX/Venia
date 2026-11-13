@@ -952,5 +952,34 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "mercado-lopez",
+  "nombre": "Mercado & López",
+  "rol": "Despacho jurídico · Intestados, divorcios, notarial, arrendamientos y civil · Col. Monumental",
+  "ciudad": "guadalajara",
+  "materias": [
+   "sucesiones",
+   "familiar",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/mercado-lopez/logo.jpg",
+  "logo": true,
+  "fondo": "#221814",
+  "iniciales": "ML",
+  "whatsapp": "523314175482",
+  "telefono": "3314175482",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/mercado-lopez/",
+  "redes": {
+   "tiktok": "https://www.tiktok.com/@user5823733043815"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
