@@ -829,5 +829,37 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "mirafuentes-hernandez",
+  "nombre": "Mirafuentes & Hernández",
+  "rol": "Despacho jurídico · Penal, familiar, civil, laboral, administrativo y peritajes · CDMX",
+  "ciudad": "cdmx",
+  "materias": [
+   "penal",
+   "familiar",
+   "civil",
+   "mercantil",
+   "laboral",
+   "amparo",
+   "fiscal",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/mirafuentes-hernandez/logo.jpg",
+  "logo": true,
+  "fondo": "#191919",
+  "iniciales": "MH",
+  "whatsapp": "525537015337",
+  "telefono": "5537015337",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/mirafuentes-hernandez/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
