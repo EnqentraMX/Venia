@@ -917,5 +917,40 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "ana-lugo",
+  "nombre": "Lic. Ana Gabriela Lugo López",
+  "rol": "Abogada y criminalista · Familiar, civil, sucesiones, penal y laboral · CDMX y Edomex",
+  "ciudad": "cdmx",
+  "otras_ciudades": [
+   "edomex"
+  ],
+  "materias": [
+   "familiar",
+   "civil",
+   "sucesiones",
+   "penal",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/ana-lugo/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "AL",
+  "whatsapp": "525534352203",
+  "telefono": "5534352203",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/ana-lugo/",
+  "redes": {
+   "facebook": "https://www.facebook.com/alugolopez/"
+  },
+  "resena": "",
+  "consulta": "Asesoría sin costo",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

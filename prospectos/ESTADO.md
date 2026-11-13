@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 28 · Borrados: 19
+Propuestas: 0 · Vendidos: 29 · Borrados: 19
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -51,3 +51,4 @@ Propuestas: 0 · Vendidos: 28 · Borrados: 19
 | 2026-11-13 | Mirafuentes & Hernández | /mirafuentes-hernandez/ | vendido | 5528574510 |
 | 2026-11-13 | Lic. Ismael de Jesús Castro Oquita | /castro-oquita/ | vendido | 6625104819 |
 | 2026-11-13 | Lic. Esaú Enríquez Díaz | /enco-consultores/ | vendido | 9611788746 |
+| 2026-11-13 | Lic. Ana Gabriela Lugo López | /ana-lugo/ | vendido | https://www.facebook.com/alugolopez/ |

@@ -5610,5 +5610,137 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "ana-lugo",
+    "nombre": "Lic. Ana Gabriela Lugo López",
+    "despacho": "Lugo y Asociadas",
+    "sufijo": "Abogada y criminalista",
+    "despacho_largo": "Lic. Ana Gabriela Lugo López | Abogada familiar en CDMX y Estado de México",
+    "titulo": "Abogada familiar y criminalista",
+    "iniciales": "AL",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad de México y Estado de México",
+    "telefono": "5534352203",
+    "facebook": "https://www.facebook.com/alugolopez/",
+    "direccion": "Atención en CDMX y Estado de México",
+    "referencia": "Asesoría sin costo y facilidades de pago.",
+    "descripcion": "Lic. Ana Gabriela Lugo López, abogada postulante y criminalista (Lugo y Asociadas): derecho familiar, civil, sucesiones, penal, laboral y juicios orales. Atención en CDMX y Estado de México, asesoría sin costo y facilidades de pago.",
+    "modalidad": "Facilidades de pago",
+    "portada": [
+      "Buscamos",
+      "tu",
+      "tranquilidad."
+    ],
+    "texto_portada": "¿Te quieres divorciar? ¿Necesitas pensión alimenticia o guarda y custodia? Nosotros somos tu opción: asesoría sin costo y facilidades de pago en CDMX y Estado de México.",
+    "frase": "Tu caso, nuestra prioridad.",
+    "compromisos": [
+      "Asesoría sin costo",
+      "Facilidades de pago",
+      "Atención personalizada",
+      "Confidencialidad absoluta"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me acusan de un delito o necesito defensa penal",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito pensión alimenticia y no sé qué hacer",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito que reconozcan a mi hijo o hija",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito guarda y custodia o hay incumplimiento de pensión",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar y necesito arreglar la herencia",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Nosotros somos tu opción.",
+        "puntos": [
+          "Divorcio",
+          "Pensión alimenticia e incumplimiento",
+          "Guarda y custodia",
+          "Reconocimiento de menores"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "edificio",
+        "texto": "Protege tus acuerdos y tu patrimonio.",
+        "puntos": [
+          "Contratos",
+          "Herencias",
+          "Obligaciones"
+        ]
+      },
+      {
+        "nombre": "Sucesiones",
+        "icono": "documento",
+        "texto": "Te guiamos para resolver la herencia de tu familia.",
+        "puntos": [
+          "Sucesiones testamentarias",
+          "Sucesiones intestamentarias"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Abogada y criminalista: defensa y asesoría.",
+        "puntos": [
+          "Defensa penal",
+          "Asesoría penal"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "acuerdo",
+        "texto": "Defendemos lo que te corresponde.",
+        "puntos": [
+          "Despidos",
+          "Derechos laborales",
+          "Prestaciones"
+        ]
+      },
+      {
+        "nombre": "Juicios orales",
+        "icono": "balanza",
+        "texto": "Representación y acompañamiento en audiencia.",
+        "puntos": [
+          "Representación",
+          "Acompañamiento",
+          "Asesoría legal integral a personas físicas y morales"
+        ]
+      }
+    ],
+    "consultas": [
+      {
+        "modo": "Asesoría",
+        "precio": 0
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Facebook"
   }
 ]
