@@ -5495,5 +5495,114 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Volante impreso"
+  },
+  {
+    "slug": "enco-consultores",
+    "nombre": "Lic. Esaú Enríquez Díaz",
+    "despacho": "ENCO Consultoría Legal",
+    "sufijo": "Corporativo · Fiscal · Compliance",
+    "despacho_largo": "ENCO Consultoría Legal | Abogado corporativo y fiscal en Chiapas",
+    "titulo": "Pionero en Compliance en Chiapas",
+    "iniciales": "EE",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0a1e42",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Chiapas",
+    "telefono": "9611788746",
+    "direccion": "Chiapas, México",
+    "referencia": "Lic. Esaú Enríquez Díaz: abogado corporativo, administrativo y fiscal, consultor y pionero en Compliance en Chiapas.",
+    "descripcion": "ENCO Consultoría Legal: consultoría estratégica integral para empresas en Chiapas. Lic. Esaú Enríquez Díaz, abogado corporativo, administrativo y fiscal, consultor y pionero en Compliance en Chiapas.",
+    "modalidad": "Consultoría estratégica integral",
+    "portada": [
+      "Tu aliado legal",
+      "en cada",
+      "decisión."
+    ],
+    "texto_portada": "Sabemos litigar, y prevenimos mejorando integralmente a tu negocio: compliance, derecho corporativo y fiscal, gestión de riesgos y desarrollo organizacional.",
+    "frase": "Confianza y seguridad para tu tranquilidad.",
+    "compromisos": [
+      "Pionero en Compliance en Chiapas",
+      "Estrategia legal integral",
+      "Prevención de riesgos",
+      "Acompañamiento personalizado"
+    ],
+    "situaciones": [
+      {
+        "texto": "Mi empresa tiene un problema con el SAT o una autoridad",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito un programa de compliance para mi empresa",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero ordenar legal y fiscalmente mi negocio",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un litigio y necesito una estrategia",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero identificar riesgos antes de que afecten a mi negocio",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Compliance corporativo",
+        "icono": "escudo",
+        "texto": "Programas de cumplimiento normativo que previenen riesgos y protegen la reputación de tu negocio.",
+        "puntos": [
+          "Cumplimiento normativo",
+          "Ética empresarial",
+          "Prevención de riesgos"
+        ]
+      },
+      {
+        "nombre": "Derecho corporativo y fiscal",
+        "icono": "maletin",
+        "texto": "Asesoría legal y fiscal especializada para tu empresa.",
+        "puntos": [
+          "Derecho corporativo",
+          "Derecho fiscal",
+          "Derecho administrativo"
+        ]
+      },
+      {
+        "nombre": "Litigio estratégico",
+        "icono": "balanza",
+        "texto": "Representamos y defendemos tus intereses con estrategias orientadas a resultados.",
+        "puntos": [
+          "Representación legal",
+          "Defensa de tu negocio"
+        ]
+      },
+      {
+        "nombre": "Gestión integral de riesgos",
+        "icono": "lupa",
+        "texto": "Identificamos, evaluamos y mitigamos riesgos que pueden afectar tu negocio.",
+        "puntos": [
+          "Diagnóstico y mejora continua",
+          "Evaluación de riesgos"
+        ]
+      },
+      {
+        "nombre": "Desarrollo organizacional",
+        "icono": "acuerdo",
+        "texto": "Fortalecemos el talento, los procesos y la cultura de tu organización.",
+        "puntos": [
+          "Desarrollo organizacional",
+          "Mentoría estratégica para empresarios"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Facebook"
   }
 ]

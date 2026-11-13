@@ -87,7 +87,7 @@ def visible(d):
     return f"{d[:2]} {d[2:6]} {d[6:]}" if d.startswith(("55", "33", "81")) else f"{d[:3]} {d[3:6]} {d[6:]}"
 
 CIUDADES_GUIA = {"cdmx": "Ciudad de México", "edomex": "Estado de México", "guadalajara": "Guadalajara", "puebla": "Puebla", "monterrey": "Monterrey",
-                 "tijuana": "Tijuana", "leon": "León", "chihuahua": "Chihuahua", "san-luis-potosi": "San Luis Potosí", "los-cabos": "Los Cabos", "yucatan": "Yucatán", "queretaro": "Querétaro", "gomez-palacio": "Gómez Palacio", "hermosillo": "Hermosillo"}
+                 "tijuana": "Tijuana", "leon": "León", "chihuahua": "Chihuahua", "san-luis-potosi": "San Luis Potosí", "los-cabos": "Los Cabos", "yucatan": "Yucatán", "queretaro": "Querétaro", "gomez-palacio": "Gómez Palacio", "hermosillo": "Hermosillo", "chiapas": "Chiapas"}
 
 def guia_de(slug):
     ruta = os.path.join(RAIZ, "prospectos", "guia.json")

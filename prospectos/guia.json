@@ -890,5 +890,31 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "enco-consultores",
+  "nombre": "ENCO Consultoría Legal",
+  "rol": "Lic. Esaú Enríquez Díaz · Corporativo, administrativo, fiscal y compliance · Chiapas",
+  "ciudad": "chiapas",
+  "materias": [
+   "mercantil",
+   "fiscal"
+  ],
+  "plan": "premium",
+  "foto": "/enco-consultores/logo.jpg",
+  "logo": true,
+  "fondo": "#0a1e42",
+  "iniciales": "EE",
+  "whatsapp": "529611788746",
+  "telefono": "9611788746",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/enco-consultores/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
