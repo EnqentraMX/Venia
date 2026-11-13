@@ -5742,5 +5742,112 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "zf-legal-studio",
+    "nombre": "ZF Legal Studio",
+    "despacho": "ZF Legal Studio",
+    "sufijo": "Firma legal",
+    "despacho_largo": "ZF Legal Studio | Abogados en Puebla y Tlaxcala",
+    "titulo": "Aquí hacemos que lo legal sea claro y estratégico",
+    "iniciales": "ZF",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#d2427c",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Puebla y Tlaxcala",
+    "telefono": "2225070688",
+    "facebook": "https://www.facebook.com/profile.php?id=61578702427538",
+    "direccion": "Atención en Puebla, Tlaxcala y en modalidad virtual",
+    "referencia": "Primera asesoría gratuita. Sitio web: zfslegal.com",
+    "descripcion": "ZF Legal Studio: firma legal en Puebla y Tlaxcala con atención virtual. Defensa penal estratégica, contratos, derecho corporativo y prevención jurídica para emprendedores, empresas, contratistas, proveedores y personas.",
+    "modalidad": "Presencial y virtual",
+    "portada": [
+      "Porque prevenir",
+      "también es",
+      "defender."
+    ],
+    "texto_portada": "Te ayudamos a prevenir problemas y a resolverlos con firmeza para que vivas y trabajes con tranquilidad: defensa penal estratégica y asesoría legal para emprendedores y empresas.",
+    "frase": "Aquí no improvisamos, aquí estructuramos y defendemos con dedicación.",
+    "compromisos": [
+      "Primera asesoría gratuita",
+      "Estrategia hecha a tu medida",
+      "Claridad en cada paso",
+      "Puebla, Tlaxcala y virtual"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me acusan de un delito o tengo un proceso penal",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero denunciar un delito y no sé cómo",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato bien hecho o revisar uno",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un negocio y quiero protegerlo legalmente",
+        "urgente": false
+      },
+      {
+        "texto": "Soy contratista o proveedor y necesito asesoría",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Defensa penal estratégica",
+        "icono": "escudo",
+        "texto": "El derecho penal no tiene por qué sentirse lejano: puede ser claro, estratégico y hecho a tu medida.",
+        "puntos": [
+          "Defensa penal",
+          "Asesoría en denuncias",
+          "Estrategia para cada etapa del proceso"
+        ]
+      },
+      {
+        "nombre": "Contratos",
+        "icono": "documento",
+        "texto": "Acuerdos claros que te protegen.",
+        "puntos": [
+          "Elaboración de contratos",
+          "Revisión de contratos"
+        ]
+      },
+      {
+        "nombre": "Derecho corporativo",
+        "icono": "maletin",
+        "texto": "Protege legalmente lo que tanto trabajo te ha costado crear.",
+        "puntos": [
+          "Derecho corporativo para tu empresa",
+          "Asesoría a contratistas y proveedores",
+          "Protección de tu negocio y tu marca"
+        ]
+      },
+      {
+        "nombre": "Prevención jurídica",
+        "icono": "lupa",
+        "texto": "Porque prevenir también es defender.",
+        "puntos": [
+          "Prevención jurídica para reducir riesgos",
+          "Asesoría legal para emprendedores, empresas y personas"
+        ]
+      }
+    ],
+    "consultas": [
+      {
+        "modo": "Primera asesoría",
+        "precio": 0
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Facebook y página web"
   }
 ]

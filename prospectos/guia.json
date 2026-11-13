@@ -922,5 +922,35 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "zf-legal-studio",
+  "nombre": "ZF Legal Studio",
+  "rol": "Defensa penal estratégica, contratos y corporativo · Puebla, Tlaxcala y virtual",
+  "ciudad": "puebla",
+  "materias": [
+   "penal",
+   "mercantil",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/zf-legal-studio/logo.jpg",
+  "logo": true,
+  "fondo": "#d2427c",
+  "iniciales": "ZF",
+  "whatsapp": "522225070688",
+  "telefono": "2225070688",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/zf-legal-studio/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61578702427538"
+  },
+  "resena": "",
+  "consulta": "Primera asesoría gratuita",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

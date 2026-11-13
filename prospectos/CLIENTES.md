@@ -31,6 +31,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | SV Jurídicos | premium | Yucatán | 2026-11-08 | — | pendiente | activo | no |
 | Salmerón & Asociados Jurista | premium | Guadalajara | 2026-11-07 | — | pendiente | activo | no |
 | Servicio Jurídico SP | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
+| ZF Legal Studio | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
 | Castillo & Abogados | basico | Monterrey | 2026-11-06 | — | pendiente | activo | no |
 | Lic. Dalia Márquez Ramírez | basico | Ciudad de México | 2026-11-06 | — | pendiente | activo | no |
 | Lic. Juan de Jesús Martínez de Loera | basico | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
