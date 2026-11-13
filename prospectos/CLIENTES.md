@@ -4,6 +4,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 
 | Abogado | Plan | Ciudad | Alta | Vence | Pago | Estado | Cédula verificada |
 |---|---|---|---|---|---|---|---|
+| AJ Servicios Legales | premium | Cancún | 2026-11-13 | — | pendiente | activo | no |
 | Abogada Yulieth Alejandra | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | Abogados Penalistas de Oriente | premium | Ciudad de México | 2026-11-07 | — | pendiente | activo | no |
 | Aguilar & Duarte | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |

@@ -1010,5 +1010,33 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "aj-servicios-legales",
+  "nombre": "AJ Servicios Legales",
+  "rol": "Divorcios, pensión, custodia, contratos y trámites · Cancún",
+  "ciudad": "cancun",
+  "materias": [
+   "familiar",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/aj-servicios-legales/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "AJ",
+  "whatsapp": "529983394698",
+  "telefono": "9983394698",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/aj-servicios-legales/",
+  "redes": {
+   "facebook": "https://www.facebook.com/abogadocun"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
