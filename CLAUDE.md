@@ -76,6 +76,7 @@ Otros pedidos frecuentes:
   - 🖼️ incluye QR para estados
 
   Después: "Plan Premium: $399 de alta y luego solo $149 al mes. Como socio fundador conserva ese precio mientras siga activo." y "Si le gusta, se lo dejo activo hoy mismo…". Trata de "usted" al abogado.
+- **Texto para que el abogado suba su imagen/flyer** (formato que él pidió, promociona LicLink): "⚖️ <dolor del cliente>? <frase concreta>. / En <Despacho> te <qué hacen, servicios clave y zona>. / Orgullosamente Despacho Destacado en LicLink, la guía de abogados de México ⭐ / 📲 Escríbenos por WhatsApp: 55-4849-9539 / 👉 liclink.com.mx/<slug>". Corto, sin listas largas ni hashtags.
 - Textos dentro de las páginas (para clientes): de tú, verbo primero en botones.
 
 ## Estilo visual actual
