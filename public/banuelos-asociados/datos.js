@@ -44,7 +44,12 @@ window.DATOS = {
   "telefono": "8717542041",
   "telefonoVisible": "871 754 2041",
   "correo": "",
-  "consultas": [],
+  "consultas": [
+    {
+      "modo": "Asesoría legal",
+      "precio": 400
+    }
+  ],
   "precioConsulta": "",
   "areas": [
     {
@@ -53,6 +58,7 @@ window.DATOS = {
       "texto": "Abogando por mujeres, hombres, niñas, niños y jóvenes.",
       "puntos": [
         "Divorcios",
+        "Pensión alimenticia",
         "Custodias",
         "Patria potestad",
         "Juicios sucesorios"
@@ -91,12 +97,14 @@ window.DATOS = {
     {
       "nombre": "Corresponsalía jurídica",
       "icono": "documento",
-      "texto": "Para abogados de otras ciudades: tus trámites en Gómez Palacio, rápidos y confiables.",
+      "texto": "Corresponsal en Gómez Palacio, Lerdo y Durango, Dgo.; Torreón, Saltillo y San Pedro de las Colonias, Coah.",
       "puntos": [
         "Presentación de escritos y oficios",
         "Revisión de expedientes",
         "Exhortos y notificaciones",
-        "Comparecencias y diligencias"
+        "Comparecencias y diligencias",
+        "Gómez Palacio, Lerdo y Durango, Dgo.",
+        "Torreón, Saltillo y San Pedro de las Colonias, Coah."
       ]
     },
     {
@@ -167,7 +175,7 @@ window.DATOS = {
     }
   ],
   "redes": {
-    "facebook": "https://www.facebook.com/profile.php?id=61577863285917",
+    "facebook": "https://www.facebook.com/share/1FQf492e77/",
     "instagram": "",
     "tiktok": "",
     "youtube": "",

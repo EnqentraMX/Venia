@@ -4720,7 +4720,7 @@
         "whatsapp": false
       }
     ],
-    "facebook": "https://www.facebook.com/profile.php?id=61577863285917",
+    "facebook": "https://www.facebook.com/share/1FQf492e77/",
     "direccion": "Av. Morelos #676 sur, Zona Centro, Gómez Palacio, Dgo.",
     "referencia": "Atención a detenidos las 24 horas, los 7 días.",
     "nota_horario": "Lunes a viernes de 10:00 a 14:00 y de 16:00 a 18:30. Sábados con cita previa. Detenidos: 24/7.",
@@ -4772,6 +4772,7 @@
         "texto": "Abogando por mujeres, hombres, niñas, niños y jóvenes.",
         "puntos": [
           "Divorcios",
+          "Pensión alimenticia",
           "Custodias",
           "Patria potestad",
           "Juicios sucesorios"
@@ -4810,12 +4811,14 @@
       {
         "nombre": "Corresponsalía jurídica",
         "icono": "documento",
-        "texto": "Para abogados de otras ciudades: tus trámites en Gómez Palacio, rápidos y confiables.",
+        "texto": "Corresponsal en Gómez Palacio, Lerdo y Durango, Dgo.; Torreón, Saltillo y San Pedro de las Colonias, Coah.",
         "puntos": [
           "Presentación de escritos y oficios",
           "Revisión de expedientes",
           "Exhortos y notificaciones",
-          "Comparecencias y diligencias"
+          "Comparecencias y diligencias",
+          "Gómez Palacio, Lerdo y Durango, Dgo.",
+          "Torreón, Saltillo y San Pedro de las Colonias, Coah."
         ]
       },
       {
@@ -4832,6 +4835,12 @@
     "estado": "vendido",
     "plan": "premium",
     "alta": "2026-11-12",
-    "fuente": "Facebook"
+    "fuente": "Facebook",
+    "consultas": [
+      {
+        "modo": "Asesoría legal",
+        "precio": 400
+      }
+    ]
   }
 ]

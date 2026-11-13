@@ -124,7 +124,7 @@
   /* ---------- Ubicación y horario ---------- */
   const ofs = (D.oficinas || []).filter(o => o.direccion);
   const tels = [D.telefono ? { n: D.telefono, w: true } : null].concat((D.telefonos || []).map(x => ({ n: x.numero, w: !!x.whatsapp }))).filter(Boolean);
-  if (tels.length > 1) $("#oficinas").insertAdjacentHTML("afterend", `<div class="tels">${tels.map(x => `<div class="tel"><div><b>${esc(x.n.replace(/^(\d{2})(\d{4})(\d{4})$/, "$1 $2 $3"))}</b><small>${x.w ? "Llamadas y WhatsApp" : "Llamadas"}</small></div><div class="tel-acc"><a href="tel:+52${esc(x.n)}">Llamar</a>${x.w ? `<a class="w" target="_blank" rel="noopener" href="https://wa.me/52${esc(x.n)}?text=${encodeURIComponent(base)}">WhatsApp</a>` : ""}</div></div>`).join("")}</div>`);
+  if (tels.length > 1) $("#oficinas").insertAdjacentHTML("afterend", `<div class="tels">${tels.map(x => `<div class="tel"><div><b>${esc((/^(55|56|33|81)/.test(x.n) ? x.n.replace(/^(\d{2})(\d{4})(\d{4})$/, "$1 $2 $3") : x.n.replace(/^(\d{3})(\d{3})(\d{4})$/, "$1 $2 $3")))}</b><small>${x.w ? "Llamadas y WhatsApp" : "Llamadas"}</small></div><div class="tel-acc"><a href="tel:+52${esc(x.n)}">Llamar</a>${x.w ? `<a class="w" target="_blank" rel="noopener" href="https://wa.me/52${esc(x.n)}?text=${encodeURIComponent(base)}">WhatsApp</a>` : ""}</div></div>`).join("")}</div>`);
   $("#oficinas").innerHTML = ofs.map(o => { const q = encodeURIComponent(o.direccion); return `<div class="ofi">
     <div class="mapa"><iframe loading="lazy" title="Mapa" src="https://maps.google.com/maps?q=${q}&z=15&output=embed"></iframe></div>
     <p>${esc(o.direccion)}${o.referencia ? `<small>${esc(o.referencia)}</small>` : ""}</p>
