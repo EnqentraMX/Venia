@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 30 · Borrados: 20
+Propuestas: 0 · Vendidos: 31 · Borrados: 20
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -54,3 +54,4 @@ Propuestas: 0 · Vendidos: 30 · Borrados: 20
 | 2026-11-13 | Lic. Ana Gabriela Lugo López | /ana-lugo/ | vendido | https://www.facebook.com/alugolopez/ |
 | 2026-11-13 | ZF Legal Studio | /zf-legal-studio/ | vendido | https://www.facebook.com/profile.php?id=61578702427538 |
 | 2026-11-13 | Mercado & López | /mercado-lopez/ | vendido | 3314175482 |
+| 2026-11-13 | Gallegos & Asociados | /gallegos-asociados/ | vendido | https://www.facebook.com/profile.php?id=61592044285795 |

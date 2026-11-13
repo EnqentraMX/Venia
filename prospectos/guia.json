@@ -981,5 +981,34 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "gallegos-asociados",
+  "nombre": "Gallegos & Asociados",
+  "rol": "Corporativo jurídico fiscal · Mercantil, fiscal, aduanero, civil y societario · Guadalajara",
+  "ciudad": "guadalajara",
+  "materias": [
+   "fiscal",
+   "mercantil",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/gallegos-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "GA",
+  "whatsapp": "523312845297",
+  "telefono": "3312845297",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/gallegos-asociados/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61592044285795"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

@@ -5973,5 +5973,127 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "gallegos-asociados",
+    "nombre": "Gallegos & Asociados",
+    "despacho": "Gallegos & Asociados",
+    "sufijo": "Corporativo Jurídico Fiscal",
+    "despacho_largo": "Gallegos & Asociados | Corporativo jurídico fiscal en Guadalajara",
+    "titulo": "Corporativo Jurídico Fiscal G&A",
+    "iniciales": "GA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Guadalajara, Jalisco",
+    "telefono": "3312845297",
+    "correo": "cojufi.gallegos@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61592044285795",
+    "direccion": "Guadalajara, Jalisco",
+    "referencia": "Escríbenos por WhatsApp para recibir asesoría jurídica.",
+    "descripcion": "Gallegos & Asociados, Corporativo Jurídico Fiscal G&A: especialistas en derecho mercantil, fiscal, aduanero, civil, societario, seguridad social y contabilidad.",
+    "modalidad": "Corporativo jurídico fiscal",
+    "portada": [
+      "¿Necesitas",
+      "asesoría",
+      "jurídica?"
+    ],
+    "texto_portada": "Nos especializamos en derecho mercantil, fiscal, aduanero, civil, societario, seguridad social y contabilidad.",
+    "frase": "Asesoría jurídica y fiscal para personas y empresas.",
+    "compromisos": [
+      "Jurídico y fiscal en un solo lugar",
+      "Especialistas en aduanas",
+      "Contabilidad incluida",
+      "Atención personalizada"
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo un problema con el SAT o una multa fiscal",
+        "urgente": true
+      },
+      {
+        "texto": "Mi mercancía está detenida en la aduana",
+        "urgente": true
+      },
+      {
+        "texto": "Me deben dinero o tengo un pagaré sin pagar",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero constituir una sociedad o ajustar la de mi empresa",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con el IMSS o el Infonavit",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito llevar la contabilidad de mi negocio",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho fiscal",
+        "icono": "maletin",
+        "texto": "Defensa y asesoría frente a las autoridades fiscales.",
+        "puntos": [
+          "Asesoría fiscal",
+          "Defensa ante el SAT"
+        ]
+      },
+      {
+        "nombre": "Derecho aduanero",
+        "icono": "edificio",
+        "texto": "Asesoría en comercio exterior y aduanas.",
+        "puntos": [
+          "Derecho aduanero",
+          "Comercio exterior"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "balanza",
+        "texto": "Protege tu negocio y cobra lo que te deben.",
+        "puntos": [
+          "Asuntos mercantiles",
+          "Cobranza"
+        ]
+      },
+      {
+        "nombre": "Derecho societario",
+        "icono": "acuerdo",
+        "texto": "Estructura legal para tu empresa.",
+        "puntos": [
+          "Constitución de sociedades",
+          "Asuntos societarios"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tus acuerdos y tu patrimonio.",
+        "puntos": [
+          "Asuntos civiles",
+          "Contratos"
+        ]
+      },
+      {
+        "nombre": "Seguridad social y contabilidad",
+        "icono": "lupa",
+        "texto": "Cumplimiento ante el IMSS y orden contable.",
+        "puntos": [
+          "Seguridad social",
+          "Contabilidad"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Facebook"
   }
 ]
