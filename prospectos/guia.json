@@ -861,5 +861,34 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "castro-oquita",
+  "nombre": "Castro Oquita & Asociados",
+  "rol": "Lic. Ismael Castro Oquita · Inmobiliario, civil, mercantil, penal, amparo y laboral · Hermosillo",
+  "ciudad": "hermosillo",
+  "materias": [
+   "civil",
+   "mercantil",
+   "penal",
+   "amparo",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/castro-oquita/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "CO",
+  "whatsapp": "526625104819",
+  "telefono": "6625104819",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/castro-oquita/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

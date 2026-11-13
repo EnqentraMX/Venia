@@ -16,7 +16,8 @@ CIUDADES = {"cdmx": ("Ciudad de México", "CDMX"), "edomex": ("Estado de México
             "monterrey": ("Monterrey", "Nuevo León"), "tijuana": ("Tijuana", "Baja California"), "leon": ("León", "Guanajuato"),
             "chihuahua": ("Chihuahua", "Chihuahua"), "san-luis-potosi": ("San Luis Potosí", "SLP"), "los-cabos": ("Los Cabos", "Baja California Sur"),
             "yucatan": ("Yucatán", "Yucatán"), "queretaro": ("Querétaro", "Querétaro"),
-            "gomez-palacio": ("Gómez Palacio", "Durango")}
+            "gomez-palacio": ("Gómez Palacio", "Durango"),
+            "hermosillo": ("Hermosillo", "Sonora")}
 PRINCIPALES = ["cdmx", "edomex", "guadalajara", "puebla"]
 FONDOS = {"cdmx": "radial-gradient(90% 80% at 100% 0%,#6b5326 0%,transparent 60%),linear-gradient(160deg,#1e1a14,#0c0b0a)",
           "edomex": "radial-gradient(90% 80% at 0% 0%,#4f4a2b 0%,transparent 60%),linear-gradient(200deg,#1a1913,#0c0b0a)",
