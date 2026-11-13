@@ -803,5 +803,31 @@
   "alta": "2026-11-12",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "juan-martinez-loera",
+  "nombre": "Lic. Juan de Jesús Martínez de Loera",
+  "rol": "Despacho Dalora · Cédula 11339242 · Civil e inmobiliario, mercantil, herencias, amparo y fiscal",
+  "ciudad": "cdmx",
+  "materias": [
+   "civil",
+   "mercantil",
+   "sucesiones",
+   "amparo",
+   "fiscal"
+  ],
+  "plan": "basico",
+  "foto": "/juan-martinez-loera/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "JM",
+  "whatsapp": "525650204345",
+  "telefono": "5650204345",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
