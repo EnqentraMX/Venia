@@ -6690,5 +6690,129 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "martinez-asociados",
+    "nombre": "Profr. y Lic. Juan Manuel Martínez Aguirre",
+    "despacho": "Corporativo Jurídico Martínez & Asociados",
+    "sufijo": "Asesorías y trámites legales",
+    "despacho_largo": "Corporativo Jurídico Martínez & Asociados | Abogados en Guadalajara",
+    "titulo": "Especialista en herencias e intestados",
+    "iniciales": "JM",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Guadalajara, Jalisco",
+    "telefono": "3310230527",
+    "correo": "contacto@jmartinezyasociados.com.mx",
+    "direccion": "Av. Circunvalación Dr. Atl 164, Col. Independencia, C.P. 44290, Guadalajara, Jalisco",
+    "referencia": "Cédula profesional federal 14083916. Servicios en el Estado de Jalisco. Sitio web: jmartinezyasociados.com.mx",
+    "descripcion": "Corporativo Jurídico Martínez & Asociados, en Guadalajara: litigio y asesoría en herencias e intestados, derecho familiar, civil, administrativo, amparo, corporativo, mercantil, agrario y fiscal. Titular: Profr. y Lic. Juan Manuel Martínez Aguirre.",
+    "modalidad": "Servicios en todo Jalisco",
+    "portada": [
+      "Especialista en",
+      "herencias e",
+      "intestados."
+    ],
+    "texto_portada": "Asesorías y trámites legales en Guadalajara: herencias, intestados, custodia, pensión alimenticia, divorcios y acreditación de concubinato.",
+    "frase": "Iustitia et Veritas: derecho, justicia y confianza.",
+    "compromisos": [
+      "Cédula federal 14083916",
+      "Especialista en herencias",
+      "Membresías de blindaje legal",
+      "Servicios en todo Jalisco"
+    ],
+    "equipo": [
+      {
+        "nombre": "Profr. y Lic. Juan Manuel Martínez Aguirre",
+        "rol": "Abogado postulante y titular"
+      }
+    ],
+    "situaciones": [
+      {
+        "texto": "Falleció un familiar y no dejó testamento",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito pensión alimenticia para mis hijos",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero divorciarme por mutuo consentimiento o sin causa",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito la custodia o convivir con mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito acreditar mi concubinato",
+        "urgente": false
+      },
+      {
+        "texto": "Soy maestro o trabajador de la salud y quiero protección legal",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Herencias e intestados",
+        "icono": "documento",
+        "texto": "Nuestra especialidad: resolvemos la herencia de tu familia.",
+        "puntos": [
+          "Juicios intestamentarios",
+          "Herencias",
+          "Acreditación de concubinato"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos de tu familia.",
+        "puntos": [
+          "Guarda, custodia y convivencia",
+          "Pensión alimenticia",
+          "Divorcio por mutuo consentimiento o incausado"
+        ]
+      },
+      {
+        "nombre": "Civil y mercantil",
+        "icono": "balanza",
+        "texto": "Protege tu patrimonio y tu negocio.",
+        "puntos": [
+          "Derecho civil",
+          "Derecho mercantil",
+          "Corporativo"
+        ]
+      },
+      {
+        "nombre": "Administrativo, amparo y fiscal",
+        "icono": "escudo",
+        "texto": "Defensa frente a la autoridad.",
+        "puntos": [
+          "Derecho administrativo",
+          "Amparo",
+          "Derecho fiscal",
+          "Derecho agrario"
+        ]
+      },
+      {
+        "nombre": "Membresías de blindaje legal",
+        "icono": "maletin",
+        "texto": "Protección legal mensual.",
+        "puntos": [
+          "Blindaje laboral para docentes de educación básica",
+          "Blindaje familiar, patrimonial y mercantil",
+          "Bata Blindada para personal de salud"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-13",
+    "fuente": "Página web"
   }
 ]

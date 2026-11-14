@@ -1163,5 +1163,37 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "martinez-asociados",
+  "nombre": "Corporativo Jurídico Martínez & Asociados",
+  "rol": "Lic. Juan Manuel Martínez Aguirre · Herencias, familiar, civil, amparo y más · Guadalajara",
+  "ciudad": "guadalajara",
+  "materias": [
+   "sucesiones",
+   "familiar",
+   "civil",
+   "mercantil",
+   "laboral",
+   "amparo",
+   "fiscal",
+   "agrario"
+  ],
+  "plan": "premium",
+  "foto": "/martinez-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "JM",
+  "whatsapp": "523310230527",
+  "telefono": "3310230527",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/martinez-asociados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-13",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
