@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 38 · Borrados: 20
+Propuestas: 0 · Vendidos: 39 · Borrados: 20
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -62,3 +62,4 @@ Propuestas: 0 · Vendidos: 38 · Borrados: 20
 | 2026-11-13 | Despacho Jurídico Integral | /despacho-juridico-integral/ | vendido | 5582203183 |
 | 2026-11-13 | Profr. y Lic. Juan Manuel Martínez Aguirre | /martinez-asociados/ | vendido | 3310230527 |
 | 2026-11-14 | AMA Corp | /ama-corp/ | vendido | 3321601831 |
+| 2026-11-14 | BSL Asesoría y Servicios Legales | /bsl-servicios-legales/ | vendido | 5638383030 |

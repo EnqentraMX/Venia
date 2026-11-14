@@ -11,6 +11,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Aguilar & Duarte | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | Alvídrez Rodríguez & Asociados | premium | Chihuahua | 2026-11-12 | — | pendiente | activo | no |
 | Asesoría Fiscal y Jurídica García | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
+| BSL Asesoría y Servicios Legales | premium | Ciudad de México | 2026-11-14 | — | pendiente | activo | no |
 | CRA Corporativo | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | CS Abogados | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
 | Castro Oquita & Asociados | premium | Hermosillo | 2026-11-13 | — | pendiente | activo | no |

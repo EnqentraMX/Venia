@@ -1223,5 +1223,32 @@
   "alta": "2026-11-14",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "bsl-servicios-legales",
+  "nombre": "BSL Asesoría y Servicios Legales",
+  "rol": "Civil, familiar y mercantil · Segunda opinión jurídica · CDMX, virtual y presencial",
+  "ciudad": "cdmx",
+  "materias": [
+   "civil",
+   "familiar",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/bsl-servicios-legales/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "BS",
+  "whatsapp": "525638383030",
+  "telefono": "5638383030",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/bsl-servicios-legales/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-14",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
