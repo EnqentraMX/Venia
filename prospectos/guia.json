@@ -1195,5 +1195,33 @@
   "alta": "2026-11-13",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "ama-corp",
+  "nombre": "AMA Corp Contadores y Abogados",
+  "rol": "Civil, familiar, notarial, fiscal y contabilidad · Zapopan",
+  "ciudad": "guadalajara",
+  "materias": [
+   "civil",
+   "familiar",
+   "sucesiones",
+   "fiscal"
+  ],
+  "plan": "premium",
+  "foto": "/ama-corp/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "AA",
+  "whatsapp": "523321601831",
+  "telefono": "3321601831",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/ama-corp/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-14",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

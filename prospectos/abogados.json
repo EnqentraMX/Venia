@@ -6814,5 +6814,121 @@
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Página web"
+  },
+  {
+    "slug": "ama-corp",
+    "nombre": "AMA Corp",
+    "despacho": "AMA Corp",
+    "sufijo": "Contadores y Abogados",
+    "despacho_largo": "AMA Corp Contadores y Abogados | Zapopan, Jalisco",
+    "titulo": "Asesoría legal y contable en un solo lugar",
+    "iniciales": "AA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Zapopan, Jalisco",
+    "telefono": "3321601831",
+    "direccion": "Manzana 19 #26, Zapopan, Jalisco",
+    "referencia": "Más información en ama-corp.glide.page",
+    "descripcion": "AMA Corp Contadores y Abogados, en Zapopan, Jalisco: derecho civil, familiar, notarial e inmobiliario, asesoría fiscal (RESICO, IMSS, SAT, multas) y prevención de fraudes, para personas y empresas.",
+    "modalidad": "Derecho y contabilidad",
+    "portada": [
+      "Asesoría legal",
+      "y contable,",
+      "en un solo lugar."
+    ],
+    "texto_portada": "Un equipo de expertos en derecho y contabilidad para tus asuntos personales y empresariales. Somos tu aliado estratégico.",
+    "frase": "Deja las complicaciones legales y contables en manos expertas.",
+    "compromisos": [
+      "Abogados y contadores",
+      "Personas y empresas",
+      "Soluciones integrales",
+      "Atención en Zapopan"
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo una multa o un problema con el SAT o el IMSS",
+        "urgente": true
+      },
+      {
+        "texto": "Creo que me están defraudando o quiero proteger mis bienes",
+        "urgente": true
+      },
+      {
+        "texto": "Falleció un familiar y necesito arreglar la herencia",
+        "urgente": false
+      },
+      {
+        "texto": "Voy a comprar o vender una propiedad",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato o resolver un conflicto",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un asunto familiar delicado",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "¡Protege tus derechos!",
+        "puntos": [
+          "Contratos",
+          "Trámites sucesorios",
+          "Resolución de conflictos"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Apoyo en situaciones delicadas con manejo legal experto.",
+        "puntos": [
+          "Asuntos familiares",
+          "Asesoría y representación"
+        ]
+      },
+      {
+        "nombre": "Notarial e inmobiliario",
+        "icono": "edificio",
+        "texto": "Seguridad jurídica en tus transacciones y tu patrimonio.",
+        "puntos": [
+          "Compraventas",
+          "Trámites notariales",
+          "Protección patrimonial"
+        ]
+      },
+      {
+        "nombre": "Asesoría fiscal y contable",
+        "icono": "maletin",
+        "texto": "Soluciones para personas físicas y actividad empresarial.",
+        "puntos": [
+          "RESICO",
+          "IMSS",
+          "SAT",
+          "Multas",
+          "Contabilidad"
+        ]
+      },
+      {
+        "nombre": "Prevención de fraudes",
+        "icono": "escudo",
+        "texto": "Te ayudamos a proteger tus bienes e inversiones.",
+        "puntos": [
+          "Protección de bienes",
+          "Protección de inversiones"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-14",
+    "fuente": "Facebook"
   }
 ]
