@@ -1285,5 +1285,30 @@
   "alta": "2026-11-14",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "luis-romero",
+  "nombre": "Lic. Luis Romero",
+  "rol": "Abogado penalista · Defensa penal y asesoría a víctimas · San Luis Potosí",
+  "ciudad": "san-luis-potosi",
+  "materias": [
+   "penal"
+  ],
+  "plan": "premium",
+  "foto": "/luis-romero/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "LR",
+  "whatsapp": "524446712359",
+  "telefono": "4446712359",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/luis-romero/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-15",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

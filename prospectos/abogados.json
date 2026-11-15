@@ -7317,5 +7317,105 @@
     "plan": "premium",
     "alta": "2026-11-14",
     "fuente": "Página web"
+  },
+  {
+    "slug": "luis-romero",
+    "nombre": "Lic. Luis Romero",
+    "despacho": "Luis Romero Abogado",
+    "sufijo": "Consultores Legales",
+    "despacho_largo": "Lic. Luis Romero | Abogado penalista en San Luis Potosí",
+    "titulo": "Servicios jurídicos en materia penal",
+    "iniciales": "LR",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "San Luis Potosí",
+    "telefono": "4446712359",
+    "direccion": "San Luis Potosí, S.L.P.",
+    "referencia": "Contáctame por WhatsApp por medio de un mensaje.",
+    "descripcion": "Lic. Luis Romero, abogado penalista en San Luis Potosí (Consultores Legales): defensa penal, asesoría jurídica y representación, acompañamiento en casos urgentes y asesoría a víctimas de delito.",
+    "modalidad": "Casos urgentes",
+    "portada": [
+      "Defensa penal",
+      "en San Luis",
+      "Potosí."
+    ],
+    "texto_portada": "Defensa penal, asesoría jurídica y representación, y acompañamiento en casos urgentes. Escríbeme por WhatsApp.",
+    "frase": "Defensa penal con estrategia y acompañamiento.",
+    "compromisos": [
+      "Especialista en materia penal",
+      "Acompañamiento en casos urgentes",
+      "Atención a víctimas",
+      "Atención por WhatsApp"
+    ],
+    "situaciones": [
+      {
+        "texto": "Un familiar se encuentra detenido",
+        "urgente": true
+      },
+      {
+        "texto": "Me fueron a buscar policías ministeriales a mi domicilio",
+        "urgente": true
+      },
+      {
+        "texto": "Recibí un citatorio de la fiscalía",
+        "urgente": true
+      },
+      {
+        "texto": "Tengo dudas sobre la situación penal de un familiar",
+        "urgente": false
+      },
+      {
+        "texto": "Soy víctima de amenazas, acecho, lesiones o fraude",
+        "urgente": false
+      },
+      {
+        "texto": "Sufro violencia familiar o abuso de confianza",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Defensa penal",
+        "icono": "escudo",
+        "texto": "Defensa en cualquier etapa del proceso penal.",
+        "puntos": [
+          "Familiares detenidos",
+          "Citatorios de fiscalía",
+          "Visitas de policías ministeriales",
+          "Representación en audiencias"
+        ]
+      },
+      {
+        "nombre": "Asesoría a víctimas",
+        "icono": "balanza",
+        "texto": "¿Eres víctima de hechos con apariencia de delito?",
+        "puntos": [
+          "Amenazas",
+          "Acecho",
+          "Lesiones",
+          "Fraude",
+          "Violencia familiar",
+          "Abuso de confianza"
+        ]
+      },
+      {
+        "nombre": "Asesoría jurídica y representación",
+        "icono": "documento",
+        "texto": "Te explicamos tu situación penal con claridad.",
+        "puntos": [
+          "Asesoría jurídica",
+          "Representación legal",
+          "Acompañamiento en casos urgentes"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-15",
+    "fuente": "Facebook"
   }
 ]

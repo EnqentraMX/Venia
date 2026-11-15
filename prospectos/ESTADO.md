@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 40 · Borrados: 21
+Propuestas: 0 · Vendidos: 41 · Borrados: 21
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -65,3 +65,4 @@ Propuestas: 0 · Vendidos: 40 · Borrados: 21
 | 2026-11-14 | AMA Corp | /ama-corp/ | vendido | 3321601831 |
 | 2026-11-14 | BSL Asesoría y Servicios Legales | /bsl-servicios-legales/ | vendido | 5638383030 |
 | 2026-11-14 | Mtra. Abigail Catarino | /abigail-catarino/ | vendido | https://www.facebook.com/profile.php?id=61589239499737 |
+| 2026-11-15 | Lic. Luis Romero | /luis-romero/ | vendido | 4446712359 |
