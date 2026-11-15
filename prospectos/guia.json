@@ -1280,5 +1280,40 @@
   "alta": "2026-11-14",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "abigail-catarino",
+  "nombre": "Abigail Catarino & Abogados",
+  "rol": "Mtra. Abigail Catarino · Penal, laboral, familiar y amparo · CDMX, Edomex e Hidalgo",
+  "ciudad": "cdmx",
+  "otras_ciudades": [
+   "edomex"
+  ],
+  "materias": [
+   "penal",
+   "laboral",
+   "familiar",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/abigail-catarino/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "AC",
+  "whatsapp": "525516847505",
+  "telefono": "5516847505",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/abigail-catarino/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61589239499737",
+   "instagram": "https://www.instagram.com/abogadaabigailcatarino/",
+   "tiktok": "https://www.tiktok.com/@catarinologicapenal"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-14",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
