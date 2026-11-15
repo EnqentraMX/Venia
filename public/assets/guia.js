@@ -4,7 +4,7 @@
   /* ====== CONFIGURACIÓN ====== */
   // Número de WhatsApp de LicLink (10 dígitos con 52 adelante, ej. "5215512345678"). Aquí llegan registros y clientes sin abogado.
   var LICLINK_WA = "529511836468";
-  var CIUDADES = window.CIUDADES || { cdmx: "Ciudad de México", edomex: "Estado de México", guadalajara: "Guadalajara", puebla: "Puebla" };
+  var CIUDADES = window.CIUDADES || { cdmx: "Ciudad de México", edomex: "Estado de México toluca metepec", guadalajara: "Guadalajara", puebla: "Puebla" };
   var MATERIAS = {
     penal: ["Penal", "Detenciones, denuncias y defensa"],
     familiar: ["Familiar", "Divorcio, pensión y custodia"],
