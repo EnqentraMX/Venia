@@ -1252,36 +1252,6 @@
   "pago": "pendiente"
  },
  {
-  "slug": "emahi-despacho",
-  "nombre": "E.M.A.H.I. Despacho Jurídico",
-  "rol": "Penal, familiar, civil, laboral y agrario · Toluca",
-  "ciudad": "edomex",
-  "materias": [
-   "penal",
-   "familiar",
-   "civil",
-   "laboral",
-   "agrario"
-  ],
-  "plan": "premium",
-  "foto": "/emahi-despacho/logo.jpg",
-  "logo": true,
-  "fondo": "#000000",
-  "iniciales": "EM",
-  "whatsapp": "527226781415",
-  "telefono": "7226781415",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/emahi-despacho/",
-  "redes": {},
-  "resena": "",
-  "consulta": "Consulta desde $800",
-  "estado": "activo",
-  "alta": "2026-11-14",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
   "slug": "abigail-catarino",
   "nombre": "Abigail Catarino & Abogados",
   "rol": "Mtra. Abigail Catarino · Penal, laboral, familiar y amparo · CDMX, Edomex e Hidalgo",

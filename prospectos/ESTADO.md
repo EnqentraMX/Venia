@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 41 · Borrados: 20
+Propuestas: 0 · Vendidos: 40 · Borrados: 21
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -24,6 +24,7 @@ Propuestas: 0 · Vendidos: 41 · Borrados: 20
 | 2026-11-10 | Dúo JCC | /duo-jcc/ | borrar | https://www.facebook.com/profile.php?id=61580258867211 |
 | 2026-11-13 | JS Abogados Asociados | /js-abogados/ | borrar | https://www.facebook.com/profile.php?id=61595848097885 |
 | 2026-11-13 | Lic. Valente Casanova | /casanova-abogados/ | borrar | https://www.facebook.com/valentecasanova |
+| 2026-11-14 | E.M.A.H.I. Despacho Jurídico | /emahi-despacho/ | borrar | 7226781415 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
 | 2026-11-07 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | vendido | https://www.facebook.com/profile.php?id=61575816882807 |
@@ -63,5 +64,4 @@ Propuestas: 0 · Vendidos: 41 · Borrados: 20
 | 2026-11-13 | Profr. y Lic. Juan Manuel Martínez Aguirre | /martinez-asociados/ | vendido | 3310230527 |
 | 2026-11-14 | AMA Corp | /ama-corp/ | vendido | 3321601831 |
 | 2026-11-14 | BSL Asesoría y Servicios Legales | /bsl-servicios-legales/ | vendido | 5638383030 |
-| 2026-11-14 | E.M.A.H.I. Despacho Jurídico | /emahi-despacho/ | vendido | 7226781415 |
 | 2026-11-14 | Mtra. Abigail Catarino | /abigail-catarino/ | vendido | https://www.facebook.com/profile.php?id=61589239499737 |
