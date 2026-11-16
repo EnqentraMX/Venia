@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 42 · Borrados: 21
+Propuestas: 0 · Vendidos: 43 · Borrados: 21
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -67,3 +67,4 @@ Propuestas: 0 · Vendidos: 42 · Borrados: 21
 | 2026-11-14 | Mtra. Abigail Catarino | /abigail-catarino/ | vendido | https://www.facebook.com/profile.php?id=61589239499737 |
 | 2026-11-15 | Lic. Luis Romero | /luis-romero/ | vendido | 4446712359 |
 | 2026-11-15 | Lic. Jesús Antonio Urbina | /tu-defensa-juridica/ | vendido | 6141754135 |
+| 2026-11-16 | decm Asesores | /decm-asesores/ | vendido | 3329637942 |

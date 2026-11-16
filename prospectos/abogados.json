@@ -7559,5 +7559,121 @@
     "plan": "premium",
     "alta": "2026-11-15",
     "fuente": "Página web"
+  },
+  {
+    "slug": "decm-asesores",
+    "nombre": "decm Asesores",
+    "despacho": "decm Asesores",
+    "sufijo": "Seguridad social · Laboral · REPSE",
+    "despacho_largo": "decm Asesores | Seguridad social, laboral preventivo y REPSE en Guadalajara",
+    "titulo": "Abogados y asesores para empresas",
+    "iniciales": "DM",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#f7f4ee",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Guadalajara",
+    "telefono": "3329637942",
+    "correo": "decortesmendez@outlook.com",
+    "direccion": "Guadalajara, Jalisco",
+    "referencia": "decm Asesores: abogados y asesores independientes en seguridad social, derecho laboral preventivo, contratos, propiedad intelectual y REPSE.",
+    "descripcion": "decm Asesores: abogados y asesores independientes en Guadalajara. Seguridad social (IMSS, INFONAVIT y pensiones), derecho laboral preventivo, asesoría contractual, propiedad intelectual y registro REPSE, con claridad legal y estrategias prácticas.",
+    "modalidad": "Asesoría preventiva para empresas",
+    "portada": [
+      "Protegemos",
+      "tu presente,",
+      "impulsamos tu futuro."
+    ],
+    "texto_portada": "Apoyamos a quienes están construyendo sus sueños con claridad legal y estrategias prácticas, sin vueltas innecesarias: seguridad social, laboral preventivo, contratos, propiedad intelectual y REPSE.",
+    "frase": "Tu confianza, nuestra misión. Tu éxito, nuestra visión.",
+    "compromisos": [
+      "Claridad legal",
+      "Estrategias prácticas",
+      "Enfoque preventivo",
+      "Sin vueltas innecesarias"
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo una auditoría o inspección del IMSS, INFONAVIT o laboral",
+        "urgente": true
+      },
+      {
+        "texto": "Quiero evitar demandas laborales en mi empresa",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito redactar o revisar un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero registrar mi marca",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito mi registro REPSE",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Seguridad social",
+        "icono": "escudo",
+        "texto": "Asesoría integral en la correcta aplicación de las normas del IMSS, INFONAVIT y pensiones, para proteger tu empresa y a tus colaboradores.",
+        "puntos": [
+          "IMSS, INFONAVIT y pensiones",
+          "Auditorías y correcciones patronales",
+          "Análisis de riesgos",
+          "Prevención de contingencias"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral preventivo",
+        "icono": "maletin",
+        "texto": "Esquemas laborales sólidos y estrategias de cumplimiento para evitar conflictos y litigios.",
+        "puntos": [
+          "Estrategias para evitar conflictos laborales",
+          "Contratos y reglamentos internos",
+          "Capacitación en derechos y obligaciones",
+          "Acompañamiento en inspecciones"
+        ]
+      },
+      {
+        "nombre": "Asesoría contractual",
+        "icono": "documento",
+        "texto": "Contratos claros y alineados a la normativa vigente, con enfoque preventivo.",
+        "puntos": [
+          "Contratos laborales y comerciales",
+          "Negociación de cláusulas",
+          "Mitigación de riesgos legales"
+        ]
+      },
+      {
+        "nombre": "Propiedad intelectual",
+        "icono": "lupa",
+        "texto": "Protegemos tu creatividad y tus activos intangibles.",
+        "puntos": [
+          "Registro de marcas",
+          "Defensa ante el IMPI",
+          "Estrategias de protección"
+        ]
+      },
+      {
+        "nombre": "REPSE",
+        "icono": "edificio",
+        "texto": "Gestión integral del registro y cumplimiento para servicios especializados.",
+        "puntos": [
+          "Registro ante REPSE",
+          "Cumplimiento normativo",
+          "Contratos de servicios especializados",
+          "Prevención de sanciones"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-16",
+    "fuente": "Facebook"
   }
 ]
