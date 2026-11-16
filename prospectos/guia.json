@@ -1365,5 +1365,31 @@
   "alta": "2026-11-16",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "iure-codex",
+  "nombre": "Corporativo Jurídico Iure Códex",
+  "rol": "Derecho familiar, civil e inmobiliario · Tijuana",
+  "ciudad": "tijuana",
+  "materias": [
+   "familiar",
+   "civil"
+  ],
+  "plan": "basico",
+  "foto": "/iure-codex/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "IC",
+  "whatsapp": "526641759654",
+  "telefono": "6641759654",
+  "cedula": "13372247",
+  "verificada": false,
+  "verificada_fecha": "",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-16",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
