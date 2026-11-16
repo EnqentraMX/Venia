@@ -7458,14 +7458,14 @@
         "17:00"
       ]
     },
-    "descripcion": "Tu Defensa Jurídica: despacho especializado en juicio de amparo, con asesoría en derecho penal, civil y familiar en Chihuahua. Lic. Jesús Antonio Urbina, abogado litigante con más de 30 años de experiencia, ex agente del Ministerio Público, mediador certificado y capacitador del sistema penal.",
+    "descripcion": "Tu Defensa Jurídica: despacho especializado en juicio de amparo, con asesoría en derecho penal, civil, familiar y mercantil en Chihuahua. Lic. Jesús Antonio Urbina, abogado litigante con más de 30 años de experiencia, ex agente del Ministerio Público, mediador certificado y capacitador del sistema penal.",
     "modalidad": "Más de 30 años de experiencia",
     "portada": [
       "Sin una buena",
       "defensa, no hay",
       "justicia."
     ],
-    "texto_portada": "Con nosotros, tu caso está en las mejores manos: amparo, derecho penal, civil y familiar en Chihuahua. Somos mediadores certificados y capacitadores del sistema penal.",
+    "texto_portada": "Con nosotros, tu caso está en las mejores manos: amparo, derecho penal, civil, familiar y mercantil en Chihuahua. Somos mediadores certificados y capacitadores del sistema penal.",
     "frase": "Con nosotros, tu caso está en las mejores manos.",
     "compromisos": [
       "Más de 30 años de experiencia",
@@ -7536,6 +7536,16 @@
         ]
       },
       {
+        "nombre": "Derecho mercantil",
+        "icono": "maletin",
+        "texto": "Defendemos tu negocio y tu patrimonio en asuntos comerciales.",
+        "puntos": [
+          "Juicios mercantiles",
+          "Cobro de deudas y pagarés",
+          "Contratos comerciales"
+        ]
+      },
+      {
         "nombre": "Derechos humanos",
         "icono": "lupa",
         "texto": "Protección de tus derechos fundamentales.",
@@ -7558,7 +7568,17 @@
     "estado": "vendido",
     "plan": "premium",
     "alta": "2026-11-15",
-    "fuente": "Página web"
+    "fuente": "Página web",
+    "consultas": [
+      {
+        "modo": "Consulta virtual",
+        "precio": 1000
+      },
+      {
+        "modo": "Consulta presencial",
+        "precio": 1000
+      }
+    ]
   },
   {
     "slug": "decm-asesores",

@@ -1314,13 +1314,14 @@
  {
   "slug": "tu-defensa-juridica",
   "nombre": "Lic. Jesús Antonio Urbina",
-  "rol": "Tu Defensa Jurídica · 30 años · Amparo, penal, civil, familiar y mediación · Chihuahua",
+  "rol": "Tu Defensa Jurídica · 30 años · Amparo, penal, civil, familiar, mercantil y mediación · Chihuahua",
   "ciudad": "chihuahua",
   "materias": [
    "amparo",
    "penal",
    "civil",
-   "familiar"
+   "familiar",
+   "mercantil"
   ],
   "plan": "premium",
   "foto": "/tu-defensa-juridica/foto.jpg",
@@ -1337,7 +1338,8 @@
   "estado": "activo",
   "alta": "2026-11-15",
   "vence": "",
-  "pago": "pendiente"
+  "pago": "pendiente",
+  "consulta": "Consulta desde $1,000"
  },
  {
   "slug": "decm-asesores",

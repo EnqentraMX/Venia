@@ -9,7 +9,7 @@ window.DATOS = {
   "sufijo": "Abogado litigante",
   "abogado": "Lic. Jesús Antonio Urbina",
   "titulo": "Sin una buena defensa, no hay justicia",
-  "descripcion": "Tu Defensa Jurídica: despacho especializado en juicio de amparo, con asesoría en derecho penal, civil y familiar en Chihuahua. Lic. Jesús Antonio Urbina, abogado litigante con más de 30 años de experiencia, ex agente del Ministerio Público, mediador certificado y capacitador del sistema penal.",
+  "descripcion": "Tu Defensa Jurídica: despacho especializado en juicio de amparo, con asesoría en derecho penal, civil, familiar y mercantil en Chihuahua. Lic. Jesús Antonio Urbina, abogado litigante con más de 30 años de experiencia, ex agente del Ministerio Público, mediador certificado y capacitador del sistema penal.",
   "cedula": "",
   "modalidad": "Más de 30 años de experiencia",
   "iniciales": "JU",
@@ -29,13 +29,22 @@ window.DATOS = {
       "defensa, no hay",
       "justicia."
     ],
-    "texto": "Con nosotros, tu caso está en las mejores manos: amparo, derecho penal, civil y familiar en Chihuahua. Somos mediadores certificados y capacitadores del sistema penal."
+    "texto": "Con nosotros, tu caso está en las mejores manos: amparo, derecho penal, civil, familiar y mercantil en Chihuahua. Somos mediadores certificados y capacitadores del sistema penal."
   },
   "whatsapp": "526141754135",
   "telefono": "6141754135",
   "telefonoVisible": "614 175 4135",
   "correo": "",
-  "consultas": [],
+  "consultas": [
+    {
+      "modo": "Consulta virtual",
+      "precio": 1000
+    },
+    {
+      "modo": "Consulta presencial",
+      "precio": 1000
+    }
+  ],
   "precioConsulta": "",
   "areas": [
     {
@@ -75,6 +84,16 @@ window.DATOS = {
       "puntos": [
         "Derecho civil",
         "Derecho familiar"
+      ]
+    },
+    {
+      "nombre": "Derecho mercantil",
+      "icono": "maletin",
+      "texto": "Defendemos tu negocio y tu patrimonio en asuntos comerciales.",
+      "puntos": [
+        "Juicios mercantiles",
+        "Cobro de deudas y pagarés",
+        "Contratos comerciales"
       ]
     },
     {
