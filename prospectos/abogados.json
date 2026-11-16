@@ -7691,7 +7691,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-16",
     "fuente": "Facebook"

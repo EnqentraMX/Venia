@@ -1342,33 +1342,6 @@
   "consulta": "Consulta $1,000 virtual o presencial"
  },
  {
-  "slug": "decm-asesores",
-  "nombre": "decm Asesores",
-  "rol": "Seguridad social, laboral preventivo, contratos, marcas y REPSE · Guadalajara",
-  "ciudad": "guadalajara",
-  "materias": [
-   "laboral",
-   "mercantil",
-   "civil"
-  ],
-  "plan": "premium",
-  "foto": "/decm-asesores/logo.jpg",
-  "logo": true,
-  "fondo": "#f7f4ee",
-  "iniciales": "DM",
-  "whatsapp": "523329637942",
-  "telefono": "3329637942",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/decm-asesores/",
-  "redes": {},
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-16",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
   "slug": "iure-codex",
   "nombre": "Corporativo Jurídico Iure Códex",
   "rol": "Derecho familiar, civil e inmobiliario · Tijuana",

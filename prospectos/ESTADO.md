@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 44 · Borrados: 21
+Propuestas: 0 · Vendidos: 43 · Borrados: 22
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -25,6 +25,7 @@ Propuestas: 0 · Vendidos: 44 · Borrados: 21
 | 2026-11-13 | JS Abogados Asociados | /js-abogados/ | borrar | https://www.facebook.com/profile.php?id=61595848097885 |
 | 2026-11-13 | Lic. Valente Casanova | /casanova-abogados/ | borrar | https://www.facebook.com/valentecasanova |
 | 2026-11-14 | E.M.A.H.I. Despacho Jurídico | /emahi-despacho/ | borrar | 7226781415 |
+| 2026-11-16 | decm Asesores | /decm-asesores/ | borrar | 3329637942 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
 | 2026-11-07 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | vendido | https://www.facebook.com/profile.php?id=61575816882807 |
@@ -67,5 +68,4 @@ Propuestas: 0 · Vendidos: 44 · Borrados: 21
 | 2026-11-14 | Mtra. Abigail Catarino | /abigail-catarino/ | vendido | https://www.facebook.com/profile.php?id=61589239499737 |
 | 2026-11-15 | Lic. Luis Romero | /luis-romero/ | vendido | 4446712359 |
 | 2026-11-15 | Lic. Jesús Antonio Urbina | /tu-defensa-juridica/ | vendido | 6141754135 |
-| 2026-11-16 | decm Asesores | /decm-asesores/ | vendido | 3329637942 |
 | 2026-11-16 | Lic. Armando Heredia Coutiño | /armando-heredia/ | vendido | 5547594986 |
