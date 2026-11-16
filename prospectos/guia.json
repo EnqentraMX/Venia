@@ -1395,5 +1395,40 @@
   "alta": "2026-11-16",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "atv-abogados",
+  "nombre": "ATV Abogados",
+  "rol": "Despacho jurídico · 30 años · Civil, familiar, laboral, mercantil, inmobiliario y penal · Cancún",
+  "ciudad": "cancun",
+  "materias": [
+   "familiar",
+   "civil",
+   "laboral",
+   "mercantil",
+   "penal",
+   "sucesiones",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/atv-abogados/logo.jpg",
+  "logo": true,
+  "fondo": "#0b0b0b",
+  "iniciales": "ATV",
+  "whatsapp": "529983478202",
+  "telefono": "9983478202",
+  "consulta": "Primera consulta sin costo",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/atv-abogados/",
+  "redes": {
+   "facebook": "https://www.facebook.com/share/14h4yQbukjY/",
+   "instagram": "https://www.instagram.com/atv.abogados"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-16",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

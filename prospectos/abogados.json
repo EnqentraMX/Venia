@@ -7829,5 +7829,157 @@
     "plan": "premium",
     "alta": "2026-11-16",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "atv-abogados",
+    "nombre": "ATV Abogados",
+    "despacho": "ATV Abogados",
+    "sufijo": "Despacho jurídico en Cancún",
+    "despacho_largo": "ATV Abogados | Despacho jurídico en Cancún, Quintana Roo",
+    "titulo": "Más de 30 años de experiencia",
+    "iniciales": "ATV",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0b0b0b",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Cancún",
+    "telefono": "9983478202",
+    "direccion": "Av. Chilam Balam 253, Riviera, 77500 Cancún, Q.R.",
+    "facebook": "https://www.facebook.com/share/14h4yQbukjY/",
+    "instagram": "https://www.instagram.com/atv.abogados",
+    "referencia": "ATV Abogados: despacho jurídico en Cancún con más de 30 años de experiencia en derecho civil, familiar, laboral, mercantil, inmobiliario, penal y registro de marcas.",
+    "descripcion": "ATV Abogados, despacho jurídico en Cancún con más de 30 años de experiencia. Civil, familiar, laboral, mercantil, inmobiliario, penal y registro de marcas. Primera consulta sin costo y confidencialidad absoluta.",
+    "modalidad": "Confidencialidad absoluta",
+    "consultas": [
+      {
+        "modo": "Primera consulta",
+        "precio": 0
+      }
+    ],
+    "portada": [
+      "Defendemos",
+      "tus derechos",
+      "con estrategia."
+    ],
+    "texto_portada": "Experiencia y compromiso en derecho civil, familiar, laboral, mercantil, inmobiliario y penal en Cancún. Tu primera consulta es sin costo.",
+    "frase": "Defendemos tus derechos con estrategia, experiencia y compromiso.",
+    "compromisos": [
+      "Más de 30 años de experiencia",
+      "Primera consulta sin costo",
+      "Confidencialidad absoluta",
+      "Consulta, análisis, estrategia y resolución"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me despidieron de mi trabajo",
+        "urgente": true
+      },
+      {
+        "texto": "Fui víctima de un delito y quiero denunciar",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Mi inquilino no paga o me despojaron de mi propiedad",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero (pagarés, cheques o facturas)",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero registrar mi marca",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Protegemos a tu familia en cada etapa.",
+        "puntos": [
+          "Divorcios y sociedad conyugal",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Paternidad, patria potestad y adopción",
+          "Sucesiones testamentarias y legítimas"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Contratos y obligaciones con respaldo legal.",
+        "puntos": [
+          "Contratos y obligaciones",
+          "Cobro de deudas",
+          "Responsabilidad civil y daño moral",
+          "Jurisdicción voluntaria: tutelas, concubinato, usucapión, apeo y deslinde"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Defendemos a trabajadores y asesoramos a empresas.",
+        "puntos": [
+          "Despido, reinstalación e indemnización",
+          "Horas extras y riesgos de trabajo",
+          "Defensa de empresas ante demandas",
+          "Finiquitos, contratos y reglamento interior",
+          "NOM-030 y NOM-035"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "acuerdo",
+        "texto": "Protegemos tu negocio y recuperamos lo que te deben.",
+        "puntos": [
+          "Contratos comerciales",
+          "Cobranza de pagarés, cheques y facturas",
+          "Juicios ejecutivos y ordinarios",
+          "Concursos mercantiles"
+        ]
+      },
+      {
+        "nombre": "Derecho inmobiliario",
+        "icono": "edificio",
+        "texto": "Defendemos tu propiedad.",
+        "puntos": [
+          "Desahucio y rescisión de arrendamiento",
+          "Despojos y acción reivindicatoria",
+          "Usucapión y acción proforma",
+          "Copropiedad y cuotas de condominio"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Asesoría y representación de víctimas.",
+        "puntos": [
+          "Denuncias y querellas",
+          "Medidas cautelares",
+          "Seguimiento de carpetas de investigación",
+          "Amparos"
+        ]
+      },
+      {
+        "nombre": "Marcas y propiedad intelectual",
+        "icono": "lupa",
+        "texto": "Protegemos tu marca ante el IMPI.",
+        "puntos": [
+          "Búsqueda de viabilidad",
+          "Registro y seguimiento",
+          "Renovación"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-16",
+    "fuente": "Sitio web"
   }
 ]

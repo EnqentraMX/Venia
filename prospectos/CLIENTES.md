@@ -6,6 +6,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 |---|---|---|---|---|---|---|---|
 | AJ Servicios Legales | premium | Cancún | 2026-11-13 | — | pendiente | activo | no |
 | AMA Corp Contadores y Abogados | premium | Guadalajara | 2026-11-14 | — | pendiente | activo | no |
+| ATV Abogados | premium | Cancún | 2026-11-16 | — | pendiente | activo | no |
 | Abigail Catarino & Abogados | premium | Ciudad de México | 2026-11-14 | — | pendiente | activo | no |
 | Abogada Yulieth Alejandra | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | Abogados Penalistas de Oriente | premium | Ciudad de México | 2026-11-07 | — | pendiente | activo | no |
