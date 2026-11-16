@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 43 · Borrados: 21
+Propuestas: 0 · Vendidos: 44 · Borrados: 21
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -68,3 +68,4 @@ Propuestas: 0 · Vendidos: 43 · Borrados: 21
 | 2026-11-15 | Lic. Luis Romero | /luis-romero/ | vendido | 4446712359 |
 | 2026-11-15 | Lic. Jesús Antonio Urbina | /tu-defensa-juridica/ | vendido | 6141754135 |
 | 2026-11-16 | decm Asesores | /decm-asesores/ | vendido | 3329637942 |
+| 2026-11-16 | Lic. Armando Heredia Coutiño | /armando-heredia/ | vendido | 5547594986 |

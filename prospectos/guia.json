@@ -1391,5 +1391,34 @@
   "alta": "2026-11-16",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "armando-heredia",
+  "nombre": "Lic. Armando Heredia Coutiño",
+  "rol": "Asesorías Gubernamentales del Estado de México · Civil, familiar y penal (adolescentes)",
+  "ciudad": "edomex",
+  "materias": [
+   "familiar",
+   "civil",
+   "penal",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/armando-heredia/logo.jpg",
+  "logo": true,
+  "fondo": "#0a0a0a",
+  "iniciales": "AH",
+  "whatsapp": "525547594986",
+  "telefono": "5547594986",
+  "consulta": "Asesoría gratuita",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/armando-heredia/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-16",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
