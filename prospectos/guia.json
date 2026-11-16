@@ -1310,5 +1310,34 @@
   "alta": "2026-11-15",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "tu-defensa-juridica",
+  "nombre": "Lic. Jesús Antonio Urbina",
+  "rol": "Tu Defensa Jurídica · Amparo, penal, fiscal, civil y familiar · Chihuahua",
+  "ciudad": "chihuahua",
+  "materias": [
+   "amparo",
+   "penal",
+   "fiscal",
+   "civil",
+   "familiar"
+  ],
+  "plan": "premium",
+  "foto": "/tu-defensa-juridica/foto.jpg",
+  "logo": false,
+  "fondo": "",
+  "iniciales": "JU",
+  "whatsapp": "526141754135",
+  "telefono": "6141754135",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/tu-defensa-juridica/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-15",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

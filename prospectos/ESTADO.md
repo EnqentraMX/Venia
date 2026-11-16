@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 41 · Borrados: 21
+Propuestas: 0 · Vendidos: 42 · Borrados: 21
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -66,3 +66,4 @@ Propuestas: 0 · Vendidos: 41 · Borrados: 21
 | 2026-11-14 | BSL Asesoría y Servicios Legales | /bsl-servicios-legales/ | vendido | 5638383030 |
 | 2026-11-14 | Mtra. Abigail Catarino | /abigail-catarino/ | vendido | https://www.facebook.com/profile.php?id=61589239499737 |
 | 2026-11-15 | Lic. Luis Romero | /luis-romero/ | vendido | 4446712359 |
+| 2026-11-15 | Lic. Jesús Antonio Urbina | /tu-defensa-juridica/ | vendido | 6141754135 |
