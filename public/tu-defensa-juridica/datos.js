@@ -9,9 +9,9 @@ window.DATOS = {
   "sufijo": "Abogado litigante",
   "abogado": "Lic. Jesús Antonio Urbina",
   "titulo": "Sin una buena defensa, no hay justicia",
-  "descripcion": "Tu Defensa Jurídica: despacho especializado en juicio de amparo, con asesoría en derecho penal, fiscal, civil y familiar en Chihuahua. Lic. Jesús Antonio Urbina, abogado litigante con más de 20 años de experiencia y ex agente del Ministerio Público.",
+  "descripcion": "Tu Defensa Jurídica: despacho especializado en juicio de amparo, con asesoría en derecho penal, civil y familiar en Chihuahua. Lic. Jesús Antonio Urbina, abogado litigante con más de 30 años de experiencia, ex agente del Ministerio Público, mediador certificado y capacitador del sistema penal.",
   "cedula": "",
-  "modalidad": "Más de 20 años de experiencia",
+  "modalidad": "Más de 30 años de experiencia",
   "iniciales": "JU",
   "foto": "foto.jpg",
   "fotoLogo": false,
@@ -29,7 +29,7 @@ window.DATOS = {
       "defensa, no hay",
       "justicia."
     ],
-    "texto": "Con nosotros, tu caso está en las mejores manos: amparo, derecho penal, fiscal, civil y familiar en Chihuahua."
+    "texto": "Con nosotros, tu caso está en las mejores manos: amparo, derecho penal, civil y familiar en Chihuahua. Somos mediadores certificados y capacitadores del sistema penal."
   },
   "whatsapp": "526141754135",
   "telefono": "6141754135",
@@ -59,12 +59,13 @@ window.DATOS = {
       ]
     },
     {
-      "nombre": "Derecho fiscal",
-      "icono": "maletin",
-      "texto": "Defensa frente a la autoridad fiscal.",
+      "nombre": "Mediación certificada",
+      "icono": "acuerdo",
+      "texto": "Somos mediadores certificados: resolvemos conflictos con acuerdos, sin desgaste.",
       "puntos": [
-        "Asesoría fiscal",
-        "Defensa ante el SAT"
+        "Mediación",
+        "Acuerdos reparatorios",
+        "Solución de conflictos"
       ]
     },
     {
@@ -78,20 +79,30 @@ window.DATOS = {
     },
     {
       "nombre": "Derechos humanos",
-      "icono": "acuerdo",
+      "icono": "lupa",
       "texto": "Protección de tus derechos fundamentales.",
       "puntos": [
         "Derechos humanos",
         "Personas privadas de la libertad"
       ]
+    },
+    {
+      "nombre": "Capacitación en sistema penal",
+      "icono": "documento",
+      "texto": "Capacitadores del sistema de justicia penal acusatorio.",
+      "puntos": [
+        "Capacitación en sistema penal acusatorio",
+        "Juicios orales",
+        "Argumentación jurídica"
+      ]
     }
   ],
   "paquetes": [],
   "compromisos": [
-    "Más de 20 años de experiencia",
+    "Más de 30 años de experiencia",
     "Ex agente del Ministerio Público",
-    "Certificado en argumentación jurídica",
-    "Lunes a viernes de 9 a 5"
+    "Mediadores certificados",
+    "Capacitadores del sistema penal"
   ],
   "situaciones": [
     {
@@ -103,15 +114,15 @@ window.DATOS = {
       "urgente": true
     },
     {
-      "texto": "Tengo un problema con el SAT o un crédito fiscal",
-      "urgente": false
-    },
-    {
       "texto": "Necesito divorcio, pensión o custodia",
       "urgente": false
     },
     {
       "texto": "Mi empresa enfrenta un problema penal",
+      "urgente": false
+    },
+    {
+      "texto": "Quiero resolver un conflicto con mediación, sin juicio",
       "urgente": false
     }
   ],
@@ -156,7 +167,7 @@ window.DATOS = {
     {
       "nombre": "Chihuahua, Chihuahua",
       "direccion": "Av. Benito Juárez 1603 C, Zona Centro II, C.P. 31020, Chihuahua, Chih.",
-      "referencia": "Más de 20 años de experiencia en derecho penal, amparo y litigio oral. Ex agente del Ministerio Público en la Fiscalía General de Chihuahua. Sitio web: tudefensajuridica.mx"
+      "referencia": "Más de 30 años de experiencia en derecho penal, amparo y litigio oral. Ex agente del Ministerio Público en la Fiscalía General de Chihuahua. Mediadores certificados y capacitadores del sistema penal. Sitio web: tudefensajuridica.mx"
     }
   ],
   "redes": {
