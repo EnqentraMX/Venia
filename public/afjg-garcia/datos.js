@@ -155,7 +155,7 @@ window.DATOS = {
   "oficinas": [
     {
       "nombre": "Puebla, Puebla",
-      "direccion": "Río Cazones 5103, Col. San Manuel, Puebla, Pue., C.P. 72040",
+      "direccion": "Río Cazones 5103, Jardines de San Manuel, Puebla, Pue., C.P. 72570",
       "referencia": "Atención personalizada y estrategias efectivas. Agenda tu asesoría por WhatsApp."
     }
   ],
