@@ -1516,5 +1516,33 @@
   "otras_ciudades": [
    "edomex"
   ]
+ },
+ {
+  "slug": "joaquin-engelss",
+  "nombre": "Lic. Joaquín Engelss Buendía Díaz",
+  "rol": "Penal, familiar, civil e inmobiliario, mercantil, herencias y amparo · Estado de México",
+  "ciudad": "edomex",
+  "materias": [
+   "penal",
+   "familiar",
+   "civil",
+   "mercantil",
+   "sucesiones",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "/joaquin-engelss/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "JE",
+  "whatsapp": "525535184560",
+  "telefono": "5535184560",
+  "cedula": "9719834",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-16",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

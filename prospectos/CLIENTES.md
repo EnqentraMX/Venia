@@ -53,5 +53,6 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Castillo & Abogados | basico | Monterrey | 2026-11-06 | — | pendiente | activo | no |
 | Corporativo Jurídico Iure Códex | basico | Tijuana | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Dalia Márquez Ramírez | basico | Ciudad de México | 2026-11-06 | — | pendiente | activo | no |
+| Lic. Joaquín Engelss Buendía Díaz | basico | Estado de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Juan de Jesús Martínez de Loera | basico | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
 | Servicios Legales V.S. | basico | Ciudad de México | 2026-11-07 | — | pendiente | activo | no |
