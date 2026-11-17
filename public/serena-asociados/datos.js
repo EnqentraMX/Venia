@@ -13,7 +13,7 @@ window.DATOS = {
   "cedula": "",
   "modalidad": "Para personas físicas y empresas",
   "iniciales": "DS",
-  "foto": "logo.jpg",
+  "foto": "logo2.jpg",
   "fotoLogo": true,
   "fondoLogo": "#ffffff",
   "equipo": [],
