@@ -1457,5 +1457,32 @@
   "alta": "2026-11-16",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "seda-defensa-penal",
+  "nombre": "SEDA Defensa Penal",
+  "rol": "Lic. Fernando Seda · Defensa y prevención penal para empresas · Guadalajara",
+  "ciudad": "guadalajara",
+  "materias": [
+   "penal"
+  ],
+  "plan": "premium",
+  "foto": "/seda-defensa-penal/logo.jpg",
+  "logo": true,
+  "fondo": "#080808",
+  "iniciales": "SD",
+  "whatsapp": "523311418458",
+  "telefono": "3311418458",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/seda-defensa-penal/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61594973199763"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-16",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

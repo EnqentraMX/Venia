@@ -8078,5 +8078,115 @@
     "plan": "premium",
     "alta": "2026-11-16",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "seda-defensa-penal",
+    "nombre": "Lic. Fernando Seda",
+    "despacho": "SEDA Defensa Penal",
+    "sufijo": "Defensa penal empresarial",
+    "despacho_largo": "SEDA Defensa Penal | Defensa penal para empresas en Guadalajara",
+    "titulo": "Defensa y prevención penal para empresas",
+    "iniciales": "SD",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#080808",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Guadalajara",
+    "telefono": "3311418458",
+    "direccion": "Guadalajara, Jalisco",
+    "facebook": "https://www.facebook.com/profile.php?id=61594973199763",
+    "referencia": "SEDA Defensa Penal: servicios jurídicos especializados en materia penal para empresas de distintos giros comerciales e industriales.",
+    "descripcion": "SEDA Defensa Penal, Lic. Fernando Seda: defensa y prevención penal para empresas. Delitos patrimoniales, fraudes y abuso de confianza, sector construcción, transporte y logística, prevención de riesgos penales y defensa ante denuncias e investigaciones.",
+    "modalidad": "Para empresas de todos los giros",
+    "portada": [
+      "Protege tu empresa,",
+      "tu patrimonio",
+      "y tu tranquilidad."
+    ],
+    "texto_portada": "Servicios jurídicos especializados en materia penal para empresas de distintos giros comerciales e industriales. Solicita una reunión y conoce cómo podemos apoyar a tu organización.",
+    "frase": "Estrategia, prevención y defensa penal para proteger lo que has construido.",
+    "compromisos": [
+      "Defensa penal empresarial",
+      "Prevención de riesgos penales",
+      "Construcción, transporte y logística",
+      "Estrategia para proteger tu patrimonio"
+    ],
+    "situaciones": [
+      {
+        "texto": "Mi empresa recibió una denuncia o está en una investigación penal",
+        "urgente": true
+      },
+      {
+        "texto": "Robaron mercancía o una unidad de mi empresa",
+        "urgente": true
+      },
+      {
+        "texto": "Un socio, empleado o cliente cometió un fraude o abuso de confianza",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero prevenir riesgos penales en mi negocio",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Defensa penal patrimonial",
+        "icono": "escudo",
+        "texto": "Atención a fraudes y delitos que afectan el patrimonio de tu empresa.",
+        "puntos": [
+          "Fraudes",
+          "Abuso de confianza",
+          "Administración fraudulenta",
+          "Delitos patrimoniales"
+        ]
+      },
+      {
+        "nombre": "Sector construcción",
+        "icono": "edificio",
+        "texto": "Asesoría ante posibles conflictos penales en tus operaciones.",
+        "puntos": [
+          "Operaciones y patrimonio",
+          "Maquinaria y materiales",
+          "Relaciones comerciales"
+        ]
+      },
+      {
+        "nombre": "Transporte y logística",
+        "icono": "maletin",
+        "texto": "Atención a contingencias penales que afectan tu operación.",
+        "puntos": [
+          "Robo de mercancías",
+          "Robo de unidades",
+          "Fraudes en el transporte"
+        ]
+      },
+      {
+        "nombre": "Prevención de riesgos penales",
+        "icono": "lupa",
+        "texto": "Convierte la prevención jurídica en una herramienta para proteger tu negocio.",
+        "puntos": [
+          "Identificación de situaciones de riesgo",
+          "Asesoría preventiva",
+          "Orientación para decisiones empresariales"
+        ]
+      },
+      {
+        "nombre": "Defensa y representación legal",
+        "icono": "balanza",
+        "texto": "Atención especializada en cada etapa del procedimiento penal.",
+        "puntos": [
+          "Denuncias",
+          "Investigaciones",
+          "Procedimientos penales"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-16",
+    "fuente": "Facebook"
   }
 ]
