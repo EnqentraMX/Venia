@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 44 · Borrados: 22
+Propuestas: 0 · Vendidos: 45 · Borrados: 22
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -70,3 +70,4 @@ Propuestas: 0 · Vendidos: 44 · Borrados: 22
 | 2026-11-15 | Lic. Jesús Antonio Urbina | /tu-defensa-juridica/ | vendido | 6141754135 |
 | 2026-11-16 | Lic. Armando Heredia Coutiño | /armando-heredia/ | vendido | 5547594986 |
 | 2026-11-16 | ATV Abogados | /atv-abogados/ | vendido | https://www.facebook.com/share/14h4yQbukjY/ |
+| 2026-11-16 | Lic. Edgar Iván Ávila Canseco | /ivan-canseco/ | vendido | 3122116893 |

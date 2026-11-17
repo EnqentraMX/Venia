@@ -1430,5 +1430,32 @@
   "alta": "2026-11-16",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "ivan-canseco",
+  "nombre": "Lic. Edgar Iván Ávila Canseco",
+  "rol": "Laboral, civil y mercantil · Perito en documentos cuestionados · Toluca",
+  "ciudad": "edomex",
+  "materias": [
+   "laboral",
+   "civil",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/ivan-canseco/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "IC",
+  "whatsapp": "523122116893",
+  "telefono": "3122116893",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/ivan-canseco/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-16",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

@@ -7981,5 +7981,102 @@
     "plan": "premium",
     "alta": "2026-11-16",
     "fuente": "Sitio web"
+  },
+  {
+    "slug": "ivan-canseco",
+    "nombre": "Lic. Edgar Iván Ávila Canseco",
+    "despacho": "Iván Canseco Abogado",
+    "sufijo": "Laboral · Civil · Mercantil · Perito",
+    "despacho_largo": "Lic. Iván Ávila Canseco | Abogado y perito en Toluca",
+    "titulo": "Abogado y perito en documentos cuestionados",
+    "iniciales": "IC",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Toluca",
+    "telefono": "3122116893",
+    "correo": "avilacanseco482@gmail.com",
+    "direccion": "Toluca, Estado de México",
+    "referencia": "Lic. Edgar Iván Ávila Canseco: especialista en materia laboral, civil y mercantil, y perito en documentos cuestionados en Toluca.",
+    "descripcion": "Lic. Edgar Iván Ávila Canseco, abogado en Toluca, Estado de México. Especialista en materia laboral, civil y mercantil, y perito en documentos cuestionados: dactiloscopia, grafología, grafoscopia y caligrafía.",
+    "modalidad": "Dictámenes con certeza y seguridad",
+    "portada": [
+      "Verdad, precisión",
+      "y confianza",
+      "en cada dictamen."
+    ],
+    "texto_portada": "Especialista en materia laboral, civil y mercantil, y perito en documentos cuestionados en Toluca, Estado de México.",
+    "frase": "Cada detalle cuenta, cada trazo tiene un porqué. La ciencia revela lo que otros no ven.",
+    "compromisos": [
+      "Especialista laboral, civil y mercantil",
+      "Perito en documentos cuestionados",
+      "Profesionalismo que genera certeza",
+      "Atención en Toluca"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me despidieron o tengo un problema en mi trabajo",
+        "urgente": true
+      },
+      {
+        "texto": "Creo que falsificaron mi firma o un documento",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito un dictamen pericial para un juicio",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero o tengo un problema con un contrato",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Defendemos tus derechos en el trabajo.",
+        "puntos": [
+          "Despidos y demandas laborales",
+          "Asesoría en conflictos laborales"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protegemos tu patrimonio y tus derechos.",
+        "puntos": [
+          "Contratos",
+          "Juicios civiles"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "acuerdo",
+        "texto": "Defendemos tu negocio.",
+        "puntos": [
+          "Cobro de deudas",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Perito en documentos cuestionados",
+        "icono": "lupa",
+        "texto": "Verdad, precisión y confianza en cada dictamen.",
+        "puntos": [
+          "Dactiloscopia: análisis de huellas dactilares para determinar su autenticidad",
+          "Grafología: estudio de la escritura para identificar la autoría",
+          "Grafoscopia: comparación y análisis de manuscritos, firmas y trazos",
+          "Caligrafía: análisis técnico para determinar autoría y características"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-16",
+    "fuente": "Facebook"
   }
 ]
