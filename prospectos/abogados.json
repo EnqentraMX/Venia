@@ -8294,5 +8294,122 @@
     "plan": "premium",
     "alta": "2026-11-16",
     "fuente": "Sitio web"
+  },
+  {
+    "slug": "agustina-nicolas",
+    "nombre": "Lic. Agustina Nicolás",
+    "despacho": "Lic. Agustina Nicolás",
+    "sufijo": "Asesoría jurídica",
+    "despacho_largo": "Lic. Agustina Nicolás | Abogada familiar, administrativa y civil en CDMX",
+    "titulo": "Asesoría jurídica",
+    "iniciales": "AN",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0c0b0a",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad de México",
+    "telefono": "5629777738",
+    "direccion": "Ciudad de México",
+    "referencia": "Lic. Agustina Nicolás: asesoría jurídica en derecho familiar, administrativo (INVEA, permisos y nulidad), civil, mercantil y laboral en la Ciudad de México.",
+    "descripcion": "Lic. Agustina Nicolás, asesoría jurídica en la Ciudad de México. Derecho familiar (divorcios, pensiones, sucesiones y testamentos), derecho administrativo (demandas de nulidad, visitas de INVEA, clausuras y permisos de establecimientos mercantiles y obras), derecho civil, mercantil y laboral.",
+    "modalidad": "Familiar, administrativo, civil y laboral",
+    "portada": [
+      "Asesoría jurídica",
+      "para tu familia",
+      "y tu negocio."
+    ],
+    "texto_portada": "Divorcios, pensiones y sucesiones; clausuras de INVEA, permisos de establecimientos mercantiles y obras; contratos, usucapión y asuntos laborales en la Ciudad de México.",
+    "frase": "Asesoría jurídica clara para proteger a tu familia, tu patrimonio y tu negocio.",
+    "compromisos": [
+      "Familiar y sucesiones",
+      "Clausuras y visitas de INVEA",
+      "Permisos de establecimientos y obras",
+      "Civil, mercantil y laboral"
+    ],
+    "situaciones": [
+      {
+        "texto": "Clausuraron o suspendieron mi negocio u obra (INVEA)",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito pensión alimenticia o reducir una pensión",
+        "urgente": false
+      },
+      {
+        "texto": "Me quiero divorciar",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar y hay que hacer la sucesión",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito permiso para mi establecimiento mercantil u obra",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema laboral",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Protegemos a tu familia y tu patrimonio.",
+        "puntos": [
+          "Divorcio",
+          "Pensiones alimenticias",
+          "Reducción de pensiones",
+          "Sucesiones intestamentarias y testamentarias",
+          "Testamentos"
+        ]
+      },
+      {
+        "nombre": "Derecho administrativo",
+        "icono": "edificio",
+        "texto": "Defensa ante la autoridad para tu negocio u obra.",
+        "puntos": [
+          "Demandas de nulidad",
+          "Visitas de INVEA",
+          "Clausuras y suspensiones de establecimientos mercantiles",
+          "Obras y uso de suelo"
+        ]
+      },
+      {
+        "nombre": "Permisos y trámites",
+        "icono": "documento",
+        "texto": "Te ayudamos a operar en regla.",
+        "puntos": [
+          "Permisos de establecimientos mercantiles de bajo impacto, zonal o vecinal",
+          "Permisos para obras",
+          "Programas internos"
+        ]
+      },
+      {
+        "nombre": "Derecho civil y mercantil",
+        "icono": "acuerdo",
+        "texto": "Protegemos tus bienes y tus acuerdos.",
+        "puntos": [
+          "Contratos",
+          "Juicios de usucapión",
+          "Asuntos mercantiles"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Asesoría en asuntos laborales.",
+        "puntos": [
+          "Asesoría y defensa laboral"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-16",
+    "fuente": "Facebook"
   }
 ]

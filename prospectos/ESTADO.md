@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 46 · Borrados: 23
+Propuestas: 0 · Vendidos: 47 · Borrados: 23
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -73,3 +73,4 @@ Propuestas: 0 · Vendidos: 46 · Borrados: 23
 | 2026-11-16 | ATV Abogados | /atv-abogados/ | vendido | https://www.facebook.com/share/14h4yQbukjY/ |
 | 2026-11-16 | Lic. Edgar Iván Ávila Canseco | /ivan-canseco/ | vendido | 3122116893 |
 | 2026-11-16 | Lic. Fernando Seda | /seda-defensa-penal/ | vendido | https://www.facebook.com/profile.php?id=61594973199763 |
+| 2026-11-16 | Lic. Agustina Nicolás | /agustina-nicolas/ | vendido | 5629777738 |

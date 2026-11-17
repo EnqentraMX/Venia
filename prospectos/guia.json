@@ -1484,5 +1484,34 @@
   "alta": "2026-11-16",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "agustina-nicolas",
+  "nombre": "Lic. Agustina Nicolás",
+  "rol": "Asesoría jurídica · Familiar, administrativo (INVEA y permisos), civil y laboral · CDMX",
+  "ciudad": "cdmx",
+  "materias": [
+   "familiar",
+   "sucesiones",
+   "civil",
+   "mercantil",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/agustina-nicolas/logo.jpg",
+  "logo": true,
+  "fondo": "#0c0b0a",
+  "iniciales": "AN",
+  "whatsapp": "525629777738",
+  "telefono": "5629777738",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/agustina-nicolas/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-16",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
