@@ -1488,7 +1488,7 @@
  {
   "slug": "agustina-nicolas",
   "nombre": "Lic. Agustina Nicolás",
-  "rol": "Asesoría jurídica · Familiar, administrativo (INVEA y permisos), civil y laboral · CDMX",
+  "rol": "Asesoría jurídica · Familiar, administrativo (INVEA y permisos), civil y laboral · CDMX y Edomex",
   "ciudad": "cdmx",
   "materias": [
    "familiar",
@@ -1512,6 +1512,9 @@
   "estado": "activo",
   "alta": "2026-11-16",
   "vence": "",
-  "pago": "pendiente"
+  "pago": "pendiente",
+  "otras_ciudades": [
+   "edomex"
+  ]
  }
 ]

@@ -9,7 +9,7 @@ window.DATOS = {
   "sufijo": "Asesoría jurídica",
   "abogado": "Lic. Agustina Nicolás",
   "titulo": "Asesoría jurídica",
-  "descripcion": "Lic. Agustina Nicolás, asesoría jurídica en la Ciudad de México. Derecho familiar (divorcios, pensiones, sucesiones y testamentos), derecho administrativo (demandas de nulidad, visitas de INVEA, clausuras y permisos de establecimientos mercantiles y obras), derecho civil, mercantil y laboral.",
+  "descripcion": "Lic. Agustina Nicolás, asesoría jurídica en la Ciudad de México y el Estado de México. Derecho familiar (divorcios, pensiones, sucesiones y testamentos), derecho administrativo (demandas de nulidad, visitas de INVEA, clausuras y permisos de establecimientos mercantiles y obras), derecho civil, mercantil y laboral.",
   "cedula": "",
   "modalidad": "Familiar, administrativo, civil y laboral",
   "iniciales": "AN",
@@ -29,7 +29,7 @@ window.DATOS = {
       "para tu familia",
       "y tu negocio."
     ],
-    "texto": "Divorcios, pensiones y sucesiones; clausuras de INVEA, permisos de establecimientos mercantiles y obras; contratos, usucapión y asuntos laborales en la Ciudad de México."
+    "texto": "Divorcios, pensiones y sucesiones; clausuras de INVEA, permisos de establecimientos mercantiles y obras; contratos, usucapión y asuntos laborales en la Ciudad de México y el Estado de México."
   },
   "whatsapp": "525629777738",
   "telefono": "5629777738",
@@ -141,9 +141,9 @@ window.DATOS = {
   "notaHorario": "",
   "oficinas": [
     {
-      "nombre": "Ciudad de México",
-      "direccion": "Ciudad de México",
-      "referencia": "Lic. Agustina Nicolás: asesoría jurídica en derecho familiar, administrativo (INVEA, permisos y nulidad), civil, mercantil y laboral en la Ciudad de México."
+      "nombre": "CDMX y Estado de México",
+      "direccion": "Ciudad de México y Estado de México",
+      "referencia": "Lic. Agustina Nicolás: asesoría jurídica en derecho familiar, administrativo (INVEA, permisos y nulidad), civil, mercantil y laboral en la Ciudad de México y el Estado de México."
     }
   ],
   "redes": {
