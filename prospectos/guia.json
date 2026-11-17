@@ -1544,5 +1544,36 @@
   "alta": "2026-11-16",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "serena-asociados",
+  "nombre": "Despacho Serena y Asociados",
+  "rol": "Abogados y contadores · Legal, fiscal-contable y trámites IMSS/SAT · Veracruz",
+  "ciudad": "veracruz",
+  "materias": [
+   "fiscal",
+   "civil",
+   "mercantil",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/serena-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "DS",
+  "whatsapp": "522291011940",
+  "telefono": "2291011940",
+  "consulta": "Asesoría inicial $1,000 virtual o presencial",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/serena-asociados/",
+  "redes": {
+   "facebook": "https://www.facebook.com/serenayasociados/"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-17",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

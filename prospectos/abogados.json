@@ -8411,5 +8411,118 @@
     "plan": "premium",
     "alta": "2026-11-16",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "serena-asociados",
+    "nombre": "Despacho Serena y Asociados",
+    "despacho": "Despacho Serena y Asociados, S.C.",
+    "sufijo": "Abogados y contadores",
+    "despacho_largo": "Serena y Asociados | Abogados y contadores",
+    "titulo": "Abogad@s & Contador@s",
+    "iniciales": "DS",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Veracruz",
+    "telefono": "2291011940",
+    "correo": "d.fiore_mark@hotmail.com",
+    "direccion": "Col. Centro, Veracruz, Ver., C.P. 91700",
+    "facebook": "https://www.facebook.com/serenayasociados/",
+    "referencia": "Despacho Serena y Asociados, S.C.: abogados y contadores en Veracruz. Asuntos legales, fiscales y contables, y trámites ante el IMSS, SAT y Hacienda del Estado.",
+    "descripcion": "Despacho Serena y Asociados, S.C., abogados y contadores públicos especialistas fiscales en Veracruz. Soluciones integrales en materia jurídica y fiscal-contable para personas físicas y empresas: asuntos legales, fiscales y contables, trámites ante el IMSS, SAT y Hacienda del Estado, CURP, RFC y actas.",
+    "modalidad": "Para personas físicas y empresas",
+    "consultas": [
+      {
+        "modo": "Asesoría inicial virtual",
+        "precio": 1000
+      },
+      {
+        "modo": "Asesoría inicial presencial",
+        "precio": 1000
+      }
+    ],
+    "portada": [
+      "¿Problemas legales",
+      "o fiscales?",
+      "Tenemos la solución."
+    ],
+    "texto_portada": "Somos un equipo de abogados y contadores que brinda soluciones integrales en materia jurídica y fiscal-contable, tanto a personas físicas como a empresas.",
+    "frase": "Nuestro profesionalismo nos respalda.",
+    "compromisos": [
+      "Abogados y contadores en un solo lugar",
+      "Especialistas fiscales",
+      "Personas físicas y empresas",
+      "Asesoría virtual o presencial"
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo un problema con el SAT o Hacienda",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito resolver un asunto legal",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un trámite pendiente en el IMSS",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito llevar la contabilidad de mi negocio",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito tramitar mi CURP, RFC o actas",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Asuntos legales",
+        "icono": "balanza",
+        "texto": "Soluciones jurídicas para personas físicas y empresas.",
+        "puntos": [
+          "Asesoría jurídica integral",
+          "Atención a personas físicas y empresas"
+        ]
+      },
+      {
+        "nombre": "Fiscal y contable",
+        "icono": "documento",
+        "texto": "Contadores públicos especialistas fiscales.",
+        "puntos": [
+          "Asesoría fiscal",
+          "Contabilidad",
+          "Cumplimiento ante el SAT"
+        ]
+      },
+      {
+        "nombre": "Trámites IMSS y SAT",
+        "icono": "edificio",
+        "texto": "Te acompañamos ante las autoridades.",
+        "puntos": [
+          "Trámites ante el IMSS",
+          "Trámites ante el SAT",
+          "Trámites ante Hacienda del Estado"
+        ]
+      },
+      {
+        "nombre": "Trámites personales",
+        "icono": "acuerdo",
+        "texto": "Resolvemos tus trámites sin complicaciones.",
+        "puntos": [
+          "CURP",
+          "RFC",
+          "Actas"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-17",
+    "fuente": "Facebook"
   }
 ]
