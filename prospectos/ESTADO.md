@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 47 · Borrados: 22
+Propuestas: 0 · Vendidos: 46 · Borrados: 23
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -26,6 +26,7 @@ Propuestas: 0 · Vendidos: 47 · Borrados: 22
 | 2026-11-13 | Lic. Valente Casanova | /casanova-abogados/ | borrar | https://www.facebook.com/valentecasanova |
 | 2026-11-14 | E.M.A.H.I. Despacho Jurídico | /emahi-despacho/ | borrar | 7226781415 |
 | 2026-11-16 | decm Asesores | /decm-asesores/ | borrar | 3329637942 |
+| 2026-11-16 | Miguel Centeno Silva | /miguel-centeno/ | borrar | https://m.facebook.com/miguel.centenosilva |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
 | 2026-11-07 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | vendido | https://www.facebook.com/profile.php?id=61575816882807 |
@@ -72,4 +73,3 @@ Propuestas: 0 · Vendidos: 47 · Borrados: 22
 | 2026-11-16 | ATV Abogados | /atv-abogados/ | vendido | https://www.facebook.com/share/14h4yQbukjY/ |
 | 2026-11-16 | Lic. Edgar Iván Ávila Canseco | /ivan-canseco/ | vendido | 3122116893 |
 | 2026-11-16 | Lic. Fernando Seda | /seda-defensa-penal/ | vendido | https://www.facebook.com/profile.php?id=61594973199763 |
-| 2026-11-16 | Miguel Centeno Silva | /miguel-centeno/ | vendido | https://m.facebook.com/miguel.centenosilva |

@@ -1484,34 +1484,5 @@
   "alta": "2026-11-16",
   "vence": "",
   "pago": "pendiente"
- },
- {
-  "slug": "miguel-centeno",
-  "nombre": "Miguel Centeno Silva",
-  "rol": "Abogado y estratega legal · Electoral, amparo, derechos humanos y cumplimiento · Hermosillo",
-  "ciudad": "hermosillo",
-  "materias": [
-   "amparo",
-   "mercantil"
-  ],
-  "plan": "premium",
-  "foto": "/miguel-centeno/logo.jpg",
-  "logo": true,
-  "fondo": "#0f1a2b",
-  "iniciales": "MCS",
-  "whatsapp": "526623960415",
-  "telefono": "6623960415",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/miguel-centeno/",
-  "redes": {
-   "facebook": "https://m.facebook.com/miguel.centenosilva",
-   "instagram": "https://www.instagram.com/miguelcentenosilva/"
-  },
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-16",
-  "vence": "",
-  "pago": "pendiente"
  }
 ]
