@@ -1393,5 +1393,35 @@
   "alta": "2026-11-18",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "lorenia-pavlova",
+  "nombre": "Lic. Lorenia Pavlova",
+  "rol": "Abogada · Familiar, civil y penal · Monterrey y Playa del Carmen",
+  "ciudad": "monterrey",
+  "otras_ciudades": [
+   "cancun"
+  ],
+  "materias": [
+   "familiar",
+   "civil",
+   "penal"
+  ],
+  "plan": "premium",
+  "foto": "/lorenia-pavlova/foto.jpg",
+  "logo": false,
+  "fondo": "",
+  "iniciales": "LP",
+  "whatsapp": "528123929483",
+  "telefono": "8123929483",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/lorenia-pavlova/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-18",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

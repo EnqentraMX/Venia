@@ -8767,5 +8767,93 @@
     "plan": "premium",
     "alta": "2026-11-18",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "lorenia-pavlova",
+    "nombre": "Lic. Lorenia Pavlova",
+    "despacho": "Abogada Lorenia Pavlova",
+    "sufijo": "Familiar · Civil · Penal",
+    "despacho_largo": "Lorenia Pavlova | Abogada",
+    "titulo": "Asesoría y representación jurídica",
+    "iniciales": "LP",
+    "foto": "foto.jpg",
+    "logo": false,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0e0d0c",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Monterrey y Playa del Carmen",
+    "telefono": "8123929483",
+    "direccion": "Pabellón M, Monterrey, N.L., y Playa del Carmen, Q. Roo",
+    "referencia": "Lic. Lorenia Pavlova: abogada en derecho familiar, civil y penal, con presencia en Monterrey, Nuevo León, y Playa del Carmen, Quintana Roo.",
+    "descripcion": "Lic. Lorenia Pavlova, abogada con presencia en Monterrey, Nuevo León, y Playa del Carmen, Quintana Roo. Asesoría y representación jurídica en derecho familiar, civil y penal, con experiencia, estrategia y compromiso.",
+    "modalidad": "Experiencia, estrategia y compromiso",
+    "portada": [
+      "Tu tranquilidad",
+      "legal es",
+      "mi prioridad."
+    ],
+    "texto_portada": "Me gusta ayudar a las personas cuando necesitan a alguien que defienda sus intereses. Detrás de cada expediente hay una persona, una historia y una situación que merece ser escuchada.",
+    "frase": "Defendiendo tus derechos con experiencia, estrategia y compromiso.",
+    "compromisos": [
+      "Asesoría y representación jurídica",
+      "Experiencia, estrategia y compromiso",
+      "Presencia en Monterrey",
+      "Presencia en Playa del Carmen"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o tengo una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con una propiedad o un contrato",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te escucho y defiendo tus intereses y los de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protegemos tu patrimonio y tus derechos.",
+        "puntos": [
+          "Juicios civiles",
+          "Contratos",
+          "Propiedades"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa con estrategia y compromiso.",
+        "puntos": [
+          "Defensa penal",
+          "Denuncias",
+          "Asesoría a víctimas"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-18",
+    "fuente": "Facebook"
   }
 ]
