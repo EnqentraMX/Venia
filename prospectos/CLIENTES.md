@@ -4,21 +4,14 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 
 | Abogado | Plan | Ciudad | Alta | Vence | Pago | Estado | Cédula verificada |
 |---|---|---|---|---|---|---|---|
-| AJ Servicios Legales | premium | Cancún | 2026-11-13 | — | pendiente | activo | no |
 | AMA Corp Contadores y Abogados | premium | Guadalajara | 2026-11-14 | — | pendiente | activo | no |
-| ATV Abogados | premium | Cancún | 2026-11-16 | — | pendiente | activo | no |
 | Abigail Catarino & Abogados | premium | Ciudad de México | 2026-11-14 | — | pendiente | activo | no |
 | Abogada Yulieth Alejandra | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | Abogados Penalistas de Oriente | premium | Ciudad de México | 2026-11-07 | — | pendiente | activo | no |
 | Aguilar & Duarte | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | Alvídrez Rodríguez & Asociados | premium | Chihuahua | 2026-11-12 | — | pendiente | activo | no |
 | Asesoría Fiscal y Jurídica García | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
-| BSL Asesoría y Servicios Legales | premium | Ciudad de México | 2026-11-14 | — | pendiente | activo | no |
-| CRA Corporativo | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | CS Abogados | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
-| Castro Oquita & Asociados | premium | Hermosillo | 2026-11-13 | — | pendiente | activo | no |
-| Corporativo Jurídico Martínez & Asociados | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
-| Despacho Jurídico Integral | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
 | Despacho Jurídico Pericial Aranda Salgado | premium | Estado de México | 2026-11-07 | 2026-12-08 | pagado ($400 alta, folio LL-0001) | activo | no |
 | Despacho Psico-Jurídico VN | premium | Ciudad de México | 2026-11-10 | — | pendiente | activo | no |
 | Despacho Serena y Asociados | premium | Veracruz | 2026-11-17 | — | pendiente | activo | no |
@@ -32,9 +25,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Lex Brevis MX | premium | Ciudad de México | 2026-11-12 | — | pendiente | activo | no |
 | Lic. Agustina Nicolás | premium | Ciudad de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Ana Gabriela Lugo López | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
-| Lic. Armando Heredia Coutiño | premium | Estado de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Edgar Iván Ávila Canseco | premium | Estado de México | 2026-11-16 | — | pendiente | activo | no |
-| Lic. Gabriela Lizzet | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | Lic. Jesús Antonio Urbina | premium | Chihuahua | 2026-11-15 | — | pendiente | activo | no |
 | Lic. Karina Bañuelos | premium | Gómez Palacio | 2026-11-12 | — | pendiente | activo | no |
 | Lic. Luis Romero | premium | San Luis Potosí | 2026-11-15 | — | pendiente | activo | no |

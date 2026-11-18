@@ -3628,7 +3628,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-10",
     "fuente": "Facebook"
@@ -4429,7 +4429,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-10",
     "fuente": "Facebook"
@@ -5251,7 +5251,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "PDF (perfil institucional)"
@@ -6196,7 +6196,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook"
@@ -6686,7 +6686,7 @@
         "precio": 0
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook"
@@ -6810,7 +6810,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Página web"
@@ -7029,7 +7029,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-14",
     "fuente": "Facebook"
@@ -7825,7 +7825,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-16",
     "fuente": "Facebook"
@@ -7977,7 +7977,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-16",
     "fuente": "Sitio web"

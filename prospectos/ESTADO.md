@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 49 · Borrados: 23
+Propuestas: 0 · Vendidos: 40 · Borrados: 32
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -20,12 +20,21 @@ Propuestas: 0 · Vendidos: 49 · Borrados: 23
 | 2026-11-06 | Lic. Omar Israel Rosas V. | /omar-rosas/ | borrar | 5523075905 |
 | 2026-11-06 | Despacho Abogados Sánchez | /abogados-sanchez/ | borrar | 5666250265 |
 | 2026-11-09 | Lic. Leticia | /lic-leticia/ | borrar | 5521108618 |
+| 2026-11-10 | CRA Corporativo | /cra-corporativo/ | borrar | https://www.facebook.com/CRAcorporativo/ |
 | 2026-11-10 | Lic. Yolanda Cruz Pérez | /yolanda-cruz/ | borrar | 9991582993 |
 | 2026-11-10 | Dúo JCC | /duo-jcc/ | borrar | https://www.facebook.com/profile.php?id=61580258867211 |
+| 2026-11-10 | Lic. Gabriela Lizzet | /gabriela-lizzet/ | borrar | https://www.facebook.com/Abogadalizzet |
+| 2026-11-13 | Lic. Ismael de Jesús Castro Oquita | /castro-oquita/ | borrar | 6625104819 |
 | 2026-11-13 | JS Abogados Asociados | /js-abogados/ | borrar | https://www.facebook.com/profile.php?id=61595848097885 |
 | 2026-11-13 | Lic. Valente Casanova | /casanova-abogados/ | borrar | https://www.facebook.com/valentecasanova |
+| 2026-11-13 | AJ Servicios Legales | /aj-servicios-legales/ | borrar | https://www.facebook.com/abogadocun |
+| 2026-11-13 | Despacho Jurídico Integral | /despacho-juridico-integral/ | borrar | 5582203183 |
+| 2026-11-13 | Profr. y Lic. Juan Manuel Martínez Aguirre | /martinez-asociados/ | borrar | 3310230527 |
+| 2026-11-14 | BSL Asesoría y Servicios Legales | /bsl-servicios-legales/ | borrar | 5638383030 |
 | 2026-11-14 | E.M.A.H.I. Despacho Jurídico | /emahi-despacho/ | borrar | 7226781415 |
 | 2026-11-16 | decm Asesores | /decm-asesores/ | borrar | 3329637942 |
+| 2026-11-16 | Lic. Armando Heredia Coutiño | /armando-heredia/ | borrar | 5547594986 |
+| 2026-11-16 | ATV Abogados | /atv-abogados/ | borrar | https://www.facebook.com/share/14h4yQbukjY/ |
 | 2026-11-16 | Miguel Centeno Silva | /miguel-centeno/ | borrar | https://m.facebook.com/miguel.centenosilva |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
@@ -41,36 +50,27 @@ Propuestas: 0 · Vendidos: 49 · Borrados: 23
 | 2026-11-09 | Servicio Jurídico SP | /servicio-juridico-sp/ | vendido | 9992226931 |
 | 2026-11-09 | Morningstar Legal Strategy | /morningstar-legal-strategy/ | vendido | https://www.facebook.com/profile.php?id=61594390782641 |
 | 2026-11-09 | Roger Piña & Asociados | /rp-asociados/ | vendido | 9999947730 |
-| 2026-11-10 | CRA Corporativo | /cra-corporativo/ | vendido | https://www.facebook.com/CRAcorporativo/ |
 | 2026-11-10 | Ortiz Rubio Legal | /ortiz-rubio-legal/ | vendido | https://www.facebook.com/OrtizRubioLegal/ |
 | 2026-11-10 | García Aguirre & Asociados | /garcia-aguirre/ | vendido | https://www.facebook.com/AbogadosGarciaAguirreyAsociados |
 | 2026-11-10 | Lic. Verónica Noemí | /psico-juridico-vn/ | vendido | https://www.facebook.com/profile.php?id=100094206581793 |
 | 2026-11-10 | Lic. Montserrat del Pino Roura | /montserrat-del-pino/ | vendido | 9998070213 |
-| 2026-11-10 | Lic. Gabriela Lizzet | /gabriela-lizzet/ | vendido | https://www.facebook.com/Abogadalizzet |
 | 2026-11-10 | Aguilar & Duarte | /aguilar-duarte/ | vendido | https://www.facebook.com/profile.php?id=100067952559439 |
 | 2026-11-12 | Lic. Alfonso Severo Prieto Morales | /alvidrez-rodriguez/ | vendido | 6141036563 |
 | 2026-11-12 | Lic. Karina Montserrat Bañuelos Chávez | /banuelos-asociados/ | vendido | https://www.facebook.com/share/1FQf492e77/ |
 | 2026-11-12 | Lic. José Guadalupe Victoriano Huitrón | /lex-brevis/ | vendido | https://www.facebook.com/share/1CjgufRdSV/ |
 | 2026-11-13 | Mirafuentes & Hernández | /mirafuentes-hernandez/ | vendido | 5528574510 |
-| 2026-11-13 | Lic. Ismael de Jesús Castro Oquita | /castro-oquita/ | vendido | 6625104819 |
 | 2026-11-13 | Lic. Esaú Enríquez Díaz | /enco-consultores/ | vendido | 9611788746 |
 | 2026-11-13 | Lic. Ana Gabriela Lugo López | /ana-lugo/ | vendido | https://www.facebook.com/alugolopez/ |
 | 2026-11-13 | ZF Legal Studio | /zf-legal-studio/ | vendido | https://www.facebook.com/profile.php?id=61578702427538 |
 | 2026-11-13 | Mercado & López | /mercado-lopez/ | vendido | 3314175482 |
 | 2026-11-13 | Gallegos & Asociados | /gallegos-asociados/ | vendido | https://www.facebook.com/profile.php?id=61592044285795 |
-| 2026-11-13 | AJ Servicios Legales | /aj-servicios-legales/ | vendido | https://www.facebook.com/abogadocun |
 | 2026-11-13 | Lic. Irving Durán | /duran-asociados/ | vendido | 5621141173 |
 | 2026-11-13 | Asesoría Fiscal y Jurídica García | /afjg-garcia/ | vendido | https://www.facebook.com/ASESORIAFISCALYJURIDICAGARCIA |
 | 2026-11-13 | CS Abogados | /cs-abogados/ | vendido | https://www.facebook.com/profile.php?id=61567949175938 |
-| 2026-11-13 | Despacho Jurídico Integral | /despacho-juridico-integral/ | vendido | 5582203183 |
-| 2026-11-13 | Profr. y Lic. Juan Manuel Martínez Aguirre | /martinez-asociados/ | vendido | 3310230527 |
 | 2026-11-14 | AMA Corp | /ama-corp/ | vendido | 3321601831 |
-| 2026-11-14 | BSL Asesoría y Servicios Legales | /bsl-servicios-legales/ | vendido | 5638383030 |
 | 2026-11-14 | Mtra. Abigail Catarino | /abigail-catarino/ | vendido | https://www.facebook.com/profile.php?id=61589239499737 |
 | 2026-11-15 | Lic. Luis Romero | /luis-romero/ | vendido | 4446712359 |
 | 2026-11-15 | Lic. Jesús Antonio Urbina | /tu-defensa-juridica/ | vendido | 6141754135 |
-| 2026-11-16 | Lic. Armando Heredia Coutiño | /armando-heredia/ | vendido | 5547594986 |
-| 2026-11-16 | ATV Abogados | /atv-abogados/ | vendido | https://www.facebook.com/share/14h4yQbukjY/ |
 | 2026-11-16 | Lic. Edgar Iván Ávila Canseco | /ivan-canseco/ | vendido | 3122116893 |
 | 2026-11-16 | Lic. Fernando Seda | /seda-defensa-penal/ | vendido | https://www.facebook.com/profile.php?id=61594973199763 |
 | 2026-11-16 | Lic. Agustina Nicolás | /agustina-nicolas/ | vendido | 5629777738 |
