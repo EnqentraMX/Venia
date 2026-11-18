@@ -1605,5 +1605,33 @@
   "alta": "2026-11-17",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "pedro-avila",
+  "nombre": "Lic. Pedro Ávila Domínguez",
+  "rol": "Abogado y mediador privado · Penal, familiar, civil, mercantil, herencias y amparo · Chihuahua",
+  "ciudad": "chihuahua",
+  "materias": [
+   "penal",
+   "familiar",
+   "civil",
+   "mercantil",
+   "sucesiones",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "/pedro-avila/logo.jpg",
+  "logo": true,
+  "fondo": "#111111",
+  "iniciales": "PA",
+  "whatsapp": "526391556454",
+  "telefono": "6391556454",
+  "cedula": "15659310",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-17",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
