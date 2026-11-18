@@ -1047,10 +1047,11 @@
  {
   "slug": "abigail-catarino",
   "nombre": "Abigail Catarino & Abogados",
-  "rol": "Mtra. Abigail Catarino · Penal, laboral, familiar y amparo · CDMX, Edomex e Hidalgo",
+  "rol": "Mtra. Abigail Catarino · Penal, laboral, familiar y amparo · CDMX, Edomex y Jalisco",
   "ciudad": "cdmx",
   "otras_ciudades": [
-   "edomex"
+   "edomex",
+   "guadalajara"
   ],
   "materias": [
    "penal",

@@ -168,8 +168,8 @@ window.DATOS = {
   "notaHorario": "Atención las 24 horas, los 7 días.",
   "oficinas": [
     {
-      "nombre": "CDMX, Estado de México e Hidalgo",
-      "direccion": "Atención en CDMX, Estado de México, Hidalgo y toda la República",
+      "nombre": "CDMX, Estado de México y Jalisco",
+      "direccion": "Atención en CDMX, Estado de México, Jalisco y toda la República",
       "referencia": "Licenciada en Derecho y Maestra en Juicios Orales por la Universidad Tecnológica de México. Sitio web: abigailabogados.com.mx"
     }
   ],
