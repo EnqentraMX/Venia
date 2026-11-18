@@ -1575,5 +1575,35 @@
   "alta": "2026-11-17",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "miguel-sanchez-licon",
+  "nombre": "Lic. Miguel Eduardo Sánchez Licón",
+  "rol": "Abogado · Familiar, civil, mercantil, laboral, penal y amparo · Chihuahua",
+  "ciudad": "chihuahua",
+  "materias": [
+   "familiar",
+   "civil",
+   "mercantil",
+   "laboral",
+   "penal",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/miguel-sanchez-licon/logo.jpg",
+  "logo": true,
+  "fondo": "#0d1b2e",
+  "iniciales": "MS",
+  "whatsapp": "526145401354",
+  "telefono": "6145401354",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/miguel-sanchez-licon/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-17",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

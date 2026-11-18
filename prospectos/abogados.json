@@ -8524,5 +8524,130 @@
     "plan": "premium",
     "alta": "2026-11-17",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "miguel-sanchez-licon",
+    "nombre": "Lic. Miguel Eduardo Sánchez Licón",
+    "despacho": "Lic. Miguel Eduardo Sánchez Licón",
+    "sufijo": "Abogado",
+    "despacho_largo": "Lic. Miguel Sánchez Licón | Abogado en Chihuahua",
+    "titulo": "Abogado",
+    "iniciales": "MS",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0d1b2e",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Chihuahua",
+    "telefono": "6145401354",
+    "correo": "miguel.sanchez@servicioslegalescorpuslex.com",
+    "direccion": "Calle Ignacio Allende #1302, Col. Obrera, Chihuahua, Chih.",
+    "referencia": "Lic. Miguel Eduardo Sánchez Licón: abogado en Chihuahua en derecho familiar, civil, mercantil, laboral, penal y amparo.",
+    "descripcion": "Lic. Miguel Eduardo Sánchez Licón, abogado en Chihuahua. Asesoría y representación legal con ética, profesionalismo y compromiso en derecho familiar, civil, mercantil, laboral, penal y amparo.",
+    "modalidad": "Confidencialidad garantizada",
+    "portada": [
+      "Soluciones legales,",
+      "resultados",
+      "reales."
+    ],
+    "texto_portada": "Brindamos asesoría y representación legal con ética, profesionalismo y compromiso en cada caso.",
+    "frase": "Estamos para defender tus derechos y proteger tu futuro.",
+    "compromisos": [
+      "Atención personalizada",
+      "Estrategias legales efectivas",
+      "Experiencia y compromiso",
+      "Confidencialidad garantizada"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o tengo una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Me despidieron injustificadamente",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito interponer un amparo",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero o tengo un problema con un contrato",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Protegemos a tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Patria potestad"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "balanza",
+        "texto": "Defendemos tu patrimonio.",
+        "puntos": [
+          "Contratos",
+          "Juicios civiles",
+          "Responsabilidad civil"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "maletin",
+        "texto": "Protegemos tu negocio.",
+        "puntos": [
+          "Sociedades",
+          "Contratos mercantiles",
+          "Cobranza y títulos de crédito"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "acuerdo",
+        "texto": "Para trabajadores y patrones.",
+        "puntos": [
+          "Despidos injustificados",
+          "Cálculo de prestaciones",
+          "Juicios laborales",
+          "Asesoría patronal"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa en cada etapa.",
+        "puntos": [
+          "Defensa penal",
+          "Denuncias",
+          "Asesoría en carpetas de investigación"
+        ]
+      },
+      {
+        "nombre": "Amparo",
+        "icono": "edificio",
+        "texto": "Defendemos tus derechos constitucionales.",
+        "puntos": [
+          "Amparo indirecto",
+          "Amparo directo",
+          "Asesoría constitucional"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-17",
+    "fuente": "Facebook"
   }
 ]

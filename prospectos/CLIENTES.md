@@ -38,6 +38,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Lic. Jesús Antonio Urbina | premium | Chihuahua | 2026-11-15 | — | pendiente | activo | no |
 | Lic. Karina Bañuelos | premium | Gómez Palacio | 2026-11-12 | — | pendiente | activo | no |
 | Lic. Luis Romero | premium | San Luis Potosí | 2026-11-15 | — | pendiente | activo | no |
+| Lic. Miguel Eduardo Sánchez Licón | premium | Chihuahua | 2026-11-17 | — | pendiente | activo | no |
 | Lic. Miguel Ángel Manzano Macías | premium | Guadalajara | 2026-11-09 | — | pendiente | activo | no |
 | Lic. Montserrat del Pino Roura | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | Mercado & López | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |

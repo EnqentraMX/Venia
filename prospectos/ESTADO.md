@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 48 · Borrados: 23
+Propuestas: 0 · Vendidos: 49 · Borrados: 23
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -75,3 +75,4 @@ Propuestas: 0 · Vendidos: 48 · Borrados: 23
 | 2026-11-16 | Lic. Fernando Seda | /seda-defensa-penal/ | vendido | https://www.facebook.com/profile.php?id=61594973199763 |
 | 2026-11-16 | Lic. Agustina Nicolás | /agustina-nicolas/ | vendido | 5629777738 |
 | 2026-11-17 | Despacho Serena y Asociados | /serena-asociados/ | vendido | https://www.facebook.com/serenayasociados/ |
+| 2026-11-17 | Lic. Miguel Eduardo Sánchez Licón | /miguel-sanchez-licon/ | vendido | 6145401354 |
