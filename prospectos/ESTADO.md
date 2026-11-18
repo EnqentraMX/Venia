@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 43 · Borrados: 32
+Propuestas: 0 · Vendidos: 42 · Borrados: 33
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -36,6 +36,7 @@ Propuestas: 0 · Vendidos: 43 · Borrados: 32
 | 2026-11-16 | Lic. Armando Heredia Coutiño | /armando-heredia/ | borrar | 5547594986 |
 | 2026-11-16 | ATV Abogados | /atv-abogados/ | borrar | https://www.facebook.com/share/14h4yQbukjY/ |
 | 2026-11-16 | Miguel Centeno Silva | /miguel-centeno/ | borrar | https://m.facebook.com/miguel.centenosilva |
+| 2026-11-18 | Lic. Jorge Hernández | /jorge-hernandez/ | borrar | 3346766554 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
 | 2026-11-07 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | vendido | https://www.facebook.com/profile.php?id=61575816882807 |
@@ -78,4 +79,3 @@ Propuestas: 0 · Vendidos: 43 · Borrados: 32
 | 2026-11-17 | Lic. Miguel Eduardo Sánchez Licón | /miguel-sanchez-licon/ | vendido | 6145401354 |
 | 2026-11-18 | Lic. Eliana Rodríguez de la Cruz | /eliana-rodriguez/ | vendido | 9981508474 |
 | 2026-11-18 | Lic. Lorenia Pavlova | /lorenia-pavlova/ | vendido | 8123929483 |
-| 2026-11-18 | Lic. Jorge Hernández | /jorge-hernandez/ | vendido | 3346766554 |
