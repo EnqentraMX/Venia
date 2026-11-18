@@ -1424,5 +1424,35 @@
   "alta": "2026-11-18",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "jorge-hernandez",
+  "nombre": "Lic. Jorge Hernández",
+  "rol": "Abogado · Civil, familiar, mercantil, laboral, administrativo y amparo · Guadalajara",
+  "ciudad": "guadalajara",
+  "materias": [
+   "civil",
+   "familiar",
+   "mercantil",
+   "laboral",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/jorge-hernandez/logo.jpg",
+  "logo": true,
+  "fondo": "#0c0c0c",
+  "iniciales": "JH",
+  "whatsapp": "523346766554",
+  "telefono": "3346766554",
+  "consulta": "Asesoría inicial $300",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/jorge-hernandez/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-18",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

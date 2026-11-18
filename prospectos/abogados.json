@@ -8855,5 +8855,131 @@
     "plan": "premium",
     "alta": "2026-11-18",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "jorge-hernandez",
+    "nombre": "Lic. Jorge Hernández",
+    "despacho": "Lic. Jorge Hernández",
+    "sufijo": "Abogado",
+    "despacho_largo": "Lic. Jorge Hernández | Abogado en Guadalajara",
+    "titulo": "Abogado",
+    "iniciales": "JH",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0c0c0c",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Guadalajara",
+    "telefono": "3346766554",
+    "direccion": "Guadalajara, Jalisco",
+    "referencia": "Lic. Jorge Hernández: abogado especializado en materias civil, familiar, mercantil, laboral, administrativo y amparo en Guadalajara.",
+    "descripcion": "Lic. Jorge Hernández, abogado en Guadalajara especializado en materias civil, familiar, mercantil, laboral, administrativo y amparo. Trato directo y personalizado a particulares, profesionales y empresas.",
+    "modalidad": "Particulares, profesionales y empresas",
+    "consultas": [
+      {
+        "modo": "Asesoría inicial",
+        "precio": 300
+      }
+    ],
+    "portada": [
+      "Es momento",
+      "de tener un",
+      "buen abogado."
+    ],
+    "texto_portada": "Trato directo y personalizado a particulares, profesionales y empresas en materias civil, familiar, mercantil, laboral, administrativo y amparo.",
+    "frase": "Es momento de tener un buen abogado.",
+    "compromisos": [
+      "Trato directo y personalizado",
+      "Particulares, profesionales y empresas",
+      "Asesoría inicial de $300",
+      "Seis materias de especialidad"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me despidieron o tengo un problema laboral",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero o tengo un problema con un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con una autoridad o una multa",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito interponer un amparo",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho civil",
+        "icono": "edificio",
+        "texto": "Protegemos tu patrimonio y tus derechos.",
+        "puntos": [
+          "Juicios civiles",
+          "Contratos",
+          "Propiedades"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "acuerdo",
+        "texto": "Protegemos tu negocio.",
+        "puntos": [
+          "Cobranza",
+          "Juicios mercantiles",
+          "Contratos comerciales"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Para trabajadores y empresas.",
+        "puntos": [
+          "Despidos",
+          "Juicios laborales",
+          "Asesoría a empresas"
+        ]
+      },
+      {
+        "nombre": "Derecho administrativo",
+        "icono": "documento",
+        "texto": "Defensa ante la autoridad.",
+        "puntos": [
+          "Multas y sanciones",
+          "Juicios de nulidad"
+        ]
+      },
+      {
+        "nombre": "Amparo",
+        "icono": "balanza",
+        "texto": "Defendemos tus derechos constitucionales.",
+        "puntos": [
+          "Amparo directo",
+          "Amparo indirecto"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-18",
+    "fuente": "Facebook"
   }
 ]
