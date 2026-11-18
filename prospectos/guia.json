@@ -1362,5 +1362,36 @@
   "alta": "2026-11-17",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "eliana-rodriguez",
+  "nombre": "Lic. Eliana Rodríguez de la Cruz",
+  "rol": "Rodríguez & Asociados · Familiar, civil, penal, laboral, mercantil y amparos · Cancún",
+  "ciudad": "cancun",
+  "materias": [
+   "familiar",
+   "civil",
+   "penal",
+   "laboral",
+   "mercantil",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/eliana-rodriguez/foto.jpg",
+  "logo": false,
+  "fondo": "",
+  "iniciales": "ER",
+  "whatsapp": "529981508474",
+  "telefono": "9981508474",
+  "cedula": "10624680",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/eliana-rodriguez/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-18",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

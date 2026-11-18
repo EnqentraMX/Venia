@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 40 · Borrados: 32
+Propuestas: 0 · Vendidos: 41 · Borrados: 32
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -76,3 +76,4 @@ Propuestas: 0 · Vendidos: 40 · Borrados: 32
 | 2026-11-16 | Lic. Agustina Nicolás | /agustina-nicolas/ | vendido | 5629777738 |
 | 2026-11-17 | Despacho Serena y Asociados | /serena-asociados/ | vendido | https://www.facebook.com/serenayasociados/ |
 | 2026-11-17 | Lic. Miguel Eduardo Sánchez Licón | /miguel-sanchez-licon/ | vendido | 6145401354 |
+| 2026-11-18 | Lic. Eliana Rodríguez de la Cruz | /eliana-rodriguez/ | vendido | 9981508474 |
