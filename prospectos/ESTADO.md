@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 41 · Borrados: 44
+Propuestas: 0 · Vendidos: 42 · Borrados: 44
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -89,3 +89,4 @@ Propuestas: 0 · Vendidos: 41 · Borrados: 44
 | 2026-11-19 | Espinoza y Asociados | /espinoza-asociados/ | vendido | 6442283403 |
 | 2026-11-19 | JTV Firma Legal | /jtv-firma-legal/ | vendido | https://www.facebook.com/profile.php?id=100095158806736 |
 | 2026-11-19 | Lic. Julieta Rechy | /julieta-rechy/ | vendido | 2281762021 |
+| 2026-11-19 | Flores Bufete Jurídico | /flores-bufete/ | vendido | 6648092385 |

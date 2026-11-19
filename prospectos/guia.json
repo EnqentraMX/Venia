@@ -1383,5 +1383,32 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "flores-bufete",
+  "nombre": "Flores Bufete Jurídico",
+  "rol": "Abogados civilistas · Divorcios, pensiones, testamentos, contratos e inmuebles · Tijuana",
+  "ciudad": "tijuana",
+  "materias": [
+   "familiar",
+   "civil",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/flores-bufete/logo.jpg",
+  "logo": true,
+  "fondo": "#faf8f4",
+  "iniciales": "JF",
+  "whatsapp": "526648092385",
+  "telefono": "6648092385",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/flores-bufete/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
