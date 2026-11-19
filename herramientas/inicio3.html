@@ -89,6 +89,38 @@
 .sit.u{background:var(--tinta);color:#fff;border-color:var(--tinta)}
 .sit[data-s=otro]{border-style:dashed}
 @media(min-width:760px){.sits{grid-template-columns:repeat(3,1fr)}}
+/* Más secciones */
+.ciuds{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}
+@media(min-width:760px){.ciuds{grid-template-columns:repeat(4,1fr)}}
+.cd{position:relative;border-radius:22px;padding:18px 16px;min-height:120px;display:flex;flex-direction:column;justify-content:flex-end;background:var(--tinta);color:#fff;overflow:hidden;transition:transform .25s}
+.cd:active{transform:scale(.97)}
+.cd::before{content:"";position:absolute;inset:0;background:radial-gradient(90% 90% at 100% 0%,rgba(216,184,116,.28),transparent 60%)}
+.cd b{position:relative;font-family:var(--tit);font-weight:400;font-size:23px;line-height:1.05}
+.cd small{position:relative;color:var(--oro2);font-weight:800;font-size:12.5px;margin-top:4px}
+.guias{display:grid;gap:10px;margin-top:22px}
+@media(min-width:760px){.guias{grid-template-columns:1fr 1fr}}
+.gu{display:flex;gap:14px;background:var(--papel);border:1px solid var(--linea);border-radius:22px;padding:18px;transition:border-color .2s}
+.gu:hover{border-color:var(--oro)}
+.gu .n{font-family:var(--tit);font-size:30px;color:var(--oro);line-height:1}
+.gu b{display:block;font-family:var(--tit);font-weight:400;font-size:21px;line-height:1.15}
+.gu p{color:var(--gris);font-size:14px;margin-top:6px}
+.conf{display:grid;gap:10px;margin-top:22px}
+@media(min-width:760px){.conf{grid-template-columns:repeat(4,1fr)}}
+.cf{background:var(--papel);border:1px solid var(--linea);border-radius:22px;padding:20px}
+.cf .ic{width:42px;height:42px;border-radius:14px;background:var(--tinta);color:var(--oro2);display:grid;place-items:center}
+.cf b{display:block;font-family:var(--tit);font-weight:400;font-size:22px;margin-top:14px}
+.cf p{color:var(--gris);font-size:14px;margin-top:6px}
+.faq{margin-top:20px;border-top:1px solid var(--linea)}
+.fq{border-bottom:1px solid var(--linea)}
+.fq button{width:100%;display:flex;justify-content:space-between;gap:14px;text-align:left;padding:20px 0;font-weight:800;font-size:16px}
+.fq button i{font-style:normal;color:var(--oro);font-size:22px;line-height:1;transition:transform .3s}
+.fq.ab button i{transform:rotate(45deg)}
+.fq .r{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s}
+.fq.ab .r{grid-template-rows:1fr}
+.fq .r>div{overflow:hidden}.fq .r p{color:var(--gris);padding:0 0 20px}
+.final{text-align:center;padding:70px 20px 30px}
+.final h2{font-size:clamp(40px,10vw,70px);line-height:1}.final h2 span{color:var(--oro);display:block}
+.final .btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:24px}
 /* Abogados */
 .para{margin-top:60px;background:var(--tinta);color:#fff;padding:60px 0;position:relative;overflow:hidden}
 .para::before{content:"";position:absolute;inset:-40%;background:radial-gradient(closest-side,rgba(216,184,116,.16),transparent);animation:gira 16s linear infinite}
@@ -148,12 +180,39 @@
  <div class="sits" id="sits"></div>
 </div></section>
 
+<section class="sec"><div class="ancho">
+ <div class="kick rv">Abogados cerca de ti</div><h2 class="cs rv d1">Elige tu <span>ciudad.</span></h2>
+ <div class="ciuds" id="ciuds"></div>
+</div></section>
+
+<section class="sec"><div class="ancho">
+ <div class="kick rv">Guías legales</div><h2 class="cs rv d1">Entiende tu caso <span>en 3 minutos.</span></h2>
+ <div class="guias" id="guias"></div>
+</div></section>
+
+<section class="sec"><div class="ancho">
+ <div class="kick rv">Por qué LicLink</div><h2 class="cs rv d1">Confianza antes <span>de contratar.</span></h2>
+ <div class="conf">
+  <div class="cf rv"><span class="ic"><svg class="i" viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="m9 12 2 2 4-4"/></svg></span><b>Transparencia</b><p>Te decimos con claridad qué cédulas revisamos en la SEP y cuáles aún no.</p></div>
+  <div class="cf rv d1"><span class="ic"><svg class="i" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><b>Directo con el abogado</b><p>Le escribes a su WhatsApp. Sin centros de llamadas ni intermediarios.</p></div>
+  <div class="cf rv d2"><span class="ic"><svg class="i" viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5 2 7.5-6.5-4.5L5.5 21l2-7.5L2 9h7z"/></svg></span><b>Reseñas públicas</b><p>Las opiniones están en Google Maps, donde nadie las puede maquillar.</p></div>
+  <div class="cf rv d3"><span class="ic"><svg class="i" viewBox="0 0 24 24"><path d="M20 12v10H4V12M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></span><b>Gratis para ti</b><p>No pagas por buscar ni por escribir. Los honorarios los acuerdas con tu abogado.</p></div>
+ </div>
+</div></section>
+
+<section class="sec"><div class="ancho">
+ <div class="kick rv">Preguntas frecuentes</div><h2 class="cs rv d1">Lo que más nos <span>preguntan.</span></h2>
+ <div class="faq" id="faq"></div>
+</div></section>
+
 <section class="para"><div class="ancho">
  <div class="kick" style="color:var(--oro2)">Para abogados</div>
  <h2 class="cs">Deja de buscar clientes.<span>Que ellos te encuentren.</span></h2>
  <p>Tu perfil, tu publicidad y tu promoción en redes, hechos por nosotros. Por menos de lo que cuesta un café al día.</p>
  <a class="btn btn-oro" target="_blank" rel="noopener" href="https://wa.me/529511836468?text=Hola%2C%20soy%20abogado%20y%20quiero%20unirme%20a%20LicLink.">Quiero unirme</a>
 </div></section>
+<section class="final"><div class="kick">LicLink</div><h2 class="cs">Actuar a tiempo<span>hace la diferencia.</span></h2>
+ <div class="btns"><button class="btn btn-tinta" onclick="scrollTo({top:0,behavior:'smooth'});setTimeout(()=>document.getElementById('txt').focus(),500)">Contar mi caso</button><a class="btn btn-linea" target="_blank" rel="noopener" href="https://wa.me/529511836468?text=Hola%2C%20soy%20abogado%20y%20quiero%20unirme%20a%20LicLink.">Soy abogado</a></div></section>
 <p class="pie">LicLink te conecta con abogados; no da asesoría legal. Los consejos son información general.<br><a href="/" style="text-decoration:underline">Volver al sitio actual</a></p>
 
 <div class="velo" id="velo"></div><div class="hoja" id="hoja"><div class="asa"></div><h3>¿Dónde <span class="oro">estás?</span></h3><div class="lc" id="lc"></div></div>
@@ -253,6 +312,17 @@ $("#bTip").onclick=()=>{window.scrollTo({top:0,behavior:"smooth"});setTimeout(()
 $("#sits").innerHTML=SITS.map((s,i)=>`<button class="sit${s[2]?" u":""} rv d${i%4}" data-s="${s[0]}"><i>${String(i+1).padStart(2,"0")}</i><b>${s[1]}</b></button>`).join("");
 document.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{window.scrollTo({top:0,behavior:"smooth"});if(b.dataset.s==="otro"){setTimeout(()=>{ta.focus();ta.placeholder="Cuéntanos tu caso con tus palabras…"},450);return}setTimeout(()=>buscar("",b.dataset.s),350)});
 
+
+/* Ciudades, guías y preguntas */
+$("#ciuds").innerHTML=Object.entries(CIU).sort((a,b)=>enC(b[0]).length-enC(a[0]).length).map(([k,v],i)=>`<a class="cd rv d${i%4}" href="/abogados/${k}/"><b>${esc(v)}</b><small>${enC(k).length} abogado${enC(k).length===1?"":"s"} →</small></a>`).join("");
+$("#guias").innerHTML=GUIAS.map((g,i)=>`<a class="gu rv d${i%4}" href="/guias/${g.s}/"><span class="n">${String(i+1).padStart(2,"0")}</span><span><b>${esc(g.t)}</b><p>${esc(g.d)}</p></span></a>`).join("");
+const FAQ=[["¿Cuánto me cuesta usar LicLink?","Nada. Buscar y escribirle a un abogado es gratis. Tú acuerdas sus honorarios directamente con él."],
+["¿Cómo sé que es abogado de verdad?","Cuando un perfil dice «Cédula profesional verificada», revisamos su cédula en el Registro Nacional de Profesionistas de la SEP. Tú también puedes consultar cualquier cédula en la SEP."],
+["¿LicLink cobra comisión por mi caso?","No. Hablas directo con el abogado por WhatsApp o por teléfono, sin intermediarios."],
+["¿Qué pasa con lo que le cuento al abogado?","Tu mensaje va directo a su WhatsApp. LicLink no guarda ni lee tu caso."],
+["¿LicLink me da asesoría legal?","No. LicLink te ayuda a encontrar y contactar abogados. La asesoría la da cada abogado."]];
+$("#faq").innerHTML=FAQ.map(f=>`<div class="fq"><button>${esc(f[0])}<i>+</i></button><div class="r"><div><p>${esc(f[1])}</p></div></div></div>`).join("");
+document.querySelectorAll(".fq button").forEach(b=>b.onclick=()=>b.parentElement.classList.toggle("ab"));
 /* Movimiento al bajar */
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("si");io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll(".rv").forEach(el=>io.observe(el));

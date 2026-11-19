@@ -21,8 +21,10 @@ for a in g:
               "q": a.get("consulta", ""), "fr": x.get("frase", "")})
 ciu = {k: v for k, v in CIU.items() if any(a["c"] == k or k in a["oc"] for a in L)}
 
+gns = {}; exec((RAIZ / "herramientas" / "guias_legales.py").read_text(encoding="utf-8"), gns)
+GUIAS = [{"s": x["slug"], "t": x["titulo"], "d": x["resumen"], "m": x["materia"]} for x in gns["GUIAS"]]
 H = (RAIZ / "herramientas" / "inicio3.html").read_text(encoding="utf-8")
-H = H.replace("/*DATOS*/", "const AB=" + json.dumps(L, ensure_ascii=False) + ";const CIU=" + json.dumps(ciu, ensure_ascii=False) + ";")
+H = H.replace("/*DATOS*/", "const AB=" + json.dumps(L, ensure_ascii=False) + ";const CIU=" + json.dumps(ciu, ensure_ascii=False) + ";const GUIAS=" + json.dumps(GUIAS, ensure_ascii=False) + ";")
 (RAIZ / "public" / "nuevo").mkdir(exist_ok=True)
 (RAIZ / "public" / "nuevo" / "index.html").write_text(H, encoding="utf-8")
 print("Inicio v3 listo:", len(L), "abogados")

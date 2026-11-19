@@ -97,7 +97,7 @@ def construir(a):
 <body>
 <header class="top" id="top"><a class="ic" href="/nuevo/" aria-label="Volver">{ic("atras")}</a><a class="marca" href="/nuevo/">Lic<b>Link</b></a><button class="ic" id="bComp" aria-label="Compartir">{ic("comp")}</button></header>
 
-<section class="hero"><div class="img{"" if tiene_foto else " logo"}" style="{bg_hero}"></div>
+<section class="hero{"" if tiene_foto else " hl"}">{f'<div class="img" style="{bg_hero}"></div>' if tiene_foto else f'<div class="lc" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({img})"></div>'}
  <div class="txt intro">
   <div class="kick lt">{E(titulo_ab)} · {E(estado_ciudad)}</div>
   <h1 class="cs lt">{h1}</h1>
@@ -111,7 +111,7 @@ def construir(a):
 <nav class="tabs" id="tabs"><div><a href="#sobre" class="on">Sobre {E("ella" if titulo_ab=="Abogada" else "él" if titulo_ab=="Abogado" else "el despacho")}</a><a href="#caso">Tu caso</a><a href="#servicios">Servicios</a><a href="#costos">Costos</a><a href="#contacto">Contacto</a></div></nav>
 
 <div class="cuerpo"><div class="grid2"><main>
- <section class="cita sec" id="sobre"><div class="comillas rv">“</div><blockquote class="rv d1">{E(a.get("frase") or a.get("titulo",""))}</blockquote><p class="rv d2">{E(texto_intro)}</p>
+ <section class="cita sec" id="sobre"><div class="kick rv">Sobre su trabajo</div><blockquote class="rv d1">{E(a.get("frase") or a.get("titulo",""))}</blockquote><p class="rv d2">{E(texto_intro)}</p>
   <div class="firma-c rv d3"><span class="av" style="background-image:url('{avatar}')"></span><span><b>{E(a["nombre"])}</b><small>{E(a.get("titulo",""))}</small></span></div>
   <div class="valores rv d3">{valores}</div></section>
  <section class="sec" id="caso"><div class="kick rv">Tu caso</div><h2 class="cs rv d1">¿Qué te <span>pasó?</span></h2><p class="baj rv d2">Toca tu situación y se abre WhatsApp con tu mensaje listo.</p><div class="casos">{casos}</div></section>

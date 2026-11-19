@@ -1,7 +1,8 @@
 /* LicLink v3 — crema, tinta y oro. Títulos: Libre Caslon Display. Texto: Manrope. Móvil primero. */
 @font-face{font-family:Caslon;src:url(/assets/fuentes/libre-caslon-display-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:Gloock;src:url(/assets/fuentes/gloock-latin-400-normal.woff2) format("woff2");font-display:swap}
 @font-face{font-family:Manrope;src:url(/assets/fuentes/manrope-latin-wght-normal.woff2) format("woff2");font-weight:200 800;font-display:swap}
-:root{--crema:#f5efe4;--papel:#fbf8f2;--tinta:#15120e;--tinta2:#221d17;--oro:#b08a45;--oro2:#d8b874;--gris:#6e665a;--linea:#e2d7c4;--verde:#1f9d55;--tit:Caslon,Georgia,serif;--seg:env(safe-area-inset-bottom)}
+:root{--crema:#f5efe4;--papel:#fbf8f2;--tinta:#15120e;--tinta2:#221d17;--oro:#b08a45;--oro2:#d8b874;--gris:#6e665a;--linea:#e2d7c4;--verde:#1f9d55;--tit:Gloock,Georgia,serif;--seg:env(safe-area-inset-bottom)}
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{scroll-behavior:smooth;scroll-padding-top:110px}
 body{background:var(--crema);color:var(--tinta);font-family:Manrope,system-ui,sans-serif;font-size:16px;line-height:1.55;overflow-x:hidden}
