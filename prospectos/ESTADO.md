@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 40 · Borrados: 41
+Propuestas: 0 · Vendidos: 41 · Borrados: 41
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -85,3 +85,4 @@ Propuestas: 0 · Vendidos: 40 · Borrados: 41
 | 2026-11-19 | Corporativo Jurídico | /corporativo-juridico-tuxtla/ | vendido | 9613272094 |
 | 2026-11-19 | Dávila Ramírez Vivas | /davila-ramirez-vivas/ | vendido | 5513074559 |
 | 2026-11-19 | Martínez y Asociados | /martinez-consultoria/ | vendido | 5621393160 |
+| 2026-11-19 | Lic. Alejandra Solís | /alejandra-solis/ | vendido | 4778140803 |

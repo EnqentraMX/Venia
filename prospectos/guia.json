@@ -1344,5 +1344,34 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "alejandra-solis",
+  "nombre": "Lic. Alejandra Solís",
+  "rol": "Abogada · Civil y familiar, mercantil, penal y amparo · León",
+  "ciudad": "leon",
+  "materias": [
+   "familiar",
+   "civil",
+   "mercantil",
+   "penal",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/alejandra-solis/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "AS",
+  "whatsapp": "524778140803",
+  "telefono": "4778140803",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/alejandra-solis/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

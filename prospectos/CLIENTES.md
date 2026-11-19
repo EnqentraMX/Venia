@@ -24,6 +24,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Gallegos & Asociados | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
 | Lex Brevis MX | premium | Ciudad de México | 2026-11-12 | — | pendiente | activo | no |
 | Lic. Agustina Nicolás | premium | Ciudad de México | 2026-11-16 | — | pendiente | activo | no |
+| Lic. Alejandra Solís | premium | León | 2026-11-19 | — | pendiente | activo | no |
 | Lic. Ana Gabriela Lugo López | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
 | Lic. Edgar Iván Ávila Canseco | premium | Estado de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Eliana Rodríguez de la Cruz | premium | Cancún | 2026-11-18 | — | pendiente | activo | no |

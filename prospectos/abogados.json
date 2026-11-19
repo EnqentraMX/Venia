@@ -9771,5 +9771,119 @@
     "plan": "premium",
     "alta": "2026-11-19",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "alejandra-solis",
+    "nombre": "Lic. Alejandra Solís",
+    "despacho": "Alejandra Solís Abogada",
+    "sufijo": "Asesoría jurídica y legal",
+    "despacho_largo": "Alejandra Solís | Abogada en León",
+    "titulo": "Abogada",
+    "iniciales": "AS",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "León",
+    "telefono": "4778140803",
+    "correo": "teresa172508@gmail.com",
+    "direccion": "León, Guanajuato",
+    "referencia": "Lic. Alejandra Solís: abogada en León, Guanajuato, especializada en materia civil y familiar. También atiende asuntos mercantiles, penales y amparos.",
+    "descripcion": "Lic. Alejandra Solís, abogada en León, Guanajuato. Asesoría jurídica y legal especializada en materia civil y familiar; también atiende asuntos mercantiles, penales y amparos.",
+    "modalidad": "Especialista en civil y familiar",
+    "portada": [
+      "Soluciones legales,",
+      "confianza que",
+      "te respalda."
+    ],
+    "texto_portada": "Asesoría jurídica en León, Guanajuato. No te quedes con dudas: especializada en materia civil y familiar, también atiendo asuntos mercantiles, penales y amparos.",
+    "frase": "Soluciones legales, confianza que te respalda.",
+    "compromisos": [
+      "Especializada en civil y familiar",
+      "Atención personalizada",
+      "Agenda tu cita por mensaje",
+      "Atención en León"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o tengo una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con una propiedad o un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito interponer un amparo",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Mi especialidad: te acompaño en los asuntos de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Mi especialidad: protejo tu patrimonio.",
+        "puntos": [
+          "Juicios civiles",
+          "Contratos",
+          "Propiedades"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "acuerdo",
+        "texto": "Protejo tu negocio.",
+        "puntos": [
+          "Cobro de deudas y pagarés",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Te acompaño en tu asunto penal.",
+        "puntos": [
+          "Denuncias",
+          "Defensa penal"
+        ]
+      },
+      {
+        "nombre": "Amparos",
+        "icono": "balanza",
+        "texto": "Defiendo tus derechos ante la autoridad.",
+        "puntos": [
+          "Amparo directo",
+          "Amparo indirecto"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-19",
+    "fuente": "Facebook"
   }
 ]
