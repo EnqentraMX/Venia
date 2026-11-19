@@ -267,28 +267,6 @@
   "consulta": "Asesoría gratis por WhatsApp"
  },
  {
-  "slug": "dalia-marquez",
-  "nombre": "Lic. Dalia Márquez Ramírez",
-  "rol": "Abogada y perito en documentos cuestionados",
-  "ciudad": "cdmx",
-  "materias": [
-   "laboral",
-   "familiar"
-  ],
-  "plan": "basico",
-  "foto": "/dalia-marquez/foto.jpg",
-  "logo": false,
-  "iniciales": "DM",
-  "whatsapp": "525533663408",
-  "telefono": "5533663408",
-  "verificada": false,
-  "estado": "activo",
-  "alta": "2026-11-06",
-  "vence": "",
-  "pago": "pendiente",
-  "verificada_fecha": ""
- },
- {
   "slug": "castillo-abogados",
   "nombre": "Castillo & Abogados",
   "rol": "Despacho jurídico en Monterrey",
@@ -441,37 +419,6 @@
   "pago": "pendiente"
  },
  {
-  "slug": "ortiz-rubio-legal",
-  "nombre": "Ortiz Rubio Legal",
-  "rol": "Abogados de lo familiar · Divorcio express, pensión y custodia · CDMX y Cuernavaca",
-  "ciudad": "cdmx",
-  "otras_ciudades": [
-   "edomex"
-  ],
-  "materias": [
-   "familiar"
-  ],
-  "plan": "premium",
-  "foto": "/ortiz-rubio-legal/foto.jpg",
-  "logo": false,
-  "fondo": "",
-  "iniciales": "OR",
-  "whatsapp": "525542019327",
-  "telefono": "5542019327",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/ortiz-rubio-legal/",
-  "redes": {
-   "facebook": "https://www.facebook.com/OrtizRubioLegal/",
-   "instagram": "https://www.instagram.com/ortizrubiolegal/"
-  },
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-10",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
   "slug": "garcia-aguirre",
   "nombre": "García Aguirre & Asociados",
   "rol": "Asesores legales · Derecho familiar · Tlalnepantla",
@@ -491,35 +438,6 @@
   "pagina": "/garcia-aguirre/",
   "redes": {
    "facebook": "https://www.facebook.com/AbogadosGarciaAguirreyAsociados"
-  },
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-10",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
-  "slug": "psico-juridico-vn",
-  "nombre": "Despacho Psico-Jurídico VN",
-  "rol": "Abogada y psicóloga · Familiar, civil y penal · Presencial y en línea",
-  "ciudad": "cdmx",
-  "materias": [
-   "familiar",
-   "civil",
-   "penal"
-  ],
-  "plan": "premium",
-  "foto": "/psico-juridico-vn/logo.jpg",
-  "logo": true,
-  "fondo": "#000000",
-  "iniciales": "VN",
-  "whatsapp": "525615275662",
-  "telefono": "5615275662",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/psico-juridico-vn/",
-  "redes": {
-   "facebook": "https://www.facebook.com/profile.php?id=100094206581793"
   },
   "resena": "",
   "estado": "activo",
@@ -549,39 +467,6 @@
   "verificada_fecha": "",
   "pagina": "/montserrat-del-pino/",
   "redes": {},
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-10",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
-  "slug": "aguilar-duarte",
-  "nombre": "Aguilar & Duarte",
-  "rol": "Consultoría jurídica empresarial · Inmobiliario, penal, mercantil y más · Mérida",
-  "ciudad": "yucatan",
-  "materias": [
-   "civil",
-   "penal",
-   "mercantil",
-   "familiar",
-   "laboral",
-   "amparo"
-  ],
-  "plan": "premium",
-  "foto": "/aguilar-duarte/logo.jpg",
-  "logo": true,
-  "fondo": "#ffffff",
-  "iniciales": "AD",
-  "whatsapp": "529992410372",
-  "telefono": "9992410372",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/aguilar-duarte/",
-  "redes": {
-   "facebook": "https://www.facebook.com/profile.php?id=100067952559439",
-   "instagram": "https://www.instagram.com/aguilaryduartecje"
-  },
   "resena": "",
   "estado": "activo",
   "alta": "2026-11-10",

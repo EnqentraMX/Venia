@@ -8,13 +8,11 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Abigail Catarino & Abogados | premium | Ciudad de México | 2026-11-14 | — | pendiente | activo | no |
 | Abogada Yulieth Alejandra | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | Abogados Penalistas de Oriente | premium | Ciudad de México | 2026-11-07 | — | pendiente | activo | no |
-| Aguilar & Duarte | premium | Yucatán | 2026-11-10 | — | pendiente | activo | no |
 | Alvídrez Rodríguez & Asociados | premium | Chihuahua | 2026-11-12 | — | pendiente | activo | no |
 | Asesoría Fiscal y Jurídica García | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
 | CS Abogados | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
 | Cofure Abogados | premium | León | 2026-11-18 | — | pendiente | activo | no |
 | Despacho Jurídico Pericial Aranda Salgado | premium | Estado de México | 2026-11-07 | 2026-12-08 | pagado ($400 alta, folio LL-0001) | activo | no |
-| Despacho Psico-Jurídico VN | premium | Ciudad de México | 2026-11-10 | — | pendiente | activo | no |
 | Despacho Serena y Asociados | premium | Veracruz | 2026-11-17 | — | pendiente | activo | no |
 | Durán y Asociados | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
 | Díaz & Asociados | premium | Monterrey | 2026-11-18 | — | pendiente | activo | no |
@@ -38,7 +36,6 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Miguel Pérez | Abogado | premium | Yucatán | 2026-11-08 | — | pendiente | activo | no |
 | Mirafuentes & Hernández | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
 | Morningstar Legal Strategy | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
-| Ortiz Rubio Legal | premium | Ciudad de México | 2026-11-10 | — | pendiente | activo | no |
 | Roger Piña & Asociados | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | SEDA Defensa Penal | premium | Guadalajara | 2026-11-16 | — | pendiente | activo | no |
 | SV Jurídicos | premium | Yucatán | 2026-11-08 | — | pendiente | activo | no |
@@ -48,7 +45,6 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | ZF Legal Studio | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
 | Castillo & Abogados | basico | Monterrey | 2026-11-06 | — | pendiente | activo | no |
 | Corporativo Jurídico Iure Códex | basico | Tijuana | 2026-11-16 | — | pendiente | activo | no |
-| Lic. Dalia Márquez Ramírez | basico | Ciudad de México | 2026-11-06 | — | pendiente | activo | no |
 | Lic. Joaquín Engelss Buendía Díaz | basico | Estado de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Juan de Jesús Martínez de Loera | basico | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
 | Lic. Pedro Ávila Domínguez | basico | Chihuahua | 2026-11-17 | — | pendiente | activo | no |
