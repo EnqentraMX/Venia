@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 40 · Borrados: 38
+Propuestas: 0 · Vendidos: 39 · Borrados: 39
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -23,6 +23,7 @@ Propuestas: 0 · Vendidos: 40 · Borrados: 38
 | 2026-11-10 | CRA Corporativo | /cra-corporativo/ | borrar | https://www.facebook.com/CRAcorporativo/ |
 | 2026-11-10 | Ortiz Rubio Legal | /ortiz-rubio-legal/ | borrar | https://www.facebook.com/OrtizRubioLegal/ |
 | 2026-11-10 | Lic. Yolanda Cruz Pérez | /yolanda-cruz/ | borrar | 9991582993 |
+| 2026-11-10 | García Aguirre & Asociados | /garcia-aguirre/ | borrar | https://www.facebook.com/AbogadosGarciaAguirreyAsociados |
 | 2026-11-10 | Lic. Verónica Noemí | /psico-juridico-vn/ | borrar | https://www.facebook.com/profile.php?id=100094206581793 |
 | 2026-11-10 | Dúo JCC | /duo-jcc/ | borrar | https://www.facebook.com/profile.php?id=61580258867211 |
 | 2026-11-10 | Lic. Gabriela Lizzet | /gabriela-lizzet/ | borrar | https://www.facebook.com/Abogadalizzet |
@@ -56,7 +57,6 @@ Propuestas: 0 · Vendidos: 40 · Borrados: 38
 | 2026-11-09 | Servicio Jurídico SP | /servicio-juridico-sp/ | vendido | 9992226931 |
 | 2026-11-09 | Morningstar Legal Strategy | /morningstar-legal-strategy/ | vendido | https://www.facebook.com/profile.php?id=61594390782641 |
 | 2026-11-09 | Roger Piña & Asociados | /rp-asociados/ | vendido | 9999947730 |
-| 2026-11-10 | García Aguirre & Asociados | /garcia-aguirre/ | vendido | https://www.facebook.com/AbogadosGarciaAguirreyAsociados |
 | 2026-11-10 | Lic. Montserrat del Pino Roura | /montserrat-del-pino/ | vendido | 9998070213 |
 | 2026-11-12 | Lic. Alfonso Severo Prieto Morales | /alvidrez-rodriguez/ | vendido | 6141036563 |
 | 2026-11-12 | Lic. Karina Montserrat Bañuelos Chávez | /banuelos-asociados/ | vendido | https://www.facebook.com/share/1FQf492e77/ |
