@@ -1411,5 +1411,39 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "lugo-asociados",
+  "nombre": "Lugo & Asociados",
+  "rol": "Lic. César Lugo · Penal 24/7, familiar, civil, laboral, mercantil y amparo · Sonora",
+  "ciudad": "obregon",
+  "otras_ciudades": [
+   "hermosillo"
+  ],
+  "materias": [
+   "penal",
+   "familiar",
+   "civil",
+   "laboral",
+   "mercantil",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/lugo-asociados/foto.jpg",
+  "logo": false,
+  "fondo": "",
+  "iniciales": "CL",
+  "whatsapp": "526621153786",
+  "telefono": "6621153786",
+  "cedula": "7059134",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/lugo-asociados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
