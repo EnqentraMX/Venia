@@ -9,15 +9,28 @@ window.DATOS = {
   "sufijo": "Consultoría legal e integral",
   "abogado": "Cofure Abogados",
   "titulo": "Justicia al alcance de todos",
-  "descripcion": "Cofure Abogados, consultoría legal e integral en León, Guanajuato. Asesoría en despido injustificado, convenios, divorcios, pensiones alimenticias y nulidad de actos de autoridad. Justicia al alcance de todos.",
+  "descripcion": "Cofure Abogados, asesoría jurídica en León, Guanajuato. Divorcios, pensiones alimenticias, guarda y custodia, despidos injustificados, representación patronal, convenios y contratos, juicios sucesorios, escrituración y adjudicación de propiedad, cobro de pagarés y embargos, amparo directo e indirecto y nulidad de actos de autoridad.",
   "cedula": "",
   "modalidad": "Consultoría legal e integral",
   "iniciales": "CA",
-  "foto": "logo.jpg",
+  "foto": "logo2.jpg",
   "fotoLogo": true,
-  "fondoLogo": "#061224",
+  "fondoLogo": "#04243e",
   "equipo": [],
-  "telefonos": [],
+  "telefonos": [
+    {
+      "numero": "4774337563",
+      "whatsapp": false
+    },
+    {
+      "numero": "4776489938",
+      "whatsapp": false
+    },
+    {
+      "numero": "4772095214",
+      "whatsapp": false
+    }
+  ],
   "guia": {
     "url": "/abogados/leon/",
     "nombre": "León"
@@ -29,7 +42,7 @@ window.DATOS = {
       "asesoría",
       "jurídica?"
     ],
-    "texto": "Te asesoramos en despido injustificado, convenios, divorcios, pensiones alimenticias y nulidad de actos de autoridad en León."
+    "texto": "Te asesoramos en divorcios, pensiones, despidos, contratos, herencias, escrituración, cobro de pagarés y amparo en León. Agenda tu consulta."
   },
   "whatsapp": "524774833181",
   "telefono": "4774833181",
@@ -39,31 +52,61 @@ window.DATOS = {
   "precioConsulta": "",
   "areas": [
     {
-      "nombre": "Derecho laboral",
-      "icono": "maletin",
-      "texto": "Defendemos tus derechos en el trabajo.",
-      "puntos": [
-        "Despido injustificado",
-        "Convenios laborales"
-      ]
-    },
-    {
       "nombre": "Derecho familiar",
       "icono": "familia",
       "texto": "Protegemos a tu familia.",
       "puntos": [
         "Divorcios",
-        "Pensiones alimenticias",
-        "Convenios familiares"
+        "Pensiones alimenticias y su actualización",
+        "Guarda y custodia",
+        "Patria potestad"
       ]
     },
     {
-      "nombre": "Derecho administrativo",
+      "nombre": "Derecho laboral",
+      "icono": "maletin",
+      "texto": "Para trabajadores y patrones.",
+      "puntos": [
+        "Despidos injustificados",
+        "Representación patronal",
+        "Convenios y reglamentos"
+      ]
+    },
+    {
+      "nombre": "Sucesiones",
+      "icono": "documento",
+      "texto": "Ordenamos la herencia de tu familia.",
+      "puntos": [
+        "Juicios intestamentarios",
+        "Juicios testamentarios"
+      ]
+    },
+    {
+      "nombre": "Propiedades y contratos",
       "icono": "edificio",
+      "texto": "Protegemos tu patrimonio.",
+      "puntos": [
+        "Trámites de escrituración",
+        "Adjudicación de propiedad",
+        "Contratos"
+      ]
+    },
+    {
+      "nombre": "Cobranza",
+      "icono": "acuerdo",
+      "texto": "Recuperamos lo que te deben.",
+      "puntos": [
+        "Cobro de pagarés",
+        "Embargos"
+      ]
+    },
+    {
+      "nombre": "Amparo y administrativo",
+      "icono": "balanza",
       "texto": "Defensa ante la autoridad.",
       "puntos": [
-        "Nulidad de actos de autoridad",
-        "Multas y sanciones"
+        "Amparo directo e indirecto",
+        "Nulidad de actos de autoridad"
       ]
     }
   ],
@@ -71,8 +114,8 @@ window.DATOS = {
   "compromisos": [
     "Justicia al alcance de todos",
     "Consultoría legal e integral",
-    "Laboral, familiar y administrativo",
-    "Atención en León"
+    "4 números de contacto",
+    "Oficina en la Col. Andrade, León"
   ],
   "situaciones": [
     {
@@ -80,19 +123,23 @@ window.DATOS = {
       "urgente": true
     },
     {
-      "texto": "Me quiero divorciar",
+      "texto": "Me quiero divorciar o necesito pensión alimenticia",
       "urgente": false
     },
     {
-      "texto": "Necesito pensión alimenticia para mis hijos",
+      "texto": "Falleció un familiar y hay que hacer la sucesión",
       "urgente": false
     },
     {
-      "texto": "Necesito hacer un convenio",
+      "texto": "Necesito escriturar una propiedad",
       "urgente": false
     },
     {
-      "texto": "Una autoridad me multó o sancionó",
+      "texto": "Me deben dinero con pagaré",
+      "urgente": false
+    },
+    {
+      "texto": "Necesito interponer un amparo",
       "urgente": false
     }
   ],
@@ -115,8 +162,8 @@ window.DATOS = {
   "oficinas": [
     {
       "nombre": "León",
-      "direccion": "León, Guanajuato",
-      "referencia": "Cofure Abogados: consultoría legal e integral en León. Despido injustificado, convenios, divorcios, pensiones alimenticias y nulidad de actos de autoridad."
+      "direccion": "Calle Bruselas No. 108, Interior 7, Col. Andrade, León, Gto.",
+      "referencia": "Cofure Abogados: asesoría jurídica en León. Divorcios, pensiones, despidos, representación patronal, contratos, sucesiones, escrituración, cobro de pagarés y amparo."
     }
   ],
   "redes": {

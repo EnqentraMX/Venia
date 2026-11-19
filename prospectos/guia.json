@@ -1428,17 +1428,20 @@
  {
   "slug": "cofure-abogados",
   "nombre": "Cofure Abogados",
-  "rol": "Consultoría legal · Despidos, divorcios, pensiones y nulidad · León",
+  "rol": "Asesoría jurídica · Familiar, laboral, herencias, escrituración, pagarés y amparo · León",
   "ciudad": "leon",
   "materias": [
-   "laboral",
    "familiar",
-   "civil"
+   "laboral",
+   "civil",
+   "sucesiones",
+   "mercantil",
+   "amparo"
   ],
   "plan": "premium",
-  "foto": "/cofure-abogados/logo.jpg",
+  "foto": "/cofure-abogados/logo2.jpg",
   "logo": true,
-  "fondo": "#061224",
+  "fondo": "#04243e",
   "iniciales": "CA",
   "whatsapp": "524774833181",
   "telefono": "4774833181",
