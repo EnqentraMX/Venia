@@ -81,7 +81,8 @@ Otros pedidos frecuentes:
 
 ## Estilo visual actual (diseño v3, oficial desde 18 nov 2026)
 - **Perfiles:** `herramientas/v3.py` (landing de cada abogado: portada con foto o logo en tarjeta dorada, pestañas, "¿Qué te pasó?", servicios desplegables, costos, mapa de Google, barra fija de WhatsApp; en computadora dos columnas con tarjeta fija). `generar.py` lo usa solo para los perfiles `plantilla: "v2"` (`USAR_V3 = True`). Estilos: `public/assets/v3.css` + `perfil3.css`.
-- **Inicio:** `herramientas/inicio3.html` + `inicio3.py` (lo llama `guia.py`, `INICIO_V3 = True`): "Cuéntanos qué pasó" con detección de materia por palabras clave, destacados Premium que corren solos y cambian de orden cada día, consejo legal del día, situaciones (+ "Otro asunto"), guías, confianza, preguntas frecuentes.
+- Logos de perfil con "luz LED" dorada que recorre el contorno (`.led` en perfil3.css, vuelta cada 6 s).
+- **Inicio:** `herramientas/inicio3.html` + `inicio3.py` (lo llama `guia.py`, `INICIO_V3 = True`): "Cuéntanos qué pasó" con detección de materia por palabras clave, destacados Premium que corren solos (y se pueden mover con el dedo o con flechas ‹ ›) y cambian de orden cada día, consejo legal del día, situaciones (+ "Otro asunto"), guías, confianza, preguntas frecuentes.
 - Colores originales: crema `#f5efe4`, tinta `#15120e`, oro `#b08a45`/`#d8b874`. Tipografía: **Plus Jakarta Sans** (la original; él rechazó serif tipo Lexia, Caslon y Gloock). Fuentes servidas desde `public/assets/fuentes/`.
 - Los CSS llevan `?v=hash` (el sitio cachea /assets 1 h; sin versión el celular muestra diseño viejo).
 - Diseño anterior (v2) respaldado en `respaldo/diseno-anterior/` (cómo volver: LEEME.md). `/nuevo/` redirige a `/` (`public/_redirects`).

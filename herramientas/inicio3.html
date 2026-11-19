@@ -66,10 +66,12 @@
 .sec .cab2{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
 .flechas{display:none;gap:8px}.flechas button{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--tinta);display:grid;place-items:center}
 @media(min-width:760px){.flechas{display:flex}}
-.carr{overflow:hidden;margin:20px -20px 0;padding:6px 0 14px;-webkit-mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
-.pista{display:flex;gap:14px;width:max-content;animation:corre 46s linear infinite;padding-left:14px}
-.carr:hover .pista,.carr.pausa .pista{animation-play-state:paused}
-@keyframes corre{to{transform:translateX(-50%)}}
+.carr{overflow-x:auto;scrollbar-width:none;margin:20px -20px 0;padding:6px 0 14px;-webkit-mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.carr::-webkit-scrollbar{display:none}
+.pista{display:flex;gap:14px;width:max-content;padding:0 14px}
+.ctrl{display:flex;gap:8px;justify-content:center;margin-top:6px}
+.ctrl button{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--tinta);display:grid;place-items:center;font-size:20px;transition:background .2s,color .2s}
+.ctrl button:active{background:var(--tinta);color:var(--crema)}
 .tar{flex:none;width:272px;background:var(--papel);color:var(--tinta);border:1px solid var(--linea);border-radius:26px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 24px 40px -30px rgba(60,40,10,.45)}
 .tar .ft{height:250px;background:#15120e center 22%/cover no-repeat;position:relative}
 .tar .ft.lg{background-size:70% auto;background-position:center}
@@ -175,6 +177,7 @@
 <section class="sec"><div class="ancho">
  <div class="kick rv" id="hoy"></div><h2 class="cs rv d1">Destacados <span>de hoy.</span></h2>
  <div class="carr" id="carr"><div class="pista" id="pista"></div></div>
+ <div class="ctrl"><button id="ant" aria-label="Anterior">‹</button><button id="sig" aria-label="Siguiente">›</button></div>
 </div></section>
 
 <section class="sec"><div class="ancho">
@@ -303,8 +306,20 @@ function pintarCarr(){const P=AB.filter(a=>a.p==="premium");const loc=mezcla(enC
   <div class="cu"><h3>${esc(a.n)}</h3>${a.fr?`<q>${esc(a.fr)}</q>`:""}<div class="tags">${(a.m||[]).slice(0,3).map(m=>`<span>${esc(MAT[m]||m)}</span>`).join("")}${consulta(a)}</div>
   <div class="acc"><a class="btn btn-linea" href="${a.u}">Ver perfil</a><a class="btn btn-oro" target="_blank" rel="noopener" href="${wa(a)}">WhatsApp</a></div></div></article>`;
  const h=L.map(card).join("");$("#pista").innerHTML=h+h;}
-$("#carr").addEventListener("touchstart",()=>$("#carr").classList.add("pausa"),{passive:true});
-$("#carr").addEventListener("touchend",()=>setTimeout(()=>$("#carr").classList.remove("pausa"),2500),{passive:true});
+/* Movimiento automático + control con el dedo y flechas */
+const C=$("#carr");let quieto=0,ult=performance.now(),acum=0;
+const mitad=()=>$("#pista").scrollWidth/2;
+function paso(t){const dt=t-ult;ult=t;
+ if(t>quieto&&!document.hidden){acum+=dt*0.035;const n=Math.floor(acum);if(n){C.scrollLeft+=n;acum-=n}}
+ const h=mitad();if(h>0){if(C.scrollLeft>=h)C.scrollLeft-=h;else if(C.scrollLeft<=0&&t>quieto)C.scrollLeft+=h}
+ requestAnimationFrame(paso)}
+const espera=(ms=3500)=>{quieto=performance.now()+ms};
+["touchstart","pointerdown","wheel"].forEach(ev=>C.addEventListener(ev,()=>espera(),{passive:true}));
+C.addEventListener("touchend",()=>espera(3000),{passive:true});
+const ancho=()=>(C.querySelector(".tar")?.offsetWidth||272)+14;
+$("#sig").onclick=()=>{espera(4000);C.scrollBy({left:ancho(),behavior:"smooth"})};
+$("#ant").onclick=()=>{espera(4000);const h=mitad();if(C.scrollLeft<ancho())C.scrollLeft+=h;C.scrollBy({left:-ancho(),behavior:"smooth"})};
+requestAnimationFrame(t=>{C.scrollLeft=1;ult=t;requestAnimationFrame(paso)});
 /* Consejo del día */
 const T=TIPS[DIA%TIPS.length];
 $("#consejo").innerHTML=`<div class="fecha">${hoy.getDate()} de ${meses[hoy.getMonth()]} · ${MAT[T[0]]}</div><p class="cs">${esc(T[1])}</p><small>Información general. Tu caso puede ser distinto: consúltalo con un abogado.</small><button class="btn btn-oro" id="bTip">¿Te pasó? Habla con un abogado →</button>`;

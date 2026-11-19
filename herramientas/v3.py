@@ -122,9 +122,9 @@ def construir(a):
 <body>
 <header class="top" id="top"><a class="ic" href="/" aria-label="Volver">{ic("atras")}</a><a class="marca" href="/">Lic<b>Link</b></a><button class="ic" id="bComp" aria-label="Compartir">{ic("comp")}</button></header>
 
-<section class="hero{"" if tiene_foto else " hl"}">{f'<div class="img" style="{bg_hero}"></div>' if tiene_foto else f'<div class="lc" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({img})"></div>'}
+<section class="hero{"" if tiene_foto else " hl"}">{f'<div class="img" style="{bg_hero}"></div>' if tiene_foto else f'<div class="led lcm"><div class="lc" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({img})"></div></div>'}
  <div class="txt intro">
-  {f'<span class="milogo lt" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({avatar})"></span>' if tiene_foto and avatar != img else ""}
+  {f'<span class="led led-mini lt"><span class="milogo" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({avatar})"></span></span>' if tiene_foto and avatar != img else ""}
   <div class="kick lt">{E(titulo_ab)} · {E(estado_ciudad)}</div>
   <h1 class="cs lt">{h1}</h1>
   <p class="lema lt">{E(a.get("frase") or a.get("titulo",""))}</p>
