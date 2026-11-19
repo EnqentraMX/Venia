@@ -1257,34 +1257,6 @@
   "pago": "pendiente"
  },
  {
-  "slug": "corporativo-juridico-tuxtla",
-  "nombre": "Corporativo Jurídico",
-  "rol": "Despacho jurídico · Divorcios, civil, familiar, notarial y amparo · Tuxtla Gutiérrez",
-  "ciudad": "chiapas",
-  "materias": [
-   "familiar",
-   "civil",
-   "amparo"
-  ],
-  "plan": "premium",
-  "foto": "/corporativo-juridico-tuxtla/logo.jpg",
-  "logo": true,
-  "fondo": "#12161e",
-  "iniciales": "CJ",
-  "whatsapp": "529613272094",
-  "telefono": "9613272094",
-  "consulta": "Asesoría inicial $1,000",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/corporativo-juridico-tuxtla/",
-  "redes": {},
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-19",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
   "slug": "davila-ramirez-vivas",
   "nombre": "Dávila Ramírez Vivas",
   "rol": "Asesoría contable, fiscal y legal · Compliance laboral e IMSS · Estado de México",

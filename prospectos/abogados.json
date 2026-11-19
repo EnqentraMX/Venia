@@ -9510,7 +9510,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-19",
     "fuente": "Facebook"
