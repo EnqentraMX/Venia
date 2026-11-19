@@ -32,7 +32,6 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Lic. Luis Romero | premium | San Luis Potosí | 2026-11-15 | — | pendiente | activo | no |
 | Lic. Miguel Ángel Manzano Macías | premium | Guadalajara | 2026-11-09 | — | pendiente | activo | no |
 | Martínez y Asociados | premium | Estado de México | 2026-11-19 | — | pendiente | activo | no |
-| Mercado & López | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
 | Miguel Pérez | Abogado | premium | Yucatán | 2026-11-08 | — | pendiente | activo | no |
 | Mirafuentes & Hernández | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
 | Roger Piña & Asociados | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |

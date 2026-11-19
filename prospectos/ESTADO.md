@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 39 · Borrados: 43
+Propuestas: 0 · Vendidos: 38 · Borrados: 44
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -34,6 +34,7 @@ Propuestas: 0 · Vendidos: 39 · Borrados: 43
 | 2026-11-13 | JS Abogados Asociados | /js-abogados/ | borrar | https://www.facebook.com/profile.php?id=61595848097885 |
 | 2026-11-13 | Lic. Valente Casanova | /casanova-abogados/ | borrar | https://www.facebook.com/valentecasanova |
 | 2026-11-13 | Lic. Esaú Enríquez Díaz | /enco-consultores/ | borrar | 9611788746 |
+| 2026-11-13 | Mercado & López | /mercado-lopez/ | borrar | 3314175482 |
 | 2026-11-13 | AJ Servicios Legales | /aj-servicios-legales/ | borrar | https://www.facebook.com/abogadocun |
 | 2026-11-13 | Despacho Jurídico Integral | /despacho-juridico-integral/ | borrar | 5582203183 |
 | 2026-11-13 | Profr. y Lic. Juan Manuel Martínez Aguirre | /martinez-asociados/ | borrar | 3310230527 |
@@ -66,7 +67,6 @@ Propuestas: 0 · Vendidos: 39 · Borrados: 43
 | 2026-11-13 | Mirafuentes & Hernández | /mirafuentes-hernandez/ | vendido | 5528574510 |
 | 2026-11-13 | Lic. Ana Gabriela Lugo López | /ana-lugo/ | vendido | https://www.facebook.com/alugolopez/ |
 | 2026-11-13 | ZF Legal Studio | /zf-legal-studio/ | vendido | https://www.facebook.com/profile.php?id=61578702427538 |
-| 2026-11-13 | Mercado & López | /mercado-lopez/ | vendido | 3314175482 |
 | 2026-11-13 | Gallegos & Asociados | /gallegos-asociados/ | vendido | https://www.facebook.com/profile.php?id=61592044285795 |
 | 2026-11-13 | Lic. Irving Durán | /duran-asociados/ | vendido | 5621141173 |
 | 2026-11-13 | Asesoría Fiscal y Jurídica García | /afjg-garcia/ | vendido | https://www.facebook.com/ASESORIAFISCALYJURIDICAGARCIA |
