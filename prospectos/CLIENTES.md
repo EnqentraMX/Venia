@@ -35,6 +35,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Lic. Julieta Rechy | premium | Veracruz | 2026-11-19 | — | pendiente | activo | no |
 | Lic. Karina Bañuelos | premium | Gómez Palacio | 2026-11-12 | — | pendiente | activo | no |
 | Lic. Lorenia Pavlova | premium | Monterrey | 2026-11-18 | — | pendiente | activo | no |
+| Lic. Luis Aldair Ramírez Mayo | premium | Tabasco | 2026-11-19 | — | pendiente | activo | no |
 | Lic. Luis Romero | premium | San Luis Potosí | 2026-11-15 | — | pendiente | activo | no |
 | Lic. Miguel Ángel Manzano Macías | premium | Guadalajara | 2026-11-09 | — | pendiente | activo | no |
 | Lugo & Asociados | premium | Ciudad Obregón | 2026-11-19 | — | pendiente | activo | no |

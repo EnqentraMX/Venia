@@ -10903,5 +10903,133 @@
     "plan": "premium",
     "alta": "2026-11-19",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "luis-ramirez-mayo",
+    "nombre": "Lic. Luis Aldair Ramírez Mayo",
+    "despacho": "Ramírez & Asociados",
+    "sufijo": "Despacho jurídico",
+    "despacho_largo": "Ramírez & Asociados | Abogados en Villahermosa",
+    "titulo": "Abogado",
+    "iniciales": "LR",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#01132b",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Villahermosa",
+    "telefono": "9932427822",
+    "correo": "contacto@ramirezyasociados.mx",
+    "web": "https://www.ramirezyasociados.mx",
+    "direccion": "Calle Revolución número 219, Col. Atasta, Centro, Tabasco",
+    "referencia": "Lic. Luis Aldair Ramírez Mayo, Ramírez & Asociados: abogado en Villahermosa, Tabasco. Divorcios, pensión alimenticia, guarda y custodia, violencia intrafamiliar, cobro de pagarés y juicios sucesorios.",
+    "descripcion": "Lic. Luis Aldair Ramírez Mayo, Ramírez & Asociados, despacho jurídico en la Col. Atasta, Centro, Tabasco. Especialista en divorcios, pensión alimenticia, guarda y custodia, violencia intrafamiliar, cobro de pagarés y juicios sucesorios intestamentarios y testamentarios. También derecho laboral, civil, mercantil, inmobiliario y asesoría preventiva.",
+    "modalidad": "Respuesta rápida",
+    "portada": [
+      "Defendemos tus derechos,",
+      "protegemos",
+      "tu futuro."
+    ],
+    "texto_portada": "Asesoría legal profesional, confiable y personalizada. Especialista en divorcios, pensión alimenticia, custodia, violencia intrafamiliar, cobro de pagarés y sucesiones.",
+    "frase": "Tu tranquilidad es nuestra prioridad.",
+    "compromisos": [
+      "Atención personalizada",
+      "Confidencialidad garantizada",
+      "Respuesta rápida",
+      "Compromiso y resultados"
+    ],
+    "situaciones": [
+      {
+        "texto": "Sufro violencia familiar",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero con un pagaré",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar y hay que hacer la sucesión",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron de mi trabajo",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Mi especialidad: protejo a tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Régimen de visitas",
+          "Violencia intrafamiliar"
+        ]
+      },
+      {
+        "nombre": "Juicios sucesorios",
+        "icono": "documento",
+        "texto": "Ordenamos la herencia de tu familia.",
+        "puntos": [
+          "Sucesión intestamentaria",
+          "Sucesión testamentaria"
+        ]
+      },
+      {
+        "nombre": "Cobro de pagarés y mercantil",
+        "icono": "acuerdo",
+        "texto": "Recuperamos lo que te deben.",
+        "puntos": [
+          "Cobro de pagarés",
+          "Cobranza y títulos de crédito",
+          "Sociedades y operaciones comerciales"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Defendemos tus derechos en el trabajo.",
+        "puntos": [
+          "Despidos injustificados",
+          "Finiquitos",
+          "Contratos"
+        ]
+      },
+      {
+        "nombre": "Civil e inmobiliario",
+        "icono": "edificio",
+        "texto": "Protegemos tu patrimonio.",
+        "puntos": [
+          "Contratos y juicios civiles",
+          "Daños y perjuicios",
+          "Compraventas y arrendamientos",
+          "Regularización de propiedades"
+        ]
+      },
+      {
+        "nombre": "Asesoría jurídica",
+        "icono": "balanza",
+        "texto": "Asesoría preventiva para personas físicas y empresas.",
+        "puntos": [
+          "Asesoría preventiva"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-19",
+    "fuente": "Facebook"
   }
 ]

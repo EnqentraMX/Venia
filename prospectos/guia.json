@@ -1525,5 +1525,34 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "luis-ramirez-mayo",
+  "nombre": "Lic. Luis Aldair Ramírez Mayo",
+  "rol": "Ramírez & Asociados · Divorcios, pensiones, custodia, pagarés y sucesiones · Villahermosa",
+  "ciudad": "tabasco",
+  "materias": [
+   "familiar",
+   "sucesiones",
+   "mercantil",
+   "civil",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/luis-ramirez-mayo/logo.jpg",
+  "logo": true,
+  "fondo": "#01132b",
+  "iniciales": "LR",
+  "whatsapp": "529932427822",
+  "telefono": "9932427822",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/luis-ramirez-mayo/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
