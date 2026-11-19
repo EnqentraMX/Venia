@@ -181,15 +181,15 @@
 @media(min-width:980px){.milogo{width:96px;height:96px}}
 
 /* Luz dorada tipo LED que recorre el contorno del logo */
-.led{position:relative;display:block;padding:2px;border-radius:32px;overflow:hidden;isolation:isolate;background:rgba(216,184,116,.18)}
+.led{position:relative;display:block;padding:3px;border-radius:33px;overflow:hidden;isolation:isolate;background:rgba(216,184,116,.28)}
 .led::before{content:"";position:absolute;z-index:-1;left:50%;top:50%;width:160%;aspect-ratio:1;transform:translate(-50%,-50%) rotate(0deg);
-  background:conic-gradient(from 0deg,transparent 0deg,transparent 250deg,rgba(176,138,69,.4) 290deg,#f7dc96 330deg,#fff6d8 345deg,#e2c487 352deg,transparent 360deg);
+  background:conic-gradient(from 0deg,transparent 0deg,transparent 200deg,rgba(216,184,116,.55) 250deg,#ffd76a 300deg,#fff3c2 330deg,#ffffff 342deg,#ffe08a 350deg,#ffcf4d 356deg,transparent 360deg);filter:saturate(1.4) brightness(1.25);
   animation:led 6s linear infinite}
 @keyframes led{to{transform:translate(-50%,-50%) rotate(360deg)}}
 .led>*{position:relative;border-radius:30px}
 .lcm{width:min(80vw,384px);margin:0 auto;box-shadow:0 0 0 10px rgba(216,184,116,.06),0 40px 80px -30px rgba(0,0,0,.8);animation:aparece 1s cubic-bezier(.2,.7,.2,1) both}
 .lcm .lc{width:100%;margin:0;border:0;box-shadow:none;animation:none}
-.led-mini{width:max-content;border-radius:22px;margin-bottom:16px}
+.led-mini{width:max-content;border-radius:23px;margin-bottom:16px;padding:2.5px}
 .led-mini .milogo{margin:0;border:0;border-radius:20px}
 .led-mini::before{width:220%}
 @media (min-width:980px){

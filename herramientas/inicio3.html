@@ -226,13 +226,13 @@
 /*DATOS*/
 const MAT={penal:"penal",familiar:"familiar",laboral:"laboral",civil:"civil",mercantil:"mercantil",sucesiones:"herencias",amparo:"amparo",fiscal:"fiscal",agrario:"agrario"};
 const PAL={
- penal:[/detuv|deten|arrest|polic[ií]a|ministerio p[uú]blico|\bmp\b|fiscal[ií]a|denuncia|delito|rob[oa]|golpe|amenaz|c[aá]rcel|reclusorio|acusa|querella|vinculaci|fraude|lesiones|abuso/g,/citatorio|audiencia/g],
- laboral:[/despid|me corri|corrieron|liquidaci|finiquito|patr[oó]n|mi trabajo|trabajaba|imss|aguinaldo|vacaciones|renuncia|sueldo|salario|horas extra|incapacidad|jefe/g],
+ penal:[/detuv|deten|arrest|polic[ií]a|ministerio p[uú]blico|\bmp\b|fiscal[ií]a|denuncia|delito|rob[oa]|golpe|amenaz|c[aá]rcel|reclusorio|acusa|querella|vinculaci|fraude|lesiones|abuso|estaf|extorsi|secuestr|me golpe|agredi|reclusorio|penal|me acusan|orden de aprehensi|droga|armas?\b|homicidio|violaci[oó]n|acoso sexual|me robaron/g,/citatorio|audiencia/g],
+ laboral:[/despid|me corri|corrieron|liquidaci|finiquito|patr[oó]n|mi trabajo|trabajaba|imss|aguinaldo|vacaciones|renuncia|sueldo|salario|horas extra|incapacidad|jefe|acoso laboral|me acosa|contrato de trabajo|horas|utilidades|infonavit|afore|pensi[oó]n del imss|despido|me bajaron el sueldo/g],
  familiar:[/divorci|pensi[oó]n|mis hijos|mi hij|custodia|convivencia|espos[ao]|ex ?pareja|mi pareja|paternidad|matrimonio|separar|adopci|violencia familiar|alimentos/g],
  sucesiones:[/herencia|testamento|falleci|muri[oó]|intestado|sucesi|heredar|albacea|difunt/g],
- civil:[/renta|arrend|inquilino|caser[oa]|contrato|propiedad|escritura|me demand|demanda|desalojo|vecino|predial|da[nñ]os|compraventa|casa/g],
- mercantil:[/me deben|deuda|pagar[eé]|cobrar|cobranza|cheque|socio|mi negocio|tarjeta de cr|banco|bur[oó]|pr[eé]stamo/g],
- amparo:[/amparo|autoridad|clausur|suspensi[oó]n|me negaron|violaron mis derechos/g],
+ civil:[/renta|arrend|inquilino|caser[oa]|contrato|propiedad|escritura|me demand|demanda|desalojo|vecino|predial|da[nñ]os|compraventa|casa|terreno|dep[oó]sito|choqu|choque|accidente|notificaci[oó]n|juzgado|emplazamiento|desalojar|usucapi|prescripci|escriturar|hipoteca|construcci/g],
+ mercantil:[/me deben|deuda|pagar[eé]|cobrar|cobranza|cheque|socio|mi negocio|tarjeta de cr|banco|bur[oó]|pr[eé]stamo|embarg|cobradores|despacho de cobranza|marca|empresa|sociedad|proveedor|cliente no (me )?paga/g],
+ amparo:[/amparo|autoridad|clausur|suspensi[oó]n|me negaron|violaron mis derechos|multa|tr[aá]nsito|gr[uú]a|corral[oó]n|migraci[oó]n|deportar|permiso|ayuntamiento|municipio|gobierno/g],
  fiscal:[/\bsat\b|impuesto|fiscal\b|declaraci[oó]n anual|rfc|cr[eé]dito fiscal|factura/g],
  agrario:[/ejid|comunero|parcela|agrari|tierras comunales/g]};
 const EJ=[["Me llegó un citatorio","Me llegó un citatorio del Ministerio Público y no sé qué hacer."],["Me despidieron","Me despidieron sin darme mi liquidación después de 5 años."],["Pensión para mis hijos","Mi expareja no quiere pagar la pensión de mis hijos."],["Detuvieron a un familiar","Detuvieron a mi hermano anoche y no sabemos a dónde lo llevaron."],["Quiero divorciarme","Quiero divorciarme pero mi esposo no está de acuerdo."],["Herencia sin testamento","Mi papá falleció y no dejó testamento."],["Me deben dinero","Un cliente me debe dinero y firmó un pagaré."],["Problema con mi casero","Mi casero me quiere sacar de la casa antes de que termine el contrato."]];
