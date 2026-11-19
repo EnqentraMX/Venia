@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 42 · Borrados: 35
+Propuestas: 0 · Vendidos: 43 · Borrados: 35
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -81,3 +81,4 @@ Propuestas: 0 · Vendidos: 42 · Borrados: 35
 | 2026-11-18 | Lic. Lorenia Pavlova | /lorenia-pavlova/ | vendido | 8123929483 |
 | 2026-11-18 | Cofure Abogados | /cofure-abogados/ | vendido | 4774833181 |
 | 2026-11-18 | Sales Paz y Puente Abogados | /sales-paz-puente/ | vendido | https://www.facebook.com/salespazypuentebogados.com.mx |
+| 2026-11-18 | Lic. Enrique Díaz | /diaz-asociados/ | vendido | 8110305039 |

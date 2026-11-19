@@ -9289,5 +9289,107 @@
     "plan": "premium",
     "alta": "2026-11-18",
     "fuente": "Sitio web"
+  },
+  {
+    "slug": "diaz-asociados",
+    "nombre": "Lic. Enrique Díaz",
+    "despacho": "Díaz & Asociados",
+    "sufijo": "Abogados",
+    "despacho_largo": "Díaz & Asociados | Abogados en Monterrey",
+    "titulo": "Abogado laboral y civil · Cédula profesional 11303558",
+    "iniciales": "DA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Monterrey, N.L.",
+    "telefono": "8110305039",
+    "direccion": "",
+    "referencia": "Lic. Enrique Díaz, cédula profesional 11303558. Atención por WhatsApp.",
+    "descripcion": "Díaz & Asociados, abogados en Monterrey: despidos y liquidaciones (pagas sobre resultados), regularización de casas, juicios intestamentarios, usucapión, copropiedad, hipotecas y recuperación de inmuebles.",
+    "modalidad": "Atención por WhatsApp",
+    "portada": [
+      "¿Te corrieron",
+      "y no te",
+      "pagaron?"
+    ],
+    "texto_portada": "Te ayudamos a cobrar lo que te corresponde y a regularizar tu casa legalmente. Asesoría clara y profesional, revisión de documentos y atención personalizada.",
+    "frase": "¿Te corrieron y no te pagaron? Te ayudamos. Pagas sobre resultados.",
+    "compromisos": [
+      "Pagas sobre resultados (laboral)",
+      "Asesoría clara y profesional",
+      "Revisión de documentos",
+      "Atención personalizada"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me corrieron y no me pagaron mi liquidación",
+        "urgente": true
+      },
+      {
+        "texto": "Me obligaron a firmar mi renuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Vivo en una casa que no está a mi nombre",
+        "urgente": false
+      },
+      {
+        "texto": "Murió un familiar y no dejó testamento",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero recuperar un inmueble o cancelar una hipoteca",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "¿Te despidieron sin motivo o no te dieron tu liquidación? Pagas sobre resultados.",
+        "puntos": [
+          "Despido injustificado",
+          "Renuncia forzada",
+          "Liquidación y finiquito",
+          "Pagas sobre resultados"
+        ]
+      },
+      {
+        "nombre": "Regularización de inmuebles",
+        "icono": "edificio",
+        "texto": "No te arriesgues a perder tu patrimonio: te ayudamos a regularizar tu casa legalmente.",
+        "puntos": [
+          "Prescripción positiva (usucapión)",
+          "Adjudicación de bienes",
+          "División de copropiedad",
+          "Recuperación de inmuebles"
+        ]
+      },
+      {
+        "nombre": "Sucesiones",
+        "icono": "documento",
+        "texto": "Si un familiar falleció sin testamento, te ayudamos a que los bienes queden a nombre de quien corresponde.",
+        "puntos": [
+          "Juicio sucesorio intestamentario",
+          "Adjudicación de bienes"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "balanza",
+        "texto": "Asesoría clara y revisión de documentos.",
+        "puntos": [
+          "Cancelación de hipotecas",
+          "Revisión de documentos"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-18",
+    "fuente": "Facebook"
   }
 ]

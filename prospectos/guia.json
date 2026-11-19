@@ -1428,5 +1428,33 @@
   "alta": "2026-11-18",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "diaz-asociados",
+  "nombre": "Díaz & Asociados",
+  "rol": "Lic. Enrique Díaz · Laboral, regularización de inmuebles, sucesiones y civil · Monterrey",
+  "ciudad": "monterrey",
+  "otras_ciudades": [],
+  "materias": [
+   "laboral",
+   "civil",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/diaz-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "DA",
+  "whatsapp": "528110305039",
+  "telefono": "8110305039",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/diaz-asociados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-18",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
