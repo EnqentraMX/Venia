@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 45 · Borrados: 44
+Propuestas: 0 · Vendidos: 46 · Borrados: 44
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -93,3 +93,4 @@ Propuestas: 0 · Vendidos: 45 · Borrados: 44
 | 2026-11-19 | Lic. César Enrique Lugo Gutiérrez | /lugo-asociados/ | vendido | 6621153786 |
 | 2026-11-19 | Lic. Carlos Guzmán | /carlos-guzman/ | vendido | 9361083311 |
 | 2026-11-19 | Mtro. Julio César Sánchez Vejar | /sanchez-vejar/ | vendido | 6623710454 |
+| 2026-11-19 | Lic. Josué Rodríguez | /josue-rodriguez/ | vendido | 8681980942 |

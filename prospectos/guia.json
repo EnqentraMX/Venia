@@ -1499,5 +1499,31 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "josue-rodriguez",
+  "nombre": "Lic. Josué Rodríguez",
+  "rol": "Despacho JR & Asociados · Laboral (trabajadores de gobierno y privados) y fiscal · Cd. Victoria",
+  "ciudad": "tamaulipas",
+  "materias": [
+   "laboral",
+   "fiscal"
+  ],
+  "plan": "premium",
+  "foto": "/josue-rodriguez/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "JR",
+  "whatsapp": "528681980942",
+  "telefono": "8681980942",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/josue-rodriguez/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
