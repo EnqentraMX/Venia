@@ -27,6 +27,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Lic. Agustina Nicolás | premium | Ciudad de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Alejandra Solís | premium | León | 2026-11-19 | — | pendiente | activo | no |
 | Lic. Ana Gabriela Lugo López | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
+| Lic. Carlos Guzmán | premium | Tabasco | 2026-11-19 | — | pendiente | activo | no |
 | Lic. Edgar Iván Ávila Canseco | premium | Estado de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Eliana Rodríguez de la Cruz | premium | Cancún | 2026-11-18 | — | pendiente | activo | no |
 | Lic. Jesús Antonio Urbina | premium | Chihuahua | 2026-11-15 | — | pendiente | activo | no |

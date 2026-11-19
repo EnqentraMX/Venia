@@ -10537,5 +10537,112 @@
     "plan": "premium",
     "alta": "2026-11-19",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "carlos-guzman",
+    "nombre": "Lic. Carlos Guzmán",
+    "despacho": "Guzmán Abogados",
+    "sufijo": "Abogado familiar",
+    "despacho_largo": "Guzmán Abogados | Abogado en Macuspana",
+    "titulo": "Abogado",
+    "iniciales": "CG",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#071730",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Macuspana",
+    "telefono": "9361083311",
+    "cedula": "14567573",
+    "direccion": "Juan Aldama 10 altos, Macuspana, Tabasco, C.P. 86709",
+    "referencia": "Lic. Carlos Guzmán, Guzmán Abogados: abogado en Macuspana, Tabasco. Servicios legales en materia familiar: pensión alimenticia, divorcio, guarda y custodia, juicio sucesorio y reconocimiento de paternidad.",
+    "descripcion": "Lic. Carlos Guzmán, Guzmán Abogados, abogado en Macuspana, Tabasco (cédula 14567573, UJAT). Defensa efectiva, asesoría estratégica y solución legal de conflictos en materia familiar: pensión alimenticia, divorcio, guarda y custodia, juicio sucesorio y reconocimiento de paternidad. Atención personalizada y confidencial.",
+    "modalidad": "Atención personalizada y confidencial",
+    "portada": [
+      "Los problemas",
+      "familiares también",
+      "necesitan solución legal."
+    ],
+    "texto_portada": "Si estás pasando por una situación complicada y necesitas iniciar un trámite o juicio, te ayudo a darle seguimiento formal a tu asunto. Actuar a tiempo puede evitar más conflictos, gastos y desgaste emocional.",
+    "frase": "Derecho · Compromiso · Resultados.",
+    "compromisos": [
+      "Atención personalizada y confidencial",
+      "Trámite y seguimiento de tu asunto",
+      "Cédula profesional 14567573 (UJAT)",
+      "Oficina en Macuspana"
+    ],
+    "situaciones": [
+      {
+        "texto": "Necesito pensión alimenticia para mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Me quiero divorciar",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar y hay que hacer la sucesión",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito el reconocimiento de paternidad",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Pensión alimenticia",
+        "icono": "familia",
+        "texto": "Hacemos valer el derecho de tus hijos a recibir lo que por ley les corresponde.",
+        "puntos": [
+          "Solicitud de pensión",
+          "Aumento o reducción de pensión"
+        ]
+      },
+      {
+        "nombre": "Divorcio",
+        "icono": "acuerdo",
+        "texto": "Te represento en todo el proceso legal de divorcio.",
+        "puntos": [
+          "Divorcio voluntario",
+          "Divorcio incausado"
+        ]
+      },
+      {
+        "nombre": "Guarda y custodia",
+        "icono": "escudo",
+        "texto": "Defiendo el bienestar y el derecho de tus hijos a una vida estable.",
+        "puntos": [
+          "Guarda y custodia",
+          "Convivencias"
+        ]
+      },
+      {
+        "nombre": "Juicio sucesorio",
+        "icono": "documento",
+        "texto": "Te apoyo en la tramitación legal para la correcta distribución de bienes.",
+        "puntos": [
+          "Sucesión intestamentaria",
+          "Sucesión testamentaria"
+        ]
+      },
+      {
+        "nombre": "Reconocimiento de paternidad",
+        "icono": "lupa",
+        "texto": "Establecemos legalmente el vínculo paterno y los derechos derivados.",
+        "puntos": [
+          "Juicio de reconocimiento de paternidad"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-19",
+    "fuente": "Facebook"
   }
 ]

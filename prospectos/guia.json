@@ -1445,5 +1445,32 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "carlos-guzman",
+  "nombre": "Lic. Carlos Guzmán",
+  "rol": "Guzmán Abogados · Pensiones, divorcios, custodia, sucesiones y paternidad · Macuspana",
+  "ciudad": "tabasco",
+  "materias": [
+   "familiar",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/carlos-guzman/logo.jpg",
+  "logo": true,
+  "fondo": "#071730",
+  "iniciales": "CG",
+  "whatsapp": "529361083311",
+  "telefono": "9361083311",
+  "cedula": "14567573",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/carlos-guzman/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

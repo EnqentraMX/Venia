@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 43 · Borrados: 44
+Propuestas: 0 · Vendidos: 44 · Borrados: 44
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -91,3 +91,4 @@ Propuestas: 0 · Vendidos: 43 · Borrados: 44
 | 2026-11-19 | Lic. Julieta Rechy | /julieta-rechy/ | vendido | 2281762021 |
 | 2026-11-19 | Flores Bufete Jurídico | /flores-bufete/ | vendido | 6648092385 |
 | 2026-11-19 | Lic. César Enrique Lugo Gutiérrez | /lugo-asociados/ | vendido | 6621153786 |
+| 2026-11-19 | Lic. Carlos Guzmán | /carlos-guzman/ | vendido | 9361083311 |
