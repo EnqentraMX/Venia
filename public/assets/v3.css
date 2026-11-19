@@ -1,0 +1,44 @@
+/* LicLink v3 — crema, tinta y oro. Títulos: Libre Caslon Display. Texto: Manrope. Móvil primero. */
+@font-face{font-family:Caslon;src:url(/assets/fuentes/libre-caslon-display-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:Manrope;src:url(/assets/fuentes/manrope-latin-wght-normal.woff2) format("woff2");font-weight:200 800;font-display:swap}
+:root{--crema:#f5efe4;--papel:#fbf8f2;--tinta:#15120e;--tinta2:#221d17;--oro:#b08a45;--oro2:#d8b874;--gris:#6e665a;--linea:#e2d7c4;--verde:#1f9d55;--seg:env(safe-area-inset-bottom)}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;scroll-padding-top:110px}
+body{background:var(--crema);color:var(--tinta);font-family:Manrope,system-ui,sans-serif;font-size:16px;line-height:1.55;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button,input,textarea{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer}
+img{display:block;max-width:100%}
+.cs{font-family:Caslon,Georgia,serif;font-weight:400;letter-spacing:-.01em}
+.oro{color:var(--oro)}
+.kick{font-size:11.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--oro)}
+.ancho{max-width:1160px;margin:0 auto;padding:0 20px}
+svg.i{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+
+/* Aparición al bajar */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.rv.si{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}.rv.d4{transition-delay:.32s}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}*{animation:none!important}}
+
+/* Botones */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:54px;padding:0 24px;border-radius:999px;font-weight:800;font-size:15.5px;transition:transform .2s,box-shadow .2s,background .2s}
+.btn:active{transform:scale(.97)}
+.btn-oro{background:linear-gradient(135deg,#e2c487,#b08a45);color:#1d160b;box-shadow:0 10px 28px -10px rgba(176,138,69,.8)}
+.btn-tinta{background:var(--tinta);color:var(--crema)}
+.btn-linea{border:1.5px solid var(--tinta);color:var(--tinta)}
+.btn-wa{background:#1fa855;color:#fff}
+
+/* Cinta en movimiento */
+.cinta{background:var(--tinta);color:var(--oro2);overflow:hidden;white-space:nowrap;padding:14px 0;border-top:1px solid #2c261d;border-bottom:1px solid #2c261d}
+.cinta div{display:inline-flex;gap:34px;animation:cinta 38s linear infinite;padding-right:34px}
+.cinta span{font-family:Caslon,serif;font-size:21px;display:inline-flex;align-items:center;gap:34px}
+.cinta span::after{content:"◆";font-size:9px;color:#6b5a39}
+@keyframes cinta{to{transform:translateX(-50%)}}
+
+/* Brillo dorado en líneas */
+.linea-oro{height:1px;background:linear-gradient(90deg,transparent,var(--oro),transparent);background-size:200% 100%;animation:brillo 4s ease-in-out infinite}
+@keyframes brillo{0%,100%{background-position:100% 0}50%{background-position:0 0}}
+.pulso{width:8px;height:8px;border-radius:50%;background:#2ecc71;box-shadow:0 0 0 0 rgba(46,204,113,.6);animation:pulso 2s infinite;flex:none}
+@keyframes pulso{70%{box-shadow:0 0 0 9px rgba(46,204,113,0)}100%{box-shadow:0 0 0 0 rgba(46,204,113,0)}}
+.aviso-proto{background:var(--oro);color:#1d160b;text-align:center;font-size:11.5px;font-weight:800;letter-spacing:.08em;padding:6px}
