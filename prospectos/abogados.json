@@ -9391,5 +9391,128 @@
     "plan": "premium",
     "alta": "2026-11-18",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "corporativo-juridico-tuxtla",
+    "nombre": "Corporativo Jurídico",
+    "despacho": "Corporativo Jurídico",
+    "sufijo": "Despacho jurídico",
+    "despacho_largo": "Corporativo Jurídico | Despacho en Tuxtla",
+    "titulo": "Despacho jurídico",
+    "iniciales": "CJ",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#12161e",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Tuxtla Gutiérrez",
+    "telefono": "9613272094",
+    "telefonos_extra": [
+      {
+        "numero": "9613224065",
+        "whatsapp": false
+      },
+      {
+        "numero": "9613002882",
+        "whatsapp": false
+      }
+    ],
+    "direccion": "Tuxtla Gutiérrez, Chiapas",
+    "referencia": "Corporativo Jurídico: despacho en Tuxtla Gutiérrez, Chiapas. Divorcios, juicios civiles y familiares, trámites notariales y amparos.",
+    "descripcion": "Corporativo Jurídico, despacho jurídico en Tuxtla Gutiérrez, Chiapas. Asesoría legal en divorcios, juicios civiles, juicios familiares, trámites notariales y amparos.",
+    "modalidad": "Resolvemos tus dudas",
+    "consultas": [
+      {
+        "modo": "Asesoría inicial",
+        "precio": 1000
+      }
+    ],
+    "portada": [
+      "¿Necesitas",
+      "asesoría",
+      "legal?"
+    ],
+    "texto_portada": "Te asesoramos en divorcios, juicios civiles y familiares, trámites notariales y amparos en Tuxtla Gutiérrez. ¡Resolvemos tus dudas!",
+    "frase": "¡Resolvemos tus dudas!",
+    "compromisos": [
+      "Asesoría legal en Tuxtla",
+      "Civil, familiar y amparo",
+      "Trámites notariales",
+      "3 números de contacto"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me quiero divorciar",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un juicio familiar (pensión, custodia)",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema civil o con una propiedad",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito hacer un trámite notarial",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito interponer un amparo",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Divorcios",
+        "icono": "familia",
+        "texto": "Te acompañamos en tu divorcio.",
+        "puntos": [
+          "Divorcio voluntario",
+          "Divorcio incausado"
+        ]
+      },
+      {
+        "nombre": "Juicios familiares",
+        "icono": "acuerdo",
+        "texto": "Protegemos a tu familia.",
+        "puntos": [
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Juicios civiles",
+        "icono": "balanza",
+        "texto": "Defendemos tu patrimonio.",
+        "puntos": [
+          "Juicios civiles",
+          "Contratos y propiedades"
+        ]
+      },
+      {
+        "nombre": "Trámites notariales",
+        "icono": "documento",
+        "texto": "Te ayudamos con tus trámites.",
+        "puntos": [
+          "Escrituras",
+          "Poderes y testamentos"
+        ]
+      },
+      {
+        "nombre": "Amparos",
+        "icono": "escudo",
+        "texto": "Defendemos tus derechos ante la autoridad.",
+        "puntos": [
+          "Amparo directo",
+          "Amparo indirecto"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-19",
+    "fuente": "Facebook"
   }
 ]

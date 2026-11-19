@@ -12,6 +12,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Asesoría Fiscal y Jurídica García | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
 | CS Abogados | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
 | Cofure Abogados | premium | León | 2026-11-18 | — | pendiente | activo | no |
+| Corporativo Jurídico | premium | Chiapas | 2026-11-19 | — | pendiente | activo | no |
 | Despacho Jurídico Pericial Aranda Salgado | premium | Estado de México | 2026-11-07 | 2026-12-08 | pagado ($400 alta, folio LL-0001) | activo | no |
 | Despacho Serena y Asociados | premium | Veracruz | 2026-11-17 | — | pendiente | activo | no |
 | Durán y Asociados | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
