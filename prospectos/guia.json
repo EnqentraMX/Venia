@@ -1316,5 +1316,41 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "jtv-firma-legal",
+  "nombre": "JTV Firma Legal",
+  "rol": "Abogados 24 h · Penal, civil, familiar, laboral, fiscal, agrario y amparo · Puebla",
+  "ciudad": "puebla",
+  "materias": [
+   "penal",
+   "civil",
+   "familiar",
+   "mercantil",
+   "laboral",
+   "fiscal",
+   "agrario",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/jtv-firma-legal/logo.jpg",
+  "logo": true,
+  "fondo": "#080808",
+  "iniciales": "JTV",
+  "whatsapp": "522211732841",
+  "telefono": "2211732841",
+  "consulta": "Primera asesoría gratuita",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/jtv-firma-legal/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=100095158806736",
+   "instagram": "https://www.instagram.com/jtvabogados"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
