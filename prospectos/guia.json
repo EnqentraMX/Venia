@@ -1352,5 +1352,36 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "julieta-rechy",
+  "nombre": "Lic. Julieta Rechy",
+  "rol": "Consultoría July · Amparo, penal, laboral, civil y familiar · Corresponsalía en Veracruz · Xalapa",
+  "ciudad": "veracruz",
+  "materias": [
+   "amparo",
+   "penal",
+   "laboral",
+   "civil",
+   "familiar"
+  ],
+  "plan": "premium",
+  "foto": "/julieta-rechy/logo.jpg",
+  "logo": true,
+  "fondo": "#0a0a0a",
+  "iniciales": "JR",
+  "whatsapp": "522281762021",
+  "telefono": "2281762021",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/julieta-rechy/",
+  "redes": {
+   "instagram": "https://www.instagram.com/lcda.julietarechy"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
