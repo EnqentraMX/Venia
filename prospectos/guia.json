@@ -1424,5 +1424,32 @@
   "alta": "2026-11-18",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "cofure-abogados",
+  "nombre": "Cofure Abogados",
+  "rol": "Consultoría legal · Despidos, divorcios, pensiones y nulidad · León",
+  "ciudad": "leon",
+  "materias": [
+   "laboral",
+   "familiar",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/cofure-abogados/logo.jpg",
+  "logo": true,
+  "fondo": "#061224",
+  "iniciales": "CA",
+  "whatsapp": "524774833181",
+  "telefono": "4774833181",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/cofure-abogados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-18",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

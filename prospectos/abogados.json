@@ -8981,5 +8981,96 @@
     "plan": "premium",
     "alta": "2026-11-18",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "cofure-abogados",
+    "nombre": "Cofure Abogados",
+    "despacho": "Cofure Abogados",
+    "sufijo": "Consultoría legal e integral",
+    "despacho_largo": "Cofure Abogados | Consultoría legal en León",
+    "titulo": "Justicia al alcance de todos",
+    "iniciales": "CA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#061224",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "León",
+    "telefono": "4774833181",
+    "correo": "abogadosleon581@gmail.com",
+    "direccion": "León, Guanajuato",
+    "referencia": "Cofure Abogados: consultoría legal e integral en León. Despido injustificado, convenios, divorcios, pensiones alimenticias y nulidad de actos de autoridad.",
+    "descripcion": "Cofure Abogados, consultoría legal e integral en León, Guanajuato. Asesoría en despido injustificado, convenios, divorcios, pensiones alimenticias y nulidad de actos de autoridad. Justicia al alcance de todos.",
+    "modalidad": "Consultoría legal e integral",
+    "portada": [
+      "¿Necesitas",
+      "asesoría",
+      "jurídica?"
+    ],
+    "texto_portada": "Te asesoramos en despido injustificado, convenios, divorcios, pensiones alimenticias y nulidad de actos de autoridad en León.",
+    "frase": "Justicia al alcance de todos.",
+    "compromisos": [
+      "Justicia al alcance de todos",
+      "Consultoría legal e integral",
+      "Laboral, familiar y administrativo",
+      "Atención en León"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me despidieron injustificadamente",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito pensión alimenticia para mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito hacer un convenio",
+        "urgente": false
+      },
+      {
+        "texto": "Una autoridad me multó o sancionó",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Defendemos tus derechos en el trabajo.",
+        "puntos": [
+          "Despido injustificado",
+          "Convenios laborales"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Protegemos a tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensiones alimenticias",
+          "Convenios familiares"
+        ]
+      },
+      {
+        "nombre": "Derecho administrativo",
+        "icono": "edificio",
+        "texto": "Defensa ante la autoridad.",
+        "puntos": [
+          "Nulidad de actos de autoridad",
+          "Multas y sanciones"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-18",
+    "fuente": "Facebook"
   }
 ]

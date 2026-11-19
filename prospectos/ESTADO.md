@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 42 · Borrados: 33
+Propuestas: 0 · Vendidos: 43 · Borrados: 33
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -79,3 +79,4 @@ Propuestas: 0 · Vendidos: 42 · Borrados: 33
 | 2026-11-17 | Lic. Miguel Eduardo Sánchez Licón | /miguel-sanchez-licon/ | vendido | 6145401354 |
 | 2026-11-18 | Lic. Eliana Rodríguez de la Cruz | /eliana-rodriguez/ | vendido | 9981508474 |
 | 2026-11-18 | Lic. Lorenia Pavlova | /lorenia-pavlova/ | vendido | 8123929483 |
+| 2026-11-18 | Cofure Abogados | /cofure-abogados/ | vendido | 4774833181 |
