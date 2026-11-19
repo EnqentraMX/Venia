@@ -151,7 +151,11 @@
 .lc{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
 .lc button{background:var(--papel);border:1px solid var(--linea);border-radius:16px;padding:14px;text-align:left;font-weight:800}
 .lc button small{display:block;color:var(--gris);font-weight:600;font-size:12px}
-.lc button.on{background:var(--tinta);color:var(--crema)}
+.lci{background:var(--papel);border:1px solid var(--linea);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.lci button{background:none;border:0;border-radius:0;text-align:left;padding:14px 14px 8px;font-weight:800}
+.lci a{padding:0 14px 12px;font-size:13px;font-weight:800;color:var(--oro)}
+.lci.on{background:var(--tinta);border-color:var(--tinta)}.lci.on button{color:var(--crema)}.lci.on a{color:var(--oro2)}
+.hoja p.ay{color:var(--gris);font-size:14px;margin-top:4px}
 @media(min-width:980px){
  .hero .grid{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:end}
  .caja{margin-top:0}
@@ -166,7 +170,7 @@
  <h1 class="cs lt b">Cuéntanos qué pasó.<span>Te decimos quién te ayuda.</span></h1>
  <p class="sub lt c">Escribe tu situación con tus palabras. Te recomendamos abogados de tu ciudad y les escribes directo por WhatsApp.</p></div>
  <div><div class="caja lt d">
-  <label for="txt">Tu caso <span><span class="pulso"></span><b id="nCiu"></b>&nbsp;abogados en tu ciudad</span></label>
+  <label for="txt">Tu caso <a id="verCiu" href="#" style="display:flex;align-items:center;gap:7px;letter-spacing:.02em;text-transform:none;color:#e8dfd0;font-weight:800;text-decoration:underline;text-underline-offset:3px"><span class="pulso"></span>Ver los&nbsp;<b id="nCiu"></b>&nbsp;abogados →</a></label>
   <textarea id="txt" rows="3" placeholder=""></textarea>
   <div class="ejemplos" id="ej"></div>
   <button class="btn btn-oro ir" id="ir">Encontrar mi abogado <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
@@ -181,6 +185,7 @@
  <div class="kick rv" id="hoy"></div><h2 class="cs rv d1">Destacados <span>de hoy.</span></h2>
  <div class="carr" id="carr"><div class="pista" id="pista"></div></div>
  <div class="ctrl"><button id="ant" aria-label="Anterior">‹</button><button id="sig" aria-label="Siguiente">›</button></div>
+ <div style="text-align:center;margin-top:18px"><a class="btn btn-tinta" id="verTodos" href="#">Ver todos los abogados</a></div>
 </div></section>
 
 <section class="sec"><div class="ancho">
@@ -227,7 +232,7 @@
  <div class="btns"><button class="btn btn-tinta" onclick="scrollTo({top:0,behavior:'smooth'});setTimeout(()=>document.getElementById('txt').focus(),500)">Contar mi caso</button><a class="btn btn-linea" target="_blank" rel="noopener" href="https://wa.me/529511836468?text=Hola%2C%20soy%20abogado%20y%20quiero%20unirme%20a%20LicLink.">Soy abogado</a></div></section>
 <footer class="pie"><nav style="display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;font-weight:700;color:var(--tinta);margin-bottom:14px"><a href="/para-abogados/">Soy abogado</a><a href="/guias/">Guías legales</a><a href="/aviso-de-privacidad/">Aviso de privacidad</a><a href="/terminos/">Términos</a></nav>LicLink te conecta con abogados; no presta servicios legales ni cobra comisiones por los casos. Los consejos son información general. Si estás en peligro inmediato, llama al 911.<br>© LicLink 2026</footer>
 
-<div class="velo" id="velo"></div><div class="hoja" id="hoja"><div class="asa"></div><h3>¿Dónde <span class="oro">estás?</span></h3><div class="lc" id="lc"></div></div>
+<div class="velo" id="velo"></div><div class="hoja" id="hoja"><div class="asa"></div><h3>¿Dónde <span class="oro">estás?</span></h3><p class="ay">Toca tu estado para ver sus abogados primero, o «Ver todos» para la lista completa.</p><div class="lc" id="lc"></div></div>
 
 <script>
 /*DATOS*/
@@ -268,8 +273,8 @@ const wa=(a,m)=>"https://wa.me/"+a.w+"?text="+encodeURIComponent("Hola, lo encon
 const consulta=a=>a.q?`<span class="${/gratis/i.test(a.q)?"g":""}">${esc(a.q)}</span>`:"";
 
 /* Ciudad */
-function ponCiudad(){ $("#tCiu").textContent=CIU[ciudad]; $("#nCiu").textContent=enC(ciudad).length; }
-$("#bCiu").onclick=()=>{$("#lc").innerHTML=Object.entries(CIU).map(([k,v])=>`<button data-c="${k}" class="${k===ciudad?"on":""}">${esc(v)}<small>${enC(k).length} abogados</small></button>`).join("");
+function ponCiudad(){ $("#tCiu").textContent=CIU[ciudad]; $("#nCiu").textContent=enC(ciudad).length; $("#verCiu").href="/abogados/"+ciudad+"/"; $("#verTodos").href="/abogados/"+ciudad+"/"; $("#verTodos").textContent="Ver los "+enC(ciudad).length+" abogados de "+CIU[ciudad]+" →"; }
+$("#bCiu").onclick=()=>{$("#lc").innerHTML=Object.entries(CIU).sort((a,b)=>enC(b[0]).length-enC(a[0]).length).map(([k,v])=>`<div class="lci${k===ciudad?" on":""}"><button data-c="${k}">${esc(v)}<small>${enC(k).length} abogado${enC(k).length===1?"":"s"}</small></button><a href="/abogados/${k}/">Ver todos →</a></div>`).join("");
  document.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{ciudad=b.dataset.c;try{localStorage.setItem("ll_c",ciudad)}catch(e){}ponCiudad();pintarCarr();
 (()=>{const q=new URLSearchParams(location.search),c=q.get("caso"),t=q.get("texto")||"";if(c&&PAL[c]||t){ta.value=t;setTimeout(()=>buscar(t,PAL[c]?c:undefined),300)}})();cerrar();if($("#res").classList.contains("on"))buscar(ultimo)});
  $("#velo").classList.add("on");$("#hoja").classList.add("on")};
@@ -292,11 +297,11 @@ function buscar(texto,forzar){ultimo=texto;const r=$("#res");const m=forzar||cla
  const otras=Object.keys(MAT).map(k=>`<button data-m="${k}" class="${k===m?"on":""}">${MAT[k][0].toUpperCase()+MAT[k].slice(1)}</button>`).join("");
  if(!m){r.innerHTML=`<div class="diag"><b class="cs">Ayúdanos a <em>entenderte.</em></b><p>¿Tu caso es de…?</p><div class="otras">${otras}</div></div>`;}
  else{let L=enC(ciudad).filter(a=>a.m.includes(m)),fuera=false;if(!L.length){L=AB.filter(a=>a.m.includes(m));fuera=true}
-  L=mezcla(L,DIA+7).sort((a,b)=>(b.p==="premium")-(a.p==="premium")).slice(0,4);
+  const total=L.length;L=mezcla(L,DIA+7).sort((a,b)=>(b.p==="premium")-(a.p==="premium")).slice(0,4);
   const msg=texto?("Mi caso: "+texto.trim()):"Necesito un abogado de "+MAT[m]+".";
   r.innerHTML=`<div class="diag"><b class="cs">Tu caso parece un asunto <em>${MAT[m]}.</em></b><p>${fuera?"Aún no hay abogados de esta materia en "+esc(CIU[ciudad])+"; estos atienden en otras ciudades.":"Estos abogados en "+esc(CIU[ciudad])+" pueden ayudarte. Tu mensaje va listo."}</p><div class="otras">${otras}</div></div>`+
   L.map(a=>`<div class="ab">${av(a)}<div><h3>${esc(a.n)}</h3><div class="rol">${esc(a.r)}</div><div class="tags">${a.p==="premium"?'<span class="d">★ Destacado</span>':""}${consulta(a)}${fuera?`<span>${esc(CIU[a.c]||"")}</span>`:""}</div></div>
-   <div class="acc"><a class="btn btn-wa" target="_blank" rel="noopener" href="${wa(a,msg)}">Enviar mi caso</a>${a.u?`<a class="btn btn-linea" href="${a.u}">Perfil</a>`:""}</div></div>`).join("")}
+   <div class="acc"><a class="btn btn-wa" target="_blank" rel="noopener" href="${wa(a,msg)}">Enviar mi caso</a>${a.u?`<a class="btn btn-linea" href="${a.u}">Perfil</a>`:""}</div></div>`).join("")+(!fuera&&total>L.length?`<a class="btn btn-tinta" style="width:100%;margin-top:12px" href="/abogados/${ciudad}/${m}/">Ver los ${total} abogados de ${MAT[m]} en ${esc(CIU[ciudad])} →</a>`:"")}
  r.classList.remove("on");void r.offsetWidth;r.classList.add("on");
  r.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>buscar(ultimo,b.dataset.m));
  setTimeout(()=>r.scrollIntoView({behavior:"smooth",block:"start"}),60)}
