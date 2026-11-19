@@ -1,4 +1,4 @@
-"""Perfil v3 (landing de cada abogado) — PRUEBA. Genera public/nuevo/<slug>/index.html.
+"""Perfil v3 (landing de cada abogado) — OFICIAL. Lo usa generar.py; también se puede correr solo: genera public/<slug>/index.html.
 Uso: python3 herramientas/v3.py <slug> [<slug> ...]   (o "todos")
 """
 import html, json, pathlib, re, sys, urllib.parse
@@ -36,6 +36,28 @@ def tel(n):
 
 import hashlib
 VER = hashlib.md5(b"".join((RAIZ / "public" / "assets" / f).read_bytes() for f in ("v3.css", "perfil3.css"))).hexdigest()[:8]
+
+
+def cabeza_seo(a, img):
+    import hashlib
+    s = a["slug"]; url = f"https://liclink.com.mx/{s}/"
+    nombre = a.get("despacho_largo") or a["nombre"]
+    desc = (a.get("descripcion") or a.get("titulo") or "Abogado") + " Escríbele por WhatsApp."
+    cp = RAIZ / "public" / s / "compartir.png"
+    v = hashlib.md5(cp.read_bytes()).hexdigest()[:8] if cp.exists() else "1"
+    robots = "" if a.get("estado") == "vendido" else '<meta name="robots" content="noindex, nofollow">'
+    ld = {"@context": "https://schema.org", "@type": "LegalService", "name": nombre, "url": url, "image": url + "compartir.png",
+          "telephone": "+52" + re.sub(r"\D", "", a.get("telefono", "")), "description": desc,
+          "address": {"@type": "PostalAddress", "addressLocality": a.get("ciudad", ""), "addressCountry": "MX"}}
+    if a.get("facebook"): ld["sameAs"] = [a["facebook"]]
+    return f"""<title>{E(nombre)} · LicLink</title>
+<meta name="description" content="{E(desc)}">{robots}
+<link rel="canonical" href="{url}"><meta name="theme-color" content="#15120e">
+<meta property="og:type" content="website"><meta property="og:site_name" content="LicLink"><meta property="og:title" content="{E(nombre)}"><meta property="og:description" content="{E(desc)}">
+<meta property="og:url" content="{url}"><meta property="og:image" content="{url}compartir.png?v={v}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c0b0a'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='800' font-size='36' text-anchor='middle' fill='%23d4b06a'%3EL%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="/assets/fuentes/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>"""
 
 
 def construir(a):
@@ -95,11 +117,10 @@ def construir(a):
 
     return f"""<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="robots" content="noindex"><meta name="theme-color" content="#15120e">
-<title>{E(a.get("despacho_largo") or a["nombre"])} · LicLink</title>
+{cabeza_seo(a, img)}
 <link rel="stylesheet" href="/assets/v3.css?v={VER}"><link rel="stylesheet" href="/assets/perfil3.css?v={VER}"></head>
 <body>
-<header class="top" id="top"><a class="ic" href="/nuevo/" aria-label="Volver">{ic("atras")}</a><a class="marca" href="/nuevo/">Lic<b>Link</b></a><button class="ic" id="bComp" aria-label="Compartir">{ic("comp")}</button></header>
+<header class="top" id="top"><a class="ic" href="/" aria-label="Volver">{ic("atras")}</a><a class="marca" href="/">Lic<b>Link</b></a><button class="ic" id="bComp" aria-label="Compartir">{ic("comp")}</button></header>
 
 <section class="hero{"" if tiene_foto else " hl"}">{f'<div class="img" style="{bg_hero}"></div>' if tiene_foto else f'<div class="lc" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({img})"></div>'}
  <div class="txt intro">
@@ -155,7 +176,7 @@ def main():
     pedidos = sys.argv[1:]
     lista = [a for a in datos if a.get("estado") == "vendido" and a.get("plantilla") == "v2"] if pedidos == ["todos"] else [a for a in datos if a["slug"] in pedidos]
     for a in lista:
-        d = RAIZ / "public" / "nuevo" / a["slug"]; d.mkdir(parents=True, exist_ok=True)
+        d = RAIZ / "public" / a["slug"]; d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(construir(a), encoding="utf-8")
         print("ok", a["slug"])
 

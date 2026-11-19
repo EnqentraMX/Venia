@@ -14,6 +14,7 @@ import json, os, re, shutil, unicodedata, datetime
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATOS = os.path.join(RAIZ, "prospectos", "abogados.json")
 PLANTILLA = os.path.join(RAIZ, "plantilla", "index.html")
+USAR_V3 = True  # perfiles con el diseño nuevo; False = volver al diseño anterior
 PLANTILLA_V2 = os.path.join(RAIZ, "plantilla", "v2.html")
 PUBLICO = os.path.join(RAIZ, "public")
 URL_BASE = "https://liclink.com.mx"
@@ -217,7 +218,12 @@ def main():
         html = cabecera(html, a)
         open(os.path.join(carpeta, "index.html"), "w", encoding="utf-8").write(html)
         open(os.path.join(carpeta, "datos.js"), "w", encoding="utf-8").write(datos_js(a))
-        if a.get("plantilla") == "v2": hacer_qr(a, carpeta)
+        if a.get("plantilla") == "v2":
+            hacer_qr(a, carpeta)
+            if USAR_V3:  # diseño nuevo (nov 2026). El anterior (v2) queda de respaldo: ver respaldo/diseno-anterior/
+                import importlib, sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+                v3 = importlib.import_module("v3")
+                open(os.path.join(carpeta, "index.html"), "w", encoding="utf-8").write(v3.construir(a))
     json.dump(lista, open(DATOS, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     # resumen
     filas = ["| Alta | Abogado | Dirección | Estado | Contacto |", "|---|---|---|---|---|"]

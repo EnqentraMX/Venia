@@ -79,11 +79,16 @@ Otros pedidos frecuentes:
 - **Texto para que el abogado suba su imagen/flyer** (formato que él pidió, promociona LicLink): "⚖️ <dolor del cliente>? <frase concreta>. / En <Despacho> te <qué hacen, servicios clave y zona>. / Orgullosamente Despacho Destacado en LicLink, la guía de abogados de México ⭐ / 📲 Escríbenos por WhatsApp: 55-4849-9539 / 👉 liclink.com.mx/<slug>". Corto, sin listas largas ni hashtags.
 - Textos dentro de las páginas (para clientes): de tú, verbo primero en botones.
 
-## Estilo visual actual
-- Perfiles: plantilla `plantilla/v2.html` + `public/assets/v2.css` / `v2.js`, estilo **"claro"** (crema), letra Plus Jakarta Sans. `?estilo=oro` en la URL previsualiza otro estilo.
+## Estilo visual actual (diseño v3, oficial desde 18 nov 2026)
+- **Perfiles:** `herramientas/v3.py` (landing de cada abogado: portada con foto o logo en tarjeta dorada, pestañas, "¿Qué te pasó?", servicios desplegables, costos, mapa de Google, barra fija de WhatsApp; en computadora dos columnas con tarjeta fija). `generar.py` lo usa solo para los perfiles `plantilla: "v2"` (`USAR_V3 = True`). Estilos: `public/assets/v3.css` + `perfil3.css`.
+- **Inicio:** `herramientas/inicio3.html` + `inicio3.py` (lo llama `guia.py`, `INICIO_V3 = True`): "Cuéntanos qué pasó" con detección de materia por palabras clave, destacados Premium que corren solos y cambian de orden cada día, consejo legal del día, situaciones (+ "Otro asunto"), guías, confianza, preguntas frecuentes.
+- Colores originales: crema `#f5efe4`, tinta `#15120e`, oro `#b08a45`/`#d8b874`. Tipografía: **Plus Jakarta Sans** (la original; él rechazó serif tipo Lexia, Caslon y Gloock). Fuentes servidas desde `public/assets/fuentes/`.
+- Los CSS llevan `?v=hash` (el sitio cachea /assets 1 h; sin versión el celular muestra diseño viejo).
+- Diseño anterior (v2) respaldado en `respaldo/diseno-anterior/` (cómo volver: LEEME.md). `/nuevo/` redirige a `/` (`public/_redirects`).
+- Aún con estilo anterior: listados por ciudad/materia, guías, para-abogados (guia.css).
 - Vista previa al compartir (`compartir.png`, 1200×630): crema, logo grande con marco dorado a la derecha.
 - Imagen de estado: oscura, sello dorado "★ DESPACHO DESTACADO", tarjeta crema con QR.
-- Las tipografías para capturas están en `herramientas/fuentes/` (no hace falta instalar nada salvo Playwright, que ya viene).
+- Ideas aprobadas para después: caja de preguntas al abogado (enlace privado por WhatsApp para responder, moderación) y contador de visitas/clics para reportes; ambas requieren base de datos en Cloudflare (D1) en el Worker "liclink".
 
 ## Pendientes que él tiene (recuérdaselos si viene al caso)
 - Borrar o redesplegar el sitio viejo de Netlify (salía duplicado en Google).

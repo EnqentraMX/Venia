@@ -1,0 +1,3 @@
+/nuevo / 301
+/nuevo/ / 301
+/nuevo/* /:splat 301

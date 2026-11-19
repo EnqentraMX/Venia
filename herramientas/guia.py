@@ -610,9 +610,15 @@ def escribir(ruta, txt):
     open(ruta, "w", encoding="utf-8").write(txt)
 
 
+INICIO_V3 = True  # False = volver al inicio anterior
+
+
 def main():
     escribir(os.path.join(PUBLICO, "assets", "guia-datos.js"), datos_guia())
-    escribir(os.path.join(PUBLICO, "index.html"), portada())
+    if INICIO_V3:  # diseño nuevo (nov 2026); el anterior queda en portada() como respaldo
+        import subprocess, sys as _s; subprocess.run([_s.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "inicio3.py")], check=True)
+    else:
+        escribir(os.path.join(PUBLICO, "index.html"), portada())
     escribir(os.path.join(PUBLICO, "para-abogados", "index.html"), para_abogados())
     g = cargar_guia()
     for c in CIUDADES:
