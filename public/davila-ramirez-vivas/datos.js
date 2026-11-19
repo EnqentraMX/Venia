@@ -10,7 +10,7 @@ window.DATOS = {
   "abogado": "Dávila Ramírez Vivas",
   "titulo": "Asesoría integral contable, fiscal y legal",
   "descripcion": "Dávila Ramírez Vivas, despacho multidisciplinario de asesoría integral contable, fiscal y legal en el Estado de México. Compliance laboral, reglamentos internos, manejo disciplinario, alta patronal ante el IMSS, SUA, IDSE, SIPARE, cálculo de cuotas IMSS e Infonavit, prima de riesgo y certificado digital.",
-  "cedula": "",
+  "cedula": "14952597",
   "modalidad": "Despacho multidisciplinario",
   "iniciales": "DRV",
   "foto": "logo.jpg",
@@ -35,7 +35,12 @@ window.DATOS = {
   "telefono": "5513074559",
   "telefonoVisible": "55 1307 4559",
   "correo": "drv@drv.com.mx",
-  "consultas": [],
+  "consultas": [
+    {
+      "modo": "Asesoría inicial",
+      "precio": 1000
+    }
+  ],
   "precioConsulta": "",
   "areas": [
     {
@@ -95,7 +100,7 @@ window.DATOS = {
     "Enfoque integral y multidisciplinario",
     "Servicios actualizados con la ley",
     "Atención profesional y cercana",
-    "Soluciones prácticas y eficientes"
+    "Cédula profesional 14952597"
   ],
   "situaciones": [
     {

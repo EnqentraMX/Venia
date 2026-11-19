@@ -1309,7 +1309,9 @@
   "estado": "activo",
   "alta": "2026-11-19",
   "vence": "",
-  "pago": "pendiente"
+  "pago": "pendiente",
+  "consulta": "Asesoría inicial $1,000",
+  "cedula": "14952597"
  },
  {
   "slug": "martinez-consultoria",

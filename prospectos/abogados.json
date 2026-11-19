@@ -9570,7 +9570,7 @@
       "Enfoque integral y multidisciplinario",
       "Servicios actualizados con la ley",
       "Atención profesional y cercana",
-      "Soluciones prácticas y eficientes"
+      "Cédula profesional 14952597"
     ],
     "situaciones": [
       {
@@ -9650,7 +9650,14 @@
     "estado": "vendido",
     "plan": "premium",
     "alta": "2026-11-19",
-    "fuente": "Sitio web"
+    "fuente": "Sitio web",
+    "consultas": [
+      {
+        "modo": "Asesoría inicial",
+        "precio": 1000
+      }
+    ],
+    "cedula": "14952597"
   },
   {
     "slug": "martinez-consultoria",
