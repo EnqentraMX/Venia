@@ -1288,5 +1288,33 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "espinoza-asociados",
+  "nombre": "Espinoza y Asociados",
+  "rol": "Despacho jurídico · Familiar, civil, mercantil y penal · Ciudad Obregón",
+  "ciudad": "obregon",
+  "materias": [
+   "familiar",
+   "civil",
+   "mercantil",
+   "penal"
+  ],
+  "plan": "premium",
+  "foto": "/espinoza-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "EA",
+  "whatsapp": "526442283403",
+  "telefono": "6442283403",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/espinoza-asociados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

@@ -9885,5 +9885,126 @@
     "plan": "premium",
     "alta": "2026-11-19",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "espinoza-asociados",
+    "nombre": "Espinoza y Asociados",
+    "despacho": "Espinoza y Asociados",
+    "sufijo": "Despacho jurídico",
+    "despacho_largo": "Espinoza y Asociados | Ciudad Obregón",
+    "titulo": "Despacho jurídico",
+    "iniciales": "EA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad Obregón",
+    "telefono": "6442283403",
+    "telefonos_extra": [
+      {
+        "numero": "6441993390",
+        "whatsapp": false
+      },
+      {
+        "numero": "6221625739",
+        "whatsapp": false
+      }
+    ],
+    "correo": "lic.nestor.espinoza@hotmail.com",
+    "direccion": "Calle 5 de Febrero No. 231, Local 11, Interior 5-3 (Pasaje Casteló), entre Morelos y Reelección y Guerrero, Col. Centro, Ciudad Obregón, Sonora",
+    "referencia": "Espinoza y Asociados, despacho jurídico en Ciudad Obregón, Sonora: materia familiar, civil, mercantil y penal.",
+    "descripcion": "Espinoza y Asociados, despacho jurídico en la Colonia Centro de Ciudad Obregón, Sonora. Lic. Néstor Espinoza Medina, Lic. Miczaelly Salcido Baca y Lic. Mario Alberto Othon Sepúlveda. Asuntos en materia familiar, civil, mercantil y penal.",
+    "modalidad": "Equipo de 3 abogados",
+    "portada": [
+      "Tu despacho",
+      "jurídico en",
+      "Ciudad Obregón."
+    ],
+    "texto_portada": "Un equipo de abogados que te atiende en materia familiar, civil, mercantil y penal, en el Pasaje Casteló, Colonia Centro.",
+    "frase": "Tu asunto, en manos de un equipo de abogados.",
+    "compromisos": [
+      "Equipo de 3 abogados",
+      "Familiar, civil, mercantil y penal",
+      "Oficina en el centro de Obregón",
+      "3 números de contacto"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o tengo una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con una propiedad o un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero (pagarés o facturas)",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Materia familiar",
+        "icono": "familia",
+        "texto": "Protegemos a tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Materia civil",
+        "icono": "documento",
+        "texto": "Protegemos tu patrimonio.",
+        "puntos": [
+          "Juicios civiles",
+          "Contratos",
+          "Propiedades"
+        ]
+      },
+      {
+        "nombre": "Materia mercantil",
+        "icono": "acuerdo",
+        "texto": "Defendemos tu negocio.",
+        "puntos": [
+          "Cobro de pagarés y facturas",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Materia penal",
+        "icono": "escudo",
+        "texto": "Te acompañamos en tu asunto penal.",
+        "puntos": [
+          "Defensa penal",
+          "Denuncias"
+        ]
+      }
+    ],
+    "equipo": [
+      {
+        "nombre": "Lic. Néstor Espinoza Medina",
+        "rol": "Abogado"
+      },
+      {
+        "nombre": "Lic. Miczaelly Salcido Baca",
+        "rol": "Abogada"
+      },
+      {
+        "nombre": "Lic. Mario Alberto Othon Sepúlveda",
+        "rol": "Abogado"
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-19",
+    "fuente": "Facebook"
   }
 ]
