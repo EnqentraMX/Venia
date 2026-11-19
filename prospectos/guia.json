@@ -1472,5 +1472,32 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "sanchez-vejar",
+  "nombre": "Sánchez Vejar & Asociados",
+  "rol": "Mtro. Julio César Sánchez Vejar · Penal, familiar y amparo 24/7 · Puerto Peñasco, Sonoyta y Caborca",
+  "ciudad": "hermosillo",
+  "materias": [
+   "penal",
+   "familiar",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/sanchez-vejar/logo.jpg",
+  "logo": true,
+  "fondo": "#212a3b",
+  "iniciales": "SV",
+  "whatsapp": "526623710454",
+  "telefono": "6623710454",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/sanchez-vejar/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
