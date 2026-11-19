@@ -16,7 +16,6 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Despacho Serena y Asociados | premium | Veracruz | 2026-11-17 | — | pendiente | activo | no |
 | Durán y Asociados | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
 | Dávila Ramírez Vivas | premium | Estado de México | 2026-11-19 | — | pendiente | activo | no |
-| Díaz & Asociados | premium | Monterrey | 2026-11-18 | — | pendiente | activo | no |
 | F&B Abogados Penalistas | premium | Estado de México | 2026-11-09 | — | pendiente | activo | no |
 | Firmeza Legal Palacios | premium | Querétaro | 2026-11-06 | — | pendiente | activo | no |
 | Forseti Lex Despacho Jurídico | premium | Chihuahua | 2026-11-09 | — | pendiente | activo | no |
