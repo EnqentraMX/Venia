@@ -1202,12 +1202,13 @@
  {
   "slug": "davila-ramirez-vivas",
   "nombre": "Dávila Ramírez Vivas",
-  "rol": "Asesoría contable, fiscal y legal · Compliance laboral e IMSS · Estado de México",
+  "rol": "Asesoría civil, mercantil, laboral y fiscal · Compliance e IMSS · Estado de México",
   "ciudad": "edomex",
   "materias": [
+   "civil",
+   "mercantil",
    "laboral",
-   "fiscal",
-   "mercantil"
+   "fiscal"
   ],
   "plan": "premium",
   "foto": "/davila-ramirez-vivas/logo.jpg",

@@ -9,7 +9,7 @@ window.DATOS = {
   "sufijo": "Asesoría integral contable, fiscal y legal",
   "abogado": "Dávila Ramírez Vivas",
   "titulo": "Asesoría integral contable, fiscal y legal",
-  "descripcion": "Dávila Ramírez Vivas, despacho multidisciplinario de asesoría integral contable, fiscal y legal en el Estado de México. Compliance laboral, reglamentos internos, manejo disciplinario, alta patronal ante el IMSS, SUA, IDSE, SIPARE, cálculo de cuotas IMSS e Infonavit, prima de riesgo y certificado digital.",
+  "descripcion": "Dávila Ramírez Vivas, despacho de asesoría integral en el Estado de México. Atención en materia civil, mercantil, laboral y fiscal: compliance laboral, reglamentos internos, alta patronal ante el IMSS, SUA, IDSE, cuotas IMSS e Infonavit, certificado digital y asesoría fiscal y contable.",
   "cedula": "14952597",
   "modalidad": "Despacho multidisciplinario",
   "iniciales": "DRV",
@@ -25,11 +25,11 @@ window.DATOS = {
   "frase": "Cumplimiento que protege y transforma.",
   "portada": {
     "titulo": [
-      "Contable,",
-      "fiscal",
-      "y legal."
+      "Civil, mercantil,",
+      "laboral",
+      "y fiscal."
     ],
-    "texto": "Contable, fiscal, legal y más. Nos ocupamos de tus necesidades con soluciones prácticas y eficaces, desde contratos hasta protección legal."
+    "texto": "Atención en materia civil, mercantil, laboral y fiscal. Nos ocupamos de tus necesidades con soluciones prácticas y eficaces, desde contratos hasta cumplimiento ante el IMSS y el SAT."
   },
   "whatsapp": "525513074559",
   "telefono": "5513074559",
@@ -44,54 +44,44 @@ window.DATOS = {
   "precioConsulta": "",
   "areas": [
     {
-      "nombre": "Compliance laboral",
-      "icono": "escudo",
-      "texto": "Cumplimiento normativo laboral como herramienta estratégica.",
+      "nombre": "Derecho laboral",
+      "icono": "maletin",
+      "texto": "Cumplimiento laboral como herramienta estratégica para tu empresa.",
       "puntos": [
-        "Auditorías laborales",
+        "Compliance laboral y auditorías",
         "Contratos y reglamentos internos",
         "Manejo disciplinario y sanciones",
-        "Prevención de riesgos"
+        "Alta patronal y movimientos ante el IMSS",
+        "Cuotas IMSS e Infonavit, prima de riesgo y SIPARE",
+        "SUA e IDSE"
       ]
     },
     {
-      "nombre": "IMSS e Infonavit",
-      "icono": "edificio",
-      "texto": "Formalizamos tu empresa y protegemos a tu equipo.",
-      "puntos": [
-        "Alta patronal",
-        "Altas, bajas y modificaciones de salario",
-        "Cálculo de cuotas mensuales y bimestrales",
-        "Prima de riesgo de trabajo",
-        "Pagos por SIPARE"
-      ]
-    },
-    {
-      "nombre": "SUA e IDSE",
+      "nombre": "Derecho fiscal",
       "icono": "documento",
-      "texto": "Configuramos tus sistemas para cumplir en tiempo y forma.",
+      "texto": "Asesoría fiscal y contable para cumplir en tiempo y forma.",
       "puntos": [
-        "Instalación y actualización del SUA",
-        "Configuración del IDSE"
+        "Asesoría fiscal",
+        "Asesoría contable",
+        "Solicitud y renovación de certificado digital"
       ]
     },
     {
-      "nombre": "Certificado digital",
-      "icono": "lupa",
-      "texto": "Opera sin interrupciones ante las autoridades.",
-      "puntos": [
-        "Solicitud de certificado digital",
-        "Renovación de certificado digital"
-      ]
-    },
-    {
-      "nombre": "Contable, fiscal y legal",
+      "nombre": "Derecho civil",
       "icono": "balanza",
-      "texto": "Asesoría integral para tu tranquilidad.",
+      "texto": "Protegemos tu patrimonio y tus acuerdos.",
       "puntos": [
-        "Asesoría contable y fiscal",
-        "Legal y corporativo",
-        "Contratos"
+        "Contratos civiles",
+        "Asesoría civil"
+      ]
+    },
+    {
+      "nombre": "Derecho mercantil",
+      "icono": "acuerdo",
+      "texto": "Respaldo legal para tu negocio.",
+      "puntos": [
+        "Contratos mercantiles",
+        "Asesoría corporativa"
       ]
     }
   ],
@@ -108,7 +98,7 @@ window.DATOS = {
       "urgente": true
     },
     {
-      "texto": "Necesito dar de alta mi empresa ante el IMSS",
+      "texto": "Tengo un problema con el SAT",
       "urgente": false
     },
     {
@@ -116,11 +106,11 @@ window.DATOS = {
       "urgente": false
     },
     {
-      "texto": "Necesito tramitar o renovar mi certificado digital",
+      "texto": "Necesito redactar o revisar un contrato",
       "urgente": false
     },
     {
-      "texto": "Necesito asesoría contable o fiscal",
+      "texto": "Necesito tramitar o renovar mi certificado digital",
       "urgente": false
     }
   ],
@@ -165,7 +155,7 @@ window.DATOS = {
     {
       "nombre": "Estado de México",
       "direccion": "Estado de México",
-      "referencia": "Dávila Ramírez Vivas: despacho multidisciplinario en el Estado de México. Compliance laboral, reglamentos internos, alta patronal e IMSS, SUA, IDSE, certificado digital y asesoría contable, fiscal y legal."
+      "referencia": "Dávila Ramírez Vivas: asesoría en materia civil, mercantil, laboral y fiscal en el Estado de México. Compliance laboral, IMSS, SUA, IDSE y certificado digital."
     }
   ],
   "redes": {
