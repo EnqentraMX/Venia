@@ -774,33 +774,6 @@
   "pago": "pendiente"
  },
  {
-  "slug": "enco-consultores",
-  "nombre": "ENCO Consultoría Legal",
-  "rol": "Lic. Esaú Enríquez Díaz · Compliance, corporativo, fiscal, laboral y mercantil · Chiapas",
-  "ciudad": "chiapas",
-  "materias": [
-   "mercantil",
-   "fiscal",
-   "laboral"
-  ],
-  "plan": "premium",
-  "foto": "/enco-consultores/logo.jpg",
-  "logo": true,
-  "fondo": "#0a1e42",
-  "iniciales": "EE",
-  "whatsapp": "529611788746",
-  "telefono": "9611788746",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/enco-consultores/",
-  "redes": {},
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-13",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
   "slug": "ana-lugo",
   "nombre": "Lic. Ana Gabriela Lugo López",
   "rol": "Abogada y criminalista · Cédula 14129526 · Familiar, civil, sucesiones, penal y laboral · CDMX y Edomex",
@@ -1300,36 +1273,6 @@
   "redes": {
    "facebook": "https://www.facebook.com/serenayasociados/"
   },
-  "resena": "",
-  "estado": "activo",
-  "alta": "2026-11-17",
-  "vence": "",
-  "pago": "pendiente"
- },
- {
-  "slug": "miguel-sanchez-licon",
-  "nombre": "Lic. Miguel Eduardo Sánchez Licón",
-  "rol": "Abogado · Familiar, civil, mercantil, laboral, penal y amparo · Chihuahua",
-  "ciudad": "chihuahua",
-  "materias": [
-   "familiar",
-   "civil",
-   "mercantil",
-   "laboral",
-   "penal",
-   "amparo"
-  ],
-  "plan": "premium",
-  "foto": "/miguel-sanchez-licon/logo.jpg",
-  "logo": true,
-  "fondo": "#0d1b2e",
-  "iniciales": "MS",
-  "whatsapp": "526145401354",
-  "telefono": "6145401354",
-  "verificada": false,
-  "verificada_fecha": "",
-  "pagina": "/miguel-sanchez-licon/",
-  "redes": {},
   "resena": "",
   "estado": "activo",
   "alta": "2026-11-17",

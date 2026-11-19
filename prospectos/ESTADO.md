@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 43 · Borrados: 33
+Propuestas: 0 · Vendidos: 41 · Borrados: 35
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -27,6 +27,7 @@ Propuestas: 0 · Vendidos: 43 · Borrados: 33
 | 2026-11-13 | Lic. Ismael de Jesús Castro Oquita | /castro-oquita/ | borrar | 6625104819 |
 | 2026-11-13 | JS Abogados Asociados | /js-abogados/ | borrar | https://www.facebook.com/profile.php?id=61595848097885 |
 | 2026-11-13 | Lic. Valente Casanova | /casanova-abogados/ | borrar | https://www.facebook.com/valentecasanova |
+| 2026-11-13 | Lic. Esaú Enríquez Díaz | /enco-consultores/ | borrar | 9611788746 |
 | 2026-11-13 | AJ Servicios Legales | /aj-servicios-legales/ | borrar | https://www.facebook.com/abogadocun |
 | 2026-11-13 | Despacho Jurídico Integral | /despacho-juridico-integral/ | borrar | 5582203183 |
 | 2026-11-13 | Profr. y Lic. Juan Manuel Martínez Aguirre | /martinez-asociados/ | borrar | 3310230527 |
@@ -36,6 +37,7 @@ Propuestas: 0 · Vendidos: 43 · Borrados: 33
 | 2026-11-16 | Lic. Armando Heredia Coutiño | /armando-heredia/ | borrar | 5547594986 |
 | 2026-11-16 | ATV Abogados | /atv-abogados/ | borrar | https://www.facebook.com/share/14h4yQbukjY/ |
 | 2026-11-16 | Miguel Centeno Silva | /miguel-centeno/ | borrar | https://m.facebook.com/miguel.centenosilva |
+| 2026-11-17 | Lic. Miguel Eduardo Sánchez Licón | /miguel-sanchez-licon/ | borrar | 6145401354 |
 | 2026-11-18 | Lic. Jorge Hernández | /jorge-hernandez/ | borrar | 3346766554 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
@@ -60,7 +62,6 @@ Propuestas: 0 · Vendidos: 43 · Borrados: 33
 | 2026-11-12 | Lic. Karina Montserrat Bañuelos Chávez | /banuelos-asociados/ | vendido | https://www.facebook.com/share/1FQf492e77/ |
 | 2026-11-12 | Lic. José Guadalupe Victoriano Huitrón | /lex-brevis/ | vendido | https://www.facebook.com/share/1CjgufRdSV/ |
 | 2026-11-13 | Mirafuentes & Hernández | /mirafuentes-hernandez/ | vendido | 5528574510 |
-| 2026-11-13 | Lic. Esaú Enríquez Díaz | /enco-consultores/ | vendido | 9611788746 |
 | 2026-11-13 | Lic. Ana Gabriela Lugo López | /ana-lugo/ | vendido | https://www.facebook.com/alugolopez/ |
 | 2026-11-13 | ZF Legal Studio | /zf-legal-studio/ | vendido | https://www.facebook.com/profile.php?id=61578702427538 |
 | 2026-11-13 | Mercado & López | /mercado-lopez/ | vendido | 3314175482 |
@@ -76,7 +77,6 @@ Propuestas: 0 · Vendidos: 43 · Borrados: 33
 | 2026-11-16 | Lic. Fernando Seda | /seda-defensa-penal/ | vendido | https://www.facebook.com/profile.php?id=61594973199763 |
 | 2026-11-16 | Lic. Agustina Nicolás | /agustina-nicolas/ | vendido | 5629777738 |
 | 2026-11-17 | Despacho Serena y Asociados | /serena-asociados/ | vendido | https://www.facebook.com/serenayasociados/ |
-| 2026-11-17 | Lic. Miguel Eduardo Sánchez Licón | /miguel-sanchez-licon/ | vendido | 6145401354 |
 | 2026-11-18 | Lic. Eliana Rodríguez de la Cruz | /eliana-rodriguez/ | vendido | 9981508474 |
 | 2026-11-18 | Lic. Lorenia Pavlova | /lorenia-pavlova/ | vendido | 8123929483 |
 | 2026-11-18 | Cofure Abogados | /cofure-abogados/ | vendido | 4774833181 |

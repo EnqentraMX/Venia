@@ -5606,7 +5606,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-13",
     "fuente": "Facebook"
@@ -8645,7 +8645,7 @@
         ]
       }
     ],
-    "estado": "vendido",
+    "estado": "borrar",
     "plan": "premium",
     "alta": "2026-11-17",
     "fuente": "Facebook"
