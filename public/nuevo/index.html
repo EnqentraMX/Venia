@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b0b0c">
+<title>LicLink — Tu caso empieza ahora</title>
+<style>
+@font-face{font-family:Bodoni;src:url(/assets/fuentes/bodoni-moda-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:Bodoni;src:url(/assets/fuentes/bodoni-moda-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:Bodoni;src:url(/assets/fuentes/bodoni-moda-latin-400-italic.woff2) format("woff2");font-style:italic;font-display:swap}
+@font-face{font-family:Archivo;src:url(/assets/fuentes/archivo-latin-wght-normal.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{--tinta:#0b0b0c;--tinta2:#151517;--linea:#2a2a2e;--hueso:#f2eee6;--gris:#9a978f;--rojo:#e3342c;--verde:#3ccf7a;--seg:env(safe-area-inset-bottom)}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{background:var(--tinta)}
+body{background:var(--tinta);color:var(--hueso);font-family:Archivo,system-ui,sans-serif;font-size:16px;line-height:1.45;padding-bottom:calc(84px + var(--seg));overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.ancho{max-width:1120px;margin:0 auto;padding:0 20px}
+.cap{font-size:11.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gris)}
+
+/* Barra */
+.barra{position:sticky;top:0;z-index:20;background:rgba(11,11,12,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--linea)}
+.barra .ancho{display:flex;align-items:center;justify-content:space-between;height:60px}
+.marca{font-family:Bodoni;font-weight:600;font-size:27px;letter-spacing:-.02em}
+.marca i{font-style:italic;font-weight:400;color:var(--rojo)}
+.ciudad{display:flex;align-items:center;gap:8px;border:1px solid var(--linea);padding:8px 14px;font-size:14px;font-weight:600}
+.ciudad .pt{width:7px;height:7px;border-radius:50%;background:var(--verde);box-shadow:0 0 0 4px rgba(60,207,122,.15)}
+
+/* Portada: rayas de traje */
+.portada{position:relative;border-bottom:1px solid var(--linea);overflow:hidden;
+  background:repeating-linear-gradient(90deg,transparent 0 22px,rgba(242,238,230,.035) 22px 23px),radial-gradient(80% 70% at 85% 0%,rgba(227,52,44,.16),transparent 60%),var(--tinta)}
+.portada .ancho{padding-top:42px;padding-bottom:34px}
+.portada h1{font-family:Bodoni;font-weight:500;font-size:clamp(58px,15vw,150px);line-height:.9;letter-spacing:-.035em;margin-top:18px}
+.portada h1 em{font-style:italic;font-weight:400;color:var(--rojo);display:block}
+.portada .baj{max-width:520px;margin-top:22px;font-size:17px;color:#cfcac0}
+.vivo{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:22px;margin-top:26px}
+.vivo div{border-left:2px solid var(--rojo);padding-left:12px}
+.vivo b{display:block;font-family:Bodoni;font-size:34px;font-weight:500;line-height:1}
+.vivo span{font-size:12px;color:var(--gris);display:block;max-width:110px;line-height:1.25;margin-top:4px}
+
+/* Historias */
+.historias{display:flex;gap:16px;overflow-x:auto;padding:22px 20px 6px;scrollbar-width:none;max-width:1120px;margin:0 auto}
+.historias::-webkit-scrollbar{display:none}
+.hist{flex:none;width:76px;text-align:center}
+.hist .av{width:72px;height:72px;margin:0 auto;padding:3px;border-radius:50%;background:conic-gradient(var(--rojo),#ff8a3d,var(--rojo))}
+.hist .av .in{width:100%;height:100%;border-radius:50%;border:3px solid var(--tinta);background:#222 center/cover no-repeat}
+.hist small{display:block;margin-top:7px;font-size:11.5px;line-height:1.2;color:#cfcac0;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+
+/* Secciones */
+.sec{padding:40px 0 8px}
+.sec h2{font-family:Bodoni;font-weight:500;font-size:clamp(36px,8vw,60px);line-height:1;letter-spacing:-.025em;margin-top:8px}
+.sec h2 em{font-style:italic;font-weight:400;color:var(--rojo)}
+.sec .bajada{color:var(--gris);margin-top:10px;max-width:560px}
+
+/* Casos (tipo Uber) */
+.casos{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--linea);border:1px solid var(--linea);margin-top:24px}
+@media(min-width:760px){.casos{grid-template-columns:repeat(4,1fr)}}
+.caso{background:var(--tinta);padding:18px 16px 16px;text-align:left;min-height:150px;display:flex;flex-direction:column;justify-content:space-between;transition:background .2s}
+.caso:hover,.caso:active{background:var(--tinta2)}
+.caso .num{font-size:12px;font-weight:700;color:var(--gris);letter-spacing:.1em;display:flex;justify-content:space-between}
+.caso .num span{color:var(--hueso)}
+.caso b{font-family:Bodoni;font-weight:500;font-size:25px;line-height:1.02;letter-spacing:-.01em;margin-top:18px;display:block}
+.caso small{display:block;color:var(--gris);font-size:13px;margin-top:6px}
+.caso.urg{grid-column:1/-1;background:var(--rojo);color:#fff;min-height:132px}
+.caso.urg .num{color:rgba(255,255,255,.8)}
+.caso.urg small{color:rgba(255,255,255,.9)}
+.caso.urg b{font-size:34px}
+
+/* Promos (tipo Privalia) */
+.carril{display:flex;gap:14px;overflow-x:auto;padding:22px 20px 4px;scroll-snap-type:x mandatory;scrollbar-width:none;max-width:1120px;margin:0 auto}
+.carril::-webkit-scrollbar{display:none}
+.promo{flex:none;width:min(82vw,340px);scroll-snap-align:start;border:1px solid var(--linea);background:linear-gradient(160deg,#1a1718,#0e0e0f);padding:20px;position:relative;overflow:hidden}
+.promo .et{display:inline-block;background:var(--hueso);color:var(--tinta);font-size:11px;font-weight:800;letter-spacing:.12em;padding:5px 9px}
+.promo h3{font-family:Bodoni;font-weight:500;font-size:30px;line-height:1;margin-top:16px}
+.promo .precio{font-size:22px;font-weight:800;color:var(--rojo);margin-top:10px}
+.promo p{font-size:14px;color:#cfcac0;margin-top:8px}
+.promo .de{display:flex;align-items:center;gap:10px;margin-top:18px;padding-top:14px;border-top:1px solid var(--linea);font-size:13.5px;font-weight:600}
+
+/* Comparador (tipo Trivago) */
+.tabla{margin-top:22px;border-top:1px solid var(--linea)}
+.fila{display:grid;grid-template-columns:44px 1fr auto;gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid var(--linea)}
+.fila .nom{font-weight:700;font-size:15px;line-height:1.25}
+.fila .nom small{display:block;font-weight:500;color:var(--gris);font-size:12.5px;margin-top:2px}
+.fila .pre{text-align:right;font-weight:800;font-size:15px;white-space:nowrap}
+.fila .pre.gratis{color:var(--verde)}
+.fila .pre small{display:block;font-size:11px;color:var(--gris);font-weight:600}
+.av48{width:44px;height:44px;border-radius:50%;background:#222 center/cover no-repeat;border:1px solid var(--linea);display:grid;place-items:center;font-weight:800;font-size:14px}
+
+/* Abogados: banda */
+.banda{margin:48px 0 0;background:var(--hueso);color:var(--tinta)}
+.banda .ancho{padding-top:44px;padding-bottom:44px}
+.banda h2{font-family:Bodoni;font-weight:500;font-size:clamp(40px,9vw,72px);line-height:.95;letter-spacing:-.03em}
+.banda h2 em{font-style:italic;color:var(--rojo);font-weight:400}
+.banda p{margin-top:14px;max-width:520px;color:#3d3b37}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:54px;padding:0 24px;font-weight:800;font-size:15.5px;letter-spacing:.01em}
+.btn-negro{background:var(--tinta);color:var(--hueso);margin-top:22px}
+.btn-rojo{background:var(--rojo);color:#fff}
+.btn-wa{background:var(--verde);color:#062b14}
+.btn-linea{border:1px solid var(--linea)}
+.pie{padding:34px 20px 20px;text-align:center;color:var(--gris);font-size:13px}
+
+/* Navegación inferior (app) */
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:rgba(11,11,12,.94);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--linea);padding-bottom:var(--seg)}
+.nav div{max-width:560px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:68px;align-items:center}
+.nav a,.nav button{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:10.5px;font-weight:700;color:var(--gris);letter-spacing:.04em}
+.nav svg{width:22px;height:22px}
+.nav a.on{color:var(--hueso)}
+.nav .sos{width:58px;height:58px;margin:-26px auto 0;border-radius:50%;background:var(--rojo);color:#fff;justify-content:center;box-shadow:0 10px 30px rgba(227,52,44,.45),0 0 0 6px var(--tinta);font-size:10px;letter-spacing:.08em}
+
+/* Hoja inferior */
+.velo{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.6);opacity:0;pointer-events:none;transition:opacity .25s}
+.velo.on{opacity:1;pointer-events:auto}
+.hoja{position:fixed;left:0;right:0;bottom:0;z-index:41;max-height:88vh;background:#111113;border-top:1px solid var(--linea);transform:translateY(105%);transition:transform .35s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;max-width:640px;margin:0 auto}
+.hoja.on{transform:none}
+.hoja .asa{width:44px;height:4px;border-radius:9px;background:#3a3a3f;margin:10px auto 0}
+.hoja header{padding:14px 20px 12px;border-bottom:1px solid var(--linea)}
+.hoja header h3{font-family:Bodoni;font-weight:500;font-size:30px;line-height:1.05}
+.hoja header h3 em{font-style:italic;color:var(--rojo);font-weight:400}
+.orden{display:flex;gap:8px;margin-top:12px;overflow-x:auto}
+.orden button{flex:none;border:1px solid var(--linea);padding:7px 12px;font-size:13px;font-weight:700;color:var(--gris)}
+.orden button.on{background:var(--hueso);color:var(--tinta);border-color:var(--hueso)}
+.lista{overflow-y:auto;padding:6px 20px calc(24px + var(--seg))}
+.abg{padding:16px 0;border-bottom:1px solid var(--linea)}
+.abg .top{display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:center}
+.abg .av56{width:56px;height:56px;border-radius:50%;background:#222 center/cover no-repeat;border:1px solid var(--linea);display:grid;place-items:center;font-weight:800}
+.abg h4{font-size:16.5px;line-height:1.2}
+.abg .rol{font-size:13px;color:var(--gris);margin-top:3px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chips span{font-size:12px;font-weight:700;padding:4px 8px;border:1px solid var(--linea);color:#cfcac0}
+.chips .dest{border-color:var(--rojo);color:#ff8a83}
+.chips .ok{border-color:rgba(60,207,122,.5);color:var(--verde)}
+.abg .acc{display:grid;grid-template-columns:1fr auto;gap:8px;margin-top:12px}
+.abg .acc .btn{height:46px;font-size:14.5px}
+.vacio{padding:30px 0;color:var(--gris)}
+.ciudades{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--linea);margin:12px 20px 24px;border:1px solid var(--linea)}
+.ciudades button{background:#111113;padding:16px;text-align:left;font-weight:700}
+.ciudades button small{display:block;color:var(--gris);font-weight:500;font-size:12px}
+.ciudades button.on{background:var(--hueso);color:var(--tinta)}
+.aviso{position:fixed;top:0;left:0;right:0;z-index:50;background:var(--rojo);color:#fff;text-align:center;font-size:12px;font-weight:700;padding:5px;letter-spacing:.06em}
+</style>
+</head>
+<body>
+<div class="aviso">PROTOTIPO · VISTA DE PRUEBA DEL NUEVO LICLINK</div>
+<header class="barra" style="top:24px;margin-top:24px"><div class="ancho">
+  <a class="marca" href="/nuevo/">Lic<i>Link</i></a>
+  <button class="ciudad" id="bCiudad"><span class="pt"></span><span id="tCiudad"></span> ▾</button>
+</div></header>
+
+<section class="portada"><div class="ancho">
+  <div class="cap" id="kicker"></div>
+  <h1>Tu caso<br>empieza<em>ahora.</em></h1>
+  <p class="baj">Dinos qué te pasó. En segundos te mostramos abogados de tu ciudad que te atienden por WhatsApp, con el precio de su consulta a la vista.</p>
+  <div class="vivo"><div><b id="nAb"></b><span>abogados en tu ciudad</span></div><div><b id="nGr"></b><span>con 1ª asesoría gratis</span></div><div><b id="n24"></b><span>atienden 24/7</span></div></div>
+</div></section>
+
+<div class="historias" id="historias"></div>
+
+<section class="sec" id="casos"><div class="ancho">
+  <div class="cap">Paso 1 de 1</div>
+  <h2>¿Qué te <em>pasó?</em></h2>
+  <p class="bajada">Elige tu situación. Nosotros encontramos al abogado.</p>
+  <div class="casos" id="gridCasos"></div>
+</div></section>
+
+<section class="sec" id="promos" hidden><div class="ancho">
+  <div class="cap">Solo en LicLink</div>
+  <h2>Promociones <em>legales.</em></h2>
+  <p class="bajada">Ofertas reales de los despachos. Escríbeles antes de que terminen.</p>
+</div><div class="carril" id="carril"></div></section>
+
+<section class="sec" id="compara"><div class="ancho">
+  <div class="cap">Sin sorpresas</div>
+  <h2>Compara la <em>consulta.</em></h2>
+  <p class="bajada">Lo que cobra cada abogado por la primera asesoría en <span id="tCiudad2"></span>.</p>
+  <div class="tabla" id="tabla"></div>
+</div></section>
+
+<section class="banda" id="abogados"><div class="ancho">
+  <div class="cap" style="color:#6d6a63">Para abogados</div>
+  <h2>Deja de buscar clientes.<br><em>Que ellos te encuentren.</em></h2>
+  <p>Tu perfil, tu publicidad y tu promoción en redes, hechos por nosotros. Por menos de lo que cuesta un café al día.</p>
+  <a class="btn btn-negro" target="_blank" rel="noopener" href="https://wa.me/529511836468?text=Hola%2C%20soy%20abogado%20y%20quiero%20unirme%20a%20LicLink.">Quiero unirme →</a>
+</div></section>
+
+<p class="pie">LicLink · La guía de abogados de México · <a href="/" style="text-decoration:underline">Volver al sitio actual</a></p>
+
+<nav class="nav"><div>
+  <a href="#" class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Inicio</a>
+  <a href="#casos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Casos</a>
+  <button class="sos" id="bSos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>URGENTE</button>
+  <a href="#compara"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h10M4 17h6"/></svg>Precios</a>
+  <a href="#abogados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg>Abogados</a>
+</div></nav>
+
+<div class="velo" id="velo"></div>
+<div class="hoja" id="hoja" role="dialog" aria-modal="true"><div class="asa"></div><header><div class="cap" id="hCap"></div><h3 id="hTit"></h3><div class="orden" id="orden"></div></header><div class="lista" id="lista"></div></div>
+
+<script>
+const AB=[{"s": "fb-abogados-penalistas", "n": "F&B Abogados Penalistas", "r": "Defensa penal estratégica · Cuautitlán", "c": "edomex", "oc": ["cdmx"], "m": ["penal", "amparo", "familiar"], "p": "premium", "f": "/fb-abogados-penalistas/logo.jpg", "l": true, "bg": "", "i": "FB", "w": "525548499539", "u": "/fb-abogados-penalistas/", "q": "Consulta desde $500", "h24": false, "pr": []}, {"s": "miguel-perez", "n": "Miguel Pérez | Abogado", "r": "Lic. Miguel Pérez Tamayo · Laboral, pensiones, familiar y amparo · Halachó y Mérida", "c": "yucatan", "oc": [], "m": ["laboral", "familiar", "amparo", "civil", "sucesiones", "mercantil"], "p": "premium", "f": "/miguel-perez/logo.jpg", "l": true, "bg": "#670907", "i": "MP", "w": "529812092410", "u": "/miguel-perez/", "q": "", "h24": false, "pr": []}, {"s": "abogados-de-oriente", "n": "Abogados Penalistas de Oriente", "r": "Lic. Felipe Ugalde y equipo · Penal y amparos · Iztacalco", "c": "cdmx", "oc": [], "m": ["penal", "amparo", "familiar", "civil", "laboral"], "p": "premium", "f": "/abogados-de-oriente/logo.jpg", "l": true, "bg": "#fefefe", "i": "AP", "w": "525528484426", "u": "/abogados-de-oriente/", "q": "", "h24": true, "pr": []}, {"s": "servicios-legales-vs", "n": "Servicios Legales V.S.", "r": "Valeria Sanjuan · Asesoría jurídica con perspectiva de género", "c": "cdmx", "oc": [], "m": ["familiar", "penal", "civil"], "p": "basico", "f": "/servicios-legales-vs/logo.jpg", "l": true, "bg": "", "i": "VS", "w": "525523821217", "u": "/servicios-legales-vs/", "q": "", "h24": false, "pr": []}, {"s": "salmeron-asociados", "n": "Salmerón & Asociados Jurista", "r": "Abogado Víctor · Familiar, herencias, penal, civil y mercantil · Tonalá y Tlaquepaque", "c": "guadalajara", "oc": [], "m": ["familiar", "sucesiones", "penal", "civil", "mercantil"], "p": "premium", "f": "/salmeron-asociados/logo.jpg", "l": true, "bg": "", "i": "VS", "w": "523317875547", "u": "/salmeron-asociados/", "q": "", "h24": false, "pr": []}, {"s": "firmeza-legal-palacios", "n": "Firmeza Legal Palacios", "r": "Lic. Mónica Palacios · Penal, familiar y accidentes de trabajo", "c": "queretaro", "oc": [], "m": ["penal", "familiar", "laboral"], "p": "premium", "f": "/firmeza-legal-palacios/logo.jpg", "l": true, "bg": "", "i": "FL", "w": "525562279619", "u": "/firmeza-legal-palacios/", "q": "", "h24": false, "pr": []}, {"s": "aranda-salgado", "n": "Despacho Jurídico Pericial Aranda Salgado", "r": "Abogados y peritos · Lerma", "c": "edomex", "oc": [], "m": ["penal", "civil", "mercantil", "familiar", "laboral"], "p": "premium", "f": "/aranda-salgado/logo.jpg", "l": true, "bg": "", "i": "AS", "w": "525518483225", "u": "/aranda-salgado/", "q": "", "h24": false, "pr": []}, {"s": "forseti-lex", "n": "Forseti Lex Despacho Jurídico", "r": "Tu escudo legal", "c": "chihuahua", "oc": [], "m": ["penal", "familiar", "civil", "mercantil", "amparo", "fiscal"], "p": "premium", "f": "/forseti-lex/logo.jpg", "l": true, "bg": "#0b0b0b", "i": "FL", "w": "526251046138", "u": "/forseti-lex/", "q": "", "h24": false, "pr": []}, {"s": "miguel-manzano", "n": "Lic. Miguel Ángel Manzano Macías", "r": "Familiar, laboral y administrativo · Col. Americana", "c": "guadalajara", "oc": [], "m": ["familiar", "laboral", "amparo"], "p": "premium", "f": "/miguel-manzano/logo.jpg", "l": true, "bg": "#000f22", "i": "MM", "w": "523335940403", "u": "/miguel-manzano/", "q": "Asesoría gratis por WhatsApp", "h24": false, "pr": [{"n": "Divorcio express", "p": "Desde $1,000 al mes", "t": "Para quien busca terminar su matrimonio de forma rápida y segura, pagando en mensualidades."}]}, {"s": "dalia-marquez", "n": "Lic. Dalia Márquez Ramírez", "r": "Abogada y perito en documentos cuestionados", "c": "cdmx", "oc": [], "m": ["laboral", "familiar"], "p": "basico", "f": "/dalia-marquez/foto.jpg", "l": false, "bg": "", "i": "DM", "w": "525533663408", "u": "", "q": "", "h24": false, "pr": []}, {"s": "castillo-abogados", "n": "Castillo & Abogados", "r": "Despacho jurídico en Monterrey", "c": "monterrey", "oc": [], "m": ["familiar", "penal", "civil", "mercantil", "laboral", "amparo"], "p": "basico", "f": "", "l": false, "bg": "", "i": "CA", "w": "528111571262", "u": "", "q": "", "h24": false, "pr": []}, {"s": "yulieth-alejandra", "n": "Abogada Yulieth Alejandra", "r": "YM Despacho Jurídico · Familiar, laboral, civil, mercantil y penal · Mérida · 24/7", "c": "yucatan", "oc": [], "m": ["familiar", "laboral", "civil", "mercantil", "penal", "sucesiones"], "p": "premium", "f": "/yulieth-alejandra/foto.jpg", "l": false, "bg": "", "i": "YM", "w": "529903101304", "u": "/yulieth-alejandra/", "q": "Consulta desde $300", "h24": true, "pr": []}, {"s": "servicio-juridico-sp", "n": "Servicio Jurídico SP", "r": "Despacho jurídico integral · Penal, familiar, civil, mercantil, amparo y más · Mérida (Itzimná)", "c": "yucatan", "oc": [], "m": ["penal", "familiar", "civil", "mercantil", "amparo", "laboral", "fiscal", "sucesiones"], "p": "premium", "f": "/servicio-juridico-sp/logo.jpg", "l": true, "bg": "#000000", "i": "SP", "w": "529992226931", "u": "/servicio-juridico-sp/", "q": "", "h24": false, "pr": []}, {"s": "morningstar-legal-strategy", "n": "Morningstar Legal Strategy", "r": "Firma jurídica estratégica · Familiar, civil, penal, mercantil y notarial · Mérida", "c": "yucatan", "oc": [], "m": ["familiar", "civil", "penal", "mercantil", "sucesiones"], "p": "premium", "f": "/morningstar-legal-strategy/logo.jpg", "l": true, "bg": "#000000", "i": "MS", "w": "529992773138", "u": "/morningstar-legal-strategy/", "q": "", "h24": false, "pr": []}, {"s": "rp-asociados", "n": "Roger Piña & Asociados", "r": "Firma legal · Familiar, civil, penal y sucesorio · Mérida", "c": "yucatan", "oc": [], "m": ["familiar", "civil", "penal", "sucesiones"], "p": "premium", "f": "/rp-asociados/logo.jpg", "l": true, "bg": "#000000", "i": "RP", "w": "529999947730", "u": "/rp-asociados/", "q": "", "h24": false, "pr": []}, {"s": "ortiz-rubio-legal", "n": "Ortiz Rubio Legal", "r": "Abogados de lo familiar · Divorcio express, pensión y custodia · CDMX y Cuernavaca", "c": "cdmx", "oc": ["edomex"], "m": ["familiar"], "p": "premium", "f": "/ortiz-rubio-legal/foto.jpg", "l": false, "bg": "", "i": "OR", "w": "525542019327", "u": "/ortiz-rubio-legal/", "q": "", "h24": false, "pr": []}, {"s": "garcia-aguirre", "n": "García Aguirre & Asociados", "r": "Asesores legales · Derecho familiar · Tlalnepantla", "c": "edomex", "oc": [], "m": ["familiar"], "p": "premium", "f": "/garcia-aguirre/logo.jpg", "l": true, "bg": "#d1d3cd", "i": "GA", "w": "525524939392", "u": "/garcia-aguirre/", "q": "", "h24": false, "pr": []}, {"s": "psico-juridico-vn", "n": "Despacho Psico-Jurídico VN", "r": "Abogada y psicóloga · Familiar, civil y penal · Presencial y en línea", "c": "cdmx", "oc": [], "m": ["familiar", "civil", "penal"], "p": "premium", "f": "/psico-juridico-vn/logo.jpg", "l": true, "bg": "#000000", "i": "VN", "w": "525615275662", "u": "/psico-juridico-vn/", "q": "", "h24": false, "pr": []}, {"s": "montserrat-del-pino", "n": "Lic. Montserrat del Pino Roura", "r": "Asesoría y representación jurídica · Civil, familiar, penal y laboral · Mérida", "c": "yucatan", "oc": [], "m": ["civil", "familiar", "penal", "laboral"], "p": "premium", "f": "/montserrat-del-pino/logo.jpg", "l": true, "bg": "#ffffff", "i": "MP", "w": "529998070213", "u": "/montserrat-del-pino/", "q": "", "h24": false, "pr": []}, {"s": "aguilar-duarte", "n": "Aguilar & Duarte", "r": "Consultoría jurídica empresarial · Inmobiliario, penal, mercantil y más · Mérida", "c": "yucatan", "oc": [], "m": ["civil", "penal", "mercantil", "familiar", "laboral", "amparo"], "p": "premium", "f": "/aguilar-duarte/logo.jpg", "l": true, "bg": "#ffffff", "i": "AD", "w": "529992410372", "u": "/aguilar-duarte/", "q": "", "h24": false, "pr": []}, {"s": "sv-juridicos", "n": "SV Jurídicos", "r": "Derecho agrario, ambiental y forestal · Mérida", "c": "yucatan", "oc": [], "m": ["agrario", "civil", "familiar", "mercantil"], "p": "premium", "f": "/sv-juridicos/logo.jpg", "l": true, "bg": "#3a3e1d", "i": "SV", "w": "529992624754", "u": "/sv-juridicos/", "q": "", "h24": false, "pr": []}, {"s": "alvidrez-rodriguez", "n": "Alvídrez Rodríguez & Asociados", "r": "Despacho de abogados · Asesoría jurídica integral · Chihuahua", "c": "chihuahua", "oc": [], "m": ["civil", "familiar", "penal", "laboral", "mercantil", "amparo"], "p": "premium", "f": "/alvidrez-rodriguez/logo.jpg", "l": true, "bg": "#f7f1e3", "i": "AR", "w": "526141036563", "u": "/alvidrez-rodriguez/", "q": "Asesoría inicial $1,000 (se abona al caso)", "h24": false, "pr": []}, {"s": "banuelos-asociados", "n": "Lic. Karina Bañuelos", "r": "Bañuelos & Asociados · 25 años de experiencia · Familiar, penal, laboral y amparo · Gómez Palacio", "c": "gomez-palacio", "oc": [], "m": ["familiar", "penal", "laboral", "amparo", "sucesiones"], "p": "premium", "f": "/banuelos-asociados/foto.jpg", "l": false, "bg": "", "i": "KB", "w": "528717542041", "u": "/banuelos-asociados/", "q": "Consulta desde $400", "h24": false, "pr": []}, {"s": "lex-brevis", "n": "Lex Brevis MX", "r": "Lic. José Guadalupe Victoriano Huitrón · Familiar, laboral, civil y empresas · Todo México", "c": "cdmx", "oc": ["edomex"], "m": ["familiar", "laboral", "civil", "sucesiones"], "p": "premium", "f": "/lex-brevis/foto.jpg", "l": false, "bg": "", "i": "LB", "w": "525521059990", "u": "/lex-brevis/", "q": "", "h24": false, "pr": []}, {"s": "juan-martinez-loera", "n": "Lic. Juan de Jesús Martínez de Loera", "r": "Despacho Dalora · Cédula 11339242 · Civil e inmobiliario, mercantil, herencias, amparo y fiscal", "c": "cdmx", "oc": [], "m": ["civil", "mercantil", "sucesiones", "amparo", "fiscal"], "p": "basico", "f": "/juan-martinez-loera/logo.jpg", "l": true, "bg": "#ffffff", "i": "JM", "w": "525650204345", "u": "", "q": "", "h24": false, "pr": []}, {"s": "mirafuentes-hernandez", "n": "Mirafuentes & Hernández", "r": "Despacho jurídico · Penal, familiar, civil, laboral, administrativo y peritajes · CDMX", "c": "cdmx", "oc": [], "m": ["penal", "familiar", "civil", "mercantil", "laboral", "amparo", "fiscal", "sucesiones"], "p": "premium", "f": "/mirafuentes-hernandez/logo.jpg", "l": true, "bg": "#191919", "i": "MH", "w": "525528574510", "u": "/mirafuentes-hernandez/", "q": "", "h24": false, "pr": []}, {"s": "ana-lugo", "n": "Lic. Ana Gabriela Lugo López", "r": "Abogada y criminalista · Cédula 14129526 · Familiar, civil, sucesiones, penal y laboral · CDMX y Edomex", "c": "cdmx", "oc": ["edomex"], "m": ["familiar", "civil", "sucesiones", "penal", "laboral"], "p": "premium", "f": "/ana-lugo/logo.jpg", "l": true, "bg": "#000000", "i": "AL", "w": "525534352203", "u": "/ana-lugo/", "q": "Asesoría sin costo", "h24": false, "pr": []}, {"s": "zf-legal-studio", "n": "ZF Legal Studio", "r": "Defensa penal estratégica, contratos y corporativo · Puebla, Tlaxcala y virtual", "c": "puebla", "oc": [], "m": ["penal", "mercantil", "civil"], "p": "premium", "f": "/zf-legal-studio/logo.jpg", "l": true, "bg": "#d2427c", "i": "ZF", "w": "522225070688", "u": "/zf-legal-studio/", "q": "Primera asesoría gratuita", "h24": false, "pr": []}, {"s": "mercado-lopez", "n": "Mercado & López", "r": "Despacho jurídico · Intestados, divorcios, notarial, arrendamientos y civil · Col. Monumental", "c": "guadalajara", "oc": [], "m": ["sucesiones", "familiar", "civil"], "p": "premium", "f": "/mercado-lopez/logo.jpg", "l": true, "bg": "#221814", "i": "ML", "w": "523314175482", "u": "/mercado-lopez/", "q": "", "h24": false, "pr": []}, {"s": "gallegos-asociados", "n": "Gallegos & Asociados", "r": "Corporativo jurídico fiscal · Mercantil, fiscal, aduanero, civil y societario · Guadalajara", "c": "guadalajara", "oc": [], "m": ["fiscal", "mercantil", "civil"], "p": "premium", "f": "/gallegos-asociados/logo.jpg", "l": true, "bg": "#ffffff", "i": "GA", "w": "523312845297", "u": "/gallegos-asociados/", "q": "", "h24": false, "pr": []}, {"s": "duran-asociados", "n": "Durán y Asociados", "r": "Civil, familiar, mercantil, migratorio y mediación privada · CDMX, Edomex y toda la República", "c": "cdmx", "oc": ["edomex"], "m": ["civil", "familiar", "mercantil"], "p": "premium", "f": "/duran-asociados/logo.jpg", "l": true, "bg": "#ffffff", "i": "DA", "w": "525621141173", "u": "/duran-asociados/", "q": "", "h24": false, "pr": []}, {"s": "afjg-garcia", "n": "Asesoría Fiscal y Jurídica García", "r": "AFJG · Fiscal, laboral, familiar, mercantil, penal, agrario y militar · Puebla", "c": "puebla", "oc": [], "m": ["fiscal", "laboral", "familiar", "mercantil", "penal", "agrario", "amparo"], "p": "premium", "f": "/afjg-garcia/logo.jpg", "l": true, "bg": "#ffffff", "i": "AG", "w": "522223608181", "u": "/afjg-garcia/", "q": "", "h24": false, "pr": []}, {"s": "cs-abogados", "n": "CS Abogados", "r": "Litigio y corporativo · Laboral empresarial, contratos e inmobiliario · Guadalajara", "c": "guadalajara", "oc": [], "m": ["laboral", "mercantil", "civil"], "p": "premium", "f": "/cs-abogados/logo.jpg", "l": true, "bg": "#ffffff", "i": "CS", "w": "523318453110", "u": "/cs-abogados/", "q": "Auditoría legal preventiva sin costo", "h24": false, "pr": []}, {"s": "ama-corp", "n": "AMA Corp Contadores y Abogados", "r": "Civil, familiar, notarial, fiscal y contabilidad · Zapopan", "c": "guadalajara", "oc": [], "m": ["civil", "familiar", "sucesiones", "fiscal"], "p": "premium", "f": "/ama-corp/logo.jpg", "l": true, "bg": "#000000", "i": "AA", "w": "523321601831", "u": "/ama-corp/", "q": "", "h24": false, "pr": []}, {"s": "abigail-catarino", "n": "Abigail Catarino & Abogados", "r": "Mtra. Abigail Catarino · Penal, laboral, familiar y amparo · CDMX, Edomex y Jalisco", "c": "cdmx", "oc": ["edomex", "guadalajara"], "m": ["penal", "laboral", "familiar", "amparo"], "p": "premium", "f": "/abigail-catarino/logo.jpg", "l": true, "bg": "#000000", "i": "AC", "w": "525516847505", "u": "/abigail-catarino/", "q": "", "h24": true, "pr": []}, {"s": "luis-romero", "n": "Lic. Luis Romero", "r": "Abogado penalista · Defensa penal y asesoría a víctimas · San Luis Potosí", "c": "san-luis-potosi", "oc": [], "m": ["penal"], "p": "premium", "f": "/luis-romero/logo.jpg", "l": true, "bg": "#ffffff", "i": "LR", "w": "524446712359", "u": "/luis-romero/", "q": "", "h24": false, "pr": []}, {"s": "tu-defensa-juridica", "n": "Lic. Jesús Antonio Urbina", "r": "Tu Defensa Jurídica · 30 años · Amparo, penal, civil, familiar, mercantil y mediación · Chihuahua", "c": "chihuahua", "oc": [], "m": ["amparo", "penal", "civil", "familiar", "mercantil"], "p": "premium", "f": "/tu-defensa-juridica/foto.jpg", "l": false, "bg": "", "i": "JU", "w": "526141754135", "u": "/tu-defensa-juridica/", "q": "Consulta $1,000 virtual o presencial", "h24": false, "pr": []}, {"s": "iure-codex", "n": "Corporativo Jurídico Iure Códex", "r": "Derecho familiar, civil e inmobiliario · Tijuana", "c": "tijuana", "oc": [], "m": ["familiar", "civil"], "p": "basico", "f": "/iure-codex/logo.jpg", "l": true, "bg": "#ffffff", "i": "IC", "w": "526641759564", "u": "", "q": "", "h24": false, "pr": []}, {"s": "ivan-canseco", "n": "Lic. Edgar Iván Ávila Canseco", "r": "Laboral, civil y mercantil · Perito en documentos cuestionados · Toluca", "c": "edomex", "oc": [], "m": ["laboral", "civil", "mercantil"], "p": "premium", "f": "/ivan-canseco/logo.jpg", "l": true, "bg": "#000000", "i": "IC", "w": "523122116893", "u": "/ivan-canseco/", "q": "", "h24": false, "pr": []}, {"s": "seda-defensa-penal", "n": "SEDA Defensa Penal", "r": "Lic. Fernando Seda · Defensa y prevención penal para empresas · Guadalajara", "c": "guadalajara", "oc": [], "m": ["penal"], "p": "premium", "f": "/seda-defensa-penal/logo.jpg", "l": true, "bg": "#080808", "i": "SD", "w": "523311418458", "u": "/seda-defensa-penal/", "q": "", "h24": false, "pr": []}, {"s": "agustina-nicolas", "n": "Lic. Agustina Nicolás", "r": "Asesoría jurídica · Familiar, administrativo (INVEA y permisos), civil y laboral · CDMX y Edomex", "c": "cdmx", "oc": ["edomex"], "m": ["familiar", "sucesiones", "civil", "mercantil", "laboral"], "p": "premium", "f": "/agustina-nicolas/logo.jpg", "l": true, "bg": "#0c0b0a", "i": "AN", "w": "525629777738", "u": "/agustina-nicolas/", "q": "", "h24": false, "pr": []}, {"s": "joaquin-engelss", "n": "Lic. Joaquín Engelss Buendía Díaz", "r": "Penal, familiar, civil e inmobiliario, mercantil, herencias y amparo · Estado de México", "c": "edomex", "oc": [], "m": ["penal", "familiar", "civil", "mercantil", "sucesiones", "amparo"], "p": "basico", "f": "/joaquin-engelss/logo.jpg", "l": true, "bg": "#ffffff", "i": "JE", "w": "525535184560", "u": "", "q": "", "h24": false, "pr": []}, {"s": "serena-asociados", "n": "Despacho Serena y Asociados", "r": "Abogados y contadores · Legal, fiscal-contable y trámites IMSS/SAT · Veracruz", "c": "veracruz", "oc": [], "m": ["fiscal", "civil", "mercantil", "laboral"], "p": "premium", "f": "/serena-asociados/logo3.jpg", "l": true, "bg": "#ffffff", "i": "DS", "w": "522291011940", "u": "/serena-asociados/", "q": "Asesoría inicial $1,000 virtual o presencial", "h24": false, "pr": []}, {"s": "pedro-avila", "n": "Lic. Pedro Ávila Domínguez", "r": "Abogado y mediador privado · Penal, familiar, civil, mercantil, herencias y amparo · Chihuahua", "c": "chihuahua", "oc": [], "m": ["penal", "familiar", "civil", "mercantil", "sucesiones", "amparo"], "p": "basico", "f": "/pedro-avila/logo.jpg", "l": true, "bg": "#111111", "i": "PA", "w": "526391556454", "u": "", "q": "", "h24": false, "pr": []}, {"s": "eliana-rodriguez", "n": "Lic. Eliana Rodríguez de la Cruz", "r": "Rodríguez & Asociados · Familiar, civil, penal, laboral, mercantil y amparos · Cancún", "c": "cancun", "oc": [], "m": ["familiar", "civil", "penal", "laboral", "mercantil", "amparo"], "p": "premium", "f": "/eliana-rodriguez/foto.jpg", "l": false, "bg": "", "i": "ER", "w": "529981508474", "u": "/eliana-rodriguez/", "q": "", "h24": false, "pr": []}, {"s": "lorenia-pavlova", "n": "Lic. Lorenia Pavlova", "r": "Abogada · Familiar, civil y penal · Monterrey y Playa del Carmen", "c": "monterrey", "oc": ["cancun"], "m": ["familiar", "civil", "penal"], "p": "premium", "f": "/lorenia-pavlova/foto.jpg", "l": false, "bg": "", "i": "LP", "w": "528123929483", "u": "/lorenia-pavlova/", "q": "", "h24": false, "pr": []}, {"s": "cofure-abogados", "n": "Cofure Abogados", "r": "Asesoría jurídica · Familiar, laboral, herencias, escrituración, pagarés y amparo · León", "c": "leon", "oc": [], "m": ["familiar", "laboral", "civil", "sucesiones", "mercantil", "amparo"], "p": "premium", "f": "/cofure-abogados/logo2.jpg", "l": true, "bg": "#04243e", "i": "CA", "w": "524774833181", "u": "/cofure-abogados/", "q": "", "h24": false, "pr": []}, {"s": "sales-paz-puente", "n": "Sales Paz y Puente Abogados", "r": "Estudio jurídico desde 1964 · Corporativo, marcas, migración, civil, familiar y laboral · Atizapán", "c": "edomex", "oc": [], "m": ["civil", "familiar", "mercantil", "laboral"], "p": "premium", "f": "/sales-paz-puente/logo.jpg", "l": true, "bg": "#000000", "i": "SP", "w": "525561919378", "u": "/sales-paz-puente/", "q": "", "h24": false, "pr": []}];const CIU={"cdmx": "Ciudad de México", "edomex": "Estado de México", "guadalajara": "Guadalajara", "puebla": "Puebla", "monterrey": "Monterrey", "tijuana": "Tijuana", "leon": "León", "chihuahua": "Chihuahua", "san-luis-potosi": "San Luis Potosí", "yucatan": "Yucatán", "queretaro": "Querétaro", "gomez-palacio": "Gómez Palacio", "cancun": "Cancún", "veracruz": "Veracruz"};
+const CASOS=[
+ {k:"penal",t:"Detuvieron a alguien",s:"Penalistas que actúan hoy",u:1,msg:"detuvieron a un familiar y necesito un abogado penalista"},
+ {k:"laboral",t:"Me despidieron",s:"Liquidación y finiquito",msg:"me despidieron y quiero saber qué me corresponde"},
+ {k:"familiar",t:"Quiero divorciarme",s:"Express o con acuerdos",msg:"quiero divorciarme"},
+ {k:"familiar",t:"Pensión para mis hijos",s:"Pedirla o que la paguen",msg:"necesito pensión alimenticia para mis hijos"},
+ {k:"sucesiones",t:"Una herencia",s:"Con o sin testamento",msg:"tengo un asunto de herencia"},
+ {k:"civil",t:"Me demandaron",s:"Contratos, rentas, propiedades",msg:"me llegó una demanda"},
+ {k:"mercantil",t:"Me deben dinero",s:"Pagarés y cobranza",msg:"me deben dinero y quiero cobrarlo"},
+ {k:"amparo",t:"Una autoridad me afectó",s:"Juicio de amparo",msg:"necesito un amparo"},
+ {k:"fiscal",t:"Problema con el SAT",s:"Multas y defensa fiscal",msg:"tengo un problema con el SAT"},
+];
+const $=s=>document.querySelector(s), esc=s=>String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let ciudad=(()=>{try{return localStorage.getItem("ll_ciudad")}catch(e){return null}})()||Object.keys(CIU).sort((a,b)=>enCiudad(b).length-enCiudad(a).length)[0];
+function enCiudad(c){return AB.filter(a=>a.c===c||(a.oc||[]).includes(c))}
+function precio(a){if(!a.q)return null;if(/gratis/i.test(a.q))return 0;const m=a.q.match(/\$([\d,]+)/);return m?+m[1].replace(/,/g,""):null}
+function av(a,cls){const st=a.f?(a.l?`background:${a.bg||"#fff"} url('${a.f}') center/80% no-repeat`:`background-image:url('${a.f}')`):"";return `<div class="${cls}" style="${st}">${a.f?"":esc(a.i)}</div>`}
+function wa(a,m){return "https://wa.me/"+a.w+"?text="+encodeURIComponent("Hola, lo encontré en LicLink. "+(m?m.charAt(0).toUpperCase()+m.slice(1)+".":"Necesito asesoría."))}
+
+function pintar(){
+  const L=enCiudad(ciudad), nom=CIU[ciudad];
+  $("#tCiudad").textContent=nom;
+  $("#kicker").textContent="Abogados en "+nom+" · Responden por WhatsApp";
+  $("#nAb").textContent=L.length; const g=L.filter(a=>precio(a)===0).length, h=L.filter(a=>a.h24).length; $("#nGr").textContent=g; $("#nGr").parentElement.hidden=!g; $("#n24").textContent=h; $("#n24").parentElement.hidden=!h;
+  const H=[...L].sort((a,b)=>(b.p==="premium")-(a.p==="premium")).filter(a=>a.p==="premium");
+  $("#historias").innerHTML=H.map(a=>`<a class="hist" href="${a.u||"#"}"><div class="av">${av(a,"in")}</div><small>${esc(a.n)}</small></a>`).join("");
+  $("#gridCasos").innerHTML=CASOS.map((c,i)=>{const n=L.filter(a=>a.m.includes(c.k)).length;return `<button class="caso${c.u?" urg":""}" data-i="${i}"><div class="num">${String(i+1).padStart(2,"0")}<span>${n?n+" abogado"+(n>1?"s":""):"Todo México"} →</span></div><div><b>${c.t}</b><small>${c.s}</small></div></button>`}).join("");
+  document.querySelectorAll(".caso").forEach(b=>b.onclick=()=>abrirCaso(CASOS[+b.dataset.i]));
+  const P=AB.flatMap(a=>(a.pr||[]).map(p=>({a,p})));
+  $("#promos").hidden=!P.length;
+  $("#carril").innerHTML=P.map(({a,p})=>`<div class="promo"><span class="et">PROMOCIÓN</span><h3>${esc(p.n)}</h3><div class="precio">${esc(p.p)}</div>${p.t?`<p>${esc(p.t)}</p>`:""}<a class="de" href="${wa(a,"me interesa la promoción "+p.n)}" target="_blank" rel="noopener">${av(a,"av48")}<span>${esc(a.n)}<br><small style="color:var(--gris)">${esc(CIU[a.c]||"")} · Escribir →</small></span></a></div>`).join("");
+  let T=L.filter(a=>precio(a)!==null), todo=false; if(T.length<3){T=AB.filter(a=>precio(a)!==null);todo=true} T.sort((x,y)=>precio(x)-precio(y)); $("#tCiudad2").textContent=todo?"todo México":nom;
+  $("#tabla").innerHTML=(T.length?T:[]).map(a=>`<a class="fila" href="${a.u||wa(a)}">${av(a,"av48")}<div class="nom">${esc(a.n)}<small>${esc(CIU[a.c]||"")} · ${esc((a.r||"").split("·")[0])}</small></div><div class="pre${precio(a)===0?" gratis":""}">${precio(a)===0?"Gratis":"$"+precio(a).toLocaleString("es-MX")}<small>${precio(a)===0?esc(a.q.replace(/^.*?gratis\s*/i,"")||"1ª asesoría"):"desde"}</small></div></a>`).join("")||`<p class="vacio">Aún no hay precios publicados en ${esc(nom)}. Pronto.</p>`;
+}
+
+let actual=null, orden="rec";
+function abrirCaso(c){actual=c;orden="rec";hoja()}
+function hoja(){
+  const c=actual; let L=enCiudad(ciudad).filter(a=>a.m.includes(c.k)), fuera=false;
+  if(!L.length){L=AB.filter(a=>a.m.includes(c.k));fuera=true}
+  if(orden==="rec")L.sort((a,b)=>(b.p==="premium")-(a.p==="premium")||(b.h24-a.h24));
+  if(orden==="pre")L=L.filter(a=>precio(a)!==null).sort((a,b)=>precio(a)-precio(b));
+  if(orden==="24")L=L.filter(a=>a.h24);
+  $("#hCap").textContent=(fuera?"Todo México":CIU[ciudad])+" · "+L.length+" abogado"+(L.length===1?"":"s");
+  $("#hTit").innerHTML=esc(c.t)+". <em>Te ayudamos.</em>";
+  $("#orden").innerHTML=[["rec","Recomendados"],["pre","Precio de consulta"],["24","Atienden 24/7"]].map(([k,t])=>`<button class="${orden===k?"on":""}" data-o="${k}">${t}</button>`).join("");
+  document.querySelectorAll("#orden button").forEach(b=>b.onclick=()=>{orden=b.dataset.o;hoja()});
+  $("#lista").innerHTML=L.map(a=>{const p=precio(a);return `<div class="abg"><div class="top">${av(a,"av56")}<div><h4>${esc(a.n)}</h4><div class="rol">${esc(a.r)}</div></div></div>
+   <div class="chips">${a.p==="premium"?'<span class="dest">★ Destacado</span>':""}${p===0?`<span class="ok">${esc(a.q)}</span>`:p?`<span>Consulta desde $${p.toLocaleString("es-MX")}</span>`:""}${a.h24?'<span>24/7</span>':""}${fuera?`<span>${esc(CIU[a.c]||"")}</span>`:""}</div>
+   <div class="acc"><a class="btn btn-wa" target="_blank" rel="noopener" href="${wa(a,c.msg)}">Escribir por WhatsApp</a>${a.u?`<a class="btn btn-linea" href="${a.u}">Perfil</a>`:""}</div></div>`}).join("")||'<p class="vacio">Sin resultados con este filtro.</p>';
+  $("#velo").classList.add("on");$("#hoja").classList.add("on");document.body.style.overflow="hidden";
+}
+function cerrar(){$("#velo").classList.remove("on");$("#hoja").classList.remove("on");document.body.style.overflow=""}
+$("#velo").onclick=cerrar;
+$("#bSos").onclick=()=>abrirCaso(CASOS[0]);
+$("#bCiudad").onclick=()=>{
+  $("#hCap").textContent="Elige tu ciudad";$("#hTit").innerHTML="¿Dónde <em>estás?</em>";$("#orden").innerHTML="";
+  $("#lista").innerHTML=`<div class="ciudades" style="margin:12px 0 0">${Object.entries(CIU).map(([k,v])=>`<button data-c="${k}" class="${k===ciudad?"on":""}">${esc(v)}<small>${enCiudad(k).length} abogados</small></button>`).join("")}</div>`;
+  document.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{ciudad=b.dataset.c;try{localStorage.setItem("ll_ciudad",ciudad)}catch(e){}pintar();cerrar()});
+  $("#velo").classList.add("on");$("#hoja").classList.add("on");
+};
+pintar();
+</script>
+</body>
+</html>
