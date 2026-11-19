@@ -1397,5 +1397,36 @@
   "alta": "2026-11-18",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "sales-paz-puente",
+  "nombre": "Sales Paz y Puente Abogados",
+  "rol": "Estudio jurídico desde 1964 · Corporativo, marcas, migración, civil, familiar y laboral · Atizapán",
+  "ciudad": "edomex",
+  "materias": [
+   "civil",
+   "familiar",
+   "mercantil",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/sales-paz-puente/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "SP",
+  "whatsapp": "525561919378",
+  "telefono": "5561919378",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/sales-paz-puente/",
+  "redes": {
+   "facebook": "https://www.facebook.com/salespazypuentebogados.com.mx",
+   "instagram": "https://www.instagram.com/sales_abogados"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-18",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

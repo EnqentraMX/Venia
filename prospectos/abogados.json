@@ -9120,5 +9120,174 @@
         "whatsapp": false
       }
     ]
+  },
+  {
+    "slug": "sales-paz-puente",
+    "nombre": "Sales Paz y Puente Abogados",
+    "despacho": "Sales Paz y Puente Abogados",
+    "sufijo": "Estudio jurídico desde 1964",
+    "despacho_largo": "Sales Paz y Puente Abogados | Atizapán, Edomex",
+    "titulo": "Estudio jurídico familiar desde 1964",
+    "iniciales": "SP",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Atizapán de Zaragoza",
+    "telefono": "5561919378",
+    "telefonos_extra": [
+      {
+        "numero": "5570349292",
+        "whatsapp": false
+      },
+      {
+        "numero": "5554093311",
+        "whatsapp": false
+      }
+    ],
+    "correo": "contacto@salespazypuente.com.mx",
+    "direccion": "Cisne No. 58, Fracc. Las Arboledas, Atizapán de Zaragoza, Estado de México, C.P. 52950",
+    "facebook": "https://www.facebook.com/salespazypuentebogados.com.mx",
+    "instagram": "https://www.instagram.com/sales_abogados",
+    "web": "https://www.salespazypuente.com.mx",
+    "horario": {
+      "lunes": [
+        "09:00",
+        "18:00"
+      ],
+      "martes": [
+        "09:00",
+        "18:00"
+      ],
+      "miercoles": [
+        "09:00",
+        "18:00"
+      ],
+      "jueves": [
+        "09:00",
+        "18:00"
+      ],
+      "viernes": [
+        "09:00",
+        "18:00"
+      ],
+      "sabado": [
+        "09:00",
+        "14:00"
+      ]
+    },
+    "referencia": "Sales Paz y Puente Abogados: estudio jurídico familiar creado en 1964 en Atizapán de Zaragoza. Corporativo, marcas y patentes, migración, civil, inmobiliario, familiar, laboral y contencioso administrativo.",
+    "descripcion": "Sales Paz y Puente Abogados, estudio jurídico familiar creado en 1964 en Atizapán de Zaragoza, Estado de México. Especialidad en derecho corporativo, patentes, marcas, derechos de autor, migración, civil, inmobiliario, familiar, mercantil, laboral, seguridad social y contencioso administrativo.",
+    "modalidad": "Más de 60 años de experiencia",
+    "portada": [
+      "Estudio jurídico",
+      "familiar",
+      "desde 1964."
+    ],
+    "texto_portada": "Más de 60 años de experiencia en derecho corporativo, propiedad intelectual, migración, civil, inmobiliario, familiar, laboral y contencioso administrativo.",
+    "frase": "Un estudio jurídico familiar con más de seis décadas de experiencia.",
+    "compromisos": [
+      "Estudio jurídico desde 1964",
+      "Corporativo y propiedad intelectual",
+      "Atención a personas y empresas",
+      "Oficina en Las Arboledas, Atizapán"
+    ],
+    "situaciones": [
+      {
+        "texto": "Quiero registrar mi marca o proteger una patente",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito asesoría legal para mi empresa",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un trámite migratorio",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con una propiedad o un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito tramitar mi pensión o jubilación",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un asunto familiar",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Corporativo y mercantil",
+        "icono": "maletin",
+        "texto": "Cuidamos tu empresa con Legal Business Care.",
+        "puntos": [
+          "Derecho corporativo",
+          "Derecho mercantil",
+          "Legal Business Care"
+        ]
+      },
+      {
+        "nombre": "Propiedad intelectual",
+        "icono": "lupa",
+        "texto": "Protegemos tus creaciones y tu marca.",
+        "puntos": [
+          "Patentes",
+          "Marcas",
+          "Derechos de autor"
+        ]
+      },
+      {
+        "nombre": "Migración",
+        "icono": "documento",
+        "texto": "Te acompañamos en tus trámites migratorios.",
+        "puntos": [
+          "Asesoría migratoria"
+        ]
+      },
+      {
+        "nombre": "Civil e inmobiliario",
+        "icono": "edificio",
+        "texto": "Protegemos tu patrimonio.",
+        "puntos": [
+          "Derecho civil",
+          "Derecho inmobiliario"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Un estudio familiar al servicio de tu familia.",
+        "puntos": [
+          "Asuntos familiares"
+        ]
+      },
+      {
+        "nombre": "Laboral y seguridad social",
+        "icono": "acuerdo",
+        "texto": "Defendemos tus derechos laborales.",
+        "puntos": [
+          "Derecho del trabajo",
+          "Seguridad social",
+          "Pensiones y jubilaciones"
+        ]
+      },
+      {
+        "nombre": "Contencioso administrativo",
+        "icono": "balanza",
+        "texto": "Defensa ante la autoridad.",
+        "puntos": [
+          "Juicios contencioso administrativos"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-18",
+    "fuente": "Sitio web"
   }
 ]

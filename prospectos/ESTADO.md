@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 41 · Borrados: 35
+Propuestas: 0 · Vendidos: 42 · Borrados: 35
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -80,3 +80,4 @@ Propuestas: 0 · Vendidos: 41 · Borrados: 35
 | 2026-11-18 | Lic. Eliana Rodríguez de la Cruz | /eliana-rodriguez/ | vendido | 9981508474 |
 | 2026-11-18 | Lic. Lorenia Pavlova | /lorenia-pavlova/ | vendido | 8123929483 |
 | 2026-11-18 | Cofure Abogados | /cofure-abogados/ | vendido | 4774833181 |
+| 2026-11-18 | Sales Paz y Puente Abogados | /sales-paz-puente/ | vendido | https://www.facebook.com/salespazypuentebogados.com.mx |

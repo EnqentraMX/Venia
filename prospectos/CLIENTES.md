@@ -41,6 +41,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Roger Piña & Asociados | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | SEDA Defensa Penal | premium | Guadalajara | 2026-11-16 | — | pendiente | activo | no |
 | SV Jurídicos | premium | Yucatán | 2026-11-08 | — | pendiente | activo | no |
+| Sales Paz y Puente Abogados | premium | Estado de México | 2026-11-18 | — | pendiente | activo | no |
 | Salmerón & Asociados Jurista | premium | Guadalajara | 2026-11-07 | — | pendiente | activo | no |
 | Servicio Jurídico SP | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | ZF Legal Studio | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
