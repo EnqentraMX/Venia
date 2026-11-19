@@ -72,7 +72,10 @@ def construir(a):
     contacto = f'<a class="ct rv" href="tel:{re.sub(r"[^0-9]","",a.get("telefono",""))}"><span class="ic">{ic("tel")}</span><span><small>Teléfono</small><b>{tel(a.get("telefono",""))}</b></span></a>'
     for t in a.get("telefonos_extra", []):
         contacto += f'<a class="ct rv" href="tel:{t["numero"]}"><span class="ic">{ic("tel")}</span><span><small>Otro número</small><b>{tel(t["numero"])}</b></span></a>'
+    mapa = ""
     if a.get("direccion"):
+        q = urllib.parse.quote(a["direccion"])
+        mapa = f'<div class="mapa rv"><iframe title="Mapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q={q}&z=15&output=embed"></iframe><a class="btn btn-tinta" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination={q}">Cómo llegar</a></div>'
         contacto += f'<a class="ct rv" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(a["direccion"])}"><span class="ic">{ic("pin")}</span><span><small>Dónde atiende</small><b>{E(a["direccion"])}</b></span></a>'
     if a.get("correo"):
         contacto += f'<a class="ct rv" href="mailto:{E(a["correo"])}"><span class="ic">{ic("mail")}</span><span><small>Correo</small><b>{E(a["correo"])}</b></span></a>'
@@ -115,7 +118,7 @@ def construir(a):
  <section class="sec" id="servicios"><div class="kick rv">Servicios</div><h2 class="cs rv d1">En qué te <span>puede ayudar.</span></h2><div class="serv">{serv}</div></section>
  <section class="sec" id="costos"><div class="kick rv">Costos</div><h2 class="cs rv d1">Sin <span>sorpresas.</span></h2><div class="precios rv d2">{precios}</div></section>
  <section class="sec"><div class="kick rv">Cómo funciona</div><h2 class="cs rv d1">Tres pasos, <span>cero vueltas.</span></h2><div class="pasos"><div class="paso rv"><b>Escríbele</b><p>Cuéntale tu situación por WhatsApp, con tus palabras.</p></div><div class="paso rv d1"><b>Te orienta</b><p>Te explica tus opciones y lo que necesitas.</p></div><div class="paso rv d2"><b>Defiende tu caso</b><p>Si decides avanzar, se encarga de todo el proceso.</p></div></div></section>
- <section class="sec" id="contacto"><div class="kick rv">Contacto</div><h2 class="cs rv d1">Hablemos <span>hoy.</span></h2><div class="contacto">{contacto}</div></section>
+ <section class="sec" id="contacto"><div class="kick rv">Contacto</div><h2 class="cs rv d1">Hablemos <span>hoy.</span></h2>{mapa}<div class="contacto">{contacto}</div></section>
 </main>
 <aside class="lado"><span class="av" style="display:block;background-image:url('{avatar}')"></span><h3>{E(a["nombre"])}</h3><p>{E(dato1)} · {E(ciudad)}</p>
  <p style="display:flex;gap:8px;align-items:center;margin-top:12px;color:var(--tinta);font-weight:700"><span class="pulso"></span>Responde por WhatsApp</p>

@@ -1,7 +1,7 @@
 /* LicLink v3 — crema, tinta y oro. Títulos: Libre Caslon Display. Texto: Manrope. Móvil primero. */
 @font-face{font-family:Caslon;src:url(/assets/fuentes/libre-caslon-display-latin-400-normal.woff2) format("woff2");font-display:swap}
 @font-face{font-family:Manrope;src:url(/assets/fuentes/manrope-latin-wght-normal.woff2) format("woff2");font-weight:200 800;font-display:swap}
-:root{--crema:#f5efe4;--papel:#fbf8f2;--tinta:#15120e;--tinta2:#221d17;--oro:#b08a45;--oro2:#d8b874;--gris:#6e665a;--linea:#e2d7c4;--verde:#1f9d55;--seg:env(safe-area-inset-bottom)}
+:root{--crema:#f5efe4;--papel:#fbf8f2;--tinta:#15120e;--tinta2:#221d17;--oro:#b08a45;--oro2:#d8b874;--gris:#6e665a;--linea:#e2d7c4;--verde:#1f9d55;--tit:Caslon,Georgia,serif;--seg:env(safe-area-inset-bottom)}
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{scroll-behavior:smooth;scroll-padding-top:110px}
 body{background:var(--crema);color:var(--tinta);font-family:Manrope,system-ui,sans-serif;font-size:16px;line-height:1.55;overflow-x:hidden}
@@ -9,7 +9,7 @@ a{color:inherit;text-decoration:none}
 button,input,textarea{font:inherit;color:inherit}
 button{background:none;border:0;cursor:pointer}
 img{display:block;max-width:100%}
-.cs{font-family:Caslon,Georgia,serif;font-weight:400;letter-spacing:-.01em}
+.cs{font-family:var(--tit);font-weight:400;letter-spacing:-.01em}
 .oro{color:var(--oro)}
 .kick{font-size:11.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--oro)}
 .ancho{max-width:1160px;margin:0 auto;padding:0 20px}
@@ -32,7 +32,7 @@ svg.i{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-widt
 /* Cinta en movimiento */
 .cinta{background:var(--tinta);color:var(--oro2);overflow:hidden;white-space:nowrap;padding:14px 0;border-top:1px solid #2c261d;border-bottom:1px solid #2c261d}
 .cinta div{display:inline-flex;gap:34px;animation:cinta 38s linear infinite;padding-right:34px}
-.cinta span{font-family:Caslon,serif;font-size:21px;display:inline-flex;align-items:center;gap:34px}
+.cinta span{font-family:var(--tit);font-size:21px;display:inline-flex;align-items:center;gap:34px}
 .cinta span::after{content:"◆";font-size:9px;color:#6b5a39}
 @keyframes cinta{to{transform:translateX(-50%)}}
 
