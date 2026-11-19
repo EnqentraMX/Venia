@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 38 · Borrados: 41
+Propuestas: 0 · Vendidos: 39 · Borrados: 41
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -83,3 +83,4 @@ Propuestas: 0 · Vendidos: 38 · Borrados: 41
 | 2026-11-18 | Sales Paz y Puente Abogados | /sales-paz-puente/ | vendido | https://www.facebook.com/salespazypuentebogados.com.mx |
 | 2026-11-18 | Lic. Enrique Díaz | /diaz-asociados/ | vendido | 8110305039 |
 | 2026-11-19 | Corporativo Jurídico | /corporativo-juridico-tuxtla/ | vendido | 9613272094 |
+| 2026-11-19 | Dávila Ramírez Vivas | /davila-ramirez-vivas/ | vendido | 5513074559 |

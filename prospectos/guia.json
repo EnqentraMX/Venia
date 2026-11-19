@@ -1283,5 +1283,32 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "davila-ramirez-vivas",
+  "nombre": "Dávila Ramírez Vivas",
+  "rol": "Asesoría contable, fiscal y legal · Compliance laboral e IMSS · Estado de México",
+  "ciudad": "edomex",
+  "materias": [
+   "laboral",
+   "fiscal",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/davila-ramirez-vivas/logo.jpg",
+  "logo": true,
+  "fondo": "#12100d",
+  "iniciales": "DRV",
+  "whatsapp": "525513074559",
+  "telefono": "5513074559",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/davila-ramirez-vivas/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
