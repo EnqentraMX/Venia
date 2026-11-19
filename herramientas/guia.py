@@ -97,6 +97,7 @@ def cabeza(titulo, desc, ruta, robots="", extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/guia.css?v={version('guia.css')}">
+<link rel="stylesheet" href="/assets/unifica3.css?v={version('unifica3.css')}">
 {extra}
 </head>
 """
@@ -532,7 +533,7 @@ def pagina_legal(titulo, ruta, secciones, intro):
 
 
 def sitemap(g):
-    urls = ["/", "/para-abogados/", "/guias/", "/aviso-de-privacidad/", "/terminos/"] + [f"/guias/{x['slug']}/" for x in GUIAS]
+    urls = ["/", "/calculadora-finiquito/", "/para-abogados/", "/guias/", "/aviso-de-privacidad/", "/terminos/"] + [f"/guias/{x['slug']}/" for x in GUIAS]
     for c in CIUDADES:
         if any((a.get("ciudad") == c or c in a.get("otras_ciudades", [])) for a in g): urls.append(f"/abogados/{c}/")
         for m in MATERIAS:
@@ -564,13 +565,15 @@ def guia_pagina(gd):
     otras = "".join(f'<a class="g-otra" href="/guias/{x["slug"]}/"><b>{e(x["titulo"])}</b><span>Leer guía →</span></a>' for x in GUIAS if x["slug"] != gd["slug"])
     return cabeza(f"{gd['titulo']} | LicLink", gd["desc"], ruta, extra=jsonld(ld)) + f"""<body>
 {BARRA}
-<main><section class="marfil"><div class="w legal-txt guia-txt">
+<main><section class="encabezado"><div class="w">
   <nav class="migas" aria-label="Estás en"><a href="/">Inicio</a> <span>›</span> <a href="/guias/">Guías legales</a></nav>
   <h1>{e(gd["titulo"])}</h1>
-  <p class="g-resumen">{e(gd["resumen"])}</p>
-  <p class="g-fecha">Información general · Actualizada el {ACTUALIZADA}</p>
+  <p class="sub">{e(gd["resumen"])}</p>
+  <p class="g-fecha" style="margin-top:10px;font-size:13px">Información general · Actualizada el {ACTUALIZADA}</p>
+</div></section>
+<section class="marfil" style="padding-top:0"><div class="w legal-txt guia-txt">
   {cuerpo}
-  <div class="g-cta"><b>¿Necesitas ayuda con tu caso?</b><p>Encuentra {e(PLURAL[m].lower())} y escríbeles directo por WhatsApp.</p><div class="atajos">{ciudades}</div></div>
+  {'<a class="g-cta" style="display:block;margin-bottom:14px;background:#15120e;color:#fff" href="/calculadora-finiquito/"><b style="color:#d8b874">Calcula tu finiquito o liquidación →</b><p style="color:#d9cfbf">Gratis, con el salario mínimo 2026.</p></a>' if m == "laboral" else ""}<div class="g-cta"><b>¿Necesitas ayuda con tu caso?</b><p>Encuentra {e(PLURAL[m].lower())} y escríbeles directo por WhatsApp.</p><div class="atajos">{ciudades}</div></div>
   <p class="g-aviso">Esta guía es información general y no sustituye la asesoría de un abogado. Cada caso es distinto: los plazos y requisitos pueden cambiar según tu estado y tu situación.</p>
   <h2>Otras guías</h2><div class="g-otras">{otras}</div>
 </div></section></main>
@@ -615,6 +618,7 @@ INICIO_V3 = True  # False = volver al inicio anterior
 
 def main():
     escribir(os.path.join(PUBLICO, "assets", "guia-datos.js"), datos_guia())
+    import subprocess as _sp, sys as _sy; _sp.run([_sy.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "calculadora.py")], check=True)
     if INICIO_V3:  # diseño nuevo (nov 2026); el anterior queda en portada() como respaldo
         import subprocess, sys as _s; subprocess.run([_s.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "inicio3.py")], check=True)
     else:

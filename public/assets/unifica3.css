@@ -1,0 +1,32 @@
+/* Une las páginas de la guía (listados, guías, para abogados, legales) con el diseño v3 */
+:root{--u-crema:#f5efe4;--u-papel:#fbf8f2;--u-tinta:#15120e;--u-oro:#b08a45;--u-oro2:#d8b874;--u-linea:#e2d7c4;--u-gris:#6e665a}
+body{background:var(--u-crema)}
+.barra{background:rgba(245,239,228,.9)!important;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--u-linea)!important}
+.barra .marca{font-weight:800;letter-spacing:-.03em;color:var(--u-tinta)}
+.barra .marca i{font-style:normal;color:var(--u-oro)}
+.btn{border-radius:999px!important}
+.btn-oro,.ficha .btn-oro{background:linear-gradient(135deg,#e2c487,#b08a45)!important;color:#1d160b!important;border:0!important;box-shadow:0 10px 28px -12px rgba(176,138,69,.8)}
+/* Encabezados: franja oscura con brillo dorado */
+.encabezado{background:radial-gradient(80% 90% at 100% 0%,rgba(216,184,116,.22),transparent 60%),var(--u-tinta)!important;color:#fff;padding-bottom:28px!important;margin-bottom:24px;border-radius:0 0 28px 28px}
+.encabezado h1{color:#fff;letter-spacing:-.035em}
+.encabezado h1 em,.encabezado h1 i{color:var(--u-oro2);font-style:normal}
+.encabezado .sub,.encabezado p{color:#d9cfbf!important}
+.encabezado .migas,.encabezado .migas a{color:var(--u-oro2)!important}
+.encabezado .migas b{color:#fff}
+.encabezado .filtros a,.encabezado .filtros button{background:#221c14!important;color:#e8dfd0!important;border:1px solid #3a3125!important;border-radius:999px}
+.encabezado .filtros a.si{background:var(--u-oro2)!important;color:#1d160b!important;border-color:var(--u-oro2)!important}
+/* Tarjetas */
+.ficha{background:var(--u-papel)!important;border:1px solid var(--u-linea)!important;border-radius:24px!important;box-shadow:0 24px 40px -34px rgba(60,40,10,.5)!important;transition:transform .2s,border-color .2s}
+.ficha:hover{border-color:var(--u-oro)!important}
+.ficha.destacada,.ficha.premium{border-color:rgba(176,138,69,.6)!important}
+.ficha img,.ficha .foto,.ficha .av{border-radius:16px!important}
+.g-card,.plan,.paso,.faq details,.confianza>*,.porque>*{border-radius:22px!important}
+.g-card{background:var(--u-papel);border:1px solid var(--u-linea)}
+/* Texto de guías */
+.guia-txt blockquote,.guia-txt .resumen{border-left-color:var(--u-oro)!important;background:var(--u-papel);border-radius:0 18px 18px 0;padding:14px 16px}
+.guia-txt h2{letter-spacing:-.03em}
+/* Secciones oscuras y pie */
+.oscuro{background:radial-gradient(70% 60% at 50% 0%,rgba(216,184,116,.14),transparent 70%),var(--u-tinta)!important}
+.pie{background:var(--u-tinta)!important;color:#bfb5a4}
+.pie a{color:#e8dfd0}
+.pie .marca i{color:var(--u-oro2);font-style:normal}

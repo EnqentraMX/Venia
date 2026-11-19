@@ -86,7 +86,8 @@ Otros pedidos frecuentes:
 - Colores originales: crema `#f5efe4`, tinta `#15120e`, oro `#b08a45`/`#d8b874`. Tipografía: **Plus Jakarta Sans** (la original; él rechazó serif tipo Lexia, Caslon y Gloock). Fuentes servidas desde `public/assets/fuentes/`.
 - Los CSS llevan `?v=hash` (el sitio cachea /assets 1 h; sin versión el celular muestra diseño viejo).
 - Diseño anterior (v2) respaldado en `respaldo/diseno-anterior/` (cómo volver: LEEME.md). `/nuevo/` redirige a `/` (`public/_redirects`).
-- Aún con estilo anterior: listados por ciudad/materia, guías, para-abogados (guia.css).
+- Listados, guías, para-abogados y legales siguen generándose con `guia.py` + `guia.css`, pero `public/assets/unifica3.css` les da el look v3 (franja oscura con brillo dorado, tarjetas redondeadas, botones píldora).
+- **Calculadora de finiquito/liquidación**: `herramientas/calculadora.py` → `/calculadora-finiquito/` (la llama guia.py). Salario mínimo 2026: $315.04 general, $440.87 frontera norte (actualizar cada enero). Su botón manda al inicio con `?caso=laboral&texto=...` y el inicio abre la recomendación de abogados laborales.
 - Vista previa al compartir (`compartir.png`, 1200×630): crema, logo grande con marco dorado a la derecha.
 - Imagen de estado: oscura, sello dorado "★ DESPACHO DESTACADO", tarjeta crema con QR.
 - Ideas aprobadas para después: caja de preguntas al abogado (enlace privado por WhatsApp para responder, moderación) y contador de visitas/clics para reportes; ambas requieren base de datos en Cloudflare (D1) en el Worker "liclink".
