@@ -1310,5 +1310,37 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "martinez-consultoria",
+  "nombre": "Martínez y Asociados",
+  "rol": "Abogados y contadores · Divorcios, civil, penal, fiscal y contable · Edomex y CDMX",
+  "ciudad": "edomex",
+  "otras_ciudades": [
+   "cdmx"
+  ],
+  "materias": [
+   "familiar",
+   "civil",
+   "penal",
+   "fiscal"
+  ],
+  "plan": "premium",
+  "foto": "/martinez-consultoria/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "MA",
+  "whatsapp": "525621393160",
+  "telefono": "5621393160",
+  "consulta": "Pagos por etapas",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/martinez-consultoria/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

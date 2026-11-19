@@ -9651,5 +9651,118 @@
     "plan": "premium",
     "alta": "2026-11-19",
     "fuente": "Sitio web"
+  },
+  {
+    "slug": "martinez-consultoria",
+    "nombre": "Martínez y Asociados",
+    "despacho": "Martínez y Asociados",
+    "sufijo": "Consultoría jurídica, fiscal y contable",
+    "despacho_largo": "Martínez y Asociados | Edomex y CDMX",
+    "titulo": "Abogados y contadores",
+    "iniciales": "MA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Estado de México y CDMX",
+    "telefono": "5621393160",
+    "direccion": "Estado de México · CDMX con cita",
+    "referencia": "Martínez y Asociados: consultoría jurídica, fiscal y contable en el Estado de México y CDMX. Divorcios, asuntos civiles, asesoría penal, contabilidad, nómina, IDSE, SUA y licitaciones.",
+    "descripcion": "Martínez y Asociados, abogados y contadores en el Estado de México y CDMX (con cita). Asesoría integral a personas, profesionistas y negocios en materia jurídica, fiscal y contable: divorcios, asuntos civiles, asesoría y representación penal, regularización contable y fiscal, contabilidad y declaraciones, nómina, IDSE, SUA y licitaciones. Pagos por etapas.",
+    "modalidad": "Pagos por etapas",
+    "portada": [
+      "Protegemos",
+      "tu patrimonio,",
+      "impulsamos tu crecimiento."
+    ],
+    "texto_portada": "Asesoría integral a personas, profesionistas y negocios en materia jurídica, fiscal y contable. Antes de contratar, conoce quién te atenderá, qué incluye tu servicio y cómo se comprobará cada etapa.",
+    "frase": "Tu tranquilidad empieza con información clara.",
+    "compromisos": [
+      "Pagos por etapas: 50% al iniciar, 25% con avance comprobable, 25% al finalizar",
+      "Sabes quién te atiende y qué incluye",
+      "Abogados y contadores",
+      "Edomex y CDMX con cita"
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo una denuncia o un asunto penal",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar de mutuo acuerdo",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un asunto civil",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito regularizar mi contabilidad o mis impuestos",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito llevar la nómina, IDSE o SUA de mi negocio",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero participar en una licitación",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Divorcios",
+        "icono": "familia",
+        "texto": "Divorcio por mutuo acuerdo, incluso por vía administrativa ante el Registro Civil.",
+        "puntos": [
+          "Divorcio administrativo ante el Registro Civil (ambos de acuerdo)",
+          "Honorarios noviembre 2026: Edomex $7,000 · CDMX $8,000",
+          "Revisión de la sociedad conyugal",
+          "Alcance y derechos por escrito antes de contratar"
+        ]
+      },
+      {
+        "nombre": "Asuntos civiles",
+        "icono": "balanza",
+        "texto": "Protegemos tu patrimonio.",
+        "puntos": [
+          "Asesoría y juicios civiles",
+          "Contratos"
+        ]
+      },
+      {
+        "nombre": "Asesoría y representación penal",
+        "icono": "escudo",
+        "texto": "Te acompañamos en tu asunto penal.",
+        "puntos": [
+          "Asesoría penal",
+          "Representación penal"
+        ]
+      },
+      {
+        "nombre": "Servicios contables y fiscales",
+        "icono": "documento",
+        "texto": "Impulsamos el crecimiento de tu negocio.",
+        "puntos": [
+          "Regularización contable y fiscal",
+          "Contabilidad y declaraciones",
+          "Nómina, IDSE y SUA"
+        ]
+      },
+      {
+        "nombre": "Licitaciones",
+        "icono": "edificio",
+        "texto": "También te apoyamos en licitaciones.",
+        "puntos": [
+          "Apoyo en licitaciones"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-19",
+    "fuente": "Facebook"
   }
 ]
