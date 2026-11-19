@@ -1,8 +1,8 @@
 /* Perfil v3: landing de cada abogado */
 .top{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;align-items:center;justify-content:space-between;padding:12px 16px;transition:background .3s,box-shadow .3s}
 .top.lleno{background:rgba(21,18,14,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 1px 0 #2c261d}
-.top a.marca{font-family:var(--tit);font-size:22px;color:#fff}
-.top a.marca b{font-weight:400;color:var(--oro2)}
+.top a.marca{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:22px;color:#fff}
+.top a.marca b{font-weight:800;color:var(--oro2)}
 .top .ic{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.12);color:#fff;backdrop-filter:blur(8px)}
 
 /* Portada */
@@ -49,8 +49,8 @@
 
 /* Cita */
 .cita{position:relative;padding:40px 0 10px}
-.cita .comillas{font-family:var(--tit);font-size:120px;line-height:.6;color:var(--oro);opacity:.9}
-.cita blockquote{font-family:var(--tit);font-size:clamp(28px,7.4vw,44px);line-height:1.15;margin-top:6px}
+.cita .comillas{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:120px;line-height:.6;color:var(--oro);opacity:.9}
+.cita blockquote{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:clamp(28px,7.4vw,44px);line-height:1.15;margin-top:6px}
 .cita p{margin-top:16px;color:var(--gris);max-width:620px}
 .firma-c{display:flex;align-items:center;gap:12px;margin-top:20px}
 .firma-c .av{width:44px;height:44px;border-radius:50%;background:#000 center/cover}
@@ -62,7 +62,7 @@
 .caso{display:flex;align-items:center;gap:14px;background:var(--papel);border:1px solid var(--linea);border-radius:18px;padding:16px;transition:transform .2s,border-color .2s,box-shadow .2s}
 .caso:active{transform:scale(.98)}
 .caso:hover{border-color:var(--oro);box-shadow:0 12px 30px -18px rgba(80,60,20,.5)}
-.caso .n{width:38px;height:38px;border-radius:12px;background:var(--crema);display:grid;place-items:center;font-family:var(--tit);font-size:18px;color:var(--oro);flex:none}
+.caso .n{width:38px;height:38px;border-radius:12px;background:var(--crema);display:grid;place-items:center;font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:18px;color:var(--oro);flex:none}
 .caso p{flex:1;font-weight:700;font-size:15.5px;line-height:1.35}
 .caso small{display:block;font-weight:600;font-size:12px;color:var(--gris);margin-top:3px}
 .caso.urg{background:var(--tinta);color:#fff;border-color:var(--tinta)}
@@ -75,8 +75,8 @@
 .serv{margin-top:22px;border-top:1px solid var(--linea)}
 .sv{border-bottom:1px solid var(--linea)}
 .sv button{width:100%;display:flex;align-items:center;gap:16px;padding:22px 0;text-align:left}
-.sv .num{font-family:var(--tit);font-size:15px;color:var(--oro);width:26px}
-.sv h3{flex:1;font-family:var(--tit);font-weight:400;font-size:27px;line-height:1.1}
+.sv .num{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:15px;color:var(--oro);width:26px}
+.sv h3{flex:1;font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:27px;line-height:1.1}
 .sv .mas{width:34px;height:34px;border-radius:50%;border:1.5px solid var(--tinta);display:grid;place-items:center;transition:transform .35s,background .35s,color .35s}
 .sv.ab .mas{transform:rotate(45deg);background:var(--tinta);color:var(--crema)}
 .sv .det{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.2,.7,.2,1)}
@@ -97,8 +97,8 @@
 /* Pasos */
 .pasos{margin-top:24px;display:grid;gap:12px;counter-reset:p}
 .paso{background:var(--tinta);color:#fff;border-radius:22px;padding:22px;position:relative;overflow:hidden}
-.paso::before{counter-increment:p;content:"0" counter(p);font-family:var(--tit);font-size:64px;line-height:1;color:#3a3125;position:absolute;right:18px;top:12px}
-.paso b{font-family:var(--tit);font-weight:400;font-size:25px;display:block;position:relative}
+.paso::before{counter-increment:p;content:"0" counter(p);font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:64px;line-height:1;color:#3a3125;position:absolute;right:18px;top:12px}
+.paso b{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:25px;display:block;position:relative}
 .paso p{color:#c9bfae;margin-top:6px;font-size:14.5px;position:relative;max-width:85%}
 
 /* Valores */
@@ -141,7 +141,7 @@
   .grid2{display:grid;grid-template-columns:1fr 360px;gap:56px;align-items:start}
   .lado{display:block;position:sticky;top:130px;margin-top:52px;background:var(--papel);border:1px solid var(--linea);border-radius:26px;padding:24px;box-shadow:0 30px 60px -40px rgba(60,40,10,.45)}
   .lado .av{width:84px;height:84px;border-radius:50%;background:#000 center/cover;border:2px solid var(--oro)}
-  .lado h3{font-family:var(--tit);font-weight:400;font-size:28px;line-height:1.1;margin-top:14px}
+  .lado h3{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:28px;line-height:1.1;margin-top:14px}
   .lado p{color:var(--gris);font-size:14px;margin-top:6px}
   .lado .btn{width:100%;margin-top:12px}
   .lado .qr{display:flex;gap:12px;align-items:center;margin-top:18px;padding-top:18px;border-top:1px solid var(--linea);font-size:13px;color:var(--gris)}
@@ -176,3 +176,6 @@
  .hl .lc{position:absolute;right:max(20px,calc(50% - 560px));top:50%;margin:0;width:400px;transform:translateY(-50%);animation:none}
  .hl .txt{padding-top:0}
 }
+
+.milogo{display:block;width:78px;height:78px;border-radius:20px;border:1px solid rgba(216,184,116,.6);background-size:92% auto;background-position:center;background-repeat:no-repeat;margin-bottom:16px;box-shadow:0 14px 30px -12px rgba(0,0,0,.7)}
+@media(min-width:980px){.milogo{width:96px;height:96px}}

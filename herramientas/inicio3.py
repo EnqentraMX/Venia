@@ -25,6 +25,8 @@ gns = {}; exec((RAIZ / "herramientas" / "guias_legales.py").read_text(encoding="
 GUIAS = [{"s": x["slug"], "t": x["titulo"], "d": x["resumen"], "m": x["materia"]} for x in gns["GUIAS"]]
 H = (RAIZ / "herramientas" / "inicio3.html").read_text(encoding="utf-8")
 H = H.replace("/*DATOS*/", "const AB=" + json.dumps(L, ensure_ascii=False) + ";const CIU=" + json.dumps(ciu, ensure_ascii=False) + ";const GUIAS=" + json.dumps(GUIAS, ensure_ascii=False) + ";")
+import hashlib
+H = H.replace("__VER__", hashlib.md5((RAIZ / "public" / "assets" / "v3.css").read_bytes()).hexdigest()[:8])
 (RAIZ / "public" / "nuevo").mkdir(exist_ok=True)
 (RAIZ / "public" / "nuevo" / "index.html").write_text(H, encoding="utf-8")
 print("Inicio v3 listo:", len(L), "abogados")

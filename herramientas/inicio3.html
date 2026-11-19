@@ -2,12 +2,12 @@
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex"><meta name="theme-color" content="#f5efe4">
 <title>LicLink · Cuéntanos tu caso, te decimos quién te ayuda</title>
-<link rel="stylesheet" href="/assets/v3.css">
+<link rel="stylesheet" href="/assets/v3.css?v=__VER__">
 <style>
 .cab{position:sticky;top:0;z-index:30;background:rgba(245,239,228,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
 .cab.b{border-color:var(--linea)}
 .cab .ancho{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
-.wm{font-family:var(--tit);font-size:27px;letter-spacing:-.01em}.wm b{font-weight:400;color:var(--oro)}
+.wm{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:27px;letter-spacing:-.01em}.wm b{font-weight:800;color:var(--oro)}
 .chip-c{display:inline-flex;align-items:center;gap:8px;background:var(--papel);border:1px solid var(--linea);border-radius:999px;padding:8px 14px;font-weight:700;font-size:14px}
 /* Portada */
 .hero{position:relative;padding:34px 0 30px;overflow:hidden}
@@ -22,7 +22,7 @@
 .caja{position:relative;margin-top:26px;background:var(--tinta);color:#fff;border-radius:28px;padding:20px;box-shadow:0 40px 80px -40px rgba(40,25,5,.7);max-width:760px}
 .caja label{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--oro2)}
 .caja label span{display:flex;align-items:center;gap:7px;letter-spacing:.04em;text-transform:none;color:#c9bfae;font-weight:700}
-.caja textarea{width:100%;min-height:112px;margin-top:12px;background:#221c14;border:1px solid #3a3125;border-radius:18px;padding:14px 16px;outline:0;resize:none;font-family:Manrope,sans-serif;font-weight:600;font-size:18px;line-height:1.45;color:#fff;transition:border-color .2s}
+.caja textarea{width:100%;min-height:112px;margin-top:12px;background:#221c14;border:1px solid #3a3125;border-radius:18px;padding:14px 16px;outline:0;resize:none;font-family:Jakarta,sans-serif;font-weight:600;font-size:18px;line-height:1.45;color:#fff;transition:border-color .2s}
 .caja textarea:focus{border-color:var(--oro2)}
 .caja textarea::placeholder{color:#cdbfa6;opacity:1}
 .ejemplos{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:6px -20px 0;padding:0 20px 2px}
@@ -68,13 +68,13 @@
 .tar .sello{position:absolute;top:12px;left:12px;background:rgba(251,248,242,.92);color:var(--tinta);font-size:11px;font-weight:800;letter-spacing:.08em;padding:6px 10px;border-radius:999px}
 .tar .sello b{color:var(--oro)}
 .tar .cu{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
-.tar h3{font-family:var(--tit);font-weight:400;font-size:24px;line-height:1.08}
+.tar h3{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:24px;line-height:1.08}
 .tar q{display:block;margin-top:8px;font-size:14.5px;line-height:1.4;color:var(--gris);quotes:"“" "”";display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .tar .acc{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto;padding-top:14px}
 .tar .acc .btn{height:44px;font-size:14px;padding:0 10px}
 /* Consejo */
 .consejo{margin-top:22px;background:var(--tinta);color:#fff;border-radius:28px;padding:26px 22px;position:relative;overflow:hidden}
-.consejo::before{content:"§";position:absolute;right:-6px;top:-40px;font-family:var(--tit);font-size:220px;color:#2a231a;line-height:1}
+.consejo::before{content:"§";position:absolute;right:-6px;top:-40px;font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:220px;color:#2a231a;line-height:1}
 .consejo .fecha{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--oro2);position:relative}
 .consejo p.cs{font-size:clamp(25px,6.6vw,36px);line-height:1.18;margin-top:12px;position:relative}
 .consejo small{display:block;color:#a69a86;margin-top:10px;position:relative;font-size:12.5px}
@@ -84,8 +84,8 @@
 
 .sit{background:var(--papel);border:1px solid var(--linea);border-radius:22px;padding:16px;text-align:left;min-height:118px;display:flex;flex-direction:column;justify-content:space-between;transition:transform .2s,border-color .2s}
 .sit:active{transform:scale(.97)}.sit:hover{border-color:var(--oro)}
-.sit i{font-style:normal;font-family:var(--tit);color:var(--oro);font-size:18px}
-.sit b{font-family:var(--tit);font-weight:400;font-size:21px;line-height:1.1}
+.sit i{font-style:normal;font-family:var(--tit);font-weight:800;letter-spacing:-.03em;color:var(--oro);font-size:18px}
+.sit b{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:21px;line-height:1.1}
 .sit.u{background:var(--tinta);color:#fff;border-color:var(--tinta)}
 .sit[data-s=otro]{border-style:dashed}
 @media(min-width:760px){.sits{grid-template-columns:repeat(3,1fr)}}
@@ -95,20 +95,20 @@
 .cd{position:relative;border-radius:22px;padding:18px 16px;min-height:120px;display:flex;flex-direction:column;justify-content:flex-end;background:var(--tinta);color:#fff;overflow:hidden;transition:transform .25s}
 .cd:active{transform:scale(.97)}
 .cd::before{content:"";position:absolute;inset:0;background:radial-gradient(90% 90% at 100% 0%,rgba(216,184,116,.28),transparent 60%)}
-.cd b{position:relative;font-family:var(--tit);font-weight:400;font-size:23px;line-height:1.05}
+.cd b{position:relative;font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:23px;line-height:1.05}
 .cd small{position:relative;color:var(--oro2);font-weight:800;font-size:12.5px;margin-top:4px}
 .guias{display:grid;gap:10px;margin-top:22px}
 @media(min-width:760px){.guias{grid-template-columns:1fr 1fr}}
 .gu{display:flex;gap:14px;background:var(--papel);border:1px solid var(--linea);border-radius:22px;padding:18px;transition:border-color .2s}
 .gu:hover{border-color:var(--oro)}
-.gu .n{font-family:var(--tit);font-size:30px;color:var(--oro);line-height:1}
-.gu b{display:block;font-family:var(--tit);font-weight:400;font-size:21px;line-height:1.15}
+.gu .n{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:30px;color:var(--oro);line-height:1}
+.gu b{display:block;font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:21px;line-height:1.15}
 .gu p{color:var(--gris);font-size:14px;margin-top:6px}
 .conf{display:grid;gap:10px;margin-top:22px}
 @media(min-width:760px){.conf{grid-template-columns:repeat(4,1fr)}}
 .cf{background:var(--papel);border:1px solid var(--linea);border-radius:22px;padding:20px}
 .cf .ic{width:42px;height:42px;border-radius:14px;background:var(--tinta);color:var(--oro2);display:grid;place-items:center}
-.cf b{display:block;font-family:var(--tit);font-weight:400;font-size:22px;margin-top:14px}
+.cf b{display:block;font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:22px;margin-top:14px}
 .cf p{color:var(--gris);font-size:14px;margin-top:6px}
 .faq{margin-top:20px;border-top:1px solid var(--linea)}
 .fq{border-bottom:1px solid var(--linea)}
@@ -134,7 +134,7 @@
 .hoja{position:fixed;left:0;right:0;bottom:0;z-index:51;background:var(--crema);border-radius:26px 26px 0 0;padding:10px 20px calc(24px + var(--seg));transform:translateY(105%);transition:transform .4s cubic-bezier(.2,.8,.2,1);max-width:640px;margin:0 auto;max-height:80vh;overflow:auto}
 .hoja.on{transform:none}
 .hoja .asa{width:42px;height:4px;border-radius:9px;background:var(--linea);margin:0 auto 14px}
-.hoja h3{font-family:var(--tit);font-weight:400;font-size:30px}
+.hoja h3{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:30px}
 .lc{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
 .lc button{background:var(--papel);border:1px solid var(--linea);border-radius:16px;padding:14px;text-align:left;font-weight:800}
 .lc button small{display:block;color:var(--gris);font-weight:600;font-size:12px}
@@ -178,11 +178,6 @@
 <section class="sec"><div class="ancho">
  <div class="kick rv">O elige rápido</div><h2 class="cs rv d1">¿Qué te <span>pasó?</span></h2>
  <div class="sits" id="sits"></div>
-</div></section>
-
-<section class="sec"><div class="ancho">
- <div class="kick rv">Abogados cerca de ti</div><h2 class="cs rv d1">Elige tu <span>ciudad.</span></h2>
- <div class="ciuds" id="ciuds"></div>
 </div></section>
 
 <section class="sec"><div class="ancho">
@@ -314,7 +309,7 @@ document.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{window.scrollTo(
 
 
 /* Ciudades, guías y preguntas */
-$("#ciuds").innerHTML=Object.entries(CIU).sort((a,b)=>enC(b[0]).length-enC(a[0]).length).map(([k,v],i)=>`<a class="cd rv d${i%4}" href="/abogados/${k}/"><b>${esc(v)}</b><small>${enC(k).length} abogado${enC(k).length===1?"":"s"} →</small></a>`).join("");
+if($("#ciuds"))$("#ciuds").innerHTML=Object.entries(CIU).sort((a,b)=>enC(b[0]).length-enC(a[0]).length).map(([k,v],i)=>`<a class="cd rv d${i%4}" href="/abogados/${k}/"><b>${esc(v)}</b><small>${enC(k).length} abogado${enC(k).length===1?"":"s"} →</small></a>`).join("");
 $("#guias").innerHTML=GUIAS.map((g,i)=>`<a class="gu rv d${i%4}" href="/guias/${g.s}/"><span class="n">${String(i+1).padStart(2,"0")}</span><span><b>${esc(g.t)}</b><p>${esc(g.d)}</p></span></a>`).join("");
 const FAQ=[["¿Cuánto me cuesta usar LicLink?","Nada. Buscar y escribirle a un abogado es gratis. Tú acuerdas sus honorarios directamente con él."],
 ["¿Cómo sé que es abogado de verdad?","Cuando un perfil dice «Cédula profesional verificada», revisamos su cédula en el Registro Nacional de Profesionistas de la SEP. Tú también puedes consultar cualquier cédula en la SEP."],

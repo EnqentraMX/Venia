@@ -34,6 +34,10 @@ def tel(n):
     return f"{n[:3]} {n[3:6]} {n[6:]}" if len(n) == 10 else n
 
 
+import hashlib
+VER = hashlib.md5(b"".join((RAIZ / "public" / "assets" / f).read_bytes() for f in ("v3.css", "perfil3.css"))).hexdigest()[:8]
+
+
 def construir(a):
     s = a["slug"]; g = guia.get(s, {})
     wa_num = g.get("whatsapp") or ("52" + re.sub(r"\D", "", a.get("telefono", "")))
@@ -93,12 +97,13 @@ def construir(a):
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex"><meta name="theme-color" content="#15120e">
 <title>{E(a.get("despacho_largo") or a["nombre"])} · LicLink</title>
-<link rel="stylesheet" href="/assets/v3.css"><link rel="stylesheet" href="/assets/perfil3.css"></head>
+<link rel="stylesheet" href="/assets/v3.css?v={VER}"><link rel="stylesheet" href="/assets/perfil3.css?v={VER}"></head>
 <body>
 <header class="top" id="top"><a class="ic" href="/nuevo/" aria-label="Volver">{ic("atras")}</a><a class="marca" href="/nuevo/">Lic<b>Link</b></a><button class="ic" id="bComp" aria-label="Compartir">{ic("comp")}</button></header>
 
 <section class="hero{"" if tiene_foto else " hl"}">{f'<div class="img" style="{bg_hero}"></div>' if tiene_foto else f'<div class="lc" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({img})"></div>'}
  <div class="txt intro">
+  {f'<span class="milogo lt" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({avatar})"></span>' if tiene_foto and avatar != img else ""}
   <div class="kick lt">{E(titulo_ab)} · {E(estado_ciudad)}</div>
   <h1 class="cs lt">{h1}</h1>
   <p class="lema lt">{E(a.get("frase") or a.get("titulo",""))}</p>
