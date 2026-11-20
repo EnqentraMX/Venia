@@ -16,6 +16,8 @@
 .cab.b{border-color:var(--linea)}
 .cab .ancho{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
 .wm{font-family:var(--tit);font-weight:800;letter-spacing:-.03em;font-size:27px;letter-spacing:-.01em}.wm b{font-weight:800;color:var(--oro)}
+.soyab{white-space:nowrap;background:var(--tinta)!important;color:var(--crema)!important;border-color:var(--tinta)!important}
+@media(max-width:420px){.soyab{padding:8px 11px!important;font-size:12.5px!important}.cab #tCiu{max-width:92px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:inline-block;vertical-align:bottom}}
 .chip-c{display:inline-flex;align-items:center;gap:8px;background:var(--papel);border:1px solid var(--linea);border-radius:999px;padding:8px 14px;font-weight:700;font-size:14px}
 /* Portada */
 .hero{position:relative;padding:34px 0 30px;overflow:hidden}
@@ -163,7 +165,7 @@
 }
 </style></head>
 <body>
-<header class="cab" id="cab"><div class="ancho"><a class="wm" href="/">Lic<b>Link</b></a><button class="chip-c" id="bCiu"><span class="pulso"></span><span id="tCiu"></span> ▾</button></div></header>
+<header class="cab" id="cab"><div class="ancho"><a class="wm" href="/">Lic<b>Link</b></a><div style="display:flex;gap:8px;align-items:center"><button class="chip-c" id="bCiu"><span class="pulso"></span><span id="tCiu"></span> ▾</button><a class="chip-c soyab" href="/para-abogados/">Soy abogado</a></div></div></header>
 
 <section class="hero"><div class="ancho"><div class="grid">
  <div><div class="kick lt">La guía de abogados de México</div>
@@ -226,10 +228,10 @@
  <div class="kick" style="color:var(--oro2)">Para abogados</div>
  <h2 class="cs">Deja de buscar clientes.<span>Que ellos te encuentren.</span></h2>
  <p>Tu perfil, tu publicidad y tu promoción en redes, hechos por nosotros. Por menos de lo que cuesta un café al día.</p>
- <a class="btn btn-oro" target="_blank" rel="noopener" href="https://wa.me/529511836468?text=Hola%2C%20soy%20abogado%20y%20quiero%20unirme%20a%20LicLink.">Quiero unirme</a>
+ <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-oro" href="/para-abogados/#registro">Crear mi perfil</a><a class="btn btn-linea" style="border-color:#5a4c37;color:#fff" href="/para-abogados/#planes">Ver planes y precios</a></div>
 </div></section>
 <section class="final"><div class="kick">LicLink</div><h2 class="cs">Actuar a tiempo<span>hace la diferencia.</span></h2>
- <div class="btns"><button class="btn btn-tinta" onclick="scrollTo({top:0,behavior:'smooth'});setTimeout(()=>document.getElementById('txt').focus(),500)">Contar mi caso</button><a class="btn btn-linea" target="_blank" rel="noopener" href="https://wa.me/529511836468?text=Hola%2C%20soy%20abogado%20y%20quiero%20unirme%20a%20LicLink.">Soy abogado</a></div></section>
+ <div class="btns"><button class="btn btn-tinta" onclick="scrollTo({top:0,behavior:'smooth'});setTimeout(()=>document.getElementById('txt').focus(),500)">Contar mi caso</button><a class="btn btn-linea" href="/para-abogados/">Soy abogado</a></div></section>
 <footer class="pie"><nav style="display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;font-weight:700;color:var(--tinta);margin-bottom:14px"><a href="/para-abogados/">Soy abogado</a><a href="/guias/">Guías legales</a><a href="/aviso-de-privacidad/">Aviso de privacidad</a><a href="/terminos/">Términos</a></nav>LicLink te conecta con abogados; no presta servicios legales ni cobra comisiones por los casos. Los consejos son información general. Si estás en peligro inmediato, llama al 911.<br>© LicLink 2026</footer>
 
 <div class="velo" id="velo"></div><div class="hoja" id="hoja"><div class="asa"></div><h3>¿Dónde <span class="oro">estás?</span></h3><p class="ay">Toca tu estado para ver sus abogados primero, o «Ver todos» para la lista completa.</p><div class="lc" id="lc"></div></div>
