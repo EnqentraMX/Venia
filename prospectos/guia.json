@@ -1610,5 +1610,34 @@
   "alta": "2026-11-20",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "corzo-asociados",
+  "nombre": "Corzo y Asociados",
+  "rol": "Despacho jurídico · Familiar, civil, penal, laboral y mercantil · Veracruz",
+  "ciudad": "veracruz",
+  "materias": [
+   "familiar",
+   "civil",
+   "penal",
+   "laboral",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/corzo-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "CA",
+  "whatsapp": "522294124557",
+  "telefono": "2294124557",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/corzo-asociados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-20",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

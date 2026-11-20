@@ -11288,5 +11288,132 @@
     "plan": "premium",
     "alta": "2026-11-20",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "corzo-asociados",
+    "nombre": "Corzo y Asociados",
+    "despacho": "Corzo y Asociados",
+    "sufijo": "Despacho jurídico",
+    "despacho_largo": "Despacho Jurídico Corzo y Asociados | Abogados en Veracruz",
+    "titulo": "Despacho jurídico",
+    "iniciales": "CA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000000",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Veracruz",
+    "telefono": "2294124557",
+    "telefonos_extra": [
+      {
+        "numero": "2293370853",
+        "whatsapp": false
+      }
+    ],
+    "referencia": "Despacho Jurídico Corzo y Asociados, abogados en Veracruz. Familiar, civil, penal, laboral y mercantil. Demandas, denuncias, contratos, asesoría jurídica y trámites gubernamentales y notariales.",
+    "descripcion": "Despacho Jurídico Corzo y Asociados, en Veracruz. Asesoría legal presencial o virtual en derecho familiar, civil, penal, laboral y mercantil: demandas, denuncias, contratos, asesoría jurídica y trámites gubernamentales y notariales.",
+    "modalidad": "Presencial o virtual",
+    "portada": [
+      "Tienes derechos",
+      "que te protegen.",
+      "Te ayudamos a hacerlos valer."
+    ],
+    "texto_portada": "Defendiendo tus derechos con integridad, dedicación y constancia. Asesoría legal presencial o virtual en Veracruz.",
+    "frase": "La justicia no está al alcance de todos: se necesita luchar por ella.",
+    "compromisos": [
+      "Integridad",
+      "Dedicación",
+      "Constancia",
+      "Atención presencial o virtual"
+    ],
+    "situaciones": [
+      {
+        "texto": "Necesito presentar una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron de mi trabajo",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito ayuda con un trámite de gobierno o notarial",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Protegemos a tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Demandas y contratos.",
+        "puntos": [
+          "Demandas",
+          "Contratos",
+          "Asesoría jurídica"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Te acompañamos en tu caso.",
+        "puntos": [
+          "Denuncias",
+          "Asesoría jurídica"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Defendemos tus derechos en el trabajo.",
+        "puntos": [
+          "Demandas laborales",
+          "Asesoría jurídica"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "acuerdo",
+        "texto": "Protegemos tu negocio.",
+        "puntos": [
+          "Contratos",
+          "Demandas mercantiles"
+        ]
+      },
+      {
+        "nombre": "Trámites",
+        "icono": "edificio",
+        "texto": "Te ayudamos con el papeleo.",
+        "puntos": [
+          "Trámites gubernamentales",
+          "Trámites notariales"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-20",
+    "fuente": "Facebook"
   }
 ]
