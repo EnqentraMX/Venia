@@ -11031,5 +11031,134 @@
     "plan": "premium",
     "alta": "2026-11-19",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "tlayohualli",
+    "nombre": "Tlayohualli Asesoría Legal",
+    "despacho": "Tlayohualli",
+    "sufijo": "Asesoría legal",
+    "despacho_largo": "Tlayohualli Asesoría Legal | Abogados en Guadalajara",
+    "titulo": "Asesoría legal",
+    "iniciales": "TL",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Guadalajara",
+    "telefono": "3326035620",
+    "correo": "legalasesorestlayohualli@gmail.com",
+    "referencia": "Tlayohualli Asesoría Legal: abogados en Guadalajara. Penal, laboral, civil, seguridad social (pensiones IMSS) y administrativo (infracciones y adeudos vehiculares).",
+    "descripcion": "Tlayohualli Asesoría Legal, en Guadalajara. Derecho penal (denuncias, querellas, seguimiento en fiscalías), laboral (conciliación, juicios por despido), civil (contratos, embargos, cesión de derechos, creación de asociaciones y sociedades), seguridad social (trámite de pensiones y quejas ante el IMSS) y administrativo (infracciones, fotoinfracciones y adeudos vehiculares).",
+    "modalidad": "Respuesta rápida",
+    "portada": [
+      "Platícanos tu problema,",
+      "te ayudamos",
+      "a resolverlo."
+    ],
+    "texto_portada": "Asesoría legal en penal, laboral, civil, seguridad social y administrativo. Denuncias, despidos, contratos, pensiones del IMSS e infracciones.",
+    "frase": "Cuéntanos tu problema y te orientamos.",
+    "compromisos": [
+      "Atención personalizada",
+      "Confidencialidad",
+      "Respuesta rápida",
+      "Seguimiento de tu caso"
+    ],
+    "situaciones": [
+      {
+        "texto": "Necesito presentar una denuncia",
+        "urgente": true
+      },
+      {
+        "texto": "Me despidieron de mi trabajo",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero renunciar y no sé cómo",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito tramitar mi pensión del IMSS",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato de compraventa o renta",
+        "urgente": false
+      },
+      {
+        "texto": "Me llegó una fotoinfracción o adeudo vehicular",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Te acompañamos ante la fiscalía.",
+        "puntos": [
+          "Denuncias",
+          "Querellas",
+          "Asesoría jurídica",
+          "Seguimiento en fiscalías"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Defendemos tus derechos en el trabajo.",
+        "puntos": [
+          "Conciliación",
+          "Juicios por despido injustificado y justificado",
+          "Te ayudamos a renunciar"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protegemos tu patrimonio.",
+        "puntos": [
+          "Contratos de compraventa y arrendamiento",
+          "Contrato de promesa",
+          "Arrendamiento con opción a compra",
+          "Embargos",
+          "Cesión de derechos",
+          "Responsabilidad civil patrimonial"
+        ]
+      },
+      {
+        "nombre": "Asociaciones y sociedades",
+        "icono": "edificio",
+        "texto": "Creamos tu figura legal.",
+        "puntos": [
+          "Asociaciones",
+          "Sociedades",
+          "Fundaciones"
+        ]
+      },
+      {
+        "nombre": "Seguridad social",
+        "icono": "acuerdo",
+        "texto": "Te ayudamos con el IMSS.",
+        "puntos": [
+          "Tramitación de pensiones",
+          "Quejas ante el IMSS"
+        ]
+      },
+      {
+        "nombre": "Derecho administrativo",
+        "icono": "balanza",
+        "texto": "Defensa ante el gobierno.",
+        "puntos": [
+          "Infracciones",
+          "Fotoinfracciones",
+          "Adeudos vehiculares"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-19",
+    "fuente": "Facebook"
   }
 ]

@@ -49,6 +49,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Salmerón & Asociados Jurista | premium | Guadalajara | 2026-11-07 | — | pendiente | activo | no |
 | Servicio Jurídico SP | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | Sánchez Vejar & Asociados | premium | Hermosillo | 2026-11-19 | — | pendiente | activo | no |
+| Tlayohualli Asesoría Legal | premium | Guadalajara | 2026-11-19 | — | pendiente | activo | no |
 | ZF Legal Studio | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
 | Castillo & Abogados | basico | Monterrey | 2026-11-06 | — | pendiente | activo | no |
 | Corporativo Jurídico Iure Códex | basico | Tijuana | 2026-11-16 | — | pendiente | activo | no |

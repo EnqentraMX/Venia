@@ -1554,5 +1554,32 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "tlayohualli",
+  "nombre": "Tlayohualli Asesoría Legal",
+  "rol": "Penal, laboral, civil, pensiones IMSS e infracciones · Guadalajara",
+  "ciudad": "guadalajara",
+  "materias": [
+   "penal",
+   "laboral",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/tlayohualli/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "TL",
+  "whatsapp": "523326035620",
+  "telefono": "3326035620",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/tlayohualli/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-19",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
