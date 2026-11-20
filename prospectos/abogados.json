@@ -11160,5 +11160,133 @@
     "plan": "premium",
     "alta": "2026-11-19",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "corresponsalia-juridica-veracruz",
+    "nombre": "Corresponsalía Jurídica Veracruz",
+    "despacho": "Corresponsalía Jurídica",
+    "sufijo": "Abogado",
+    "despacho_largo": "Corresponsalía Jurídica Veracruz | Abogado en Veracruz, Boca del Río y Xalapa",
+    "titulo": "Abogado",
+    "iniciales": "CJ",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#001832",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Veracruz",
+    "telefono": "2294068457",
+    "correo": "osrh46@hotmail.com",
+    "direccion": "Atención en la zona conurbada Veracruz–Boca del Río y en Xalapa; cobertura en todo el estado de Veracruz",
+    "referencia": "Abogado y corresponsalía jurídica en Veracruz, Boca del Río y Xalapa. Familiar, civil, mercantil, hipotecario y registral, amparo, exhortos y diligenciación.",
+    "descripcion": "Abogado con corresponsalía jurídica en Veracruz. Atención en la zona conurbada Veracruz–Boca del Río y en Xalapa, con cobertura en todo el estado. Derecho familiar, civil, mercantil, hipotecario y registral, amparo, y recepción, trámite y diligenciación de exhortos judiciales.",
+    "modalidad": "Respuesta rápida",
+    "portada": [
+      "Tu caso,",
+      "mi",
+      "compromiso."
+    ],
+    "texto_portada": "Compromiso, experiencia y soluciones legales en Veracruz, Boca del Río y Xalapa. Atención profesional, ética y confidencial.",
+    "frase": "Atención profesional, ética y confidencial.",
+    "compromisos": [
+      "Experiencia",
+      "Responsabilidad",
+      "Resultados",
+      "Confidencialidad"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero o tengo un pagaré sin cobrar",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito regularizar o inscribir un inmueble",
+        "urgente": false
+      },
+      {
+        "texto": "Una autoridad violó mis derechos (amparo)",
+        "urgente": true
+      },
+      {
+        "texto": "Soy abogado y necesito diligenciar un exhorto en Veracruz",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Protegemos a tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Patria potestad"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Contratos y juicios civiles.",
+        "puntos": [
+          "Contratos",
+          "Demandas",
+          "Daños y perjuicios",
+          "Sucesiones"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "acuerdo",
+        "texto": "Recuperamos lo que te deben.",
+        "puntos": [
+          "Cobranza",
+          "Contratos mercantiles",
+          "Sociedades",
+          "Títulos de crédito"
+        ]
+      },
+      {
+        "nombre": "Hipotecario y registral",
+        "icono": "edificio",
+        "texto": "Ponemos en orden tu propiedad.",
+        "puntos": [
+          "Juicios hipotecarios",
+          "Regularización de inmuebles",
+          "Inscripciones"
+        ]
+      },
+      {
+        "nombre": "Amparo",
+        "icono": "balanza",
+        "texto": "Defensa de tus derechos constitucionales.",
+        "puntos": [
+          "Amparo directo",
+          "Amparo indirecto"
+        ]
+      },
+      {
+        "nombre": "Exhortos y diligenciación",
+        "icono": "lupa",
+        "texto": "Corresponsalía para colegas de todo el país.",
+        "puntos": [
+          "Recepción y trámite de exhortos",
+          "Diligenciación dentro del estado de Veracruz"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-20",
+    "fuente": "Facebook"
   }
 ]

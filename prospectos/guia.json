@@ -1581,5 +1581,34 @@
   "alta": "2026-11-19",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "corresponsalia-juridica-veracruz",
+  "nombre": "Corresponsalía Jurídica Veracruz",
+  "rol": "Familiar, civil, mercantil, amparo y exhortos · Veracruz, Boca del Río y Xalapa",
+  "ciudad": "veracruz",
+  "materias": [
+   "familiar",
+   "civil",
+   "mercantil",
+   "amparo",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/corresponsalia-juridica-veracruz/logo.jpg",
+  "logo": true,
+  "fondo": "#001832",
+  "iniciales": "CJ",
+  "whatsapp": "522294068457",
+  "telefono": "2294068457",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/corresponsalia-juridica-veracruz/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-20",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
