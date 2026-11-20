@@ -1639,5 +1639,31 @@
   "alta": "2026-11-20",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "garcia-aguirre",
+  "nombre": "García Aguirre & Asociados",
+  "rol": "Asesores legales · Familiar, penal, laboral y civil · Estado de México",
+  "ciudad": "edomex",
+  "materias": [
+   "familiar",
+   "penal",
+   "laboral",
+   "civil"
+  ],
+  "plan": "basico",
+  "foto": "/garcia-aguirre/logo2.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "GA",
+  "whatsapp": "525524939392",
+  "telefono": "5524939392",
+  "cedula": "6100428",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-20",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
