@@ -1698,5 +1698,34 @@
   "alta": "2026-11-21",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "gabriela-carbajal",
+  "nombre": "Lic. Gabriela Carbajal",
+  "rol": "Abogada · Familiar, civil, penal, laboral y corporativo · Tecámac",
+  "ciudad": "edomex",
+  "materias": [
+   "familiar",
+   "civil",
+   "penal",
+   "laboral",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/gabriela-carbajal/foto.jpg",
+  "logo": false,
+  "fondo": "#000004",
+  "iniciales": "GC",
+  "whatsapp": "525534417622",
+  "telefono": "5534417622",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/gabriela-carbajal/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-21",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

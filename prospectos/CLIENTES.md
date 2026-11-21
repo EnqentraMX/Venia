@@ -33,6 +33,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Lic. Carlos Guzmán | premium | Tabasco | 2026-11-19 | — | pendiente | activo | no |
 | Lic. Edgar Iván Ávila Canseco | premium | Estado de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Eliana Rodríguez de la Cruz | premium | Cancún | 2026-11-18 | — | pendiente | activo | no |
+| Lic. Gabriela Carbajal | premium | Estado de México | 2026-11-21 | — | pendiente | activo | no |
 | Lic. Jesús Antonio Urbina | premium | Chihuahua | 2026-11-15 | — | pendiente | activo | no |
 | Lic. Josué Rodríguez | premium | Tamaulipas | 2026-11-19 | — | pendiente | activo | no |
 | Lic. Julieta Rechy | premium | Veracruz | 2026-11-19 | — | pendiente | activo | no |

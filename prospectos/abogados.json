@@ -11550,5 +11550,131 @@
     "plan": "premium",
     "alta": "2026-11-21",
     "fuente": "web"
+  },
+  {
+    "slug": "gabriela-carbajal",
+    "nombre": "Lic. Gabriela Carbajal",
+    "despacho": "Gabriela Carbajal",
+    "sufijo": "Despacho jurídico",
+    "despacho_largo": "Lic. Gabriela Carbajal, Despacho Jurídico | Abogada en Tecámac, Estado de México",
+    "titulo": "Abogada",
+    "iniciales": "GC",
+    "foto": "foto.jpg",
+    "logo": false,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#000004",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Tecámac, Estado de México",
+    "telefono": "5534417622",
+    "correo": "liccarbajal0727@gmail.com",
+    "direccion": "Héroes Tecámac, Sección Bosques, Tecámac, Estado de México",
+    "referencia": "Lic. Gabriela Carbajal, despacho jurídico en Héroes Tecámac, Estado de México. Carbajal Hernández Legal Group. Familiar, civil, penal, administrativo, laboral y corporativo.",
+    "descripcion": "Lic. Gabriela Carbajal, Despacho Jurídico (Carbajal Hernández Legal Group), en Héroes Tecámac, Sección Bosques, Estado de México. Atiende asuntos de derecho familiar, civil, penal, administrativo, laboral y corporativo.",
+    "modalidad": "Respuesta rápida",
+    "portada": [
+      "Tu asunto legal",
+      "en manos",
+      "de confianza."
+    ],
+    "texto_portada": "Abogada en Héroes Tecámac. Familiar, civil, penal, administrativo, laboral y corporativo.",
+    "frase": "Atención cercana y profesional en Tecámac.",
+    "compromisos": [
+      "Atención personalizada",
+      "Confidencialidad",
+      "Respuesta rápida",
+      "Seguimiento de tu caso"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema penal o necesito denunciar",
+        "urgente": true
+      },
+      {
+        "texto": "Me despidieron de mi trabajo",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con mi casa o un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo una multa o problema con el gobierno",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito constituir o asesorar mi empresa",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Protegemos a tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Contratos, propiedades y juicios civiles.",
+        "puntos": [
+          "Contratos",
+          "Juicios civiles",
+          "Asuntos de propiedades"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Te acompañamos en tu caso.",
+        "puntos": [
+          "Denuncias",
+          "Defensa penal",
+          "Asesoría jurídica"
+        ]
+      },
+      {
+        "nombre": "Derecho administrativo",
+        "icono": "edificio",
+        "texto": "Defensa ante autoridades.",
+        "puntos": [
+          "Trámites y multas",
+          "Juicios contra autoridades"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Defendemos tus derechos en el trabajo.",
+        "puntos": [
+          "Despidos",
+          "Demandas laborales",
+          "Asesoría a trabajadores"
+        ]
+      },
+      {
+        "nombre": "Derecho corporativo",
+        "icono": "acuerdo",
+        "texto": "Asesoría legal para tu empresa.",
+        "puntos": [
+          "Constitución de empresas",
+          "Contratos",
+          "Asesoría jurídica empresarial"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-21",
+    "fuente": "Facebook"
   }
 ]

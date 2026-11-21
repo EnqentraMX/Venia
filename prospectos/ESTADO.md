@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 51 · Borrados: 44
+Propuestas: 0 · Vendidos: 52 · Borrados: 44
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -99,3 +99,4 @@ Propuestas: 0 · Vendidos: 51 · Borrados: 44
 | 2026-11-20 | Corresponsalía Jurídica Veracruz | /corresponsalia-juridica-veracruz/ | vendido | 2294068457 |
 | 2026-11-20 | Corzo y Asociados | /corzo-asociados/ | vendido | 2294124557 |
 | 2026-11-21 | Jiménez Trejo Abogados | /jimenez-trejo/ | vendido | https://www.facebook.com/share/18dfShwP5E/?mibextid=wwXIfr |
+| 2026-11-21 | Lic. Gabriela Carbajal | /gabriela-carbajal/ | vendido | 5534417622 |
