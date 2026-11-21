@@ -1702,7 +1702,7 @@
  {
   "slug": "gabriela-carbajal",
   "nombre": "Lic. Gabriela Carbajal",
-  "rol": "Abogada · Familiar, civil, penal, laboral y corporativo · Tecámac",
+  "rol": "Abogada · Familiar, civil, penal, laboral y corporativo · CDMX y Edomex",
   "ciudad": "edomex",
   "materias": [
    "familiar",
@@ -1726,6 +1726,9 @@
   "estado": "activo",
   "alta": "2026-11-21",
   "vence": "",
-  "pago": "pendiente"
+  "pago": "pendiente",
+  "otras_ciudades": [
+   "cdmx"
+  ]
  }
 ]

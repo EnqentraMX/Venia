@@ -9,7 +9,7 @@ window.DATOS = {
   "sufijo": "Despacho jurídico",
   "abogado": "Lic. Gabriela Carbajal",
   "titulo": "Abogada",
-  "descripcion": "Lic. Gabriela Carbajal, Despacho Jurídico (Carbajal Hernández Legal Group), en Héroes Tecámac, Sección Bosques, Estado de México. Atiende asuntos de derecho familiar, civil, penal, administrativo, laboral y corporativo.",
+  "descripcion": "Lic. Gabriela Carbajal, Despacho Jurídico (Carbajal Hernández Legal Group). Atiende en la Ciudad de México y el Estado de México, con oficina en Héroes Tecámac, Sección Bosques. Derecho familiar, civil, penal, administrativo, laboral y corporativo.",
   "cedula": "",
   "modalidad": "Respuesta rápida",
   "iniciales": "GC",
@@ -22,14 +22,14 @@ window.DATOS = {
     "url": "/abogados/edomex/",
     "nombre": "Estado de México"
   },
-  "frase": "Atención cercana y profesional en Tecámac.",
+  "frase": "Atención cercana y profesional en CDMX y Estado de México.",
   "portada": {
     "titulo": [
       "Tu asunto legal",
       "en manos",
       "de confianza."
     ],
-    "texto": "Abogada en Héroes Tecámac. Familiar, civil, penal, administrativo, laboral y corporativo."
+    "texto": "Abogada en CDMX y Estado de México. Familiar, civil, penal, administrativo, laboral y corporativo."
   },
   "whatsapp": "525534417622",
   "telefono": "5534417622",
@@ -149,9 +149,9 @@ window.DATOS = {
   "notaHorario": "",
   "oficinas": [
     {
-      "nombre": "Tecámac, Estado de México",
+      "nombre": "CDMX y Estado de México",
       "direccion": "Héroes Tecámac, Sección Bosques, Tecámac, Estado de México",
-      "referencia": "Lic. Gabriela Carbajal, despacho jurídico en Héroes Tecámac, Estado de México. Carbajal Hernández Legal Group. Familiar, civil, penal, administrativo, laboral y corporativo."
+      "referencia": "Lic. Gabriela Carbajal, despacho jurídico en CDMX y Estado de México, con oficina en Héroes Tecámac. Carbajal Hernández Legal Group. Familiar, civil, penal, administrativo, laboral y corporativo."
     }
   ],
   "redes": {
