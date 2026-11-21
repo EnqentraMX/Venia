@@ -13,7 +13,7 @@ window.DATOS = {
   "cedula": "",
   "modalidad": "Atención inmediata por WhatsApp",
   "iniciales": "JT",
-  "foto": "logo.jpg",
+  "foto": "logo2.jpg",
   "fotoLogo": true,
   "fondoLogo": "#180a2e",
   "equipo": [],
