@@ -1665,5 +1665,38 @@
   "alta": "2026-11-20",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "jimenez-trejo",
+  "nombre": "Jiménez Trejo Abogados",
+  "rol": "Abogados y consultores gestores · Penal, familiar, civil, laboral, mercantil y fiscal · CDMX",
+  "ciudad": "cdmx",
+  "materias": [
+   "penal",
+   "familiar",
+   "civil",
+   "laboral",
+   "mercantil",
+   "fiscal",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/jimenez-trejo/logo.jpg",
+  "logo": true,
+  "fondo": "#180a2e",
+  "iniciales": "JT",
+  "whatsapp": "525513040711",
+  "telefono": "5513040711",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/jimenez-trejo/",
+  "redes": {
+   "facebook": "https://www.facebook.com/share/18dfShwP5E/?mibextid=wwXIfr"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-21",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

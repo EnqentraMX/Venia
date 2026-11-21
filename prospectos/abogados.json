@@ -11415,5 +11415,140 @@
     "plan": "premium",
     "alta": "2026-11-20",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "jimenez-trejo",
+    "nombre": "Jiménez Trejo Abogados",
+    "despacho": "Jiménez Trejo",
+    "sufijo": "Abogados y Psicólogos",
+    "despacho_largo": "Jiménez Trejo Abogados y Psicólogos S.C. | Abogados en Ciudad de México",
+    "titulo": "Abogados, asesores y consultores gestores",
+    "iniciales": "JT",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#180a2e",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad de México",
+    "telefono": "5513040711",
+    "correo": "carlosjlizardi@gmail.com",
+    "facebook": "https://www.facebook.com/share/18dfShwP5E/?mibextid=wwXIfr",
+    "web": "https://jimeneztrejo.netlify.app/",
+    "referencia": "Jiménez Trejo Abogados y Psicólogos S.C.: abogados, asesores y consultores gestores en la Ciudad de México. Penal, civil, familiar, laboral, corporativo, mercantil, fiscal y gestiones ante gobierno.",
+    "descripcion": "Jiménez Trejo Abogados y Psicólogos S.C. Abogados, asesores y consultores gestores. Atendemos todo tipo de asuntos jurídicos: penal, civil, familiar, laboral, corporativo y mercantil, además de derecho fiscal, licitaciones públicas, cobranza al gobierno y gestiones ante cualquier instancia de gobierno.",
+    "modalidad": "Atención inmediata por WhatsApp",
+    "portada": [
+      "Hablemos hoy",
+      "de tu",
+      "asunto legal."
+    ],
+    "texto_portada": "Abogados, asesores y consultores gestores. Penal, civil, familiar, laboral, corporativo y mercantil, con atención inmediata por WhatsApp.",
+    "frase": "Estrategia legal a medida y comunicación clara.",
+    "compromisos": [
+      "Experiencia profesional",
+      "Estrategia legal a medida",
+      "Comunicación clara",
+      "Atención inmediata"
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo un problema penal",
+        "urgente": true
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema en mi trabajo",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben un pagaré",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito constituir mi empresa o un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "El gobierno me debe o tengo un trámite con gobierno",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa y asesoría en materia penal.",
+        "puntos": [
+          "Asesoría y defensa en materia penal",
+          "Acompañamiento durante procedimientos",
+          "Estrategia jurídica integral",
+          "Atención inmediata"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Protección de tu núcleo familiar.",
+        "puntos": [
+          "Divorcio",
+          "Pensión alimenticia",
+          "Convivencia de menores",
+          "Rectificación de actas e intestados"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Conflictos y obligaciones civiles.",
+        "puntos": [
+          "Asesoría civil e hipotecaria",
+          "Contratos y obligaciones",
+          "Controversias civiles",
+          "Medios de prevención y solución de conflictos"
+        ]
+      },
+      {
+        "nombre": "Derecho laboral",
+        "icono": "maletin",
+        "texto": "Relaciones de trabajo y seguridad social.",
+        "puntos": [
+          "Relaciones individuales y colectivas de trabajo",
+          "Seguridad social",
+          "Negociación y conciliación",
+          "Representación legal"
+        ]
+      },
+      {
+        "nombre": "Corporativo y mercantil",
+        "icono": "acuerdo",
+        "texto": "Empresas, comercio y títulos de crédito.",
+        "puntos": [
+          "Gobierno y cumplimiento corporativo",
+          "Actas constitutivas y contratos",
+          "Cobro y defensa de pagarés",
+          "Representación en controversias"
+        ]
+      },
+      {
+        "nombre": "Fiscal y gestión ante gobierno",
+        "icono": "edificio",
+        "texto": "Te representamos ante cualquier instancia.",
+        "puntos": [
+          "Derecho fiscal",
+          "Licitaciones públicas",
+          "Cobranza al gobierno",
+          "Litigios e inconformidades",
+          "Gestiones ante cualquier instancia de gobierno"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-21",
+    "fuente": "web"
   }
 ]
