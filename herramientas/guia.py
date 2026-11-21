@@ -372,7 +372,7 @@ def listado(c, m="", g=None):
         ruta = f"/abogados/{c}/"
     gr = next((x for x in GUIAS if x["materia"] == m), None) if m else None
     guia_rel = f'<a class="g-card g-rel" href="/guias/{gr["slug"]}/"><span class="eti">Guía gratis</span><b>{e(gr["titulo"])}</b><span class="g-leer">Leer guía →</span></a>' if gr else ""
-    cuantos = f"{len(todos)} abogado{'s' if len(todos) != 1 else ''} en LicLink" if todos else ""
+    cuantos = ""  # sin mostrar cuántos abogados hay (pedido nov 2026)
     robots = "" if todos else '<meta name="robots" content="noindex, follow">\n'  # sin abogados no pedimos a Google que la muestre
     ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": n + 1, "name": t, "item": URL_BASE + u} for n, (t, u) in enumerate(migas)]}

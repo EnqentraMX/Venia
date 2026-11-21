@@ -172,7 +172,7 @@
  <h1 class="cs lt b">Cuéntanos qué pasó.<span>Te decimos quién te ayuda.</span></h1>
  <p class="sub lt c">Escribe tu situación con tus palabras. Te recomendamos abogados de tu ciudad y les escribes directo por WhatsApp.</p></div>
  <div><div class="caja lt d">
-  <label for="txt">Tu caso <a id="verCiu" href="#" style="display:flex;align-items:center;gap:7px;letter-spacing:.02em;text-transform:none;color:#e8dfd0;font-weight:800;text-decoration:underline;text-underline-offset:3px"><span class="pulso"></span>Ver los&nbsp;<b id="nCiu"></b>&nbsp;abogados →</a></label>
+  <label for="txt">Tu caso <a id="verCiu" href="#" style="display:flex;align-items:center;gap:7px;letter-spacing:.02em;text-transform:none;color:#e8dfd0;font-weight:800;text-decoration:underline;text-underline-offset:3px"><span class="pulso"></span>Ver abogados →<b id="nCiu" hidden></b></a></label>
   <textarea id="txt" rows="3" placeholder=""></textarea>
   <div class="ejemplos" id="ej"></div>
   <button class="btn btn-oro ir" id="ir">Encontrar mi abogado <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
@@ -275,8 +275,8 @@ const wa=(a,m)=>"https://wa.me/"+a.w+"?text="+encodeURIComponent("Hola, lo encon
 const consulta=a=>a.q?`<span class="${/gratis/i.test(a.q)?"g":""}">${esc(a.q)}</span>`:"";
 
 /* Ciudad */
-function ponCiudad(){ $("#tCiu").textContent=CIU[ciudad]; $("#nCiu").textContent=enC(ciudad).length; $("#verCiu").href="/abogados/"+ciudad+"/"; $("#verTodos").href="/abogados/"+ciudad+"/"; $("#verTodos").textContent="Ver los "+enC(ciudad).length+" abogados de "+CIU[ciudad]+" →"; }
-$("#bCiu").onclick=()=>{$("#lc").innerHTML=Object.entries(CIU).sort((a,b)=>enC(b[0]).length-enC(a[0]).length).map(([k,v])=>`<div class="lci${k===ciudad?" on":""}"><button data-c="${k}">${esc(v)}<small>${enC(k).length} abogado${enC(k).length===1?"":"s"}</small></button><a href="/abogados/${k}/">Ver todos →</a></div>`).join("");
+function ponCiudad(){ $("#tCiu").textContent=CIU[ciudad]; $("#nCiu").textContent=enC(ciudad).length; $("#verCiu").href="/abogados/"+ciudad+"/"; $("#verTodos").href="/abogados/"+ciudad+"/"; $("#verTodos").textContent="Ver todos los abogados de "+CIU[ciudad]+" →"; }
+$("#bCiu").onclick=()=>{$("#lc").innerHTML=Object.entries(CIU).sort((a,b)=>enC(b[0]).length-enC(a[0]).length).map(([k,v])=>`<div class="lci${k===ciudad?" on":""}"><button data-c="${k}">${esc(v)}</button><a href="/abogados/${k}/">Ver abogados →</a></div>`).join("");
  document.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{ciudad=b.dataset.c;try{localStorage.setItem("ll_c",ciudad)}catch(e){}ponCiudad();pintarCarr();
 (()=>{const q=new URLSearchParams(location.search),c=q.get("caso"),t=q.get("texto")||"";if(c&&PAL[c]||t){ta.value=t;setTimeout(()=>buscar(t,PAL[c]?c:undefined),300)}})();cerrar();if($("#res").classList.contains("on"))buscar(ultimo)});
  $("#velo").classList.add("on");$("#hoja").classList.add("on")};
@@ -303,7 +303,7 @@ function buscar(texto,forzar){ultimo=texto;const r=$("#res");const m=forzar||cla
   const msg=texto?("Mi caso: "+texto.trim()):"Necesito un abogado de "+MAT[m]+".";
   r.innerHTML=`<div class="diag"><b class="cs">Tu caso parece un asunto <em>${MAT[m]}.</em></b><p>${fuera?"Aún no hay abogados de esta materia en "+esc(CIU[ciudad])+"; estos atienden en otras ciudades.":"Estos abogados en "+esc(CIU[ciudad])+" pueden ayudarte. Tu mensaje va listo."}</p><div class="otras">${otras}</div></div>`+
   L.map(a=>`<div class="ab">${av(a)}<div><h3>${esc(a.n)}</h3><div class="rol">${esc(a.r)}</div><div class="tags">${a.p==="premium"?'<span class="d">★ Destacado</span>':""}${consulta(a)}${fuera?`<span>${esc(CIU[a.c]||"")}</span>`:""}</div></div>
-   <div class="acc"><a class="btn btn-wa" target="_blank" rel="noopener" href="${wa(a,msg)}">Enviar mi caso</a>${a.u?`<a class="btn btn-linea" href="${a.u}">Perfil</a>`:""}</div></div>`).join("")+(!fuera&&total>L.length?`<a class="btn btn-tinta" style="width:100%;margin-top:12px" href="/abogados/${ciudad}/${m}/">Ver los ${total} abogados de ${MAT[m]} en ${esc(CIU[ciudad])} →</a>`:"")}
+   <div class="acc"><a class="btn btn-wa" target="_blank" rel="noopener" href="${wa(a,msg)}">Enviar mi caso</a>${a.u?`<a class="btn btn-linea" href="${a.u}">Perfil</a>`:""}</div></div>`).join("")+(!fuera&&total>L.length?`<a class="btn btn-tinta" style="width:100%;margin-top:12px" href="/abogados/${ciudad}/${m}/">Ver todos los abogados de ${MAT[m]} en ${esc(CIU[ciudad])} →</a>`:"")}
  r.classList.remove("on");void r.offsetWidth;r.classList.add("on");
  r.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>buscar(ultimo,b.dataset.m));
  setTimeout(()=>r.scrollIntoView({behavior:"smooth",block:"start"}),60)}
@@ -346,7 +346,7 @@ document.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{window.scrollTo(
 
 
 /* Ciudades, guías y preguntas */
-if($("#ciuds"))$("#ciuds").innerHTML=Object.entries(CIU).sort((a,b)=>enC(b[0]).length-enC(a[0]).length).map(([k,v],i)=>`<a class="cd rv d${i%4}" href="/abogados/${k}/"><b>${esc(v)}</b><small>${enC(k).length} abogado${enC(k).length===1?"":"s"} →</small></a>`).join("");
+if($("#ciuds"))$("#ciuds").innerHTML=Object.entries(CIU).sort((a,b)=>enC(b[0]).length-enC(a[0]).length).map(([k,v],i)=>`<a class="cd rv d${i%4}" href="/abogados/${k}/"><b>${esc(v)}</b><small>Ver abogados →</small></a>`).join("");
 $("#guias").innerHTML=GUIAS.map((g,i)=>`<a class="gu rv d${i%4}" href="/guias/${g.s}/"><span class="n">${String(i+1).padStart(2,"0")}</span><span><b>${esc(g.t)}</b><p>${esc(g.d)}</p></span></a>`).join("");
 const FAQ=[["¿Cuánto me cuesta usar LicLink?","Nada. Buscar y escribirle a un abogado es gratis. Tú acuerdas sus honorarios directamente con él."],
 ["¿Cómo sé que es abogado de verdad?","Cuando un perfil dice «Cédula profesional verificada», revisamos su cédula en el Registro Nacional de Profesionistas de la SEP. Tú también puedes consultar cualquier cédula en la SEP."],
