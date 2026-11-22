@@ -24,7 +24,7 @@ CIUDADES = {"cdmx": ("Ciudad de México", "CDMX"), "edomex": ("Estado de México
             "obregon": ("Ciudad Obregón", "Sonora"),
             "tabasco": ("Tabasco", "Tabasco"),
             "tamaulipas": ("Tamaulipas", "Tamaulipas"), "cuernavaca": ("Cuernavaca", "Morelos"),
-            "oaxaca": ("Oaxaca", "Oaxaca")}
+            "oaxaca": ("Oaxaca", "Oaxaca"), "campeche": ("Campeche", "Campeche")}
 PRINCIPALES = ["cdmx", "edomex", "guadalajara", "puebla"]
 FONDOS = {"cdmx": "radial-gradient(90% 80% at 100% 0%,#6b5326 0%,transparent 60%),linear-gradient(160deg,#1e1a14,#0c0b0a)",
           "edomex": "radial-gradient(90% 80% at 0% 0%,#4f4a2b 0%,transparent 60%),linear-gradient(200deg,#1a1913,#0c0b0a)",

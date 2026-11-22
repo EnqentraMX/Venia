@@ -1755,5 +1755,30 @@
   "alta": "2026-11-22",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "arcos-pacheco",
+  "nombre": "Arcos & Pacheco Abogados",
+  "rol": "Penal, familiar y laboral · Campeche",
+  "ciudad": "campeche",
+  "materias": [
+   "penal",
+   "familiar",
+   "laboral"
+  ],
+  "plan": "basico",
+  "foto": "/arcos-pacheco/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "AP",
+  "whatsapp": "529811920822",
+  "telefono": "9811920822",
+  "cedula": "14028630",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-22",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
