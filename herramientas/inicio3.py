@@ -29,7 +29,7 @@ from html import escape as e
 exec(re.search(r"MATERIAS = \{.*?\n\}\n", src, re.S).group(0), ns)
 exec(re.search(r"ICONOS = \{.*?\n\}\n", src, re.S).group(0), ns)
 MATS, ICONOS = ns["MATERIAS"], ns["ICONOS"]
-MAT_CORTO = {"penal": "penal", "familiar": "familiar", "laboral": "laboral", "civil": "civil", "mercantil": "mercantil", "sucesiones": "herencias", "amparo": "amparo", "fiscal": "fiscal", "agrario": "agrario"}
+MAT_CORTO = {"penal": "penal", "familiar": "familiar", "laboral": "laboral", "civil": "civil", "mercantil": "mercantil", "sucesiones": "herencias", "amparo": "amparo", "fiscal": "fiscal", "agrario": "agrario", "migratorio": "migratorio"}
 cuenta = lambda k: sum(1 for a in L if a["c"] == k or k in a["oc"])
 c0 = max(ciu, key=cuenta)  # el estado con más abogados (igual que en el navegador)
 

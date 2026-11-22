@@ -24,7 +24,7 @@
    - Usa SOLO datos que él dio; no inventes direcciones, cédulas ni teléfonos.
 3. Agrega su ficha a `prospectos/guia.json` (`slug, nombre, rol, ciudad, materias, plan, foto, logo, fondo, iniciales, whatsapp "52…", telefono, verificada false, pagina, redes, estado "activo", alta, vence, pago`).
    - Ciudades: `cdmx, edomex, guadalajara, puebla, monterrey, tijuana, leon, chihuahua, san-luis-potosi, los-cabos, yucatan, queretaro, gomez-palacio, hermosillo, chiapas, cancun, veracruz, obregon, tabasco, tamaulipas, cuernavaca, oaxaca, campeche` (+ `otras_ciudades`). Para agregar una ciudad nueva: `CIUDADES` en `herramientas/guia.py`, `CIUDADES_GUIA` en `herramientas/generar.py` y `CIUDAD_PAL` en `public/assets/guia.js`.
-   - Materias: `penal, familiar, laboral, civil, mercantil, sucesiones, amparo, fiscal, agrario`.
+   - Materias: `penal, familiar, laboral, civil, mercantil, sucesiones, amparo, fiscal, agrario, migratorio`.
 4. Genera:
    ```
    cd /home/claude/venia-repo   (o donde esté clonado)
@@ -90,7 +90,7 @@ Otros pedidos frecuentes:
 - **Calculadora de finiquito/liquidación**: `herramientas/calculadora.py` → `/calculadora-finiquito/` (la llama guia.py). Salario mínimo 2026: $315.04 general, $440.87 frontera norte (actualizar cada enero). Su botón manda al inicio con `?caso=laboral&texto=...` y el inicio abre la recomendación de abogados laborales.
 - Vista previa al compartir (`compartir.png`, 1200×630): crema, logo grande con marco dorado a la derecha.
 - Imagen de estado: oscura, sello dorado "★ DESPACHO DESTACADO", tarjeta crema con QR.
-- **Rediseño 22 nov 2026** (tras analizar Doctoralia, Top Doctors, Louverdi, Jusbrasil, Avvo, elAbogado): inicio en orden portada (titular más chico + selector de *estado* dentro de la caja) → Cómo funciona (3 pasos + línea "Abogados en N estados · 9 materias · Sin comisiones") → Destacados → Busca por materia (tarjetas que muestran abogados del estado ahí mismo) → calculadora → consejo + guías → confianza → preguntas → para abogados → pie con estados y materias. Destacados, materias, guías, preguntas (con FAQPage) y pie van **escritos en el HTML** desde `inicio3.py` para que Google los lea. Se quitaron la cinta de materias, "¿Qué te pasó?" y el cierre "Actuar a tiempo" (repetían).
+- **Rediseño 22 nov 2026** (tras analizar Doctoralia, Top Doctors, Louverdi, Jusbrasil, Avvo, elAbogado): inicio en orden portada (titular más chico + selector de *estado* dentro de la caja) → Cómo funciona (3 pasos + línea "Abogados en N estados · 10 materias · Sin comisiones") → Destacados → Busca por materia (tarjetas que muestran abogados del estado ahí mismo) → calculadora → consejo + guías → confianza → preguntas → para abogados → pie con estados y materias. Destacados, materias, guías, preguntas (con FAQPage) y pie van **escritos en el HTML** desde `inicio3.py` para que Google los lea. Se quitaron la cinta de materias, "¿Qué te pasó?" y el cierre "Actuar a tiempo" (repetían).
 - **Nunca mostrar cuántos abogados hay** (en ninguna página). Solo estados/municipios por ahora: **no** agregar municipios hasta que haya más abogados.
 - Para abogados: planes en dos tarjetas de precio + tabla comparativa (`planes_html`); "sin contratos" aparece una vez en "Lo que nos hace distintos".
 - Fichas Básico sin foto/logo muestran una balanza dorada (no iniciales). En perfiles v3, "Atiende" muestra solo 2 materias.

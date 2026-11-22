@@ -678,7 +678,8 @@
    "familiar",
    "civil",
    "mercantil",
-   "sucesiones"
+   "sucesiones",
+   "migratorio"
   ],
   "plan": "premium",
   "foto": "/duran-asociados/logo.jpg",
@@ -1784,7 +1785,7 @@
  {
   "slug": "edgar-licea",
   "nombre": "Lic. Edgar Licea Ciriaco",
-  "rol": "Nuevo Destino Legal · Despacho migratorio · Derecho migratorio · CDMX y Edomex",
+  "rol": "Nuevo Destino Legal · Despacho migratorio · CDMX y Edomex",
   "ciudad": "cdmx",
   "otras_ciudades": [
    "edomex"

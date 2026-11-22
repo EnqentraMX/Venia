@@ -14,7 +14,8 @@
     sucesiones: ["Herencias", "Testamentos e intestados"],
     amparo: ["Amparo", "Contra abusos de autoridad"],
     fiscal: ["Fiscal", "SAT, multas y embargos"],
-    agrario: ["Agrario y ambiental", "Ejidos, tierras y medio ambiente"]
+    agrario: ["Agrario y ambiental", "Ejidos, tierras y medio ambiente"],
+    migratorio: ["Migratorio", "Visas, residencia y deportaciones"]
   };
   /* =========================== */
 
@@ -51,6 +52,7 @@
     sucesiones: "herencia heredar testamento intestado fallec murio murió difunto sucesion sucesión albacea",
     amparo: "amparo autoridad abuso de autoridad suspension suspensión inconstitucional clausura",
     agrario: "ejido ejidal ejidatario parcela comunero comunal tierra agraria agrario ambiental profepa semarnat forestal bosque tala monte",
+    migratorio: "migratorio migracion migración migrante visa visas residencia residente deportacion deportación deportar pasaporte estados unidos usa green card asilo refugiado naturalizacion naturalización extranjero inm papeles",
     fiscal: "sat impuesto hacienda multa embargo fiscal credito fiscal crédito fiscal declaracion declaración"
   };
   var CIUDAD_PAL = { cdmx: "cdmx ciudad de mexico ciudad de méxico df iztapalapa coyoacan coyoacán tlalpan gam gustavo madero iztacalco benito juarez cuauhtemoc", edomex: "edomex estado de mexico estado de méxico neza nezahualcoyotl ecatepec toluca naucalpan tlalnepantla lerma cuautitlan texcoco chalco", guadalajara: "guadalajara jalisco zapopan tlaquepaque tonala tonalá", puebla: "puebla cholula", monterrey: "monterrey nuevo leon nuevo león", queretaro: "queretaro querétaro", tamaulipas: "tamaulipas ciudad victoria cd victoria victoria tampico reynosa matamoros nuevo laredo madero altamira mante", cuernavaca: "cuernavaca morelos jiutepec temixco cuautla emiliano zapata yautepec xochitepec", tabasco: "tabasco villahermosa macuspana cardenas cárdenas comalcalco paraiso paraíso cunduacan cunduacán tenosique centro tabasco", obregon: "obregon obregón ciudad obregon ciudad obregón cajeme navojoa guaymas empalme", veracruz: "veracruz boca del rio boca del río xalapa coatzacoalcos cordoba córdoba orizaba poza rica", cancun: "cancun cancún quintana roo qroo playa del carmen riviera maya", chiapas: "chiapas tuxtla gutierrez gutiérrez tapachula san cristobal cristóbal comitan comitán", hermosillo: "hermosillo sonora son puerto peñasco puerto penasco peñasco penasco sonoyta caborca nogales guaymas",  "gomez-palacio": "gomez palacio gómez palacio durango dgo laguna comarca lagunera lerdo torreon torreón saltillo coahuila san pedro de las colonias", yucatan: "yucatan yucatán merida mérida halacho halachó progreso valladolid", oaxaca: "oaxaca oax oaxaca de juarez oaxaca de juárez juchitan juchitán salina cruz tuxtepec huatulco puerto escondido santa lucia del camino tlaxiaco", campeche: "campeche camp san francisco de campeche ciudad del carmen cd del carmen carmen champoton champotón escarcega escárcega calkini calkiní" };
