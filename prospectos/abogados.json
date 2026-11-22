@@ -6219,8 +6219,8 @@
     "telefono": "5621141173",
     "correo": "lic.irvingduran19@gmail.com",
     "direccion": "Atención en CDMX, Estado de México y toda la República Mexicana",
-    "referencia": "Escríbenos por WhatsApp para agendar tu asesoría.",
-    "descripcion": "Durán y Asociados Abogados: asuntos civiles, familiares, mercantiles, migratorios y mediación privada en CDMX, Estado de México y toda la República Mexicana.",
+    "referencia": "Escríbenos por WhatsApp para agendar tu asesoría. También pensiones ante el IMSS e ISSSTE (Ley 73 y 97), liberación de Afore, Infonavit y Fovissste, y asesoría migratoria en México y EU (visas humanitarias, de trabajo TN y peticiones familiares).",
+    "descripcion": "Durán y Asociados Abogados: asuntos civiles, familiares, mercantiles, migratorios y mediación privada en CDMX, Estado de México y toda la República Mexicana. También pensiones ante el IMSS e ISSSTE (Ley 73 y 97), liberación de Afore, Infonavit y Fovissste, y asesoría migratoria en México y EU (visas humanitarias, de trabajo TN y peticiones familiares).",
     "modalidad": "Atención en toda la República",
     "portada": [
       "Soluciones legales",
@@ -6245,7 +6245,7 @@
         "urgente": false
       },
       {
-        "texto": "Tengo un problema con un contrato o una propiedad",
+        "texto": "Necesito regularizar una propiedad o hacer un contrato",
         "urgente": false
       },
       {
@@ -6255,6 +6255,14 @@
       {
         "texto": "Quiero resolver un conflicto sin ir a juicio",
         "urgente": false
+      },
+      {
+        "texto": "Quiero tramitar mi pensión o liberar mi Afore",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar y hay que repartir sus bienes",
+        "urgente": false
       }
     ],
     "areas": [
@@ -6263,9 +6271,12 @@
         "icono": "familia",
         "texto": "Te acompañamos en los asuntos de tu familia.",
         "puntos": [
-          "Divorcios",
+          "Divorcio",
           "Pensión alimenticia",
-          "Guarda y custodia"
+          "Guarda y custodia",
+          "Sucesiones testamentarias e intestamentarias",
+          "Reconocimiento de paternidad",
+          "Entre otros"
         ]
       },
       {
@@ -6274,8 +6285,10 @@
         "texto": "Protege tus acuerdos y tu patrimonio.",
         "puntos": [
           "Contratos",
-          "Juicios civiles",
-          "Propiedades"
+          "Contratos verbales",
+          "Usucapión",
+          "Regularización de inmuebles",
+          "Hipotecas"
         ]
       },
       {
@@ -6283,17 +6296,19 @@
         "icono": "maletin",
         "texto": "Cobra lo que te deben y protege tu negocio.",
         "puntos": [
-          "Cobro de pagarés y deudas",
-          "Juicios mercantiles"
+          "Juicios ordinarios mercantiles",
+          "Juicios ejecutivos mercantiles"
         ]
       },
       {
-        "nombre": "Derecho migratorio",
+        "nombre": "Migratorio (México y EU)",
         "icono": "edificio",
-        "texto": "Asesoría para resolver tu situación migratoria.",
+        "texto": "Asesoría migratoria en México y Estados Unidos.",
         "puntos": [
-          "Trámites migratorios",
-          "Regularización"
+          "Visas humanitarias",
+          "Visas de trabajo (TN)",
+          "Optimización de estado legal",
+          "Peticiones familiares"
         ]
       },
       {
@@ -6301,8 +6316,19 @@
         "icono": "acuerdo",
         "texto": "Resuelve tu conflicto sin juicio, con acuerdos que se cumplen.",
         "puntos": [
-          "Mediación privada",
-          "Convenios"
+          "Convenios de mediación",
+          "Sucesiones",
+          "Y más"
+        ]
+      },
+      {
+        "nombre": "Administrativo y pensiones",
+        "icono": "balanza",
+        "texto": "Te ayudamos con tu pensión y tus ahorros.",
+        "puntos": [
+          "Pensiones ante el IMSS e ISSSTE (Ley 73 y 97)",
+          "Liberación de Afore",
+          "Liberación de Infonavit y Fovissste"
         ]
       }
     ],

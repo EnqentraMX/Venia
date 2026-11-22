@@ -9,7 +9,7 @@ window.DATOS = {
   "sufijo": "Abogados",
   "abogado": "Lic. Irving Durán",
   "titulo": "Civil, familiar, mercantil, migratorio y mediación privada",
-  "descripcion": "Durán y Asociados Abogados: asuntos civiles, familiares, mercantiles, migratorios y mediación privada en CDMX, Estado de México y toda la República Mexicana.",
+  "descripcion": "Durán y Asociados Abogados: asuntos civiles, familiares, mercantiles, migratorios y mediación privada en CDMX, Estado de México y toda la República Mexicana. También pensiones ante el IMSS e ISSSTE (Ley 73 y 97), liberación de Afore, Infonavit y Fovissste, y asesoría migratoria en México y EU (visas humanitarias, de trabajo TN y peticiones familiares).",
   "cedula": "",
   "modalidad": "Atención en toda la República",
   "iniciales": "DA",
@@ -43,9 +43,12 @@ window.DATOS = {
       "icono": "familia",
       "texto": "Te acompañamos en los asuntos de tu familia.",
       "puntos": [
-        "Divorcios",
+        "Divorcio",
         "Pensión alimenticia",
-        "Guarda y custodia"
+        "Guarda y custodia",
+        "Sucesiones testamentarias e intestamentarias",
+        "Reconocimiento de paternidad",
+        "Entre otros"
       ]
     },
     {
@@ -54,8 +57,10 @@ window.DATOS = {
       "texto": "Protege tus acuerdos y tu patrimonio.",
       "puntos": [
         "Contratos",
-        "Juicios civiles",
-        "Propiedades"
+        "Contratos verbales",
+        "Usucapión",
+        "Regularización de inmuebles",
+        "Hipotecas"
       ]
     },
     {
@@ -63,17 +68,19 @@ window.DATOS = {
       "icono": "maletin",
       "texto": "Cobra lo que te deben y protege tu negocio.",
       "puntos": [
-        "Cobro de pagarés y deudas",
-        "Juicios mercantiles"
+        "Juicios ordinarios mercantiles",
+        "Juicios ejecutivos mercantiles"
       ]
     },
     {
-      "nombre": "Derecho migratorio",
+      "nombre": "Migratorio (México y EU)",
       "icono": "edificio",
-      "texto": "Asesoría para resolver tu situación migratoria.",
+      "texto": "Asesoría migratoria en México y Estados Unidos.",
       "puntos": [
-        "Trámites migratorios",
-        "Regularización"
+        "Visas humanitarias",
+        "Visas de trabajo (TN)",
+        "Optimización de estado legal",
+        "Peticiones familiares"
       ]
     },
     {
@@ -81,8 +88,19 @@ window.DATOS = {
       "icono": "acuerdo",
       "texto": "Resuelve tu conflicto sin juicio, con acuerdos que se cumplen.",
       "puntos": [
-        "Mediación privada",
-        "Convenios"
+        "Convenios de mediación",
+        "Sucesiones",
+        "Y más"
+      ]
+    },
+    {
+      "nombre": "Administrativo y pensiones",
+      "icono": "balanza",
+      "texto": "Te ayudamos con tu pensión y tus ahorros.",
+      "puntos": [
+        "Pensiones ante el IMSS e ISSSTE (Ley 73 y 97)",
+        "Liberación de Afore",
+        "Liberación de Infonavit y Fovissste"
       ]
     }
   ],
@@ -103,7 +121,7 @@ window.DATOS = {
       "urgente": false
     },
     {
-      "texto": "Tengo un problema con un contrato o una propiedad",
+      "texto": "Necesito regularizar una propiedad o hacer un contrato",
       "urgente": false
     },
     {
@@ -112,6 +130,14 @@ window.DATOS = {
     },
     {
       "texto": "Quiero resolver un conflicto sin ir a juicio",
+      "urgente": false
+    },
+    {
+      "texto": "Quiero tramitar mi pensión o liberar mi Afore",
+      "urgente": false
+    },
+    {
+      "texto": "Falleció un familiar y hay que repartir sus bienes",
       "urgente": false
     }
   ],
@@ -135,7 +161,7 @@ window.DATOS = {
     {
       "nombre": "CDMX, Estado de México y toda la República",
       "direccion": "Atención en CDMX, Estado de México y toda la República Mexicana",
-      "referencia": "Escríbenos por WhatsApp para agendar tu asesoría."
+      "referencia": "Escríbenos por WhatsApp para agendar tu asesoría. También pensiones ante el IMSS e ISSSTE (Ley 73 y 97), liberación de Afore, Infonavit y Fovissste, y asesoría migratoria en México y EU (visas humanitarias, de trabajo TN y peticiones familiares)."
     }
   ],
   "redes": {

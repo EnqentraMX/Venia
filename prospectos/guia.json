@@ -669,15 +669,16 @@
  {
   "slug": "duran-asociados",
   "nombre": "Durán y Asociados",
-  "rol": "Civil, familiar, mercantil, migratorio y mediación privada · CDMX, Edomex y toda la República",
+  "rol": "Familiar, civil, mercantil, migratorio (México y EU), pensiones IMSS/ISSSTE y mediación · CDMX, Edomex y toda la República",
   "ciudad": "cdmx",
   "otras_ciudades": [
    "edomex"
   ],
   "materias": [
-   "civil",
    "familiar",
-   "mercantil"
+   "civil",
+   "mercantil",
+   "sucesiones"
   ],
   "plan": "premium",
   "foto": "/duran-asociados/logo.jpg",
