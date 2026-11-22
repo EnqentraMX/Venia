@@ -1730,5 +1730,29 @@
   "otras_ciudades": [
    "cdmx"
   ]
+ },
+ {
+  "slug": "ayala-asociados",
+  "nombre": "Ayala y Asociados",
+  "rol": "Despacho jurídico · Lic. Juan Carlos Guzmán Pliego y Lic. Nidia Ayala Mendoza · Mercantil (30 años), familiar y agrario · Cuernavaca",
+  "ciudad": "cuernavaca",
+  "materias": [
+   "mercantil",
+   "familiar",
+   "agrario"
+  ],
+  "plan": "basico",
+  "foto": "/ayala-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "AA",
+  "whatsapp": "527772565206",
+  "telefono": "7772565206",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-22",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
