@@ -11702,5 +11702,153 @@
     "plan": "premium",
     "alta": "2026-11-21",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "consorcio-hernandez",
+    "nombre": "Consorcio Jurídico Hernández & Asociados",
+    "despacho": "Consorcio Jurídico Hernández",
+    "sufijo": "& Asociados",
+    "despacho_largo": "Consorcio Jurídico Hernández & Asociados | Abogado penalista 24 horas en Tuxtla Gutiérrez",
+    "titulo": "Abogado penalista",
+    "iniciales": "CH",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0e0c0b",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Tuxtla Gutiérrez, Chiapas",
+    "telefono": "9611945120",
+    "telefonos_extra": [
+      {
+        "numero": "9618590787",
+        "whatsapp": false
+      },
+      {
+        "numero": "9612389089",
+        "whatsapp": false
+      }
+    ],
+    "direccion": "Tuxtla Gutiérrez, Chiapas. Atendemos en todo el estado.",
+    "referencia": "Consorcio Jurídico Hernández & Asociados: abogado penalista en Tuxtla Gutiérrez, Chiapas, con atención urgente las 24 horas. Detenciones en retén, MP y Fiscalía, vinculación a proceso, medidas cautelares y amparo penal.",
+    "descripcion": "Consorcio Jurídico Hernández & Asociados. El Lic. Hernández, abogado penalista en Tuxtla Gutiérrez, atiende directamente y de forma urgente las 24 horas, incluso madrugadas y fines de semana, en todo el estado de Chiapas: detenciones en retén, MP y Fiscalía, asistencia en la Fiscalía de Alto Impacto y de Distrito, vinculación a proceso, medidas cautelares y amparo penal.",
+    "modalidad": "Atención urgente 24 horas",
+    "horario": {
+      "lunes": [
+        "00:00",
+        "23:59"
+      ],
+      "martes": [
+        "00:00",
+        "23:59"
+      ],
+      "miercoles": [
+        "00:00",
+        "23:59"
+      ],
+      "jueves": [
+        "00:00",
+        "23:59"
+      ],
+      "viernes": [
+        "00:00",
+        "23:59"
+      ],
+      "sabado": [
+        "00:00",
+        "23:59"
+      ],
+      "domingo": [
+        "00:00",
+        "23:59"
+      ]
+    },
+    "nota_horario": "Atención real 24 horas, incluso madrugadas y fines de semana.",
+    "portada": [
+      "¿Detuvieron",
+      "a un familiar?",
+      "No firmes nada."
+    ],
+    "texto_portada": "Abogado penalista en Tuxtla Gutiérrez. Atención urgente 24 horas: te digo en minutos qué hacer y qué NO hacer para no empeorar el caso.",
+    "frase": "No borres nada y no declares hasta que hablemos.",
+    "compromisos": [
+      "Atiende directamente el Lic. Hernández",
+      "24 horas, incluso madrugadas",
+      "A 10 minutos de la Fiscalía",
+      "Estrategia de defensa inmediata"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a mi familiar en un retén",
+        "urgente": true
+      },
+      {
+        "texto": "Mi familiar está en el MP o en la Fiscalía",
+        "urgente": true
+      },
+      {
+        "texto": "Lo van a vincular a proceso",
+        "urgente": true
+      },
+      {
+        "texto": "Lo acusan de robo, lesiones o violencia familiar",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito un amparo penal",
+        "urgente": false
+      },
+      {
+        "texto": "Me citaron a declarar",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Detenciones",
+        "icono": "escudo",
+        "texto": "Actuamos desde el primer momento.",
+        "puntos": [
+          "Detenciones en retén",
+          "Detenciones en MP y Fiscalía",
+          "Asistencia en la Fiscalía de Alto Impacto",
+          "Asistencia en la Fiscalía de Distrito"
+        ]
+      },
+      {
+        "nombre": "Proceso penal",
+        "icono": "balanza",
+        "texto": "Defensa sólida en cada audiencia.",
+        "puntos": [
+          "Vinculación a proceso",
+          "Medidas cautelares",
+          "Estrategia de defensa inmediata"
+        ]
+      },
+      {
+        "nombre": "Delitos que atendemos",
+        "icono": "lupa",
+        "texto": "Defensa en los delitos más comunes.",
+        "puntos": [
+          "Robo",
+          "Lesiones",
+          "Violencia familiar",
+          "Narcomenudeo"
+        ]
+      },
+      {
+        "nombre": "Amparo penal",
+        "icono": "documento",
+        "texto": "Protegemos tu libertad y tus derechos.",
+        "puntos": [
+          "Amparo contra detenciones",
+          "Amparo contra actos de autoridad"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-22",
+    "fuente": "WhatsApp"
   }
 ]

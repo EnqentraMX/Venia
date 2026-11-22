@@ -1807,5 +1807,31 @@
   "alta": "2026-11-22",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "consorcio-hernandez",
+  "nombre": "Consorcio Jurídico Hernández & Asociados",
+  "rol": "Abogado penalista · Atención urgente 24 horas · Tuxtla Gutiérrez y todo Chiapas",
+  "ciudad": "chiapas",
+  "materias": [
+   "penal",
+   "amparo"
+  ],
+  "plan": "premium",
+  "foto": "/consorcio-hernandez/logo.jpg",
+  "logo": true,
+  "fondo": "#0e0c0b",
+  "iniciales": "CH",
+  "whatsapp": "529611945120",
+  "telefono": "9611945120",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/consorcio-hernandez/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-22",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
