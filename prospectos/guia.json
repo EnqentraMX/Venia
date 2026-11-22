@@ -1780,5 +1780,31 @@
   "alta": "2026-11-22",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "edgar-licea",
+  "nombre": "Lic. Edgar Licea Ciriaco",
+  "rol": "Nuevo Destino Legal · Despacho migratorio · Derecho migratorio · CDMX y Edomex",
+  "ciudad": "cdmx",
+  "otras_ciudades": [
+   "edomex"
+  ],
+  "materias": [
+   "migratorio"
+  ],
+  "plan": "basico",
+  "foto": "/edgar-licea/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "EL",
+  "whatsapp": "525657496766",
+  "telefono": "5657496766",
+  "cedula": "10403869",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-22",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
