@@ -386,3 +386,26 @@ section{padding:64px 0}
 @keyframes ayudaEntra{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
 
 .ficha .consulta-p{display:inline-block;margin-top:8px;font-size:13px;font-weight:700;color:#1f6b3e;background:#e7f4ec;border-radius:4px;padding:4px 9px}
+
+/* Planes compactos (nov 2026) */
+.planes2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:30px}
+.planes2 .pl{border:1px solid var(--linea-o);background:var(--negro2);border-radius:18px;padding:22px 14px 14px;position:relative;display:flex;flex-direction:column}
+.planes2 .pl.prem{order:-1;border-color:var(--oro);background:linear-gradient(180deg,#1d1912,#141210);box-shadow:0 30px 60px -30px rgba(212,176,106,.35)}
+.planes2 .cinta{position:absolute;top:-11px;left:14px;background:var(--oro);color:#17120a;font:800 10.5px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;padding:6px 9px;border-radius:999px}
+.planes2 h3{font-size:22px;color:var(--claro)}
+.planes2 .para{color:var(--claro2);font-size:13.5px;margin-top:4px;min-height:38px}
+.planes2 .precio{display:flex;align-items:baseline;gap:6px;margin-top:10px}.planes2 .precio b{font:800 38px/1 var(--sans);color:var(--claro);letter-spacing:-.03em}.planes2 .precio span{color:var(--claro2);font-size:13px}
+.planes2 .alta{color:var(--claro2);font-size:12.5px;margin:6px 0 14px}
+.planes2 .btn{margin-top:auto;padding-left:8px;padding-right:8px;font-size:14px}
+.compara{width:100%;border-collapse:collapse;margin-top:20px;font-size:14px;color:var(--claro)}
+.compara th{font:800 11.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--oro);text-align:center;padding:12px 4px}
+.compara th:first-child{text-align:left}
+.compara td{padding:11px 4px;border-top:1px solid var(--linea-o);vertical-align:middle}
+.compara td+td{text-align:center;width:72px}
+.compara td svg{width:20px;height:20px;color:var(--oro)}
+.compara .nada{color:#6d655a}
+@media(min-width:760px){.planes2{gap:16px}.planes2 .pl{padding:28px 22px 20px}.compara{font-size:15.5px}.compara td+td{width:120px}}
+.ficha .foto .bal{width:34px;height:34px;fill:none;stroke:var(--oro2,#d8b874);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:759px){.pasos.cinco{gap:8px}.pasos.cinco .paso{padding:14px 16px;grid-template-columns:36px 1fr;gap:12px;align-items:center}.pasos.cinco .paso .n{width:36px;height:36px;font-size:16px}.pasos.cinco .paso h3{font-size:17px}.pasos.cinco .paso p{font-size:14px;margin-top:2px}
+.porque{gap:4px}.porque div{padding:14px 0 2px}.porque b{font-size:18px}.porque p{font-size:15px;margin-top:4px}}
+.form label.acepto{display:block!important;line-height:1.45}.form label.acepto input{margin:0 8px 0 0;vertical-align:-3px;width:18px;height:18px}

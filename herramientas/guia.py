@@ -23,7 +23,8 @@ CIUDADES = {"cdmx": ("Ciudad de México", "CDMX"), "edomex": ("Estado de México
             "veracruz": ("Veracruz", "Veracruz"),
             "obregon": ("Ciudad Obregón", "Sonora"),
             "tabasco": ("Tabasco", "Tabasco"),
-            "tamaulipas": ("Tamaulipas", "Tamaulipas"), "cuernavaca": ("Cuernavaca", "Morelos")}
+            "tamaulipas": ("Tamaulipas", "Tamaulipas"), "cuernavaca": ("Cuernavaca", "Morelos"),
+            "oaxaca": ("Oaxaca", "Oaxaca")}
 PRINCIPALES = ["cdmx", "edomex", "guadalajara", "puebla"]
 FONDOS = {"cdmx": "radial-gradient(90% 80% at 100% 0%,#6b5326 0%,transparent 60%),linear-gradient(160deg,#1e1a14,#0c0b0a)",
           "edomex": "radial-gradient(90% 80% at 0% 0%,#4f4a2b 0%,transparent 60%),linear-gradient(200deg,#1a1913,#0c0b0a)",
@@ -144,7 +145,7 @@ def ficha_html(a, clase="ficha"):
     """Ficha del directorio. Básico: WhatsApp y llamada. Premium: además perfil completo, redes y reseñas."""
     prem = a.get("plan") == "premium"
     nc = CIUDADES.get(a.get("ciudad"), ("",))[0]
-    foto = f'<img src="{e(a["foto"])}" alt="" loading="lazy" decoding="async" width="72" height="72">' if a.get("foto") else e(a.get("iniciales") or a["nombre"][:2])
+    foto = f'<img src="{e(a["foto"])}" alt="" loading="lazy" decoding="async" width="72" height="72">' if a.get("foto") else '<svg class="bal" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M7 20h10M5 7h14M5 7l-3 6a3 3 0 006 0zM19 7l-3 6a3 3 0 006 0z"/></svg>'
     ver = (f'<span class="ver si"><svg viewBox="0 0 24 24"><use href="#i-ok"/></svg>Cédula profesional verificada</span>' if a.get("verificada")
            else '<span class="ver no">Datos profesionales registrados</span>')
     rol = e(a.get("rol", "")) + (f" · {e(nc)}" if nc and nc not in a.get("rol", "") else "")
@@ -169,34 +170,24 @@ def opciones_ciudad(sel="cdmx"):
 
 
 def planes_html(corto=False):
-    basico = ["Ficha en el directorio de tu ciudad", "Fotografía o logotipo", "Nombre y especialidades", "Botón de WhatsApp", "Botón de llamada",
-              "Verificación de cédula cuando la compruebes"]
-    basico_no = ["Página profesional propia", "Posición destacada", "Redes sociales y reseñas de Google"]
-    prem = ["Posición destacada en tu ciudad y especialidades", "Página profesional personalizada con tu propio enlace", "Enlaces a tus redes sociales y sitio web",
-            "Botón para recibir reseñas en Google Maps", "Asistente que organiza cada consulta antes de llegar a tu WhatsApp", "Mapa y horarios",
-            "Promociones y paquetes", "Estadísticas mensuales de visitas", "Código QR personalizado"]
-    li = lambda t, s=True: f'<li{"" if s else " class=no"}>{OK if s else NO}<span>{e(t)}</span></li>'
+    filas = [("Ficha en el directorio de tu estado", 1, 1), ("Foto o logotipo, nombre y especialidades", 1, 1), ("Botones de WhatsApp y llamada", 1, 1),
+             ("Verificación de cédula (cuando la compruebes)", 1, 1), ("Posición destacada en tu estado y materias", 0, 1),
+             ("Página profesional con tu propio enlace", 0, 1), ("Redes sociales, mapa y horarios", 0, 1), ("Botón de reseñas en Google Maps", 0, 1),
+             ("Asistente que ordena cada consulta antes de tu WhatsApp", 0, 1), ("Promociones, estadísticas mensuales y código QR", 0, 1)]
+    marca = lambda v: OK if v else '<span class="nada">—</span>'
+    tabla = "".join(f"<tr><td>{e(t)}</td><td>{marca(b)}</td><td>{marca(p)}</td></tr>" for t, b, p in filas)
     boton = (lambda p, t: f'<a class="btn {"btn-oro brilla" if p == "premium" else "btn-linea"} btn-ancho" href="/para-abogados/#registro" data-plan="{p}">{t}</a>')
-    return f"""<div class="planes" data-escalona>
-  <div class="plan"><h3>Básico</h3><p class="para">Para que te encuentren en tu ciudad.</p>
-    <div class="precio"><b>$49</b><span>MXN al mes</span></div><p class="alta">Alta única de $99 MXN</p>
-    <ul>{"".join(li(t) for t in basico)}{"".join(li(t, False) for t in basico_no)}</ul>{boton("basico", "Elegir Básico")}</div>
-  <div class="plan prem"><span class="cinta">Más completo</span><h3>Premium</h3><p class="para">Tu presencia profesional por menos de $5 al día.</p>
-    <div class="precio"><b>$149</b><span>MXN al mes</span></div><p class="alta">Alta única de $399 MXN</p>
-    <ul><li class="lead">Todo lo del Básico, y además:</li>{"".join(li(t) for t in prem)}</ul>{boton("premium", "Elegir Premium")}</div>
+    return f"""<div class="planes2">
+  <div class="pl"><h3>Básico</h3><p class="para">Para que te encuentren en tu estado.</p><div class="precio"><b>$49</b><span>al mes</span></div><p class="alta">Alta única de $99 MXN</p>{boton("basico", "Elegir Básico")}</div>
+  <div class="pl prem"><span class="cinta">Más completo</span><h3>Premium</h3><p class="para">Por menos de $5 al día.</p><div class="precio"><b>$149</b><span>al mes</span></div><p class="alta">Alta única de $399 MXN</p>{boton("premium", "Elegir Premium")}</div>
 </div>
+<table class="compara"><thead><tr><th>Incluye</th><th>Básico</th><th>Premium</th></tr></thead><tbody>{tabla}</tbody></table>
 <div class="fundadores rv">
   <b>Socios fundadores LicLink</b>
   <p>Para los despachos que se registren en la etapa de lanzamiento:</p>
   <ul><li>{OK}Precio de lanzamiento protegido mientras tu suscripción siga activa</li><li>{OK}Configuramos tu perfil por ti</li><li>{OK}Código QR para tu tarjeta y tu oficina</li><li>{OK}Atención directa por WhatsApp</li></ul>
   <small>Si cancelas y regresas después, aplica el precio vigente en ese momento.</small>
-</div>
-<ul class="garantias">
-  <li>{OK}Sin contratos forzosos: pagas mes a mes</li>
-  <li>{OK}Cancelas cuando quieras con un mensaje de WhatsApp</li>
-  <li>{OK}Cero comisiones: el cliente te paga directo a ti</li>
-  <li>{OK}No prometemos clientes: te damos visibilidad y herramientas para que te contacten</li>
-</ul>"""
+</div>"""
 
 
 def portada():
@@ -321,10 +312,10 @@ def portada():
   <span class="eti rv">Por qué LicLink</span>
   <h2 class="rv">Confianza antes de <em>contratar.</em></h2>
   <div class="porque" data-escalona>
-    <div><b>Transparencia</b><p>Te decimos con claridad qué cédulas revisamos en la SEP y cuáles aún no.</p></div>
-    <div><b>Directo con el abogado</b><p>Le escribes a su WhatsApp. Sin centros de llamadas ni intermediarios.</p></div>
-    <div><b>Reseñas públicas</b><p>Las opiniones están en Google Maps, donde nadie las puede maquillar.</p></div>
-    <div><b>Gratis para ti</b><p>No pagas por buscar ni por escribir. Los honorarios los acuerdas con tu abogado.</p></div>
+    <div><b>Mes a mes, sin amarres</b><p>Otras plataformas amarran con contratos de un año. Aquí pagas mes a mes y cancelas con un mensaje de WhatsApp, sin llamadas de retención.</p></div>
+    <div><b>Cero comisiones</b><p>El cliente te escribe a ti y te paga a ti. Nosotros solo cobramos tu plan.</p></div>
+    <div><b>Reseñas honestas</b><p>Tus reseñas viven en Google Maps, a la vista de todos.</p></div>
+    <div><b>Sin promesas falsas</b><p>No prometemos clientes: te damos visibilidad y herramientas para que quien te busque te encuentre y te contacte.</p></div>
   </div>
 </div></section>
 
@@ -451,10 +442,10 @@ def para_abogados():
   <span class="eti rv">Lo que nos hace distintos</span>
   <h2 class="rv">Escuchamos lo que los profesionales <em>odian</em> de otras plataformas.</h2>
   <div class="porque" data-escalona>
-    <div><b>Sin contratos anuales</b><p>Otras plataformas amarran con contratos de un año. Aquí pagas mes a mes.</p></div>
-    <div><b>Cancelar es fácil</b><p>Un mensaje de WhatsApp y listo. Sin llamadas de retención ni cargos después de cancelar.</p></div>
-    <div><b>Precio protegido</b><p>Como socio fundador, tu precio se mantiene mientras sigas activo.</p></div>
+    <div><b>Mes a mes, sin amarres</b><p>Otras plataformas amarran con contratos de un año. Aquí pagas mes a mes y cancelas con un mensaje de WhatsApp, sin llamadas de retención.</p></div>
+    <div><b>Cero comisiones</b><p>El cliente te escribe a ti y te paga a ti. Nosotros solo cobramos tu plan.</p></div>
     <div><b>Reseñas honestas</b><p>Tus reseñas viven en Google Maps, a la vista de todos.</p></div>
+    <div><b>Sin promesas falsas</b><p>No prometemos clientes: te damos visibilidad y herramientas para que quien te busque te encuentre y te contacte.</p></div>
   </div>
 </div></section>
 
@@ -464,7 +455,7 @@ def para_abogados():
   <p class="sub rv"><b>No pagas hasta revisar y aprobar tu perfil.</b> Llena tus datos y te escribimos por WhatsApp.</p>
   <form class="form rv" id="formRegistro">
     <div><label for="rNombre">Nombre o despacho</label><input id="rNombre" required autocomplete="name" placeholder="Lic. Nombre Apellido o despacho"></div>
-    <div><label for="rCiudad">Ciudad</label><select id="rCiudad">{opciones_ciudad()}</select></div>
+    <div><label for="rCiudad">Estado</label><select id="rCiudad">{opciones_ciudad()}</select></div>
     <div><label>Especialidades</label><div class="opciones" id="rMaterias"></div></div>
     <div><label for="rWa">Tu WhatsApp</label><input id="rWa" required inputmode="tel" autocomplete="tel" placeholder="10 dígitos" pattern="[0-9 ]{{10,14}}"></div>
     <div><label for="rCedula">Cédula profesional (opcional)</label><input id="rCedula" inputmode="numeric" placeholder="Para verificarla en la SEP"></div>

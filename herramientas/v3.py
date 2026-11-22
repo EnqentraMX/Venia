@@ -112,7 +112,7 @@ def construir(a):
     guia_url = "/abogados/" + g["ciudad"] + "/" if g.get("ciudad") else "/"
     estado_ciudad = ciudad.split(",")[0]
     texto_intro = a.get("texto_portada") or a.get("descripcion", "")
-    dato1 = " · ".join(materias[:3]) or a.get("titulo", "")
+    dato1 = " · ".join(materias[:2]) or a.get("titulo", "")
     bg_hero = f"background-image:url('{img}')" + ("" if tiene_foto else f";background-color:{a.get('fondo_logo','#15120e')}")
 
     return f"""<!DOCTYPE html>
