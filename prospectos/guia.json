@@ -1833,5 +1833,28 @@
   "alta": "2026-11-22",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "entendemos-tu-derecho",
+  "nombre": "Entendemos tu Derecho Mx",
+  "rol": "Laboral, compliance y amparo · Ciudad de México",
+  "ciudad": "cdmx",
+  "materias": [
+   "laboral",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "/entendemos-tu-derecho/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "ED",
+  "whatsapp": "525626163321",
+  "telefono": "5626163321",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-22",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
