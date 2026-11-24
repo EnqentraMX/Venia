@@ -1856,5 +1856,33 @@
   "alta": "2026-11-22",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "itzel-osnaya",
+  "nombre": "Lic. Itzel Abigail Zavala Osnaya",
+  "rol": "Licenciada en Derecho · Penal, familiar y amparo · Estado de México y litigio en CDMX",
+  "ciudad": "edomex",
+  "otras_ciudades": [
+   "cdmx"
+  ],
+  "materias": [
+   "penal",
+   "familiar",
+   "amparo"
+  ],
+  "plan": "basico",
+  "foto": "/itzel-osnaya/logo.jpg",
+  "logo": true,
+  "fondo": "#f5f4ef",
+  "iniciales": "IZ",
+  "whatsapp": "525564153785",
+  "telefono": "5564153785",
+  "cedula": "15683359",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-23",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
