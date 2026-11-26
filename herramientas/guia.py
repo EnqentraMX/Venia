@@ -103,7 +103,7 @@ def cabeza(titulo, desc, ruta, robots="", extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/guia.css?v={version('guia.css')}">
-<link rel="stylesheet" href="/assets/unifica3.css?v={version('unifica3.css')}">
+<link rel="stylesheet" href="/assets/unifica3.css?v={version('unifica3.css')}"><link rel="stylesheet" href="/assets/temporada.css?v={version('temporada.css')}"><script src="/assets/temporada.js?v={version('temporada.js')}"></script>
 {extra}
 </head>
 """

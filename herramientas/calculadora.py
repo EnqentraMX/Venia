@@ -16,7 +16,7 @@ HTML = r"""<!DOCTYPE html>
 <meta property="og:type" content="website"><meta property="og:site_name" content="LicLink"><meta property="og:title" content="Calculadora de finiquito y liquidación 2026"><meta property="og:description" content="Calcula gratis cuánto te corresponde si renuncias o te despiden.">
 <meta property="og:url" content="https://liclink.com.mx/calculadora-finiquito/"><meta property="og:image" content="https://liclink.com.mx/assets/liclink-compartir.png?v=__OG__"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c0b0a'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='800' font-size='36' text-anchor='middle' fill='%23d4b06a'%3EL%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="/assets/v3.css?v=__V__">
+<link rel="stylesheet" href="/assets/v3.css?v=__V__"><link rel="stylesheet" href="/assets/temporada.css?v=__T__"><script src="/assets/temporada.js?v=__T__"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de finiquito y liquidación","url":"https://liclink.com.mx/calculadora-finiquito/","applicationCategory":"FinanceApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"MXN"},"inLanguage":"es-MX"}</script>
 <style>
 .cab{position:sticky;top:0;z-index:30;background:rgba(245,239,228,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--linea)}
@@ -63,7 +63,7 @@ HTML = r"""<!DOCTYPE html>
 </style></head>
 <body>
 <header class="cab"><div class="ancho"><a class="wm" href="/">Lic<b>Link</b></a><a class="btn btn-linea" style="height:40px;padding:0 16px;font-size:13.5px" href="/para-abogados/">Soy abogado</a></div></header>
-<section class="top"><div class="ancho">
+<section class="top top-calc"><div class="ancho">
  <nav class="migas"><a href="/">Inicio</a> › Calculadora</nav>
  <h1 class="cs">¿Cuánto te <span>corresponde?</span></h1>
  <p>Calcula tu finiquito o tu liquidación según la Ley Federal del Trabajo. Gratis, sin registro y actualizada con el salario mínimo 2026.</p>
@@ -135,5 +135,5 @@ calc();
 </body></html>"""
 
 d = RAIZ / "public" / "calculadora-finiquito"; d.mkdir(exist_ok=True)
-(d / "index.html").write_text(HTML.replace("__V__", V).replace("__OG__", OG), encoding="utf-8")
+(d / "index.html").write_text(HTML.replace("__V__", V).replace("__T__", hashlib.md5(b"".join((RAIZ / "public" / "assets" / f).read_bytes() for f in ("temporada.css", "temporada.js"))).hexdigest()[:8]).replace("__OG__", OG), encoding="utf-8")
 print("Calculadora lista")

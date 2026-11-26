@@ -35,6 +35,7 @@ def tel(n):
 
 
 import hashlib
+TEMP = hashlib.md5(b"".join((RAIZ / "public" / "assets" / f).read_bytes() for f in ("temporada.css", "temporada.js"))).hexdigest()[:8]
 VER = hashlib.md5(b"".join((RAIZ / "public" / "assets" / f).read_bytes() for f in ("v3.css", "perfil3.css"))).hexdigest()[:8]
 
 
@@ -127,7 +128,7 @@ def construir(a):
     return f"""<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 {cabeza_seo(a, img)}
-<link rel="stylesheet" href="/assets/v3.css?v={VER}"><link rel="stylesheet" href="/assets/perfil3.css?v={VER}"></head>
+<link rel="stylesheet" href="/assets/v3.css?v={VER}"><link rel="stylesheet" href="/assets/perfil3.css?v={VER}"><link rel="stylesheet" href="/assets/temporada.css?v={TEMP}"><script src="/assets/temporada.js?v={TEMP}"></script></head>
 <body>
 <header class="top" id="top"><a class="ic" href="/" aria-label="Volver">{ic("atras")}</a><a class="marca" href="/">Lic<b>Link</b></a><button class="ic" id="bComp" aria-label="Compartir">{ic("comp")}</button></header>
 

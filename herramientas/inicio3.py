@@ -67,6 +67,7 @@ for k, v in {"__DESTACADOS__": DEST, "__MATERIAS__": MATS_H, "__ESTADOS__": EDOS
              "__GUIAS__": GUIAS_H, "__FAQ__": FAQ_H, "__FAQLD__": FAQ_LD, "__NEDOS__": str(len(ciu)), "__C0__": c0, "__CIUDAD0__": e(CIU[c0])}.items():
     H = H.replace(k, v)
 import hashlib
+H = H.replace("__TEMP__", hashlib.md5(b"".join((RAIZ / "public" / "assets" / f).read_bytes() for f in ("temporada.css", "temporada.js"))).hexdigest()[:8])
 H = H.replace("__VER__", hashlib.md5((RAIZ / "public" / "assets" / "v3.css").read_bytes()).hexdigest()[:8])
 H = H.replace("__OGV__", hashlib.md5((RAIZ / "public" / "assets" / "liclink-compartir.png").read_bytes()).hexdigest()[:8])
 (RAIZ / "public" / "index.html").write_text(H, encoding="utf-8")

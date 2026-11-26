@@ -1,0 +1,18 @@
+/* Temporada navideña: se activa sola del 25 nov al 6 ene (temporada.js añade html.navidad). Sobrio: vino + oro. */
+.nv-cinta{display:none}
+html.navidad .nv-cinta{display:flex;align-items:center;justify-content:center;gap:10px;height:32px;padding:0 12px;background:linear-gradient(90deg,#3d0f14,#6b1a22 50%,#3d0f14);color:#f1d79a;font:700 12.5px/1 Jakarta,"Plus Jakarta Sans",system-ui,sans-serif;letter-spacing:.04em;text-align:center;position:relative;z-index:31;overflow:hidden;white-space:nowrap}
+html.navidad .nv-cinta span{color:#ffd86b;animation:nvBrillo 2.4s ease-in-out infinite}
+html.navidad .nv-cinta span:last-child{animation-delay:1.2s}
+html.navidad .nv-cinta::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,230,160,.18) 50%,transparent 70%);background-size:250% 100%;animation:nvPasa 6s linear infinite}
+@keyframes nvBrillo{0%,100%{opacity:.45;transform:scale(.85)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes nvPasa{from{background-position:150% 0}to{background-position:-100% 0}}
+@media(max-width:420px){html.navidad .nv-cinta{font-size:11.5px}}
+/* Perfiles: la barra fija baja mientras se ve la cinta */
+html.navidad .top{top:32px;transition:top .3s,background .3s,box-shadow .3s}
+html.navidad .top.lleno{top:0}
+/* Brillo cálido en portadas oscuras */
+html.navidad .hero::before{background:radial-gradient(closest-side,rgba(150,32,44,.22),transparent)!important}
+html.navidad .encabezado,html.navidad .top-calc{background:radial-gradient(70% 90% at 100% 0%,rgba(150,32,44,.35),transparent 60%),radial-gradient(60% 80% at 0% 100%,rgba(216,184,116,.16),transparent 60%),#15120e!important}
+html.navidad .para,html.navidad .cierre{background:radial-gradient(60% 70% at 85% 10%,rgba(150,32,44,.3),transparent 60%),#15120e!important}
+/* Destellos que caen */
+.nv-nieve{position:fixed;inset:0;pointer-events:none;z-index:25}
