@@ -180,14 +180,14 @@ def planes_html(corto=False):
     tabla = "".join(f"<tr><td>{e(t)}</td><td>{marca(b)}</td><td>{marca(p)}</td></tr>" for t, b, p in filas)
     boton = (lambda p, t: f'<a class="btn {"btn-oro brilla" if p == "premium" else "btn-linea"} btn-ancho" href="/para-abogados/#registro" data-plan="{p}">{t}</a>')
     return f"""<div class="planes2">
-  <div class="pl"><h3>Básico</h3><p class="para">Para que te encuentren en tu estado.</p><div class="precio"><b>$49</b><span>al mes</span></div><p class="alta">Alta única de $99 MXN</p>{boton("basico", "Elegir Básico")}</div>
-  <div class="pl prem"><span class="cinta">Más completo</span><h3>Premium</h3><p class="para">Por menos de $5 al día.</p><div class="precio"><b>$149</b><span>al mes</span></div><p class="alta">Alta única de $399 MXN</p>{boton("premium", "Elegir Premium")}</div>
+  <div class="pl"><h3>Básico</h3><p class="para">Para que te encuentren en tu estado.</p><div class="precio"><b>$99</b><span>alta única</span></div><p class="alta"><b class="promo">Sin mensualidades hasta marzo 2027</b>Después, $49 MXN al mes</p>{boton("basico", "Elegir Básico")}</div>
+  <div class="pl prem"><span class="cinta">Más completo</span><h3>Premium</h3><p class="para">Todo lo que necesitas para que te encuentren y te elijan.</p><div class="precio"><b>$499</b><span>alta única</span></div><p class="alta"><b class="promo">Sin mensualidades hasta marzo 2027</b>Después, $149 MXN al mes</p>{boton("premium", "Elegir Premium")}</div>
 </div>
 <table class="compara"><thead><tr><th>Incluye</th><th>Básico</th><th>Premium</th></tr></thead><tbody>{tabla}</tbody></table>
 <div class="fundadores rv">
   <b>Socios fundadores LicLink</b>
   <p>Para los despachos que se registren en la etapa de lanzamiento:</p>
-  <ul><li>{OK}Precio de lanzamiento protegido mientras tu suscripción siga activa</li><li>{OK}Configuramos tu perfil por ti</li><li>{OK}Código QR para tu tarjeta y tu oficina</li><li>{OK}Atención directa por WhatsApp</li></ul>
+  <ul><li>{OK}Sin mensualidades hasta marzo de 2027</li><li>{OK}Precio de lanzamiento protegido mientras tu suscripción siga activa</li><li>{OK}Configuramos tu perfil por ti</li><li>{OK}Código QR para tu tarjeta y tu oficina</li><li>{OK}Atención directa por WhatsApp</li></ul>
   <small>Si cancelas y regresas después, aplica el precio vigente en ese momento.</small>
 </div>"""
 
@@ -461,7 +461,7 @@ def para_abogados():
     <div><label>Especialidades</label><div class="opciones" id="rMaterias"></div></div>
     <div><label for="rWa">Tu WhatsApp</label><input id="rWa" required inputmode="tel" autocomplete="tel" placeholder="10 dígitos" pattern="[0-9 ]{{10,14}}"></div>
     <div><label for="rCedula">Cédula profesional (opcional)</label><input id="rCedula" inputmode="numeric" placeholder="Para verificarla en la SEP"></div>
-    <div><label for="rPlan">Plan</label><select id="rPlan"><option value="premium">Premium · $399 alta + $149 MXN/mes</option><option value="basico">Básico · $99 alta + $49 MXN/mes</option></select></div>
+    <div><label for="rPlan">Plan</label><select id="rPlan"><option value="premium">Premium · $499 alta · sin mensualidades hasta marzo 2027</option><option value="basico">Básico · $99 alta · sin mensualidades hasta marzo 2027 · luego $49 MXN/mes</option></select></div>
     <label class="acepto"><input type="checkbox" required> Acepto el <a href="/aviso-de-privacidad/" target="_blank">aviso de privacidad</a> y que LicLink me contacte por WhatsApp.</label>
     <button class="btn btn-oro brilla" type="submit">{WA}Crear mi perfil profesional</button>
     <p class="fino">Solo publicamos tu perfil cuando tú lo apruebas.</p>
@@ -511,7 +511,7 @@ TERMINOS = [
  ("Para quien busca abogado", ["Usar LicLink es gratis. Los honorarios y condiciones se acuerdan directamente con cada abogado, quien es el único responsable de su servicio. Si estás en peligro inmediato, llama al 911."]),
  ("Verificación", ["«Cédula profesional verificada» significa que LicLink consultó la cédula del abogado en el Registro Nacional de Profesionistas de la SEP y que corresponde a la persona del perfil, en la fecha indicada. «Datos profesionales registrados» significa que el abogado autorizó su perfil y nos dio sus datos, pero aún no completamos esa revisión."]),
  ("Para abogados: perfil y publicación", ["El abogado garantiza que sus datos son verdaderos y que tiene derecho a ejercer. Solo publicamos un perfil cuando el abogado lo aprueba. Podemos retirar perfiles con información falsa o engañosa."]),
- ("Planes y pagos", ["Básico: alta única de $99 MXN y $49 MXN al mes. Premium: alta única de $399 MXN y $149 MXN al mes. La mensualidad se paga por adelantado. Si un pago no se recibe, el perfil se oculta hasta que se regularice.",
+ ("Planes y pagos", ["Básico: alta única de $99 MXN y $49 MXN al mes. Premium: alta única de $499 MXN y $149 MXN al mes. Promoción de lanzamiento: no se cobran mensualidades antes de marzo de 2027; la primera mensualidad se cobra en marzo de 2027. La mensualidad se paga por adelantado. Si un pago no se recibe, el perfil se oculta hasta que se regularice.",
    "Socios fundadores: quienes se registren en la etapa de lanzamiento conservan su precio mientras su suscripción siga activa sin interrupción. Si cancelan y regresan después, aplica el precio vigente."]),
  ("Cancelación", ["Puedes cancelar cuando quieras con un mensaje de WhatsApp, sin penalización ni contrato forzoso. El perfil sigue visible hasta el final del mes pagado. El alta no es reembolsable una vez que el perfil fue publicado."]),
  ("Reseñas", ["Las reseñas de los abogados viven en Google Maps. LicLink no las escribe, no las edita y no las borra, y no paga ni premia a nadie por dejarlas."]),

@@ -7,10 +7,11 @@
 - Commits: `git -c user.name="LicLink" -c user.email="noreply@anthropic.com" commit` (más las líneas de atribución que indique el sistema).
 - Sitio estático, sin frameworks ni pasos de compilación. `public/` se publica tal cual.
 
-## Planes y precios
+## Planes y precios (actualizado 26 nov 2026)
 - **Básico:** $99 de alta + $49 al mes.
-- **Premium:** $399 de alta + **$149 al mes**. "Socios fundadores" conservan ese precio mientras sigan activos.
-- Se habló de subir a $249/mes más adelante; **no está decidido**. Usa $149 salvo que él diga otra cosa.
+- **Premium:** **$499 de alta** + $149 al mes. "Socios fundadores" conservan ese precio mientras sigan activos.
+- **Promoción de lanzamiento: NO se cobran mensualidades hasta marzo de 2027** (la primera mensualidad se cobra en marzo 2027). Solo se cobra el alta.
+- Meta de él: llenar primero **CDMX y Estado de México hasta 100 abogados**, después pasar al siguiente estado.
 
 ## Flujo típico: "da de alta a este abogado"
 Él manda capturas de Facebook (logo, banner, anuncio) y datos (teléfono, ciudad, materias, redes).
@@ -65,7 +66,7 @@ Otros pedidos frecuentes:
 ## Textos que funcionan (él copia y pega)
 - **Mensaje de prospección** (el que sí vende, ~1 de cada 6): cercano, nada invasivo, que despierte curiosidad, **sin precio**. Idea central: *"Lic., ya no busque clientes. Nosotros lo hacemos por usted. Sea parte de LicLink…"*. Que diga que le conseguimos/atraemos clientes, pero sin prometer resultados garantizados.
 - **Texto de muestra** — formato que él prefiere (nov 2026): cada punto en una frase completa y **personalizada con lo real de su perfil** (su estado/ciudad en la guía y en Google, "con su foto/logo, sus servicios, su horario…, sus N números" solo si es cierto). Ejemplo:
-  "⚖️ Aparece en la guía de abogados de Yucatán, donde la gente busca abogado por ciudad y por materia. / 📲 Sus clientes le escriben directo a su WhatsApp con un solo toque, sin intermediarios. / ⭐ Perfil Premium destacado, con su foto, sus servicios, su horario 24/7 y sus 3 números. / 🔎 Su perfil está hecho para aparecer en Google cuando alguien busca abogado en Mérida. / 📢 Nosotros promocionamos la guía para atraerle clientes. / 🖼️ Incluye su código QR para estados y redes." Cierre: "*Plan Premium: $399 de alta y luego solo $149 al mes.* Como socio fundador conserva ese precio mientras siga activo. Si le gusta, se lo dejo activo hoy mismo. Si quiere cambiar algo, dígame y lo ajustamos."
+  "⚖️ Aparece en la guía de abogados de Yucatán, donde la gente busca abogado por ciudad y por materia. / 📲 Sus clientes le escriben directo a su WhatsApp con un solo toque, sin intermediarios. / ⭐ Perfil Premium destacado, con su foto, sus servicios, su horario 24/7 y sus 3 números. / 🔎 Su perfil está hecho para aparecer en Google cuando alguien busca abogado en Mérida. / 📢 Nosotros promocionamos la guía para atraerle clientes. / 🖼️ Incluye su código QR para estados y redes." Cierre: "*Plan Premium: $499 de alta y sin mensualidades hasta marzo de 2027.* Después, $149 al mes; como socio fundador conserva ese precio mientras siga activo. Si le gusta, se lo dejo activo hoy mismo. Si quiere cambiar algo, dígame y lo ajustamos."
 - Formato anterior (más corto), con emojis:
   saludo + enlace → "Lo que gana con su espacio en LicLink":
   - ⚖️ aparece en la guía de su estado
@@ -75,7 +76,7 @@ Otros pedidos frecuentes:
   - 📢 nosotros promocionamos la guía
   - 🖼️ incluye QR para estados
 
-  Después: "Plan Premium: $399 de alta y luego solo $149 al mes. Como socio fundador conserva ese precio mientras siga activo." y "Si le gusta, se lo dejo activo hoy mismo…". Trata de "usted" al abogado.
+  Después: "Plan Premium: $499 de alta y sin mensualidades hasta marzo de 2027; después $149 al mes. Como socio fundador conserva ese precio mientras siga activo." y "Si le gusta, se lo dejo activo hoy mismo…". Trata de "usted" al abogado.
 - **Texto para que el abogado suba su imagen/flyer** (formato que él pidió, promociona LicLink): "⚖️ <dolor del cliente>? <frase concreta>. / En <Despacho> te <qué hacen, servicios clave y zona>. / Orgullosamente Despacho Destacado en LicLink, la guía de abogados de México ⭐ / 📲 Escríbenos por WhatsApp: 55-4849-9539 / 👉 liclink.com.mx/<slug>". Corto, sin listas largas ni hashtags.
 - Textos dentro de las páginas (para clientes): de tú, verbo primero en botones.
 

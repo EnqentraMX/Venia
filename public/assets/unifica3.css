@@ -30,3 +30,5 @@ body{background:var(--u-crema)}
 .pie{background:var(--u-tinta)!important;color:#bfb5a4}
 .pie a{color:#e8dfd0}
 .pie .marca i{color:var(--u-oro2);font-style:normal}
+.pl .alta .promo{display:block;color:#1f7a45;font-weight:800;margin-bottom:2px}
+.pl.prem .alta .promo{color:#8fe3b0}
