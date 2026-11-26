@@ -80,7 +80,7 @@ Otros pedidos frecuentes:
 - Textos dentro de las páginas (para clientes): de tú, verbo primero en botones.
 
 ## Estilo visual actual (diseño v3, oficial desde 18 nov 2026)
-- **Perfiles:** `herramientas/v3.py` (landing de cada abogado: portada con foto o logo en tarjeta dorada, pestañas, "¿Qué te pasó?", servicios desplegables, costos, mapa de Google, barra fija de WhatsApp; en computadora dos columnas con tarjeta fija). `generar.py` lo usa solo para los perfiles `plantilla: "v2"` (`USAR_V3 = True`). Estilos: `public/assets/v3.css` + `perfil3.css`.
+- **Perfiles:** `herramientas/v3.py` (landing de cada abogado: portada con foto o logo en tarjeta dorada, pestañas, caja "Cuéntanos brevemente qué te pasó" (texto libre + ejemplos de sus situaciones que llenan la caja; abre WhatsApp con "Mi caso: …"), servicios desplegables, costos, mapa de Google, barra fija de WhatsApp; en computadora dos columnas con tarjeta fija). `generar.py` lo usa solo para los perfiles `plantilla: "v2"` (`USAR_V3 = True`). Estilos: `public/assets/v3.css` + `perfil3.css`.
 - Logos de perfil con "luz LED" dorada que recorre el contorno (`.led` en perfil3.css, vuelta cada 6 s).
 - **Inicio:** `herramientas/inicio3.html` + `inicio3.py` (lo llama `guia.py`, `INICIO_V3 = True`): "Cuéntanos qué pasó" con detección de materia por palabras clave, destacados Premium que corren solos (y se pueden mover con el dedo o con flechas ‹ ›) y cambian de orden cada día, consejo legal del día, situaciones (+ "Otro asunto"), guías, confianza, preguntas frecuentes.
 - Colores originales: crema `#f5efe4`, tinta `#15120e`, oro `#b08a45`/`#d8b874`. Tipografía: **Plus Jakarta Sans** (la original; él rechazó serif tipo Lexia, Caslon y Gloock). Fuentes servidas desde `public/assets/fuentes/`.
@@ -91,6 +91,7 @@ Otros pedidos frecuentes:
 - Vista previa al compartir (`compartir.png`, 1200×630): crema, logo grande con marco dorado a la derecha.
 - Imagen de estado: oscura, sello dorado "★ DESPACHO DESTACADO", tarjeta crema con QR.
 - **Rediseño 22 nov 2026** (tras analizar Doctoralia, Top Doctors, Louverdi, Jusbrasil, Avvo, elAbogado): inicio en orden portada (titular más chico + selector de *estado* dentro de la caja) → Cómo funciona (3 pasos + línea "Abogados en N estados · 10 materias · Sin comisiones") → Destacados → Busca por materia (tarjetas que muestran abogados del estado ahí mismo) → calculadora → consejo + guías → confianza → preguntas → para abogados → pie con estados y materias. Destacados, materias, guías, preguntas (con FAQPage) y pie van **escritos en el HTML** desde `inicio3.py` para que Google los lea. Se quitaron la cinta de materias, "¿Qué te pasó?" y el cierre "Actuar a tiempo" (repetían).
+- **Listados por ciudad/materia:** los Premium rotan de orden cada día (JS al final de `public/assets/guia.js`); los Básicos siempre abajo.
 - **Nunca mostrar cuántos abogados hay** (en ninguna página). Solo estados/municipios por ahora: **no** agregar municipios hasta que haya más abogados.
 - Para abogados: planes en dos tarjetas de precio + tabla comparativa (`planes_html`); "sin contratos" aparece una vez en "Lo que nos hace distintos".
 - Fichas Básico sin foto/logo muestran una balanza dorada (no iniciales). En perfiles v3, "Atiende" muestra solo 2 materias.

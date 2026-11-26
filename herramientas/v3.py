@@ -80,7 +80,15 @@ def construir(a):
     else: consulta_txt = "Pregunta sin compromiso"
     h24 = all(v == ["00:00", "23:59"] for v in a.get("horario", {}).values()) and a.get("horario")
 
-    # Tu caso
+    # Tu caso: caja libre + ejemplos que llenan la caja
+    sits = [c["texto"] for c in a.get("situaciones", [])]
+    ejemplo = sits[0] if sits else "Necesito asesoría sobre…"
+    corto = lambda t: (t[:38].rsplit(" ", 1)[0] + "…") if len(t) > 40 else t
+    ejemplos = "".join(f'<button type="button" data-t="{E(t)}">{E(corto(t))}</button>' for t in sits[:4])
+    wa_base = "https://wa.me/" + wa_num + "?text="
+    es_desp = not re.match(r"(Lic|Licda|Mtra|Mtro|Abogad[oa]\b|Dr)", a["nombre"])
+    primer_nombre = "El despacho" if es_desp else ("La abogada" if titulo_ab == "Abogada" else "El abogado")
+    al_abogado = "al despacho" if es_desp else ("a la abogada" if titulo_ab == "Abogada" else "al abogado")
     casos = "".join(
         f'<a class="caso{" urg" if c.get("urgente") else ""} rv d{min(i,4)}" target="_blank" rel="noopener" href="{E(wa(c["texto"].rstrip(".") + ". ¿Me puede orientar?"))}">'
         f'<span class="n">{i+1:02d}</span><p>{E(c["texto"])}<small>{"Urgente · escríbele ahora" if c.get("urgente") else "Escríbele por WhatsApp"}</small></p>{ic("fl","i fl")}</a>'
@@ -140,7 +148,11 @@ def construir(a):
  <section class="cita sec" id="sobre"><div class="kick rv">Sobre su trabajo</div><blockquote class="rv d1">{E(a.get("frase") or a.get("titulo",""))}</blockquote><p class="rv d2">{E(texto_intro)}</p>
   <div class="firma-c rv d3"><span class="av" style="background-image:url('{avatar}')"></span><span><b>{E(a["nombre"])}</b><small>{E(a.get("titulo",""))}</small></span></div>
   <div class="valores rv d3">{valores}</div></section>
- <section class="sec" id="caso"><div class="kick rv">Tu caso</div><h2 class="cs rv d1">¿Qué te <span>pasó?</span></h2><p class="baj rv d2">Toca tu situación y se abre WhatsApp con tu mensaje listo.</p><div class="casos">{casos}</div></section>
+ <section class="sec" id="caso"><div class="kick rv">Tu caso</div><h2 class="cs rv d1">Cuéntanos brevemente <span>qué te pasó.</span></h2><p class="baj rv d2">{E(primer_nombre)} recibirá tu mensaje por WhatsApp y te orientará.</p>
+  <div class="cajacaso rv d2"><textarea id="txtCaso" rows="4" maxlength="600" placeholder="Ej.: {E(ejemplo)}"></textarea>
+   <div class="ejs"><span>Ejemplos:</span>{ejemplos}</div>
+   <button class="btn btn-oro" id="bCaso" data-wa="{E(wa_base)}">{WA}Enviar mi caso {E(al_abogado)}</button>
+   <small>Se abre WhatsApp con tu mensaje listo; solo presiona enviar. LicLink no guarda lo que escribes.</small></div></section>
  <section class="sec" id="servicios"><div class="kick rv">Servicios</div><h2 class="cs rv d1">En qué te <span>puede ayudar.</span></h2><div class="serv">{serv}</div></section>
  <section class="sec" id="costos"><div class="kick rv">Costos</div><h2 class="cs rv d1">Sin <span>sorpresas.</span></h2><div class="precios rv d2">{precios}</div></section>
  <section class="sec"><div class="kick rv">Cómo funciona</div><h2 class="cs rv d1">Tres pasos, <span>cero vueltas.</span></h2><div class="pasos"><div class="paso rv"><b>Escríbele</b><p>Cuéntale tu situación por WhatsApp, con tus palabras.</p></div><div class="paso rv d1"><b>Te orienta</b><p>Te explica tus opciones y lo que necesitas.</p></div><div class="paso rv d2"><b>Defiende tu caso</b><p>Si decides avanzar, se encarga de todo el proceso.</p></div></div></section>
@@ -167,6 +179,9 @@ document.querySelectorAll(".sv button").forEach(b=>b.onclick=()=>{{const s=b.par
 const tabs=[...document.querySelectorAll(".tabs a")],secs=tabs.map(t=>document.querySelector(t.getAttribute("href")));
 const so=new IntersectionObserver(es=>es.forEach(e=>{{if(e.isIntersecting){{const i=secs.indexOf(e.target);tabs.forEach((t,j)=>t.classList.toggle("on",j===i));const c=tabs[i].parentElement;c.scrollTo({{left:tabs[i].offsetLeft-c.clientWidth/2+tabs[i].offsetWidth/2,behavior:"smooth"}})}}}}),{{rootMargin:"-40% 0px -55% 0px"}});
 secs.forEach(s=>s&&so.observe(s));
+const tc=document.getElementById("txtCaso"),bc=document.getElementById("bCaso");
+document.querySelectorAll(".ejs button").forEach(b=>b.onclick=()=>{{tc.value=b.dataset.t+". ";tc.focus();tc.setSelectionRange(tc.value.length,tc.value.length)}});
+bc.onclick=()=>{{const t=tc.value.trim();if(t.length<5){{tc.focus();tc.classList.add("vacia");setTimeout(()=>tc.classList.remove("vacia"),600);return}}window.open(bc.dataset.wa+encodeURIComponent("Hola, lo encontré en LicLink. Mi caso: "+t),"_blank","noopener")}};
 document.getElementById("bComp").onclick=async()=>{{const d={{title:document.title,url:location.href}};try{{if(navigator.share)await navigator.share(d);else{{await navigator.clipboard.writeText(location.href);alert("Enlace copiado")}}}}catch(e){{}}}};
 </script>
 </body></html>"""

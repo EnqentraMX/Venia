@@ -217,3 +217,20 @@
     setTimeout(function () { $$(".lista .rv").forEach(function (e) { io.observe(e); }); }, 0);
   } else $$(".rv").forEach(function (e) { e.classList.add("si"); });
 })();
+
+/* Rotación diaria de abogados Premium en los listados; los Básicos quedan siempre abajo. */
+(function () {
+  var listas = document.querySelectorAll(".lista");
+  if (!listas.length) return;
+  var dia = Math.floor((Date.now() - new Date().getTimezoneOffset() * 6e4) / 864e5);
+  function rnd(seed) { return function () { seed |= 0; seed = seed + 0x6D2B79F5 | 0; var t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+  Array.prototype.forEach.call(listas, function (lista, n) {
+    var hijos = Array.prototype.slice.call(lista.children);
+    var prem = hijos.filter(function (h) { return h.classList.contains("prem"); });
+    var resto = hijos.filter(function (h) { return !h.classList.contains("prem"); });
+    if (prem.length < 2) return;
+    var r = rnd(dia * 31 + n + location.pathname.length);
+    for (var i = prem.length - 1; i > 0; i--) { var j = Math.floor(r() * (i + 1)); var t = prem[i]; prem[i] = prem[j]; prem[j] = t; }
+    prem.concat(resto).forEach(function (h) { lista.appendChild(h); });
+  });
+})();
