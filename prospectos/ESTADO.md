@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 56 · Borrados: 44
+Propuestas: 0 · Vendidos: 55 · Borrados: 45
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -48,6 +48,7 @@ Propuestas: 0 · Vendidos: 56 · Borrados: 44
 | 2026-11-18 | Lic. Jorge Hernández | /jorge-hernandez/ | borrar | 3346766554 |
 | 2026-11-18 | Lic. Enrique Díaz | /diaz-asociados/ | borrar | 8110305039 |
 | 2026-11-19 | Corporativo Jurídico | /corporativo-juridico-tuxtla/ | borrar | 9613272094 |
+| 2026-11-26 | Firma Legal SG | /firma-legal-sg-premium-pausado/ | borrar | 5572190019 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
 | 2026-11-07 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | vendido | https://www.facebook.com/profile.php?id=61575816882807 |
@@ -102,5 +103,4 @@ Propuestas: 0 · Vendidos: 56 · Borrados: 44
 | 2026-11-21 | Lic. Gabriela Carbajal | /gabriela-carbajal/ | vendido | 5534417622 |
 | 2026-11-22 | Consorcio Jurídico Hernández & Asociados | /consorcio-hernandez/ | vendido | 9611945120 |
 | 2026-11-26 | Garrido Abogados | /garrido-abogados/ | vendido | 2224127707 |
-| 2026-11-26 | Firma Legal SG | /firma-legal-sg/ | vendido | 5572190019 |
 | 2026-11-26 | VM Consultores Jurídicos y Administrativos | /vm-consultores/ | vendido | https://www.facebook.com/profile.php?id=61591488875540 |

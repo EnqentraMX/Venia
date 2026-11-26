@@ -12027,7 +12027,7 @@
     "fuente": "Facebook"
   },
   {
-    "slug": "firma-legal-sg",
+    "slug": "firma-legal-sg-premium-pausado",
     "nombre": "Firma Legal SG",
     "despacho": "Firma Legal",
     "sufijo": "SG",
@@ -12119,8 +12119,8 @@
         ]
       }
     ],
-    "estado": "vendido",
-    "plan": "premium",
+    "estado": "borrar",
+    "plan": "basico",
     "alta": "2026-11-26",
     "fuente": "Facebook"
   },

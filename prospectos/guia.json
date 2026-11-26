@@ -1927,7 +1927,7 @@
    "penal",
    "civil"
   ],
-  "plan": "premium",
+  "plan": "basico",
   "foto": "/firma-legal-sg/logo.jpg",
   "logo": true,
   "fondo": "#ffffff",
@@ -1937,9 +1937,7 @@
   "cedula": "12251572",
   "verificada": false,
   "verificada_fecha": "",
-  "pagina": "/firma-legal-sg/",
   "redes": {},
-  "resena": "",
   "estado": "activo",
   "alta": "2026-11-26",
   "vence": "",

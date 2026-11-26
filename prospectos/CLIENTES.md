@@ -21,7 +21,6 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Dávila Ramírez Vivas | premium | Estado de México | 2026-11-19 | — | pendiente | activo | no |
 | Espinoza y Asociados | premium | Ciudad Obregón | 2026-11-19 | — | pendiente | activo | no |
 | F&B Abogados Penalistas | premium | Estado de México | 2026-11-09 | — | pendiente | activo | no |
-| Firma Legal SG | premium | Ciudad de México | 2026-11-26 | — | pendiente | activo | no |
 | Firmeza Legal Palacios | premium | Querétaro | 2026-11-06 | — | pendiente | activo | no |
 | Flores Bufete Jurídico | premium | Tijuana | 2026-11-19 | — | pendiente | activo | no |
 | Forseti Lex Despacho Jurídico | premium | Chihuahua | 2026-11-09 | — | pendiente | activo | no |
@@ -64,6 +63,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Castillo & Abogados | basico | Monterrey | 2026-11-06 | — | pendiente | activo | no |
 | Corporativo Jurídico Iure Códex | basico | Tijuana | 2026-11-16 | — | pendiente | activo | no |
 | Entendemos tu Derecho Mx | basico | Ciudad de México | 2026-11-22 | — | pendiente | activo | no |
+| Firma Legal SG | basico | Ciudad de México | 2026-11-26 | — | pendiente | activo | no |
 | García Aguirre & Asociados | basico | Estado de México | 2026-11-20 | — | pendiente | activo | no |
 | Lic. Edgar Licea Ciriaco | basico | Ciudad de México | 2026-11-22 | — | pendiente | activo | no |
 | Lic. Itzel Abigail Zavala Osnaya | basico | Estado de México | 2026-11-23 | — | pendiente | activo | no |
