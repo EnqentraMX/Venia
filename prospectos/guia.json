@@ -1916,5 +1916,33 @@
   "alta": "2026-11-26",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "firma-legal-sg",
+  "nombre": "Firma Legal SG",
+  "rol": "Despacho jurídico · Familiar, penal y civil · Ciudad de México",
+  "ciudad": "cdmx",
+  "materias": [
+   "familiar",
+   "penal",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/firma-legal-sg/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "SG",
+  "whatsapp": "525572190019",
+  "telefono": "5572190019",
+  "cedula": "12251572",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/firma-legal-sg/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-26",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
