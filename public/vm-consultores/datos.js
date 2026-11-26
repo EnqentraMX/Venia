@@ -9,7 +9,7 @@ window.DATOS = {
   "sufijo": "Jurídicos y Administrativos",
   "abogado": "VM Consultores Jurídicos y Administrativos",
   "titulo": "Consultores jurídicos y administrativos",
-  "descripcion": "VM Consultores Jurídicos y Administrativos, con la Lic. Lizeth Velázquez y el Lic. Jesús Morales. Asuntos laborales, fiscales, familiares, administrativos, civiles y mercantiles, y trámites ante SAT, IMSS, Infonavit, Fonacot, IFREM y más. Asesoría inicial de $300 que se toma a cuenta si contratas el servicio.",
+  "descripcion": "VM Consultores Jurídicos y Administrativos, con el Lic. Jesús Morales y la Lic. Lizeth Velázquez. Asuntos laborales, fiscales, familiares, administrativos, civiles y mercantiles, y trámites ante SAT, IMSS, Infonavit, Fonacot, IFREM y más. Asesoría inicial de $300 que se toma a cuenta si contratas el servicio.",
   "cedula": "",
   "modalidad": "Asesoría inicial $300",
   "iniciales": "VM",
@@ -18,17 +18,17 @@ window.DATOS = {
   "fondoLogo": "#ffffff",
   "equipo": [
     {
-      "nombre": "Lic. Lizeth Velázquez",
-      "rol": "WhatsApp 55 3803 0833"
-    },
-    {
       "nombre": "Lic. Jesús Morales",
       "rol": "WhatsApp 56 3225 1700"
+    },
+    {
+      "nombre": "Lic. Lizeth Velázquez",
+      "rol": "WhatsApp 55 3803 0833"
     }
   ],
   "telefonos": [
     {
-      "numero": "5632251700",
+      "numero": "5538030833",
       "whatsapp": true
     }
   ],
@@ -45,9 +45,9 @@ window.DATOS = {
     ],
     "texto": "Laboral, fiscal, familiar, civil, mercantil y trámites ante SAT, IMSS, Infonavit y Fonacot. Asesoría inicial de $300 que se toma a cuenta si nos contratas."
   },
-  "whatsapp": "525538030833",
-  "telefono": "5538030833",
-  "telefonoVisible": "55 3803 0833",
+  "whatsapp": "525632251700",
+  "telefono": "5632251700",
+  "telefonoVisible": "563 225 1700",
   "correo": "vmconsultoresja@gmail.com",
   "consultas": [
     {

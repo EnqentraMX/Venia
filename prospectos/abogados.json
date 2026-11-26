@@ -12139,17 +12139,17 @@
     "plantilla": "v2",
     "estilo": "claro",
     "ciudad": "CDMX y Estado de México",
-    "telefono": "5538030833",
+    "telefono": "5632251700",
     "telefonos_extra": [
       {
-        "numero": "5632251700",
+        "numero": "5538030833",
         "whatsapp": true
       }
     ],
     "correo": "vmconsultoresja@gmail.com",
     "facebook": "https://www.facebook.com/profile.php?id=61591488875540",
     "referencia": "VM Consultores Jurídicos y Administrativos: laboral, fiscal, familiar, administrativo, civil y mercantil. Trámites y defensa ante SAT, IMSS, Infonavit, Fonacot e IFREM.",
-    "descripcion": "VM Consultores Jurídicos y Administrativos, con la Lic. Lizeth Velázquez y el Lic. Jesús Morales. Asuntos laborales, fiscales, familiares, administrativos, civiles y mercantiles, y trámites ante SAT, IMSS, Infonavit, Fonacot, IFREM y más. Asesoría inicial de $300 que se toma a cuenta si contratas el servicio.",
+    "descripcion": "VM Consultores Jurídicos y Administrativos, con el Lic. Jesús Morales y la Lic. Lizeth Velázquez. Asuntos laborales, fiscales, familiares, administrativos, civiles y mercantiles, y trámites ante SAT, IMSS, Infonavit, Fonacot, IFREM y más. Asesoría inicial de $300 que se toma a cuenta si contratas el servicio.",
     "modalidad": "Asesoría inicial $300",
     "consultas": [
       {
@@ -12260,12 +12260,12 @@
     ],
     "equipo": [
       {
-        "nombre": "Lic. Lizeth Velázquez",
-        "rol": "WhatsApp 55 3803 0833"
-      },
-      {
         "nombre": "Lic. Jesús Morales",
         "rol": "WhatsApp 56 3225 1700"
+      },
+      {
+        "nombre": "Lic. Lizeth Velázquez",
+        "rol": "WhatsApp 55 3803 0833"
       }
     ],
     "estado": "vendido",
