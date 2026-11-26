@@ -25,6 +25,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Flores Bufete Jurídico | premium | Tijuana | 2026-11-19 | — | pendiente | activo | no |
 | Forseti Lex Despacho Jurídico | premium | Chihuahua | 2026-11-09 | — | pendiente | activo | no |
 | Gallegos & Asociados | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
+| Garrido Abogados | premium | Puebla | 2026-11-26 | — | pendiente | activo | no |
 | JTV Firma Legal | premium | Puebla | 2026-11-19 | — | pendiente | activo | no |
 | Jiménez Trejo Abogados | premium | Ciudad de México | 2026-11-21 | — | pendiente | activo | no |
 | Lex Brevis MX | premium | Ciudad de México | 2026-11-12 | — | pendiente | activo | no |

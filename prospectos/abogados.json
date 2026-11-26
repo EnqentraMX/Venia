@@ -11850,5 +11850,180 @@
     "plan": "premium",
     "alta": "2026-11-22",
     "fuente": "WhatsApp"
+  },
+  {
+    "slug": "garrido-abogados",
+    "nombre": "Garrido Abogados",
+    "despacho": "Garrido",
+    "sufijo": "Abogados",
+    "despacho_largo": "Garrido Abogados | Despacho Jurídico en Xicotepec de Juárez, Puebla",
+    "titulo": "Soluciones jurídicas de primer nivel",
+    "iniciales": "GA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0b1a33",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Xicotepec de Juárez, Puebla",
+    "telefono": "2224127707",
+    "direccion": "Calle Florida #134, Colonia Centro, Xicotepec de Juárez, Puebla, 73080",
+    "referencia": "Garrido Abogados, firma jurídica en Xicotepec de Juárez, Puebla, empresa de Garrido Global. Atención personalizada las 24 horas en Calle Florida #134, Colonia Centro.",
+    "descripcion": "Garrido Abogados, una de las mejores firmas jurídicas a nivel nacional, empresa perteneciente a Garrido Global. Profesionales con años de experiencia en Xicotepec de Juárez, Puebla: familiar, civil, penal, mercantil, laboral, amparo, fiscal, corporativo y trámites migratorios.",
+    "modalidad": "Atención personalizada 24 horas",
+    "horario": {
+      "lunes": [
+        "00:00",
+        "23:59"
+      ],
+      "martes": [
+        "00:00",
+        "23:59"
+      ],
+      "miercoles": [
+        "00:00",
+        "23:59"
+      ],
+      "jueves": [
+        "00:00",
+        "23:59"
+      ],
+      "viernes": [
+        "00:00",
+        "23:59"
+      ],
+      "sabado": [
+        "00:00",
+        "23:59"
+      ],
+      "domingo": [
+        "00:00",
+        "23:59"
+      ]
+    },
+    "nota_horario": "Atención personalizada las 24 horas del día.",
+    "portada": [
+      "No dejes que tus",
+      "problemas legales",
+      "te agobien."
+    ],
+    "texto_portada": "Una de las mejores firmas jurídicas a nivel nacional. Soluciones legales de primer nivel en Xicotepec de Juárez, Puebla.",
+    "frase": "Soluciones jurídicas de primer nivel.",
+    "compromisos": [
+      "Años de experiencia",
+      "Atención personalizada",
+      "Atención 24 horas",
+      "Soluciones de primer nivel"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar o me están acusando de un delito",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito divorcio, pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron o no me pagaron lo que me corresponde",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato, cobrar una deuda o resolver un problema con mi empresa",
+        "urgente": false
+      },
+      {
+        "texto": "Una autoridad violó mis derechos o necesito un amparo",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos más delicados de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa firme y estratégica cuando más lo necesitas.",
+        "puntos": [
+          "Defensa penal",
+          "Denuncias y querellas",
+          "Audiencias"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio y tus acuerdos.",
+        "puntos": [
+          "Contratos y convenios",
+          "Juicios civiles",
+          "Propiedades"
+        ]
+      },
+      {
+        "nombre": "Mercantil y corporativo",
+        "icono": "maletin",
+        "texto": "Soluciones legales para tu negocio.",
+        "puntos": [
+          "Cobro de pagarés y deudas",
+          "Asesoría corporativa",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Laboral",
+        "icono": "acuerdo",
+        "texto": "Defendemos lo que te corresponde como trabajador.",
+        "puntos": [
+          "Despidos y liquidaciones",
+          "Prestaciones laborales"
+        ]
+      },
+      {
+        "nombre": "Amparo",
+        "icono": "balanza",
+        "texto": "Defensa contra actos de autoridad que violan tus derechos.",
+        "puntos": [
+          "Amparo directo e indirecto",
+          "Suspensiones"
+        ]
+      },
+      {
+        "nombre": "Fiscal",
+        "icono": "lupa",
+        "texto": "Orientación y defensa en materia fiscal.",
+        "puntos": [
+          "Asesoría fiscal",
+          "Defensa ante autoridades fiscales"
+        ]
+      },
+      {
+        "nombre": "Trámites migratorios",
+        "icono": "edificio",
+        "texto": "Te orientamos paso a paso en tus trámites.",
+        "puntos": [
+          "Asesoría migratoria",
+          "Trámites ante autoridades"
+        ]
+      }
+    ],
+    "equipo": [
+      {
+        "nombre": "Lic. Luis Oscar Garrido Garrido",
+        "rol": "Abogado litigante en materia familiar y penal · 10 años de trayectoria"
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-26",
+    "fuente": "Facebook"
   }
 ]

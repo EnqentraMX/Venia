@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 53 · Borrados: 44
+Propuestas: 0 · Vendidos: 54 · Borrados: 44
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -101,3 +101,4 @@ Propuestas: 0 · Vendidos: 53 · Borrados: 44
 | 2026-11-21 | Jiménez Trejo Abogados | /jimenez-trejo/ | vendido | https://www.facebook.com/share/18dfShwP5E/?mibextid=wwXIfr |
 | 2026-11-21 | Lic. Gabriela Carbajal | /gabriela-carbajal/ | vendido | 5534417622 |
 | 2026-11-22 | Consorcio Jurídico Hernández & Asociados | /consorcio-hernandez/ | vendido | 9611945120 |
+| 2026-11-26 | Garrido Abogados | /garrido-abogados/ | vendido | 2224127707 |

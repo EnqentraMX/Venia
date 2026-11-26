@@ -1884,5 +1884,37 @@
   "alta": "2026-11-23",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "garrido-abogados",
+  "nombre": "Garrido Abogados",
+  "rol": "Firma jurídica · Familiar, penal, civil, mercantil y más · Xicotepec de Juárez, Puebla",
+  "ciudad": "puebla",
+  "materias": [
+   "familiar",
+   "penal",
+   "civil",
+   "mercantil",
+   "laboral",
+   "amparo",
+   "fiscal",
+   "migratorio"
+  ],
+  "plan": "premium",
+  "foto": "/garrido-abogados/logo.jpg",
+  "logo": true,
+  "fondo": "#0b1a33",
+  "iniciales": "GA",
+  "whatsapp": "522224127707",
+  "telefono": "2224127707",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/garrido-abogados/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-26",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
