@@ -150,7 +150,7 @@ def construir(a):
   <div class="firma-c rv d3"><span class="av" style="background-image:url('{avatar}')"></span><span><b>{E(a["nombre"])}</b><small>{E(a.get("titulo",""))}</small></span></div>
   <div class="valores rv d3">{valores}</div></section>
  <section class="sec" id="caso"><div class="kick rv">Tu caso</div><h2 class="cs rv d1">Cuéntanos brevemente <span>qué te pasó.</span></h2><p class="baj rv d2">{E(primer_nombre)} recibirá tu mensaje por WhatsApp y te orientará.</p>
-  <div class="cajacaso rv d2"><textarea id="txtCaso" rows="4" maxlength="600" placeholder="Ej.: {E(ejemplo)}"></textarea>
+  <div class="cajacaso rv d2"><textarea id="txtCaso" rows="4" maxlength="600" placeholder="Ej.: {E(ejemplo)}" data-ej="{E(json.dumps(sits[:6] or [ejemplo], ensure_ascii=False))}"></textarea>
    <div class="ejs"><span>Ejemplos:</span>{ejemplos}</div>
    <button class="btn btn-oro" id="bCaso" data-wa="{E(wa_base)}">{WA}Enviar mi caso {E(al_abogado)}</button>
    <small>Se abre WhatsApp con tu mensaje listo; solo presiona enviar. LicLink no guarda lo que escribes.</small></div></section>
@@ -181,6 +181,11 @@ const tabs=[...document.querySelectorAll(".tabs a")],secs=tabs.map(t=>document.q
 const so=new IntersectionObserver(es=>es.forEach(e=>{{if(e.isIntersecting){{const i=secs.indexOf(e.target);tabs.forEach((t,j)=>t.classList.toggle("on",j===i));const c=tabs[i].parentElement;c.scrollTo({{left:tabs[i].offsetLeft-c.clientWidth/2+tabs[i].offsetWidth/2,behavior:"smooth"}})}}}}),{{rootMargin:"-40% 0px -55% 0px"}});
 secs.forEach(s=>s&&so.observe(s));
 const tc=document.getElementById("txtCaso"),bc=document.getElementById("bCaso");
+(()=>{{const EJ=JSON.parse(tc.dataset.ej||"[]");if(!EJ.length||matchMedia("(prefers-reduced-motion: reduce)").matches)return;let i=0,c=0,borra=false,pausa=0;
+ (function esc(){{if(document.activeElement===tc||tc.value){{tc.placeholder="Escribe aquí tu situación…";return setTimeout(esc,800)}}
+  const t=EJ[i];if(pausa>0){{pausa--;return setTimeout(esc,100)}}
+  if(!borra){{c++;if(c>=t.length){{borra=true;pausa=22}}}}else{{c-=3;if(c<=0){{c=0;borra=false;i=(i+1)%EJ.length}}}}
+  tc.placeholder=t.slice(0,c)+(borra?"":"▍");setTimeout(esc,borra?18:42)}})()}})();
 document.querySelectorAll(".ejs button").forEach(b=>b.onclick=()=>{{tc.value=b.dataset.t+". ";tc.focus();tc.setSelectionRange(tc.value.length,tc.value.length)}});
 bc.onclick=()=>{{const t=tc.value.trim();if(t.length<5){{tc.focus();tc.classList.add("vacia");setTimeout(()=>tc.classList.remove("vacia"),600);return}}window.open(bc.dataset.wa+encodeURIComponent("Hola, lo encontré en LicLink. Mi caso: "+t),"_blank","noopener")}};
 document.getElementById("bComp").onclick=async()=>{{const d={{title:document.title,url:location.href}};try{{if(navigator.share)await navigator.share(d);else{{await navigator.clipboard.writeText(location.href);alert("Enlace copiado")}}}}catch(e){{}}}};
