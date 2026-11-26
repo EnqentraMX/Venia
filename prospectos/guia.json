@@ -1944,5 +1944,40 @@
   "alta": "2026-11-26",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "vm-consultores",
+  "nombre": "VM Consultores Jurídicos y Administrativos",
+  "rol": "Laboral, fiscal, familiar, civil, mercantil · SAT, IMSS, Infonavit · CDMX y Edomex",
+  "ciudad": "cdmx",
+  "otras_ciudades": [
+   "edomex"
+  ],
+  "materias": [
+   "laboral",
+   "fiscal",
+   "familiar",
+   "civil",
+   "mercantil"
+  ],
+  "plan": "premium",
+  "foto": "/vm-consultores/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "VM",
+  "whatsapp": "525538030833",
+  "telefono": "5538030833",
+  "consulta": "Asesoría inicial $300",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/vm-consultores/",
+  "redes": {
+   "facebook": "https://www.facebook.com/profile.php?id=61591488875540"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-26",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

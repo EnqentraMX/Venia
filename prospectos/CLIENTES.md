@@ -57,6 +57,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Servicio Jurídico SP | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | Sánchez Vejar & Asociados | premium | Hermosillo | 2026-11-19 | — | pendiente | activo | no |
 | Tlayohualli Asesoría Legal | premium | Guadalajara | 2026-11-19 | — | pendiente | activo | no |
+| VM Consultores Jurídicos y Administrativos | premium | Ciudad de México | 2026-11-26 | — | pendiente | activo | no |
 | ZF Legal Studio | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
 | Arcos & Pacheco Abogados | basico | Campeche | 2026-11-22 | — | pendiente | activo | no |
 | Ayala y Asociados | basico | Cuernavaca | 2026-11-22 | — | pendiente | activo | no |

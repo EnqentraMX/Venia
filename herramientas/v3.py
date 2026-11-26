@@ -99,6 +99,7 @@ def construir(a):
         for i, x in enumerate(a.get("areas", [])))
     if cons:
         precios = "".join(f'<div class="f"><span>{E(c["modo"])}</span><b class="{"" if c.get("precio") else "g"}">{"$%s" % format(c["precio"], ",") + (f" <small>/ {E(c["unidad"])}</small>" if c.get("unidad") else "") if c.get("precio") else "Gratis"}</b></div>' for c in cons)
+        if a.get("nota_consulta"): precios += f'<p class="nota" style="color:var(--tinta,#15120e);font-weight:600">{E(a["nota_consulta"])}</p>'
         precios += '<p class="nota">Precios de referencia. El costo de tu asunto depende de cada caso.</p>'
     else:
         precios = f'<div class="pide"><b class="cs" style="font-size:24px">Cada caso es distinto.</b><span style="color:var(--gris)">Cuéntale tu situación por WhatsApp y te dice cuánto costaría, sin compromiso.</span><a class="btn btn-tinta" target="_blank" rel="noopener" href="{E(wa("¿Cuánto cuesta una consulta?"))}">Preguntar el costo</a></div>'

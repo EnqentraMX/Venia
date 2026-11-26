@@ -12123,5 +12123,154 @@
     "plan": "premium",
     "alta": "2026-11-26",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "vm-consultores",
+    "nombre": "VM Consultores Jurídicos y Administrativos",
+    "despacho": "VM Consultores",
+    "sufijo": "Jurídicos y Administrativos",
+    "despacho_largo": "VM Consultores Jurídicos y Administrativos | Abogados en CDMX y Estado de México",
+    "titulo": "Consultores jurídicos y administrativos",
+    "iniciales": "VM",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#ffffff",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "CDMX y Estado de México",
+    "telefono": "5538030833",
+    "telefonos_extra": [
+      {
+        "numero": "5632251700",
+        "whatsapp": true
+      }
+    ],
+    "correo": "vmconsultoresja@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61591488875540",
+    "referencia": "VM Consultores Jurídicos y Administrativos: laboral, fiscal, familiar, administrativo, civil y mercantil. Trámites y defensa ante SAT, IMSS, Infonavit, Fonacot e IFREM.",
+    "descripcion": "VM Consultores Jurídicos y Administrativos, con la Lic. Lizeth Velázquez y el Lic. Jesús Morales. Asuntos laborales, fiscales, familiares, administrativos, civiles y mercantiles, y trámites ante SAT, IMSS, Infonavit, Fonacot, IFREM y más. Asesoría inicial de $300 que se toma a cuenta si contratas el servicio.",
+    "modalidad": "Asesoría inicial $300",
+    "consultas": [
+      {
+        "modo": "Asesoría inicial",
+        "precio": 300
+      }
+    ],
+    "nota_consulta": "Si nos contratas, la asesoría inicial se toma a cuenta como parte del pago inicial.",
+    "portada": [
+      "Soluciones jurídicas",
+      "y administrativas",
+      "para ti y tu negocio."
+    ],
+    "texto_portada": "Laboral, fiscal, familiar, civil, mercantil y trámites ante SAT, IMSS, Infonavit y Fonacot. Asesoría inicial de $300 que se toma a cuenta si nos contratas.",
+    "frase": "Te asesoramos en lo legal y en lo administrativo.",
+    "compromisos": [
+      "Dos abogados a tu servicio",
+      "Asesoría inicial $300",
+      "Se toma a cuenta si nos contratas",
+      "Atención por WhatsApp"
+    ],
+    "situaciones": [
+      {
+        "texto": "Tengo un problema con el SAT",
+        "urgente": false
+      },
+      {
+        "texto": "Me despidieron o no me pagaron lo que me corresponde",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un trámite en el IMSS, Infonavit o Fonacot",
+        "urgente": false
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato o cobrar una deuda",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un trámite en el IFREM (Registro Público)",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Laboral",
+        "icono": "maletin",
+        "texto": "Defendemos tus derechos en el trabajo.",
+        "puntos": [
+          "Despidos",
+          "Prestaciones laborales",
+          "Asesoría a trabajadores y patrones"
+        ]
+      },
+      {
+        "nombre": "Fiscal y SAT",
+        "icono": "lupa",
+        "texto": "Te ayudamos a ponerte en orden con el SAT.",
+        "puntos": [
+          "Asesoría fiscal",
+          "Trámites y defensa ante el SAT"
+        ]
+      },
+      {
+        "nombre": "Seguridad social",
+        "icono": "edificio",
+        "texto": "Trámites ante instituciones.",
+        "puntos": [
+          "IMSS",
+          "Infonavit",
+          "Fonacot"
+        ]
+      },
+      {
+        "nombre": "Familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      },
+      {
+        "nombre": "Civil y mercantil",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio y tu negocio.",
+        "puntos": [
+          "Contratos",
+          "Juicios civiles",
+          "Cobranza mercantil"
+        ]
+      },
+      {
+        "nombre": "Administrativo",
+        "icono": "balanza",
+        "texto": "Trámites y defensa ante autoridades.",
+        "puntos": [
+          "Trámites ante el IFREM",
+          "Asuntos administrativos",
+          "Y más"
+        ]
+      }
+    ],
+    "equipo": [
+      {
+        "nombre": "Lic. Lizeth Velázquez",
+        "rol": "WhatsApp 55 3803 0833"
+      },
+      {
+        "nombre": "Lic. Jesús Morales",
+        "rol": "WhatsApp 56 3225 1700"
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-26",
+    "fuente": "Facebook"
   }
 ]
