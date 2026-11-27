@@ -12,6 +12,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Alvídrez Rodríguez & Asociados | premium | Chihuahua | 2026-11-12 | — | pendiente | activo | no |
 | Asesoría Fiscal y Jurídica García | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
 | CS Abogados | premium | Guadalajara | 2026-11-13 | — | pendiente | activo | no |
+| Chicho y Asociados | premium | Estado de México | 2026-11-26 | — | pendiente | activo | no |
 | Cofure Abogados | premium | León | 2026-11-18 | — | pendiente | activo | no |
 | Consorcio Jurídico Hernández & Asociados | premium | Chiapas | 2026-11-22 | — | pendiente | activo | no |
 | Corresponsalía Jurídica Veracruz | premium | Veracruz | 2026-11-20 | — | pendiente | activo | no |

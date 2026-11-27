@@ -12650,5 +12650,124 @@
     "plan": "premium",
     "alta": "2026-11-26",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "chicho-asociados",
+    "nombre": "Chicho y Asociados",
+    "despacho": "Chicho y Asociados",
+    "sufijo": "Estudio Jurídico Integral",
+    "despacho_largo": "Estudio Jurídico Integral Chicho y Asociados | Abogados en Toluca",
+    "titulo": "Estudio jurídico integral",
+    "iniciales": "CA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0d1628",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Toluca, Estado de México",
+    "telefono": "7222660506",
+    "direccion": "Avenida Primero de Mayo #904, Toluca, Estado de México, 50070",
+    "facebook": "https://www.facebook.com/FuerzaIgualitariaSocial",
+    "referencia": "Estudio Jurídico Integral Chicho y Asociados, en Toluca: asesoría y representación legal para personas y empresas en materia fiscal, corporativa, civil, mercantil y familiar, contratos y cobranza.",
+    "descripcion": "Estudio Jurídico Integral “Chicho y Asociados”. Despacho jurídico especializado en asesoría y representación legal para personas, empresas y emprendedores. Atención en asuntos fiscales, corporativos, civiles, familiares y mercantiles, contratos, cobranza y más, con atención personalizada y estrategias jurídicas acordes con tus necesidades.",
+    "modalidad": "Agenda tu consulta por WhatsApp",
+    "portada": [
+      "Estrategia,",
+      "confianza",
+      "y resultados."
+    ],
+    "texto_portada": "Asesoría y representación legal para personas, empresas y emprendedores en Toluca. Fiscal, corporativo, civil, mercantil y familiar.",
+    "frase": "Protegemos tus derechos e intereses.",
+    "compromisos": [
+      "Atención personalizada",
+      "Personas y empresas",
+      "Análisis particular de cada caso",
+      "Estrategias a tu medida"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me llegó un requerimiento del SAT",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito regularizar mi situación fiscal",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero constituir o asesorar mi empresa",
+        "urgente": false
+      },
+      {
+        "texto": "Me deben dinero y quiero cobrarlo",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato",
+        "urgente": false
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho fiscal",
+        "icono": "lupa",
+        "texto": "Personas físicas y morales.",
+        "puntos": [
+          "Asesoría y planeación fiscal",
+          "Atención de requerimientos del SAT",
+          "Defensa ante actos de autoridades fiscales",
+          "Revisión de obligaciones tributarias",
+          "Regularización de situación fiscal",
+          "Asesoría en ISR, IVA y otras contribuciones",
+          "Recursos y medios de defensa fiscal"
+        ]
+      },
+      {
+        "nombre": "Derecho corporativo",
+        "icono": "edificio",
+        "texto": "Para empresas y emprendedores.",
+        "puntos": [
+          "Constitución de sociedades",
+          "Asesoría corporativa",
+          "Contratos empresariales"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio.",
+        "puntos": [
+          "Contratos",
+          "Juicios civiles"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "maletin",
+        "texto": "Cobra lo que te deben.",
+        "puntos": [
+          "Cobranza",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos de tu familia.",
+        "puntos": [
+          "Divorcios",
+          "Pensión alimenticia",
+          "Guarda y custodia"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-26",
+    "fuente": "Facebook"
   }
 ]
