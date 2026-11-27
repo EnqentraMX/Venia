@@ -95,7 +95,7 @@ def construir(a):
         f'<span class="n">{i+1:02d}</span><p>{E(c["texto"])}<small>{"Urgente · escríbele ahora" if c.get("urgente") else "Escríbele por WhatsApp"}</small></p>{ic("fl","i fl")}</a>'
         for i, c in enumerate(a.get("situaciones", [])))
     serv = "".join(
-        f'<div class="sv{" ab" if i == 0 else ""} rv"><button aria-expanded="{"true" if i == 0 else "false"}"><span class="num">{i+1:02d}</span><h3>{E(x["nombre"])}</h3><span class="mas">{ic("mas")}</span></button>'
+        f'<div class="sv{" ab" if i == 0 else ""} rv"><button aria-expanded="{"true" if i == 0 else "false"}"><span class="num">{i+1:02d}</span><h3>{(lambda n: (f'<small style="display:block;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--oro,#b08a45);margin-bottom:4px">{E(n.split(" · ",1)[0])}</small>{E(n.split(" · ",1)[1])}') if " · " in n else E(n))(x["nombre"])}</h3><span class="mas">{ic("mas")}</span></button>'
         f'<div class="det"><div><p>{E(x.get("texto",""))}</p><ul>{"".join(f"<li>{E(p)}</li>" for p in x.get("puntos", []))}</ul></div></div></div>'
         for i, x in enumerate(a.get("areas", [])))
     if cons:
@@ -122,7 +122,7 @@ def construir(a):
     guia_url = "/abogados/" + g["ciudad"] + "/" if g.get("ciudad") else "/"
     estado_ciudad = ciudad.split(",")[0]
     texto_intro = a.get("texto_portada") or a.get("descripcion", "")
-    dato1 = " · ".join(materias[:2]) or a.get("titulo", "")
+    dato1 = a.get("atiende") or " · ".join(materias[:2]) or a.get("titulo", "")
     bg_hero = f"background-image:url('{img}')" + ("" if tiene_foto else f";background-color:{a.get('fondo_logo','#15120e')}")
 
     return f"""<!DOCTYPE html>

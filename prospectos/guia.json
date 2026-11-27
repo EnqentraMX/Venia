@@ -1981,16 +1981,18 @@
  {
   "slug": "jose-muniz",
   "nombre": "Lic. José L. Muñiz",
-  "rol": "Laboral para empresas, penal, mercantil y civil · Torreón, Coahuila",
+  "rol": "Empresas: laboral, fiscal y contratos · Personas: mercantil, hipotecario, penal y familiar · Torreón",
   "ciudad": "torreon",
   "otras_ciudades": [
    "gomez-palacio"
   ],
   "materias": [
    "laboral",
-   "penal",
+   "fiscal",
    "mercantil",
-   "civil"
+   "civil",
+   "penal",
+   "familiar"
   ],
   "plan": "premium",
   "foto": "/jose-muniz/logo.jpg",
