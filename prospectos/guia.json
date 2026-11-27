@@ -2094,5 +2094,32 @@
   "alta": "2026-11-26",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "gerardo-reyes-forense",
+  "nombre": "José Gerardo Reyes Torres · Consultoría Técnico-Forense",
+  "rol": "Perito en criminalística, fotografía forense, tránsito y grafoscopía · CDMX",
+  "ciudad": "cdmx",
+  "materias": [
+   "penal",
+   "civil",
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/gerardo-reyes-forense/logo.jpg",
+  "logo": true,
+  "fondo": "#070f16",
+  "iniciales": "GR",
+  "whatsapp": "522211133898",
+  "telefono": "2211133898",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/gerardo-reyes-forense/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-27",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

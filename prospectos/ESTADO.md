@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 59 · Borrados: 45
+Propuestas: 0 · Vendidos: 60 · Borrados: 45
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -108,3 +108,4 @@ Propuestas: 0 · Vendidos: 59 · Borrados: 45
 | 2026-11-26 | Abogados Laborales Guadalajara y Zapopan | /abogados-laborales-gdl/ | vendido | 3332187920 |
 | 2026-11-26 | Mtra. Alma Delia Ramírez | /alma-delia-ramirez/ | vendido | 5518461582 |
 | 2026-11-26 | Chicho y Asociados | /chicho-asociados/ | vendido | https://www.facebook.com/FuerzaIgualitariaSocial |
+| 2026-11-27 | José Gerardo Reyes Torres | /gerardo-reyes-forense/ | vendido | 2211133898 |

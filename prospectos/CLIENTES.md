@@ -30,6 +30,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Garrido Abogados | premium | Puebla | 2026-11-26 | — | pendiente | activo | no |
 | JTV Firma Legal | premium | Puebla | 2026-11-19 | — | pendiente | activo | no |
 | Jiménez Trejo Abogados | premium | Ciudad de México | 2026-11-21 | — | pendiente | activo | no |
+| José Gerardo Reyes Torres · Consultoría Técnico-Forense | premium | Ciudad de México | 2026-11-27 | — | pendiente | activo | no |
 | Lex Brevis MX | premium | Ciudad de México | 2026-11-12 | — | pendiente | activo | no |
 | Lic. Agustina Nicolás | premium | Ciudad de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Alejandra Solís | premium | León | 2026-11-19 | — | pendiente | activo | no |

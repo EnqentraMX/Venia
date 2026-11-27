@@ -90,6 +90,8 @@ def construir(a):
     es_desp = not re.match(r"(Lic|Licda|Mtra|Mtro|Abogad[oa]\b|Dr)", a["nombre"])
     primer_nombre = "El despacho" if es_desp else ("La abogada" if titulo_ab == "Abogada" else "El abogado")
     al_abogado = "al despacho" if es_desp else ("a la abogada" if titulo_ab == "Abogada" else "al abogado")
+    if a.get("trato") == "el":
+        titulo_ab, es_desp, primer_nombre, al_abogado = "Abogado", False, "El especialista", "al especialista"
     casos = "".join(
         f'<a class="caso{" urg" if c.get("urgente") else ""} rv d{min(i,4)}" target="_blank" rel="noopener" href="{E(wa(c["texto"].rstrip(".") + ". ¿Me puede orientar?"))}">'
         f'<span class="n">{i+1:02d}</span><p>{E(c["texto"])}<small>{"Urgente · escríbele ahora" if c.get("urgente") else "Escríbele por WhatsApp"}</small></p>{ic("fl","i fl")}</a>'
@@ -135,7 +137,7 @@ def construir(a):
 <section class="hero{"" if tiene_foto else " hl"}">{f'<div class="img" style="{bg_hero}"></div>' if tiene_foto else f'<div class="led lcm"><div class="lc" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({img})"></div></div>'}
  <div class="txt intro">
   {f'<span class="led led-mini lt"><span class="milogo" style="background-color:{a.get("fondo_logo","#15120e")};background-image:url({avatar})"></span></span>' if tiene_foto and avatar != img else ""}
-  <div class="kick lt">{E(titulo_ab)} · {E(estado_ciudad)}</div>
+  <div class="kick lt">{E(a.get("etiqueta") or titulo_ab)} · {E(estado_ciudad)}</div>
   <h1 class="cs lt">{h1}</h1>
   <p class="lema lt">{E(a.get("frase") or a.get("titulo",""))}</p>
   <div class="verif lt">{ic("esc")}Perfil destacado en LicLink</div>
