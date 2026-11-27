@@ -55,7 +55,8 @@ window.DATOS = {
         "Despido injustificado",
         "Finiquito y liquidación",
         "Prestaciones no pagadas",
-        "Demandas laborales"
+        "Demandas laborales",
+        "Rescisión laboral"
       ]
     },
     {
@@ -65,7 +66,14 @@ window.DATOS = {
       "puntos": [
         "Defensa ante demandas",
         "Conciliación",
-        "Asesoría preventiva"
+        "Asesoría preventiva",
+        "Huelgas",
+        "Sindicatos",
+        "Desvinculación",
+        "Compliance y cumplimiento normativo",
+        "Inspecciones de la Secretaría del Trabajo",
+        "NOM's",
+        "Corresponsalía"
       ]
     },
     {
