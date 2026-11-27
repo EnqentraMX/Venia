@@ -1977,5 +1977,36 @@
   "alta": "2026-11-26",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "jose-muniz",
+  "nombre": "Lic. José L. Muñiz",
+  "rol": "Laboral para empresas, penal, mercantil y civil · Torreón, Coahuila",
+  "ciudad": "torreon",
+  "otras_ciudades": [
+   "gomez-palacio"
+  ],
+  "materias": [
+   "laboral",
+   "penal",
+   "mercantil",
+   "civil"
+  ],
+  "plan": "premium",
+  "foto": "/jose-muniz/logo.jpg",
+  "logo": true,
+  "fondo": "#000000",
+  "iniciales": "JM",
+  "whatsapp": "528717828281",
+  "telefono": "8717828281",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/jose-muniz/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-26",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

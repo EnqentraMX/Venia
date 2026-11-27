@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 55 · Borrados: 45
+Propuestas: 0 · Vendidos: 56 · Borrados: 45
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -104,3 +104,4 @@ Propuestas: 0 · Vendidos: 55 · Borrados: 45
 | 2026-11-22 | Consorcio Jurídico Hernández & Asociados | /consorcio-hernandez/ | vendido | 9611945120 |
 | 2026-11-26 | Garrido Abogados | /garrido-abogados/ | vendido | 2224127707 |
 | 2026-11-26 | VM Consultores Jurídicos y Administrativos | /vm-consultores/ | vendido | https://www.facebook.com/profile.php?id=61591488875540 |
+| 2026-11-26 | Lic. José L. Muñiz | /jose-muniz/ | vendido | 8717828281 |

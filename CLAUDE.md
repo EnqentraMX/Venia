@@ -24,7 +24,7 @@
    - Horario 24/7: cada día `["00:00","23:59"]`.
    - Usa SOLO datos que él dio; no inventes direcciones, cédulas ni teléfonos.
 3. Agrega su ficha a `prospectos/guia.json` (`slug, nombre, rol, ciudad, materias, plan, foto, logo, fondo, iniciales, whatsapp "52…", telefono, verificada false, pagina, redes, estado "activo", alta, vence, pago`).
-   - Ciudades: `cdmx, edomex, guadalajara, puebla, monterrey, tijuana, leon, chihuahua, san-luis-potosi, los-cabos, yucatan, queretaro, gomez-palacio, hermosillo, chiapas, cancun, veracruz, obregon, tabasco, tamaulipas, cuernavaca, oaxaca, campeche` (+ `otras_ciudades`). Para agregar una ciudad nueva: `CIUDADES` en `herramientas/guia.py`, `CIUDADES_GUIA` en `herramientas/generar.py` y `CIUDAD_PAL` en `public/assets/guia.js`.
+   - Ciudades: `cdmx, edomex, guadalajara, puebla, monterrey, tijuana, leon, chihuahua, san-luis-potosi, los-cabos, yucatan, queretaro, gomez-palacio, hermosillo, chiapas, cancun, veracruz, obregon, tabasco, tamaulipas, cuernavaca, oaxaca, campeche, torreon` (+ `otras_ciudades`). Para agregar una ciudad nueva: `CIUDADES` en `herramientas/guia.py`, `CIUDADES_GUIA` en `herramientas/generar.py` y `CIUDAD_PAL` en `public/assets/guia.js`.
    - Materias: `penal, familiar, laboral, civil, mercantil, sucesiones, amparo, fiscal, agrario, migratorio`.
 4. Genera:
    ```
