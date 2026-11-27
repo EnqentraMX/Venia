@@ -12380,5 +12380,118 @@
     "plan": "premium",
     "alta": "2026-11-26",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "abogados-laborales-gdl",
+    "nombre": "Abogados Laborales Guadalajara y Zapopan",
+    "despacho": "Abogados Laborales",
+    "sufijo": "Guadalajara y Zapopan",
+    "despacho_largo": "Abogados Laborales Guadalajara y Zapopan | Derecho laboral y seguridad social",
+    "titulo": "Abogados laborales",
+    "iniciales": "AL",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#f7f4f1",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Guadalajara y Zapopan",
+    "telefono": "3332187920",
+    "correo": "abogadoslaboralesguadalajarayz@gmail.com",
+    "direccion": "Avenida D 627, Colonia Ecológica Seattle, Zapopan, Jalisco, 45150",
+    "referencia": "Abogados Laborales Guadalajara y Zapopan: equipo especializado en derecho laboral para trabajadores y empresas, seguridad social y multas de fotoinfracciones. Asesoría laboral inicial sin costo.",
+    "descripcion": "Somos un equipo de abogados especializados en derecho laboral. Brindamos asesoría legal a trabajadores y empresas en Guadalajara y Zapopan. También llevamos asuntos de seguridad social y multas de fotoinfracciones. Atención previa cita.",
+    "modalidad": "Atención previa cita",
+    "consultas": [
+      {
+        "modo": "Asesoría inicial laboral",
+        "precio": 0
+      },
+      {
+        "modo": "Asesoría de seguridad social",
+        "precio": 500
+      }
+    ],
+    "portada": [
+      "Defendemos",
+      "tus derechos",
+      "laborales."
+    ],
+    "texto_portada": "Abogados laborales para trabajadores y empresas en Guadalajara y Zapopan. La asesoría laboral inicial no tiene costo.",
+    "frase": "Especialistas en derecho laboral en Guadalajara y Zapopan.",
+    "compromisos": [
+      "Especialistas en laboral",
+      "Trabajadores y empresas",
+      "Asesoría laboral inicial sin costo",
+      "Atención previa cita"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me despidieron de mi trabajo",
+        "urgente": true
+      },
+      {
+        "texto": "No me pagaron mi finiquito o liquidación",
+        "urgente": false
+      },
+      {
+        "texto": "Mi empresa recibió una demanda laboral",
+        "urgente": true
+      },
+      {
+        "texto": "Necesito tramitar mi pensión o un asunto del IMSS",
+        "urgente": false
+      },
+      {
+        "texto": "Me llegó una multa por fotoinfracción",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Laboral para trabajadores",
+        "icono": "maletin",
+        "texto": "Defendemos lo que te corresponde.",
+        "puntos": [
+          "Despido injustificado",
+          "Finiquito y liquidación",
+          "Prestaciones no pagadas",
+          "Demandas laborales"
+        ]
+      },
+      {
+        "nombre": "Laboral para empresas",
+        "icono": "edificio",
+        "texto": "Asesoría y defensa para patrones.",
+        "puntos": [
+          "Defensa ante demandas",
+          "Conciliación",
+          "Asesoría preventiva"
+        ]
+      },
+      {
+        "nombre": "Seguridad social",
+        "icono": "acuerdo",
+        "texto": "Te ayudamos con el IMSS.",
+        "puntos": [
+          "Pensiones",
+          "Trámites ante el IMSS",
+          "Asesoría de seguridad social ($500)"
+        ]
+      },
+      {
+        "nombre": "Fotoinfracciones",
+        "icono": "documento",
+        "texto": "Te ayudamos con multas de tránsito.",
+        "puntos": [
+          "Impugnación de fotoinfracciones",
+          "Asesoría sobre multas"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-26",
+    "fuente": "Facebook"
   }
 ]

@@ -2008,5 +2008,31 @@
   "alta": "2026-11-26",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "abogados-laborales-gdl",
+  "nombre": "Abogados Laborales Guadalajara y Zapopan",
+  "rol": "Laboral (trabajadores y empresas), seguridad social y fotoinfracciones · Zapopan",
+  "ciudad": "guadalajara",
+  "materias": [
+   "laboral"
+  ],
+  "plan": "premium",
+  "foto": "/abogados-laborales-gdl/logo.jpg",
+  "logo": true,
+  "fondo": "#f7f4f1",
+  "iniciales": "AL",
+  "whatsapp": "523332187920",
+  "telefono": "3332187920",
+  "consulta": "Asesoría laboral gratis",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/abogados-laborales-gdl/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-26",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

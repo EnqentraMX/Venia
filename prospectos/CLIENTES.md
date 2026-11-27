@@ -7,6 +7,7 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | AMA Corp Contadores y Abogados | premium | Guadalajara | 2026-11-14 | — | pendiente | activo | no |
 | Abigail Catarino & Abogados | premium | Ciudad de México | 2026-11-14 | — | pendiente | activo | no |
 | Abogada Yulieth Alejandra | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
+| Abogados Laborales Guadalajara y Zapopan | premium | Guadalajara | 2026-11-26 | — | pendiente | activo | no |
 | Abogados Penalistas de Oriente | premium | Ciudad de México | 2026-11-07 | — | pendiente | activo | no |
 | Alvídrez Rodríguez & Asociados | premium | Chihuahua | 2026-11-12 | — | pendiente | activo | no |
 | Asesoría Fiscal y Jurídica García | premium | Puebla | 2026-11-13 | — | pendiente | activo | no |
