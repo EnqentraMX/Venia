@@ -12501,5 +12501,127 @@
     "plan": "premium",
     "alta": "2026-11-26",
     "fuente": "Facebook"
+  },
+  {
+    "slug": "alma-delia-ramirez",
+    "nombre": "Mtra. Alma Delia Ramírez",
+    "despacho": "Alma Delia Ramírez",
+    "sufijo": "Maestra en Derecho",
+    "despacho_largo": "Mtra. Alma Delia Ramírez | Abogada familiar, civil y mercantil en Ciudad de México",
+    "titulo": "Maestra en Derecho",
+    "iniciales": "AR",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#f2f1ec",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad de México",
+    "telefono": "5518461582",
+    "referencia": "Mtra. Alma Delia Ramírez, Maestra en Derecho (Posgrado UNAM). Juicios familiares, civiles y mercantiles, arrendamiento, intestamentarios y pensiones IMSS, ISSSTE y Afore.",
+    "descripcion": "Mtra. Alma Delia Ramírez, Maestra en Derecho por el Posgrado de la UNAM. Especialista en materia familiar: divorcios, pensiones alimenticias, guarda y custodia, convivencias y reconocimiento de paternidad. También juicios civiles y mercantiles, contratos, arrendamiento, cobro de pagarés, intestamentarios, pensiones IMSS, ISSSTE y Afore, y acompañamiento ante el MP.",
+    "modalidad": "Atención directa por WhatsApp",
+    "portada": [
+      "Resuelva sus",
+      "problemas",
+      "legales."
+    ],
+    "texto_portada": "Maestra en Derecho por la UNAM. Especialista en materia familiar, juicios civiles y mercantiles, y pensiones IMSS, ISSSTE y Afore.",
+    "frase": "Especialista en materia familiar, civil y mercantil.",
+    "compromisos": [
+      "Maestra en Derecho (UNAM)",
+      "Especialista en familiar",
+      "Atención directa",
+      "Pensiones IMSS, ISSSTE y Afore"
+    ],
+    "situaciones": [
+      {
+        "texto": "Me quiero divorciar",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito pensión alimenticia o la custodia de mis hijos",
+        "urgente": false
+      },
+      {
+        "texto": "Mi inquilino no me paga la renta",
+        "urgente": false
+      },
+      {
+        "texto": "Falleció un familiar sin testamento",
+        "urgente": false
+      },
+      {
+        "texto": "Quiero tramitar mi pensión del IMSS o ISSSTE o retirar mi Afore",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito que me acompañen al Ministerio Público",
+        "urgente": true
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Especialista en materia familiar.",
+        "puntos": [
+          "Juicios de divorcio",
+          "Pensiones alimenticias",
+          "Guarda y custodia",
+          "Régimen de convivencias",
+          "Reconocimiento de paternidad"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio y tus acuerdos.",
+        "puntos": [
+          "Contratos",
+          "Juicios de arrendamiento",
+          "Juicios civiles"
+        ]
+      },
+      {
+        "nombre": "Sucesiones",
+        "icono": "balanza",
+        "texto": "Te ayudamos a recibir lo que te corresponde.",
+        "puntos": [
+          "Juicios intestamentarios"
+        ]
+      },
+      {
+        "nombre": "Derecho mercantil",
+        "icono": "maletin",
+        "texto": "Cobra lo que te deben.",
+        "puntos": [
+          "Cobro de pagaré",
+          "Juicios mercantiles"
+        ]
+      },
+      {
+        "nombre": "Pensiones",
+        "icono": "edificio",
+        "texto": "Tramita lo que te corresponde.",
+        "puntos": [
+          "Pensiones IMSS",
+          "Pensiones ISSSTE",
+          "Afore"
+        ]
+      },
+      {
+        "nombre": "Acompañamiento ante el MP",
+        "icono": "escudo",
+        "texto": "No vayas solo al Ministerio Público.",
+        "puntos": [
+          "Acompañamiento ante el Ministerio Público"
+        ]
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-26",
+    "fuente": "Facebook"
   }
 ]

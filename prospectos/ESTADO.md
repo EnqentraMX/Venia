@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 57 · Borrados: 45
+Propuestas: 0 · Vendidos: 58 · Borrados: 45
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -106,3 +106,4 @@ Propuestas: 0 · Vendidos: 57 · Borrados: 45
 | 2026-11-26 | VM Consultores Jurídicos y Administrativos | /vm-consultores/ | vendido | https://www.facebook.com/profile.php?id=61591488875540 |
 | 2026-11-26 | Lic. José L. Muñiz | /jose-muniz/ | vendido | 8717828281 |
 | 2026-11-26 | Abogados Laborales Guadalajara y Zapopan | /abogados-laborales-gdl/ | vendido | 3332187920 |
+| 2026-11-26 | Mtra. Alma Delia Ramírez | /alma-delia-ramirez/ | vendido | 5518461582 |

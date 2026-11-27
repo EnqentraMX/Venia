@@ -2034,5 +2034,33 @@
   "alta": "2026-11-26",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "alma-delia-ramirez",
+  "nombre": "Mtra. Alma Delia Ramírez",
+  "rol": "Maestra en Derecho · Familiar, civil, mercantil y pensiones · CDMX",
+  "ciudad": "cdmx",
+  "materias": [
+   "familiar",
+   "civil",
+   "mercantil",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/alma-delia-ramirez/logo.jpg",
+  "logo": true,
+  "fondo": "#f2f1ec",
+  "iniciales": "AR",
+  "whatsapp": "525518461582",
+  "telefono": "5518461582",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/alma-delia-ramirez/",
+  "redes": {},
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-26",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]
