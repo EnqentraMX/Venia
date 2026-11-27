@@ -2121,5 +2121,39 @@
   "alta": "2026-11-27",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "plata-asociados",
+  "nombre": "Despacho Jurídico Plata y Asociados",
+  "rol": "Penal, civil y familiar · Más de 35 años · Nezahualcóyotl, Edomex y CDMX",
+  "ciudad": "edomex",
+  "otras_ciudades": [
+   "cdmx"
+  ],
+  "materias": [
+   "penal",
+   "civil",
+   "familiar",
+   "sucesiones"
+  ],
+  "plan": "premium",
+  "foto": "/plata-asociados/logo.jpg",
+  "logo": true,
+  "fondo": "#0b1a33",
+  "iniciales": "PA",
+  "whatsapp": "525532430976",
+  "telefono": "5532430976",
+  "consulta": "Consulta desde $500",
+  "verificada": false,
+  "verificada_fecha": "",
+  "pagina": "/plata-asociados/",
+  "redes": {
+   "facebook": "https://www.facebook.com/abogadoplatayasociados"
+  },
+  "resena": "",
+  "estado": "activo",
+  "alta": "2026-11-27",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

@@ -12916,5 +12916,164 @@
     "fuente": "Facebook",
     "etiqueta": "Perito forense",
     "trato": "el"
+  },
+  {
+    "slug": "plata-asociados",
+    "nombre": "Despacho Jurídico Plata y Asociados",
+    "despacho": "Plata y Asociados",
+    "sufijo": "Despacho jurídico",
+    "despacho_largo": "Despacho Jurídico Plata y Asociados | Abogados en Nezahualcóyotl, Estado de México",
+    "titulo": "Despacho jurídico",
+    "iniciales": "PA",
+    "foto": "logo.jpg",
+    "logo": true,
+    "imagen_vista": "logo.jpg",
+    "fondo_logo": "#0b1a33",
+    "plantilla": "v2",
+    "estilo": "claro",
+    "ciudad": "Ciudad Nezahualcóyotl, Estado de México",
+    "telefono": "5532430976",
+    "telefonos_extra": [
+      {
+        "numero": "5532002784",
+        "whatsapp": false
+      }
+    ],
+    "direccion": "Av. Sor Juana Inés de la Cruz 678, Col. Benito Juárez, C.P. 57000, Ciudad Nezahualcóyotl, Estado de México",
+    "correo": "licplataroberto@gmail.com",
+    "facebook": "https://www.facebook.com/abogadoplatayasociados",
+    "web": "https://abogadoplatayasociados.com/",
+    "referencia": "Despacho Jurídico Plata y Asociados, dirigido por el Lic. Roberto G. Plata Alvarado, con más de 35 años de experiencia. Asuntos penales, civiles y familiares en Nezahualcóyotl, Estado de México y CDMX. Atención 24 horas.",
+    "descripcion": "Despacho Jurídico Plata y Asociados. El Lic. Roberto G. Plata Alvarado dirige personalmente los asuntos del despacho: licenciado en Derecho por la UNAM, maestro en Derecho Procesal Penal y doctor en Derecho, con más de 35 años de experiencia. Asuntos penales, civiles y familiares atendidos con criterio y estrategia, en el Estado de México y la Ciudad de México.",
+    "modalidad": "Atención 24 horas",
+    "horario": {
+      "lunes": [
+        "00:00",
+        "23:59"
+      ],
+      "martes": [
+        "00:00",
+        "23:59"
+      ],
+      "miercoles": [
+        "00:00",
+        "23:59"
+      ],
+      "jueves": [
+        "00:00",
+        "23:59"
+      ],
+      "viernes": [
+        "00:00",
+        "23:59"
+      ],
+      "sabado": [
+        "00:00",
+        "23:59"
+      ],
+      "domingo": [
+        "00:00",
+        "23:59"
+      ]
+    },
+    "nota_horario": "Atención las 24 horas.",
+    "consultas": [
+      {
+        "modo": "Explica tu situación por WhatsApp",
+        "precio": 0
+      },
+      {
+        "modo": "Consulta jurídica",
+        "precio": 500,
+        "unidad": "la hora"
+      }
+    ],
+    "nota_consulta": "Si contratas al despacho, la consulta no se cobra como concepto aparte.",
+    "portada": [
+      "Asuntos penales,",
+      "civiles y familiares",
+      "con criterio y estrategia."
+    ],
+    "texto_portada": "Más de 35 años de experiencia. El Lic. Roberto G. Plata Alvarado dirige personalmente cada asunto. Atención 24 horas.",
+    "frase": "Asuntos penales, civiles y familiares atendidos con criterio y estrategia.",
+    "compromisos": [
+      "Más de 35 años de experiencia",
+      "El titular dirige cada asunto",
+      "Atención 24 horas",
+      "Doctor en Derecho"
+    ],
+    "situaciones": [
+      {
+        "texto": "Detuvieron a un familiar",
+        "urgente": true
+      },
+      {
+        "texto": "Tengo una carpeta de investigación o una audiencia",
+        "urgente": true
+      },
+      {
+        "texto": "Mi familiar ya está sentenciado",
+        "urgente": false
+      },
+      {
+        "texto": "Me quiero divorciar o necesito pensión alimenticia",
+        "urgente": false
+      },
+      {
+        "texto": "Tengo un problema con una propiedad o una herencia",
+        "urgente": false
+      },
+      {
+        "texto": "Necesito un contrato",
+        "urgente": false
+      }
+    ],
+    "areas": [
+      {
+        "nombre": "Derecho penal",
+        "icono": "escudo",
+        "texto": "Defensa penal con criterio y estrategia.",
+        "puntos": [
+          "Detenciones",
+          "Carpetas de investigación",
+          "Audiencias",
+          "Personas sentenciadas",
+          "Procedimientos ante el Ministerio Público y juzgados"
+        ]
+      },
+      {
+        "nombre": "Derecho civil",
+        "icono": "documento",
+        "texto": "Protege tu patrimonio.",
+        "puntos": [
+          "Propiedad e inmuebles",
+          "Documentación",
+          "Contratos",
+          "Herencias",
+          "Conflictos patrimoniales"
+        ]
+      },
+      {
+        "nombre": "Derecho familiar",
+        "icono": "familia",
+        "texto": "Te acompañamos en los asuntos de tu familia.",
+        "puntos": [
+          "Divorcio",
+          "Pensión alimenticia",
+          "Guarda y custodia",
+          "Convivencia"
+        ]
+      }
+    ],
+    "equipo": [
+      {
+        "nombre": "Lic. Roberto G. Plata Alvarado",
+        "rol": "Abogado titular · Lic. en Derecho (UNAM), Maestría en Derecho Procesal Penal, Doctorado en Derecho"
+      }
+    ],
+    "estado": "vendido",
+    "plan": "premium",
+    "alta": "2026-11-27",
+    "fuente": "web"
   }
 ]
