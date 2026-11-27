@@ -2155,5 +2155,26 @@
   "alta": "2026-11-27",
   "vence": "",
   "pago": "pendiente"
+ },
+ {
+  "slug": "eugenia-montiel",
+  "nombre": "Lic. María Eugenia Montiel",
+  "rol": "Licenciada en Derecho · Gestión y diligencias administrativas · Ciudad de México",
+  "ciudad": "cdmx",
+  "materias": [],
+  "plan": "basico",
+  "foto": "/eugenia-montiel/logo.jpg",
+  "logo": true,
+  "fondo": "#ffffff",
+  "iniciales": "EM",
+  "whatsapp": "525540789991",
+  "telefono": "5540789991",
+  "cedula": "13687129",
+  "verificada": false,
+  "verificada_fecha": "",
+  "estado": "activo",
+  "alta": "2026-11-27",
+  "vence": "",
+  "pago": "pendiente"
  }
 ]

@@ -75,5 +75,6 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Lic. Itzel Abigail Zavala Osnaya | basico | Estado de México | 2026-11-23 | — | pendiente | activo | no |
 | Lic. Joaquín Engelss Buendía Díaz | basico | Estado de México | 2026-11-16 | — | pendiente | activo | no |
 | Lic. Juan de Jesús Martínez de Loera | basico | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
+| Lic. María Eugenia Montiel | basico | Ciudad de México | 2026-11-27 | — | pendiente | activo | no |
 | Lic. Pedro Ávila Domínguez | basico | Chihuahua | 2026-11-17 | — | pendiente | activo | no |
 | Servicios Legales V.S. | basico | Ciudad de México | 2026-11-07 | — | pendiente | activo | no |
