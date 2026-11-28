@@ -1,6 +1,6 @@
 # Prospectos LicLink
 
-Propuestas: 0 · Vendidos: 61 · Borrados: 45
+Propuestas: 0 · Vendidos: 60 · Borrados: 46
 
 | Alta | Abogado | Dirección | Estado | Contacto |
 |---|---|---|---|---|
@@ -49,6 +49,7 @@ Propuestas: 0 · Vendidos: 61 · Borrados: 45
 | 2026-11-18 | Lic. Enrique Díaz | /diaz-asociados/ | borrar | 8110305039 |
 | 2026-11-19 | Corporativo Jurídico | /corporativo-juridico-tuxtla/ | borrar | 9613272094 |
 | 2026-11-26 | Firma Legal SG | /firma-legal-sg-premium-pausado/ | borrar | 5572190019 |
+| 2026-11-26 | Mtra. Alma Delia Ramírez | /alma-delia-ramirez-premium-pausado/ | borrar | 5518461582 |
 | 2026-11-06 | Lic. Mónica Palacios Ávila | /firmeza-legal-palacios/ | vendido | https://www.facebook.com/monica.palaciosavila.3 |
 | 2026-11-06 | Lic. Francisco Javier Aranda Salgado | /aranda-salgado/ | vendido | https://www.facebook.com/profile.php?id=100035815099653 |
 | 2026-11-07 | Lic. Felipe Alfonso Ugalde López | /abogados-de-oriente/ | vendido | https://www.facebook.com/profile.php?id=61575816882807 |
@@ -106,7 +107,6 @@ Propuestas: 0 · Vendidos: 61 · Borrados: 45
 | 2026-11-26 | VM Consultores Jurídicos y Administrativos | /vm-consultores/ | vendido | https://www.facebook.com/profile.php?id=61591488875540 |
 | 2026-11-26 | Lic. José L. Muñiz | /jose-muniz/ | vendido | 8717828281 |
 | 2026-11-26 | Abogados Laborales Guadalajara y Zapopan | /abogados-laborales-gdl/ | vendido | 3332187920 |
-| 2026-11-26 | Mtra. Alma Delia Ramírez | /alma-delia-ramirez/ | vendido | 5518461582 |
 | 2026-11-26 | Chicho y Asociados | /chicho-asociados/ | vendido | https://www.facebook.com/FuerzaIgualitariaSocial |
 | 2026-11-27 | José Gerardo Reyes Torres | /gerardo-reyes-forense/ | vendido | 2211133898 |
 | 2026-11-27 | Despacho Jurídico Plata y Asociados | /plata-asociados/ | vendido | https://www.facebook.com/abogadoplatayasociados |

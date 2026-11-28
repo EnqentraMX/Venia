@@ -2040,15 +2040,14 @@
  {
   "slug": "alma-delia-ramirez",
   "nombre": "Mtra. Alma Delia Ramírez",
-  "rol": "Maestra en Derecho · Familiar, civil, mercantil y pensiones · CDMX",
+  "rol": "Maestra en Derecho · Familiar, civil y mercantil · CDMX",
   "ciudad": "cdmx",
   "materias": [
    "familiar",
    "civil",
-   "mercantil",
-   "sucesiones"
+   "mercantil"
   ],
-  "plan": "premium",
+  "plan": "basico",
   "foto": "/alma-delia-ramirez/logo.jpg",
   "logo": true,
   "fondo": "#f2f1ec",
@@ -2057,9 +2056,7 @@
   "telefono": "5518461582",
   "verificada": false,
   "verificada_fecha": "",
-  "pagina": "/alma-delia-ramirez/",
   "redes": {},
-  "resena": "",
   "estado": "activo",
   "alta": "2026-11-26",
   "vence": "",

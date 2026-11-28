@@ -12530,7 +12530,7 @@
     "fuente": "Facebook"
   },
   {
-    "slug": "alma-delia-ramirez",
+    "slug": "alma-delia-ramirez-premium-pausado",
     "nombre": "Mtra. Alma Delia Ramírez",
     "despacho": "Alma Delia Ramírez",
     "sufijo": "Maestra en Derecho",
@@ -12646,8 +12646,8 @@
         ]
       }
     ],
-    "estado": "vendido",
-    "plan": "premium",
+    "estado": "borrar",
+    "plan": "basico",
     "alta": "2026-11-26",
     "fuente": "Facebook"
   },

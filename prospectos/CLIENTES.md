@@ -53,7 +53,6 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Martínez y Asociados | premium | Estado de México | 2026-11-19 | — | pendiente | activo | no |
 | Miguel Pérez | Abogado | premium | Yucatán | 2026-11-08 | — | pendiente | activo | no |
 | Mirafuentes & Hernández | premium | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
-| Mtra. Alma Delia Ramírez | premium | Ciudad de México | 2026-11-26 | — | pendiente | activo | no |
 | Roger Piña & Asociados | premium | Yucatán | 2026-11-09 | — | pendiente | activo | no |
 | SEDA Defensa Penal | premium | Guadalajara | 2026-11-16 | — | pendiente | activo | no |
 | SV Jurídicos | premium | Yucatán | 2026-11-08 | — | pendiente | activo | no |
@@ -77,4 +76,5 @@ Se genera solo desde prospectos/guia.json (campos: plan, alta, vence, pago, esta
 | Lic. Juan de Jesús Martínez de Loera | basico | Ciudad de México | 2026-11-13 | — | pendiente | activo | no |
 | Lic. María Eugenia Montiel | basico | Ciudad de México | 2026-11-27 | — | pendiente | activo | no |
 | Lic. Pedro Ávila Domínguez | basico | Chihuahua | 2026-11-17 | — | pendiente | activo | no |
+| Mtra. Alma Delia Ramírez | basico | Ciudad de México | 2026-11-26 | — | pendiente | activo | no |
 | Servicios Legales V.S. | basico | Ciudad de México | 2026-11-07 | — | pendiente | activo | no |
