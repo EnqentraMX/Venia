@@ -175,7 +175,7 @@ window.DATOS = {
   "oficinas": [
     {
       "nombre": "Ciudad Nezahualcóyotl, Estado de México",
-      "direccion": "Av. Sor Juana Inés de la Cruz 678, Col. Benito Juárez, C.P. 57000, Ciudad Nezahualcóyotl, Estado de México",
+      "direccion": "Av. Sor Juana Inés de La Cruz 678, Benito Juárez, 57000 Cdad. Nezahualcóyotl, Méx.",
       "referencia": "Despacho Jurídico Plata y Asociados, dirigido por el Lic. Roberto G. Plata Alvarado, con más de 35 años de experiencia. Asuntos penales, civiles y familiares en Nezahualcóyotl, Estado de México y CDMX. Atención 24 horas."
     }
   ],
